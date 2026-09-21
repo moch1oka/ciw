@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="v5.1.39" name="cloudinsect-version"/>
+<title>云虫 阅读目录 · v5.1.39</title>
+<link href="assets/cloud-insect-logo-v4.2.03.png" rel="icon"/>
+<style>
+    :root {
+      --bg: #090a0b;
+      --text: #e8e8e2;
+      --muted: rgba(232, 232, 226, 0.66);
+      --line: rgba(232, 232, 226, 0.2);
+      --accent: #05b5fc;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: var(--bg); }
+    body {
+      color: var(--text);
+      font-family: Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    .site {
+      position: relative;
+      min-height: 100svh;
+      overflow-x: hidden;
+      background: var(--bg);
+    }
+    .cover-bg {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      margin: 0;
+      overflow: hidden;
+      background: #050607;
+    }
+    .cover-bg video {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: 58% 50%;
+    }
+    .cover-bg::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(9, 10, 11, 0.78) 0%, rgba(9, 10, 11, 0.68) 30%, rgba(9, 10, 11, 0.28) 56%, rgba(9, 10, 11, 0.02) 100%),
+        linear-gradient(0deg, rgba(9, 10, 11, 0.5) 0%, rgba(9, 10, 11, 0.1) 48%, rgba(9, 10, 11, 0) 100%);
+      pointer-events: none;
+    }
+    .language-toggle {
+      position: fixed;
+      top: 22px;
+      right: 22px;
+      z-index: 3;
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid rgba(232, 232, 226, 0.28);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.64);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .language-option {
+      min-width: 58px;
+      min-height: 40px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(232, 232, 226, 0.74);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      line-height: 1;
+      padding: 0 14px;
+      cursor: pointer;
+    }
+    .language-option:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .language-option[aria-pressed="true"] {
+      color: #090a0b;
+      background: rgba(235, 235, 230, 0.94);
+    }
+    .intro {
+      position: relative;
+      z-index: 1;
+      width: min(760px, 58vw);
+      min-height: 100svh;
+      padding: clamp(34px, 7vw, 96px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: clamp(42px, 6vw, 82px);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+    }
+    .brand img {
+      width: 64px;
+      height: 76px;
+      object-fit: contain;
+    }
+    .version-badge {
+      margin-left: -4px;
+      color: rgba(232, 232, 226, 0.52);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+    h1 {
+      margin: 0;
+      color: var(--text);
+      font-size: clamp(62px, 10vw, 138px);
+      line-height: 0.95;
+      letter-spacing: 0;
+      font-weight: 700;
+      text-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+    }
+    .subtitle {
+      max-width: 720px;
+      margin: 28px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 2vw, 24px);
+      line-height: 1.7;
+      font-weight: 700;
+    }
+    .catalog {
+      max-width: 720px;
+      width: 100%;
+    }
+    .catalog-title {
+      margin: 0 0 18px;
+      color: rgba(232, 232, 226, 0.74);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+    }
+    .chapter-list {
+      display: grid;
+      gap: 10px;
+    }
+    .chapter-row {
+      position: relative;
+      min-height: 148px;
+      display: grid;
+      grid-template-columns: 54px minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+      overflow: hidden;
+      padding: 18px 20px;
+      border: 1px solid rgba(232, 232, 226, 0.2);
+      border-radius: 8px;
+      background: #111;
+      color: var(--text);
+      text-decoration: none;
+      box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+      transform: translateZ(0);
+      transition:
+        border-color 220ms ease,
+        box-shadow 220ms ease,
+        transform 220ms ease;
+    }
+    .chapter-row::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      background: var(--chapter-bg) var(--chapter-bg-position, center) / cover no-repeat;
+      filter: saturate(0.94) contrast(1.04);
+      opacity: 0.78;
+      transform: scale(1.01);
+      transition:
+        filter 260ms ease,
+        opacity 260ms ease,
+        transform 320ms ease;
+    }
+    .chapter-row::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      background:
+        linear-gradient(90deg, rgba(5, 6, 7, 0.82) 0%, rgba(5, 6, 7, 0.54) 48%, rgba(5, 6, 7, 0.18) 100%),
+        linear-gradient(0deg, rgba(5, 6, 7, 0.68) 0%, rgba(5, 6, 7, 0.06) 64%, rgba(255, 255, 255, 0.08) 100%);
+      transition: background 260ms ease;
+    }
+    .chapter-row > span {
+      position: relative;
+      z-index: 1;
+    }
+    .chapter-row:hover,
+    .chapter-row:focus-visible {
+      border-color: rgba(5, 181, 252, 0.68);
+      box-shadow:
+        0 24px 56px rgba(0, 0, 0, 0.42),
+        0 0 0 1px rgba(255, 255, 255, 0.08) inset;
+      transform: translateX(8px) scale(1.018);
+    }
+    .chapter-row:hover::before,
+    .chapter-row:focus-visible::before {
+      filter: saturate(1.08) contrast(1.08);
+      opacity: 0.95;
+      transform: scale(1.08);
+    }
+    .chapter-row:hover::after,
+    .chapter-row:focus-visible::after {
+      background:
+        linear-gradient(90deg, rgba(5, 6, 7, 0.86) 0%, rgba(5, 6, 7, 0.5) 48%, rgba(5, 6, 7, 0.08) 100%),
+        linear-gradient(0deg, rgba(5, 6, 7, 0.58) 0%, rgba(5, 6, 7, 0.02) 64%, rgba(255, 255, 255, 0.14) 100%);
+    }
+    .chapter-row:hover .chapter-name,
+    .chapter-row:focus-visible .chapter-name {
+      color: #ffffff;
+      transform: translateY(-2px) scale(1.07);
+    }
+    .chapter-row:focus-visible {
+      outline: 2px solid rgba(5, 181, 252, 0.72);
+      outline-offset: 6px;
+    }
+    .chapter-index {
+      width: 54px;
+      display: inline-grid;
+      place-items: center;
+      min-height: 38px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 999px;
+      background: rgba(5, 7, 8, 0.46);
+      color: rgba(232, 232, 226, 0.78);
+      font-size: 14px;
+      font-weight: 700;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.24);
+    }
+    .chapter-name {
+      display: block;
+      color: rgba(232, 232, 226, 0.9);
+      font-size: clamp(17px, 1.85vw, 23px);
+      line-height: 1.25;
+      font-weight: 700;
+      text-shadow: 0 4px 18px rgba(0, 0, 0, 0.62);
+      transform-origin: left center;
+      transition: color 220ms ease, transform 220ms ease;
+    }
+    .chapter-meta {
+      display: block;
+      margin-top: 5px;
+      color: rgba(232, 232, 226, 0.7);
+      font-size: 13px;
+      line-height: 1.5;
+      font-weight: 700;
+      text-shadow: 0 3px 16px rgba(0, 0, 0, 0.68);
+      transition: color 220ms ease, transform 220ms ease;
+    }
+    .chapter-action {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid rgba(5, 181, 252, 0.46);
+      border-radius: 999px;
+      background: rgba(2, 15, 20, 0.4);
+      color: #9eeaff;
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.26);
+      transition: background 220ms ease, border-color 220ms ease, color 220ms ease, transform 220ms ease;
+    }
+    .chapter-row:hover .chapter-meta,
+    .chapter-row:focus-visible .chapter-meta {
+      color: rgba(232, 232, 226, 0.86);
+      transform: translateY(2px);
+    }
+    .chapter-row:hover .chapter-action,
+    .chapter-row:focus-visible .chapter-action {
+      border-color: rgba(158, 234, 255, 0.82);
+      background: rgba(5, 181, 252, 0.16);
+      color: #ffffff;
+      transform: translateX(2px);
+    }
+    @media (max-width: 760px) {
+      .cover-bg video {
+        object-position: 50% 50%;
+      }
+      .cover-bg::after {
+        background:
+          linear-gradient(180deg, rgba(9, 10, 11, 0.02) 0%, rgba(9, 10, 11, 0.24) 34%, rgba(9, 10, 11, 0.76) 68%, rgba(9, 10, 11, 0.9) 100%),
+          linear-gradient(90deg, rgba(9, 10, 11, 0.28) 0%, rgba(9, 10, 11, 0.04) 58%, rgba(9, 10, 11, 0) 100%);
+      }
+      .language-toggle {
+        top: 14px;
+        right: 14px;
+        padding: 5px;
+      }
+      .language-option {
+        min-width: 48px;
+        min-height: 34px;
+        font-size: 13px;
+        padding: 0 10px;
+      }
+      .intro {
+        width: 100%;
+        min-height: 100svh;
+        padding: 92px 20px 46px;
+        justify-content: flex-end;
+        gap: 54px;
+      }
+      .brand {
+        font-size: 13px;
+      }
+      .brand img {
+        width: 54px;
+        height: 64px;
+      }
+      .subtitle {
+        font-size: 18px;
+      }
+      .chapter-row {
+        grid-template-columns: minmax(0, 1fr) auto;
+        min-height: 136px;
+        gap: 12px;
+        padding: 16px;
+      }
+      .chapter-index {
+        display: none;
+      }
+      .chapter-name {
+        font-size: 19px;
+      }
+      .chapter-action {
+        font-size: 13px;
+        padding: 0 12px;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .cover-bg video {
+        display: none;
+      }
+      .chapter-row,
+      .chapter-row::before,
+      .chapter-row::after,
+      .chapter-name,
+      .chapter-meta,
+      .chapter-action {
+        transition: none;
+      }
+      .chapter-row:hover,
+      .chapter-row:focus-visible,
+      .chapter-row:hover::before,
+      .chapter-row:focus-visible::before,
+      .chapter-row:hover .chapter-name,
+      .chapter-row:focus-visible .chapter-name {
+        transform: none;
+      }
+    }
+
+  
+    .title-line {
+      display: inline-flex;
+      align-items: center;
+      gap: clamp(22px, 3.2vw, 46px);
+      flex-wrap: nowrap;
+      max-width: 100%;
+    }
+    @font-face {
+      font-family: "CloudInsect Jost";
+      src: url("assets/wlop-art-jost.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 300 700;
+      font-display: swap;
+    }
+    .personal-site-entry {
+      position: relative;
+      flex: 0 0 auto;
+      width: clamp(86px, 7.2vw, 118px);
+      height: clamp(86px, 7.2vw, 118px);
+      display: inline-grid;
+      place-items: center;
+      isolation: isolate;
+      overflow: visible;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(7,10,15,.72);
+      color: rgba(255,255,255,.9);
+      box-shadow: 0 16px 34px rgba(0,0,0,.42), inset 0 0 0 1px rgba(255,255,255,.14);
+      text-decoration: none;
+      cursor: pointer;
+      transition: filter 320ms ease, box-shadow 320ms ease, background 320ms ease;
+    }
+    .personal-site-entry::before {
+      content: "";
+      position: absolute;
+      inset: -4px;
+      z-index: 0;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg,#47f3df 0deg,#2fc5ff 72deg,#347cff 156deg,#8affec 248deg,#47f3df 360deg);
+      -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 4px), #000 calc(100% - 3px));
+      mask: radial-gradient(farthest-side, transparent calc(100% - 4px), #000 calc(100% - 3px));
+      filter: drop-shadow(0 0 7px rgba(47,197,255,.72)) drop-shadow(0 0 14px rgba(52,124,255,.36));
+      animation: personal-site-ring 5.2s linear infinite;
+      pointer-events: none;
+    }
+    @keyframes personal-site-ring { to { transform: rotate(1turn); } }
+    .personal-site-art {
+      position: absolute;
+      inset: 5px;
+      z-index: 1;
+      overflow: hidden;
+      border-radius: 50%;
+      background: linear-gradient(155deg,rgba(255,255,255,.05),rgba(2,4,7,.42)),url("assets/wlop-art-entry.webp") center / cover no-repeat;
+      box-shadow: inset 0 0 28px rgba(0,0,0,.42),0 0 0 1px rgba(255,255,255,.1);
+    }
+    .personal-site-art::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: radial-gradient(circle at 35% 24%,rgba(255,255,255,.14),transparent 40%);
+    }
+    .personal-site-label {
+      position: absolute;
+      top: 7px;
+      left: -9px;
+      z-index: 3;
+      width: max-content;
+      color: #fff;
+      font-family: "CloudInsect Jost",Arial,sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: .025em;
+      text-shadow: 0 2px 7px #000,0 0 20px rgba(0,0,0,.98),0 0 4px rgba(255,255,255,.18);
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+    .personal-site-entry:hover::before,
+    .personal-site-entry:focus-visible::before {
+      animation-duration: 2.2s;
+      filter: drop-shadow(0 0 9px rgba(47,197,255,.86)) drop-shadow(0 0 18px rgba(52,124,255,.58));
+    }
+    .personal-site-entry:focus-visible { outline: 2px solid #fff; outline-offset: 9px; }
+    @media (prefers-reduced-motion: reduce) { .personal-site-entry::before { animation: none; } }
+    @media (max-width: 760px) {
+      .title-line { gap: 20px; }
+      .title-line h1 { font-size: clamp(54px, 15vw, 76px); }
+    }
+  </style>
+<link href="assets/site-footer.css?v=5.1.39" rel="stylesheet"/>
+<style data-cloudinsect-language-select="true">
+.language-select {
+  min-height: 36px;
+  max-width: min(180px, 48vw);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px;
+  padding: 0 30px 0 12px;
+  color: rgba(255,255,255,.92);
+  background: rgba(14,16,18,.94);
+  font: 700 13px/1.2 Arial, "PingFang SC", "Hiragino Sans", sans-serif;
+}
+</style>
+<style data-cloudinsect-language-select-refinement="v5.1.39">
+.language-select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  cursor: pointer;
+  color-scheme: dark;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23e8e8e2' stroke-opacity='.82' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 10px 6px;
+}
+.language-select:focus,
+.language-select:focus-visible {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.language-toggle:has(.language-select:focus-visible),
+.lang-toggle:has(.language-select:focus-visible) {
+  border-color: rgba(232, 232, 226, 0.52);
+}
+</style><style data-cloudinsect-arabic-rtl="true">
+html[lang="ar"] body {
+  direction: ltr;
+  text-align: initial;
+  font-family: Arial, "Noto Sans Arabic", "Noto Naskh Arabic", sans-serif;
+}
+html[lang="ar"] .controls-panel,
+html[lang="ar"] .reader-controls,
+html[lang="ar"] .settings-panel,
+html[lang="ar"] .chapter-controls,
+html[lang="ar"] .lang-toggle,
+html[lang="ar"] .language-toggle,
+html[lang="ar"] .font-controls,
+html[lang="ar"] .chapter-pager,
+html[lang="ar"] .pager,
+html[lang="ar"] .topbar,
+html[lang="ar"] .thumb-rail,
+html[lang="ar"] .links,
+html[lang="ar"] .cloudinsect-site-footer {
+  direction: ltr;
+}
+html[lang="ar"] main[data-lang-page="ar"] {
+  direction: rtl;
+}
+html[lang="ar"] main[data-lang-page="ar"] .text,
+html[lang="ar"] main[data-lang-page="ar"] p,
+html[lang="ar"] [data-ar],
+html[lang="ar"] #itemTagText,
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright,
+html[lang="ar"] .cloudinsect-contact-label {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  overflow-wrap: anywhere;
+}
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright {
+  text-align: right;
+}
+html[lang="ar"] .language-select,
+html[lang="ar"] .chapter-select {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="ar"] .chapter-select option,
+html[lang="ar"] .language-select option {
+  direction: rtl;
+  text-align: right;
+}
+html[lang="ar"] .chapter-pager .label,
+html[lang="ar"] .pager .label,
+html[lang="ar"] .toc-link {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+html[lang="ar"] .formula,
+html[lang="ar"] code,
+html[lang="ar"] [data-ltr] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+</style>
+<style data-cloudinsect-select-option-contrast="true">
+.language-select,
+.chapter-select {
+  color-scheme: dark;
+}
+.language-select option,
+.chapter-select option {
+  background-color: #101112;
+  color: rgba(245, 245, 240, 0.96);
+}
+</style>
+<style data-cloudinsect-ptbr-style="true">
+html[lang="pt-BR"] main[data-lang-page="ptBR"] { direction: ltr; }
+html[lang="pt-BR"] .history-card { max-width: min(340px, calc(100% - 24px)); }
+html[lang="pt-BR"] .history-card-kicker { white-space: normal; letter-spacing: 0.03em; line-height: 1.24; }
+html[lang="pt-BR"] .chapter-select option,
+html[lang="pt-BR"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="pt-BR"] .history-card { max-width: min(280px, calc(100% - 20px)); }
+  html[lang="pt-BR"] .history-card-kicker { font-size: 12px; }
+}
+</style>
+<style data-cloudinsect-ru-style="true">
+html[lang="ru"] main[data-lang-page="ru"] { direction: ltr; }
+html[lang="ru"] .history-card { max-width: min(350px, calc(100% - 24px)); }
+html[lang="ru"] .history-card-kicker { white-space: normal; letter-spacing: 0.02em; line-height: 1.24; }
+html[lang="ru"] .chapter-select option,
+html[lang="ru"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="ru"] .history-card { max-width: min(288px, calc(100% - 20px)); }
+  html[lang="ru"] .history-card-kicker { font-size: 12px; }
+  html[lang="ru"] .title-line { flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+  html[lang="ru"] .title-line h1 { width: 100%; max-width: 100%; overflow-wrap: normal; }
+  html[lang="ru"] .title-line .personal-site-entry { margin-left: 0; }
+}
+</style>
+<style data-cloudinsect-multilingual-index-design="v5.1.39">
+/* Editorial catalog typography for Latin-script locales and Russian. */
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) #site-title,
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .subtitle,
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .catalog-title,
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .chapter-name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) #site-title {
+  font-weight: 400;
+  letter-spacing: -0.028em;
+  line-height: 0.9;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .subtitle {
+  max-width: 680px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.008em;
+  line-height: 1.58;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .catalog-title {
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.24em;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .chapter-name {
+  font-size: clamp(18px, 1.95vw, 25px);
+  font-weight: 400;
+  letter-spacing: 0.008em;
+  line-height: 1.2;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .chapter-index {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-variant-numeric: oldstyle-nums tabular-nums;
+  letter-spacing: 0.08em;
+}
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .chapter-meta,
+html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .chapter-action {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+html:is([lang="fr"], [lang="pt-BR"]) #site-title {
+  font-size: clamp(56px, 8.2vw, 112px);
+}
+html[lang="ru"] #site-title {
+  font-size: clamp(46px, 6.2vw, 88px);
+  letter-spacing: -0.02em;
+  line-height: 0.96;
+}
+html[lang="ru"] .catalog-title {
+  font-variant-caps: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+html[lang="ru"] .chapter-name {
+  font-size: clamp(17px, 1.65vw, 22px);
+}
+@media (max-width: 760px) {
+  html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) #site-title {
+    font-size: clamp(50px, 14vw, 72px);
+    letter-spacing: -0.035em;
+  }
+  html:is([lang="fr"], [lang="pt-BR"]) #site-title {
+    font-size: clamp(44px, 11.5vw, 62px);
+  }
+  html[lang="ru"] #site-title {
+    font-size: clamp(42px, 11.5vw, 60px);
+    letter-spacing: -0.02em;
+  }
+  html:is([lang="en"], [lang="es"], [lang="fr"], [lang="pt-BR"], [lang="ru"]) .chapter-name {
+    font-size: 20px;
+  }
+  html[lang="ru"] .chapter-name {
+    font-size: 18px;
+  }
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+<style data-cloudinsect-vi-style="true">
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/be-vietnam-pro-400-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('assets/fonts/be-vietnam-pro-400-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('assets/fonts/be-vietnam-pro-600-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/be-vietnam-pro-700-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('assets/fonts/be-vietnam-pro-800-normal.ttf') format('truetype');
+}
+
+html[lang="vi"],
+html[lang="vi"] body {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] :is(
+  #site-title,
+  .subtitle,
+  .catalog-title,
+  .chapter-name,
+  .chapter-index,
+  .chapter-meta,
+  .chapter-action,
+  .language-toggle,
+  .language-select,
+  .language-select option,
+  .language-option,
+  .brand,
+  .footer,
+  .cloudinsect-copyright,
+  .cloudinsect-contact-label,
+  .cloudinsect-footer-link
+) {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] #site-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+html[lang="vi"] .subtitle {
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.62;
+  letter-spacing: 0.01em;
+}
+
+html[lang="vi"] .catalog-title {
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+html[lang="vi"] .chapter-name {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+html[lang="vi"] .chapter-action {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+</style>
+</head>
+<body>
+<main class="site">
+<figure aria-hidden="true" class="cover-bg">
+<video autoplay="" id="homeBgVideo" loop="" muted="" playsinline="" preload="metadata"></video>
+</figure>
+<div aria-label="Language selection" class="language-toggle" role="group"><select aria-label="Language" class="language-select"><option value="vi">Tiếng Việt</option><option value="zh">简体</option><option value="zhHant">繁體</option><option value="en">English</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="ptBR">Português do Brasil</option><option value="ru">Русский</option><option value="es">Español</option><option value="fr">Français</option><option value="ar">العربية</option></select></div>
+<section aria-labelledby="site-title" class="intro">
+<div>
+<div class="brand">
+<img alt="" src="assets/cloud-insect-logo-v4.2.03.png"/>
+<span>CLOUDINSECT</span>
+<span class="version-badge" data-cloudinsect-version="">v5.1.39</span>
+</div>
+<div class="title-line">
+<h1 data-ar="حشرة السحاب" data-en="CloudInsect" data-es="CloudInsect" data-fr="Insecte-Nuage" data-ja="雲虫" data-ko="운충" data-pt-br="Inseto-Nuvem" data-ru="Облачное насекомое" data-vi="Vân Trùng" data-zh="云虫" data-zh-hant="雲蟲" id="site-title">云虫</h1>
+<a aria-label="WLOP.ART" class="personal-site-entry" href="https://wlop.art/" target="_top">
+<span aria-hidden="true" class="personal-site-art"></span>
+<span class="personal-site-label">WLOP.ART</span>
+</a>
+</div>
+<p class="subtitle" data-ar="نحن ضئيلون كالنمل، لكننا نتلألأ كالنجوم." data-en="We are like ants, yet we shine like stars." data-es="Somos diminutos como hormigas y, sin embargo, brillamos como estrellas." data-fr="Nous sommes infimes comme des fourmis, et pourtant brillants comme les étoiles." data-ja="我々は虫のように小さく、しかし星のように輝く。" data-ko="우리는 높은 곤충처럼 보이지만, 별처럼 빛나는 존재다." data-pt-br="Somos pequenos como formigas, mas brilhamos como estrelas." data-ru="Мы малы, словно муравьи, но сияем, как звёзды." data-vi="Chúng ta bé nhỏ như loài kiến, nhưng lại rực rỡ tựa những vì sao." data-zh="我们形同蝼蚁，但又灿若星辰。" data-zh-hant="我們形同螻蟻，但又燦若星辰。">我们形同蝼蚁，但又灿若星辰。</p>
+</div>
+<nav aria-label="章节目录" class="catalog">
+<h2 class="catalog-title" data-ar="الفصول" data-en="Chapters" data-es="Capítulos" data-fr="Chapitres" data-ja="章" data-ko="장면" data-pt-br="Capítulos" data-ru="Главы" data-vi="Các Chương" data-zh="章节" data-zh-hant="章節">章节</h2>
+<div class="chapter-list">
+<a class="chapter-row" href="chapters/chapter-0-prologue/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-0-prologue.jpg');">
+<span class="chapter-index">01</span>
+<span>
+<span class="chapter-name" data-ar="الفصل صفر: تمهيد" data-en="Chapter 0: Prologue" data-es="Capítulo cero: Prólogo" data-fr="Chapitre zéro : Prologue" data-ja="第零章 プロローグ" data-ko="제0장 프롤로그" data-pt-br="Capítulo Zero: Prólogo" data-ru="Глава нулевая: Пролог" data-vi="Chương 0: Mở đầu" data-zh="第零章 楔子" data-zh-hant="第零章 楔子">第零章 楔子</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-1-xiyang/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-1-xiyang.jpg');">
+<span class="chapter-index">02</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الأول: سوفان" data-en="Chapter 1: Suvan" data-es="Capítulo uno: Suvan" data-fr="Chapitre 1 : Suvan" data-ja="第一章 スヴァン" data-ko="제1장 수반" data-pt-br="Capítulo Um: Suvan" data-ru="Глава первая: Сиян" data-vi="Chương 1: Hi Dương" data-zh="第一章 希扬" data-zh-hant="第一章 希揚">第一章 希扬</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-2-cloud-dwellers-1/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-2-cloud-dwellers-1.jpg');">
+<span class="chapter-index">03</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الثاني: سكان السحاب · 1" data-en="Chapter 2: Cloud Dwellers · I" data-es="Capítulo 2: Habitantes de las nubes · I" data-fr="Chapitre 2 : Les Habitants des nuages · I" data-ja="第二章 雲中人 · 一" data-ko="제2장 운중인 · 1" data-pt-br="Capítulo Dois: Habitantes das Nuvens · I" data-ru="Глава вторая: Обитатели облаков · I" data-vi="Chương 2: Người Trong Mây · I" data-zh="第二章 云中人 · 一" data-zh-hant="第二章 雲中人 · 一">第二章 云中人 · 一</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-2-cloud-dwellers-2/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-2-cloud-dwellers-2.jpg');">
+<span class="chapter-index">04</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الثاني: سكان السحاب · 2" data-en="Chapter 2: Cloud Dwellers · II" data-es="Capítulo 2: Habitantes de las nubes · II" data-fr="Chapitre 2 : Les Habitants des nuages · II" data-ja="第二章 雲中人 · 二" data-ko="제2장 운중인 · 2" data-pt-br="Capítulo Dois: Habitantes das Nuvens · II" data-ru="Глава вторая: Обитатели облаков · II" data-vi="Chương 2: Người Trong Mây · II" data-zh="第二章 云中人 · 二" data-zh-hant="第二章 雲中人 · 二">第二章 云中人 · 二</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-2-cloud-dwellers-3/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-2-cloud-dwellers-3.jpg');">
+<span class="chapter-index">05</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الثاني: سكان السحاب · 3" data-en="Chapter 2: Cloud Dwellers · III" data-es="Capítulo 2: Habitantes de las nubes · III" data-fr="Chapitre 2 : Les Habitants des nuages · III" data-ja="第二章 雲中人 · 三" data-ko="제2장 운중인 · 3" data-pt-br="Capítulo Dois: Habitantes das Nuvens · III" data-ru="Глава вторая: Обитатели облаков · III" data-vi="Chương 2: Người Trong Mây · III" data-zh="第二章 云中人 · 三" data-zh-hant="第二章 雲中人 · 三">第二章 云中人 · 三</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-3-beyond-light-cone-1/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-3-beyond-light-cone-1.jpg');">
+<span class="chapter-index">06</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الثالث: ما وراء مخروط الضوء · 1" data-en="Chapter 3: Beyond the Light Cone · I" data-es="Capítulo 3: Más allá del cono de luz · I" data-fr="Chapitre 3 : Au-delà du cône de lumière · I" data-ja="第三章 光円錐の外 · 一" data-ko="제3장 광추 너머 · 1" data-pt-br="Capítulo Três: Além do Cone de Luz · I" data-ru="Глава третья: За пределами светового конуса · I" data-vi="Chương 3: Ngoài Nón Ánh Sáng · I" data-zh="第三章 光锥之外 · 一" data-zh-hant="第三章 光錐之外 · 一">第三章 光锥之外 · 一</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-3-beyond-light-cone-2/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-3-beyond-light-cone-2.jpg');">
+<span class="chapter-index">07</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الثالث: ما وراء مخروط الضوء · 2" data-en="Chapter 3: Beyond the Light Cone · II" data-es="Capítulo 3: Más allá del cono de luz · II" data-fr="Chapitre 3 : Au-delà du cône de lumière · II" data-ja="第三章 光円錐の外 · 二" data-ko="제3장 광추 너머 · 2" data-pt-br="Capítulo Três: Além do Cone de Luz · II" data-ru="Глава третья: За пределами светового конуса · II" data-vi="Chương 3: Ngoài Nón Ánh Sáng · II" data-zh="第三章 光锥之外 · 二" data-zh-hant="第三章 光錐之外 · 二">第三章 光锥之外 · 二</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-4-fate-1/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-4-fate-1.jpg');">
+<span class="chapter-index">08</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الرابع: مخروط القدر · 1" data-en="Chapter 4: The Cone of Fate · I" data-es="Capítulo 4: El cono del destino · I" data-fr="Chapitre 4 : Le Cône du destin · I" data-ja="第四章 運命の円錐 · 一" data-ko="제4장 운명의 추 · 1" data-pt-br="Capítulo Quatro: O Cone do Destino · I" data-ru="Глава четвёртая: Конус судьбы · I" data-vi="Chương 4: Nón Định Mệnh · I" data-zh="第四章 命运之锥 · 一" data-zh-hant="第四章 命運之錐 · 一">第四章 命运之锥 · 一</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-4-fate-2/index.html" style="--chapter-bg: url('assets/chapter-banners/chapter-4-fate-2.jpg');">
+<span class="chapter-index">09</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الرابع: مخروط القدر · 2" data-en="Chapter 4: The Cone of Fate · II" data-es="Capítulo 4: El cono del destino · II" data-fr="Chapitre 4 : Le Cône du destin · II" data-ja="第四章 運命の円錐 · 二" data-ko="제4장 운명의 추 · 2" data-pt-br="Capítulo Quatro: O Cone do Destino · II" data-ru="Глава четвёртая: Конус судьбы · II" data-vi="Chương 4: Nón Định Mệnh · II" data-zh="第四章 命运之锥 · 二" data-zh-hant="第四章 命運之錐 · 二">第四章 命运之锥 · 二</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+<a class="chapter-row" href="chapters/chapter-5-wuzhui-1/index.html" style="--chapter-bg: url('assets/chapter-banners/catalog-xiang-yu.jpg'); --chapter-bg-position: 58% 35%;">
+<span class="chapter-index">10</span>
+<span>
+<span class="chapter-name" data-ar="الفصل الخامس: ووتشوي · 1" data-en="Chapter 5: Wuzhui · I" data-es="Capítulo 5: Wuzhui · I" data-fr="Chapitre 5 : Wuzhui · I" data-ja="第五章 烏騅・一" data-ko="제5장 오추 · 1" data-pt-br="Capítulo Cinco: Wuzhui · I" data-ru="Глава 5. Учжуй · I" data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓 · 一" data-zh-hant="第五章 烏騅 · 一">第五章 乌骓 · 一</span>
+<span class="chapter-meta" data-ar="الفصول المتاحة حاليًا" data-en="Available now" data-es="Disponible ahora" data-fr="Chapitres disponibles" data-ja="現在読める章" data-ko="현재 읽을 수 있는 장면" data-pt-br="Disponível agora" data-ru="Доступно для чтения" data-vi="Chương hiện có thể đọc" data-zh="当前可阅读章节" data-zh-hant="目前可閱讀章節">当前可阅读章节</span>
+</span>
+<span class="chapter-action" data-ar="ابدأ القراءة" data-en="Read" data-es="Leer" data-fr="Commencer la lecture" data-ja="読書を開始" data-ko="읽기 시작" data-pt-br="Começar a ler" data-ru="Начать чтение" data-vi="Bắt đầu đọc" data-zh="开始阅读" data-zh-hant="開始閱讀">开始阅读</span>
+</a>
+</div>
+</nav>
+</section>
+</main>
+<script>
+(function(){
+  const homeBgVideos = [
+    {
+        "src": "assets/wallpapers/wp0.mp4",
+        "poster": "assets/wallpapers/wp0-poster.jpg"
+    },
+    {
+        "src": "assets/wallpapers/wp8.mp4",
+        "poster": "assets/wallpapers/wp8-poster.jpg"
+    },
+    {
+        "src": "assets/wallpapers/wp1.mp4",
+        "poster": "assets/wallpapers/wp1-poster.jpg"
+    },
+    {
+        "src": "assets/wallpapers/xiang-yu-riverside-home-bg-seamless-10s.mp4",
+        "poster": "assets/wallpapers/xiang-yu-riverside-home-bg-final-10s-poster.jpg"
+    }
+];
+  const video = document.getElementById('homeBgVideo');
+  if (video && homeBgVideos.length) {
+    const index = Math.floor(Math.random() * homeBgVideos.length);
+    video.dataset.homeBgIndex = String(index);
+    video.poster = homeBgVideos[index].poster;
+    video.src = homeBgVideos[index].src;
+    video.load();
+    const playAttempt = video.play();
+    if (playAttempt && playAttempt.catch) playAttempt.catch(() => {});
+  }
+}());
+</script>
+<script>
+    (function () {
+      const controls = Array.from(document.querySelectorAll('.language-option'));
+      const languageMeta = {
+        vi: { htmlLang: 'vi', title: 'Vân Trùng Danh mục đọc truyện · v5.1.39' },
+        zh: { htmlLang: 'zh-CN', title: '云虫 阅读目录 · v5.1.39' },
+        zhHant: { htmlLang: 'zh-Hant', title: '雲蟲 閱讀目錄 · v5.1.39' },
+        en: { htmlLang: 'en', title: 'CloudInsect Reading Catalog · v5.1.39' },
+        ja: { htmlLang: 'ja', title: '雲虫 閲覧目次 · v5.1.39' },
+        ko: { htmlLang: 'ko', title: '운충 읽기 목차 · v5.1.39' },
+        es: { htmlLang: 'es', title: 'CloudInsect · Catálogo de lectura · v5.1.39' },
+        fr: { htmlLang: 'fr', title: "Insecte-Nuage · Sommaire · v5.1.39" },
+        ar: { htmlLang: 'ar', title: 'حشرة السحاب · فهرس القراءة · v5.1.39' },
+        ptBR: { htmlLang: 'pt-BR', title: "Inseto-Nuvem · Sumário · v5.1.39" },
+        ru: { htmlLang: 'ru', title: "Облачное насекомое · Содержание · v5.1.39" }
+      };
+      function readStoredValue(key) {
+        try {
+          return window.localStorage.getItem(key);
+        } catch (error) {
+          return null;
+        }
+      }
+      function writeStoredValue(key, value) {
+        try {
+          window.localStorage.setItem(key, value);
+        } catch (error) {
+          // Controls should still work when storage is unavailable.
+        }
+      }
+      function applyLanguage(nextLang) {
+        const lang = languageMeta[nextLang] ? nextLang : 'zh';
+        document.documentElement.lang = languageMeta[lang].htmlLang;
+        document.title = languageMeta[lang].title;
+        document.querySelectorAll('[data-zh][data-zh-hant][data-en]').forEach((el) => {
+          const key = lang === 'zhHant' ? 'zhHant' : (lang === 'ptBR' ? 'ptBr' : lang);
+          el.textContent = el.dataset[key] || el.dataset.zh;
+        });
+        controls.forEach((control) => {
+          control.setAttribute('aria-pressed', control.dataset.lang === lang ? 'true' : 'false');
+        });
+        writeStoredValue('cloudinsect-lang', lang);
+      }
+      controls.forEach((control) => {
+        control.addEventListener('click', () => applyLanguage(control.dataset.lang));
+      });
+      applyLanguage(readStoredValue('cloudinsect-lang') || 'vi');
+    }());
+  </script>
+<script src="assets/site-footer.js?v=5.1.39"></script>
+<script data-cloudinsect-language-select="true">
+(function () {
+  const select = document.querySelector('.language-select');
+  if (!select) return;
+  let stored = 'vi';
+  try { stored = localStorage.getItem('cloudinsect-lang') || 'vi'; } catch (error) {}
+  if (Array.from(select.options).some((option) => option.value === stored)) select.value = stored;
+  select.addEventListener('change', function () {
+    try { localStorage.setItem('cloudinsect-lang', select.value); } catch (error) {}
+    window.location.reload();
+  });
+}());
+</script>
+<script data-cloudinsect-spanish-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: suscripción mensual con pagos internacionales mediante tarjeta, PayPal y otros métodos.","gumroad":"Gumroad: compra directa con pagos internacionales mediante tarjeta, PayPal y otros métodos.","huotan":"HuoTan: compra directa mediante WeChat Pay y Alipay.","azz":"AZZ: suscripción mensual mediante WeChat Pay y Alipay."};
+  function applySpanishSurface() {
+    if (!/^es\b/i.test(document.documentElement.lang || '')) return;
+    document.querySelectorAll('[data-tooltip-es]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipEs; });
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Índice de capítulos');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'Seleccionar capítulo');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo el contenido y los derechos relacionados de este sitio pertenecen a WLOP. Se prohíbe su reproducción, copia, adaptación o uso comercial sin autorización. Todos los derechos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contacto:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applySpanishSurface, { once: true });
+  else applySpanishSurface();
+  window.setTimeout(applySpanishSurface, 0);
+}());
+</script>
+<script data-cloudinsect-arabic-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: اشتراك شهري يدعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","gumroad":"Gumroad: شراء مباشر للأعمال مع دعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","huotan":"HuoTan: شراء مباشر للأعمال عبر WeChat Pay وAlipay.","azz":"AZZ: اشتراك شهري عبر WeChat Pay وAlipay."};
+  function applyArabicSurface() {
+    if (!/^ar\b/i.test(document.documentElement.lang || '')) return;
+    document.documentElement.dir = 'ltr';
+    document.querySelectorAll('[data-tooltip-ar]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipAr; });
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'فهرس الفصول');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'اختر فصلًا');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. جميع محتويات هذا الموقع والحقوق المرتبطة بها مملوكة لـWLOP. يُحظر النشر أو النسخ أو الاقتباس أو التعديل أو الاستخدام التجاري من دون إذن. جميع الحقوق محفوظة."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "للتواصل:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyArabicSurface, { once: true });
+  else applyArabicSurface();
+  window.setTimeout(applyArabicSurface, 0);
+}());
+</script>
+<script data-cloudinsect-french-surface="true">
+(function () {
+ const tips={"patreon":"Patreon : abonnement mensuel, cartes bancaires, PayPal et autres paiements internationaux.","gumroad":"Gumroad : achat direct des œuvres, cartes bancaires, PayPal et autres paiements internationaux.","huotan":"HuoTan : achat direct des œuvres avec WeChat Pay ou Alipay.","azz":"AZZ : abonnement mensuel avec WeChat Pay ou Alipay."};
+ function applyFrenchSurface() {
+  if (!/^fr\b/i.test(document.documentElement.lang || '')) return;
+  document.querySelectorAll('[data-tooltip-fr]').forEach((item)=>{ item.dataset.tooltip=item.dataset.tooltipFr; });
+  const c=document.querySelector('.catalog'); if(c) c.setAttribute('aria-label','Sommaire des chapitres');
+  const s=document.querySelector('.chapter-select'); if(s) s.setAttribute('aria-label','Choisir un chapitre');
+  document.querySelectorAll('.cloudinsect-copyright').forEach((item)=>{item.textContent="© WLOP. L’ensemble du contenu de ce site et les droits associés appartiennent à WLOP. Toute reproduction, copie, adaptation ou utilisation commerciale sans autorisation est interdite. Tous droits réservés.";});
+  document.querySelectorAll('.cloudinsect-contact-label').forEach((item)=>{item.textContent="Contact :";});
+  document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link)=>{const tip=tips[link.dataset.footerKey];if(tip){link.dataset.tooltip=tip;link.setAttribute('aria-label',link.textContent+': '+tip);}});
+ }
+ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',applyFrenchSurface,{once:true}); else applyFrenchSurface(); window.setTimeout(applyFrenchSurface,0);
+}());
+</script>
+<script data-cloudinsect-ptbr-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: assinatura mensal com cartões de crédito, PayPal e outros meios de pagamento internacionais.","gumroad":"Gumroad: compra direta das obras com cartões de crédito, PayPal e outros meios de pagamento internacionais.","huotan":"HuoTan: compra direta das obras com WeChat Pay ou Alipay.","azz":"AZZ: assinatura mensal com WeChat Pay ou Alipay."};
+  function applyPortugueseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'pt-br') return;
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Sumário dos capítulos');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Selecionar capítulo');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Navegação entre capítulos');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo o conteúdo deste site e os direitos relacionados pertencem à WLOP. É proibida a reprodução, cópia, adaptação ou utilização comercial sem autorização. Todos os direitos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contato:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-pt-br]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipPtBr; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyPortugueseSurface, { once: true });
+  else applyPortugueseSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyPortugueseSurface, 0));
+}());
+</script>
+<script data-cloudinsect-ru-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: ежемесячная подписка с оплатой банковской картой, PayPal и другими международными способами.","gumroad":"Gumroad: прямая покупка работ с оплатой банковской картой, PayPal и другими международными способами.","huotan":"HuoTan: прямая покупка работ с оплатой через WeChat Pay или Alipay.","azz":"AZZ: ежемесячная подписка с оплатой через WeChat Pay или Alipay."};
+  function applyRussianSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'ru') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Выбор языка'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Язык'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Размер шрифта'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Уменьшить шрифт'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Увеличить шрифт'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Настройки чтения'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Назад'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Список обоев'); });
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Содержание');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Выбор главы');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Навигация по главам');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Открытие главы'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Всё содержимое этого сайта и связанные с ним права принадлежат WLOP. Копирование, воспроизведение, адаптация и коммерческое использование без разрешения запрещены. Все права защищены."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Связаться:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-ru]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipRu; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyRussianSurface, { once: true });
+  else applyRussianSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyRussianSurface, 0));
+}());
+</script>
+<script data-cloudinsect-vi-surface="true">
+(function () {
+  function applyVietnameseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'vi') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Chọn ngôn ngữ'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Ngôn ngữ'); });
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Mục lục các chương');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Toàn bộ nội dung và bản quyền liên quan trên trang web này thuộc về WLOP. Mọi hành vi sao chép, tái bản, cải biên hoặc sử dụng cho mục đích thương mại khi chưa được phép đều bị nghiêm cấm. Bảo lưu mọi quyền."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Liên hệ:"; });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyVietnameseSurface, { once: true });
+  else applyVietnameseSurface();
+  window.setTimeout(applyVietnameseSurface, 0);
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyVietnameseSurface, 0));
+}());
+</script>
+</body>
+</html>

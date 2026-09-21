@@ -1,0 +1,1062 @@
+{
+  "id": "chapter-2-2",
+  "dir": "chapter-2-cloud-dwellers-2",
+  "title_zh": "第二章 云中人 · 二",
+  "title_en": "Chapter 2: Cloud Dwellers · Part 2",
+  "available_languages": [
+    "zh",
+    "zhHant",
+    "en",
+    "ja",
+    "ko",
+    "es",
+    "fr",
+    "ar",
+    "ptBR",
+    "ru",
+    "vi"
+  ],
+  "panel_count": 16,
+  "panels": [
+    {
+      "panel_index": 1,
+      "type": "image",
+      "image_src": "media/image1.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“深呼吸，把心放空，放下一切杂念，试着去感受最纯粹的当下。感受地面对你的支撑力，感受吸入的空气的微凉。感受呼出的空气的温热……”"
+        ],
+        "zhHant": [
+          "“深呼吸，把心放空，放下一切雜念，試着去感受最純粹的當下。感受地面對你的支撐力，感受吸入的空氣的微涼。感受呼出的空氣的溫熱……”"
+        ],
+        "en": [
+          "“Take a deep breath.Empty your mind.Let go of every stray thought.Try to feel the present moment in its purest form—Feel the ground beneath you, the quiet strength it gives.Feel the cool air filling your lungs,And the warmth as it leaves you.”"
+        ],
+        "ja": [
+          "「深く息をして。心を空っぽにして、雑念をすべて手放す。いちばん純粋な『今』を感じてみて。地面が体を支える力を感じて。吸い込む空気のひんやりした感触を、吐き出す空気の温かさを……」"
+        ],
+        "ko": [
+          "“깊이 숨 쉬어. 마음을 비우고 온갖 잡념을 내려놔. 가장 순수한 지금 이 순간을 느껴 봐. 바닥이 몸을 받쳐 주는 힘을 느끼고, 들이마시는 공기의 서늘함과 내쉬는 공기의 온기를 느껴……”"
+        ],
+        "es": [
+          "«Respira hondo. Vacía la mente, deja ir todos los pensamientos y trata de sentir este instante en su forma más pura. Siente cómo el suelo te sostiene. Siente el frescor del aire al entrar y su tibieza al salir…»"
+        ],
+        "fr": [
+          "« Respire profondément. Fais le vide, laisse retomber toutes tes pensées et essaie de sentir le présent dans ce qu’il a de plus pur. Sens le sol qui te porte. La fraîcheur de l’air que tu inspires. La chaleur de celui que tu expires… »"
+        ],
+        "ar": [
+          "«خذي نفسًا عميقًا، وأفرغي ذهنك. دعي كل الخواطر جانبًا وحاولي أن تشعري باللحظة في صفائها. اشعري بالأرض وهي تسندك، وببرودة الهواء الخفيفة حين يدخل رئتيك، وبدفئه حين يخرج…»"
+        ],
+        "ptBR": [
+          "“Respire fundo. Esvazie a mente, deixe de lado todos os pensamentos e tente sentir apenas este instante. Sinta o chão sustentando seu corpo. Sinta o frescor do ar que entra. Sinta o calor do ar que sai…”"
+        ],
+        "ru": [
+          "Глубоко вдохни.\nОчисти разум.\nОтпусти все мысли.\nПостарайся прочувствовать настоящий момент во всей его ясности.\nПочувствуй, как земля поддерживает тебя.\nОщути лёгкую прохладу воздуха на вдохе.\nПочувствуй тепло на выдохе."
+        ],
+        "vi": [
+          "“Hít sâu vào... Thả lỏng tâm trí, trút bỏ mọi tạp niệm, thử cảm nhận khoảnh khắc hiện tại một cách thuần khiết nhất. Cảm nhận mặt đất nâng đỡ cơ thể bạn, cảm nhận làn khí mát lạnh khẽ lướt qua khi hít vào. Và cảm nhận hơi thở ấm áp nhẹ nhàng tỏa ra khi thở ra...”"
+        ]
+      }
+    },
+    {
+      "panel_index": 2,
+      "type": "image",
+      "image_src": "media/image2.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“你这心法是自创的？”",
+          "“是冥想，现在挺流行的，对缓解你的心情有帮助。 闭上眼，跟我念：”"
+        ],
+        "zhHant": [
+          "“你這心法是自創的？”",
+          "“是冥想，現在挺流行的，對緩解你的心情有幫助。 閉上眼，跟我念：”"
+        ],
+        "en": [
+          "“Did you invent this spell yourself?”",
+          "“It’s meditation. Pretty common now. Might help settle your mind.Close your eyes. Repeat after me—”"
+        ],
+        "ja": [
+          "「その秘伝の修行法、自分で編み出したの？」",
+          "「瞑想だよ。今はけっこう流行ってるし、気持ちを楽にするのにも役立つ。目を閉じて、僕のあとに続けて」"
+        ],
+        "ko": [
+          "“그 심법, 네가 직접 만든 거야?”",
+          "“명상이야. 요즘 꽤 유행하고, 마음을 가라앉히는 데도 도움이 돼. 눈 감고, 나를 따라 해 봐.”"
+        ],
+        "es": [
+          "«¿Te has inventado tú esta técnica secreta?»",
+          "«Es meditación. Está bastante de moda y puede ayudarte a sentirte mejor. Cierra los ojos y repite conmigo:»"
+        ],
+        "fr": [
+          "« C’est toi qui as inventé cette méthode spirituelle ? »",
+          "« C’est de la méditation. C’est assez courant maintenant, et ça peut t’aider à apaiser tes émotions. Ferme les yeux et répète après moi : »"
+        ],
+        "ar": [
+          "«هل اخترعت هذا المنهج الروحي بنفسك؟»",
+          "«إنه تأمل. رائج هذه الأيام، وقد يساعد على تهدئة مشاعرك. أغمضي عينيك ورددي ورائي:»"
+        ],
+        "ptBR": [
+          "“Você inventou sozinho esse método secreto?”",
+          "“É meditação. Está bastante popular e pode ajudar você a se sentir melhor. Feche os olhos e repita comigo:”"
+        ],
+        "ru": [
+          "Ты сам придумал эту технику?",
+          "Это медитация, она сейчас очень популярна. Может помочь успокоиться.\nЗакрой глаза и повторяй за мной:"
+        ],
+        "vi": [
+          "“Cái 'tâm pháp' này là do cậu tự sáng tạo ra đấy à?”",
+          "“Là thiền định đấy, dạo này đang khá phổ biến, có thể giúp xoa dịu tâm trạng của cậu rất tốt. Nhắm mắt lại nào, đọc theo tôi nhé:”"
+        ]
+      }
+    },
+    {
+      "panel_index": 3,
+      "type": "image",
+      "image_src": "media/image3.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“想象一道温柔的光，缓缓流过你的身体。”",
+          "“……温柔的光，流过我的身体。”"
+        ],
+        "zhHant": [
+          "“想象一道溫柔的光，緩緩流過你的身體。”",
+          "“……溫柔的光，流過我的身體。”"
+        ],
+        "en": [
+          "“Imagine a gentle light flowing through your body.”",
+          "“…A gentle light… flowing through me…”"
+        ],
+        "ja": [
+          "「柔らかな光が、ゆっくり体の中を流れていくのを想像して」",
+          "「……柔らかな光が、私の体を流れていく」"
+        ],
+        "ko": [
+          "“부드러운 빛 한 줄기가 천천히 네 몸을 흘러가는 모습을 상상해.”",
+          "“……부드러운 빛이 내 몸을 흘러가.”"
+        ],
+        "es": [
+          "«Imagina una luz apacible que recorre lentamente tu cuerpo.»",
+          "«…Una luz apacible recorre mi cuerpo.»"
+        ],
+        "fr": [
+          "« Imagine une douce lumière qui traverse lentement ton corps. »",
+          "« … Une douce lumière traverse mon corps. »"
+        ],
+        "ar": [
+          "«تخيلي ضوءًا رقيقًا ينساب ببطء في جسدك.»",
+          "«…ضوء رقيق ينساب في جسدي.»"
+        ],
+        "ptBR": [
+          "“Imagine uma luz suave percorrendo lentamente o seu corpo.”",
+          "“…Uma luz suave percorrendo o meu corpo.”"
+        ],
+        "ru": [
+          "Представь мягкий свет, медленно проходящий сквозь твоё тело.",
+          "...Мягкий свет... проходит сквозь моё тело..."
+        ],
+        "vi": [
+          "“Hãy tưởng tượng một luồng ánh sáng dịu dàng, chầm chậm chảy qua khắp cơ thể bạn.”",
+          "“... Một luồng sáng dịu dàng... chảy qua khắp cơ thể tôi...”"
+        ]
+      }
+    },
+    {
+      "panel_index": 4,
+      "type": "image",
+      "image_src": "media/image4.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“用心去听周围的声音，既不抗拒，也不追随。”",
+          "“……不抗拒，不追随。”"
+        ],
+        "zhHant": [
+          "“用心去聽周圍的聲音，既不抗拒，也不追隨。”",
+          "“……不抗拒，不追隨。”"
+        ],
+        "en": [
+          "“Now really listen to the sounds around you.Don’t resist them. Don’t chase them.”",
+          "“…Don’t resist… don’t chase…”"
+        ],
+        "ja": [
+          "「周りの音に耳を澄ませて。拒まず、追いかけもせずに」",
+          "「……拒まず、追いかけず」"
+        ],
+        "ko": [
+          "“주변의 소리에 가만히 귀 기울여. 밀어내지도, 따라가지도 말고.”",
+          "“……밀어내지도, 따라가지도 않고.”"
+        ],
+        "es": [
+          "«Escucha de verdad los sonidos que te rodean, sin rechazarlos ni seguirlos.»",
+          "«…Sin rechazarlos ni seguirlos.»"
+        ],
+        "fr": [
+          "« Écoute de tout ton cœur les sons qui t’entourent, sans les repousser ni les suivre. »",
+          "« … Sans les repousser ni les suivre. »"
+        ],
+        "ar": [
+          "«أنصتي بقلبك إلى الأصوات من حولك؛ لا تقاوميها ولا تنجرفي خلفها.»",
+          "«…لا أقاومها، ولا أنجرف خلفها.»"
+        ],
+        "ptBR": [
+          "“Escute com atenção os sons ao redor, sem resistir a eles nem segui-los.”",
+          "“…Sem resistir, sem seguir.”"
+        ],
+        "ru": [
+          "Прислушайся к звукам вокруг.\nНе сопротивляйся им, но и не следуй за ними.",
+          "...Не сопротивляться... не следовать..."
+        ],
+        "vi": [
+          "“Dùng tâm lắng nghe những âm thanh xung quanh, không kháng cự, cũng chẳng đuổi theo.”",
+          "“... Không kháng cự... không đuổi theo...”"
+        ]
+      }
+    },
+    {
+      "panel_index": 5,
+      "type": "image",
+      "image_src": "media/image5.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“感受空气轻柔流动，让自己融入空间。”",
+          "“……”"
+        ],
+        "zhHant": [
+          "“感受空氣輕柔流動，讓自己融入空間。”",
+          "“……”"
+        ],
+        "en": [
+          "“Feel the air moving softly. Let yourself merge with the space.”",
+          "“……”"
+        ],
+        "ja": [
+          "「空気が柔らかく流れるのを感じて、自分をこの空間に溶け込ませる」",
+          "「……」"
+        ],
+        "ko": [
+          "“공기가 부드럽게 흐르는 걸 느끼면서, 네 몸을 이 공간에 맡겨.”",
+          "“……”"
+        ],
+        "es": [
+          "«Siente el aire fluir suavemente y deja que tu cuerpo se funda con el espacio.»",
+          "«…»"
+        ],
+        "fr": [
+          "« Sens l’air couler doucement et laisse-toi te fondre dans l’espace. »",
+          "« … »"
+        ],
+        "ar": [
+          "«اشعري بالهواء يتحرك برفق، ودعي نفسك تذوب في المكان.»",
+          "«…»"
+        ],
+        "ptBR": [
+          "“Sinta o ar fluir de leve e deixe-se dissolver no espaço.”",
+          "“…”"
+        ],
+        "ru": [
+          "Почувствуй нежное движение воздуха, растворись в пространстве.",
+          "......"
+        ],
+        "vi": [
+          "“Cảm nhận không khí nhẹ nhàng lưu chuyển, để bản thân hòa vào khoảng không gian.”",
+          "“......”"
+        ]
+      }
+    },
+    {
+      "panel_index": 6,
+      "type": "image",
+      "image_src": "media/image6.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[嘈杂]“你爸给了你生日礼物和不少钱了，你还想怎么样？他要带全家去国外旅游，没时间陪你。 ”",
+          "“姑妈，我不要这些，我只想18岁生日他能陪我一天，就一天。”",
+          "“你这孩子怎么这么不懂事？你明明知道他不方便，还老是缠着他。”",
+          "[嘈杂]“月牙儿，我们……还是分手吧。”",
+          "[嘈杂]“你明晚前必须搬走，不然我就给你断水断电！”"
+        ],
+        "zhHant": [
+          "[嘈雜]“你爸給了你生日禮物和不少錢了，你還想怎麼樣？他要帶全家去國外旅遊，沒時間陪你。 ”",
+          "“姑媽，我不要這些，我只想18歲生日他能陪我一天，就一天。”",
+          "“你這孩子怎麼這麼不懂事？你明明知道他不方便，還老是纏着他。”",
+          "[嘈雜]“月牙兒，我們……還是分手吧。”",
+          "[嘈雜]“你明晚前必須搬走，不然我就給你斷水斷電！”"
+        ],
+        "en": [
+          "[Noise]“Your dad already gave you gifts and money. What more do you want? He’s taking the whole family abroad. He doesn’t have time.”",
+          "“I don’t want those things. I just want him to spend one day with me. On my eighteenth birthday. Just one day.”",
+          "“Why are you so unreasonable? You know he’s busy, yet you cling like this.”",
+          "[Noise]“Mahina, let’s… break up.”",
+          "[Noise]“You need to move out by tomorrow night. Or I’m cutting your water and power.”"
+        ],
+        "ja": [
+          "［雑音］「お父さんから誕生日プレゼントも、たくさんのお金ももらったでしょう。まだ何が不満なの？　家族を連れて海外旅行に行くんだから、あなたに付き合う時間なんてないの」",
+          "「叔母さん、そんなものはいらない。十八歳の誕生日くらい、お父さんに一日だけそばにいてほしいの。一日だけでいいから」",
+          "「どうしてそんなに聞き分けがないの？　お父さんにも都合があるって分かってるのに、いつまでも困らせて」",
+          "［雑音］「マヒナ、僕たち……やっぱり別れよう」",
+          "［雑音］「明日の晩までに必ず出ていけ。さもないと水も電気も止めるからな！」"
+        ],
+        "ko": [
+          "[소음]“네 아빠가 생일 선물도 주고 돈도 잔뜩 줬잖아. 뭘 더 바라는 거니? 가족 데리고 해외여행 가야 해서 너랑 있을 시간 없어.”",
+          "“고모, 난 그런 거 필요 없어. 열여덟 살 생일에 아빠가 딱 하루만 같이 있어 주면 돼. 하루만.”",
+          "“너는 왜 이렇게 철이 없니? 아빠 사정 뻔히 알면서 왜 자꾸 매달려?”",
+          "[소음]“마히나, 우리……그만 헤어지자.”",
+          "[소음]“내일 밤까지 무조건 나가! 안 그러면 수도랑 전기 다 끊어 버릴 거야!”"
+        ],
+        "es": [
+          "[Voces confusas]«Tu padre ya te ha dado un regalo de cumpleaños y bastante dinero. ¿Qué más quieres? Va a llevarse a toda la familia de viaje al extranjero; no tiene tiempo para acompañarte.»",
+          "«Tía, no quiero nada de eso. Solo quiero que pase conmigo el día en que cumplo dieciocho años. Un solo día.»",
+          "«¿Cómo puedes ser tan caprichosa? Sabes perfectamente que no puede, y aun así no dejas de perseguirlo.»",
+          "[Voces confusas]«Mahina… será mejor que lo dejemos.»",
+          "[Voces confusas]«Tienes que haberte ido mañana por la noche. ¡Si no, te corto el agua y la luz!»"
+        ],
+        "fr": [
+          "[Brouhaha]« Ton père t’a offert un cadeau d’anniversaire et beaucoup d’argent. Que veux-tu de plus ? Il emmène toute sa famille à l’étranger ; il n’a pas de temps à te consacrer. »",
+          "« Ma tante, je ne veux rien de tout ça. Je voudrais seulement qu’il passe avec moi le jour de mes dix-huit ans. Un seul jour. »",
+          "« Comment peux-tu être aussi peu raisonnable ? Tu sais très bien qu’il ne peut pas, et tu continues à le harceler. »",
+          "[Brouhaha]« Mahina, nous… il vaut mieux qu’on se sépare. »",
+          "[Brouhaha]« Tu dois partir avant demain soir, sinon je te coupe l’eau et l’électricité ! »"
+        ],
+        "ar": [
+          "[ضجيج]«أعطاك أبوك هدية عيد ميلاد ومالًا كثيرًا، فماذا تريدين بعد؟ سيأخذ أسرته كلها في رحلة إلى الخارج، وليس لديه وقت ليقضيه معك.»",
+          "«يا عمّتي، لا أريد هذه الأشياء. أريده فقط أن يقضي معي يوم عيد ميلادي الثامن عشر… يومًا واحدًا.»",
+          "«كيف تكونين أنانية إلى هذا الحد؟ تعلمين أن ظروفه لا تسمح، ومع ذلك لا تكفين عن ملاحقته.»",
+          "[ضجيج]«ماهينا… من الأفضل أن نفترق.»",
+          "[ضجيج]«يجب أن ترحلي قبل مساء الغد، وإلا قطعت عنك الماء والكهرباء!»"
+        ],
+        "ptBR": [
+          "[Tumulto]“Seu pai já lhe deu presente e um bom dinheiro de aniversário. O que mais você quer? Ele vai viajar para o exterior com a família inteira e não tem tempo para você.”",
+          "“Tia, eu não quero nada disso. Só quero que ele passe comigo o dia em que eu fizer dezoito anos. Um único dia.”",
+          "“Como você pode ser tão insensata? Sabe muito bem que para ele não é conveniente, mas continua importunando.”",
+          "[Tumulto]“Mahina, nós… é melhor terminarmos.”",
+          "[Tumulto]“Você tem de sair até amanhã à noite, ou vou cortar sua água e sua luz!”"
+        ],
+        "ru": [
+          "[Шум]\"Твой отец уже подарил тебе подарок и дал деньги. Что тебе ещё нужно? Он собирается с семьёй поехать за границу, у него нет на тебя времени.\"",
+          "\"Мне это не нужно... Я просто хочу, чтобы он провёл со мной день. В мой 18-й день рождения. Всего один день.\"",
+          "\"Да что с тобой не так!? Знаешь ведь что он занят, и всё равно навязываешься.\"",
+          "[Шум]\"Юэя... Мы... должны расстаться...\"",
+          "[Шум]\"Ты должна съехать до завтрашнего вечера, или отключу тебе воду и электричество!\""
+        ],
+        "vi": [
+          "[Hồi ức hỗn loạn] “Bố cháu đã tặng quà sinh nhật và gửi cho cháu bao nhiêu tiền rồi, cháu còn muốn đòi hỏi gì nữa đây? Bố cháu còn phải đưa cả nhà đi du lịch nước ngoài, làm gì có thời gian mà ở bên cháu!”",
+          "“Cô ơi, cháu không cần những thứ đó. Cháu chỉ mong sinh nhật tuổi 18 này bố có thể ở bên cháu một ngày thôi, chỉ một ngày thôi mà cô...”",
+          "“Con bé này sao lại không biết điều thế hả? Cháu thừa biết bố cháu không tiện, thế mà cứ quấn lấy bố cháu mãi!”",
+          "[Hồi ức hỗn loạn] “Nguyệt Nha Nhi, chúng mình... chia tay đi...”",
+          "[Hồi ức hỗn loạn] “Trước tối mai cháu bắt buộc phải dọn đi, nếu không bác sẽ cắt điện cắt nước đấy!”"
+        ]
+      }
+    },
+    {
+      "panel_index": 7,
+      "type": "image",
+      "image_src": "media/image7.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[嘈杂]“月牙儿，我们宿舍的人一致投票决定，你那些衣服不能再晾在阳台了。”",
+          "“为什么？”",
+          "“你在酒吧穿的那些衣服晾外面，别人看到会以为我们宿舍都不是什么正经人。”",
+          "“那我以后衣服晾哪？”",
+          "“出去洗衣店洗呗，反正你不是很有钱吗？ ”",
+          "“你们为什么觉得我有钱？”",
+          "“装什么啊？你不是在酒吧唱一晚上就有好几千么，我听说那些老板都是把钱直接塞你内衣里的。”",
+          "“真的么，哈哈哈……”"
+        ],
+        "zhHant": [
+          "[嘈雜]“月牙兒，我們宿舍的人一致投票決定，你那些衣服不能再晾在陽臺了。”",
+          "“爲什麼？”",
+          "“你在酒吧穿的那些衣服晾外面，別人看到會以爲我們宿舍都不是什麼正經人。”",
+          "“那我以後衣服晾哪？”",
+          "“出去洗衣店洗唄，反正你不是很有錢嗎？ ”",
+          "“你們爲什麼覺得我有錢？”",
+          "“裝什麼啊？你不是在酒吧唱一晚上就有好幾千麼，我聽說那些老闆都是把錢直接塞你內衣裏的。”",
+          "“真的麼，哈哈哈……”"
+        ],
+        "en": [
+          "[Noise]“Mahina, we took a vote. You can’t hang your clothes on the balcony anymore.”",
+          "“…Why?”",
+          "“Those bar outfits you wear—people will think we’re all like that.”",
+          "“Then where should I dry them?”",
+          "“Take them to a laundromat. You’ve got money, don’t you?”",
+          "“Why do you think I’m rich?”",
+          "“Come on. You sing one night at the bar and earn thousands. I heard the bosses even stuff cash down your bra.”",
+          "“…Really? Haha…”"
+        ],
+        "ja": [
+          "［雑音］「マヒナ、寮のみんなで話し合って決めたんだけど、あなたのあの服、もうベランダには干さないで」",
+          "「どうして？」",
+          "「バーで着てるような服を外に干されたら、見た人に、この部屋のみんながまともな子じゃないって思われるでしょう」",
+          "「じゃあ、これから服はどこに干せばいいの？」",
+          "「コインランドリーに持ってけば？　どうせお金持ちなんでしょう？」",
+          "「どうして私がお金持ちだと思うの？」",
+          "「何とぼけてるの？　バーで一晩歌えば何千も稼ぐんでしょう。客のおじさんたち、下着に直接お金を突っ込むって聞いたけど」",
+          "「ほんと？　あははは……」"
+        ],
+        "ko": [
+          "[소음]“마히나, 우리 기숙사 방 사람들끼리 만장일치로 정했어. 네 그 옷들은 이제 베란다에 널지 마.”",
+          "“왜?”",
+          "“네가 바에서 입는 그런 옷을 밖에 널어 두면, 남들이 우리 방 애들 전부 변변치 않은 줄 알 거 아냐.”",
+          "“그럼 앞으로 내 옷은 어디다 널어?”",
+          "“밖에 세탁소 가서 빨면 되잖아. 너 돈 많다며?”",
+          "“너희는 왜 내가 돈이 많다고 생각해?”",
+          "“뭘 모르는 척해? 너 바에서 하룻밤 노래하면 몇천씩 번다며. 그 사장들이 돈을 네 속옷에 바로 찔러 넣어 준다던데.”",
+          "“진짜야? 하하하……”"
+        ],
+        "es": [
+          "[Voces confusas]«Mahina, todas en la habitación hemos votado que ya no puedes tender esa ropa en el balcón.»",
+          "«¿Por qué?»",
+          "«Si dejas a la vista la ropa que llevas en el bar, la gente pensará que en esta habitación no vive ninguna chica decente.»",
+          "«Entonces, ¿dónde se supone que voy a tenderla?»",
+          "«Llévala a una lavandería. Total, ¿no ganas tanto dinero?»",
+          "«¿Por qué creéis que tengo dinero?»",
+          "«No finjas. ¿No ganas varios miles por cantar una sola noche en el bar? He oído que esos jefes te meten el dinero directamente en la ropa interior.»",
+          "«¿De verdad? Ja, ja, ja…»"
+        ],
+        "fr": [
+          "[Brouhaha]« Mahina, on a toutes voté : tu n’as plus le droit de faire sécher ces vêtements sur le balcon. »",
+          "« Pourquoi ? »",
+          "« Si les gens voient dehors les tenues que tu portes au bar, ils vont croire que toutes les filles de notre chambre sont des filles faciles. »",
+          "« Et je les fais sécher où, maintenant ? »",
+          "« Va à la laverie. De toute façon, tu es riche, non ? »",
+          "« Pourquoi est-ce que vous me croyez riche ? »",
+          "« Arrête de faire semblant. Tu ne gagnes pas plusieurs milliers en chantant une seule nuit ? J’ai entendu dire que les patrons glissaient les billets directement dans ton soutien-gorge. »",
+          "« C’est vrai ? Ha ha ha… »"
+        ],
+        "ar": [
+          "[ضجيج]«ماهينا، صوّتنا جميعًا في السكن وقررنا ألا تنشري تلك الملابس في الشرفة بعد الآن.»",
+          "«لماذا؟»",
+          "«إذا رأى الناس في الخارج الملابس التي ترتدينها في الحانة، فسيظنون أن فتيات غرفتنا جميعًا سيئات السمعة.»",
+          "«فأين أجفف ملابسي من الآن فصاعدًا؟»",
+          "«خذيها إلى المغسلة. ألست غنية على أي حال؟»",
+          "«ولماذا تظنن أنني غنية؟»",
+          "«كفي عن التظاهر. ألا تكسبين بضعة آلاف في ليلة غناء واحدة؟ سمعت أن أولئك الرجال يدسون المال مباشرة في صدريتك.»",
+          "«حقًا؟ هاهاها…»"
+        ],
+        "ptBR": [
+          "[Tumulto]“Mahina, todo o alojamento votou. Suas roupas não podem mais ficar secando na varanda.”",
+          "“Por quê?”",
+          "“Se você pendura lá fora as roupas que usa no bar, quem vir vai pensar que nenhuma de nós é uma moça decente.”",
+          "“Então onde vou secar minhas roupas?”",
+          "“Leve a uma lavanderia. Você não é cheia de dinheiro?”",
+          "“Por que vocês acham que eu tenho dinheiro?”",
+          "“Para de fingir. Você não ganha milhares numa única noite cantando no bar? Ouvi dizer que os patrões enfiam as notas direto no seu sutiã.”",
+          "“É mesmo? Hahahaha…”"
+        ],
+        "ru": [
+          "[Шум]\"Мы тут проголосовали...Ты больше не можешь сушить свои вещи на балконе.\"",
+          "\"Почему?\"",
+          "\"Одежда в которой ты ходишь в бар... люди подумают, что мы все такие\"",
+          "\"И где тогда мне её сушить?\"",
+          "\"Иди в прачечную. У тебя ведь много денег, не так ли?\"",
+          "\"С чего вы взяли, что я богата?\"",
+          "\"Не притворяйся! Ты за одну ночь в баре зарабатываешь тысячи! Я даже слышала, что всякие богатеи засовывают деньги тебе прямо в бельё.\"",
+          "\"...Серьёзно? Хахаха...\""
+        ],
+        "vi": [
+          "[Hồi ức hỗn loạn] “Nguyệt Nha Nhi, phòng ký túc xá chúng ta đã nhất trí biểu quyết rồi, mấy bộ quần áo đó của cậu không được phơi ngoài ban công nữa đâu nhé.”",
+          "“Tại sao cơ chứ?”",
+          "“Mấy bộ đồ cậu mặc đi hát ở quán bar mà phơi tơ hơ ngoài kia, người ta nhìn vào lại tưởng cả phòng chúng mình toàn ngữ chẳng đàng hoàng gì.”",
+          "“Thế sau này đồ của tôi biết phơi ở đâu?”",
+          "“Thì mang ra tiệm giặt ủi bên ngoài mà giặt sấy, dù sao cậu cũng đâu có thiếu tiền, đúng không nào?”",
+          "“Tại sao các cậu lại nghĩ là tôi có tiền?”",
+          "“Thôi đừng có giả vờ giả vịt nữa đi! Chẳng phải cậu đi hát quán bar một đêm kiếm được mấy ngàn tệ sao, tớ nghe người ta đồn mấy ông chủ toàn nhét tiền thẳng vào trong áo lót của cậu đấy thôi.”",
+          "“Thế cơ đấy à... ha ha ha...”"
+        ]
+      }
+    },
+    {
+      "panel_index": 8,
+      "type": "image",
+      "image_src": "media/image8.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“月牙儿？你怎么了，脸色这么难看？”"
+        ],
+        "zhHant": [
+          "“月牙兒？你怎麼了，臉色這麼難看？”"
+        ],
+        "en": [
+          "“Mahina? What’s wrong? You look pale.”"
+        ],
+        "ja": [
+          "「マヒナ？　どうしたの、顔色がひどいよ？」"
+        ],
+        "ko": [
+          "“마히나? 왜 그래? 얼굴빛이 너무 안 좋아.”"
+        ],
+        "es": [
+          "«¿Mahina? ¿Qué te pasa? Te has quedado blanca.»"
+        ],
+        "fr": [
+          "« Mahina ? Qu’est-ce qui t’arrive ? Tu es toute pâle. »"
+        ],
+        "ar": [
+          "«ماهينا؟ ما بك؟ وجهك شاحب جدًا.»"
+        ],
+        "ptBR": [
+          "“Mahina? O que houve? Você está pálida.”"
+        ],
+        "ru": [
+          "Юэя? Всё хорошо? Ты побледнела."
+        ],
+        "vi": [
+          "“Nguyệt Nha Nhi? Cậu sao thế, sắc mặt sao lại tái mét thế kia?”"
+        ]
+      }
+    },
+    {
+      "panel_index": 9,
+      "type": "image",
+      "image_src": "media/image9.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“……没事，就是头晕。你的这个心法——不，冥想，可能不适合我。但还是谢谢你，至少你是真的想帮我。唉……”"
+        ],
+        "zhHant": [
+          "“……沒事，就是頭暈。你的這個心法——不，冥想，可能不適合我。但還是謝謝你，至少你是真的想幫我。唉……”"
+        ],
+        "en": [
+          "“…Nothing. Just dizzy. This technique—no, meditation—may not suit me. But thank you. At least you truly wanted to help. Sigh…”"
+        ],
+        "ja": [
+          "「……何でもない。ちょっとめまいがしただけ。君のその修行法――じゃなくて、瞑想は、たぶん私には合わないみたい。でも、ありがとう。少なくとも君は、本気で私を助けようとしてくれた。はあ……」"
+        ],
+        "ko": [
+          "“……괜찮아. 그냥 좀 어지러워서. 네 그 심법——아니, 명상은 나랑 안 맞나 봐. 그래도 고마워. 적어도 넌 진심으로 날 도와주려 했으니까. 하아……”"
+        ],
+        "es": [
+          "«…No es nada. Solo estoy mareada. Esta técnica tuya… no, la meditación quizá no sea para mí. Pero gracias de todos modos. Al menos tú de verdad intentabas ayudarme. Ay…»"
+        ],
+        "fr": [
+          "« … Ce n’est rien, j’ai juste la tête qui tourne. Ta méthode — non, ta méditation — n’est peut-être pas faite pour moi. Mais merci quand même. Au moins, toi, tu essaies vraiment de m’aider. Ah… »"
+        ],
+        "ar": [
+          "«…لا شيء. أشعر بدوار فقط. يبدو أن منهجك الروحي — لا، هذا التأمل — لا يناسبني. لكن شكرًا لك؛ على الأقل أنت تحاول فعلًا مساعدتي. آه…»"
+        ],
+        "ptBR": [
+          "“…Não foi nada. Só fiquei tonta. Esse seu método — não, essa meditação — talvez não sirva para mim. Mas obrigada. Pelo menos você tentou mesmo me ajudar. Ah…”"
+        ],
+        "ru": [
+          "...Ничего, просто немного кружится голова. Эта твоя техника... нет, скорее, медитация, наверное, не для меня. Но всё равно спасибо, по крайней мере, ты действительно пытаешься мне помочь. Эх..."
+        ],
+        "vi": [
+          "“... Tôi không sao, chỉ là thấy hơi chóng mặt thôi. Cái 'tâm pháp' này của cậu — à không, thiền định — có lẽ không hợp với tôi rồi. Nhưng vẫn cảm ơn cậu nhé, ít nhất thì cậu cũng thực lòng muốn giúp tôi. Haizz...”"
+        ]
+      }
+    },
+    {
+      "panel_index": 10,
+      "type": "image",
+      "image_src": "media/image10.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“作为答谢，我给你唱支歌吧。”"
+        ],
+        "zhHant": [
+          "“作爲答謝，我給你唱支歌吧。”"
+        ],
+        "en": [
+          "“As thanks… let me sing you a song.”"
+        ],
+        "ja": [
+          "「お礼に、一曲歌ってあげる」"
+        ],
+        "ko": [
+          "“보답으로 노래 한 곡 불러 줄게.”"
+        ],
+        "es": [
+          "«Para agradecértelo, voy a cantarte una canción.»"
+        ],
+        "fr": [
+          "« Pour te remercier, je vais te chanter quelque chose. »"
+        ],
+        "ar": [
+          "«سأغني لك أغنية شكرًا.»"
+        ],
+        "ptBR": [
+          "“Como agradecimento, vou cantar uma música para você.”"
+        ],
+        "ru": [
+          "В благодарность... спою тебе песню."
+        ],
+        "vi": [
+          "“Để đáp lại lòng tốt của cậu, tôi hát tặng cậu một bài nhé.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 11,
+      "type": "image",
+      "image_src": "media/image11.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[轻唱]“别说我应该放弃",
+          "应该睁开眼",
+          "我用我的心",
+          "去看去感觉",
+          "你并不是我",
+          "又怎能了解",
+          "……”"
+        ],
+        "zhHant": [
+          "[輕唱]“別說我應該放棄",
+          "應該睜開眼",
+          "我用我的心",
+          "去看去感覺",
+          "你並不是我",
+          "又怎能瞭解",
+          "……”"
+        ],
+        "en": [
+          "[Soft singing]",
+          "“Don’t tell me to give up,To open my eyes—I feel the world with my heart.You’re not me,How could you understand?”",
+          "..."
+        ],
+        "ja": [
+          "［小さく歌う］「諦めるべきだなんて言わないで",
+          "目を開けるべきだなんて",
+          "私はこの心で",
+          "見て　感じる",
+          "あなたは私じゃない",
+          "何がわかるというの",
+          "……」"
+        ],
+        "ko": [
+          "[나직이 노래한다]“내가 포기해야 한다고 말하지 마",
+          "눈을 떠야 한다고도",
+          "나는 내 마음으로",
+          "보고 느낄 테니까",
+          "너는 내가 아닌데",
+          "어떻게 알 수 있겠어",
+          "……”"
+        ],
+        "es": [
+          "[Cantando en voz baja]«No digas que debería rendirme",
+          "que debería abrir los ojos",
+          "yo uso el corazón",
+          "para mirar y sentir",
+          "tú no eres yo",
+          "¿cómo podrías entenderlo?",
+          "…»"
+        ],
+        "fr": [
+          "[Elle chante doucement]« Ne me dis pas que je devrais renoncer",
+          "Que je devrais ouvrir les yeux",
+          "C’est avec mon cœur",
+          "Que je regarde et que je ressens",
+          "Tu n’es pas moi",
+          "Comment pourrais-tu comprendre",
+          "… »"
+        ],
+        "ar": [
+          "[تغني بخفوت]«لا تقل إن عليّ أن أستسلم",
+          "وأن أفتح عينيّ",
+          "أنا بقلبي",
+          "أرى وأشعر",
+          "لستَ أنا",
+          "فكيف لك أن تفهم",
+          "…»"
+        ],
+        "ptBR": [
+          "[Cantarolando]“Não diga que eu deveria desistir",
+          "que deveria abrir os olhos",
+          "é com o coração",
+          "que eu vejo e sinto",
+          "você não é quem sou",
+          "como poderia entender",
+          "…”"
+        ],
+        "ru": [
+          "[Мягко поёт]\"Не говори, что пора всё забыть,",
+          "Что мне пора открыть глаза.",
+          "Я сердцем смотрю,",
+          "Я чувствую им —",
+          "Ты ведь не я,",
+          "Тебе не понять.\"",
+          "..."
+        ],
+        "vi": [
+          "[Khẽ hát] “Đừng bảo tôi rằng nên từ bỏ,",
+          "Nên mở to đôi mắt ra nhìn đời,",
+          "Tôi dùng trái tim của chính mình,",
+          "Để ngắm nhìn, để cảm nhận,",
+          "Bạn đâu phải là tôi,",
+          "Thì làm sao có thể thấu hiểu được...",
+          "......”"
+        ]
+      }
+    },
+    {
+      "panel_index": 12,
+      "type": "image",
+      "image_src": "media/image12.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[轻唱]“我不是你们想的如此完美",
+          "我承认有时也会辨不清真伪——”"
+        ],
+        "zhHant": [
+          "[輕唱]“我不是你們想的如此完美",
+          "我承認有時也會辨不清真僞——”"
+        ],
+        "en": [
+          "[Soft singing]",
+          "“I’m not as perfect as you believe.Sometimes I can’t even tell what’s real.”",
+          "..."
+        ],
+        "ja": [
+          "［小さく歌う］「私はあなたたちが思うほど完璧じゃない",
+          "ときには何が本当か見失うこともある――」"
+        ],
+        "ko": [
+          "[나직이 노래한다]“나는 너희가 생각하는 만큼 완벽하지 않아",
+          "가끔은 무엇이 진실인지 가려내지 못할 때도 있어——”"
+        ],
+        "es": [
+          "[Cantando en voz baja]«No soy tan perfecta como creéis",
+          "admito que a veces tampoco distingo la verdad de la mentira…»"
+        ],
+        "fr": [
+          "[Elle chante doucement]« Je ne suis pas aussi parfaite que vous l’imaginez",
+          "J’avoue qu’il m’arrive de ne plus distinguer le vrai du faux — »"
+        ],
+        "ar": [
+          "[تغني بخفوت]«لست بالكمال الذي تتخيلونه",
+          "وأعترف أنني أحيانًا لا أميز الزائف من الحقيقي—»"
+        ],
+        "ptBR": [
+          "[Cantarolando]“Não sou tão perfeita quanto vocês imaginam",
+          "admito que às vezes também não distingo o falso do verdadeiro —”"
+        ],
+        "ru": [
+          "[Мягко поёт]\"Я не такая идеальная, как тебе могло казаться.",
+          "Порой и я не различаю, где правда, где ложь.\"\n..."
+        ],
+        "vi": [
+          "[Khẽ hát] “Tôi chẳng hoàn mỹ như các người vẫn tưởng,",
+          "Tôi thừa nhận đôi khi mình cũng chẳng phân định nổi trắng đen thực hư —”"
+        ]
+      }
+    },
+    {
+      "panel_index": 13,
+      "type": "image",
+      "image_src": "media/image13.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“唱首歌而已，你脸红什么呀？”"
+        ],
+        "zhHant": [
+          "“唱首歌而已，你臉紅什麼呀？”"
+        ],
+        "en": [
+          "“It’s just a song. Why are you blushing?”"
+        ],
+        "ja": [
+          "「歌を一曲歌っただけで、何を赤くなってるの？」"
+        ],
+        "ko": [
+          "“노래 한 곡 불렀을 뿐인데, 왜 얼굴이 빨개져?”"
+        ],
+        "es": [
+          "«Solo estoy cantando. ¿Por qué te has puesto rojo?»"
+        ],
+        "fr": [
+          "« Ce n’est qu’une chanson. Pourquoi tu rougis ? »"
+        ],
+        "ar": [
+          "«إنها مجرد أغنية. لِمَ احمر وجهك؟»"
+        ],
+        "ptBR": [
+          "“É só uma música. Por que ficou vermelho?”"
+        ],
+        "ru": [
+          "Всего лишь песня, а ты уже краснеешь?"
+        ],
+        "vi": [
+          "“Người ta mới hát có một bài thôi, cậu đỏ mặt cái nỗi gì đấy hả?”"
+        ]
+      }
+    },
+    {
+      "panel_index": 14,
+      "type": "image",
+      "image_src": "media/image14.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“啊？没，没有啊……你在酒吧，也是这样唱歌的么？”",
+          "“是啊。”",
+          "“去那里听你唱歌的，都是些什么人？”",
+          "“都不是什么好人。”",
+          "“……不是好人？”"
+        ],
+        "zhHant": [
+          "“啊？沒, 沒有啊……你在酒吧，也是這樣唱歌的麼？”",
+          "“是啊。”",
+          "“去那裏聽你唱歌的，都是些什麼人？”",
+          "“都不是什麼好人。”",
+          "“……不是好人？”"
+        ],
+        "en": [
+          "“Huh? No—I’m not!Do you sing like this at the bar?”",
+          "“Yeah.”",
+          "“And the people who listen there… what kind of people are they?”",
+          "“Not good people.”",
+          "“…Not good?”"
+        ],
+        "ja": [
+          "「え？　べ、別に赤くなんか……バーでも、こんなふうに歌ってるの？」",
+          "「そうだけど」",
+          "「バーには、どんな人たちが君の歌を聴きに来るの？」",
+          "「別に、いい人たちじゃないよ」",
+          "「……いい人じゃない？」"
+        ],
+        "ko": [
+          "“어? 아, 아닌데……바에서도 이렇게 노래해?”",
+          "“응.”",
+          "“거기서 네 노래를 듣는 사람들은 어떤 사람들이야?”",
+          "“딱히 좋은 사람들은 아니야.”",
+          "“……좋은 사람들이 아니라고?”"
+        ],
+        "es": [
+          "«¿Qué? No… no me he puesto rojo…¿También cantas así en el bar?»",
+          "«Sí.»",
+          "«¿Qué clase de gente va allí a escucharte?»",
+          "«No son precisamente buenas personas.»",
+          "«…¿No son buenas personas?»"
+        ],
+        "fr": [
+          "« Quoi ? Je… je ne rougis pas…Tu chantes comme ça, au bar ? »",
+          "« Oui. »",
+          "« Quel genre de gens vient t’écouter là-bas ? »",
+          "« Pas des gens bien. »",
+          "« … Pas des gens bien ? »"
+        ],
+        "ar": [
+          "«ماذا؟ ل-لم يحمر…هل تغنين هكذا في الحانة أيضًا؟»",
+          "«نعم.»",
+          "«أي نوع من الناس يذهب إلى هناك لسماعك؟»",
+          "«ليس بينهم صالحون.»",
+          "«…ليسوا صالحين؟»"
+        ],
+        "ptBR": [
+          "“O quê? Eu não… não fiquei…No bar, você também canta assim?”",
+          "“Canto.”",
+          "“Que tipo de gente vai lá ouvir você?”",
+          "“Gente que não presta.”",
+          "“…Que não presta?”"
+        ],
+        "ru": [
+          "Что? Нет, я не...В баре ты тоже так поёшь?",
+          "Угу.",
+          "А люди, которые приходят тебя слушать... какие они?",
+          "Не самые хорошие.",
+          "...Плохие?"
+        ],
+        "vi": [
+          "“Hả? Đâu... đâu có đỏ mặt đâu... Ở quán bar, cậu cũng hát như thế này sao?”",
+          "“Đúng vậy đấy.”",
+          "“Những người đến đó nghe cậu hát... là những người thế nào?”",
+          "“Đều chẳng phải người tốt đẹp gì.”",
+          "“... Không phải người tốt?”"
+        ]
+      }
+    },
+    {
+      "panel_index": 15,
+      "type": "image",
+      "image_src": "media/image15.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“当然也不是什么坏人。都是和我一样，在人间迷路的灵魂。”",
+          "[继续轻唱]“要我用谁的心去体会",
+          "真真切切地感受周围",
+          "就算痛苦 就算是泪",
+          "也是属于我的伤悲”",
+          "——王菲《执迷不悔》（1993）"
+        ],
+        "zhHant": [
+          "“當然也不是什麼壞人。都是和我一樣，在人間迷路的靈魂。”",
+          "[繼續輕唱]“要我用誰的心去體會",
+          "真真切切地感受周圍",
+          "就算痛苦 就算是淚",
+          "也是屬於我的傷悲”",
+          "——王菲《執迷不悔》（1993）"
+        ],
+        "en": [
+          "“But not bad either.They’re just… lost souls, like me—Wandering this world.”",
+          "[Continues singing softly]",
+          "“Whose heart should I borrow",
+          "To feel everything around me?",
+          "Even pain, even tears—",
+          "They’re still mine.”",
+          "— Faye Wong, “No Regrets” (1993)"
+        ],
+        "ja": [
+          "「もちろん、悪い人たちでもない。みんな私と同じ。この世で道に迷った魂たち」",
+          "［そのまま小さく歌う］「誰の心で感じろというの",
+          "この世界をありのままに",
+          "たとえ痛みでも　たとえ涙でも",
+          "それは私だけの悲しみ」",
+          "――フェイ・ウォン『執迷不悔』（1993）"
+        ],
+        "ko": [
+          "“그렇다고 나쁜 사람들도 아니고.다들 나처럼, 이 세상에서 길을 잃은 영혼들이야.”",
+          "[계속 나직이 노래한다]“누구의 마음으로 느끼라는 걸까",
+          "내 주위를 온전히 느끼려면",
+          "고통이어도　눈물이어도",
+          "그 또한 나의 슬픔인 것을”",
+          "——왕페이 〈집미불회〉(1993)"
+        ],
+        "es": [
+          "«Tampoco son malas, claro.Solo almas que, como yo, se han perdido en este mundo.»",
+          "[Sigue cantando en voz baja]«¿Con qué corazón queréis que lo comprenda?",
+          "Quiero sentir de verdad cuanto me rodea",
+          "aunque sea dolor, aunque sean lágrimas",
+          "esa tristeza también me pertenece»",
+          "— Faye Wong, «Obstinada y sin remordimientos» (1993)"
+        ],
+        "fr": [
+          "« Mais pas des gens mauvais non plus.Seulement des âmes égarées parmi les hommes, comme moi. »",
+          "[Elle reprend à mi-voix]« Avec quel cœur voulez-vous que je ressente",
+          "Que je perçoive vraiment ce qui m’entoure",
+          "Même si c’est la douleur, même si ce sont les larmes",
+          "Ce chagrin-là m’appartient »",
+          "— Faye Wong, « Sans regret » (1993)"
+        ],
+        "ar": [
+          "«وبالطبع، ليسوا أشرارًا أيضًا.إنهم أرواح تائهة في هذا العالم، مثلي.»",
+          "[تواصل الغناء بخفوت]«بقلب مَن تريدونني أن أشعر؟",
+          "أن ألمس ما حولي صادقًا واضحًا",
+          "حتى إن كان ألمًا، حتى إن كان دموعًا",
+          "فهو حزني أنا»",
+          "— فاي وونغ، «بلا ندم» (1993)"
+        ],
+        "ptBR": [
+          "“Mas também não são pessoas ruins.São almas que, como eu, perderam o caminho neste mundo.”",
+          "[Continua cantarolando]“Com o coração de quem querem que eu compreenda",
+          "e sinta de verdade tudo ao meu redor?",
+          "Ainda que seja dor, ainda que sejam lágrimas,",
+          "esta tristeza pertence a mim.”",
+          "— Faye Wong, Persistência sem Arrependimento (1993)"
+        ],
+        "ru": [
+          "Нет, не плохие..Просто... заблудшие души. Такие же, как и я...",
+          "[Продолжает петь]\"Чьим сердцем мне жить, чтоб понять,",
+          "Как по-настоящему чувствовать мир?",
+          "Пусть даже боль, Пусть даже слёзы —",
+          "Лишь моя собственная это печаль.\"",
+          "— Ван Фэй \"Без сожалений\" (1993)"
+        ],
+        "vi": [
+          "“Nhưng đương nhiên cũng chẳng phải kẻ xấu xa độc ác. Họ cũng giống như tôi vậy thôi, đều là những linh hồn lạc lối giữa cõi nhân gian này.”",
+          "[Tiếp tục khẽ hát] “Phải mượn trái tim của ai để thấu tỏ,",
+          "Để cảm nhận chân thực mọi thứ xung quanh mình,",
+          "Dẫu cho có là đớn đau, dẫu cho có là nước mắt,",
+          "Thì đó cũng là nỗi đau thương thuộc về riêng tôi.”",
+          "—— Vương Phi, ca khúc \"Chấp Mê Bất Hối\" (1993)"
+        ]
+      }
+    },
+    {
+      "panel_index": 16,
+      "type": "image",
+      "image_src": "media/image16.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "她的声音空灵又带着微微沙哑，像飘荡在阳光里的细碎尘埃。",
+          "窗外，远处的虫鸣与嘈杂的市声相互交织，整座城市在云虫将至的预感中隐隐不安。他凝视着逆光中的月牙儿，阳光在她肩头形成淡淡的光晕，轮廓柔和而迷蒙。",
+          "他的目光定定地落在她身上，四周的一切逐渐模糊淡去，只剩下她那道温柔却孤绝的轮廓。"
+        ],
+        "zhHant": [
+          "她的聲音空靈又帶着微微沙啞，像飄蕩在陽光裏的細碎塵埃。",
+          "窗外，遠處的蟲鳴與嘈雜的市聲相互交織，整座城市在雲蟲將至的預感中隱隱不安。他凝視着逆光中的月牙兒，陽光在她肩頭形成淡淡的光暈，輪廓柔和而迷濛。",
+          "他的目光定定地落在她身上，四周的一切逐漸模糊淡去，只剩下她那道溫柔卻孤絕的輪廓。"
+        ],
+        "en": [
+          "Her voice was airy, slightly hoarse, like sunlight catching dust mid-air.",
+          "Outside, the sound of the CloudInsect and city noise tangled like threads,",
+          "as if the whole city held its breath under the omen of the approaching CloudInsect.",
+          "He watched Mahina bathed in backlight,",
+          "a faint halo blooming on her shoulder—soft, dreamlike.",
+          "His eyes stayed on her.",
+          "Everything else blurred into silence.",
+          "Only her—",
+          "that gentle, solitary outline—remained."
+        ],
+        "ja": [
+          "彼女の声は透き通りながら、かすかに掠れていた。陽の光のなかを漂う、微細な塵のようだった。",
+          "窓の外では、遠い虫の声と街のざわめきが溶け合っていた。雲虫が来る――その予感に、街じゅうがかすかな不安を孕んでいる。彼は逆光のマヒナを見つめた。陽射しが肩に淡い光の輪を結び、その輪郭を柔らかく、朧にしていた。",
+          "彼の視線は彼女に釘づけになった。周囲のすべてがしだいに滲み、遠のき、そこにはただ、優しく、それでいて孤絶した彼女の輪郭だけが残った。"
+        ],
+        "ko": [
+          "그녀의 목소리는 맑고도 살짝 쉬어 있었다. 햇빛 속을 떠도는 미세한 먼지처럼.",
+          "창밖에서는 멀리서 들려오는 벌레 울음과 소란한 도시의 소리가 뒤섞였다. 운충이 다가오리라는 예감 속에서 도시 전체가 보이지 않는 불안에 술렁였다. 그는 역광 속의 마히나를 바라보았다. 햇빛이 그녀의 어깨에 옅은 후광을 드리우고, 윤곽을 부드럽고 아스라하게 흐렸다.",
+          "그의 시선은 그녀에게 못 박힌 듯 머물렀다. 주위의 모든 것이 서서히 흐려져 사라지고, 다정하면서도 고독한 그녀의 윤곽만 남았다."
+        ],
+        "es": [
+          "Su voz era etérea, teñida por una leve aspereza, como motas de polvo suspendidas en la luz del sol.",
+          "Tras la ventana, el canto lejano de CloudInsect se entrelazaba con el ruido de la ciudad. Todo Shaxi temblaba bajo el presentimiento de su llegada. Él contempló a Mahina a contraluz: el sol dibujaba un halo tenue sobre sus hombros y volvía su silueta suave, casi irreal.",
+          "Su mirada permaneció fija en ella. Todo lo demás fue perdiendo contorno hasta que solo quedó aquella figura dulce y, al mismo tiempo, irremediablemente sola."
+        ],
+        "fr": [
+          "Sa voix, aérienne et légèrement rauque, ressemblait à de fines poussières flottant dans le soleil.",
+          "Par la fenêtre, le chant lointain de l’Insecte se mêlait à la rumeur de la ville. Tout Shaxi frémissait du pressentiment de l’Insecte-Nuage. Suvan contemplait Mahina à contre-jour ; le soleil posait sur ses épaules un halo léger et noyait son contour dans une douceur brumeuse.",
+          "Son regard demeura fixé sur elle. Peu à peu, tout le reste se brouilla et s’effaça ; il ne resta que sa silhouette, douce et pourtant retranchée du monde."
+        ],
+        "ar": [
+          "كان صوتها أثيريًا تشوبه بحّة خفيفة، كذرات غبار دقيقة تسبح في ضوء الشمس.",
+          "خلف النافذة امتزج نداء الحشرة البعيد بضجيج المدينة، وارتعشت شاشي كلها بقلق اقتراب حشرة السحاب. حدّق في ماهينا وهي تقف قبالة الضوء؛ رسمت الشمس هالة خافتة على كتفيها، وجعلت حدودها رخوة حالمة.",
+          "ثبتت عيناه عليها. أخذ كل ما حولها يبهت ويذوب، حتى لم يبقَ سوى ذلك الظل الرقيق، المنعزل عن العالم كله."
+        ],
+        "ptBR": [
+          "Sua voz era etérea e ligeiramente rouca, como minúsculos grãos de poeira à deriva na luz do sol.",
+          "Lá fora, o canto distante dos insetos se misturava ao rumor da cidade. Sob o pressentimento da chegada do Inseto-Nuvem, tudo parecia inquieto. Ele fitou Mahina contra a luz; o sol desenhava um halo pálido sobre seus ombros, deixando-lhe o contorno suave e indistinto.",
+          "O olhar dele permaneceu preso a ela. Aos poucos, tudo ao redor se desfez em névoa, e restou apenas aquela silhueta suave, irremediavelmente solitária."
+        ],
+        "ru": [
+          "[Её голос звучал слегка хрипловато и так тихо, словно ласкающий слух шёпот ветра.",
+          "За окном перекликались дальний стрёкот насекомых и городской шум, весь город будто затаился в тревожном ожидании появления облачного насекомого.\nОн смотрел на неё, в свете заходящего солнца, лучи мягко ложились на её плечи, окутывая их слегка размытым сиянием.",
+          "Его взгляд сосредоточился на ней, и всё вокруг постепенно теряло чёткость. Осталась только она — этот утончённый, одинокий силуэт.]"
+        ],
+        "vi": [
+          "Giọng hát của cô thanh thoát, vang vọng mà lại vương chút khàn nhẹ, tựa như những hạt bụi li ti lững lờ trôi giữa vạt nắng mai.",
+          "Bên ngoài khung cửa sổ, tiếng trùng ngâm nơi xa cùng thanh âm huyên náo của phố thị đan xen vào nhau, cả thành phố chìm trong nỗi bất an mơ hồ trước điềm báo Vân Trùng sắp giáng lâm.",
+          "Ánh mắt cậu chăm chú dõi theo Nguyệt Nha Nhi đứng ngược sáng, ánh dương hắt lên vai cô tạo thành một vầng hào quang mờ ảo, phác họa nên một bóng hình dịu dàng mà cô tịch khôn cùng."
+        ]
+      }
+    }
+  ],
+  "title_vi": "Vân Trùng · Chương 2: Người Trong Mây · II · v5.1.39"
+}

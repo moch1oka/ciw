@@ -1,0 +1,256 @@
+# 云虫 / CloudInsect - 第二章 云中人 · 二 (Chapter 2: Cloud Dwellers · Part 2)
+
+---
+
+![Panel 1](./media/image1.jpg)
+
+**ZH**: “深呼吸，把心放空，放下一切杂念，试着去感受最纯粹的当下。感受地面对你的支撑力，感受吸入的空气的微凉。感受呼出的空气的温热……”
+
+**EN**: “Take a deep breath.Empty your mind.Let go of every stray thought.Try to feel the present moment in its purest form—Feel the ground beneath you, the quiet strength it gives.Feel the cool air filling your lungs,And the warmth as it leaves you.”
+
+
+![Panel 2](./media/image2.jpg)
+
+**ZH**: “你这心法是自创的？”
+
+**EN**: “Did you invent this spell yourself?”
+
+**ZH**: “是冥想，现在挺流行的，对缓解你的心情有帮助。 闭上眼，跟我念：”
+
+**EN**: “It’s meditation. Pretty common now. Might help settle your mind.Close your eyes. Repeat after me—”
+
+
+![Panel 3](./media/image3.jpg)
+
+**ZH**: “想象一道温柔的光，缓缓流过你的身体。”
+
+**EN**: “Imagine a gentle light flowing through your body.”
+
+**ZH**: “……温柔的光，流过我的身体。”
+
+**EN**: “…A gentle light… flowing through me…”
+
+
+![Panel 4](./media/image4.jpg)
+
+**ZH**: “用心去听周围的声音，既不抗拒，也不追随。”
+
+**EN**: “Now really listen to the sounds around you.Don’t resist them. Don’t chase them.”
+
+**ZH**: “……不抗拒，不追随。”
+
+**EN**: “…Don’t resist… don’t chase…”
+
+
+![Panel 5](./media/image5.jpg)
+
+**ZH**: “感受空气轻柔流动，让自己融入空间。”
+
+**EN**: “Feel the air moving softly. Let yourself merge with the space.”
+
+**ZH**: “……”
+
+**EN**: “……”
+
+
+![Panel 6](./media/image6.jpg)
+
+**ZH**: [嘈杂]“你爸给了你生日礼物和不少钱了，你还想怎么样？他要带全家去国外旅游，没时间陪你。 ”
+
+**EN**: [Noise]“Your dad already gave you gifts and money. What more do you want? He’s taking the whole family abroad. He doesn’t have time.”
+
+**ZH**: “姑妈，我不要这些，我只想18岁生日他能陪我一天，就一天。”
+
+**EN**: “I don’t want those things. I just want him to spend one day with me. On my eighteenth birthday. Just one day.”
+
+**ZH**: “你这孩子怎么这么不懂事？你明明知道他不方便，还老是缠着他。”
+
+**EN**: “Why are you so unreasonable? You know he’s busy, yet you cling like this.”
+
+**ZH**: [嘈杂]“月牙儿，我们……还是分手吧。”
+
+**EN**: [Noise]“Mahina, let’s… break up.”
+
+**ZH**: [嘈杂]“你明晚前必须搬走，不然我就给你断水断电！”
+
+**EN**: [Noise]“You need to move out by tomorrow night. Or I’m cutting your water and power.”
+
+
+![Panel 7](./media/image7.jpg)
+
+**ZH**: [嘈杂]“月牙儿，我们宿舍的人一致投票决定，你那些衣服不能再晾在阳台了。”
+
+**EN**: [Noise]“Mahina, we took a vote. You can’t hang your clothes on the balcony anymore.”
+
+**ZH**: “为什么？”
+
+**EN**: “…Why?”
+
+**ZH**: “你在酒吧穿的那些衣服晾外面，别人看到会以为我们宿舍都不是什么正经人。”
+
+**EN**: “Those bar outfits you wear—people will think we’re all like that.”
+
+**ZH**: “那我以后衣服晾哪？”
+
+**EN**: “Then where should I dry them?”
+
+**ZH**: “出去洗衣店洗呗，反正你不是很有钱吗？ ”
+
+**EN**: “Take them to a laundromat. You’ve got money, don’t you?”
+
+**ZH**: “你们为什么觉得我有钱？”
+
+**EN**: “Why do you think I’m rich?”
+
+**ZH**: “装什么啊？你不是在酒吧唱一晚上就有好几千么，我听说那些老板都是把钱直接塞你内衣里的。”
+
+**EN**: “Come on. You sing one night at the bar and earn thousands. I heard the bosses even stuff cash down your bra.”
+
+**ZH**: “真的么，哈哈哈……”
+
+**EN**: “…Really? Haha…”
+
+
+![Panel 8](./media/image8.jpg)
+
+**ZH**: “月牙儿？你怎么了，脸色这么难看？”
+
+**EN**: “Mahina? What’s wrong? You look pale.”
+
+
+![Panel 9](./media/image9.jpg)
+
+**ZH**: “……没事，就是头晕。你的这个心法——不，冥想，可能不适合我。但还是谢谢你，至少你是真的想帮我。唉……”
+
+**EN**: “…Nothing. Just dizzy. This technique—no, meditation—may not suit me. But thank you. At least you truly wanted to help. Sigh…”
+
+
+![Panel 10](./media/image10.jpg)
+
+**ZH**: “作为答谢，我给你唱支歌吧。”
+
+**EN**: “As thanks… let me sing you a song.”
+
+
+![Panel 11](./media/image11.jpg)
+
+**ZH**: [轻唱]“别说我应该放弃
+
+**EN**: [Soft singing]
+
+**ZH**: 应该睁开眼
+
+**EN**: “Don’t tell me to give up,To open my eyes—I feel the world with my heart.You’re not me,How could you understand?”
+
+**ZH**: 我用我的心
+
+**EN**: ...
+
+**ZH**: 去看去感觉
+
+**ZH**: 你并不是我
+
+**ZH**: 又怎能了解
+
+**ZH**: ……”
+
+
+![Panel 12](./media/image12.jpg)
+
+**ZH**: [轻唱]“我不是你们想的如此完美
+
+**EN**: [Soft singing]
+
+**ZH**: 我承认有时也会辨不清真伪——”
+
+**EN**: “I’m not as perfect as you believe.Sometimes I can’t even tell what’s real.”
+
+**EN**: ...
+
+
+![Panel 13](./media/image13.jpg)
+
+**ZH**: “唱首歌而已，你脸红什么呀？”
+
+**EN**: “It’s just a song. Why are you blushing?”
+
+
+![Panel 14](./media/image14.jpg)
+
+**ZH**: “啊？没，没有啊……你在酒吧，也是这样唱歌的么？”
+
+**EN**: “Huh? No—I’m not!Do you sing like this at the bar?”
+
+**ZH**: “是啊。”
+
+**EN**: “Yeah.”
+
+**ZH**: “去那里听你唱歌的，都是些什么人？”
+
+**EN**: “And the people who listen there… what kind of people are they?”
+
+**ZH**: “都不是什么好人。”
+
+**EN**: “Not good people.”
+
+**ZH**: “……不是好人？”
+
+**EN**: “…Not good?”
+
+
+![Panel 15](./media/image15.jpg)
+
+**ZH**: “当然也不是什么坏人。都是和我一样，在人间迷路的灵魂。”
+
+**EN**: “But not bad either.They’re just… lost souls, like me—Wandering this world.”
+
+**ZH**: [继续轻唱]“要我用谁的心去体会
+
+**EN**: [Continues singing softly]
+
+**ZH**: 真真切切地感受周围
+
+**EN**: “Whose heart should I borrow
+
+**ZH**: 就算痛苦 就算是泪
+
+**EN**: To feel everything around me?
+
+**ZH**: 也是属于我的伤悲”
+
+**EN**: Even pain, even tears—
+
+**ZH**: ——王菲《执迷不悔》（1993）
+
+**EN**: They’re still mine.”
+
+**EN**: — Faye Wong, “No Regrets” (1993)
+
+
+![Panel 16](./media/image16.jpg)
+
+**ZH**: 她的声音空灵又带着微微沙哑，像飘荡在阳光里的细碎尘埃。
+
+**EN**: Her voice was airy, slightly hoarse, like sunlight catching dust mid-air.
+
+**ZH**: 窗外，远处的虫鸣与嘈杂的市声相互交织，整座城市在云虫将至的预感中隐隐不安。他凝视着逆光中的月牙儿，阳光在她肩头形成淡淡的光晕，轮廓柔和而迷蒙。
+
+**EN**: Outside, the sound of the CloudInsect and city noise tangled like threads,
+
+**ZH**: 他的目光定定地落在她身上，四周的一切逐渐模糊淡去，只剩下她那道温柔却孤绝的轮廓。
+
+**EN**: as if the whole city held its breath under the omen of the approaching CloudInsect.
+
+**EN**: He watched Mahina bathed in backlight,
+
+**EN**: a faint halo blooming on her shoulder—soft, dreamlike.
+
+**EN**: His eyes stayed on her.
+
+**EN**: Everything else blurred into silence.
+
+**EN**: Only her—
+
+**EN**: that gentle, solitary outline—remained.
+
+

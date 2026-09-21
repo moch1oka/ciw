@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="v5.1.39" name="cloudinsect-version"/>
+<title>云虫 第五章 乌骓 · 一 · v5.1.39</title>
+<link href="../../assets/cloud-insect-logo-v4.2.03.png" rel="icon"/>
+<style>
+    :root {
+      --page-width: 1440px;
+      --text-width: 1120px;
+      --bg: #090a0b;
+      --paper: #101112;
+      --text: #d9d9d9;
+      --moon: #fa1c78;
+      --xiyang: #05b5fc;
+      --reader-scale: 1;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: var(--bg); }
+    body {
+      font-family: Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    .comic {
+      width: min(94vw, var(--page-width));
+      margin: 0 auto;
+      background: var(--paper);
+      padding: clamp(28px, 4vw, 84px) clamp(18px, 4.5vw, 88px);
+    }
+    .comic[hidden] { display: none; }
+    .opening {
+      max-width: var(--text-width);
+      margin: 0 auto clamp(54px, 7.5vw, 108px);
+      padding-top: clamp(10px, 2.8vw, 40px);
+    }
+    .opening-brand {
+      margin: 0 0 clamp(72px, 8.8vw, 124px);
+      font-size: clamp(calc(38px * var(--reader-scale)), calc(4vw * var(--reader-scale)), calc(64px * var(--reader-scale)));
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 0;
+      color: rgba(230, 230, 230, 0.92);
+    }
+    .opening-title {
+      margin: 0 0 clamp(42px, 4.8vw, 72px);
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-weight: 800;
+      letter-spacing: 0;
+      color: rgba(224, 224, 224, 0.9);
+    }
+    .opening-time {
+      display: flex;
+      align-items: center;
+      gap: 0.72em;
+      margin: 0;
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.72vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.5;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: rgba(217, 217, 217, 0.76);
+    }
+    .opening-icon {
+      width: auto;
+      height: 1.18em;
+      flex: 0 0 auto;
+      opacity: 0.78;
+      filter: drop-shadow(0 0 8px rgba(235, 235, 230, 0.11));
+    }
+
+    .lang-option:disabled { opacity: 0.34; cursor: not-allowed; }
+    .opening-audit { display: grid; gap: 4px; margin-top: 0; justify-items: stretch; text-align: left; }
+    .opening-audit .text { margin: 0; width: 100%; max-width: none; justify-self: stretch; text-align: left; }
+    .tag-row {
+      display: grid;
+      grid-template-columns: max-content minmax(0, 1fr);
+      column-gap: 0.45em;
+      align-items: baseline;
+    }
+    .tag-row .tag-body { min-width: 0; }
+    .tag-row .tag-spacer { visibility: hidden; white-space: pre; }
+    .historical-figure { text-align: left; }
+    .text.shared { color: rgba(232, 232, 226, 0.9); text-align: center; }
+    .text.appendix {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.58;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.48);
+    }
+    .text.appendix-title {
+      margin-top: clamp(72px, 8vw, 132px);
+      color: rgba(217, 217, 217, 0.58);
+    }
+    .panel {
+      width: calc(100% + clamp(36px, 9vw, 176px));
+      aspect-ratio: 1 / var(--ratio);
+      position: relative;
+      overflow: hidden;
+      margin: 0 calc(clamp(18px, 4.5vw, 88px) * -1) clamp(24px, 4.8vw, 54px);
+      background: #050607;
+    }
+    .panel img {
+      position: absolute;
+      width: var(--img-w);
+      height: var(--img-h);
+      left: var(--img-left);
+      top: var(--img-top);
+      max-width: none;
+      object-fit: fill;
+      display: block;
+    }
+    .motion-panel {
+      aspect-ratio: 1 / var(--motion-ratio);
+      transition: aspect-ratio 180ms ease;
+    }
+    .motion-panel.is-still {
+      aspect-ratio: 1 / var(--still-ratio);
+    }
+    .motion-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      object-fit: fill;
+      display: block;
+      opacity: 1;
+      transition: opacity 180ms ease;
+    }
+    .motion-poster {
+      z-index: 0;
+    }
+    .motion-panel.is-still .motion-video {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .motion-toggle {
+      position: absolute;
+      z-index: 3;
+      top: clamp(10px, 1.4vw, 18px);
+      right: clamp(10px, 1.4vw, 18px);
+      width: clamp(34px, 3.6vw, 44px);
+      height: clamp(34px, 3.6vw, 44px);
+      border: 1px solid rgba(255, 255, 255, 0.34);
+      border-radius: 50%;
+      background: rgba(8, 9, 10, 0.62);
+      color: rgba(245, 245, 240, 0.9);
+      font: 700 clamp(13px, 1.25vw, 16px)/1 Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+      cursor: pointer;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .motion-toggle svg {
+      width: 52%;
+      height: 52%;
+      fill: currentColor;
+      display: block;
+      margin: auto;
+    }
+    .motion-toggle .icon-still {
+      display: none;
+    }
+    .motion-panel.is-still .motion-toggle .icon-motion {
+      display: none;
+    }
+    .motion-panel.is-still .motion-toggle .icon-still {
+      display: block;
+    }
+    .motion-toggle:hover {
+      background: rgba(20, 22, 24, 0.76);
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+    .motion-toggle:focus-visible {
+      outline: 2px solid rgba(255, 255, 255, 0.86);
+      outline-offset: 3px;
+    }
+    .text {
+      max-width: var(--text-width);
+      margin: 0 auto clamp(18px, 3.8vw, 38px);
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.62;
+      font-weight: 700;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+      color: var(--text);
+    }
+    .scene-break {
+      width: 100%;
+      min-height: clamp(420px, 82vh, 820px);
+      margin: clamp(24px, 5vw, 60px) auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .scene-break img {
+      width: clamp(44px, 6vw, 72px);
+      height: auto;
+      display: block;
+      opacity: 0.74;
+      filter: drop-shadow(0 0 10px rgba(235, 235, 230, 0.14));
+    }
+    .left { text-align: left; }
+    .right { text-align: right; }
+    .moon { color: var(--moon); text-align: left; }
+    .xiyang { color: var(--xiyang); text-align: right; }
+    .quote {
+      margin-top: clamp(82px, 9vw, 148px);
+      margin-bottom: clamp(10px, 2vw, 22px);
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.55;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.46);
+    }
+    .quote + .quote {
+      margin-top: clamp(8px, 1.4vw, 18px);
+    }
+
+    .settings-toggle {
+      display: none;
+    }
+    .controls-panel {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 50;
+    }
+    .lang-toggle {
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.26);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .lang-option {
+      min-width: 58px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.72);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+    .lang-option:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .lang-option[aria-pressed="true"] {
+      color: #090a0b;
+      background: rgba(235, 235, 230, 0.92);
+    }
+    .font-controls {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      margin-top: 10px;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .font-button {
+      min-width: 54px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.82);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1;
+      padding: 0 14px;
+      cursor: pointer;
+    }
+    .font-button:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .font-button:disabled {
+      color: rgba(217, 217, 217, 0.28);
+      cursor: default;
+    }
+    .font-button:disabled:hover {
+      background: transparent;
+    }
+    .chapter-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      width: max-content;
+      margin-top: 10px;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .site-version {
+      width: max-content;
+      min-height: 32px;
+      margin-top: 8px;
+      padding: 0 14px;
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(217, 217, 217, 0.18);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.54);
+      color: rgba(217, 217, 217, 0.52);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .toc-link,
+    .chapter-select {
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.82);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1;
+    }
+    .toc-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 14px;
+      text-decoration: none;
+    }
+    .toc-link:hover,
+    .chapter-select:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .chapter-select option {
+      background: #101112;
+      color: rgba(245, 245, 240, 0.94);
+    }
+    .chapter-select option:checked {
+      background: #2a2a24;
+      color: #ffffff;
+    }
+    .chapter-select {
+      max-width: min(270px, 58vw);
+      padding: 0 32px 0 14px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: linear-gradient(45deg, transparent 50%, rgba(217, 217, 217, 0.78) 50%), linear-gradient(135deg, rgba(217, 217, 217, 0.78) 50%, transparent 50%);
+      background-position: calc(100% - 18px) 18px, calc(100% - 12px) 18px;
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+    .sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+      text-align: center;
+    }
+
+    html[lang="en"] .text {
+      font-size: clamp(calc(19px * var(--reader-scale)), calc(1.48vw * var(--reader-scale)), calc(27px * var(--reader-scale)));
+      line-height: 1.58;
+    }
+    html[lang="en"] .quote { font-size: clamp(calc(13px * var(--reader-scale)), calc(0.98vw * var(--reader-scale)), calc(17px * var(--reader-scale))); }
+    .chapter-pager {
+      max-width: var(--text-width);
+      margin: clamp(44px, 7vw, 96px) auto clamp(18px, 4vw, 52px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: clamp(18px, 4vw, 36px);
+    }
+    .chapter-pager-button {
+      width: clamp(50px, 6vw, 68px);
+      height: clamp(50px, 6vw, 68px);
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(232, 232, 226, 0.88);
+      background: rgba(10, 11, 12, 0.74);
+      text-decoration: none;
+      font-size: clamp(34px, 4.2vw, 48px);
+      line-height: 1;
+      font-weight: 500;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .chapter-pager-icon {
+      width: 58%;
+      height: 58%;
+      display: block;
+      object-fit: contain;
+      transform: translateX(0);
+      filter: drop-shadow(0 0 8px rgba(5, 181, 252, 0.14));
+    }
+    .chapter-pager-button:hover,
+    .chapter-pager-button:focus-visible {
+      color: #ffffff;
+      border-color: rgba(5, 181, 252, 0.68);
+      background: rgba(5, 181, 252, 0.16);
+      outline: none;
+    }
+    .chapter-pager-button.is-disabled {
+      opacity: 0.24;
+      pointer-events: none;
+      box-shadow: none;
+    }
+
+
+
+    @media (max-width: 520px) {
+      .comic { width: 100vw; padding-left: 18px; padding-right: 18px; }
+      .opening {
+        max-width: 100%;
+        margin-bottom: 48px;
+        padding-top: 14px;
+      }
+      .opening-brand {
+        margin-bottom: 58px;
+        font-size: calc(34px * var(--reader-scale));
+      }
+      .opening-title {
+        margin-bottom: 34px;
+        font-size: calc(30px * var(--reader-scale));
+      }
+      .opening-time {
+        font-size: calc(20px * var(--reader-scale));
+      }
+      .panel { width: calc(100% + 36px); margin-left: -18px; margin-right: -18px; }
+      .text { max-width: 100%; font-size: calc(21px * var(--reader-scale)); line-height: 1.68; }
+      .scene-break { min-height: 72svh; margin: 24px auto; }
+      html[lang="en"] .text { font-size: calc(19px * var(--reader-scale)); }
+      .settings-toggle {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 60;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border: 1px solid rgba(217, 217, 217, 0.24);
+        border-radius: 999px;
+        background: rgba(10, 11, 12, 0.64);
+        color: rgba(235, 235, 230, 0.92);
+        font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      .settings-toggle img {
+        width: 30px;
+        height: 34px;
+        object-fit: contain;
+        display: block;
+      }
+      .settings-toggle[aria-expanded="true"] {
+        border-color: rgba(235, 235, 230, 0.42);
+        background: rgba(10, 11, 12, 0.84);
+      }
+      .controls-panel {
+        top: 62px;
+        left: 12px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .controls-panel.is-open {
+        display: flex;
+      }
+      .lang-toggle,
+      .font-controls,
+      .chapter-controls {
+        position: static;
+      }
+      .lang-option {
+        min-width: 50px;
+        min-height: 36px;
+        font-size: 14px;
+        padding: 0 11px;
+      }
+      .font-button {
+        min-width: 48px;
+        min-height: 36px;
+        font-size: 16px;
+        padding: 0 12px;
+      }
+      .chapter-controls {
+        max-width: calc(100vw - 24px);
+        gap: 6px;
+      }
+      .toc-link,
+      .chapter-select {
+        min-height: 36px;
+        font-size: 14px;
+      }
+      .toc-link {
+        padding: 0 11px;
+      }
+      .chapter-select {
+        max-width: calc(100vw - 116px);
+        padding-left: 11px;
+      }
+    }
+    @media print {
+      html, body { background: var(--paper); }
+      .comic { width: var(--page-width); padding: 84px 88px; }
+      .comic[hidden] { display: none; }
+    }
+    /* cloudinsect-text-style:start */
+    .text {
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.62;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: #dddddd;
+    }
+    .chapter-title, .opening-title {
+      color: rgba(232, 232, 226, 0.9);
+    }
+    .prose {
+      font-size: clamp(calc(19.5px * var(--reader-scale)), calc(1.62vw * var(--reader-scale)), calc(28px * var(--reader-scale)));
+      color: #dddddd;
+    }
+    .moon { color: #ff2b91; text-align: left; }
+    .xiyang { color: #28b7ff; text-align: right; }
+    .other { color: #f5e9b8; text-align: right; }
+    .tag-caption {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+      line-height: 1.58;
+      font-weight: 700;
+      color: rgba(205, 205, 198, 0.78);
+      text-align: left;
+    }
+    .tag-caption .tag { color: rgba(245, 233, 184, 0.84); }
+    .quote {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.58;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.48);
+    }
+    html[lang="en"] .text {
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+    }
+    html[lang="en"] .prose {
+      font-size: clamp(calc(19.5px * var(--reader-scale)), calc(1.62vw * var(--reader-scale)), calc(28px * var(--reader-scale)));
+    }
+    html[lang="en"] .tag-caption {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+    }
+    html[lang="en"] .quote {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+    }
+    html[lang="en"] .sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+    }
+
+    @media (max-width: 760px) {
+      .chapter-title, .opening-title { font-size: calc(30px * var(--reader-scale)); }
+      .sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      .text { font-size: calc(21px * var(--reader-scale)); line-height: 1.68; }
+      .prose { font-size: calc(19.5px * var(--reader-scale)); }
+      .tag-caption { font-size: calc(16px * var(--reader-scale)); }
+      .quote { font-size: calc(14px * var(--reader-scale)); }
+      html[lang="en"] .sound-effect { font-size: calc(30px * var(--reader-scale)); }
+      html[lang="en"] .text { font-size: calc(21px * var(--reader-scale)); }
+      html[lang="en"] .prose { font-size: calc(19.5px * var(--reader-scale)); }
+      html[lang="en"] .tag-caption { font-size: calc(16px * var(--reader-scale)); }
+      html[lang="en"] .quote { font-size: calc(14px * var(--reader-scale)); }
+    }
+    .text.sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+      text-align: center;
+    }
+    html[lang="en"] .text.sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+    }
+    @media (max-width: 760px) {
+      .text.sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      html[lang="en"] .text.sound-effect { font-size: calc(30px * var(--reader-scale)); }
+    }
+    /* cloudinsect-text-style:end */
+  </style>
+<link href="../../assets/site-footer.css?v=5.1.39" rel="stylesheet"/>
+<style data-cloudinsect-language-select="true">
+.language-select {
+  min-height: 36px;
+  max-width: min(180px, 48vw);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px;
+  padding: 0 30px 0 12px;
+  color: rgba(255,255,255,.92);
+  background: rgba(14,16,18,.94);
+  font: 700 13px/1.2 Arial, "PingFang SC", "Hiragino Sans", sans-serif;
+}
+</style>
+<style data-cloudinsect-history-cards="true">
+  .history-card {
+    position: absolute;
+    left: var(--history-card-left, 43%);
+    bottom: var(--history-card-bottom, 5%);
+    z-index: 5;
+    width: fit-content;
+    min-width: min(148px, calc(100% - 24px));
+    max-width: min(440px, calc(100% - 24px));
+    color: rgba(241, 238, 228, 0.68);
+    font-family: "Noto Serif SC", "Songti SC", "STSong", "Microsoft YaHei", serif;
+    text-align: left;
+    transform: translateX(-50%);
+    filter: drop-shadow(0 9px 18px rgba(0, 0, 0, 0.28));
+  }
+  .history-card[open] {
+    width: min(440px, calc(100% - 24px));
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .history-card summary {
+    position: relative;
+    order: 2;
+    display: block;
+    padding: 8px 9px 7px;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(9, 11, 13, 0.50), rgba(16, 19, 21, 0.34));
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.025);
+    backdrop-filter: blur(9px) saturate(0.82);
+    -webkit-backdrop-filter: blur(9px) saturate(0.82);
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+  }
+  .history-card summary::-webkit-details-marker { display: none; }
+  .history-card summary::marker { content: ""; }
+  .history-card summary:hover,
+  .history-card[open] summary {
+    background: linear-gradient(135deg, rgba(11, 13, 15, 0.60), rgba(18, 21, 23, 0.42));
+  }
+  .history-card summary:focus-visible {
+    outline: 2px solid rgba(229, 208, 161, 0.86);
+    outline-offset: 3px;
+  }
+  .history-card-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(223, 202, 157, 0.26);
+  }
+  .history-card-kicker {
+    min-width: 0;
+    color: rgba(224, 200, 145, 0.70);
+    font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: clamp(14px, 1.18vw, 17px);
+    font-weight: 750;
+    letter-spacing: 0.16em;
+    line-height: 1.15;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+  .history-card-identity {
+    display: flex;
+    min-width: 0;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 2px;
+    margin-top: 5px;
+  }
+  .history-card-name {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    color: rgba(255, 253, 246, 0.80);
+    font-size: clamp(25px, 2vw, 31px);
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    line-height: 1.05;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+  }
+  .history-card-courtesy {
+    flex: 0 0 auto;
+    color: rgba(241, 238, 228, 0.56);
+    font-size: clamp(11px, 0.94vw, 14px);
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .history-card-action {
+    flex: 0 0 auto;
+    color: rgba(224, 200, 145, 0.65);
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1;
+    transition: transform 180ms ease;
+  }
+  .history-card[open] .history-card-action {
+    transform: rotate(45deg);
+  }
+  .history-card-detail {
+    order: 1;
+    padding: 10px 12px 11px;
+    border: 0;
+    border-radius: 10px;
+    background: rgba(8, 10, 12, 0.64);
+    backdrop-filter: blur(11px);
+    -webkit-backdrop-filter: blur(11px);
+    animation: history-card-reveal 160ms ease-out both;
+  }
+  .history-card-detail p {
+    margin: 0;
+    color: rgba(244, 241, 232, 0.72);
+    font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: clamp(11px, 0.9vw, 13px);
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.02em;
+  }
+  @keyframes history-card-reveal {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (max-width: 760px) {
+    .history-card {
+      left: var(--history-card-left, 43%);
+      bottom: var(--history-card-bottom, 4%);
+      width: fit-content;
+      min-width: min(148px, calc(100% - 20px));
+      max-width: min(260px, calc(100% - 20px));
+    }
+    .history-card summary { padding: 7px 8px 7px; border-radius: 8px; }
+    .history-card-title-row { padding-bottom: 5px; }
+    .history-card-kicker { font-size: 14px; }
+    .history-card-identity { margin-top: 5px; }
+    .history-card-name { font-size: 24px; }
+    .history-card-detail { padding: 9px 10px 10px; border-radius: 8px; }
+    .history-card-detail p { font-size: 11px; line-height: 1.56; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .history-card-action { transition: none; }
+    .history-card-detail { animation: none; }
+  }
+</style>
+<style data-cloudinsect-language-select-refinement="v5.1.39">
+.language-select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  cursor: pointer;
+  color-scheme: dark;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23e8e8e2' stroke-opacity='.82' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 10px 6px;
+}
+.language-select:focus,
+.language-select:focus-visible {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.language-toggle:has(.language-select:focus-visible),
+.lang-toggle:has(.language-select:focus-visible) {
+  border-color: rgba(232, 232, 226, 0.52);
+}
+</style>
+<style data-cloudinsect-select-option-contrast="true">
+.language-select,
+.chapter-select {
+  color-scheme: dark;
+}
+.language-select option,
+.chapter-select option {
+  background-color: #101112;
+  color: rgba(245, 245, 240, 0.96);
+}
+</style>
+<style data-cloudinsect-adaptive-chapter-menu="true">
+.chapter-controls {
+  max-width: calc(100vw - 24px);
+}
+.chapter-select {
+  width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 160px)));
+  max-width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 160px)));
+  text-overflow: clip;
+}
+.chapter-controls.is-stacked {
+  display: grid;
+  grid-template-columns: minmax(0, max-content);
+  align-items: stretch;
+  width: max-content;
+  max-width: calc(100vw - 24px);
+  border-radius: 24px;
+}
+.chapter-controls.is-stacked .toc-link {
+  justify-content: flex-start;
+}
+.chapter-controls.is-stacked .chapter-select {
+  width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 36px)));
+  max-width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 36px)));
+  padding-right: 32px;
+}
+@media (max-width: 520px) {
+  .chapter-select {
+    font-size: 14px;
+  }
+  .chapter-controls.is-stacked .chapter-select {
+    font-size: 13px;
+  }
+}
+</style>
+<style data-cloudinsect-arabic-rtl="true">
+html[lang="ar"] body {
+  direction: ltr;
+  text-align: initial;
+  font-family: Arial, "Noto Sans Arabic", "Noto Naskh Arabic", sans-serif;
+}
+html[lang="ar"] .controls-panel,
+html[lang="ar"] .reader-controls,
+html[lang="ar"] .settings-panel,
+html[lang="ar"] .chapter-controls,
+html[lang="ar"] .lang-toggle,
+html[lang="ar"] .language-toggle,
+html[lang="ar"] .font-controls,
+html[lang="ar"] .chapter-pager,
+html[lang="ar"] .pager,
+html[lang="ar"] .topbar,
+html[lang="ar"] .thumb-rail,
+html[lang="ar"] .links,
+html[lang="ar"] .cloudinsect-site-footer {
+  direction: ltr;
+}
+html[lang="ar"] main[data-lang-page="ar"] {
+  direction: rtl;
+}
+html[lang="ar"] main[data-lang-page="ar"] .text,
+html[lang="ar"] main[data-lang-page="ar"] p,
+html[lang="ar"] [data-ar],
+html[lang="ar"] #itemTagText,
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright,
+html[lang="ar"] .cloudinsect-contact-label {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  overflow-wrap: anywhere;
+}
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright {
+  text-align: right;
+}
+html[lang="ar"] .language-select,
+html[lang="ar"] .chapter-select {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="ar"] .chapter-select option,
+html[lang="ar"] .language-select option {
+  direction: rtl;
+  text-align: right;
+}
+html[lang="ar"] .chapter-pager .label,
+html[lang="ar"] .pager .label,
+html[lang="ar"] .toc-link {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+html[lang="ar"] .formula,
+html[lang="ar"] code,
+html[lang="ar"] [data-ltr] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+</style>
+<style data-cloudinsect-ptbr-style="true">
+html[lang="pt-BR"] main[data-lang-page="ptBR"] { direction: ltr; }
+html[lang="pt-BR"] .history-card { max-width: min(340px, calc(100% - 24px)); }
+html[lang="pt-BR"] .history-card-kicker { white-space: normal; letter-spacing: 0.03em; line-height: 1.24; }
+html[lang="pt-BR"] .chapter-select option,
+html[lang="pt-BR"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="pt-BR"] .history-card { max-width: min(280px, calc(100% - 20px)); }
+  html[lang="pt-BR"] .history-card-kicker { font-size: 12px; }
+}
+</style>
+<style data-cloudinsect-ru-style="true">
+html[lang="ru"] main[data-lang-page="ru"] { direction: ltr; }
+html[lang="ru"] .history-card { max-width: min(350px, calc(100% - 24px)); }
+html[lang="ru"] .history-card-kicker { white-space: normal; letter-spacing: 0.02em; line-height: 1.24; }
+html[lang="ru"] .chapter-select option,
+html[lang="ru"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="ru"] .history-card { max-width: min(288px, calc(100% - 20px)); }
+  html[lang="ru"] .history-card-kicker { font-size: 12px; }
+  html[lang="ru"] .title-line { flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+  html[lang="ru"] .title-line h1 { width: 100%; max-width: 100%; overflow-wrap: normal; }
+  html[lang="ru"] .title-line .wallpaper-entry { margin-left: 0; }
+}
+</style>
+<style data-cloudinsect-toc-return-icon="v5.1.39">
+.toc-return-icon {
+  width: 52px;
+  min-width: 52px;
+  padding: 0 10px;
+  justify-content: center;
+}
+.toc-return-icon svg {
+  display: block;
+  width: 29px;
+  height: 29px;
+  overflow: visible;
+}
+.language-select {
+  field-sizing: content;
+  width: auto !important;
+  min-width: 72px;
+  max-width: min(210px, calc(100vw - 48px));
+}
+@media (min-width: 761px) {
+  body {
+    padding-top: 0 !important;
+  }
+  main.comic {
+    padding-top: 200px !important;
+  }
+  .controls-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: max-content;
+    max-width: calc(100vw - 36px);
+    max-height: none;
+    overflow: visible;
+  }
+  .reader-control-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: max-content;
+    max-width: 100%;
+  }
+  .controls-panel .lang-toggle,
+  .controls-panel .font-controls,
+  .controls-panel .chapter-controls,
+  .controls-panel .site-version {
+    position: static;
+    flex: 0 0 auto;
+    margin-top: 0 !important;
+    transform: none;
+  }
+  .controls-panel .lang-toggle {
+    width: max-content;
+  }
+  .controls-panel .site-version {
+    align-self: center;
+  }
+}
+@media (max-width: 760px) {
+  body {
+    padding-top: 0 !important;
+  }
+  main.comic {
+    padding-top: 128px !important;
+  }
+  .reader-control-row {
+    display: contents;
+  }
+  .toc-return-icon {
+    width: 46px;
+    min-width: 46px;
+    padding: 0 8px;
+  }
+  .toc-return-icon svg {
+    width: 27px;
+    height: 27px;
+  }
+}
+</style>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700;1,800&amp;display=swap" rel="stylesheet"/>
+<style data-cloudinsect-vi-style="true">
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-400-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-400-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-600-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-800-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+
+html[lang="vi"],
+html[lang="vi"] body {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] :is(
+  .comic,
+  .opening,
+  .opening-brand,
+  .opening-title,
+  .opening-time,
+  .opening-meta,
+  .text,
+  .quote,
+  .sound-effect,
+  .scene-break,
+  .tag,
+  .tag-caption,
+  .endnote,
+  .next-chapter,
+  .next-chapter .title,
+  .next-chapter .hint,
+  .chapter-pager,
+  .chapter-controls,
+  .chapter-select,
+  .chapter-select option,
+  .language-select,
+  .language-select option,
+  .lang-option,
+  .pager,
+  .toc-link,
+  .settings-toggle,
+  .reader-setting-btn,
+  .controls-panel,
+  .panel-caption
+) {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] .opening-brand {
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .opening-title {
+  line-height: 1.32;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .opening-time {
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+html[lang="vi"] .text {
+  font-size: clamp(calc(19px * var(--reader-scale)), calc(1.5vw * var(--reader-scale)), calc(27px * var(--reader-scale)));
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+html[lang="vi"] .quote {
+  line-height: 1.6;
+  font-weight: 500;
+  font-style: italic;
+}
+
+html[lang="vi"] .sound-effect {
+  line-height: 1.35;
+  font-weight: 800;
+  font-style: italic;
+}
+
+html[lang="vi"] main[data-lang-page="vi"] {
+  direction: ltr;
+}
+</style>
+</head>
+<body>
+<button aria-expanded="false" aria-label="Reader settings" class="settings-toggle" type="button">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</button>
+<div class="controls-panel" id="reader-controls">
+<div class="reader-control-row reader-control-row-primary">
+<div aria-label="Language selection" class="lang-toggle" role="group"><select aria-label="Language" class="language-select"><option value="vi">Tiếng Việt</option><option value="zh">简体</option><option value="zhHant">繁體</option><option value="en">English</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="ptBR">Português do Brasil</option><option value="ru">Русский</option><option value="es">Español</option><option value="fr">Français</option><option value="ar">العربية</option></select></div>
+<div aria-label="Font size controls" class="font-controls" role="group">
+<button aria-label="Decrease font size" class="font-button" data-font-step="-1" type="button">A−</button>
+<button aria-label="Increase font size" class="font-button" data-font-step="1" type="button">A+</button>
+</div>
+</div>
+<div class="reader-control-row reader-control-row-secondary">
+<div aria-label="Chapter navigation" class="chapter-controls">
+<a aria-label="返回主目录" class="toc-link toc-return-icon" href="../../index.html" title="返回主目录">
+<svg aria-hidden="true" viewbox="0 0 32 32">
+<path d="M13 6L3.5 14.5 13 23v-5.6c7.6.3 11.9 3 15 7.6 0-8.4-5-13.7-15-14V6Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+</a>
+<select aria-label="选择章节" class="chapter-select">
+<option data-ar="الفصل صفر: تمهيد" data-en="Chapter 0: Prologue" data-es="Capítulo cero: Prólogo" data-fr="Chapitre zéro : Prologue" data-ja="第零章 プロローグ" data-ko="제0장 프롤로그" data-pt-br="Capítulo Zero: Prólogo" data-ru="Глава нулевая: Пролог" data-vi="Chương 0: Mở đầu" data-zh="第零章 楔子" data-zh-hant="第零章 楔子" value="../chapter-0-prologue/index.html">第零章 楔子</option>
+<option data-ar="الفصل الأول: سوفان" data-en="Chapter 1: Suvan" data-es="Capítulo uno: Suvan" data-fr="Chapitre 1 : Suvan" data-ja="第一章 スヴァン" data-ko="제1장 수반" data-pt-br="Capítulo Um: Suvan" data-ru="Глава первая: Сиян" data-vi="Chương 1: Hi Dương" data-zh="第一章 希扬" data-zh-hant="第一章 希揚" value="../chapter-1-xiyang/index.html">第一章 希扬</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 1" data-en="Chapter 2: Cloud Dwellers - 1" data-es="Capítulo 2: Habitantes de las nubes · 1" data-fr="Chapitre 2 : Les Habitants des nuages · I" data-ja="第二章 雲中人 · 一" data-ko="제2장 운중인 · 1" data-pt-br="Capítulo Dois: Habitantes das Nuvens · I" data-ru="Глава вторая: Обитатели облаков · I" data-vi="Chương 2: Người Trong Mây · I" data-zh="第二章 云中人 · 一" data-zh-hant="第二章 雲中人 · 一" value="../chapter-2-cloud-dwellers-1/index.html">第二章 云中人 · 一</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 2" data-en="Chapter 2: Cloud Dwellers - 2" data-es="Capítulo 2: Habitantes de las nubes · 2" data-fr="Chapitre 2 : Les Habitants des nuages · II" data-ja="第二章 雲中人 · 二" data-ko="제2장 운중인 · 2" data-pt-br="Capítulo Dois: Habitantes das Nuvens · II" data-ru="Глава вторая: Обитатели облаков · II" data-vi="Chương 2: Người Trong Mây · II" data-zh="第二章 云中人 · 二" data-zh-hant="第二章 雲中人 · 二" value="../chapter-2-cloud-dwellers-2/index.html">第二章 云中人 · 二</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 3" data-en="Chapter 2: Cloud Dwellers - 3" data-es="Capítulo 2: Habitantes de las nubes · 3" data-fr="Chapitre 2 : Les Habitants des nuages · III" data-ja="第二章 雲中人 · 三" data-ko="제2장 운중인 · 3" data-pt-br="Capítulo Dois: Habitantes das Nuvens · III" data-ru="Глава вторая: Обитатели облаков · III" data-vi="Chương 2: Người Trong Mây · III" data-zh="第二章 云中人 · 三" data-zh-hant="第二章 雲中人 · 三" value="../chapter-2-cloud-dwellers-3/index.html">第二章 云中人 · 三</option>
+<option data-ar="الفصل الثالث: ما وراء مخروط الضوء · 1" data-en="Chapter 3: Beyond the Light Cone - 1" data-es="Capítulo 3: Más allá del cono de luz · 1" data-fr="Chapitre 3 : Au-delà du cône de lumière · I" data-ja="第三章 光円錐の外 · 一" data-ko="제3장 광추 너머 · 1" data-pt-br="Capítulo Três: Além do Cone de Luz · I" data-ru="Глава третья: За пределами светового конуса · I" data-vi="Chương 3: Ngoài Nón Ánh Sáng · I" data-zh="第三章 光锥之外 · 一" data-zh-hant="第三章 光錐之外 · 一" value="../chapter-3-beyond-light-cone-1/index.html">第三章 光锥之外 · 一</option>
+<option data-ar="الفصل الثالث: ما وراء مخروط الضوء · 2" data-en="Chapter 3: Beyond the Light Cone - 2" data-es="Capítulo 3: Más allá del cono de luz · 2" data-fr="Chapitre 3 : Au-delà du cône de lumière · II" data-ja="第三章 光円錐の外 · 二" data-ko="제3장 광추 너머 · 2" data-pt-br="Capítulo Três: Além do Cone de Luz · II" data-ru="Глава третья: За пределами светового конуса · II" data-vi="Chương 3: Ngoài Nón Ánh Sáng · II" data-zh="第三章 光锥之外 · 二" data-zh-hant="第三章 光錐之外 · 二" value="../chapter-3-beyond-light-cone-2/index.html">第三章 光锥之外 · 二</option>
+<option data-ar="الفصل الرابع: مخروط القدر · 1" data-en="Chapter 4: The Cone of Fate - 1" data-es="Capítulo 4: El cono del destino · 1" data-fr="Chapitre 4 : Le Cône du destin · I" data-ja="第四章 運命の円錐 · 一" data-ko="제4장 운명의 추 · 1" data-pt-br="Capítulo Quatro: O Cone do Destino · I" data-ru="Глава четвёртая: Конус судьбы · I" data-vi="Chương 4: Nón Định Mệnh · I" data-zh="第四章 命运之锥 · 一" data-zh-hant="第四章 命運之錐 · 一" value="../chapter-4-fate-1/index.html">第四章 命运之锥 · 一</option>
+<option data-ar="الفصل الرابع: مخروط القدر · 2" data-en="Chapter 4: The Cone of Fate - 2" data-es="Capítulo 4: El cono del destino · 2" data-fr="Chapitre 4 : Le Cône du destin · II" data-ja="第四章 運命の円錐 · 二" data-ko="제4장 운명의 추 · 2" data-pt-br="Capítulo Quatro: O Cone do Destino · II" data-ru="Глава четвёртая: Конус судьбы · II" data-vi="Chương 4: Nón Định Mệnh · II" data-zh="第四章 命运之锥 · 二" data-zh-hant="第四章 命運之錐 · 二" value="../chapter-4-fate-2/index.html">第四章 命运之锥 · 二</option>
+<option data-ar="الفصل الخامس: ووتشوي · 1" data-en="Chapter 5: Wuzhui - 1" data-es="Capítulo 5: Wuzhui · 1" data-fr="Chapitre 5 : Wuzhui · I" data-ja="第五章 烏騅・一" data-ko="제5장 오추 · 1" data-pt-br="Capítulo Cinco: Wuzhui · I" data-ru="Глава 5. Учжуй · I" data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓 · 一" data-zh-hant="第五章 烏騅 · 一" selected="" value="../chapter-5-wuzhui-1/index.html">第五章 乌骓 · 一</option>
+</select>
+</div>
+<div class="site-version" data-cloudinsect-version="">v5.1.39</div>
+</div>
+</div>
+<main class="comic" id="comic">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand" data-ar="حشرة السحاب" data-en="CloudInsect" data-es="CloudInsect" data-fr="Insecte-Nuage" data-ja="雲虫" data-ko="운충" data-pt-br="Inseto-Nuvem" data-ru="Облачное насекомое" data-vi="Vân Trùng" data-zh="云虫" data-zh-hant="雲蟲">云虫</h1>
+<h2 class="opening-title" data-ar="الفصل الخامس: ووتشوي" data-en="Chapter 5: Wuzhui" data-es="Capítulo 5: Wuzhui" data-fr="Chapitre 5 : Wuzhui" data-ja="第五章 烏騅" data-ko="제5장 오추" data-pt-br="Capítulo Cinco: Wuzhui · I" data-ru="Глава 5. Учжуй" data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓" data-zh-hant="第五章 烏騅">第五章 乌骓</h2>
+<div class="opening-audit">
+<p class="text tag-caption tag-row"><span class="tag" data-ar="[حشرة السحاب]" data-en="[CloudInsect]" data-es="[CloudInsect]" data-fr="[Insecte-Nuage]" data-ja="[雲虫]" data-ko="[운충]" data-pt-br="[Inseto-Nuvem]" data-ru="[Облачное насекомое]" data-vi="[Vân Trùng]" data-zh="[云虫]" data-zh-hant="[雲蟲]">[云虫]</span><span class="tag-body" data-ar="النظام النجمي 7115، الحضارة رقم 7 — سجل المحاكمة السادسة" data-en="Star System 7115, Civilization No. 7 — Record of the Sixth Judgment" data-es="Sistema estelar 7115, Civilización n.º 7 — Registro del Sexto Juicio" data-fr="Système stellaire 7115, civilisation n° 7 — Registre du sixième Jugement" data-ja="7115恒星系第7文明・第6次審判記録" data-ko="7115 항성계 제7문명 제6차 심판 기록" data-pt-br="Sistema Estelar 7115, Civilização nº 7 — Registro do Sexto Julgamento" data-ru="Запись 6-го судебного процесса над 7-ой цивилизацией 7115-ой звездной системы." data-vi="Biên niên sử phán xét lần thứ 6 của nền văn minh số 7 thuộc hệ sao 7115" data-zh="7115恒星系7号文明第6次审判记事" data-zh-hant="7115恆星系7號文明第6次審判記事">7115恒星系7号文明第6次审判记事</span></p>
+<p class="text tag-caption tag-row"><span class="tag tag-spacer" data-ar="[حشرة السحاب]" data-en="[CloudInsect]" data-es="[CloudInsect]" data-fr="[Insecte-Nuage]" data-ja="[雲虫]" data-ko="[운충]" data-pt-br="[Inseto-Nuvem]" data-ru="[Облачное насекомое]" data-vi="[Vân Trùng]" data-zh="[云虫]" data-zh-hant="[雲蟲]">[云虫]</span><span class="tag-body" data-ar="لا يُسجَّل إلا ما يتصل بالمحاكمة" data-en="Only matters pertaining to the judgment are recorded" data-es="Se registran únicamente los hechos relacionados con el juicio" data-fr="Seuls sont consignés les faits relatifs au Jugement" data-ja="審判に関わる事象のみを記録する" data-ko="심판과 관련된 내용만 기록한다" data-pt-br="Somente fatos relacionados ao Julgamento são registrados" data-ru="Задокументированы только материалы, связанные с судом." data-vi="Chỉ ghi chép các nội dung liên quan đến cuộc phán xét" data-zh="仅记录与审判相关内容" data-zh-hant="僅記錄與審判相關內容">仅记录与审判相关内容</span></p>
+</div>
+</section>
+<figure class="panel motion-panel is-motion motion-only-panel" data-motion-only="true" data-panel="1" style="--ratio:0.56250000; --motion-ratio:0.56250000; --still-ratio:0.56250000;">
+<video aria-hidden="true" autoplay="" class="motion-video" loop="" muted="" playsinline="" preload="auto" src="media/pro/boat-web-720p.mp4"></video>
+</figure>
+<p class="text left prose" data-ar="أيقظ خرير الماء ماهينا." data-en="The sound of water woke Mahina." data-es="Mahina despertó con el rumor del agua." data-fr="Le bruit de l’eau réveilla Mahina." data-ja="マヒナは水音で目を覚ました。" data-ko="마히나는 물소리에 잠을 깼다." data-pt-br="Mahina despertou ao som da água." data-ru="Юэя проснулась от шума воды." data-vi="Nguyệt Nha Nhi bị đánh thức bởi tiếng nước chảy." data-zh="月牙儿是被水声唤醒的。" data-zh-hant="月牙兒是被水聲喚醒的。">月牙儿是被水声唤醒的。</p>
+<figure class="panel" data-panel="2" style="--ratio:0.53955078;">
+<img alt="" src="media/pro-13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="حين فتحت عينيها رأت فوق رأسها سقفًا مقوسًا من الخيزران سوّدته الأدخنة. كان القارب يتمايل برفق مع الموج، وفي الهواء الرطب رائحة ماء وخشب عتيق مكتوم. نظرت إلى نفسها؛ كانت ترتدي ثوبًا خشنًا متقاطع الياقة، وقد اهترأت أطراف كميه وعلتها الوبرة. لم يكن ثوبها." data-en="When she opened her eyes, a smoke-blackened bamboo canopy arched above her. The boat rocked gently with the current; the damp, close smell of old timber hung in the air. She looked down. She was dressed in a coarse, cross-collared robe, its cuffs worn fuzzy. The clothes were not hers." data-es="Al abrir los ojos, vio sobre su cabeza un toldo de bambú ennegrecido por el humo. La barca se mecía suavemente con la corriente; en el aire húmedo flotaba el olor cerrado de la madera vieja. Se miró. Llevaba una túnica cruzada de tela basta, con los puños gastados y cubiertos de pelusa. No era su ropa." data-fr="Lorsqu’elle ouvrit les yeux, une natte de bambou noircie par la fumée formait une voûte au-dessus d’elle. La barque oscillait doucement au fil du courant ; l’air humide sentait le vieux bois renfermé. Elle baissa les yeux. Elle portait une tunique croisée en toile grossière, aux poignets râpés et pelucheux. Ce n’étaient pas ses vêtements." data-ja="目を開けると、頭上には煤けた竹の苫が弧を描いている。舟は波に合わせて静かに揺れ、湿った空気には水の匂いと古びた木のこもった匂いが漂っていた。自分の姿を見下ろすと、粗布の交領をまとい、袖口は擦れて毛羽立っている。彼女の服ではなかった。" data-ko="눈을 뜨자 머리 위로 그을린 대나무 덮개가 둥글게 휘어 있었다. 배는 물결을 따라 가만히 흔들렸고, 습한 공기에는 물비린내와 오래된 나무의 퀴퀴한 냄새가 감돌았다. 몸을 내려다보니 거친 베로 지은 맞깃옷을 입고 있었다. 소맷부리는 닳아 보풀이 일었다. 자신의 옷이 아니었다." data-pt-br="Quando abriu os olhos, viu acima de si o arco enegrecido de uma cobertura de bambu. O barco balançava suavemente nas ondas, e o ar guardava a umidade do rio e o cheiro abafado de madeira velha. Olhou para o próprio corpo: vestia uma túnica de tecido grosseiro, cruzada à frente, com os punhos puídos. Não eram suas roupas." data-ru="Открыв глаза, она увидела потемневший бамбуковый навес, изгибающийся над ней. Лодка мягко покачивалась на волнах, во влажном воздухе стоял затхлый запах старого дерева. Она посмотрела на себя: грубая ткань, свободно запахнутый ворот, обтрёпанные рукава — это всё не её одежда." data-vi="Khi mở mắt ra, phía trên đỉnh đầu là một vòm mui thuyền bằng tre hun khói đen sì. Thân thuyền khẽ lắc lư theo từng con sóng, trong không khí phảng phất hơi nước ẩm ướt và mùi ẩm mốc của gỗ cũ. Cô cúi đầu nhìn lại mình, trên người là một bộ y phục vải thô cổ chéo, cổ tay áo sờn xơ cả lông. Đây không phải quần áo của cô." data-zh="睁开眼时，头顶是一弯熏黑的竹篷。船身随水波轻轻摇晃，空气里浮着水汽和旧木头的闷味。她低头看自己，一身粗布交领衣裳，袖口磨得起毛。不是她的衣服。" data-zh-hant="睜開眼時，頭頂是一彎燻黑的竹篷。船身隨水波輕輕搖晃，空氣裡浮著水汽和舊木頭的悶味。她低頭看自己，一身粗布交領衣裳，袖口磨得起毛。不是她的衣服。">睁开眼时，头顶是一弯熏黑的竹篷。船身随水波轻轻摇晃，空气里浮着水汽和旧木头的闷味。她低头看自己，一身粗布交领衣裳，袖口磨得起毛。不是她的衣服。</p>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="خُيّل إليها أنها أفاقت من حلم طويل جدًا؛ كأنها زارت أماكن كثيرة والتقت أناسًا كثيرين. لكنها كلما حاولت التذكر لم تمسك بشيء. لم يبقَ سوى إنهاك ثقيل غائم يجثم على جسدها." data-en="She felt as though she had dreamed a very long dream—traveled to many places, met many people. Yet whenever she reached for a memory, there was nothing to grasp. Only a leaden weariness remained, pressing down on her body." data-es="Tenía la sensación de haber despertado de un sueño interminable. Como si hubiera recorrido muchos lugares y conocido a muchas personas. Pero cuando intentaba recordarlos, no conseguía aferrar nada. Solo quedaba un cansancio turbio y pesado que le aplastaba el cuerpo." data-fr="Elle avait l’impression de sortir d’un rêve interminable, d’avoir parcouru quantité de lieux et rencontré quantité de gens. Mais dès qu’elle tentait de s’en souvenir, rien ne se laissait saisir. Il ne restait qu’une fatigue trouble, pesante, qui lui écrasait le corps." data-ja="ひどく長い夢を見ていた気がした。いくつもの場所へ行き、多くの人に会ったはずなのに、思い出そうとすると何ひとつつかめない。ただ、朦朧とした疲労だけが重く身体にのしかかっていた。" data-ko="아주 긴 꿈을 꾼 듯했다. 수많은 곳을 다니고 많은 사람을 만난 것 같은데, 막상 떠올리려 하면 무엇 하나 손에 잡히지 않았다. 몽롱한 피로만이 무겁게 몸을 짓누르고 있었다." data-pt-br="Tinha a impressão de haver sonhado por muito tempo — viajado por muitos lugares, encontrado muitas pessoas. Mas, quando tentava se lembrar, nada conseguia agarrar. Restava apenas um cansaço nebuloso pesando sobre o corpo." data-ru="Казалось, что ей снился очень долгий сон — будто она побывала во множестве мест, встретив много людей. Но стоило попытаться вспомнить хоть что-то — всё ускользало. Осталась только тяжёлая, дурманящая усталость, сковавшая тело." data-vi="Cô cảm thấy mình vừa trải qua một giấc mộng rất dài, dường như đã đi qua rất nhiều nơi, gặp gỡ rất nhiều người, nhưng hễ cứ cố nhớ lại thì chẳng thể nắm bắt được điều gì, chỉ còn lại nỗi mệt mỏi trĩu nặng đè lên thân thể mê man." data-zh="她觉得自己做了一个很长的梦，好像去过很多地方，见过很多人，可真要去想，却又什么都抓不住，只剩一种昏昏沉沉的疲惫压在身上。" data-zh-hant="她覺得自己做了一個很長的夢，好像去過很多地方，見過很多人，可真要去想，卻又什麼都抓不住，只剩一種昏昏沉沉的疲憊壓在身上。">她觉得自己做了一个很长的梦，好像去过很多地方，见过很多人，可真要去想，却又什么都抓不住，只剩一种昏昏沉沉的疲惫压在身上。</p>
+<figure class="panel" data-panel="4" style="--ratio:0.52441406;">
+<img alt="" src="media/pro-8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="طفا ضباب الصباح فوق النهر، وبدت الجبال على الضفة الأخرى باهتة كحبر لم يجف بعد. لا جسر، ولا أسلاك كهرباء، ولا شيء ينتمي إلى عالمها." data-en="Morning mist drifted over the river. The mountains on the opposite bank were pale as ink not yet dry. No bridge. No power lines. Nothing that belonged to her world." data-es="La niebla de la mañana flotaba sobre el río. Las montañas de la otra orilla eran tan tenues como tinta aún húmeda. No había puentes ni tendidos eléctricos; nada pertenecía al mundo que ella conocía." data-fr="La brume du matin flottait sur le fleuve. Les montagnes de l’autre rive étaient pâles comme une encre qui n’aurait pas fini de sécher. Pas de pont. Pas de lignes électriques. Rien qui appartînt à son monde." data-ja="川面には朝霧が浮かび、対岸の山影は乾ききらない墨のように淡かった。橋も、電線もない。彼女の世界に属するものは、どこにもなかった。" data-ko="강 위에는 아침 안개가 떠 있었고, 건너편 산 그림자는 채 마르지 않은 먹처럼 흐렸다. 다리도, 전깃줄도 없었다. 그녀가 알던 세계의 것은 아무것도 보이지 않았다." data-pt-br="A névoa da manhã pairava sobre o rio; as montanhas na outra margem eram pálidas como tinta ainda úmida. Não havia pontes, fios elétricos ou qualquer coisa pertencente ao mundo que ela conhecia." data-ru="Над рекой плыл утренний туман. Очертания гор на другом берегу отражались в воде, будто сырая акварель. Ни моста, ни проводов — ничего из того мира, к которому она привыкла." data-vi="Mặt sông phủ đầy sương sớm, bóng núi bờ bên kia mờ nhạt tựa như vệt mực chưa ráo nước. Không có cầu, không có dây điện, không có bất cứ thứ gì thuộc về thế giới của cô." data-zh="江面浮着晨雾，对岸山影淡得像没干透的墨。没有桥，没有电线，没有任何属于她那个世界的东西。" data-zh-hant="江面浮著晨霧，對岸山影淡得像沒乾透的墨。沒有橋，沒有電線，沒有任何屬於她那個世界的東西。">江面浮着晨雾，对岸山影淡得像没干透的墨。没有桥，没有电线，没有任何属于她那个世界的东西。</p>
+<p class="text left prose" data-ar="وقف شاب عند مقدمة القارب، مولّيًا ظهره إليها، يمسك عصًا طويلة من الخيزران. كان يرتدي سترة قصيرة خشنة مرقعة عند الكتف، وقد رفع ساقي سرواله إلى ركبتيه. غطى الطين اليابس ساقيه، ولوّحت الشمس بشرته. كانت مفاصل أصابعه العريضة غليظة، تعلوها مسامير قاسية؛ يدا رجل أمضى عمره يصارع الأرض والعمل الشاق. ظل واقفًا بلا حراك يحدق في الضفة، والعصا مغروسة مائلة في قاع النهر، والقارب راسٍ عند اللسان الرملي، مستعدًا للرحيل في أي لحظة." data-en="A young man stood at the bow with his back to her, a long bamboo pole in his hands. His coarse jacket was patched at the shoulder; his trousers were rolled to the knees, his shins caked with dry mud, his skin darkened by the sun. The knuckles around the pole were broad and thick with calluses—the hands of someone long accustomed to earth and hard labor. He stood motionless, watching the shore. The pole slanted into the riverbed, the boat moored against the shoal, ready to cast off at any moment." data-es="En la proa había un joven de espaldas a ella, aferrado a una larga pértiga de bambú. Vestía una chaqueta corta y burda, remendada en el hombro; llevaba los pantalones arremangados hasta las rodillas, barro seco en las pantorrillas y la piel oscurecida por el sol. Los nudillos de la mano que sujetaba la pértiga eran anchos y estaban cubiertos de gruesos callos: manos hechas a tratar toda la vida con la tierra y el esfuerzo. Permanecía inmóvil, mirando la orilla. La pértiga se hundía oblicua hasta el lecho del río, y la barca, amarrada junto al banco de arena, podía partir en cualquier momento." data-fr="Un jeune homme se tenait à la proue, dos à elle, une longue perche de bambou entre les mains. Sa veste courte et grossière était rapiécée à l’épaule ; son pantalon remonté jusqu’aux genoux laissait voir des tibias couverts de boue sèche et une peau brunie par le soleil. Ses doigts noueux, épaissis de callosités, étaient ceux d’un homme depuis toujours aux prises avec la terre et l’effort. Il regardait la rive sans bouger. La perche s’enfonçait de biais jusqu’au lit du fleuve ; amarrée contre le banc de sable, la barque pouvait repartir à tout instant." data-ja="舳先には一人の若者が、こちらに背を向け、長い竹竿を握って立っていた。粗末な短衣の肩には継ぎが当たり、膝までまくった裾からのぞく脛には乾いた泥がつき、肌は日に焼けて黒い。竿を握る指の関節は太く、厚い胼胝に覆われていた。長年、土と力仕事を相手にしてきた手だった。若者は岸を見つめたまま動かない。竹竿は斜めに川底へ差し込まれ、舟は砂州に繋がれ、いつでも岸を離れられるようになっていた。" data-ko="뱃머리에 한 젊은이가 등을 보인 채 긴 대나무 삿대를 쥐고 서 있었다. 거친 짧은 웃옷의 어깨에는 헝겊을 덧댔고, 바짓단은 무릎까지 걷어 올렸다. 종아리에는 마른 진흙이 묻어 있었고 피부는 햇볕에 검게 그을렸다. 삿대를 쥔 손마디는 굵고 두꺼운 굳은살이 박혀 있었다. 오랫동안 흙과 힘겨루기를 해 온 손이었다. 그는 움직이지 않고 강가만 바라보았다. 삿대는 비스듬히 강바닥에 박혀 있었고, 배는 모래톱에 대어 언제든 떠날 수 있었다." data-pt-br="Na proa, um jovem estava de costas, segurando uma longa vara de bambu. Vestia uma túnica curta e grosseira, remendada no ombro; as calças estavam arregaçadas até os joelhos, e as canelas traziam lama seca. Tinha a pele curtida pelo sol. Os dedos largos, cobertos de calos espessos, eram mãos acostumadas à terra e ao trabalho. Imóvel, contemplava a margem. A vara permanecia fincada obliquamente no leito do rio, mantendo o barco junto à praia, pronto para partir a qualquer instante." data-ru="Спиной к ней стоял юноша на носу лодки. Он упирался в дно реки длинным бамбуковым шестом. Одет как бедняк, на плече — заплатка. Кожа тёмная от солнца, закатанные до колен штанины не закрывали присохшую на ногах грязь. Широкие ладони в мозолях, крепкие и сильные пальцы: сразу видно, что человек всю жизнь пахал землю. Он стоял неподвижно, глядя на берег, а шест так и торчал наискось, воткнутый в речное дно. Лодка покачивалась у отмели, готовая отойти в любой момент." data-vi="Nơi mũi thuyền có một thanh niên đang đứng, quay lưng về phía cô, tay nắm một cây sào tre dài. Chàng mặc áo vải thô ngắn tay, trên vai đơm miếng vá, ống quần xắn cao đến đầu gối, bắp chân dính đầy bùn khô, làn da rám nắng sạm đen. Những khớp ngón tay nắm chặt cây sào to bè, đóng lớp chai dày cộm, đó là đôi bàn tay quanh năm gắn liền với đất đai và sức lực lao động. Chàng đứng thẳng nơi đầu thuyền đăm đăm nhìn lên bờ, bất động như tượng, cây sào tre cắm nghiêng vào lòng sông, con thuyền ghé sát mép bãi bồi, sẵn sàng rời bến bất cứ lúc nào." data-zh="船头立着一个青年，背对着她，握着一根长竹篙。短褐，肩上打着补丁，裤腿挽到膝盖，小腿沾着干泥，皮肤晒得黝黑。握篙的手指节宽大，结着厚茧，是一双常年同土地和力气打交道的手。他立在船头望着岸上，一动不动，竹篙斜插进江底，船檥在滩边，随时可以离岸。" data-zh-hant="船頭立著一個青年，背對著她，握著一根長竹篙。短褐，肩上打著補丁，褲腿挽到膝蓋，小腿沾著乾泥，皮膚曬得黝黑。握篙的手指節寬大，結著厚繭，是一雙常年同土地和力氣打交道的手。他立在船頭望著岸上，一動不動，竹篙斜插進江底，船檥在灘邊，隨時可以離岸。">船头立着一个青年，背对着她，握着一根长竹篙。短褐，肩上打着补丁，裤腿挽到膝盖，小腿沾着干泥，皮肤晒得黝黑。握篙的手指节宽大，结着厚茧，是一双常年同土地和力气打交道的手。他立在船头望着岸上，一动不动，竹篙斜插进江底，船檥在滩边，随时可以离岸。</p>
+<figure class="panel motion-panel is-motion motion-only-panel" data-motion-only="true" data-panel="5" style="--ratio:0.45781250; --motion-ratio:0.45781250; --still-ratio:0.45781250;">
+<video aria-hidden="true" autoplay="" class="motion-video" loop="" muted="" playsinline="" preload="auto" src="media/web/boat2-web-720p.mp4"></video>
+</figure>
+<p class="text left prose" data-ar="ازداد الضباب كثافة، كتلًا متتابعة تدفعها صفحة النهر. كان الضوء رماديًا شاحبًا، لا يدل على ساعة. هبّت الريح من جهة الضفة تحمل رائحة دم نفاذة ممزوجة بالدخان وعرق الخيل. وفي عمق الضباب لاح صوت بعيد خافت، كأن المسافة سحقت حوافر عشرات الآلاف وصيحات القتال حتى صارت هديرًا واحدًا منخفضًا." data-en="The mist thickened, mass upon mass rolling in from the river. The light was ashen; there was no telling the hour. Wind came off the bank, heavy with blood, smoke, and horse sweat. Somewhere deep in the fog, a sound gathered—distant and dull, as though tens of thousands of hooves and battle cries had been ground by distance into a single low thunder." data-es="La niebla se espesaba. Llegaba desde el río en densos jirones, bajo una claridad gris en la que era imposible adivinar la hora. El viento soplaba desde la orilla, cargado de sangre, humo y sudor de caballo. En lo más hondo de la bruma latía un rumor remoto y apagado, como si la distancia hubiera triturado decenas de miles de cascos y gritos de batalla hasta reducirlos a un único fragor profundo." data-fr="La brume s’épaississait, poussée en masses depuis le fleuve. Le jour était gris cendre ; impossible de deviner l’heure. Le vent venu de la rive charriait une forte odeur de sang, mêlée de fumée et de sueur de cheval. Au plus profond du brouillard grondait un son lointain, émoussé, comme si la distance avait broyé des dizaines de milliers de sabots et de cris de guerre pour n’en laisser qu’un seul roulement sourd." data-ja="霧は次第に濃くなり、幾重にも固まって川面から押し寄せてくる。空は灰白く、時刻も知れない。岸から吹く風には濃い血の臭いがあり、煙と馬の汗が混じっていた。霧の奥では、はるか遠く鈍い音がしている。幾万の蹄と鬨の声が、距離に磨り潰され、一つの低い轟きになったようだった。" data-ko="안개는 갈수록 짙어졌다. 덩어리진 안개가 강 위에서 밀려오고, 하늘빛은 잿빛이라 시각을 가늠할 수 없었다. 강가에서 불어오는 바람에는 짙은 피 냄새와 연기, 말의 땀 냄새가 뒤섞여 있었다. 안개 깊은 곳에서 희미한 소리가 들렸다. 아주 멀고 둔한 소리. 수만 필의 말발굽과 함성이 먼 거리에 갈려 하나의 낮은 굉음이 된 듯했다." data-pt-br="A névoa se adensava em ondas sobre o rio. O céu era de um branco acinzentado, impossível saber a hora. O vento vindo da margem trazia um forte cheiro de sangue misturado a fumaça e suor de cavalo. Nas profundezas da bruma havia um som indistinto, distante e pesado — dezenas de milhares de cascos e gritos de batalha reduzidos pela distância a um só estrondo grave." data-ru="Туман густел, наплывая с реки. Небо было мутно-серым — невозможно было понять, который час. С берега тянул тяжёлый запах конского пота, дыма и крови; и где-то там, в глубине, слышался глухой гул, словно далёкий топот тысяч копыт и крики боя слились в единый низкий рокот." data-vi="Sương mù mỗi lúc một dày đặc, từng cụm từng cụm cuồn cuộn tràn qua từ mặt sông, sắc trời xám xịt chẳng rõ giờ khắc nào. Gió từ bờ bên kia thổi tới, mang theo mùi máu tanh nồng nặc, lẫn vào khói lửa và mùi mồ hôi ngựa ngai ngái. Nơi sâu thẳm trong màn sương mơ hồ vọng lại âm thanh, xa xôi mà trầm đục, tựa như tiếng vó ngựa của vạn quân và tiếng hò reo chém giết bị khoảng cách nghiền nát thành một tràng ầm ì rền rĩ." data-zh="雾越来越浓，一团一团从江面推过来，天光灰白，辨不出时辰。风从岸那边吹来，带着很浓的血腥味，混着烟和马汗的气息。雾的深处隐隐有声音，极远极钝，像几万只马蹄和喊杀被距离磨成一片低低的轰鸣。" data-zh-hant="霧越來越濃，一團一團從江面推過來，天光灰白，辨不出時辰。風從岸那邊吹來，帶著很濃的血腥味，混著煙和馬汗的氣息。霧的深處隱隱有聲音，極遠極鈍，像幾萬隻馬蹄和喊殺被距離磨成一片低低的轟鳴。">雾越来越浓，一团一团从江面推过来，天光灰白，辨不出时辰。风从岸那边吹来，带着很浓的血腥味，混着烟和马汗的气息。雾的深处隐隐有声音，极远极钝，像几万只马蹄和喊杀被距离磨成一片低低的轰鸣。</p>
+<p class="text left prose" data-ar="ظل الشاب ينتظر، وعيناه ثابتتان. بدا كأنه ينتظر منذ زمن طويل، ولا يبالي كم سيطول انتظاره بعد." data-en="The young man kept waiting, his gaze fixed. He looked as if he had already waited a very long time, and would not mind waiting longer." data-es="El joven seguía esperando, con la mirada fija. Parecía llevar allí mucho tiempo y no importarle cuánto más tendría que aguardar." data-fr="Le jeune homme attendait toujours, le regard fixe. Il semblait attendre depuis longtemps déjà, sans se soucier du temps qu’il lui faudrait encore patienter." data-ja="若者はなおも待っていた。視線を動かさず、とうに長い時を待ち続け、これからどれほど待つことになっても構わないというように。" data-ko="젊은이는 여전히 기다렸다. 눈길은 한곳에 박혀 있었다. 이미 오래 기다렸으며, 앞으로 얼마나 더 기다리든 상관없다는 듯했다." data-pt-br="O jovem continuava esperando, os olhos fixos na margem, como se já esperasse havia muito tempo e não se importasse com quanto ainda teria de esperar." data-ru="Юноша застыл, устремив взгляд вперёд, будто ждал уже целую вечность и готов был ждать ещё столько же." data-vi="Chàng thanh niên vẫn đang kiên nhẫn đợi, ánh mắt chăm chú bất động, tựa hồ đã đứng đợi từ rất lâu, và cũng chẳng màng việc phải đợi thêm bao lâu nữa." data-zh="青年还在等，目光定定的，像已经等了很久，也不在乎再等多久。" data-zh-hant="青年還在等，目光定定的，像已經等了很久，也不在乎再等多久。">青年还在等，目光定定的，像已经等了很久，也不在乎再等多久。</p>
+<figure class="panel" data-panel="6" style="--ratio:1.77777778;">
+<img alt="" src="media/pro-12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="نظرت ماهينا إلى النهر من تحت السقف الأسود. لم ترَ في البداية سوى الضباب. وحين شقت الريح فيه ثغرة، أبصرت في البعيد ظلًا هائلًا واقفًا؛ يشبه جبلًا، وليس بجبل. كاد الجسد الرمادي الأسود يذوب في الضباب. كان ضخمًا، صامتًا، ساكنًا بين السماء والأرض، يشرف على ضفة النهر كإله." data-en="Mahina looked past the black canopy toward the river. At first there was only fog. Then the wind tore a rent in it, and far away she saw an immense shadow standing there—like a mountain, yet not a mountain. The gray-black form had nearly merged with the mist: vast, silent, unmoving between heaven and earth, looking down upon the riverbank like a god." data-es="Mahina miró el río más allá del toldo negro. Al principio solo vio niebla. Cuando el viento abrió una brecha, distinguió a lo lejos una sombra inmensa: parecía una montaña, pero no lo era. La figura gris y negra casi se fundía con la bruma. Enorme, silenciosa, inmóvil entre cielo y tierra, contemplaba la ribera como una divinidad." data-fr="Mahina contempla le fleuve au-delà de la natte noire. Elle ne vit d’abord que la brume. Puis le vent y déchira une ouverture, et elle aperçut très loin une ombre immense : on aurait dit une montagne, mais ce n’en était pas une. La forme gris-noir se fondait presque dans le brouillard. Gigantesque, silencieuse, immobile entre ciel et terre, elle dominait la rive tel un dieu." data-ja="マヒナが黒い苫の外へ目を向けると、初めは霧しか見えなかった。風が霧を引き裂いたとき、はるか彼方に巨大な影が立っているのが見えた。山のようでいて、山ではない。灰黒い姿はほとんど霧と溶け合い、巨大で、沈黙し、天地のあわいに微動だにせず立ち、この川岸を神のように見下ろしていた。" data-ko="마히나는 검은 덮개 밖 강물을 바라보았다. 처음에는 안개뿐이었다. 바람이 안개를 찢어 틈을 만들자, 아주 먼 곳에 거대한 그림자가 서 있는 것이 보였다. 산 같았지만 산은 아니었다. 잿빛과 검은빛이 뒤섞인 형체는 안개에 거의 녹아 있었다. 거대하고 침묵한 채 천지 사이에 미동도 없이 서서, 신처럼 강가를 굽어보고 있었다." data-pt-br="Mahina olhou para além da cobertura do barco. A princípio viu apenas névoa. Quando o vento abriu nela uma fenda, surgiu muito longe uma sombra gigantesca, semelhante a uma montanha — mas não era uma montanha. A figura cinzenta quase se confundia com a bruma. Imensa, silenciosa e imóvel entre céu e terra, contemplava aquela margem do rio como uma divindade." data-ru="Юэя выглянула из-под чёрного занавеса лодки. Сперва был только туман, но когда ветер разорвал его, вдалеке она увидела огромную тень, похожую на гору. Серо-чёрный силуэт почти сливался с окружающим его туманом, огромный и безмолвный, он неподвижно стоял между небом и землёй, созерцая происходящее на берегу, как божество." data-vi="Nguyệt Nha Nhi nhìn ra mặt sông bên ngoài mui thuyền, thoạt đầu chỉ thấy một màn sương mịt mù. Đến khi gió xé toạc sương mù ra một khe hở, cô mới nhìn thấy ở nơi rất xa có một bóng hình khổng lồ sừng sững, tựa như một ngọn núi, nhưng lại không phải núi. Dáng hình xám đen ấy gần như hòa làm một với làn sương khói, đồ sộ, lặng câm, đứng sừng sững bất động giữa đất trời, nhìn xuống dải bờ sông này tựa như một vị thần minh." data-zh="月牙儿望向乌篷外的江面，起初只有雾。风把雾扯开一道口子的时候，她看见很远的地方立着一个巨大的影子，像山，又不是山。那灰黑的身影几乎和雾融在一起，庞大，沉默，一动不动地立在天地之间，俯瞰着这片江岸，宛若神明。" data-zh-hant="月牙兒望向烏篷外的江面，起初只有霧。風把霧扯開一道口子的時候，她看見很遠的地方立著一個巨大的影子，像山，又不是山。那灰黑的身影幾乎和霧融在一起，龐大，沉默，一動不動地立在天地之間，俯瞰著這片江岸，宛若神明。">月牙儿望向乌篷外的江面，起初只有雾。风把雾扯开一道口子的时候，她看见很远的地方立着一个巨大的影子，像山，又不是山。那灰黑的身影几乎和雾融在一起，庞大，沉默，一动不动地立在天地之间，俯瞰着这片江岸，宛若神明。</p>
+<p class="text left prose" data-ar="حشرة السحاب." data-en="CloudInsect." data-es="CloudInsect." data-fr="L’Insecte-Nuage." data-ja="雲虫。" data-ko="운충." data-pt-br="Um Inseto-Nuvem." data-ru="Облачное насекомое." data-vi="Vân Trùng." data-zh="云虫。" data-zh-hant="雲蟲。">云虫。</p>
+<p class="text left prose" data-ar="في مكان لا تعرف حتى إلى أي عصر ينتمي، كان ذلك الشيء الوحيد الذي عرفته. لم يقترب، ولم يصدر صوتًا. وقف هناك فحسب، كأنه ينتظر ليسجّل كل ما أوشك أن يقع." data-en="In a place where she did not even know the century, it was the only thing she recognized. It neither approached nor made a sound. It simply stood there, as though waiting to record everything about to happen." data-es="En un lugar donde ni siquiera sabía en qué época se encontraba, era lo único que reconocía. No se acercaba ni emitía sonido alguno. Se limitaba a permanecer allí, como si esperara para dejar constancia de cuanto estaba a punto de suceder." data-fr="Dans un lieu dont elle ignorait jusqu’à l’époque, c’était la seule chose qu’elle reconnût. Il n’approchait pas, ne faisait aucun bruit. Il se tenait simplement là, comme s’il attendait de consigner tout ce qui allait se produire." data-ja="時代さえわからないこの場所で、彼女が知っているものはそれだけだった。近づきもせず、声も発さず、ただそこに立っている。これから起こるすべてを記すために待っているかのように。" data-ko="어느 시대인지조차 알 수 없는 이곳에서, 그녀가 알아보는 것은 그것 하나뿐이었다. 가까이 오지도, 소리를 내지도 않고 그저 서 있었다. 이제 곧 벌어질 모든 일을 기록하려 기다리는 것처럼." data-pt-br="Naquele lugar cuja própria época ela desconhecia, era a única coisa que reconhecia. Não se aproximava nem emitia som. Apenas permanecia ali, como se aguardasse para registrar tudo o que estava prestes a acontecer." data-ru="Место было незнакомым, и она не знала, в какую эпоху попала, — единственным, что казалось знакомым, было оно. Оно не двигалось, не издавало ни звука, просто стояло, словно ожидая запечатлеть всё, что вот-вот случится." data-vi="Ở một nơi chốn đến cả niên đại cũng chẳng hề hay biết này, thứ duy nhất cô nhận ra, chỉ có nó. Nó không tiến lại gần, cũng chẳng phát ra tiếng động, chỉ đứng yên nơi đó, tựa như đang đợi để ghi chép lại toàn bộ những gì sắp sửa xảy ra." data-zh="在这个连年代都不知道的地方，她唯一认得的，只有它。它不靠近，也不出声，只是立在那里，像在等着记下即将发生的一切。" data-zh-hant="在這個連年代都不知道的地方，她唯一認得的，只有它。它不靠近，也不出聲，只是立在那裡，像在等著記下即將發生的一切。">在这个连年代都不知道的地方，她唯一认得的，只有它。它不靠近，也不出声，只是立在那里，像在等着记下即将发生的一切。</p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="مر وقت طويل قبل أن تستعيد ماهينا صوتها." data-en="A long time passed before Mahina found her voice." data-es="Pasó mucho tiempo antes de que Mahina recuperara la voz." data-fr="Il fallut longtemps à Mahina pour retrouver sa voix." data-ja="どれほど経ったのか。ようやくマヒナは声を取り戻した。" data-ko="얼마나 시간이 흘렀을까. 마히나는 겨우 목소리를 되찾았다." data-pt-br="Mahina só recuperou a voz muito tempo depois." data-ru="Неизвестно сколько времени прошло, прежде чем Юэя наконец спросила:" data-vi="Không biết đã trôi qua bao lâu, Nguyệt Nha Nhi mới tìm lại được giọng nói của mình." data-zh="不知过了多久，月牙儿才找回自己的声音。" data-zh-hant="不知過了多久，月牙兒才找回自己的聲音。">不知过了多久，月牙儿才找回自己的声音。</p>
+<p class="text moon speech" data-ar="«عفوًا… أين نحن؟»" data-en="“Excuse me… where are we?”" data-es="«Disculpe… ¿dónde estamos?»" data-fr="« Excusez-moi… où sommes-nous ? »" data-ja="「あの……ここは、どこですか？」" data-ko="“실례지만…… 여기가 어디죠?”" data-pt-br="“Com licença… onde estamos?”" data-ru='"Простите… где мы?"' data-vi="“Xin hỏi…… đây là đâu?”" data-zh="“请问……这是哪里？”" data-zh-hant="“請問……這是哪裡？”">“请问……这是哪里？”</p>
+<p class="text left prose" data-ar="نبض الألم في صدغيها. كانت تشعر أنها عاشت أشياء كثيرة والتقت أناسًا كثيرين، لكنها لم تستطع تذكّر حادثة واحدة. لم تجد في فمها غير ذلك السؤال." data-en="Pain pulsed at her temples. She knew she had lived through many things and met many people, yet she could recall none of them. This was the only question she could manage." data-es="Las sienes le palpitaban de dolor. Estaba segura de haber vivido muchas cosas, de haber conocido a mucha gente, pero no podía recordar una sola. Aquella era la única pregunta que conseguía formular." data-fr="Ses tempes battaient douloureusement. Elle avait la certitude d’avoir vécu beaucoup de choses, rencontré beaucoup de gens, mais elle ne se rappelait rien. Cette question était la seule qu’elle parvenait à formuler." data-ja="こめかみが脈打つように痛んだ。多くの出来事をくぐり、多くの人に会った気がするのに、一つとして思い出せない。口にできたのは、その問いだけだった。" data-ko="관자놀이가 욱신거렸다. 많은 일을 겪고 많은 사람을 만난 것 같은데, 단 하나도 기억나지 않았다. 입 밖으로 낼 수 있는 말은 그것뿐이었다." data-pt-br="As têmporas latejavam. Ela sabia que vivera muitas coisas e encontrara muita gente, mas não conseguia recordar um único episódio. Aquela era a única pergunta que conseguia fazer." data-ru="Виски пульсировали от боли. Позади осталось столько всего — какие-то события, какие-то люди, — но осознать хоть что-то из этого не получалось.
+С её губ сорвался лишь один вопрос." data-vi="Hai bên thái dương đau giật từng cơn. Cô rõ ràng cảm thấy mình đã trải qua rất nhiều chuyện, gặp gỡ rất nhiều người, nhưng một chuyện cũng chẳng nhớ nổi, câu duy nhất có thể thốt ra thành lời lúc này chỉ có câu đó." data-zh="太阳穴一跳一跳地疼。她明明觉得自己经历了很多事，见过很多人，可一件也想不起来，能问出口的，只有这一句。" data-zh-hant="太陽穴一跳一跳地疼。她明明覺得自己經歷了很多事，見過很多人，可一件也想不起來，能問出口的，只有這一句。">太阳穴一跳一跳地疼。她明明觉得自己经历了很多事，见过很多人，可一件也想不起来，能问出口的，只有这一句。</p>
+<p class="text right prose" data-ar="رمقها الشاب بنظرة، ثم أعاد عينيه إلى الضفة. لم يبدُ متفاجئًا من ظهور شخص آخر في قاربه." data-en="The young man glanced at her, then turned his eyes back to the shore. He did not seem surprised that someone else had appeared in his boat." data-es="El joven le lanzó una mirada y volvió a fijarse en la orilla. No parecía sorprendido de que hubiera aparecido alguien más en la barca." data-fr="Le jeune homme lui jeta un regard, puis reporta les yeux sur la rive. Il ne semblait nullement surpris qu’une personne de plus se fût matérialisée dans sa barque." data-ja="若者は彼女を一瞥し、すぐ岸へ視線を戻した。舟の中に人が一人増えていることを、少しも不思議に思っていないようだった。" data-ko="젊은이는 그녀를 힐끗 보고 다시 강가로 시선을 돌렸다. 배 안에 사람이 하나 늘어난 것을 조금도 이상하게 여기지 않는 듯했다." data-pt-br="O jovem lançou-lhe um olhar e voltou a fitar a margem. A presença inesperada de outra pessoa no barco não parecia surpreendê-lo." data-ru="Юноша посмотрел на неё, затем снова перевёл взгляд на берег. Появление ещё одного человека в лодке его, похоже, не удивляло." data-vi="Chàng thanh niên liếc nhìn cô một cái, rồi ánh mắt lại quay về phía bờ sông. Đối với việc trong thuyền bỗng dưng xuất hiện thêm một người, chàng dường như chẳng hề ngạc nhiên." data-zh="青年瞥了她一眼，目光又回到岸上。对船里多出来一个人，他似乎并不意外。" data-zh-hant="青年瞥了她一眼，目光又回到岸上。對船裡多出來一個人，他似乎並不意外。">青年瞥了她一眼，目光又回到岸上。对船里多出来一个人，他似乎并不意外。</p>
+<p class="text speech right"><span class="other" data-ar="«ووجيانغ.»" data-en="“Wujiang.”" data-es="«Wujiang.»" data-fr="« Wujiang. »" data-ja="「烏江だ。」" data-ko="“오강이오.”" data-pt-br="“No rio Wu.”" data-ru='"Уцзян,"' data-vi="“Ô Giang.”" data-zh="“乌江。”" data-zh-hant="“烏江。”">“乌江。”</span><span class="i18n-fragment" data-ar="قال." data-en="he said." data-es="dijo." data-fr="dit-il." data-ja="と、彼は言った。" data-ko="그가 말했다." data-pt-br="Disse ele:" data-ru=" — сказал он. — " data-vi="Chàng nói," data-zh="他说，" data-zh-hant="他說，">他说，</span><span class="other" data-ar="«جئنا إلى هنا لنأخذ شخصًا.»" data-en="“We’re here to pick someone up.”" data-es="«Estamos aquí para recoger a alguien.»" data-fr="« Nous sommes venus chercher quelqu’un. »" data-ja="「ここへ、ある人を迎えに来た。」" data-ko="“여기 사람 하나를 데리러 왔소.”" data-pt-br="“Estamos aqui para buscar alguém.”" data-ru='"Мы здесь, чтобы забрать одного человека."' data-vi="“Chúng ta ở đây để đón một người.”" data-zh="“我们在这儿接一个人。”" data-zh-hant="“我們在這兒接一個人。”">“我们在这儿接一个人。”</span></p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech" data-ar="«ووجيانغ؟ جئتم لتأخذوا شخصًا؟»" data-en="“Wujiang? Picking someone up?”" data-es="«¿Wujiang? ¿Venís a recoger a alguien?»" data-fr="« Wujiang ? Vous êtes venus chercher quelqu’un ? »" data-ja="「烏江？　人を迎えに来たの？」" data-ko="“오강? 사람을 데리러 왔다고요?”" data-pt-br="“O rio Wu? Para buscar alguém?”" data-ru='"Уцзян? Забрать человека?"' data-vi="“Ô Giang? Đón người?”" data-zh="“乌江？接人？”" data-zh-hant="“烏江？接人？”">“乌江？接人？”</p>
+<p class="text left prose" data-ar="أفلتت من ماهينا ضحكة غير مصدقة. كان الأمر عبثيًا أكثر مما ينبغي." data-en="Mahina gave a short, incredulous laugh. It was absurd." data-es="Mahina dejó escapar una risa incrédula. Era demasiado absurdo." data-fr="Mahina laissa échapper un rire incrédule. C’était absurde." data-ja="マヒナは思わず笑いを漏らした。あまりにも突拍子がない。" data-ko="마히나는 어이없다는 듯 짧게 웃었다. 너무 황당했다." data-pt-br="Mahina deixou escapar uma risada. Era absurdo demais." data-ru="Юэя невольно усмехнулась. Это уже слишком." data-vi="Nguyệt Nha Nhi bật cười một tiếng. Thật quá mức hoang đường." data-zh="月牙儿失笑了一声。太离谱了。" data-zh-hant="月牙兒失笑了一聲。太離譜了。">月牙儿失笑了一声。太离谱了。</p>
+<p class="text moon speech" data-ar="«…لا تقل لي إنه شيانغ يو؟»" data-en="“…Don’t tell me it’s Xiang Yu.”" data-es="«…No me diga que es Xiang Yu.»" data-fr="« … Ne me dites pas que c’est Xiang Yu. »" data-ja="「……まさか、項羽？」" data-ko="“……설마, 항우예요?”" data-pt-br="“…Não me diga que é Xiang Yu.”" data-ru='"...Не говорите мне, что этот человек — Сян Юй."' data-vi="“……Chẳng lẽ lại là…… Hạng Vũ?”" data-zh="“……难不成，是项羽？”" data-zh-hant="“……難不成，是項羽？”">“……难不成，是项羽？”</p>
+<p class="text speech other right" data-ar="«نعم.»" data-en="“Yes.”" data-es="«Sí.»" data-fr="« Si. »" data-ja="「そうだ。」" data-ko="“그렇소.”" data-pt-br="“É.”" data-ru='"Именно."' data-vi="“Đúng vậy.”" data-zh="“对。”" data-zh-hant="“對。”">“对。”</p>
+<p class="text speech left"><span class="moon" data-ar="«إذن… لن يصعد إلى القارب.»" data-en="“Then… he won’t get on the boat.”" data-es="«Entonces… no subirá a la barca.»" data-fr="« Alors… il ne montera pas dans la barque. »" data-ja="「なら……あの人は舟には乗らない。」" data-ko="“그럼…… 그 사람은 배에 오르지 않을 텐데.”" data-pt-br="“Mas… ele não vai entrar no barco.”" data-ru='"Тогда... он не сядет в лодку,"' data-vi="“Thế nhưng…… ông ấy sẽ không lên thuyền đâu.”" data-zh="“那……他不会上船的。”" data-zh-hant="“那……他不會上船的。”">“那……他不会上船的。”</span><span class="i18n-fragment" data-ar="خرج الجواب من ماهينا قبل أن تفكر." data-en="The answer escaped Mahina before she had time to think." data-es="Mahina respondió antes de poder pensarlo." data-fr="La réponse échappa à Mahina avant même qu’elle pût y réfléchir." data-ja="マヒナは考えるより先にそう口にしていた。" data-ko="마히나는 생각할 틈도 없이 대꾸했다." data-pt-br="Mahina respondeu sem pensar." data-ru=" — вырвалось у Юэи прежде, чем она успела подумать." data-vi="Nguyệt Nha Nhi buột miệng nói theo bản năng." data-zh="月牙儿不假思索地接了一句。" data-zh-hant="月牙兒不假思索地接了一句。">月牙儿不假思索地接了一句。</span></p>
+<p class="text speech other right" data-ar="«أعرف.»" data-en="“I know.”" data-es="«Lo sé.»" data-fr="« Je sais. »" data-ja="「知っている。」" data-ko="“알고 있소.”" data-pt-br="“Eu sei.”" data-ru='"Я знаю."' data-vi="“Ta biết.”" data-zh="“我知道。”" data-zh-hant="“我知道。”">“我知道。”</p>
+<p class="text right prose" data-ar="جاء رده أسرع، هادئًا كأنه يعلّق على ضباب ذلك الصباح." data-en="His reply came even faster, as calmly as if he were remarking on the fog." data-es="Él se adelantó aún más, con la misma calma que si hubiera comentado que aquel día había niebla." data-fr="Il avait répondu plus vite encore, avec le calme de quelqu’un qui aurait simplement fait remarquer la brume." data-ja="返事はさらに早かった。今日も霧だ、とでも言うように穏やかだった。" data-ko="그의 대답은 더 빨랐다. 오늘 안개가 끼었다고 말하는 것처럼 담담했다." data-pt-br="Ele foi ainda mais rápido, com a serenidade de quem comentava a névoa daquela manhã." data-ru="Он ответил ещё быстрее, так спокойно, будто это очевидно." data-vi="Chàng đáp lại còn nhanh hơn, bình thản như thể đang nói về chuyện hôm nay trời có sương mù." data-zh="他接得更快，平静得像在说今日有雾。" data-zh-hant="他接得更快，平靜得像在說今日有霧。">他接得更快，平静得像在说今日有雾。</p>
+<p class="text speech left"><span class="moon" data-ar="«وكيف تعرف؟»" data-en="“How do you know?”" data-es="«¿Cómo lo sabe?»" data-fr="« Comment le savez-vous ? »" data-ja="「どうしてわかるの？」" data-ko="“어떻게 알아요?”" data-pt-br="“Como sabe?”" data-ru='"Откуда вы знаете?"' data-vi="“Sao anh lại biết?”" data-zh="“你怎么知道？”" data-zh-hant="“你怎麼知道？”">“你怎么知道？”</span><span class="i18n-fragment" data-ar="سألت ماهينا." data-en="Mahina asked." data-es="preguntó Mahina." data-fr="demanda Mahina." data-ja="マヒナが尋ねた。" data-ko="마히나가 물었다." data-pt-br="Perguntou Mahina." data-ru=" — спросила Юэя." data-vi="Nguyệt Nha Nhi hỏi." data-zh="月牙儿问。" data-zh-hant="月牙兒問。">月牙儿问。</span></p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text right prose" data-ar="عندئذ فقط استدار الشاب. نظر إليها وابتسم ابتسامة خفيفة. لم تكن ابتسامة ازدراء، بل ابتسامة من عرف منذ البداية أنها ستطرح هذا السؤال." data-en="Only then did the young man turn. He looked at her and smiled faintly—not with contempt, but as if he had known all along that she would ask." data-es="Solo entonces el joven se volvió. La miró y sonrió apenas. No era una sonrisa desdeñosa, sino la de alguien que llevaba tiempo esperando aquella pregunta." data-fr="Alors seulement, le jeune homme se retourna. Il la regarda et sourit faiblement. Ce sourire n’avait rien de méprisant ; on aurait dit qu’il attendait cette question depuis le début." data-ja="そこで初めて若者は振り返り、彼女を見て、かすかに笑った。嘲る笑みではない。こう問われることを、とうに知っていたような笑みだった。" data-ko="그제야 젊은이가 돌아보았다. 그녀를 한 번 바라보고 옅게 웃었다. 비웃음이 아니었다. 언젠가 그녀가 이렇게 물을 줄 이미 알고 있었다는 듯한 웃음이었다." data-pt-br="Só então o jovem tornou a olhar para ela e sorriu de leve. Não havia desdém naquele sorriso; era como se já soubesse que ouviria a pergunta." data-ru="Только тогда юноша обернулся. Он взглянул на неё и едва заметно улыбнулся — не насмешливо, будто давно знал, что она задаст именно этот вопрос." data-vi="Lúc này chàng thanh niên mới quay đầu lại, nhìn cô, khẽ mỉm cười. Nụ cười ấy không hề mang vẻ khinh khi, mà như thể đã sớm liệu trước được cô sẽ hỏi câu này." data-zh="青年这才回过头来，看了她一眼，微微笑了笑。那笑不是不屑，倒像是早已料到她会这么问。" data-zh-hant="青年這才回過頭來，看了她一眼，微微笑了笑。那笑不是不屑，倒像是早已料到她會這麼問。">青年这才回过头来，看了她一眼，微微笑了笑。那笑不是不屑，倒像是早已料到她会这么问。</p>
+<p class="text speech other right" data-ar="«يا آنسة، لستِ الوحيدة من سكان السحاب في هذا العالم.»" data-en="“Young lady, you are not the only Cloud Dweller in this world.”" data-es="«Señorita, no es usted la única habitante de las nubes en este mundo.»" data-fr="« Mademoiselle, vous n’êtes pas la seule Habitante des nuages en ce monde. »" data-ja="「お嬢さん。この世の雲中人は、あなただけではない。」" data-ko="“낭자, 이 세상에 운중인이 그대 하나뿐인 것은 아니오.”" data-pt-br="“Moça, você não é a única Habitante das Nuvens neste mundo.”" data-ru='"Девушка, в этом мире вы не единственный Облачный человек."' data-vi="“Cô nương, thế gian này đâu phải chỉ có mình cô là người trong mây.”" data-zh="“姑娘，这世上，又不是只有你一个云中人。”" data-zh-hant="“姑娘，這世上，又不是只有你一個雲中人。”">“姑娘，这世上，又不是只有你一个云中人。”</p>
+<p class="text speech left"><span class="moon" data-ar="«…من سكان السحاب؟»" data-en="“…Cloud Dweller?”" data-es="«…¿Habitante de las nubes?»" data-fr="« … Habitante des nuages ? »" data-ja="「……雲中人？」" data-ko="“……운중인?”" data-pt-br="“…Habitante das Nuvens?”" data-ru='"...Облачный человек?"' data-vi="“……Người trong mây?”" data-zh="“……云中人？”" data-zh-hant="“……雲中人？”">“……云中人？”</span><span class="i18n-fragment" data-ar="عقدت ماهينا حاجبيها." data-en="Mahina frowned." data-es="Mahina frunció el ceño." data-fr="Mahina fronça les sourcils." data-ja="マヒナは眉をひそめた。" data-ko="마히나는 미간을 찌푸렸다." data-pt-br="Mahina franziu a testa." data-ru=" — Юэя нахмурилась." data-vi="Nguyệt Nha Nhi nhíu mày." data-zh="月牙儿皱起眉头。" data-zh-hant="月牙兒皺起眉頭。">月牙儿皱起眉头。</span></p>
+<figure class="panel" data-panel="10" style="--ratio:0.44677734;">
+<img alt="" src="media/pro-4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="في تلك اللحظة دبّت حركة على الضفة." data-en="At that moment, something stirred on the shore." data-es="En ese momento se oyó movimiento en la orilla." data-fr="À cet instant, quelque chose remua sur la rive." data-ja="そのとき、岸辺で何かが動いた。" data-ko="바로 그때, 강가에서 기척이 일었다." data-pt-br="Nesse momento, algo se moveu na margem." data-ru="Именно в этот момент на берегу началось движение." data-vi="Đúng lúc ấy, trên bờ bắt đầu có động tĩnh." data-zh="就在这时，岸上有了动静。" data-zh-hant="就在這時，岸上有了動靜。">就在这时，岸上有了动静。</p>
+<p class="text right prose" data-ar="اشتد وجه الشاب، وأشار إليها أن تلزم الصمت، ثم خفض صوته حتى صار همسًا:" data-en="The young man’s expression sharpened. He raised a finger to his lips and dropped his voice to a whisper:" data-es="El rostro del joven se tensó. Le indicó que guardara silencio y bajó la voz hasta convertirla en un susurro:" data-fr="Le visage du jeune homme se durcit. Il lui fit signe de se taire et baissa la voix jusqu’au murmure :" data-ja="若者の顔が引き締まった。彼女に黙るよう合図し、声をひどく低くした。" data-ko="젊은이의 얼굴이 굳었다. 그는 조용히 하라는 손짓을 보이며 목소리를 한껏 낮췄다." data-pt-br="A expressão do jovem se tornou austera. Fez-lhe sinal para guardar silêncio e murmurou:" data-ru="Юноша вдруг стал серьёзным.
+Он поднёс палец к губам и произнёс шёпотом:" data-vi="Sắc mặt chàng thanh niên lập tức trở nên nghiêm nghị, ra hiệu suỵt tay lên môi với cô, hạ giọng thật thấp:" data-zh="青年脸色一肃，朝她做了个噤声的手势，声音压得极低：" data-zh-hant="青年臉色一肅，朝她做了個噤聲的手勢，聲音壓得極低：">青年脸色一肃，朝她做了个噤声的手势，声音压得极低：</p>
+<p class="text speech other right" data-ar="«لا تصدري صوتًا. لقد جاء.»" data-en="“Not a sound. He’s here.”" data-es="«No haga ruido. Ya está aquí.»" data-fr="« Pas un bruit. Le voici. »" data-ja="「声を立てるな。来た。」" data-ko="“소리 내지 마시오. 그가 왔소.”" data-pt-br="“Não faça barulho. Ele chegou.”" data-ru='"Тихо. Он здесь."' data-vi="“Đừng lên tiếng. Ông ấy tới rồi.”" data-zh="“别出声。他来了。”" data-zh-hant="“別出聲。他來了。”">“别出声。他来了。”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="صدر حفيف أولًا من حقل القصب الغارق في الضباب. ثم بدأت ظلال راكبة تظهر تباعًا بين الأعواد." data-en="The reeds rustled first. Then riders began to emerge from the fog, one shadow after another pushing through the marsh." data-es="Primero crujió el cañaveral entre la niebla. Después, varias siluetas a caballo comenzaron a surgir de entre los juncos." data-fr="Les roseaux frémirent d’abord dans le brouillard. Puis des silhouettes à cheval émergèrent une à une de la roselière." data-ja="霧の中の葦原がまずざわめいた。やがて、馬に乗った影がいくつも葦の間から現れた。" data-ko="안개 속 갈대밭이 먼저 술렁였다. 이어 말을 탄 그림자들이 갈대 사이에서 하나둘 나타났다." data-pt-br="Primeiro, os juncos estremeceram dentro da névoa. Então algumas figuras a cavalo emergiram entre as plantas." data-ru="Сначала в тумане зашуршали заросли тростника, а затем из них, один за другим, стали проступать всадники." data-vi="Đầm lau sậy trong màn sương rào rào xao động trước, kế đó, vài bóng người cưỡi ngựa từ trong bụi rậm dần dần hiện ra." data-zh="雾里的芦苇荡先响了一阵，接着，一些身影骑着马，从苇丛中冒了出来。" data-zh-hant="霧裡的蘆葦蕩先響了一陣，接著，一些身影騎著馬，從葦叢中冒了出來。">雾里的芦苇荡先响了一阵，接着，一些身影骑着马，从苇丛中冒了出来。</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+<details class="history-card" data-history-person="xiang-yu">
+<summary title="Nhấn để xem tiểu sử nhân vật">
+<span class="history-card-title-row"><span class="history-card-kicker" data-ar="الملك المهيمن لتشو الغربية" data-en="HEGEMON-KING OF WESTERN CHU" data-es="REY HEGEMÓN DE CHU OCCIDENTAL" data-fr="ROI-HÉGÉMON DU CHU OCCIDENTAL" data-ja="西楚の覇王" data-ko="서초패왕" data-pt-br="Rei-Hegemônico de Chu Ocidental" data-ru="Гегемон Западной Чу" data-vi="TÂY SỞ BÁ VƯƠNG" data-zh="西楚霸王" data-zh-hant="西楚霸王">西楚霸王</span><span aria-hidden="true" class="history-card-action" data-ar="+" data-en="+" data-es="+" data-fr="+" data-ja="+" data-ko="+" data-pt-br="+" data-ru="+" data-vi="+" data-zh="+" data-zh-hant="+">+</span></span>
+<span class="history-card-identity"><span class="history-card-name" data-ar="شيانغ يو" data-en="Xiang Yu" data-es="Xiang Yu" data-fr="Xiang Yu" data-ja="項羽" data-ko="항우" data-pt-br="Xiang Yu" data-ru="Сян Юй" data-vi="Hạng Vũ" data-zh="项羽" data-zh-hant="項羽">项羽</span><span class="history-card-courtesy" data-ar="اسمه جي · واسم مجاملته يو" data-en="given name Ji · courtesy name Yu" data-es="nombre Ji · nombre de cortesía Yu" data-fr="prénom Ji · nom de courtoisie Yu" data-ja="名は籍 · 字は羽" data-ko="이름은 적 · 자는 우" data-pt-br="Nome pessoal: Ji · Nome de cortesia: Yu" data-ru="Имя Цзи · второе имя Юй" data-vi="Tên Tịch · Tự Vũ" data-zh="名籍 · 字羽" data-zh-hant="名籍 · 字羽">名籍 · 字羽</span></span>
+</summary>
+<div class="history-card-detail">
+<p data-ar="قائد شهير من أواخر عهد تشين، حطم القوة الرئيسة لجيشها في معركة جولو. وبعد سقوط تشين أعلن نفسه الملك المهيمن لتشو الغربية، ونازع ليو بانغ حكم البلاد، قبل أن يُهزم في غايشيا وينهي حياته بيده عند ووجيانغ." data-en="A renowned commander of the late Qin who destroyed the Qin army’s main force at the Battle of Julu. After Qin fell, he proclaimed himself Hegemon-King of Western Chu and fought Liu Bang for the realm, before defeat at Gaixia and death by his own hand at Wujiang." data-es="Célebre general de finales de Qin. En la batalla de Julu destruyó el grueso del ejército Qin. Tras la caída de la dinastía se proclamó Rey Hegemón de Chu Occidental y disputó el imperio a Liu Bang, hasta ser derrotado en Gaixia y quitarse la vida en Wujiang." data-fr="Célèbre général de la fin des Qin, il détruisit le gros de leur armée à la bataille de Julu. Après la chute de la dynastie, il se proclama Roi-hégémon du Chu occidental et disputa l’empire à Liu Bang, avant d’être vaincu à Gaixia et de se donner la mort à Wujiang." data-ja="秦末の名将。鉅鹿の戦いで秦軍の主力を破った。秦の滅亡後は西楚の覇王を号し、劉邦と天下を争う。最後は垓下に敗れ、烏江で自刎した。" data-ko="진 말기의 명장. 거록대전에서 진군의 주력을 격파했다. 진이 멸망한 뒤 서초패왕을 칭하고 유방과 천하를 다투었으나, 끝내 해하에서 패해 오강에서 스스로 목숨을 끊었다." data-pt-br="Grande general do fim da dinastia Qin. Destruiu a força principal do exército de Qin na Batalha de Julu. Após a queda de Qin, assumiu o título de Rei-Hegemônico de Chu Ocidental e disputou o império com Liu Bang. Derrotado em Gaixia, tirou a própria vida junto ao rio Wu." data-ru="Прославленный полководец конца династии Цинь, разгромивший главные силы циньской армии в битве при Цзюйлу. После падения Цинь провозгласил себя Верховным правителем Западного Чу и боролся с Лю Баном — основателем и первым правителем Хань — за власть в Поднебесной, но в итоге потерпел поражение при Гайся и покончил с собой на реке Уцзян." data-vi="Danh tướng cuối thời Tần, trong trận Cự Lộc đã đánh tan đại quân chủ lực nhà Tần. Sau khi nhà Tần diệt vong, tự xưng Tây Sở Bá Vương, tranh đoạt thiên hạ cùng Lưu Bang, cuối cùng bại trận tại Cai Hạ, tự vẫn bên bờ Ô Giang." data-zh="秦末名将，巨鹿之战击破秦军主力。秦亡后号西楚霸王，与刘邦争夺天下，最终兵败垓下，自刎乌江。" data-zh-hant="秦末名將，巨鹿之戰擊破秦軍主力。秦亡後號西楚霸王，與劉邦爭奪天下，最終兵敗垓下，自刎烏江。">秦末名将，巨鹿之战击破秦军主力。秦亡后号西楚霸王，与刘邦争夺天下，最终兵败垓下，自刎乌江。</p>
+</div>
+</details>
+</figure>
+<p class="text left prose" data-ar="كانوا أكثر من عشرين جنديًا، وكلهم جرحى. غطى الدم دروعهم، وما زال ينزف من بعضهم. كان واضحًا أنهم شقوا طريقهم للتو عبر جيش كامل. وفي المقدمة وقف رجل بالغ الطول وضخم البنية. تدلت على جسده دروع محطمة، ولطخ الدم وجهه، وتناثر شعره المعقود. لم تستطع ماهينا أن تميز ملامحه عبر الضباب؛ لم ترَ سوى هيكل هائل أضناه التعب. لكن ذلك الحضور الطاغي، الذي صقلته سنون من القتل، ظل يسري على امتداد النصل في يده، مخترقًا الضباب ومثيرًا الخفقان في القلوب." data-en="There were more than twenty soldiers, every one of them wounded. Their armor was black with blood; some were still bleeding. They looked as though they had just carved their way out of an army. At their head stood an extraordinarily tall, powerfully built man. Broken armor hung from his body. His face was streaked with blood, his bound hair torn loose. Through the fog, Mahina could not make out his features, only the huge, exhausted outline. Yet that oppressive presence, honed through years of bloodshed, still traveled along the blade in his hand, pierced the fog, and made the heart quail." data-es="Eran más de veinte soldados y todos estaban heridos. Las armaduras estaban cubiertas de sangre; algunos aún la derramaban. Bastaba mirarlos para saber que acababan de abrirse paso entre un ejército. Al frente marchaba un hombre de estatura y corpulencia extraordinarias. La armadura rota colgaba de su cuerpo; tenía el rostro ensangrentado y el cabello deshecho. A través de la niebla, Mahina no alcanzaba a distinguir sus facciones, solo aquella silueta enorme y exhausta. Pero aquella presencia opresiva, forjada en incontables matanzas, aún fluía por la hoja que empuñaba, atravesaba la bruma y hacía estremecer el corazón." data-fr="Ils étaient plus de vingt soldats, tous blessés. Leurs armures étaient couvertes de sang ; certains saignaient encore. Il suffisait de les voir pour comprendre qu’ils venaient de s’ouvrir un passage au milieu d’une armée. À leur tête avançait un homme d’une taille et d’une carrure hors du commun. Une armure brisée pendait à son corps ; son visage était maculé de sang et ses cheveux noués s’étaient défaits. À travers la brume, Mahina ne distinguait pas ses traits, seulement sa silhouette immense et épuisée. Pourtant, cette présence oppressante, forgée par tant de combats meurtriers, courait encore le long de la lame qu’il tenait, traversait la brume et faisait frémir le cœur." data-ja="二十数騎の兵は、誰もが傷を負っていた。甲冑は血に汚れ、なお血を滴らせる者もいる。つい今しがた、万軍の中を斬り抜けてきたことは一目でわかった。先頭には、ひときわ長身で屈強な男がいた。砕けた鎧を身にまとい、顔は血にまみれ、結った髪も乱れている。霧越しでは顔立ちまでは見えない。ただ、大きく疲れ切った輪郭だけが浮かんでいた。それでも、幾多の殺戮をくぐり抜けてきた者の圧迫感は、なお彼の手にした戦刃を伝って霧を貫き、見る者の胸を震わせた。" data-ko="스무 명이 넘는 병사 모두가 상처투성이였다. 갑옷은 피로 얼룩졌고, 아직 피를 뚝뚝 흘리는 자도 있었다. 방금 전까지 만군을 뚫고 싸워 나온 것이 분명했다. 선두에는 유난히 크고 우람한 사내가 서 있었다. 부서진 갑옷이 몸에 걸려 있었고 얼굴은 피로 범벅이었으며, 묶었던 머리도 흐트러져 있었다. 안개 너머라 마히나는 그의 얼굴을 알아볼 수 없었다. 거대하고 지친 윤곽만 보였다. 그러나 오랜 살육을 거치며 벼려진 그 압박감은 여전히 그의 손에 들린 칼날을 따라 안개를 꿰뚫고, 보는 이의 심장을 떨리게 했다." data-pt-br="Eram pouco mais de vinte soldados, todos feridos. As armaduras estavam cobertas de sangue; de alguns, o sangue ainda pingava. Era evidente que acabavam de romper as fileiras de um exército. À frente seguia uma figura excepcionalmente alta e robusta. Partes da armadura quebrada pendiam de seu corpo; o rosto estava coberto de sangue, e os cabelos antes presos caíam em desordem. Através da névoa, Mahina não distinguia suas feições, apenas a silhueta enorme e exausta. Contudo, aquela presença opressiva, forjada ao longo de incontáveis matanças, ainda corria pela lâmina em sua mão, atravessava a névoa e fazia o coração estremecer." data-ru="Более двадцати солдат — и все до одного ранены. Доспехи потемнели, покрытые запёкшейся кровью, у некоторых всё ещё стекали свежие алые капли. Сразу было видно: эти люди только что прорвались сквозь целую армию. Во главе их шёл человек необычайно высокого роста и могучего сложения, разбитые доспехи болтались на нём клочьями, волосы были растрёпаны. Сквозь туман Юэя не могла разглядеть черт его лица, залитого кровью, — видела лишь огромный, измождённый силуэт. Но та тяжесть, что копилась за годы убийств и сражений, текла вдоль клинка в его руке, пронизывая туман и заставляя сердце сжиматься." data-vi="Hơn hai mươi kỵ binh, người nào người nấy đều mang đầy thương tích, giáp trụ bê bết máu me dơ bẩn, máu của vài người vẫn còn đang nhỏ tong tỏng xuống đất, nhìn qua là biết vừa từ giữa muôn trùng vòng vây quân thù liều mạng chém giết xông ra. Đi đầu là một thân hình cao lớn vạm vỡ dị thường. Tấm chiến bào giáp trụ rách nát khoác hờ trên thân thể, mặt mũi đầy vết máu, tóc búi xõa tung rối bời. Cách một lớp sương mù, Nguyệt Nha Nhi không thể nhìn rõ dung mạo của ông, chỉ có thể thấy được đường nét cao lớn mà mệt mỏi rã rời kia. Thế nhưng khí thế áp bức tôi luyện qua muôn vàn trận mạc chém giết vẫn thuận theo lưỡi chiến đao trong tay ông đâm xuyên qua màn sương, khiến lòng người không khỏi run rẩy kinh hoàng." data-zh="二十几个士兵，人人带伤，甲胄上满是血污，有人的血还在往下滴，一看就是刚从万军之中杀出来的。为首的是一个异常高大魁梧的身影。断裂的铠甲挂在身上，满脸血污，束发散乱。隔着雾，月牙儿看不清他的容貌，只能望见那道高大而疲惫的轮廓。可那股久经杀伐的压迫感，依旧顺着他手中的战刃穿透雾气，让人心悸。" data-zh-hant="二十幾個士兵，人人帶傷，甲冑上滿是血污，有人的血還在往下滴，一看就是剛從萬軍之中殺出來的。為首的是一個異常高大魁梧的身影。斷裂的鎧甲掛在身上，滿臉血污，束髮散亂。隔著霧，月牙兒看不清他的容貌，只能望見那道高大而疲憊的輪廓。可那股久經殺伐的壓迫感，依舊順著他手中的戰刃穿透霧氣，讓人心悸。">二十几个士兵，人人带伤，甲胄上满是血污，有人的血还在往下滴，一看就是刚从万军之中杀出来的。为首的是一个异常高大魁梧的身影。断裂的铠甲挂在身上，满脸血污，束发散乱。隔着雾，月牙儿看不清他的容貌，只能望见那道高大而疲惫的轮廓。可那股久经杀伐的压迫感，依旧顺着他手中的战刃穿透雾气，让人心悸。</p>
+<p class="text left prose" data-ar="انحبس نفس ماهينا. لم يحتج أحد إلى أن يخبرها من يكون. كانت قد عرفت." data-en="Her breath stopped. No one had to tell her who he was. She already knew." data-es="Mahina contuvo la respiración. Nadie tuvo que decirle quién era. Ya lo sabía." data-fr="Mahina retint son souffle. Personne n’avait besoin de lui dire qui il était. Elle le savait déjà." data-ja="マヒナは息を呑んだ。誰に教えられなくとも、この人物が誰なのか、もうわかっていた。" data-ko="마히나는 순간 숨을 멈췄다. 누가 말해 주지 않아도 그가 누구인지 이미 알았다." data-pt-br="Ela prendeu a respiração. Não precisava que ninguém lhe dissesse quem era aquele homem." data-ru="У неё перехватило дыхание. Спрашивать было не нужно — она уже знала, кто это." data-vi="Cô nín bặt hơi thở ngay tức khắc. Không cần bất cứ ai nói cho cô biết, cô cũng đã tự hiểu người này là ai." data-zh="她瞬间屏住了呼吸。不用任何人告诉她，她已经知道了这个人是谁。" data-zh-hant="她瞬間屏住了呼吸。不用任何人告訴她，她已經知道了這個人是誰。">她瞬间屏住了呼吸。不用任何人告诉她，她已经知道了这个人是谁。</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text right prose" data-ar="عندها صاح الشاب من مقدمة القارب:" data-en="The young man at the bow called out:" data-es="Entonces el joven de la proa gritó:" data-fr="Alors le jeune homme à la proue cria :" data-ja="そのとき、舳先の若者が声を張り上げた。" data-ko="그때 뱃머리의 젊은이가 큰 소리로 외쳤다." data-pt-br="Então o jovem na proa gritou:" data-ru="В этот момент юноша громко закричал:" data-vi="Lúc này, chàng thanh niên ở đầu thuyền cất cao giọng hô to:" data-zh="这时，船头的青年高声喊道：" data-zh-hant="這時，船頭的青年高聲喊道：">这时，船头的青年高声喊道：</p>
+<p class="text speech other right" data-ar="«يا ملك شيانغ! أنا رئيس محطة ووجيانغ. اسمحوا لي أن أعبر بجلالتكم إلى الضفة الأخرى. قد تكون جيانغدونغ صغيرة، لكنها تضم ألف لي من الأرض ومئات الآلاف من الناس؛ وفيها ما يكفي كي ترفعوا راياتكم من جديد!»" data-en="“King Xiang! I am the Chief of Wujiang Pavilion. Allow me to ferry Your Majesty across the river. Jiangdong may be small, yet it holds a thousand li of land and hundreds of thousands of people—enough for Your Majesty to raise your banners again!”" data-es="«¡Rey Xiang! Soy el jefe del pabellón de Wujiang. Permitidme llevar a Vuestra Majestad a la otra orilla. Jiangdong será pequeño, pero posee mil li de tierra y cientos de miles de habitantes: suficiente para que Vuestra Majestad vuelva a levantar sus estandartes.»" data-fr="« Roi Xiang ! Je suis le chef du relais de Wujiang. Laissez-moi faire passer Votre Majesté sur l’autre rive. Jiangdong est peut-être exigu, mais il compte mille li de terres et des centaines de milliers d’habitants : de quoi permettre à Votre Majesté de relever ses étendards ! »" data-ja="「項王！　臣は烏江の亭長にございます。大王を対岸へお渡しいたしましょう。江東は狭しといえど、千里の地と数十万の民がございます。再起を図るには十分です！」" data-ko="“항왕! 신은 오강의 정장입니다. 대왕을 강 건너로 모시겠습니다. 강동이 비록 작으나 천 리의 땅과 수십만 백성이 있으니, 대왕께서 다시 기치를 세우시기에 충분합니다!”" data-pt-br="“Rei Xiang! Sou o chefe do posto do rio Wu e desejo conduzir Vossa Majestade à outra margem. Embora Jiangdong seja pequena, possui mil li de terras e centenas de milhares de habitantes — o bastante para que Vossa Majestade reúna novas forças!”" data-ru='"Господин Сян! Я — начальник заставы Уцзян. Позвольте перевезти вас на другой берег. Пусть Цзяндун и мал, но земли его тянутся на тысячу ли, и живут там сотни тысяч людей — довольно, чтобы ваши войска вновь подняли свои знамёна!"' data-vi="“Hạng Vương! Thần là đình trưởng Ô Giang, nguyện chở Đại Vương sang sông! Giang Đông tuy nhỏ, nhưng cũng có dải đất ngàn dặm, mấy chục vạn bách tính, đủ để Đại Vương gây dựng lại cơ đồ!”" data-zh="“项王！臣乃乌江亭长，愿渡大王过江。江东虽小，亦有千里之地、数十万百姓，足供大王重整旗鼓！”" data-zh-hant="“項王！臣乃烏江亭長，願渡大王過江。江東雖小，亦有千里之地、數十萬百姓，足供大王重整旗鼓！”">“项王！臣乃乌江亭长，愿渡大王过江。江东虽小，亦有千里之地、数十万百姓，足供大王重整旗鼓！”</p>
+<p class="text speech other right" data-ar="«ليس على النهر الآن غير قاربي هذا. اصعدوا سريعًا؛ إن لحق بنا جيش هان فلن يبقى سبيل إلى العبور!»" data-en="“Mine is the only boat upon the river. Your Majesty must board at once—if the Han army catches up, there will be no crossing!”" data-es="«Mi barca es la única que queda en el río. Subid cuanto antes; si el ejército Han os alcanza, ya no habrá forma de cruzar.»" data-fr="« Ma barque est la seule qui reste sur le fleuve. Montez sans tarder : si l’armée Han vous rattrape, il ne sera plus possible de traverser ! »" data-ja="「いま江上に舟は、臣のこの一艘のみ。どうか速やかにお乗りください。漢軍が追いつけば、もはや川を渡る術はございません！」" data-ko="“지금 강 위의 배는 신의 이 한 척뿐입니다. 어서 오르십시오. 한군이 따라잡으면 다시는 강을 건널 수 없습니다!”" data-pt-br="“Este é agora o único barco no rio. Suba depressa, Majestade! Se o exército Han nos alcançar, não haverá outra travessia!”" data-ru='"Сейчас на всей реке — только моя лодка. Прошу вас взойти на борт немедля: если войско Хань нас настигнет, переправиться будет уже невозможно!"' data-vi="“Nay trên sông duy chỉ có một chiếc thuyền này của thần. Xin Đại Vương mau mau lên thuyền——nếu quân Hán đuổi tới nơi, e rằng khó lòng vượt sông được nữa!”" data-zh="“如今江上唯有臣这一条船。请大王速速上船——若汉军追至，便再难渡江了!”" data-zh-hant="“如今江上唯有臣這一條船。請大王速速上船——若漢軍追至，便再難渡江了！”">“如今江上唯有臣这一条船。请大王速速上船——若汉军追至，便再难渡江了!”</p>
+<figure class="panel" data-panel="15" style="--ratio:0.53125000;">
+<img alt="" src="media/pro-6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text right prose" data-ar="وقف شيانغ يو عند حافة الماء كأنه لا يصدق أن قارب عبور ما زال موجودًا على النهر. ظل صامتًا طويلًا، ثم تكلم بصوت عميق ثقيل." data-en="Xiang Yu stood at the water’s edge as if he could scarcely believe there was still a ferry on the river. He was silent for a long while before his deep voice came through the mist." data-es="Xiang Yu permaneció en la orilla como si no pudiera creer que aún quedara una barca en el río. Guardó silencio durante largo rato antes de hablar con voz grave." data-fr="Xiang Yu se tenait au bord de l’eau, comme s’il ne pouvait croire qu’une barque existât encore sur le fleuve. Il garda longtemps le silence avant de parler d’une voix profonde." data-ja="項羽は岸辺に立ち、この川にまだ渡し舟があることを信じかねるようだった。長い沈黙ののち、ようやく重い声で口を開いた。" data-ko="항우는 강가에 서서, 이 강에 아직 나룻배가 있다는 사실을 믿지 못하는 듯했다. 그는 오랫동안 침묵하다가 마침내 무거운 목소리로 입을 열었다." data-pt-br="Xiang Yu parou na margem, como se não acreditasse que ainda houvesse ali um barco. Permaneceu em silêncio por muito tempo antes de falar com voz profunda." data-ru="Сян Юй стоял на берегу, словно не веря, что на этой реке осталась ещё хоть одна лодка. Он долго молчал, пока наконец не прозвучал его глубокий, тяжёлый голос." data-vi="Hạng Vũ đứng lặng bên mép sông, tựa hồ không dám tin trên khúc sông này lại vẫn còn một chiếc thuyền đò. Ông im lặng hồi lâu, rồi mới trầm giọng mở lời." data-zh="项羽立在岸边，像是不敢相信这江上竟还有一条渡船。他沉默了很久，才沉沉开口。" data-zh-hant="項羽立在岸邊，像是不敢相信這江上竟還有一條渡船。他沉默了很久，才沉沉開口。">项羽立在岸边，像是不敢相信这江上竟还有一条渡船。他沉默了很久，才沉沉开口。</p>
+<p class="text speech right"><span class="other" data-ar="«في سالف الأيام عبرتُ أنا جي النهر غربًا ومعي ثمانية آلاف من أبناء جيانغدونغ.»" data-en="“In years past, I, Ji, crossed westward with eight thousand sons of Jiangdong.”" data-es="«En otro tiempo, Ji cruzó el río hacia el oeste con ocho mil hijos de Jiangdong.»" data-fr="« Jadis, moi, Ji, j’ai traversé vers l’ouest avec huit mille fils de Jiangdong. »" data-ja="「かつて籍は、八千の江東の子弟とともに川を渡り、西へ向かった。」" data-ko="“지난날 적은 강동 자제 팔천과 함께 강을 건너 서쪽으로 갔소.”" data-pt-br="“Anos atrás, eu, Ji, atravessei o rio rumo ao oeste com oito mil jovens de Jiangdong.”" data-ru='"Прежде я, Цзи, вместе с восемью тысячами сынов Цзяндуна переправился через эту реку и пошёл на запад,"' data-vi="“Năm xưa, Tịch này cùng tám ngàn con em Giang Đông vượt sông sang phía tây.”" data-zh="“当年，籍与八千江东子弟渡江而西。”" data-zh-hant="“當年，籍與八千江東子弟渡江而西。”">“当年，籍与八千江东子弟渡江而西。”</span><span class="i18n-fragment" data-ar="حدق في الماء وقال بصوت خافت:" data-en="He looked at the river, his voice low." data-es="Contempló el agua y añadió en voz baja:" data-fr="Il contempla l’eau et poursuivit à voix basse :" data-ja="彼は川面を見つめ、低い声で言った。" data-ko="그는 강물을 바라보며 낮게 말했다." data-pt-br="Contemplou as águas e, sem erguer a voz, continuou:" data-ru=" — он посмотрел на воду, его голос звучал негромко. — " data-vi="Ông nhìn dòng nước cuộn chảy, giọng trầm buồn," data-zh="他望着江水，声音不高，" data-zh-hant="他望著江水，聲音不高，">他望着江水，声音不高，</span><span class="other" data-ar="«واليوم لا يعود منهم أحد.»" data-en="“Today, not one returns.”" data-es="«Hoy no regresa ninguno.»" data-fr="« Aujourd’hui, aucun ne revient. »" data-ja="「今日、帰る者は一人もいない。」" data-ko="“오늘 돌아가는 자는 하나도 없소.”" data-pt-br="“Hoje, nenhum regressa.”" data-ru='"Сегодня ни один не вернётся."' data-vi="“Ngày nay, chẳng một ai trở về.”" data-zh="“今日，归者无一。”" data-zh-hant="“今日，歸者無一。”">“今日，归者无一。”</span></p>
+<p class="text speech other right" data-ar="«حتى لو ظل آباء جيانغدونغ وشيوخها يشفقون عليّ ويريدونني ملكًا، فبأي وجه ألقاهم من جديد؟»" data-en="“Even if the fathers and elders of Jiangdong still pity me and would make me their king, with what face could I ever meet them again?”" data-es="«Aunque los padres y ancianos de Jiangdong aún se compadecieran de mí y quisieran hacerme su rey, ¿con qué rostro podría volver a presentarme ante ellos?»" data-fr="« Quand bien même les pères et les anciens de Jiangdong auraient encore pitié de moi et voudraient me faire roi, de quel visage pourrais-je me présenter de nouveau devant eux ? »" data-ja="「たとえ江東の父老がなお我を憐れみ、王として迎えてくれようとも、何の面目があって再び会えようか。」" data-ko="“강동의 부형들이 여전히 나를 가엾게 여겨 왕으로 받든다 한들, 무슨 면목으로 다시 그들을 보겠소?”" data-pt-br="“Mesmo que os anciãos e irmãos de Jiangdong ainda tenham compaixão por mim e tornem a me aceitar como rei, com que rosto poderia voltar a encará-los?”" data-ru='"Даже если отцы и старшие братья Цзяндуна всё ещё сочувствуют мне и хотят видеть меня своим правителем — как я смогу вновь посмотреть им в глаза?"' data-vi="“Dẫu cho các bậc cha anh đất Giang Đông còn thương xót ta, tôn ta làm vương, ta còn mặt mũi nào để nhìn lại họ nữa đây?”" data-zh="“纵使江东父兄仍怜我、奉我为王，我有何面目复见之？”" data-zh-hant="“縱使江東父兄仍憐我、奉我為王，我有何面目復見之？”">“纵使江东父兄仍怜我、奉我为王，我有何面目复见之？”</p>
+<figure class="panel motion-panel is-motion" data-panel="16" style="--ratio:0.43896484; --motion-ratio:0.56250000; --still-ratio:0.43896484;">
+<img alt="" class="motion-poster" src="media/pro-10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+<video aria-hidden="true" autoplay="" class="motion-video" loop="" muted="" playsinline="" poster="media/pro-10.jpg" preload="auto" src="media/pro/Mahina_boat-web-720p.mp4"></video>
+<button aria-label="Toggle motion or still image" aria-pressed="true" class="motion-toggle" title="Toggle motion or still image" type="button"><svg aria-hidden="true" class="icon-motion" viewbox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg><svg aria-hidden="true" class="icon-still" viewbox="0 0 24 24"><path d="M5 5h14v14H5zM7 7v10h10V7z"></path></svg></button>
+</figure>
+<p class="text left prose" data-ar="أخرجت ماهينا نصف جسدها من تحت السقف وظلت تحدق في الضفة. لم تعرف من أين جاءتها الجرأة، لكنها صاحت فجأة:" data-en="Mahina leaned halfway out from beneath the canopy, watching the shore. She did not know where the courage came from, but suddenly she shouted:" data-es="Mahina asomó medio cuerpo bajo el toldo y siguió mirando la orilla. No supo de dónde sacó el valor, pero de pronto gritó:" data-fr="Mahina se pencha à demi hors de la natte, sans quitter la rive des yeux. Elle ne sut d’où lui vint ce courage, mais elle cria soudain :" data-ja="マヒナは苫の下から半身を乗り出し、ずっと岸を見ていた。どこからそんな勇気が湧いたのか、突然、岸へ向かって叫んだ。" data-ko="마히나는 덮개 아래로 상반신을 내밀고 줄곧 강가를 바라보았다. 어디서 그런 용기가 났는지, 갑자기 강가를 향해 외쳤다." data-pt-br="Mahina projetou metade do corpo para fora da cobertura, os olhos fixos na margem. Sem saber de onde lhe vinha a coragem, gritou:" data-ru="Юэя наполовину высунулась из-под навеса, не отрывая взгляда от берега.
+Она сама не поняла, откуда взялась эта смелость, и вдруг крикнула:" data-vi="Nguyệt Nha Nhi nhoài nửa người ra khỏi mui thuyền tre, đăm đăm nhìn lên bờ. Chẳng biết dũng khí từ đâu ập tới, cô bỗng cất tiếng hét lớn về phía bờ sông:" data-zh="月牙儿从乌篷里探出半个身子，一直望着岸上。不知是哪里来的胆子，她忽然朝岸上喊了一句：" data-zh-hant="月牙兒從烏篷裡探出半個身子，一直望著岸上。不知是哪裡來的膽子，她忽然朝岸上喊了一句：">月牙儿从乌篷里探出半个身子，一直望着岸上。不知是哪里来的胆子，她忽然朝岸上喊了一句：</p>
+<p class="text moon speech" data-ar="«يا ملك شيانغ! كانوا يفخرون باتباعك، ويفخرون حتى بالموت إلى جانبك في ساحة القتال. فكيف يمكن لآبائهم أن يلوموك؟»" data-en="“King Xiang! They were proud to follow you. They were proud even to die beside you in battle. How could their parents blame you?”" data-es="«¡Rey Xiang! Todos se sentían orgullosos de seguirlo. Incluso morir a su lado en el campo de batalla era un honor para ellos. ¿Cómo iban sus padres a culparlo?»" data-fr="« Roi Xiang ! Ils étaient fiers de vous suivre. Mourir à vos côtés sur le champ de bataille était encore un honneur pour eux. Comment leurs parents pourraient-ils vous en vouloir ? »" data-ja="「項王！　皆、あなたに従うことを誇りにしていたんです。戦場で死ぬことさえ誇りだった。ご両親が、どうしてあなたを責めるんですか？」" data-ko="“항왕! 그들은 당신을 따르는 일을 자랑스러워했어요. 전장에서 죽는 것조차 자랑으로 여겼을 거예요. 그 부모들이 어떻게 당신을 원망하겠어요?”" data-pt-br="“Rei Xiang! Todos eles se orgulhavam de segui-lo; até morrer no campo de batalha era motivo de honra para eles. Como seus pais poderiam culpá-lo?”" data-ru='"Господин Сян! Они гордились тем, что следуют за вами. Гордились тем, что пали рядом с вами на поле боя. Как их родители могут винить вас за это?"' data-vi="“Hạng Vương! Bọn họ đều lấy việc được đi theo ngài làm niềm vinh dự, cho dù da ngựa bọc thây nơi sa trường cũng lấy làm hãnh diện! Cha mẹ của họ, sao có thể trách tội ngài được chứ?”" data-zh="“项王!他们都是以追随你为荣的，连战死沙场，都引以为荣。他们的父母，怎么会怪罪你呢?”" data-zh-hant="“項王！他們都是以追隨你為榮的，連戰死沙場，都引以為榮。他們的父母，怎麼會怪罪你呢？”">“项王!他们都是以追随你为荣的，连战死沙场，都引以为荣。他们的父母，怎么会怪罪你呢?”</p>
+<figure class="panel" data-panel="17" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-18.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text right prose" data-ar="التفت شيانغ يو نحو القارب. وحين رأى أن صاحبة الصوت فتاة شابة، لمعت في عينيه دهشة خاطفة. لم تدم إلا لحظة، ثم ذابت في سكينة رجل تصالح مع مصيره." data-en="Xiang Yu turned toward the ferry. Surprise flickered in his eyes when he saw that the voice belonged to a young woman. It lasted only an instant, then gave way to the serenity of a man who had accepted his fate." data-es="Xiang Yu volvió la cabeza hacia la barca. Al descubrir que la voz pertenecía a una muchacha, un destello de sorpresa cruzó sus ojos. Duró apenas un instante y se transformó en la serenidad de quien había aceptado su destino." data-fr="Xiang Yu tourna la tête vers la barque. En découvrant que la voix appartenait à une jeune fille, il eut un éclair de surprise. Il ne dura qu’un instant, puis céda à la sérénité d’un homme qui avait accepté son destin." data-ja="項羽が声を追って渡し舟を見た。声の主が若い娘だと知り、その目に驚きがよぎる。だが、それは一瞬で消え、運命を受け入れた者の静けさに変わった。" data-ko="항우가 목소리를 따라 나룻배를 바라보았다. 외친 이가 젊은 여자라는 것을 알아본 순간 그의 눈에 놀라움이 스쳤다. 그러나 그 빛은 한순간에 그치고, 운명을 받아들인 자의 담담함으로 바뀌었다." data-pt-br="Xiang Yu voltou o olhar para o barco. Ao perceber que a voz vinha de uma jovem, a surpresa atravessou-lhe os olhos. Mas durou apenas um instante, transformando-se na serenidade de quem aceitara o destino." data-ru="Сян Юй обернулся на голос и посмотрел на лодку. Увидев, что кричит совсем юная девушка, он на миг удивился — но удивление тут же сменилось спокойствием человека, смирившегося со своей судьбой." data-vi="Hạng Vũ men theo tiếng gọi nhìn về phía thuyền đò. Nhận ra người vừa lên tiếng lại là một thiếu nữ trẻ tuổi, trong đáy mắt ông thoáng qua một tia ngạc nhiên. Nhưng nỗi kinh ngạc ấy chỉ đọng lại trong tích tắc, rồi hóa thành một sự thanh thản khi đối diện với số phận." data-zh="项羽循声望向渡船。看清出声的竟是一个年轻少女，他眼中掠过一丝意外。可那惊讶只停了一瞬，便化作一种面对命运的释然。" data-zh-hant="項羽循聲望向渡船。看清出聲的竟是一個年輕少女，他眼中掠過一絲意外。可那驚訝只停了一瞬，便化作一種面對命運的釋然。">项羽循声望向渡船。看清出声的竟是一个年轻少女，他眼中掠过一丝意外。可那惊讶只停了一瞬，便化作一种面对命运的释然。</p>
+<p class="text speech right"><span class="other" data-ar="«حتى إن لم يلوموني،»" data-en="“Even if they do not blame me,”" data-es="«Aunque ellos no me culpen,»" data-fr="« Même s’ils ne me blâment pas, »" data-ja="「たとえ彼らが我を責めずとも、」" data-ko="“그들이 나를 원망하지 않는다 해도,”" data-pt-br="“Ainda que não me culpem”," data-ru='"Даже если они не винят меня,"' data-vi="“Dẫu cho họ không trách cứ,”" data-zh="“纵使他们不怪罪，”" data-zh-hant="“縱使他們不怪罪，”">“纵使他们不怪罪，”</span><span class="i18n-fragment" data-ar="قال،" data-en="he said," data-es="dijo," data-fr="dit-il," data-ja="彼は言った。" data-ko="그가 말했다." data-pt-br="disse ele," data-ru=" — сказал он, — " data-vi="Chàng nói," data-zh="他说，" data-zh-hant="他說，">他说，</span><span class="other" data-ar="«فكيف لا أخجل أمام ضميري؟»" data-en="“how could I be without shame before my own heart?”" data-es="«¿cómo podría yo estar en paz con mi conciencia?»" data-fr="« comment pourrais-je ne pas avoir honte devant mon propre cœur ? »" data-ja="「我が心に、恥じずにいられようか。」" data-ko="“내 어찌 스스로에게 부끄럽지 않을 수 있겠소?”" data-pt-br="“como poderia eu próprio não me sentir culpado?”" data-ru='"как я сам смогу жить с чистой совестью?"' data-vi="“nhưng lòng ta há có thể không thẹn với lương tâm?”" data-zh="“我又岂能问心无愧？”" data-zh-hant="“我又豈能問心無愧？”">“我又岂能问心无愧？”</span></p>
+<p class="text left prose" data-ar="كان كل شيء يجري كما هو متوقع. لكن الشاب عند مقدمة القارب لم يبدُ راضيًا عن الجواب." data-en="Everything had unfolded as expected. But the young man at the bow was plainly dissatisfied with the answer." data-es="Todo sucedía como estaba previsto. Sin embargo, el joven de la proa no parecía satisfecho con la respuesta." data-fr="Tout se déroulait comme prévu. Pourtant, le jeune homme à la proue ne semblait pas satisfait de cette réponse." data-ja="すべては予想どおりだった。だが舳先の若者は、その答えに納得していないようだった。" data-ko="모든 것이 예상대로였다. 하지만 뱃머리의 젊은이는 그 대답이 못마땅한 눈치였다." data-pt-br="Tudo acontecia como previsto. O jovem na proa, porém, não parecia satisfeito." data-ru="Всё шло так, как и следовало ожидать.
+Но этот ответ явно не устроил юношу на носу лодки." data-vi="Mọi chuyện đều diễn ra đúng như dự liệu. Thế nhưng chàng thanh niên ở mũi thuyền rõ ràng không cam lòng với câu trả lời này." data-zh="一切都在意料之中。但船头的青年显然不满意这个答案。" data-zh-hant="一切都在意料之中。但船頭的青年顯然不滿意這個答案。">一切都在意料之中。但船头的青年显然不满意这个答案。</p>
+<p class="text speech right"><span class="other" data-ar="«أيها الملك شيانغ، اعذر صراحتي.»" data-en="“King Xiang, forgive my bluntness.”" data-es="«Rey Xiang, perdonad mi franqueza.»" data-fr="« Roi Xiang, pardonnez ma franchise. »" data-ja="「項王、無礼をお許しください。」" data-ko="“항왕, 무례를 용서하십시오.”" data-pt-br="“Rei Xiang, perdoe minha franqueza.”" data-ru='"Господин Сян, простите мою прямоту,"' data-vi="“Hạng Vương, thứ cho thần nói thẳng.”" data-zh="“项王，恕臣直言。”" data-zh-hant="“項王，恕臣直言。”">“项王，恕臣直言。”</span><span class="i18n-fragment" data-ar="قال." data-en="he said." data-es="dijo." data-fr="dit-il." data-ja="彼は言った。" data-ko="그가 말했다." data-pt-br="Disse ele:" data-ru=" — сказал он. — " data-vi="Chàng nói," data-zh="他说，" data-zh-hant="他說，">他说，</span><span class="other" data-ar="«لقد خاطرتم بحياتكم وشققتم صفوف جيش كامل حتى بلغتم هذا المكان. ألم تفعلوا ذلك طلبًا لفرصة أخيرة للنجاة؟ القارب أمامكم، وجيانغدونغ على الضفة الأخرى. فلماذا تصرون على ألا تصعدوا؟»" data-en="“Your Majesty fought through an entire army to reach this place. Was it not for one last chance to live? The boat is before you; Jiangdong lies across the river. Why refuse to board now?”" data-es="«Vuestra Majestad ha arriesgado la vida para abrirse paso entre un ejército y llegar hasta aquí. ¿No buscaba con ello una última posibilidad de vivir? La barca está ante vos y Jiangdong, en la otra orilla. ¿Por qué os negáis a subir?»" data-fr="« Votre Majesté a risqué sa vie pour percer une armée entière et parvenir jusqu’ici. N’était-ce pas pour saisir une dernière chance de vivre ? La barque est devant vous, Jiangdong se trouve sur l’autre rive. Pourquoi refusez-vous d’embarquer ? »" data-ja="「大王は万軍の中を命がけでここまで斬り抜けてこられた。それは一縷の望みを求めてのことではありませんか。舟は目の前にあり、江東は対岸にある。なぜ、どうしてもお乗りにならないのです。」" data-ko="“대왕께서 만군을 뚫고 목숨을 걸어 여기까지 오신 것은 한 가닥 살길을 구해서가 아닙니까? 배는 눈앞에 있고 강동은 건너편에 있습니다. 어찌하여 끝내 배에 오르지 않으십니까?”" data-pt-br="“Vossa Majestade arriscou a vida e atravessou milhares de inimigos para chegar até aqui. Não buscava justamente uma última possibilidade de sobreviver? Agora o barco está diante de seus olhos, e Jiangdong, do outro lado. Por que se recusa a embarcar?”" data-ru='"Вы, рискуя жизнью, прорвались сквозь целое войско, чтобы добраться сюда. Разве не ради последнего шанса выжить? Лодка перед вами, Цзяндун — на другом берегу. Почему же вы отказываетесь взойти на борт?"' data-vi="“Đại Vương từ trong muôn trùng vây hãm liều chết xông tới tận đây, cầu mong chẳng phải là một tia hy vọng sống sót sao? Nay thuyền ở ngay trước mắt, Giang Đông ở bờ bên kia. Vì cớ gì lại nhất quyết không chịu lên thuyền?”" data-zh="“大王自万军之中冒死杀至此处，求的，不就是一线生机么？如今船在眼前，江东在对岸。为何偏偏不肯上船？”" data-zh-hant="“大王自萬軍之中冒死殺至此處，求的，不就是一線生機麼？如今船在眼前，江東在對岸。為何偏偏不肯上船？”">“大王自万军之中冒死杀至此处，求的，不就是一线生机么？如今船在眼前，江东在对岸。为何偏偏不肯上船？”</span></p>
+<figure class="panel" data-panel="18" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text right prose" data-ar="لم يجب شيانغ يو على الفور." data-en="Xiang Yu did not answer at once." data-es="Xiang Yu no respondió de inmediato." data-fr="Xiang Yu ne répondit pas tout de suite." data-ja="項羽はすぐには答えなかった。" data-ko="항우는 곧바로 대답하지 않았다." data-pt-br="Xiang Yu não respondeu de imediato." data-ru="Сян Юй ответил не сразу." data-vi="Hạng Vũ không trả lời ngay." data-zh="项羽没有立刻回答。" data-zh-hant="項羽沒有立刻回答。">项羽没有立刻回答。</p>
+<p class="text right prose" data-ar="نظر إلى الظل الهائل القائم في الضباب الكثيف. وبعد برهة فقط صرف عينيه عنه؛ مر بصره على الشاب عند المقدمة، ثم استقر على ماهينا وقد أخرجت نصف جسدها من تحت السقف. لم يكن في حدقتيه المزدوجتين غضب، بل صفاء يكاد يكون جليديًا." data-en="He looked toward the immense shape in the fog. Only after a moment did he turn away. His gaze passed over the young man at the bow and came to rest on Mahina, half-emerged from beneath the canopy. There was no anger in his double pupils, only an almost glacial clarity." data-es="Miró la enorme silueta erguida en la niebla. Al cabo de un momento apartó los ojos; su mirada pasó por el joven de la proa y terminó en Mahina, que asomaba medio cuerpo bajo el toldo. No había ira en sus pupilas dobles, solo una lucidez casi glacial." data-fr="Il regarda l’immense silhouette dressée dans la brume. Après un moment seulement, il détourna les yeux ; son regard passa sur le jeune homme à la proue et s’arrêta sur Mahina, à demi sortie de sous la natte. Il n’y avait aucune colère dans ses doubles pupilles, seulement une lucidité presque glaciale." data-ja="濃霧に立つ巨大な影を見つめ、しばらくしてから目を戻した。視線は舳先の若者を過ぎ、苫の下から半身を乗り出すマヒナに止まった。その重瞳に怒りはなく、ただ氷のような明晰さがあった。" data-ko="그는 짙은 안개 속 거대한 형체를 바라보다가 한참 뒤에야 시선을 거뒀다. 뱃머리의 젊은이를 스친 눈길은 덮개 아래로 반쯤 몸을 내민 마히나에게 머물렀다. 겹동공에는 노여움이 없었다. 얼음처럼 차가운 명징함만이 있었다." data-pt-br="Fitou a figura colossal dentro da névoa e, pouco depois, desviou o olhar. Passou os olhos pelo jovem na proa e, por fim, deteve-se em Mahina, ainda com metade do corpo fora da cobertura. Não havia ira em suas pupilas duplas, apenas uma lucidez quase glacial." data-ru="Он всматривался в огромный силуэт в густом тумане и лишь спустя мгновение отвёл взгляд. Его глаза скользнули по юноше на носу лодки и остановились на Юэе.
+В его двойных зрачках не было гнева — только ледяное спокойствие." data-vi="Ông ngước nhìn về phía bóng hình khổng lồ trong làn sương mù dày đặc, một lát sau mới thu hồi ánh mắt, tầm nhìn lướt qua chàng thanh niên ở mũi thuyền, cuối cùng dừng lại trên người Nguyệt Nha Nhi đang nhoài nửa thân mình ra khỏi mui thuyền. Trong đôi con ngươi kép (trùng đồng) của ông không hề có chút giận dữ, chỉ có một sự sáng suốt tỉnh táo đến mức gần như lạnh buốt." data-zh="他望向浓雾中那道巨大的身影，片刻后才收回目光，视线掠过船头的青年，最终落在从乌篷里探出半个身子的月牙儿身上。他的重瞳里没有怒意，只有一种近乎冰冷的清明。" data-zh-hant="他望向濃霧中那道巨大的身影，片刻後才收回目光，視線掠過船頭的青年，最終落在從烏篷裡探出半個身子的月牙兒身上。他的重瞳裡沒有怒意，只有一種近乎冰冷的清明。">他望向浓雾中那道巨大的身影，片刻后才收回目光，视线掠过船头的青年，最终落在从乌篷里探出半个身子的月牙儿身上。他的重瞳里没有怒意，只有一种近乎冰冷的清明。</p>
+<figure class="panel motion-panel is-motion" data-panel="19" style="--ratio:0.56250000; --motion-ratio:0.56250000; --still-ratio:0.56250000;">
+<img alt="" class="motion-poster" src="media/pro-2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+<video aria-hidden="true" autoplay="" class="motion-video" loop="" muted="" playsinline="" poster="media/pro-2.jpg" preload="auto" src="media/xiang-yu-riverside-home-bg-seamless-10s.mp4"></video>
+<button aria-label="Toggle motion or still image" aria-pressed="true" class="motion-toggle" title="Toggle motion or still image" type="button"><svg aria-hidden="true" class="icon-motion" viewbox="0 0 24 24"><path d="M8 5v14l11-7z"></path></svg><svg aria-hidden="true" class="icon-still" viewbox="0 0 24 24"><path d="M5 5h14v14H5zM7 7v10h10V7z"></path></svg></button>
+</figure>
+<p class="text speech right"><span class="other" data-ar="«ضللت الطريق عند يينلينغ،»" data-en="“I lost my way at Yinling,”" data-es="«Me extravié en Yinling,»" data-fr="« Je me suis égaré à Yinling, »" data-ja="「吾は陰陵で道に迷い、」" data-ko="“나는 음릉에서 길을 잃었소.”" data-pt-br="“Desde que me perdi em Yinling”," data-ru='"Я сбился с пути у Иньлина,"' data-vi="“Ta từ Âm Lăng lạc bước lầm đường,”" data-zh="“吾自阴陵迷道，”" data-zh-hant="“吾自陰陵迷道，”">“吾自阴陵迷道，”</span><span class="i18n-fragment" data-ar="قال ببطء،" data-en="he said slowly." data-es="dijo despacio." data-fr="dit-il lentement." data-ja="彼はゆっくりと言った。" data-ko="그가 천천히 말했다." data-pt-br="disse lentamente," data-ru=" — медленно произнёс он. — " data-vi="Ông chậm rãi nói," data-zh="他缓缓道，" data-zh-hant="他緩緩道，">他缓缓道，</span><span class="other" data-ar="«وخدعني فلاح عجوز وقادني إلى المستنقع الكبير. أغلق الضباب الكثيف النهر، وارتفع القصب فوق قامة الرجل وامتد متقطعًا حتى غاب الشمال عن الجنوب. لا أعرف حتى إلى أي جزء من ووجيانغ وصلت.»" data-en="“A farmer deceived me and led me into the great marsh. Fog sealed the river; reeds rose over a man’s head. I wandered on, unable to tell north from south. I do not even know upon which reach of the Wujiang I now stand.”" data-es="«un anciano campesino me engañó y me condujo al gran pantano. La niebla cerró el río; los juncos sobrepasaban a un hombre y se extendían a trechos, hasta borrar el norte y el sur. Ni siquiera sé a qué tramo del Wujiang he llegado.»" data-fr="« un vieux paysan m’a trompé et conduit dans le grand marais. La brume a scellé le fleuve ; les roseaux dépassaient la taille d’un homme et s’étendaient par nappes, jusqu’à effacer le nord et le sud. J’ignore même sur quel bras du Wujiang je me trouve. »" data-ja="「田父に欺かれ、大沢に陥った。大霧は川を閉ざし、葦は人の背を越え、途切れ途切れに続いて南北もわからぬ。烏江のどのあたりまで来たのかさえ、知る由もない。」" data-ko="“한 늙은 농부가 나를 속여 큰 늪으로 이끌었소. 짙은 안개가 강을 가두고 갈대는 사람 키를 넘었으며, 끊어졌다 이어지기를 거듭해 남북조차 분간할 수 없었소. 오강의 어느 물길까지 왔는지도 알지 못하오.”" data-pt-br="“um velho camponês me enganou e conduziu ao grande pântano. A névoa fechou o rio; os juncos cobriam os homens, os caminhos se rompiam, norte e sul se confundiam. Nem sei em que trecho do rio Wu vim parar.”" data-ru='"Старый крестьянин обманул меня и завёл в топи. Густой туман сковал реку, тростник поднимался выше человеческого роста — то стоял сплошной стеной, то внезапно редел, — и невозможно было разобрать, где север, а где юг. Я даже не знаю, насколько далеко по Уцзяну добрался."' data-vi="“bị lão nông lừa gạt, sa vào chốn đầm lầy lớn. Sương mù dày đặc vây kín sông, lau sậy cao ngập đầu người, quanh co đứt đoạn, chẳng phân biệt nổi bắc nam, đến mức đi tới khúc nào của Ô Giang này, bản thân ta cũng chẳng hề hay biết.”" data-zh="“田父绐我，陷于大泽。大雾锁江，芦苇没人，断断续续，不辨南北，连走到了乌江哪一段，亦不自知。”" data-zh-hant="“田父紿我，陷於大澤。大霧鎖江，蘆葦沒人，斷斷續續，不辨南北，連走到了烏江哪一段，亦不自知。”">“田父绐我，陷于大泽。大雾锁江，芦苇没人，断断续续，不辨南北，连走到了乌江哪一段，亦不自知。”</span></p>
+<p class="text speech other right" data-ar="«لكنكم تبدون كأنكم عرفتم أنني سأجيء اليوم. قدتم القارب الوحيد في هذا النهر وانتظرتم عند اللسان الرملي الواقع تحت قدمي بالضبط.»" data-en="“Yet you appear to have known that I would come today. You brought the only ferry on this river and waited upon the very shoal at my feet.”" data-es="«Pero vos parecéis haber sabido que hoy llegaría. Habéis traído la única barca de este río y aguardáis precisamente en el banco de arena que hay a mis pies.»" data-fr="« Pourtant, vous semblez avoir su que je viendrais aujourd’hui. Vous avez mené ici la seule barque du fleuve et m’attendez précisément sur le banc de sable à mes pieds. »" data-ja="「だが、そなたは今日ここへ我が来ることを知っていたかのように、この川にただ一艘の渡し舟を操り、まさに我が足元のこの岸で待っていた。」" data-ko="“그런데 그대는 내가 오늘 반드시 올 줄 알았던 듯, 이 강의 유일한 나룻배를 몰고 내 발아래 이 모래톱에서 정확히 기다리고 있었소.”" data-pt-br="“Mas você parecia saber que eu chegaria hoje. Trouxe o único barco deste rio e esperou exatamente nesta praia, aos meus pés.”" data-ru='"Но ты, похоже, заранее знал, что я непременно приду сюда сегодня — пригнал на эту реку лодку и ждал точно на этой отмели, у меня на пути."' data-vi="“Thế nhưng ngươi, lại như thể từ sớm đã biết hôm nay ta tất sẽ đến đây, chèo con thuyền duy nhất trên khúc sông này, đợi sẵn ngay đúng bãi bồi dưới chân ta.”" data-zh="“可你，却似早知我今日必至，驾着这江上唯一一条渡船，正正候在我脚下这片滩头。”" data-zh-hant="“可你，卻似早知我今日必至，駕著這江上唯一一條渡船，正正候在我腳下這片灘頭。”">“可你，却似早知我今日必至，驾着这江上唯一一条渡船，正正候在我脚下这片滩头。”</p>
+<p class="text speech other right" data-ar="«قولوا لي: لماذا؟»" data-en="“Tell me—why?”" data-es="«Decidme: ¿por qué?»" data-fr="« Dites-moi : pourquoi ? »" data-ja="「答えよ。なぜだ。」" data-ko="“말해 보시오. 어찌 된 일이오?”" data-pt-br="“Diga-me: por quê?”" data-ru='"Скажи мне — зачем?"' data-vi="“Ngươi hãy nói cho ta hay, rốt cuộc là vì cớ làm sao?”" data-zh="“你来告诉我，这是为何？”" data-zh-hant="“你來告訴我，這是為何？”">“你来告诉我，这是为何？”</p>
+<p class="text right prose" data-ar="انعقد لسان الشاب. فتح فمه، ولم تخرج منه كلمة." data-en="The young man was struck speechless. His mouth opened, but not a word came out." data-es="El joven se quedó sin palabras. Abrió la boca, pero no consiguió responder." data-fr="Le jeune homme resta sans voix. Il ouvrit la bouche, mais aucun mot ne vint." data-ja="若者は言葉を失った。口を開いたが、一言も出てこない。" data-ko="젊은이는 말문이 막혔다. 입을 열었지만 한마디도 나오지 않았다." data-pt-br="O jovem ficou sem palavras. Abriu a boca, mas não conseguiu responder uma única sílaba." data-ru="Юноша не знал, что ответить. Он открыл рот, но не смог произнести ни слова." data-vi="Chàng thanh niên nghẹn lời. Chàng hé môi, nhưng không thể thốt ra nổi một chữ." data-zh="青年语塞了。他张了张口，一个字也答不出来。" data-zh-hant="青年語塞了。他張了張口，一個字也答不出來。">青年语塞了。他张了张口，一个字也答不出来。</p>
+<figure class="panel" data-panel="20" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-17.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text right prose" data-ar="نظر إليه شيانغ يو، ثم انفجر فجأة ضاحكًا." data-en="Xiang Yu looked at him and suddenly burst into laughter." data-es="Xiang Yu lo observó y, de pronto, rompió a reír." data-fr="Xiang Yu le regarda et, soudain, éclata de rire." data-ja="項羽は彼を見つめると、突然、大声で笑った。" data-ko="항우는 그를 바라보다가 갑자기 크게 웃었다." data-pt-br="Xiang Yu contemplou-o e, de repente, soltou uma gargalhada." data-ru="Сян Юй смотрел на него и вдруг громко рассмеялся." data-vi="Hạng Vũ nhìn chàng, bỗng nhiên cất tiếng cười vang dội." data-zh="项羽看着他，忽然大笑出声。" data-zh-hant="項羽看著他，忽然大笑出聲。">项羽看着他，忽然大笑出声。</p>
+<p class="text speech right"><span class="other" data-ar="«لستُ، أنا جي، غبيًا.»" data-en="“I, Ji, am no fool.”" data-es="«Ji tampoco es un necio.»" data-fr="« Ji n’est pas un sot. »" data-ja="「籍とて、愚鈍ではない。」" data-ko="“적도 어리석은 자는 아니오.”" data-pt-br="“Eu, Ji, tampouco sou um tolo.”" data-ru='"Я, Цзи, тоже не глупец,"' data-vi="“Tịch này, há phải là kẻ ngu đần mông muội.”" data-zh="“籍，亦非愚钝之人。”" data-zh-hant="“籍，亦非愚鈍之人。”">“籍，亦非愚钝之人。”</span><span class="i18n-fragment" data-ar="قال." data-en="he said." data-es="dijo." data-fr="dit-il." data-ja="彼は言った。" data-ko="그가 말했다." data-pt-br="Disse ele:" data-ru=" — сказал он. — " data-vi="Ông nói," data-zh="他道，" data-zh-hant="他道，">他道，</span><span class="other" data-ar="«من أين يأتي رئيس محطة إلى ووجيانغ؟ ومن أين يأتي قارب عبور؟»" data-en="“What pavilion chief could there be upon the Wujiang? What ferry could there be?”" data-es="«¿De dónde iba a salir un jefe de pabellón en el Wujiang? ¿Y de dónde, una barca?»" data-fr="« D’où viendrait un chef de relais sur le Wujiang ? Et d’où viendrait une barque ? »" data-ja="「この烏江に、どこから亭長が現れる。どこから渡し舟が現れるというのだ。」" data-ko="“이 오강에 어디서 정장이 나오고, 어디서 나룻배가 나온단 말이오?”" data-pt-br="“Que chefe de posto haveria sobre o rio Wu? E de onde viria este barco?”" data-ru='"Откуда на реке Уцзян взяться начальнику заставы? Откуда лодка?"' data-vi="“Khúc Ô Giang hoang vu này, làm gì có đình trưởng nào? Lại làm gì có thuyền đò nào?”" data-zh="“这乌江之上，何来的亭长？又何来的渡船？”" data-zh-hant="“這烏江之上，何來的亭長？又何來的渡船？”">“这乌江之上，何来的亭长？又何来的渡船？”</span></p>
+<p class="text speech other right" data-ar="«إن السماء تريد هلاكي. وأنتم يا سكان السحاب، لأي غرض جئتم لتعبروا بي؟»" data-en="“Heaven wills my death. And you Cloud Dwellers—what purpose brings you here to ferry me across?”" data-es="«El Cielo quiere mi muerte. Y vosotros, habitantes de las nubes, ¿con qué propósito habéis venido a hacerme cruzar?»" data-fr="« Le Ciel veut ma perte. Et vous, Habitants des nuages, dans quel dessein êtes-vous venus me faire traverser ? »" data-ja="「天が我を亡ぼそうとしている。そなたら雲中人は、何を思って我を渡しに来た？」" data-ko="“하늘이 나를 죽이려 하는구나. 너희 운중인은 무슨 뜻으로 나를 건네려 왔느냐?”" data-pt-br="“A vontade do Céu quer minha morte. E vós, Habitantes das Nuvens — com que intenção vindes me conduzir à outra margem?”" data-ru='"Небо желает моей гибели. А вы, Облачные люди, — с какой целью явились переправить меня?"' data-vi="“Ý trời muốn diệt ta. Đám người trong mây các ngươi, hà cớ gì lại đến để độ ta?”" data-zh="“天意要亡我。尔等云中之人，又何意来渡我?”" data-zh-hant="“天意要亡我。爾等雲中之人，又何意來渡我？”">“天意要亡我。尔等云中之人，又何意来渡我?”</p>
+<figure class="panel" data-panel="21" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-19.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="تدحرج الضباب فوق النهر. لم يجب أحد. فمنذ اللحظة التي خرج فيها من القصب ورأى القارب، كان قد فهم كل شيء." data-en="Fog rolled over the river. No one answered. From the moment he had stepped out of the reeds and seen the boat, he had understood everything." data-es="La niebla rodó sobre el río. Nadie respondió. Desde el instante en que salió del cañaveral y vio aquella barca, lo había comprendido todo." data-fr="La brume roula sur le fleuve. Personne ne répondit. Dès l’instant où il était sorti des roseaux et avait aperçu la barque, il avait tout compris." data-ja="霧が川面を流れていった。誰も答えない。葦原を出て、この舟を目にしたその瞬間から、彼にはすべてがわかっていた。" data-ko="안개가 강 위를 굴러갔다. 아무도 대답하지 않았다. 갈대밭을 벗어나 이 배를 본 순간부터 그는 모든 것을 알고 있었다." data-pt-br="A névoa rolou sobre o rio. Ninguém respondeu. Desde o instante em que saiu dos juncos e avistou o barco, ele compreendera tudo." data-ru="Туман клубился над рекой. Никто не ответил. Сян Юй всё понял с той самой минуты, как вышел из тростника и увидел эту лодку." data-vi="Sương mù cuồn cuộn tràn qua mặt sông. Không một ai cất lời đáp lại. Kể từ khoảnh khắc bước chân ra khỏi đầm lau sậy và nhìn thấy con thuyền này, ông đã thấu tỏ tất cả mọi sự." data-zh="雾从江面上滚过。无人答话。从走出芦苇荡、看见这条船的那一刻起，他就全知道了。" data-zh-hant="霧從江面上滾過。無人答話。從走出蘆葦蕩、看見這條船的那一刻起，他就全知道了。">雾从江面上滚过。无人答话。从走出芦苇荡、看见这条船的那一刻起，他就全知道了。</p>
+<figure class="panel" data-panel="22" style="--ratio:0.40429688;">
+<img alt="" src="media/pro-20.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="اقترب دوي الحوافر. وخلف حقل القصب بدأت ظلال الفرسان تظهر، بينما كانت رايات جيش هان الحمراء تلوح في الضباب ثم تختفي." data-en="The thunder of hooves drew nearer. Beyond the reeds, cavalry shadows had begun to show; the red battle standards of the Han army appeared and vanished in the mist." data-es="El trueno de los cascos se acercaba. Más allá de los juncos ya se distinguían las sombras de la caballería; los estandartes rojos del ejército Han aparecían y desaparecían en la niebla." data-fr="Le tonnerre des sabots se rapprochait. Au-delà de la roselière, on distinguait déjà les ombres de la cavalerie ; les étendards rouges de l’armée Han apparaissaient et disparaissaient dans le brouillard." data-ja="轟く蹄の音が近づいてくる。葦原の向こうには、すでに騎兵の影が見え、漢軍の赤い軍旗が霧の中に見え隠れしていた。" data-ko="우레 같은 말발굽 소리가 점점 가까워졌다. 갈대밭 너머로 기병의 그림자가 보이기 시작했고, 한군의 붉은 군기가 안개 속에서 나타났다 사라졌다." data-pt-br="O estrondo dos cascos se aproximava. Além do juncal, já se distinguiam as sombras da cavalaria; os estandartes vermelhos do exército Han surgiam e desapareciam na bruma." data-ru="Гулкий топот копыт приближался. За тростником уже смутно виднелись силуэты всадников, алые боевые знамёна войска Хань то появлялись, то исчезали в тумане." data-vi="Tiếng vó ngựa ầm ầm từ xa ùa tới gần. Bên ngoài đầm lau sậy bóng người chập chờn, đã có thể nhìn thấy bóng dáng của kỵ binh, những lá chiến cờ đỏ rực của quân Hán thoắt ẩn thoắt hiện trong làn sương khói." data-zh="隆隆的马蹄声由远及近。芦苇荡外影影绰绰，已经望得见骑兵的影子，汉军赤色的战旗在雾中时隐时现。" data-zh-hant="隆隆的馬蹄聲由遠及近。蘆葦蕩外影影綽綽，已經望得見騎兵的影子，漢軍赤色的戰旗在霧中時隱時現。">隆隆的马蹄声由远及近。芦苇荡外影影绰绰，已经望得见骑兵的影子，汉军赤色的战旗在雾中时隐时现。</p>
+<p class="text left prose" data-ar="صاح أحدهم في البعيد، فمزقت الريح كلماته:" data-en="Someone shouted in the distance, the wind tearing the words to pieces:" data-es="Alguien gritó a lo lejos, y el viento despedazó sus palabras:" data-fr="Quelqu’un cria au loin, et le vent déchira ses paroles :" data-ja="遠くで誰かが声を張り上げた。言葉は風に引き裂かれ、途切れ途切れに届いた。" data-ko="멀리서 누군가 크게 외쳤다. 바람이 목소리를 갈기갈기 찢어 놓았다." data-pt-br="Alguém gritava à distância, a voz rasgada pelo vento:" data-ru="Ветер доносил обрывки выкриков:" data-vi="Có tiếng người từ đằng xa hô lớn gầm vang, thanh âm bị gió xé thành từng mảnh đứt quãng:" data-zh="有人在远处高声喊着，声音被风撕得断断续续：" data-zh-hant="有人在遠處高聲喊著，聲音被風撕得斷斷續續：">有人在远处高声喊着，声音被风撕得断断续续：</p>
+<p class="text speech other" data-ar="«بأمر ملك هان——من يأتِ برأس شيانغ يو فله ألف قطعة من الذهب وإقطاع بعشرة آلاف أسرة——!»" data-en="“By decree of the King of Han—whoever takes Xiang Yu’s head shall receive a thousand pieces of gold and a fief of ten thousand households—!”" data-es="«¡Por orden del rey de Han: quien entregue la cabeza de Xiang Yu recibirá mil piezas de oro y un feudo de diez mil hogares!»" data-fr="« Par ordre du roi des Han : qui rapportera la tête de Xiang Yu recevra mille pièces d’or et un fief de dix mille foyers ! »" data-ja="「漢王の令——項羽の首を得た者には、黄金千斤、万戸の邑を与える——！」" data-ko="“한왕의 명이다——항우의 머리를 얻는 자에게 천금과 만 호의 봉읍을 내리겠다——!”" data-pt-br="“Ordem do rei de Han: quem trouxer a cabeça de Xiang Yu receberá mil peças de ouro e um feudo de dez mil famílias!”" data-ru='"Слушайте приказ правителя Хань! Тому, кто добудет голову Сян Юя, — тысяча золотых и удел в десять тысяч дворов!"' data-vi="“Hán Vương có lệnh——Kẻ nào lấy được đầu Hạng Vũ, thưởng ngàn lượng vàng, phong ấp vạn hộ——!”" data-zh="“汉王有令——得项羽头者，赏千金，邑万户——！”" data-zh-hant="“漢王有令——得項羽頭者，賞千金，邑萬戶——！”">“汉王有令——得项羽头者，赏千金，邑万户——！”</p>
+<figure class="panel" data-panel="23" style="--ratio:0.56250000;">
+<img alt="" src="media/pro-22.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose" data-ar="حلّت النهاية. وفي تلك اللحظة كان كل من على ضفة النهر يعرف ذلك." data-en="The end had arrived. Everyone on the riverbank knew it." data-es="Había llegado el desenlace. Todos en la ribera lo sabían." data-fr="Le dénouement était arrivé. Tous, sur la rive, le savaient." data-ja="結末が訪れた。そのことを、この川辺にいる誰もが知っていた。" data-ko="결말이 다가왔다. 그 순간 강가의 모두가 알고 있었다." data-pt-br="O fim chegara. Naquele instante, todos junto ao rio sabiam." data-ru="Всё кончено. В ту же секунду это поняли все на берегу реки." data-vi="Hồi kết đã điểm. Vào khoảnh khắc này, tất cả mọi người bên bờ sông đều thấu hiểu." data-zh="结局到了。这一刻，江边所有人都知道。" data-zh-hant="結局到了。這一刻，江邊所有人都知道。">结局到了。这一刻，江边所有人都知道。</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Previous chapter" class="chapter-pager-button" href="../chapter-4-fate-2/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="next" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></span>
+</nav>
+</main>
+<script data-cloudinsect-lang="true">
+(function () {
+  const settingsToggle = document.querySelector('.settings-toggle');
+  const controlsPanel = document.querySelector('.controls-panel');
+  const controls = Array.from(document.querySelectorAll('.lang-option'));
+  const fontButtons = Array.from(document.querySelectorAll('.font-button'));
+  const chapterSelect = document.querySelector('.chapter-select');
+  const targets = Array.from(document.querySelectorAll('[data-zh][data-zh-hant][data-en]'));
+  const languageMeta = {
+    vi: { htmlLang: 'vi', title: 'Vân Trùng · Chương 5: Ô Chuy · I · v5.1.39' },
+    zh: { htmlLang: 'zh-CN', title: '云虫 第五章 乌骓 · 一 · v5.1.39' },
+    zhHant: { htmlLang: 'zh-Hant', title: "雲蟲 第五章 烏騅 · 一 · v5.1.39" },
+    en: { htmlLang: 'en', title: "CloudInsect · Chapter 5: Wuzhui · 1 · v5.1.39" },
+    ja: { htmlLang: 'ja', title: "雲虫 · 第五章 烏騅 · 一 · v5.1.39" },
+    ko: { htmlLang: 'ko', title: "운충 · 제5장 오추 · 1 · v5.1.39" },
+    es: { htmlLang: 'es', title: "CloudInsect · Capítulo 5: Wuzhui · 1 · v5.1.39" },
+    fr: { htmlLang: 'fr', title: "Insecte-Nuage · Chapitre 5 : Wuzhui · I · v5.1.39" },
+    ar: { htmlLang: 'ar', title: "حشرة السحاب · الفصل الخامس: ووتشوي · 1 · v5.1.39" },
+    ptBR: { htmlLang: 'pt-BR', title: "Inseto-Nuvem · Capítulo Cinco: Wuzhui · I · v5.1.39" },
+    ru: { htmlLang: 'ru', title: "Облачное насекомое · Глава 5. Учжуй · I · v5.1.39" }
+  };
+  const fontScales = [0.74, 0.80, 0.86, 0.94, 1, 1.1, 1.22, 1.36];
+  function readStoredValue(key) {
+    try {
+      return window.localStorage.getItem(key);
+    } catch (error) {
+      return null;
+    }
+  }
+  function writeStoredValue(key, value) {
+    try {
+      window.localStorage.setItem(key, value);
+    } catch (error) {
+      // Some mobile file viewers block localStorage for standalone HTML files.
+    }
+  }
+  function removeStoredValue(key) {
+    try {
+      window.localStorage.removeItem(key);
+    } catch (error) {
+      // Controls should still work when preferences cannot be persisted.
+    }
+  }
+  let lang = readStoredValue('cloudinsect-lang') || 'vi';
+  let fontIndex = 3;
+  if (!languageMeta[lang]) lang = 'zh';
+  removeStoredValue('cloudinsect-font-index');
+
+  function setControlsOpen(open) {
+    if (!settingsToggle || !controlsPanel) return;
+    controlsPanel.classList.toggle('is-open', open);
+    settingsToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+
+  function captureReadingAnchor() {
+    const viewportAnchor = window.innerHeight * 0.45;
+    const centered = document.elementFromPoint(window.innerWidth / 2, viewportAnchor);
+    const centeredAnchor = centered && centered.closest('.panel, .text, .next-chapter, .chapter-pager');
+    if (centeredAnchor) {
+      return { el: centeredAnchor, top: centeredAnchor.getBoundingClientRect().top };
+    }
+    const candidates = Array.from(document.querySelectorAll('.panel, .text, .next-chapter, .chapter-pager'));
+    let best = null;
+    candidates.forEach((el) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.bottom <= 0 || rect.top >= window.innerHeight) return;
+      const distance = Math.abs((rect.top + rect.bottom) / 2 - viewportAnchor);
+      if (!best || distance < best.distance) {
+        best = { el, top: rect.top, distance };
+      }
+    });
+    return best;
+  }
+
+  function restoreReadingAnchor(anchor) {
+    if (!anchor) return;
+    const nextTop = anchor.el.getBoundingClientRect().top;
+    window.scrollBy(0, nextTop - anchor.top);
+  }
+
+  function applyLanguage(nextLang) {
+    const anchor = captureReadingAnchor();
+    lang = languageMeta[nextLang] ? nextLang : 'zh';
+    document.documentElement.lang = languageMeta[lang].htmlLang;
+    document.title = languageMeta[lang].title;
+    targets.forEach((el) => {
+      const key = lang === 'zhHant' ? 'zhHant' : (lang === 'ptBR' ? 'ptBr' : lang);
+      el.textContent = el.dataset[key] || el.dataset.zh;
+    });
+    controls.forEach((control) => {
+      const selected = control.dataset.lang === lang;
+      control.setAttribute('aria-pressed', selected ? 'true' : 'false');
+    });
+    writeStoredValue('cloudinsect-lang', lang);
+    restoreReadingAnchor(anchor);
+  }
+
+  function applyFontScale(nextIndex, preserveAnchor) {
+    const anchor = preserveAnchor ? captureReadingAnchor() : null;
+    fontIndex = Math.min(fontScales.length - 1, Math.max(0, nextIndex));
+    document.documentElement.style.setProperty('--reader-scale', fontScales[fontIndex]);
+    fontButtons.forEach((button) => {
+      const step = Number(button.dataset.fontStep);
+      const disabled = (step < 0 && fontIndex === 0) || (step > 0 && fontIndex === fontScales.length - 1);
+      button.disabled = disabled;
+    });
+    restoreReadingAnchor(anchor);
+  }
+
+  controls.forEach((control) => {
+    control.addEventListener('click', () => {
+      applyLanguage(control.dataset.lang);
+      setControlsOpen(false);
+    });
+  });
+  fontButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      button.blur();
+      applyFontScale(fontIndex + Number(button.dataset.fontStep), true);
+    });
+  });
+  if (chapterSelect) {
+    chapterSelect.addEventListener('change', () => {
+      if (!chapterSelect.value) return;
+      window.location.href = chapterSelect.value;
+    });
+  }
+  if (settingsToggle && controlsPanel) {
+    settingsToggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      setControlsOpen(!controlsPanel.classList.contains('is-open'));
+    });
+    controlsPanel.addEventListener('click', (event) => event.stopPropagation());
+    document.addEventListener('click', () => setControlsOpen(false));
+    window.addEventListener('scroll', () => setControlsOpen(false), { passive: true });
+  }
+  document.querySelectorAll('.motion-panel').forEach((panel) => {
+    const video = panel.querySelector('.motion-video');
+    const button = panel.querySelector('.motion-toggle');
+    if (!video || !button) return;
+    button.addEventListener('click', () => {
+      const nextStill = !panel.classList.contains('is-still');
+      panel.classList.toggle('is-still', nextStill);
+      button.setAttribute('aria-pressed', nextStill ? 'false' : 'true');
+      if (nextStill) {
+        video.pause();
+      } else {
+        video.play().catch(() => {});
+      }
+    });
+  });
+  applyLanguage(lang);
+  applyFontScale(fontIndex);
+}());
+</script>
+<script src="../../assets/site-footer.js?v=5.1.39"></script>
+<script data-cloudinsect-language-select="true">
+(function () {
+  const select = document.querySelector('.language-select');
+  if (!select) return;
+  let stored = 'vi';
+  try { stored = localStorage.getItem('cloudinsect-lang') || 'vi'; } catch (error) {}
+  if (Array.from(select.options).some((option) => option.value === stored)) select.value = stored;
+  select.addEventListener('change', function () {
+    try { localStorage.setItem('cloudinsect-lang', select.value); } catch (error) {}
+    window.location.reload();
+  });
+}());
+</script>
+<script data-cloudinsect-spanish-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: suscripción mensual con pagos internacionales mediante tarjeta, PayPal y otros métodos.","gumroad":"Gumroad: compra directa con pagos internacionales mediante tarjeta, PayPal y otros métodos.","huotan":"HuoTan: compra directa mediante WeChat Pay y Alipay.","azz":"AZZ: suscripción mensual mediante WeChat Pay y Alipay."};
+  function applySpanishSurface() {
+    if (!/^es\b/i.test(document.documentElement.lang || '')) return;
+    document.querySelectorAll('[data-tooltip-es]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipEs; });
+    const wallpaperEntry = document.querySelector('.wallpaper-entry');
+    if (wallpaperEntry) wallpaperEntry.setAttribute('aria-label', 'Fondos de pantalla');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Índice de capítulos');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'Seleccionar capítulo');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo el contenido y los derechos relacionados de este sitio pertenecen a WLOP. Se prohíbe su reproducción, copia, adaptación o uso comercial sin autorización. Todos los derechos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contacto:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applySpanishSurface, { once: true });
+  else applySpanishSurface();
+  window.setTimeout(applySpanishSurface, 0);
+}());
+</script>
+<script data-cloudinsect-arabic-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: اشتراك شهري يدعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","gumroad":"Gumroad: شراء مباشر للأعمال مع دعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","huotan":"HuoTan: شراء مباشر للأعمال عبر WeChat Pay وAlipay.","azz":"AZZ: اشتراك شهري عبر WeChat Pay وAlipay."};
+  function applyArabicSurface() {
+    if (!/^ar\b/i.test(document.documentElement.lang || '')) return;
+    document.documentElement.dir = 'ltr';
+    document.querySelectorAll('[data-tooltip-ar]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipAr; });
+    const wallpaperEntry = document.querySelector('.wallpaper-entry');
+    if (wallpaperEntry) wallpaperEntry.setAttribute('aria-label', 'الخلفيات');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'فهرس الفصول');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'اختر فصلًا');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. جميع محتويات هذا الموقع والحقوق المرتبطة بها مملوكة لـWLOP. يُحظر النشر أو النسخ أو الاقتباس أو التعديل أو الاستخدام التجاري من دون إذن. جميع الحقوق محفوظة."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "للتواصل:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyArabicSurface, { once: true });
+  else applyArabicSurface();
+  window.setTimeout(applyArabicSurface, 0);
+}());
+</script>
+<script data-cloudinsect-french-surface="true">
+(function () {
+ const tips={"patreon":"Patreon : abonnement mensuel, cartes bancaires, PayPal et autres paiements internationaux.","gumroad":"Gumroad : achat direct des œuvres, cartes bancaires, PayPal et autres paiements internationaux.","huotan":"HuoTan : achat direct des œuvres avec WeChat Pay ou Alipay.","azz":"AZZ : abonnement mensuel avec WeChat Pay ou Alipay."};
+ function applyFrenchSurface() {
+  if (!/^fr\b/i.test(document.documentElement.lang || '')) return;
+  document.querySelectorAll('[data-tooltip-fr]').forEach((item)=>{ item.dataset.tooltip=item.dataset.tooltipFr; });
+  const w=document.querySelector('.wallpaper-entry'); if(w) w.setAttribute('aria-label','Fonds d’écran');
+  const c=document.querySelector('.catalog'); if(c) c.setAttribute('aria-label','Sommaire des chapitres');
+  const s=document.querySelector('.chapter-select'); if(s) s.setAttribute('aria-label','Choisir un chapitre');
+  document.querySelectorAll('.cloudinsect-copyright').forEach((item)=>{item.textContent="© WLOP. L’ensemble du contenu de ce site et les droits associés appartiennent à WLOP. Toute reproduction, copie, adaptation ou utilisation commerciale sans autorisation est interdite. Tous droits réservés.";});
+  document.querySelectorAll('.cloudinsect-contact-label').forEach((item)=>{item.textContent="Contact :";});
+  document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link)=>{const tip=tips[link.dataset.footerKey];if(tip){link.dataset.tooltip=tip;link.setAttribute('aria-label',link.textContent+': '+tip);}});
+ }
+ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',applyFrenchSurface,{once:true}); else applyFrenchSurface(); window.setTimeout(applyFrenchSurface,0);
+}());
+</script>
+<script data-cloudinsect-adaptive-chapter-menu="true">
+(function () {
+  const select = document.querySelector('.chapter-select');
+  const controls = select && select.closest('.chapter-controls');
+  if (!select || !controls) return;
+  const probe = document.createElement('span');
+  probe.setAttribute('aria-hidden', 'true');
+  probe.style.cssText = 'position:fixed;left:-10000px;top:-10000px;visibility:hidden;white-space:pre;pointer-events:none;';
+  document.body.appendChild(probe);
+  let frame = 0;
+
+  function number(value) {
+    const parsed = Number.parseFloat(value);
+    return Number.isFinite(parsed) ? parsed : 0;
+  }
+
+  function measure() {
+    frame = 0;
+    const style = getComputedStyle(select);
+    probe.style.font = style.font;
+    probe.style.fontFamily = style.fontFamily;
+    probe.style.fontSize = style.fontSize;
+    probe.style.fontWeight = style.fontWeight;
+    probe.style.letterSpacing = style.letterSpacing;
+    let textWidth = 0;
+    Array.from(select.options).forEach(function (option) {
+      probe.textContent = option.textContent.trim();
+      textWidth = Math.max(textWidth, probe.getBoundingClientRect().width);
+    });
+    const chrome = number(style.paddingLeft) + number(style.paddingRight) +
+      number(style.borderLeftWidth) + number(style.borderRightWidth) + 4;
+    const desired = Math.ceil(textWidth + chrome);
+    const toc = controls.querySelector('.toc-link');
+    const controlsStyle = getComputedStyle(controls);
+    const gap = number(controlsStyle.columnGap || controlsStyle.gap);
+    const outerPadding = number(controlsStyle.paddingLeft) + number(controlsStyle.paddingRight);
+    const left = controls.getBoundingClientRect().left;
+    const edge = Math.max(12, left);
+    const inlineCap = Math.max(120, window.innerWidth - edge - 12 - outerPadding - gap - (toc ? toc.getBoundingClientRect().width : 0));
+    const shouldStack = desired > inlineCap && window.innerWidth <= 760;
+    controls.classList.toggle('is-stacked', shouldStack);
+    const cap = shouldStack
+      ? Math.max(120, window.innerWidth - edge - 12 - outerPadding)
+      : inlineCap;
+    select.style.setProperty('--chapter-select-width', desired + 'px');
+    select.style.setProperty('--chapter-select-cap', Math.floor(cap) + 'px');
+  }
+
+  function schedule() {
+    if (frame) cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(measure);
+  }
+
+  select.addEventListener('change', schedule);
+  const settingsToggle = document.querySelector('.settings-toggle');
+  if (settingsToggle) {
+    settingsToggle.addEventListener('click', function () {
+      window.setTimeout(schedule, 0);
+    });
+  }
+  window.addEventListener('resize', schedule, { passive: true });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule).catch(function () {});
+  schedule();
+  window.setTimeout(schedule, 0);
+}());
+</script>
+<script data-cloudinsect-ptbr-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: assinatura mensal com cartões de crédito, PayPal e outros meios de pagamento internacionais.","gumroad":"Gumroad: compra direta das obras com cartões de crédito, PayPal e outros meios de pagamento internacionais.","huotan":"HuoTan: compra direta das obras com WeChat Pay ou Alipay.","azz":"AZZ: assinatura mensal com WeChat Pay ou Alipay."};
+  function applyPortugueseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'pt-br') return;
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Papéis de parede em destaque');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Sumário dos capítulos');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Selecionar capítulo');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Navegação entre capítulos');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo o conteúdo deste site e os direitos relacionados pertencem à WLOP. É proibida a reprodução, cópia, adaptação ou utilização comercial sem autorização. Todos os direitos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contato:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-pt-br]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipPtBr; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyPortugueseSurface, { once: true });
+  else applyPortugueseSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyPortugueseSurface, 0));
+}());
+</script>
+<script data-cloudinsect-ru-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: ежемесячная подписка с оплатой банковской картой, PayPal и другими международными способами.","gumroad":"Gumroad: прямая покупка работ с оплатой банковской картой, PayPal и другими международными способами.","huotan":"HuoTan: прямая покупка работ с оплатой через WeChat Pay или Alipay.","azz":"AZZ: ежемесячная подписка с оплатой через WeChat Pay или Alipay."};
+  function applyRussianSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'ru') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Выбор языка'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Язык'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Размер шрифта'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Уменьшить шрифт'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Увеличить шрифт'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Настройки чтения'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Назад'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Список обоев'); });
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Избранные обои');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Содержание');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Выбор главы');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Навигация по главам');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Открытие главы'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Всё содержимое этого сайта и связанные с ним права принадлежат WLOP. Копирование, воспроизведение, адаптация и коммерческое использование без разрешения запрещены. Все права защищены."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Связаться:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-ru]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipRu; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyRussianSurface, { once: true });
+  else applyRussianSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyRussianSurface, 0));
+}());
+</script>
+<script data-cloudinsect-vi-surface="true">
+(function () {
+  function applyVietnameseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'vi') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Chọn ngôn ngữ'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Ngôn ngữ'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Giảm cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Tăng cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Cài đặt đọc'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Quay lại'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Danh sách hình nền'); });
+    document.querySelectorAll('.toc-link').forEach((item) => {
+      item.setAttribute('aria-label', 'Quay lại mục lục chính');
+      item.setAttribute('title', 'Quay lại mục lục chính');
+    });
+    document.querySelectorAll('.chapter-pager-button[title="上一节"], [data-pager-disabled="previous"]').forEach((item) => {
+      item.setAttribute('title', 'Chương trước');
+      item.setAttribute('aria-label', 'Chương trước');
+    });
+    document.querySelectorAll('.chapter-pager-button[title="下一节"], [data-pager-disabled="next"]').forEach((item) => {
+      item.setAttribute('title', 'Chương tiếp theo');
+      item.setAttribute('aria-label', 'Chương tiếp theo');
+    });
+    document.querySelectorAll('summary[title="点击查看人物简介"]').forEach((item) => {
+      item.setAttribute('title', 'Nhấn để xem tiểu sử nhân vật');
+    });
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Hình nền nổi bật');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Mục lục các chương');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Chọn chương');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Điều hướng chương');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Mở đầu chương'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Toàn bộ nội dung và bản quyền liên quan trên trang web này thuộc về WLOP. Mọi hành vi sao chép, tái bản, cải biên hoặc sử dụng cho mục đích thương mại khi chưa được phép đều bị nghiêm cấm. Bảo lưu mọi quyền."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Liên hệ:"; });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyVietnameseSurface, { once: true });
+  else applyVietnameseSurface();
+  window.setTimeout(applyVietnameseSurface, 0);
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyVietnameseSurface, 0));
+}());
+</script>
+</body>
+</html>

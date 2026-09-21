@@ -1,0 +1,194 @@
+.cloudinsect-footer {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 22px clamp(18px, 4.5vw, 88px) 34px;
+  overflow-x: clip;
+  background: transparent;
+  color: rgba(232, 232, 226, 0.42);
+  font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+}
+
+.cloudinsect-footer::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  width: min(640px, calc(100% - 44px));
+  height: 1px;
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.cloudinsect-footer-inner {
+  max-width: var(--text-width, 1120px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  text-align: center;
+}
+
+.cloudinsect-copyright {
+  max-width: 620px;
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.cloudinsect-contact {
+  margin: -5px 0 0;
+  color: rgba(232, 232, 226, 0.48);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+}
+
+.cloudinsect-contact-email {
+  color: rgba(232, 232, 226, 0.62);
+  text-decoration: none;
+}
+
+.cloudinsect-contact-email:hover,
+.cloudinsect-contact-email:focus-visible {
+  color: rgba(255, 255, 255, 0.86);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  outline: none;
+}
+
+.cloudinsect-footer-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.cloudinsect-footer-link {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(232, 232, 226, 0.2);
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(232, 232, 226, 0.48);
+  background: rgba(255, 255, 255, 0.03);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  filter: grayscale(1);
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.cloudinsect-footer-link::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  z-index: 2;
+  width: max-content;
+  max-width: min(300px, calc(100vw - 32px));
+  padding: 7px 10px;
+  border: 1px solid rgba(232, 232, 226, 0.18);
+  border-radius: 6px;
+  background: rgba(13, 14, 16, 0.96);
+  color: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+  white-space: normal;
+  text-align: left;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 6px);
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+}
+
+.cloudinsect-footer-link::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 5px);
+  z-index: 3;
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid rgba(232, 232, 226, 0.18);
+  border-bottom: 1px solid rgba(232, 232, 226, 0.18);
+  background: rgba(13, 14, 16, 0.96);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 6px) rotate(45deg);
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+}
+
+.cloudinsect-footer-link:hover,
+.cloudinsect-footer-link:focus-visible {
+  border-color: rgba(232, 232, 226, 0.38);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.cloudinsect-footer-link:hover::after,
+.cloudinsect-footer-link:focus-visible::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.cloudinsect-footer-link:hover::before,
+.cloudinsect-footer-link:focus-visible::before {
+  opacity: 1;
+  transform: translate(-50%, 0) rotate(45deg);
+}
+
+.cloudinsect-footer-divider {
+  width: 1px;
+  height: 22px;
+  margin: 0 4px;
+  background: rgba(232, 232, 226, 0.22);
+  flex: 0 0 auto;
+}
+
+@media (max-width: 760px) {
+  .cloudinsect-footer {
+    padding: 18px 18px 26px;
+  }
+
+  .cloudinsect-footer-inner {
+    align-items: center;
+    gap: 14px;
+  }
+
+  .cloudinsect-footer-link {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media print {
+  .cloudinsect-footer {
+    display: none;
+  }
+}

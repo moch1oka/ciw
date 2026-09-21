@@ -1,0 +1,423 @@
+{
+  "id": "chapter-0",
+  "dir": "chapter-0-prologue",
+  "title_zh": "第零章 楔子",
+  "title_en": "Chapter 0: Prologue",
+  "available_languages": [
+    "zh",
+    "zhHant",
+    "en",
+    "ja",
+    "ko",
+    "es",
+    "fr",
+    "ar",
+    "ptBR",
+    "ru",
+    "vi"
+  ],
+  "panel_count": 11,
+  "panels": [
+    {
+      "panel_index": 1,
+      "type": "image",
+      "image_src": "media/image1.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[新闻]“新华社消息，据“天宫二号”卫星的观测，九号云虫“双子”预计将于一个月后抵达我国南部沿海城市沙溪市。”",
+          "[新闻]“由于云虫场的影响，届时全市大部分地区内电子设备将无法运行。在云虫途经整座城市的数个星期内，全市电网将做保护性关闭，请市民做好应急物资储备。”"
+        ],
+        "zhHant": [
+          "[新聞]“新華社消息，據“天宮二號”衛星的觀測，九號雲蟲“雙子”預計將於一個月後抵達我國南部沿海城市沙溪市。”",
+          "[新聞]“由於雲蟲場的影響，屆時全市大部分地區內電子設備將無法運行。在雲蟲途經整座城市的數個星期內，全市電網將做保護性關閉，請市民做好應急物資儲備。”"
+        ],
+        "en": [
+          "[NEWS]“Xinhua reports that, according to observations by the ‘Tiangong-2’ satellite, CloudInsect No. 9, codenamed ‘Gemini,’ is expected to reach Shashi, a coastal city in the south of the country, in one month.”",
+          "[NEWS]“Due to the effects of the CloudInsect field, electronic devices will stop working across most of the city. For the several weeks that the CloudInsect takes to pass through the city, the power grid will be shut down as a protective measure. Residents are advised to prepare emergency supplies.”"
+        ],
+        "ja": [
+          "［ニュース］「新華社によりますと、『天宮二号』衛星の観測により、第九号雲虫《双子》は一か月後、わが国南部の沿岸都市・沙渓市に到達する見込みです」",
+          "［ニュース］「雲虫場の影響により、当日は市内の大半で電子機器が使用不能となります。雲虫が市内を通過する数週間、送電網は保護措置として停止されます。市民の皆さまは、あらかじめ非常用物資をご用意ください」"
+        ],
+        "ko": [
+          "[뉴스]“신화통신 보도입니다. ‘톈궁 2호’ 위성의 관측에 따르면, 제9호 운충 ‘쌍둥이’가 한 달 뒤 중국 남부 해안 도시 사시에 도달할 것으로 예상됩니다.”",
+          "[뉴스]“운충장의 영향으로, 해당 시기에는 시내 대부분 지역에서 전자기기를 사용할 수 없게 됩니다. 운충이 도시를 통과하는 수 주 동안 전력망은 보호 조치에 따라 폐쇄될 예정이니, 시민 여러분께서는 비상 물자를 미리 준비해 주시기 바랍니다.”"
+        ],
+        "es": [
+          "[Noticias]«Según informa la Agencia de Noticias Xinhua, las observaciones del satélite Tiangong-2 indican que CloudInsect n.º 9, “Géminis”, llegará dentro de un mes a Shaxi, ciudad costera del sur del país.»",
+          "[Noticias]«Debido a los efectos del campo CloudInsect, los dispositivos electrónicos dejarán de funcionar en la mayor parte de la ciudad. Durante las semanas en que CloudInsect atraviese Shaxi, la red eléctrica será desconectada por precaución. Se ruega a los ciudadanos que preparen suministros de emergencia.»"
+        ],
+        "fr": [
+          "[Journal télévisé]« Selon l’agence Xinhua, les observations du satellite Tiangong-2 indiquent que l’Insecte-Nuage nº 9, “Gémeaux”, devrait atteindre dans un mois la ville côtière de Shaxi, dans le sud du pays. »",
+          "[Journal télévisé]« Sous l’effet du champ de l’Insecte-Nuage, les appareils électroniques cesseront de fonctionner dans la majeure partie de la ville. Durant les plusieurs semaines que prendra sa traversée, le réseau électrique sera coupé par mesure de sécurité. Les habitants sont priés de constituer des réserves d’urgence. »"
+        ],
+        "ar": [
+          "[أخبار]«أفادت وكالة أنباء شينخوا بأن رصد القمر الاصطناعي ‹تيانغونغ-2› يشير إلى أن حشرة السحاب التاسعة، ‹الجوزاء›، ستصل بعد شهر إلى مدينة شاشي الساحلية في جنوب البلاد.»",
+          "[أخبار]«وبفعل حقل حشرة السحاب، ستتعطل الأجهزة الإلكترونية في معظم أنحاء المدينة. وخلال الأسابيع التي تعبر فيها حشرة السحاب المدينة، ستُفصل شبكة الكهرباء احترازيًا. يُرجى من السكان تخزين مؤن الطوارئ اللازمة.»"
+        ],
+        "ptBR": [
+          "[Noticiário]“Segundo a Agência de Notícias Xinhua, observações do satélite Tiangong-2 indicam que o Inseto-Nuvem nº 9, ‘Gêmeos’, deverá chegar à cidade costeira de Shaxi, no sul do país, dentro de um mês.”",
+          "[Noticiário]“Devido à influência do campo dos Insetos-Nuvem, a maior parte dos equipamentos eletrônicos da cidade ficará inoperante. Durante as semanas em que o Inseto-Nuvem atravessar toda a área urbana, a rede elétrica será desligada por precaução. Recomenda-se que a população providencie suprimentos de emergência.”"
+        ],
+        "ru": [
+          "[НОВОСТИ]”Основываясь на данных полученных со спутника \"Тяньгун-2\", девятое облачное насекомое под кодовым именем \"Близнецы\" прибудет в прибрежный город Шаси в течение месяца.“",
+          "[НОВОСТИ]\"Из-за воздействия поля облачного насекомого электрические приборы в большей части города перестанут функционировать. Электроснабжение города будет приостановлено на время прохода насекомого. Жителям рекомендуется подготовить резервные запасы.\""
+        ],
+        "vi": [
+          "[Bản tin thời sự] \"Bản tin Tân Hoa Xã: Theo quan sát từ vệ tinh 'Thiên Cung 2', Vân Trùng số 9 mang mật danh 'Song Tử' dự kiến sẽ tiến vào thành phố duyên hải miền Nam - Sa Khê sau một tháng nữa.\"",
+          "[Bản tin thời sự] \"Do ảnh hưởng của trường Vân Trùng, hầu hết các thiết bị điện tử trên toàn thành phố khi đó sẽ ngừng hoạt động. Trong suốt vài tuần Vân Trùng đi qua thành phố, mạng lưới điện toàn thị sẽ bị ngắt để bảo vệ. Kính đề nghị người dân chủ động tích trữ nhu yếu phẩm khẩn cấp.\""
+        ]
+      }
+    },
+    {
+      "panel_index": 2,
+      "type": "image",
+      "image_src": "media/image3.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[留言信箱]“月牙儿，你还好吗？”",
+          "[留言信箱]“我考上伯克利的研究生了，我父母也来了，我们准备一起移民了...”"
+        ],
+        "zhHant": [
+          "[留言信箱]“月牙兒，你還好嗎？”",
+          "[留言信箱]“我考上伯克利的研究生了，我父母也來了，我們準備一起移民了...”"
+        ],
+        "en": [
+          "[Message Inbox]“Mahina, are you okay?”",
+          "[Message Inbox]“I got into graduate school at Berkeley! My parents are here too, and we’re all planning to immigrate together...”"
+        ],
+        "ja": [
+          "［受信メッセージ］「マヒナ、元気にしてる？」",
+          "［受信メッセージ］「バークレーの大学院に受かった。両親もこっちに来たんだ。みんなで移住することになって……」"
+        ],
+        "ko": [
+          "[받은 메시지]“마히나, 잘 지내?”",
+          "[받은 메시지]“버클리 대학원에 합격했어. 부모님도 이곳으로 오셨고, 우린 함께 이민을 준비하고 있어……”"
+        ],
+        "es": [
+          "[Buzón de mensajes]«Mahina, ¿estás bien?»",
+          "[Buzón de mensajes]«Me han admitido en el posgrado de Berkeley. Mis padres también han venido… Vamos a emigrar juntos…»"
+        ],
+        "fr": [
+          "[Messagerie]« Mahina, est-ce que tu vas bien ? »",
+          "[Messagerie]« J’ai été admis en master à Berkeley. Mes parents sont venus aussi… Nous allons émigrer ensemble… »"
+        ],
+        "ar": [
+          "[صندوق الرسائل]«ماهينا، هل أنت بخير؟»",
+          "[صندوق الرسائل]«قُبلت في الدراسات العليا بجامعة بيركلي. وجاء والداي أيضًا… سنهاجر معًا…»"
+        ],
+        "ptBR": [
+          "[Caixa de mensagens]“Mahina, você está bem?”",
+          "[Caixa de mensagens]“Fui aceito na pós-graduação em Berkeley. Meus pais também vieram. Estamos nos preparando para emigrar juntos…”"
+        ],
+        "ru": [
+          "[Голосовое сообщение]Юэя, как ты?",
+          "[Голосовое сообщение]Я поступил в магистратуру в Беркли. Мои родители тоже тут, мы готовимся к переезду за границу"
+        ],
+        "vi": [
+          "[Hộp thư thoại] \"Nguyệt Nha Nhi, em vẫn ổn chứ?\"",
+          "[Hộp thư thoại] \"Anh đỗ cao học ở Berkeley rồi. Bố mẹ anh cũng đã sang đây, cả nhà chuẩn bị cùng định cư luôn...\""
+        ]
+      }
+    },
+    {
+      "panel_index": 3,
+      "type": "image",
+      "image_src": "media/image4.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[新闻]“居住于云虫各落脚点范围内的居民请配合政府有关部门提前做好搬迁工作，将个人财产损失降到最低。”",
+          "[新闻]“据专家介绍，此次途经我国沙溪市的云虫为世界第九号云虫，代号“双子”。目前科学界对云虫的来历及其究竟属于机械还是生物的论点依旧有争议。主流的看法认为这十二只云虫是地外超级文明在史前造访地球时留下的探测器。”"
+        ],
+        "zhHant": [
+          "[新聞]“居住於雲蟲各落腳點範圍內的居民請配合政府有關部門提前做好搬遷工作，將個人財產損失降到最低。”",
+          "[新聞]“據專家介紹，此次途經我國沙溪市的雲蟲爲世界第九號雲蟲，代號“雙子”。目前科學界對雲蟲的來歷及其究竟屬於機械還是生物的論點依舊有爭議。主流的看法認爲這十二隻雲蟲是地外超級文明在史前造訪地球時留下的探測器。”"
+        ],
+        "en": [
+          "[NEWS]“Residents within the CloudInsect’s projected resting zones are asked to cooperate with the relevant authorities and relocate in advance, minimizing losses to personal property.”",
+          "[NEWS]“According to experts, the CloudInsect passing through Shashi is the ninth known worldwide, codenamed ‘Gemini.’ Its origin—and whether it is mechanical or biological—remains disputed. The prevailing view is that the twelve CloudInsects are probes left behind by an advanced extraterrestrial civilization that visited Earth in prehistoric times.”"
+        ],
+        "ja": [
+          "［ニュース］「雲虫の滞留予想区域にお住まいの方は、関係機関の指示に従い、早めの避難・移転をお願いします。個人財産への被害を最小限に抑えるため、十分な準備を行ってください」",
+          "［ニュース］「専門家によると、今回、沙渓市を通過するのは世界で確認された第九号の雲虫、コードネーム《双子》です。雲虫の起源、そしてそれが機械なのか生物なのかについては、今なお科学界で議論が続いています。現在の主流説では、十二体の雲虫は、先史時代に地球を訪れた地球外超文明が残した探査機だと考えられています」"
+        ],
+        "ko": [
+          "[뉴스]“운충의 체류 예상 구역에 거주하는 주민께서는 관계 기관의 지시에 따라 사전에 이주를 준비해 주십시오. 개인 재산 피해를 최소화할 수 있도록 충분히 대비하시기 바랍니다.”",
+          "[뉴스]“전문가에 따르면, 이번에 사시를 통과하는 운충은 세계에서 아홉 번째로 확인된 운충으로, 코드명은 ‘쌍둥이’입니다. 운충의 기원과 그것이 기계인지 생명체인지를 두고는 지금도 과학계의 논쟁이 이어지고 있습니다. 현재의 주류 학설은 열두 마리의 운충이 선사 시대에 지구를 방문한 외계 초문명이 남긴 탐사 장치라는 것입니다.”"
+        ],
+        "es": [
+          "[Noticias]«Los residentes de las zonas previstas para el asentamiento de CloudInsect deberán colaborar con las autoridades y trasladarse con antelación, a fin de reducir al mínimo las pérdidas materiales.»",
+          "[Noticias]«Los expertos señalan que el ejemplar que atravesará Shaxi es el noveno CloudInsect conocido en el mundo, con el nombre en clave “Géminis”. La comunidad científica sigue dividida tanto sobre su origen como sobre su naturaleza mecánica o biológica. La teoría predominante sostiene que los doce CloudInsects son sondas abandonadas por una civilización extraterrestre superior durante una visita prehistórica a la Tierra.»"
+        ],
+        "fr": [
+          "[Journal télévisé]« Les habitants situés dans le périmètre des points d’arrêt des Insectes-Nuages sont priés de coopérer avec les services compétents et d’évacuer suffisamment tôt afin de limiter les pertes matérielles. »",
+          "[Journal télévisé]« D’après les experts, l’Insecte-Nuage qui traversera Shaxi est le neuvième recensé dans le monde, sous le nom de code “Gémeaux”. La communauté scientifique reste divisée sur leur origine et sur leur nature, mécanique ou biologique. L’hypothèse dominante veut que les douze Insectes-Nuages soient des sondes laissées par une civilisation extraterrestre extrêmement avancée lors d’une visite sur Terre à l’ère préhistorique. »"
+        ],
+        "ar": [
+          "[أخبار]«على السكان القاطنين ضمن نطاق مواقع هبوط حشرات السحاب التعاون مع الجهات الحكومية المختصة وإتمام الإخلاء مبكرًا، للحد من خسائر الممتلكات الشخصية.»",
+          "[أخبار]«ويوضح الخبراء أن حشرة السحاب التي ستعبر شاشي هي التاسعة المعروفة عالميًا، واسمها الرمزي ‹الجوزاء›. ولا يزال الوسط العلمي منقسمًا بشأن أصل حشرات السحاب، وبشأن كونها آلات أم كائنات حية. ويرى الرأي السائد أن الحشرات الاثنتي عشرة مسابير خلّفتها حضارة فائقة من خارج الأرض حين زارت كوكبنا في عصور ما قبل التاريخ.»"
+        ],
+        "ptBR": [
+          "[Noticiário]“Moradores das áreas próximas aos locais de passagem e repouso dos Insetos-Nuvem devem colaborar com os órgãos governamentais e se mudar com antecedência, a fim de reduzir ao mínimo as perdas materiais.”",
+          "[Noticiário]“Segundo especialistas, o Inseto-Nuvem que passará por Shaxi é o nono já registrado no mundo e recebeu o codinome ‘Gêmeos’. A comunidade científica ainda discute sua origem e sequer chegou a um consenso sobre tratar-se de máquina ou ser vivo. A hipótese predominante sustenta que os doze Insetos-Nuvem são sondas deixadas por uma supercivilização extraterrestre que visitou a Terra na pré-história.”"
+        ],
+        "ru": [
+          "[НОВОСТИ]\"Власти призывают жителей районов, расположенных на пути следования насекомого, сотрудничать с правоохранительными органами для эвакуации.\"",
+          "[НОВОСТИ]\"По словам экспертов, насекомое с кодовым именем \"Близнецы\", идущее в сторону Шаси является девятым в мире. До сих пор ведутся споры о биологическом или механическом происхождении облачных насекомых. Согласно распространенной точке зрения, 12 облачных насекомых — исследовательские аппараты внеземной сверхцивилизации, которая обосновалась на Земле в доисторическую эпоху\""
+        ],
+        "vi": [
+          "[Bản tin thời sự] \"Các cư dân sinh sống trong phạm vi các điểm dừng chân dự kiến của Vân Trùng xin vui lòng phối hợp với cơ quan chức năng để sơ tán trước, nhằm giảm thiểu tối đa thiệt hại về tài sản.\"",
+          "[Bản tin thời sự] \"Theo các chuyên gia, thực thể đi qua thành phố Sa Khê lần này là Vân Trùng số 9 trên thế giới, định danh là 'Song Tử'. Hiện nay giới khoa học vẫn còn nhiều tranh cãi về nguồn gốc cũng như bản chất của Vân Trùng là máy móc cơ khí hay sinh vật sống. Quan điểm chủ lưu cho rằng 12 cá thể Vân Trùng này là những thiết bị thăm dò do một siêu nền văn minh ngoài Trái Đất để lại khi ghé thăm địa cầu từ thời tiền sử.\""
+        ]
+      }
+    },
+    {
+      "panel_index": 4,
+      "type": "image",
+      "image_src": "media/image5.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[留言信箱]“只是那个……我父母……不同意我们……”",
+          "[留言信箱]“对不起……月牙儿……”"
+        ],
+        "zhHant": [
+          "[留言信箱]“只是那個……我父母……不同意我們……”",
+          "[留言信箱]“對不起……月牙兒……”"
+        ],
+        "en": [
+          "[Message Inbox]“It’s just… my parents… they don’t approve of us…”",
+          "[Message Inbox]“I’m sorry… Mahina…”"
+        ],
+        "ja": [
+          "［受信メッセージ］「ただ、その……両親が……僕たちのことを認めてくれなくて……」",
+          "［受信メッセージ］「ごめん……マヒナ……」"
+        ],
+        "ko": [
+          "[받은 메시지]“그런데…… 부모님이…… 우리 사이를 허락하지 않으셔……”",
+          "[받은 메시지]“미안해…… 마히나……”"
+        ],
+        "es": [
+          "[Buzón de mensajes]«Es solo que… mis padres… no aceptan lo nuestro…»",
+          "[Buzón de mensajes]«Lo siento… Mahina…»"
+        ],
+        "fr": [
+          "[Messagerie]« Seulement… mes parents… ils refusent notre relation… »",
+          "[Messagerie]« Je suis désolé… Mahina… »"
+        ],
+        "ar": [
+          "[صندوق الرسائل]«لكن… والديّ… لا يوافقان علينا…»",
+          "[صندوق الرسائل]«أنا آسف… ماهينا…»"
+        ],
+        "ptBR": [
+          "[Caixa de mensagens]“É que… meus pais… não aceitam a gente…”",
+          "[Caixa de mensagens]“Me desculpe… Mahina…”"
+        ],
+        "ru": [
+          "[Голосовое сообщение]\"Только вот... мои родители... против наших отношений...\"",
+          "[Голосовое сообщение]\"Прости, Юэя...\""
+        ],
+        "vi": [
+          "[Hộp thư thoại] \"Chỉ là chuyện kia... bố mẹ anh... không đồng ý chuyện hai đứa mình...\"",
+          "[Hộp thư thoại] \"Anh xin lỗi... Nguyệt Nha Nhi...\""
+        ]
+      }
+    },
+    {
+      "panel_index": 5,
+      "type": "image",
+      "image_src": "media/image6.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    },
+    {
+      "panel_index": 6,
+      "type": "image",
+      "image_src": "media/image7.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[留言信箱]“我们……分手吧……”",
+          "[新闻]“专家还称，云虫场并非普通的电磁干扰，而是在其影响范围之内，电磁物理规律会发生异变。在云虫场内，普朗克常量将不再是常数，麦克斯韦方程组也不再成立。科学界至今依然无法解释这个现象。”",
+          "[新闻]“中科院的莫博士一生致力于云虫足迹的研究。他指出，经过对不同时代的云虫足迹的观测，已有充分证据表明所有云虫的质量都在稳定的下降。他由此推测云虫在地球上行走数千年的能量来源于其体内的反物质与正物质的湮灭。”"
+        ],
+        "zhHant": [
+          "[留言信箱]“我們……分手吧……”",
+          "[新聞]“專家還稱，雲蟲場並非普通的電磁干擾，而是在其影響範圍之內，電磁物理規律會發生異變。在雲蟲場內，普朗克常量將不再是常數，麥克斯韋方程組也不再成立。科學界至今依然無法解釋這個現象。”",
+          "[新聞]“中科院的莫博士一生致力於雲蟲足跡的研究。他指出，經過對不同時代的雲蟲足跡的觀測，已有充分證據表明所有雲蟲的質量都在穩定的下降。他由此推測雲蟲在地球上行走數千年的能量來源於其體內的反物質與正物質的湮滅。”"
+        ],
+        "en": [
+          "[Message Inbox]“Let’s… break up.”",
+          "[NEWS]“Experts have also stated that the CloudInsect field isn’t just typical electromagnetic interference; within its range, the laws of electromagnetism undergo fundamental changes. Planck's constant ceases to be constant, and Maxwell's equations no longer hold. The scientific community remains unable to explain this phenomenon.”",
+          "[NEWS]“Dr. Mo of the Chinese Academy of Sciences devoted his life to studying the footprints of CloudInsects. Comparing footprints from different eras, he found strong evidence that the mass of every CloudInsect is steadily decreasing. He therefore proposed that the energy sustaining their millennia of travel across Earth comes from the annihilation of matter and antimatter within their bodies.”"
+        ],
+        "ja": [
+          "［受信メッセージ］「別れよう……」",
+          "［ニュース］「専門家はさらに、雲虫場は通常の電磁干渉とは異なり、その影響圏内では電磁気学の法則そのものが変質すると説明しています。雲虫場の内部では、プランク定数はもはや定数ではなくなり、マクスウェル方程式も成立しません。科学界はいまだ、この現象を説明できていません」",
+          "［ニュース］「中国科学院の莫博士は、生涯を雲虫の足跡研究に捧げました。博士によれば、異なる時代に残された足跡の観測から、すべての雲虫の質量が一定の割合で減少し続けていることを示す、十分な証拠が得られています。博士はそこから、雲虫が数千年にわたり地上を歩き続けるためのエネルギーは、体内にある反物質と物質の対消滅によって生み出されていると推測しています」"
+        ],
+        "ko": [
+          "[받은 메시지]“우리…… 헤어지자……”",
+          "[뉴스]“전문가들은 운충장이 단순한 전자기 간섭이 아니라, 그 영향권 안에서 전자기학의 법칙 자체가 변질되는 현상이라고 설명합니다. 운충장 내부에서는 플랑크 상수가 더 이상 상수가 아니며, 맥스웰 방정식 또한 성립하지 않습니다. 과학계는 아직까지 이 현상을 설명하지 못하고 있습니다.”",
+          "[뉴스]“중국과학원의 모 박사는 평생을 운충의 발자취를 연구하는 데 바쳤습니다. 그는 서로 다른 시대에 남은 운충의 흔적을 관측한 결과, 모든 운충의 질량이 일정한 속도로 감소하고 있음을 보여 주는 충분한 증거가 확보되었다고 밝혔습니다. 이를 바탕으로, 운충이 수천 년 동안 지상을 걸을 수 있는 에너지는 체내의 반물질과 물질이 쌍소멸하며 발생하는 것이라고 추정했습니다.”"
+        ],
+        "es": [
+          "[Buzón de mensajes]«Deberíamos… dejarlo…»",
+          "[Noticias]«Los expertos añaden que el campo CloudInsect no es una interferencia electromagnética ordinaria: dentro de su zona de influencia, las leyes físicas del electromagnetismo se alteran. La constante de Planck deja de ser constante y las ecuaciones de Maxwell dejan de cumplirse. La ciencia aún no ha logrado explicar este fenómeno.»",
+          "[Noticias]«El doctor Mo, de la Academia China de Ciencias, dedicó su vida al estudio de las huellas de los CloudInsects. A partir de observaciones pertenecientes a distintas épocas, concluyó que existen pruebas suficientes de una disminución constante de su masa. Por ello planteó que la energía que les ha permitido caminar por la Tierra durante milenios procede de la aniquilación de materia y antimateria en su interior.»"
+        ],
+        "fr": [
+          "[Messagerie]« Il vaut mieux… qu’on se sépare… »",
+          "[Journal télévisé]« Les experts précisent que le champ de l’Insecte-Nuage ne constitue pas une simple perturbation électromagnétique : dans sa zone d’influence, les lois de l’électromagnétisme se modifient. La constante de Planck cesse d’être constante et les équations de Maxwell ne sont plus valides. La science demeure à ce jour incapable d’expliquer ce phénomène. »",
+          "[Journal télévisé]« Le docteur Mo, de l’Académie chinoise des sciences, a consacré sa vie à l’étude des traces laissées par les Insectes-Nuages. Ses observations à travers différentes époques apportent des preuves suffisantes que leur masse diminue de façon régulière. Il suppose donc que l’énergie qui leur permet de parcourir la Terre depuis des millénaires provient de l’annihilation de matière et d’antimatière en leur sein. »"
+        ],
+        "ar": [
+          "[صندوق الرسائل]«لننهِ… علاقتنا…»",
+          "[أخبار]«ويضيف الخبراء أن حقل حشرة السحاب ليس تشويشًا كهرومغناطيسيًا عاديًا؛ ففي نطاق تأثيره تتبدل قوانين الفيزياء الكهرومغناطيسية. لا يعود ثابت بلانك ثابتًا، وتفقد معادلات ماكسويل صلاحيتها. وحتى اليوم، لم يجد العلم تفسيرًا لهذه الظاهرة.»",
+          "[أخبار]«كرّس الدكتور مو، من الأكاديمية الصينية للعلوم، حياته لدراسة آثار أقدام حشرات السحاب. وأشار إلى أن رصد تلك الآثار عبر عصور مختلفة قدّم أدلة كافية على أن كتلة جميع الحشرات تتناقص باطراد. ومن ذلك افترض أن الطاقة التي أبقتها سائرة على الأرض آلاف السنين ناتجة من إفناء المادة والمادة المضادة في داخلها.»"
+        ],
+        "ptBR": [
+          "[Caixa de mensagens]“Acho melhor… terminarmos…”",
+          "[Noticiário]“Especialistas afirmam ainda que o campo dos Insetos-Nuvem não é uma simples interferência eletromagnética. Dentro de sua área de influência, as próprias leis físicas do eletromagnetismo sofrem alterações: a constante de Planck deixa de ser constante, e as equações de Maxwell já não se sustentam. Até hoje, a ciência não conseguiu explicar o fenômeno.”",
+          "[Noticiário]“O doutor Mo, da Academia Chinesa de Ciências, dedicou a vida ao estudo dos rastros dos Insetos-Nuvem. Segundo ele, observações de vestígios deixados em diferentes épocas oferecem provas suficientes de que a massa de todos esses seres vem diminuindo de modo constante. A partir disso, ele propôs que a energia que os mantém caminhando pela Terra há milhares de anos provém da aniquilação entre matéria e antimatéria em seu interior.”"
+        ],
+        "ru": [
+          "[Голосовое сообщение]\"Мы... должны расстаться...\"",
+          "[НОВОСТИ]\"Эксперты также утверждают, что поля облачных насекомых не являются обычными электромагнитными помехами, в зоне их влияния электромагнитные законы физики могут претерпевать аномалии. Постоянная Планка поддаётся изменениям, а уравнение Максвелла перестаёт работать. Научное сообщество до сих пор не может объяснить этот феномен.\"",
+          "[НОВОСТИ]\"Доктор Мо из Китайской академии наук посвятил свою жизнь изучению следов облачных насекомых. Он отметил, что данные, полученные при изучении их следов в разные эпохи являются убедительным доказательством того, что насекомые неуклонно теряют массу. Учёный предполагает, что энергия, поддерживающая их в течение тысячелетнего путешествия по Земле, образуется в результате аннигиляции материи и антиматерии в их телах.\""
+        ],
+        "vi": [
+          "[Hộp thư thoại] \"Chúng mình... chia tay đi...\"",
+          "[Bản tin thời sự] \"Các chuyên gia cũng cho biết thêm, trường Vân Trùng không đơn thuần là nhiễu loạn điện từ thông thường, mà ngay trong phạm vi ảnh hưởng của nó, các quy luật vật lý điện từ đều sẽ bị biến đổi dị thường. Bên trong trường Vân Trùng, hằng số Planck không còn là hằng số, và hệ phương trình Maxwell cũng không còn chuẩn xác. Giới khoa học cho đến nay vẫn chưa thể giải thích hiện tượng này.\"",
+          "[Bản tin thời sự] \"Tiến sĩ Mạc thuộc Viện Khoa học Trung Quốc, người dành cả đời nghiên cứu dấu chân Vân Trùng, chỉ ra rằng qua quan sát dấu vết của Vân Trùng ở các thời đại khác nhau, đã có đủ bằng chứng chứng minh khối lượng của tất cả Vân Trùng đều đang suy giảm đều đặn. Từ đó ông đưa ra giả thuyết rằng nguồn năng lượng duy trì bước chân ngàn năm của Vân Trùng trên Trái Đất bắt nguồn từ sự hủy cặp giữa vật chất và phản vật chất bên trong cơ thể chúng.\""
+        ]
+      }
+    },
+    {
+      "panel_index": 7,
+      "type": "image",
+      "image_src": "media/image9.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[留言信箱]“听说你们那边有云虫要经过，照顾好自己……”"
+        ],
+        "zhHant": [
+          "[留言信箱]“聽說你們那邊有雲蟲要經過，照顧好自己……”"
+        ],
+        "en": [
+          "[Message Inbox]“I heard there’s a CloudInsect passing through your area. Take care of yourself…”"
+        ],
+        "ja": [
+          "［受信メッセージ］「そっちに雲虫が来るんだってね。身体に気をつけて……」"
+        ],
+        "ko": [
+          "[받은 메시지]“그쪽으로 운충이 지나간다면서. 몸조심해……”"
+        ],
+        "es": [
+          "[Buzón de mensajes]«He oído que un CloudInsect va a pasar por tu zona. Cuídate…»"
+        ],
+        "fr": [
+          "[Messagerie]« J’ai entendu dire qu’un Insecte-Nuage allait passer près de chez vous. Prends soin de toi… »"
+        ],
+        "ar": [
+          "[صندوق الرسائل]«سمعت أن حشرة سحاب ستمر من عندكم… اعتني بنفسك…»"
+        ],
+        "ptBR": [
+          "[Caixa de mensagens]“Ouvi dizer que um Inseto-Nuvem vai passar por aí. Cuide-se…”"
+        ],
+        "ru": [
+          "[Голосовое сообщение]\"Я слышал, что в вашу сторону движется облачное насекомое. Береги себя...\""
+        ],
+        "vi": [
+          "[Hộp thư thoại] \"Nghe nói chỗ em sắp có Vân Trùng đi qua, hãy tự chăm sóc tốt cho bản thân nhé...\""
+        ]
+      }
+    },
+    {
+      "panel_index": 8,
+      "type": "image",
+      "image_src": "media/image10.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    },
+    {
+      "panel_index": 9,
+      "type": "image",
+      "image_src": "media/image11.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[新闻]“虽然千百年来人类对云虫的好奇与探索从未止步过，但即使到了科学技术高度发达的今天，由于云虫场的存在，人类对云虫的研究依旧举步维艰。”"
+        ],
+        "zhHant": [
+          "[新聞]“雖然千百年來人類對雲蟲的好奇與探索從未止步過，但即使到了科學技術高度發達的今天，由於雲蟲場的存在，人類對雲蟲的研究依舊舉步維艱。”"
+        ],
+        "en": [
+          "[NEWS]“For thousands of years, humanity has never stopped wondering about or investigating CloudInsects. Yet even today, despite highly advanced science and technology, the CloudInsect field continues to make their study extraordinarily difficult.”"
+        ],
+        "ja": [
+          "［ニュース］「幾千年ものあいだ、人類は雲虫への好奇心を失わず、その謎を追い続けてきました。しかし科学技術が高度に発達した現代においてさえ、雲虫場の存在に阻まれ、その研究は今なお困難を極めています」"
+        ],
+        "ko": [
+          "[뉴스]“수천 년 동안 인류는 운충을 향한 호기심을 잃지 않았고, 그 비밀을 밝히려는 탐구도 멈추지 않았습니다. 그러나 과학기술이 고도로 발달한 오늘날에도 운충장의 존재로 인해, 운충 연구는 여전히 한 걸음 내딛기조차 어려운 실정입니다.”"
+        ],
+        "es": [
+          "[Noticias]«Aunque la curiosidad humana y la búsqueda de respuestas sobre los CloudInsects nunca han cesado a lo largo de los siglos, incluso hoy, en una era de gran desarrollo científico y tecnológico, la existencia del campo CloudInsect hace que su estudio siga avanzando con enorme dificultad.»"
+        ],
+        "fr": [
+          "[Journal télévisé]« Depuis des siècles, la curiosité des hommes pour les Insectes-Nuages et leurs tentatives de les comprendre n’ont jamais cessé. Pourtant, malgré les progrès considérables de la science et de la technologie, l’existence de leur champ rend encore toute recherche extrêmement difficile. »"
+        ],
+        "ar": [
+          "[أخبار]«على مدى قرون طويلة، لم يخمد فضول البشر تجاه حشرات السحاب ولا سعيهم إلى فهمها. لكن حتى اليوم، على ما بلغه العلم والتقنية من تقدم، ما زال حقل حشرة السحاب يجعل كل خطوة في دراستها شاقة.»"
+        ],
+        "ptBR": [
+          "[Noticiário]“Embora a curiosidade e a busca humanas pelos Insetos-Nuvem jamais tenham cessado ao longo dos séculos, mesmo hoje, em uma era de ciência e tecnologia altamente avançadas, a existência de seu campo continua tornando cada passo dessa pesquisa extraordinariamente difícil.”"
+        ],
+        "ru": [
+          "[НОВОСТИ]\"Несмотря на то, что человечество на протяжении тысячелетий проявляет неутолимое любопытство к изучению облачных насекомых, даже сегодня, когда наука и технологии достигли высокого уровня развития, их исследование остаётся крайне сложным из-за особенностей поля этих существ.\""
+        ],
+        "vi": [
+          "[Bản tin thời sự] \"Dù hàng ngàn năm qua trí tò mò và khát vọng khám phá Vân Trùng của nhân loại chưa từng ngơi nghỉ, song ngay cả ở thời đại khoa học kỹ thuật phát triển tột bậc ngày nay, sự tồn tại của trường Vân Trùng vẫn khiến việc nghiên cứu của con người vô cùng gian nan trắc trở.\""
+        ]
+      }
+    },
+    {
+      "panel_index": 10,
+      "type": "image",
+      "image_src": "media/image12.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    },
+    {
+      "panel_index": 11,
+      "type": "image",
+      "image_src": "media/image13.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    }
+  ],
+  "title_vi": "Vân Trùng · Chương 0: Mở đầu · v5.1.39"
+}

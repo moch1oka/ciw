@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+
+CHAPTER_2_2_VI = [
+    # Panel 1
+    [
+        '“Hít sâu vào... Thả lỏng tâm trí, trút bỏ mọi tạp niệm, thử cảm nhận khoảnh khắc hiện tại một cách thuần khiết nhất. Cảm nhận mặt đất nâng đỡ cơ thể bạn, cảm nhận làn khí mát lạnh khẽ lướt qua khi hít vào. Và cảm nhận hơi thở ấm áp nhẹ nhàng tỏa ra khi thở ra...”'
+    ],
+    # Panel 2
+    [
+        '“Cái \'tâm pháp\' này là do cậu tự sáng tạo ra đấy à?”',
+        '“Là thiền định đấy, dạo này đang khá phổ biến, có thể giúp xoa dịu tâm trạng của cậu rất tốt. Nhắm mắt lại nào, đọc theo tôi nhé:”'
+    ],
+    # Panel 3
+    [
+        '“Hãy tưởng tượng một luồng ánh sáng dịu dàng, chầm chậm chảy qua khắp cơ thể bạn.”',
+        '“... Một luồng sáng dịu dàng... chảy qua khắp cơ thể tôi...”'
+    ],
+    # Panel 4
+    [
+        '“Dùng tâm lắng nghe những âm thanh xung quanh, không kháng cự, cũng chẳng đuổi theo.”',
+        '“... Không kháng cự... không đuổi theo...”'
+    ],
+    # Panel 5
+    [
+        '“Cảm nhận không khí nhẹ nhàng lưu chuyển, để bản thân hòa vào khoảng không gian.”',
+        '“......”'
+    ],
+    # Panel 6
+    [
+        '[Hồi ức hỗn loạn] “Bố cháu đã tặng quà sinh nhật và gửi cho cháu bao nhiêu tiền rồi, cháu còn muốn đòi hỏi gì nữa đây? Bố cháu còn phải đưa cả nhà đi du lịch nước ngoài, làm gì có thời gian mà ở bên cháu!”',
+        '“Cô ơi, cháu không cần những thứ đó. Cháu chỉ mong sinh nhật tuổi 18 này bố có thể ở bên cháu một ngày thôi, chỉ một ngày thôi mà cô...”',
+        '“Con bé này sao lại không biết điều thế hả? Cháu thừa biết bố cháu không tiện, thế mà cứ quấn lấy bố cháu mãi!”',
+        '[Hồi ức hỗn loạn] “Nguyệt Nha Nhi, chúng mình... chia tay đi...”',
+        '[Hồi ức hỗn loạn] “Trước tối mai cháu bắt buộc phải dọn đi, nếu không bác sẽ cắt điện cắt nước đấy!”'
+    ],
+    # Panel 7
+    [
+        '[Hồi ức hỗn loạn] “Nguyệt Nha Nhi, phòng ký túc xá chúng ta đã nhất trí biểu quyết rồi, mấy bộ quần áo đó của cậu không được phơi ngoài ban công nữa đâu nhé.”',
+        '“Tại sao cơ chứ?”',
+        '“Mấy bộ đồ cậu mặc đi hát ở quán bar mà phơi tơ hơ ngoài kia, người ta nhìn vào lại tưởng cả phòng chúng mình toàn ngữ chẳng đàng hoàng gì.”',
+        '“Thế sau này đồ của tôi biết phơi ở đâu?”',
+        '“Thì mang ra tiệm giặt ủi bên ngoài mà giặt sấy, dù sao cậu cũng đâu có thiếu tiền, đúng không nào?”',
+        '“Tại sao các cậu lại nghĩ là tôi có tiền?”',
+        '“Thôi đừng có giả vờ giả vịt nữa đi! Chẳng phải cậu đi hát quán bar một đêm kiếm được mấy ngàn tệ sao, tớ nghe người ta đồn mấy ông chủ toàn nhét tiền thẳng vào trong áo lót của cậu đấy thôi.”',
+        '“Thế cơ đấy à... ha ha ha...”'
+    ],
+    # Panel 8
+    [
+        '“Nguyệt Nha Nhi? Cậu sao thế, sắc mặt sao lại tái mét thế kia?”'
+    ],
+    # Panel 9
+    [
+        '“... Tôi không sao, chỉ là thấy hơi chóng mặt thôi. Cái \'tâm pháp\' này của cậu — à không, thiền định — có lẽ không hợp với tôi rồi. Nhưng vẫn cảm ơn cậu nhé, ít nhất thì cậu cũng thực lòng muốn giúp tôi. Haizz...”'
+    ],
+    # Panel 10
+    [
+        '“Để đáp lại lòng tốt của cậu, tôi hát tặng cậu một bài nhé.”'
+    ],
+    # Panel 11
+    [
+        '[Khẽ hát] “Đừng bảo tôi rằng nên từ bỏ,',
+        'Nên mở to đôi mắt ra nhìn đời,',
+        'Tôi dùng trái tim của chính mình,',
+        'Để ngắm nhìn, để cảm nhận,',
+        'Bạn đâu phải là tôi,',
+        'Thì làm sao có thể thấu hiểu được...',
+        '......”'
+    ],
+    # Panel 12
+    [
+        '[Khẽ hát] “Tôi chẳng hoàn mỹ như các người vẫn tưởng,',
+        'Tôi thừa nhận đôi khi mình cũng chẳng phân định nổi trắng đen thực hư —”'
+    ],
+    # Panel 13
+    [
+        '“Người ta mới hát có một bài thôi, cậu đỏ mặt cái nỗi gì đấy hả?”'
+    ],
+    # Panel 14
+    [
+        '“Hả? Đâu... đâu có đỏ mặt đâu... Ở quán bar, cậu cũng hát như thế này sao?”',
+        '“Đúng vậy đấy.”',
+        '“Những người đến đó nghe cậu hát... là những người thế nào?”',
+        '“Đều chẳng phải người tốt đẹp gì.”',
+        '“... Không phải người tốt?”'
+    ],
+    # Panel 15
+    [
+        '“Nhưng đương nhiên cũng chẳng phải kẻ xấu xa độc ác. Họ cũng giống như tôi vậy thôi, đều là những linh hồn lạc lối giữa cõi nhân gian này.”',
+        '[Tiếp tục khẽ hát] “Phải mượn trái tim của ai để thấu tỏ,',
+        'Để cảm nhận chân thực mọi thứ xung quanh mình,',
+        'Dẫu cho có là đớn đau, dẫu cho có là nước mắt,',
+        'Thì đó cũng là nỗi đau thương thuộc về riêng tôi.”',
+        '—— Vương Phi, ca khúc "Chấp Mê Bất Hối" (1993)'
+    ],
+    # Panel 16
+    [
+        'Giọng hát của cô thanh thoát, vang vọng mà lại vương chút khàn nhẹ, tựa như những hạt bụi li ti lững lờ trôi giữa vạt nắng mai.',
+        'Bên ngoài khung cửa sổ, tiếng trùng ngâm nơi xa cùng thanh âm huyên náo của phố thị đan xen vào nhau, cả thành phố chìm trong nỗi bất an mơ hồ trước điềm báo Vân Trùng sắp giáng lâm.',
+        'Ánh mắt cậu chăm chú dõi theo Nguyệt Nha Nhi đứng ngược sáng, ánh dương hắt lên vai cô tạo thành một vầng hào quang mờ ảo, phác họa nên một bóng hình dịu dàng mà cô tịch khôn cùng.'
+    ]
+]

@@ -1,0 +1,2039 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="v5.1.39" name="cloudinsect-version"/>
+<title>云虫 第零章 楔子 · v5.1.39</title>
+<link href="../../assets/cloud-insect-logo-v4.2.03.png" rel="icon"/>
+<style>
+    :root {
+      --page-width: 1440px;
+      --text-width: 1120px;
+      --bg: #090a0b;
+      --paper: #101112;
+      --text: #d9d9d9;
+      --moon: #fa1c78;
+      --xiyang: #05b5fc;
+      --label: #fce5cd;
+      --reader-scale: 1;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: var(--bg); }
+    body {
+      font-family: Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    .comic {
+      width: min(94vw, var(--page-width));
+      margin: 0 auto;
+      background: var(--paper);
+      padding: clamp(28px, 4vw, 84px) clamp(18px, 4.5vw, 88px);
+    }
+    .comic[hidden] { display: none; }
+    .opening {
+      max-width: var(--text-width);
+      margin: 0 auto clamp(54px, 7.5vw, 108px);
+      padding-top: clamp(10px, 2.8vw, 40px);
+    }
+    .opening-brand {
+      margin: 0 0 clamp(72px, 8.8vw, 124px);
+      font-size: clamp(calc(38px * var(--reader-scale)), calc(4vw * var(--reader-scale)), calc(64px * var(--reader-scale)));
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 0;
+      color: rgba(230, 230, 230, 0.92);
+      white-space: pre-wrap;
+    }
+    .opening-title {
+      margin: 0 0 clamp(42px, 4.8vw, 72px);
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-weight: 800;
+      letter-spacing: 0;
+      color: rgba(224, 224, 224, 0.9);
+      white-space: pre-wrap;
+    }
+    .opening-meta { display: grid; gap: clamp(10px, 1.4vw, 18px); }
+    .opening-meta .tag-caption {
+      display: flex;
+      align-items: center;
+      gap: 0.72em;
+    }
+    .opening-meta .tag-caption > span:last-child { min-width: 0; }
+    .opening-time {
+      display: flex;
+      align-items: center;
+      gap: 0.72em;
+      margin: 0;
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.72vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.5;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: rgba(217, 217, 217, 0.76);
+      white-space: pre-wrap;
+    }
+    .opening-icon, .opening-icon-spacer { height: 1.18em; flex: 0 0 auto; }
+    .opening-icon { width: auto; opacity: 0.78; filter: drop-shadow(0 0 8px rgba(235, 235, 230, 0.11)); }
+    .panel {
+      width: calc(100% + clamp(36px, 9vw, 176px));
+      aspect-ratio: 1 / var(--ratio);
+      position: relative;
+      overflow: hidden;
+      margin: 0 calc(clamp(18px, 4.5vw, 88px) * -1) clamp(24px, 4.8vw, 54px);
+      background: #050607;
+    }
+    .panel img {
+      position: absolute;
+      width: var(--img-w);
+      height: var(--img-h);
+      left: var(--img-left);
+      top: var(--img-top);
+      max-width: none;
+      object-fit: fill;
+      display: block;
+    }
+    .text {
+      max-width: var(--text-width);
+      margin: 0 auto clamp(18px, 3.8vw, 38px);
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.62;
+      font-weight: 700;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+      color: var(--text);
+    }
+    .scene-break {
+      width: 100%;
+      min-height: clamp(420px, 82vh, 820px);
+      margin: clamp(24px, 5vw, 60px) auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .scene-break img {
+      width: clamp(44px, 6vw, 72px);
+      height: auto;
+      display: block;
+      opacity: 0.74;
+      filter: drop-shadow(0 0 10px rgba(235, 235, 230, 0.14));
+    }
+    .sound-effect {
+      margin-top: clamp(30px, 5vw, 66px);
+      margin-bottom: clamp(30px, 5vw, 66px);
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+    }
+    .left { text-align: left; }
+    .right { text-align: right; }
+    .center { text-align: center; }
+    .moon { color: var(--moon); }
+    .xiyang { color: var(--xiyang); }
+    .label { color: var(--label); }
+    .dim { color: rgba(217, 217, 217, 0.72); }
+    .quote {
+      margin-top: clamp(52px, 6.5vw, 104px);
+      margin-bottom: clamp(10px, 2vw, 22px);
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.58;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.48);
+    }
+    .quote + .quote { margin-top: clamp(8px, 1.4vw, 18px); }
+    .endnote {
+      margin-top: clamp(38px, 5vw, 82px);
+      margin-bottom: clamp(8px, 1.6vw, 18px);
+      font-size: clamp(calc(13px * var(--reader-scale)), calc(0.98vw * var(--reader-scale)), calc(17px * var(--reader-scale)));
+      line-height: 1.55;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.42);
+    }
+    .lang-toggle {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 50;
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.26);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .lang-option {
+      min-width: 58px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.72);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+    .lang-option:hover { color: #ffffff; background: rgba(255, 255, 255, 0.08); }
+    .lang-option[aria-pressed="true"] { color: #090a0b; background: rgba(235, 235, 230, 0.92); }
+    .font-controls {
+      position: fixed;
+      top: 78px;
+      left: 18px;
+      z-index: 50;
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .font-button {
+      min-width: 54px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.82);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1;
+      padding: 0 14px;
+      cursor: pointer;
+    }
+    .font-button:hover { color: #ffffff; background: rgba(255, 255, 255, 0.08); }
+    .font-button:disabled { color: rgba(217, 217, 217, 0.28); cursor: default; }
+    .font-button:disabled:hover { background: transparent; }
+    .sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+      text-align: center;
+    }
+
+    html[lang="en"] .text {
+      font-size: clamp(calc(19px * var(--reader-scale)), calc(1.48vw * var(--reader-scale)), calc(27px * var(--reader-scale)));
+      line-height: 1.58;
+    }
+    html[lang="en"] .quote, html[lang="en"] .endnote { font-size: clamp(calc(13px * var(--reader-scale)), calc(0.98vw * var(--reader-scale)), calc(17px * var(--reader-scale))); }
+    .chapter-pager {
+      max-width: var(--text-width);
+      margin: clamp(44px, 7vw, 96px) auto clamp(18px, 4vw, 52px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: clamp(18px, 4vw, 36px);
+    }
+    .chapter-pager-button {
+      width: clamp(50px, 6vw, 68px);
+      height: clamp(50px, 6vw, 68px);
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(232, 232, 226, 0.88);
+      background: rgba(10, 11, 12, 0.74);
+      text-decoration: none;
+      font-size: clamp(34px, 4.2vw, 48px);
+      line-height: 1;
+      font-weight: 500;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .chapter-pager-icon {
+      width: 58%;
+      height: 58%;
+      display: block;
+      object-fit: contain;
+      transform: translateX(0);
+      filter: drop-shadow(0 0 8px rgba(5, 181, 252, 0.14));
+    }
+    .chapter-pager-button:hover,
+    .chapter-pager-button:focus-visible {
+      color: #ffffff;
+      border-color: rgba(5, 181, 252, 0.68);
+      background: rgba(5, 181, 252, 0.16);
+      outline: none;
+    }
+    .chapter-pager-button.is-disabled {
+      opacity: 0.24;
+      pointer-events: none;
+      box-shadow: none;
+    }
+
+
+
+    @media (max-width: 520px) {
+      .comic { width: 100vw; padding-left: 18px; padding-right: 18px; }
+      .opening { max-width: 100%; margin-bottom: 48px; padding-top: 14px; }
+      .opening-brand { margin-bottom: 58px; font-size: calc(34px * var(--reader-scale)); }
+      .opening-title { margin-bottom: 34px; font-size: calc(30px * var(--reader-scale)); }
+      .sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      .opening-time { font-size: calc(20px * var(--reader-scale)); }
+      .panel { width: calc(100% + 36px); margin-left: -18px; margin-right: -18px; }
+      .text { max-width: 100%; font-size: calc(21px * var(--reader-scale)); line-height: 1.68; }
+      html[lang="en"] .text { font-size: calc(19px * var(--reader-scale)); }
+      .lang-toggle { top: 12px; left: 12px; transform: scale(0.86); transform-origin: top left; }
+      .font-controls { top: 64px; left: 12px; transform: scale(0.86); transform-origin: top left; }
+    }
+
+    .settings-toggle { display: none; }
+    .controls-panel {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 50;
+    }
+    .controls-panel .lang-toggle,
+    .controls-panel .font-controls {
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+      transform-origin: center;
+    }
+    .controls-panel .font-controls { margin-top: 10px; }
+    .chapter-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      width: max-content;
+      margin-top: 10px;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .site-version {
+      width: max-content;
+      min-height: 32px;
+      margin-top: 8px;
+      padding: 0 14px;
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(217, 217, 217, 0.18);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.54);
+      color: rgba(217, 217, 217, 0.52);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .toc-link,
+    .chapter-select {
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.82);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1;
+    }
+    .toc-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 14px;
+      text-decoration: none;
+    }
+    .toc-link:hover,
+    .chapter-select:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .chapter-select option {
+      background: #101112;
+      color: rgba(245, 245, 240, 0.94);
+    }
+    .chapter-select option:checked {
+      background: #2a2a24;
+      color: #ffffff;
+    }
+    .chapter-select {
+      max-width: min(270px, 58vw);
+      padding: 0 32px 0 14px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: linear-gradient(45deg, transparent 50%, rgba(217, 217, 217, 0.78) 50%), linear-gradient(135deg, rgba(217, 217, 217, 0.78) 50%, transparent 50%);
+      background-position: calc(100% - 18px) 18px, calc(100% - 12px) 18px;
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+    @media (max-width: 520px) {
+      .settings-toggle {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 60;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border: 1px solid rgba(217, 217, 217, 0.24);
+        border-radius: 999px;
+        background: rgba(10, 11, 12, 0.64);
+        color: rgba(235, 235, 230, 0.92);
+        font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      .settings-toggle img {
+        width: 30px;
+        height: 34px;
+        object-fit: contain;
+        display: block;
+      }
+      .settings-toggle[aria-expanded="true"] {
+        border-color: rgba(235, 235, 230, 0.42);
+        background: rgba(10, 11, 12, 0.84);
+      }
+      .controls-panel {
+        top: 62px;
+        left: 12px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .controls-panel.is-open { display: flex; }
+      .controls-panel .lang-toggle,
+      .controls-panel .font-controls,
+      .chapter-controls {
+        position: static;
+        transform: none;
+      }
+      .lang-option {
+        min-width: 50px;
+        min-height: 36px;
+        font-size: 14px;
+        padding: 0 11px;
+      }
+      .font-button {
+        min-width: 48px;
+        min-height: 36px;
+        font-size: 16px;
+        padding: 0 12px;
+      }
+      .chapter-controls {
+        max-width: calc(100vw - 24px);
+        gap: 6px;
+      }
+      .toc-link,
+      .chapter-select {
+        min-height: 36px;
+        font-size: 14px;
+      }
+      .toc-link { padding: 0 11px; }
+      .chapter-select {
+        max-width: calc(100vw - 116px);
+        padding-left: 11px;
+      }
+    }
+
+
+    @media print {
+      html, body { background: var(--paper); }
+      .comic { width: var(--page-width); padding: 84px 88px; }
+      .comic[hidden] { display: none; }
+    }
+    @media (max-width: 760px) {
+      .scene-break { min-height: 72svh; margin: 24px auto; }
+    }
+
+    /* cloudinsect-text-style:start */
+    .text {
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.62;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: #dddddd;
+    }
+    .chapter-title, .opening-title {
+      color: rgba(232, 232, 226, 0.9);
+    }
+    .prose {
+      font-size: clamp(calc(19.5px * var(--reader-scale)), calc(1.62vw * var(--reader-scale)), calc(28px * var(--reader-scale)));
+      color: #dddddd;
+    }
+    .moon { color: #ff2b91; text-align: left; }
+    .xiyang { color: #28b7ff; text-align: right; }
+    .other { color: #f5e9b8; text-align: right; }
+    .tag-caption {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+      line-height: 1.58;
+      font-weight: 700;
+      color: rgba(205, 205, 198, 0.78);
+      text-align: left;
+    }
+    .tag-caption .tag { color: rgba(245, 233, 184, 0.84); }
+    .quote {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.58;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.48);
+    }
+    html[lang="en"] .text {
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+    }
+    html[lang="en"] .prose {
+      font-size: clamp(calc(19.5px * var(--reader-scale)), calc(1.62vw * var(--reader-scale)), calc(28px * var(--reader-scale)));
+    }
+    html[lang="en"] .tag-caption {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+    }
+    html[lang="en"] .quote {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+    }
+    html[lang="en"] .sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+    }
+
+    @media (max-width: 760px) {
+      .chapter-title, .opening-title { font-size: calc(30px * var(--reader-scale)); }
+      .sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      .text { font-size: calc(21px * var(--reader-scale)); line-height: 1.68; }
+      .prose { font-size: calc(19.5px * var(--reader-scale)); }
+      .tag-caption { font-size: calc(16px * var(--reader-scale)); }
+      .quote { font-size: calc(14px * var(--reader-scale)); }
+      html[lang="en"] .sound-effect { font-size: calc(30px * var(--reader-scale)); }
+      html[lang="en"] .text { font-size: calc(21px * var(--reader-scale)); }
+      html[lang="en"] .prose { font-size: calc(19.5px * var(--reader-scale)); }
+      html[lang="en"] .tag-caption { font-size: calc(16px * var(--reader-scale)); }
+      html[lang="en"] .quote { font-size: calc(14px * var(--reader-scale)); }
+    }
+    .text.sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+      text-align: center;
+    }
+    html[lang="en"] .text.sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+    }
+    @media (max-width: 760px) {
+      .text.sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      html[lang="en"] .text.sound-effect { font-size: calc(30px * var(--reader-scale)); }
+    }
+    /* cloudinsect-text-style:end */
+  </style>
+<link href="../../assets/site-footer.css?v=5.1.39" rel="stylesheet"/>
+<style data-cloudinsect-language-select="true">
+.language-select {
+  min-height: 36px;
+  max-width: min(180px, 48vw);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px;
+  padding: 0 30px 0 12px;
+  color: rgba(255,255,255,.92);
+  background: rgba(14,16,18,.94);
+  font: 700 13px/1.2 Arial, "PingFang SC", "Hiragino Sans", sans-serif;
+}
+</style>
+<style data-cloudinsect-language-select-refinement="v5.1.39">
+.language-select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  cursor: pointer;
+  color-scheme: dark;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23e8e8e2' stroke-opacity='.82' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 10px 6px;
+}
+.language-select:focus,
+.language-select:focus-visible {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.language-toggle:has(.language-select:focus-visible),
+.lang-toggle:has(.language-select:focus-visible) {
+  border-color: rgba(232, 232, 226, 0.52);
+}
+</style><style data-cloudinsect-arabic-rtl="true">
+html[lang="ar"] body {
+  direction: ltr;
+  text-align: initial;
+  font-family: Arial, "Noto Sans Arabic", "Noto Naskh Arabic", sans-serif;
+}
+html[lang="ar"] .controls-panel,
+html[lang="ar"] .reader-controls,
+html[lang="ar"] .settings-panel,
+html[lang="ar"] .chapter-controls,
+html[lang="ar"] .lang-toggle,
+html[lang="ar"] .language-toggle,
+html[lang="ar"] .font-controls,
+html[lang="ar"] .chapter-pager,
+html[lang="ar"] .pager,
+html[lang="ar"] .topbar,
+html[lang="ar"] .thumb-rail,
+html[lang="ar"] .links,
+html[lang="ar"] .cloudinsect-site-footer {
+  direction: ltr;
+}
+html[lang="ar"] main[data-lang-page="ar"] {
+  direction: rtl;
+}
+html[lang="ar"] main[data-lang-page="ar"] .text,
+html[lang="ar"] main[data-lang-page="ar"] p,
+html[lang="ar"] [data-ar],
+html[lang="ar"] #itemTagText,
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright,
+html[lang="ar"] .cloudinsect-contact-label {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  overflow-wrap: anywhere;
+}
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright {
+  text-align: right;
+}
+html[lang="ar"] .language-select,
+html[lang="ar"] .chapter-select {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="ar"] .chapter-select option,
+html[lang="ar"] .language-select option {
+  direction: rtl;
+  text-align: right;
+}
+html[lang="ar"] .chapter-pager .label,
+html[lang="ar"] .pager .label,
+html[lang="ar"] .toc-link {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+html[lang="ar"] .formula,
+html[lang="ar"] code,
+html[lang="ar"] [data-ltr] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+</style>
+<style data-cloudinsect-select-option-contrast="true">
+.language-select,
+.chapter-select {
+  color-scheme: dark;
+}
+.language-select option,
+.chapter-select option {
+  background-color: #101112;
+  color: rgba(245, 245, 240, 0.96);
+}
+</style>
+<style data-cloudinsect-adaptive-chapter-menu="true">
+.chapter-controls {
+  max-width: calc(100vw - 24px);
+}
+.chapter-select {
+  width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 160px)));
+  max-width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 160px)));
+  text-overflow: clip;
+}
+.chapter-controls.is-stacked {
+  display: grid;
+  grid-template-columns: minmax(0, max-content);
+  align-items: stretch;
+  width: max-content;
+  max-width: calc(100vw - 24px);
+  border-radius: 24px;
+}
+.chapter-controls.is-stacked .toc-link {
+  justify-content: flex-start;
+}
+.chapter-controls.is-stacked .chapter-select {
+  width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 36px)));
+  max-width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 36px)));
+  padding-right: 32px;
+}
+@media (max-width: 520px) {
+  .chapter-select {
+    font-size: 14px;
+  }
+  .chapter-controls.is-stacked .chapter-select {
+    font-size: 13px;
+  }
+}
+</style>
+<style data-cloudinsect-ptbr-style="true">
+html[lang="pt-BR"] main[data-lang-page="ptBR"] { direction: ltr; }
+html[lang="pt-BR"] .history-card { max-width: min(340px, calc(100% - 24px)); }
+html[lang="pt-BR"] .history-card-kicker { white-space: normal; letter-spacing: 0.03em; line-height: 1.24; }
+html[lang="pt-BR"] .chapter-select option,
+html[lang="pt-BR"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="pt-BR"] .history-card { max-width: min(280px, calc(100% - 20px)); }
+  html[lang="pt-BR"] .history-card-kicker { font-size: 12px; }
+}
+</style>
+<style data-cloudinsect-ru-style="true">
+html[lang="ru"] main[data-lang-page="ru"] { direction: ltr; }
+html[lang="ru"] .history-card { max-width: min(350px, calc(100% - 24px)); }
+html[lang="ru"] .history-card-kicker { white-space: normal; letter-spacing: 0.02em; line-height: 1.24; }
+html[lang="ru"] .chapter-select option,
+html[lang="ru"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="ru"] .history-card { max-width: min(288px, calc(100% - 20px)); }
+  html[lang="ru"] .history-card-kicker { font-size: 12px; }
+  html[lang="ru"] .title-line { flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+  html[lang="ru"] .title-line h1 { width: 100%; max-width: 100%; overflow-wrap: normal; }
+  html[lang="ru"] .title-line .wallpaper-entry { margin-left: 0; }
+}
+</style>
+<style data-cloudinsect-toc-return-icon="v5.1.39">
+.toc-return-icon {
+  width: 52px;
+  min-width: 52px;
+  padding: 0 10px;
+  justify-content: center;
+}
+.toc-return-icon svg {
+  display: block;
+  width: 29px;
+  height: 29px;
+  overflow: visible;
+}
+.language-select {
+  field-sizing: content;
+  width: auto !important;
+  min-width: 72px;
+  max-width: min(210px, calc(100vw - 48px));
+}
+@media (min-width: 761px) {
+  body {
+    padding-top: 0 !important;
+  }
+  main.comic {
+    padding-top: 200px !important;
+  }
+  .controls-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: max-content;
+    max-width: calc(100vw - 36px);
+    max-height: none;
+    overflow: visible;
+  }
+  .reader-control-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: max-content;
+    max-width: 100%;
+  }
+  .controls-panel .lang-toggle,
+  .controls-panel .font-controls,
+  .controls-panel .chapter-controls,
+  .controls-panel .site-version {
+    position: static;
+    flex: 0 0 auto;
+    margin-top: 0 !important;
+    transform: none;
+  }
+  .controls-panel .lang-toggle {
+    width: max-content;
+  }
+  .controls-panel .site-version {
+    align-self: center;
+  }
+}
+@media (max-width: 760px) {
+  body {
+    padding-top: 0 !important;
+  }
+  main.comic {
+    padding-top: 128px !important;
+  }
+  .reader-control-row {
+    display: contents;
+  }
+  .toc-return-icon {
+    width: 46px;
+    min-width: 46px;
+    padding: 0 8px;
+  }
+  .toc-return-icon svg {
+    width: 27px;
+    height: 27px;
+  }
+}
+</style>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700;1,800&amp;display=swap" rel="stylesheet"/>
+<style data-cloudinsect-vi-style="true">
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-400-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-400-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-600-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-800-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+
+html[lang="vi"],
+html[lang="vi"] body {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] :is(
+  .comic,
+  .opening,
+  .opening-brand,
+  .opening-title,
+  .opening-time,
+  .opening-meta,
+  .text,
+  .quote,
+  .sound-effect,
+  .scene-break,
+  .tag,
+  .tag-caption,
+  .endnote,
+  .next-chapter,
+  .next-chapter .title,
+  .next-chapter .hint,
+  .chapter-pager,
+  .chapter-controls,
+  .chapter-select,
+  .chapter-select option,
+  .language-select,
+  .language-select option,
+  .lang-option,
+  .pager,
+  .toc-link,
+  .settings-toggle,
+  .reader-setting-btn,
+  .controls-panel,
+  .panel-caption
+) {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] .opening-brand {
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .opening-title {
+  line-height: 1.32;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .opening-time {
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+html[lang="vi"] .text {
+  font-size: clamp(calc(19px * var(--reader-scale)), calc(1.5vw * var(--reader-scale)), calc(27px * var(--reader-scale)));
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+html[lang="vi"] .quote {
+  line-height: 1.6;
+  font-weight: 500;
+  font-style: italic;
+}
+
+html[lang="vi"] .sound-effect {
+  line-height: 1.35;
+  font-weight: 800;
+  font-style: italic;
+}
+
+html[lang="vi"] main[data-lang-page="vi"] {
+  direction: ltr;
+}
+</style>
+</head>
+<body>
+<button aria-expanded="false" aria-label="Reader settings" class="settings-toggle" type="button">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</button>
+<div class="controls-panel" id="reader-controls">
+<div class="reader-control-row reader-control-row-primary">
+<div aria-label="Language selection" class="lang-toggle" role="group"><select aria-label="Language" class="language-select"><option value="vi">Tiếng Việt</option><option value="zh">简体</option><option value="zhHant">繁體</option><option value="en">English</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="ptBR">Português do Brasil</option><option value="ru">Русский</option><option value="es">Español</option><option value="fr">Français</option><option value="ar">العربية</option></select></div>
+<div aria-label="Font size controls" class="font-controls" role="group">
+<button aria-label="Decrease font size" class="font-button" data-font-step="-1" type="button">A−</button>
+<button aria-label="Increase font size" class="font-button" data-font-step="1" type="button">A+</button>
+</div>
+</div>
+<div class="reader-control-row reader-control-row-secondary">
+<div aria-label="Chapter navigation" class="chapter-controls">
+<a aria-label="返回主目录" class="toc-link toc-return-icon" href="../../index.html" title="返回主目录">
+<svg aria-hidden="true" viewbox="0 0 32 32">
+<path d="M13 6L3.5 14.5 13 23v-5.6c7.6.3 11.9 3 15 7.6 0-8.4-5-13.7-15-14V6Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+</a>
+<select aria-label="选择章节" class="chapter-select">
+<option data-ar="الفصل صفر: تمهيد" data-en="Chapter 0: Prologue" data-es="Capítulo cero: Prólogo" data-fr="Chapitre zéro : Prologue" data-ja="第零章 プロローグ" data-ko="제0장 프롤로그" data-pt-br="Capítulo Zero: Prólogo" data-ru="Глава нулевая: Пролог" data-vi="Chương 0: Mở đầu" data-zh="第零章 楔子" data-zh-hant="第零章 楔子" selected="" value="../chapter-0-prologue/index.html">第零章 楔子</option>
+<option data-ar="الفصل الأول: سوفان" data-en="Chapter 1: Suvan" data-es="Capítulo uno: Suvan" data-fr="Chapitre 1 : Suvan" data-ja="第一章 スヴァン" data-ko="제1장 수반" data-pt-br="Capítulo Um: Suvan" data-ru="Глава первая: Сиян" data-vi="Chương 1: Hi Dương" data-zh="第一章 希扬" data-zh-hant="第一章 希揚" value="../chapter-1-xiyang/index.html">第一章 希扬</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 1" data-en="Chapter 2: Cloud Dwellers - 1" data-es="Capítulo 2: Habitantes de las nubes · 1" data-fr="Chapitre 2 : Les Habitants des nuages · I" data-ja="第二章 雲中人 · 一" data-ko="제2장 운중인 · 1" data-pt-br="Capítulo Dois: Habitantes das Nuvens · I" data-ru="Глава вторая: Обитатели облаков · I" data-vi="Chương 2: Người Trong Mây · I" data-zh="第二章 云中人 · 一" data-zh-hant="第二章 雲中人 · 一" value="../chapter-2-cloud-dwellers-1/index.html">第二章 云中人 · 一</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 2" data-en="Chapter 2: Cloud Dwellers - 2" data-es="Capítulo 2: Habitantes de las nubes · 2" data-fr="Chapitre 2 : Les Habitants des nuages · II" data-ja="第二章 雲中人 · 二" data-ko="제2장 운중인 · 2" data-pt-br="Capítulo Dois: Habitantes das Nuvens · II" data-ru="Глава вторая: Обитатели облаков · II" data-vi="Chương 2: Người Trong Mây · II" data-zh="第二章 云中人 · 二" data-zh-hant="第二章 雲中人 · 二" value="../chapter-2-cloud-dwellers-2/index.html">第二章 云中人 · 二</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 3" data-en="Chapter 2: Cloud Dwellers - 3" data-es="Capítulo 2: Habitantes de las nubes · 3" data-fr="Chapitre 2 : Les Habitants des nuages · III" data-ja="第二章 雲中人 · 三" data-ko="제2장 운중인 · 3" data-pt-br="Capítulo Dois: Habitantes das Nuvens · III" data-ru="Глава вторая: Обитатели облаков · III" data-vi="Chương 2: Người Trong Mây · III" data-zh="第二章 云中人 · 三" data-zh-hant="第二章 雲中人 · 三" value="../chapter-2-cloud-dwellers-3/index.html">第二章 云中人 · 三</option>
+<option data-ar="الفصل الثالث: ما وراء مخروط الضوء · 1" data-en="Chapter 3: Beyond the Light Cone - 1" data-es="Capítulo 3: Más allá del cono de luz · 1" data-fr="Chapitre 3 : Au-delà du cône de lumière · I" data-ja="第三章 光円錐の外 · 一" data-ko="제3장 광추 너머 · 1" data-pt-br="Capítulo Três: Além do Cone de Luz · I" data-ru="Глава третья: За пределами светового конуса · I" data-vi="Chương 3: Ngoài Nón Ánh Sáng · I" data-zh="第三章 光锥之外 · 一" data-zh-hant="第三章 光錐之外 · 一" value="../chapter-3-beyond-light-cone-1/index.html">第三章 光锥之外 · 一</option>
+<option data-ar="الفصل الثالث: ما وراء مخروط الضوء · 2" data-en="Chapter 3: Beyond the Light Cone - 2" data-es="Capítulo 3: Más allá del cono de luz · 2" data-fr="Chapitre 3 : Au-delà du cône de lumière · II" data-ja="第三章 光円錐の外 · 二" data-ko="제3장 광추 너머 · 2" data-pt-br="Capítulo Três: Além do Cone de Luz · II" data-ru="Глава третья: За пределами светового конуса · II" data-vi="Chương 3: Ngoài Nón Ánh Sáng · II" data-zh="第三章 光锥之外 · 二" data-zh-hant="第三章 光錐之外 · 二" value="../chapter-3-beyond-light-cone-2/index.html">第三章 光锥之外 · 二</option>
+<option data-ar="الفصل الرابع: مخروط القدر · 1" data-en="Chapter 4: The Cone of Fate - 1" data-es="Capítulo 4: El cono del destino · 1" data-fr="Chapitre 4 : Le Cône du destin · I" data-ja="第四章 運命の円錐 · 一" data-ko="제4장 운명의 추 · 1" data-pt-br="Capítulo Quatro: O Cone do Destino · I" data-ru="Глава четвёртая: Конус судьбы · I" data-vi="Chương 4: Nón Định Mệnh · I" data-zh="第四章 命运之锥 · 一" data-zh-hant="第四章 命運之錐 · 一" value="../chapter-4-fate-1/index.html">第四章 命运之锥 · 一</option>
+<option data-ar="الفصل الرابع: مخروط القدر · 2" data-en="Chapter 4: The Cone of Fate - 2" data-es="Capítulo 4: El cono del destino · 2" data-fr="Chapitre 4 : Le Cône du destin · II" data-ja="第四章 運命の円錐 · 二" data-ko="제4장 운명의 추 · 2" data-pt-br="Capítulo Quatro: O Cone do Destino · II" data-ru="Глава четвёртая: Конус судьбы · II" data-vi="Chương 4: Nón Định Mệnh · II" data-zh="第四章 命运之锥 · 二" data-zh-hant="第四章 命運之錐 · 二" value="../chapter-4-fate-2/index.html">第四章 命运之锥 · 二</option>
+<option data-ar="الفصل الخامس: ووتشوي · 1" data-en="Chapter 5: Wuzhui - 1" data-es="Capítulo 5: Wuzhui · 1" data-fr="Chapitre 5 : Wuzhui · I" data-ja="第五章 烏騅・一" data-ko="제5장 오추 · 1" data-pt-br="Capítulo Cinco: Wuzhui · I" data-ru="Глава 5. Учжуй · I" data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓 · 一" data-zh-hant="第五章 烏騅 · 一" value="../chapter-5-wuzhui-1/index.html">第五章 乌骓 · 一</option>
+</select>
+</div>
+<div class="site-version" data-cloudinsect-version="">v5.1.39</div>
+</div>
+</div>
+<main class="comic" data-lang-page="zh">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">云虫 </h1>
+<h2 class="opening-title">第零章 楔子</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “新华社消息，据“天宫二号”卫星的观测，九号云虫“双子”预计将于一个月后抵达我国南部沿海城市沙溪市。”</p>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “由于云虫场的影响，届时全市大部分地区内电子设备将无法运行。在云虫途经整座城市的数个星期内，全市电网将做保护性关闭，请市民做好应急物资储备。”</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “月牙儿，你还好吗？”</p>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “我考上伯克利的研究生了，我父母也来了，我们准备一起移民了...”</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “居住于云虫各落脚点范围内的居民请配合政府有关部门提前做好搬迁工作，将个人财产损失降到最低。”</p>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “据专家介绍，此次途经我国沙溪市的云虫为世界第九号云虫，代号“双子”。目前科学界对云虫的来历及其究竟属于机械还是生物的论点依旧有争议。主流的看法认为这十二只云虫是地外超级文明在史前造访地球时留下的探测器。”</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “只是那个……我父母……不同意我们……”</p>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “对不起……月牙儿……”</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “我们……分手吧……”</p>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “专家还称，云虫场并非普通的电磁干扰，而是在其影响范围之内，电磁物理规律会发生异变。在云虫场内，普朗克常量将不再是常数，麦克斯韦方程组也不再成立。科学界至今依然无法解释这个现象。”</p>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “中科院的莫博士一生致力于云虫足迹的研究。他指出，经过对不同时代的云虫足迹的观测，已有充分证据表明所有云虫的质量都在稳定的下降。他由此推测云虫在地球上行走数千年的能量来源于其体内的反物质与正物质的湮灭。”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “听说你们那边有云虫要经过，照顾好自己……”</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[新闻]</span> “虽然千百年来人类对云虫的好奇与探索从未止步过，但即使到了科学技术高度发达的今天，由于云虫场的存在，人类对云虫的研究依旧举步维艰。”</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="vi" hidden="">
+<section aria-label="Mở đầu chương" class="opening">
+<h1 class="opening-brand">Vân Trùng</h1>
+<h2 class="opening-title">Chương 0: Mở đầu</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text in-image-note" style="color: #64d2ff; font-size: 0.9em; margin-bottom: 10px;"><strong>[Chữ trong ảnh]</strong> Góc trái màn hình tivi có dòng chữ mờ <em>"CCTV 1 综合" (Kênh Tổng hợp CCTV 1)</em>.</p>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Theo tin từ Tân Hoa Xã, dựa trên dữ liệu quan sát của vệ tinh 'Thiên Cung 2', con Vân Trùng số 9 mang mã danh 'Song Tử' dự kiến sẽ tiến vào thành phố ven biển phía nam nước ta – thành phố Sa Khê – trong một tháng tới."</p>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Do ảnh hưởng từ trường lực của Vân Trùng, khi đó phần lớn các thiết bị điện tử trong toàn thành phố sẽ ngừng hoạt động. Trong vài tuần Vân Trùng đi qua, mạng lưới điện toàn thành phố sẽ được ngắt để bảo vệ, đề nghị người dân chuẩn bị sẵn nhu yếu phẩm dự phòng."</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text in-image-note" style="color: #64d2ff; font-size: 0.9em; margin-bottom: 10px;"><strong>[Chữ trong ảnh]</strong> Màn hình điện thoại hiển thị: <em>"未知号码" (Số không xác định)</em> / <em>"留言信箱" (Hộp thư thoại)</em>.</p>
+<p class="text tag-caption"><span class="tag">[Hộp thư thoại]</span> "Nguyệt Nha Nhi, em khỏe không?"</p>
+<p class="text tag-caption"><span class="tag">[Hộp thư thoại]</span> "Anh thi đỗ cao học ở Berkeley rồi, bố mẹ anh cũng đã qua đây, nhà anh chuẩn bị định cư luôn bên này..."</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text in-image-note" style="color: #64d2ff; font-size: 0.9em; margin-bottom: 10px;"><strong>[Chữ trong ảnh]</strong> Biển hiệu neon rỉ sét ngoài trời mưa mờ ảo (có chữ <em>"特价" - Giá đặc biệt</em>).</p>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Cư dân sống trong phạm vi các điểm dừng chân của Vân Trùng vui lòng phối hợp với các cơ quan chức năng để tiến hành di dời từ sớm, nhằm giảm thiểu tối đa thiệt hại về tài sản cá nhân."</p>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Theo các chuyên gia, con Vân Trùng đi qua thành phố Sa Khê nước ta lần này là Vân Trùng số 9 trên thế giới, mã danh 'Song Tử'. Hiện tại, giới khoa học vẫn còn tranh cãi về nguồn gốc của Vân Trùng cũng như việc chúng rốt cuộc là máy móc hay sinh vật. Quan điểm chính thống cho rằng 12 con Vân Trùng này là những thiết bị thăm dò do một siêu văn minh ngoài hành tinh để lại khi viếng thăm Trái Đất vào thời tiền sử."</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Hộp thư thoại]</span> "Chỉ là... bố mẹ anh... không đồng ý chuyện của chúng mình..."</p>
+<p class="text tag-caption"><span class="tag">[Hộp thư thoại]</span> "Anh xin lỗi... Nguyệt Nha Nhi..."</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Hộp thư thoại]</span> "Chúng ta... chia tay đi..."</p>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Các chuyên gia cũng cho biết, trường lực của Vân Trùng không chỉ là nhiễu sóng điện từ thông thường, mà trong phạm vi ảnh hưởng của nó, các quy luật vật lý điện từ sẽ bị biến đổi. Bên trong trường lực Vân Trùng, hằng số Planck sẽ không còn là hằng số, và hệ phương trình Maxwell cũng không còn đúng nữa. Giới khoa học cho đến nay vẫn chưa thể giải thích được hiện tượng này."</p>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Tiến sĩ Mạc thuộc Viện Hàn lâm Khoa học Trung Quốc đã dành cả đời để nghiên cứu dấu vết của Vân Trùng. Ông chỉ ra rằng, qua việc quan sát dấu chân Vân Trùng từ nhiều thời đại khác nhau, có đủ bằng chứng cho thấy khối lượng của tất cả các Vân Trùng đều đang giảm dần một cách ổn định. Từ đó, ông suy đoán rằng nguồn năng lượng giúp Vân Trùng di chuyển trên Trái Đất suốt hàng ngàn năm qua bắt nguồn từ sự triệt tiêu lẫn nhau (annihilation) giữa phản vật chất và vật chất bên trong cơ thể chúng."</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text in-image-note" style="color: #64d2ff; font-size: 0.9em; margin-bottom: 10px;"><strong>[Chữ trong ảnh]</strong> Giao diện vẫn hiển thị: <em>"未知号码" (Số không xác định)</em> / <em>"留言信箱" (Hộp thư thoại)</em>.</p>
+<p class="text tag-caption"><span class="tag">[Hộp thư thoại]</span> "Nghe nói chỗ em sắp có Vân Trùng đi qua, hãy tự chăm sóc tốt cho bản thân nhé..."</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text in-image-note" style="color: #64d2ff; font-size: 0.9em; margin-bottom: 10px;"><strong>[Chữ trong ảnh]</strong> Các điểm ảnh cấu tạo nên chữ <em>"未知号码"</em> và <em>"留言信箱"</em> bị từ trường lực làm vỡ nét.</p>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Tin tức]</span> "Mặc dù hàng ngàn năm qua, sự tò mò và khao khát khám phá Vân Trùng của nhân loại chưa bao giờ dừng lại, nhưng ngay cả ở thời đại khoa học kỹ thuật phát triển cao độ như ngày nay, do sự tồn tại của trường lực Vân Trùng, việc nghiên cứu về chúng vẫn vô cùng gian nan và đầy trắc trở."</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<div class="text in-image-note" style="color: #64d2ff; font-size: 0.88em; line-height: 1.6; margin-top: 14px;">
+<p style="margin: 0 0 6px 0;"><strong>[Chữ trong ảnh]</strong></p>
+<ul style="margin: 0; padding-left: 20px; list-style: square;">
+<li>Dòng chữ lớn trung tâm (Tiếng Trung): <strong>它来了。</strong> (Nó đến rồi.)</li>
+<li>Góc trên trái (Tiếng Ả Rập): <strong>إنه يأتي</strong> (Nó đang đến)</li>
+<li>Góc trên phải (Tiếng Hà Lan): <strong>Hier komt het.</strong> (Nó đến đây rồi)</li>
+<li>Giữa trên (Tiếng Hàn): <strong>그것은 온...</strong> (Nó đã đến...)</li>
+<li>Giữa phải (Tiếng Nhật): <strong>それが来ました。</strong> (Nó đã tới rồi.)</li>
+<li>Giữa trái (Tiếng Bengali): <strong>এখানে এটা আসে</strong> (Nó đến đây)</li>
+<li>Giữa phải (Tiếng Pháp): <strong>Il est venu !</strong> (Nó đã tới!)</li>
+<li>Góc dưới trái (Tiếng Đức): <strong>Hier kommt es.</strong> (Nó đang tới đây)</li>
+<li>Góc dưới phải (Tiếng Nga): <strong>Здесь речь ид... / Здесь оно</strong> (Nó ở đây...)</li>
+<li>Dưới cùng (Tiếng Ba Lan): <strong>...Nadchodzi...</strong> (Đang kéo đến...)</li>
+</ul>
+</div>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<span aria-disabled="true" aria-label="Chương trước" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="Chương trước"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Chương tiếp theo" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="Chương tiếp theo"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main>
+<main class="comic" data-lang-page="zhHant" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">雲蟲 </h1>
+<h2 class="opening-title">第零章 楔子</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “新華社消息，據“天宮二號”衛星的觀測，九號雲蟲“雙子”預計將於一個月後抵達我國南部沿海城市沙溪市。”</p>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “由於雲蟲場的影響，屆時全市大部分地區內電子設備將無法運行。在雲蟲途經整座城市的數個星期內，全市電網將做保護性關閉，請市民做好應急物資儲備。”</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “月牙兒，你還好嗎？”</p>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “我考上伯克利的研究生了，我父母也來了，我們準備一起移民了...”</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “居住於雲蟲各落腳點範圍內的居民請配合政府有關部門提前做好搬遷工作，將個人財產損失降到最低。”</p>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “據專家介紹，此次途經我國沙溪市的雲蟲爲世界第九號雲蟲，代號“雙子”。目前科學界對雲蟲的來歷及其究竟屬於機械還是生物的論點依舊有爭議。主流的看法認爲這十二隻雲蟲是地外超級文明在史前造訪地球時留下的探測器。”</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “只是那個……我父母……不同意我們……”</p>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “對不起……月牙兒……”</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “我們……分手吧……”</p>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “專家還稱，雲蟲場並非普通的電磁干擾，而是在其影響範圍之內，電磁物理規律會發生異變。在雲蟲場內，普朗克常量將不再是常數，麥克斯韋方程組也不再成立。科學界至今依然無法解釋這個現象。”</p>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “中科院的莫博士一生致力於雲蟲足跡的研究。他指出，經過對不同時代的雲蟲足跡的觀測，已有充分證據表明所有雲蟲的質量都在穩定的下降。他由此推測雲蟲在地球上行走數千年的能量來源於其體內的反物質與正物質的湮滅。”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[留言信箱]</span> “聽說你們那邊有雲蟲要經過，照顧好自己……”</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[新聞]</span> “雖然千百年來人類對雲蟲的好奇與探索從未止步過，但即使到了科學技術高度發達的今天，由於雲蟲場的存在，人類對雲蟲的研究依舊舉步維艱。”</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main>
+<main class="comic" data-lang-page="en" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">CloudInsect</h1>
+<h2 class="opening-title">Chapter 0: Prologue</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “Xinhua reports that, according to observations by the ‘Tiangong-2’ satellite, CloudInsect No. 9, codenamed ‘Gemini,’ is expected to reach Shashi, a coastal city in the south of the country, in one month.”</p>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “Due to the effects of the CloudInsect field, electronic devices will stop working across most of the city. For the several weeks that the CloudInsect takes to pass through the city, the power grid will be shut down as a protective measure. Residents are advised to prepare emergency supplies.”</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Message Inbox]</span> “Mahina, are you okay?”</p>
+<p class="text tag-caption"><span class="tag">[Message Inbox]</span> “I got into graduate school at Berkeley! My parents are here too, and we’re all planning to immigrate together...”</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “Residents within the CloudInsect’s projected resting zones are asked to cooperate with the relevant authorities and relocate in advance, minimizing losses to personal property.”</p>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “According to experts, the CloudInsect passing through Shashi is the ninth known worldwide, codenamed ‘Gemini.’ Its origin—and whether it is mechanical or biological—remains disputed. The prevailing view is that the twelve CloudInsects are probes left behind by an advanced extraterrestrial civilization that visited Earth in prehistoric times.”</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Message Inbox]</span> “It’s just… my parents… they don’t approve of us…”</p>
+<p class="text tag-caption"><span class="tag">[Message Inbox]</span> “I’m sorry… Mahina…”</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Message Inbox]</span> “Let’s… break up.”</p>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “Experts have also stated that the CloudInsect field isn’t just typical electromagnetic interference; within its range, the laws of electromagnetism undergo fundamental changes. Planck's constant ceases to be constant, and Maxwell's equations no longer hold. The scientific community remains unable to explain this phenomenon.”</p>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “Dr. Mo of the Chinese Academy of Sciences devoted his life to studying the footprints of CloudInsects. Comparing footprints from different eras, he found strong evidence that the mass of every CloudInsect is steadily decreasing. He therefore proposed that the energy sustaining their millennia of travel across Earth comes from the annihilation of matter and antimatter within their bodies.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Message Inbox]</span> “I heard there’s a CloudInsect passing through your area. Take care of yourself…”</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[NEWS]</span> “For thousands of years, humanity has never stopped wondering about or investigating CloudInsects. Yet even today, despite highly advanced science and technology, the CloudInsect field continues to make their study extraordinarily difficult.”</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ja" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">雲虫 </h1>
+<h2 class="opening-title">第零章 プロローグ</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「新華社によりますと、『天宮二号』衛星の観測により、第九号雲虫《双子》は一か月後、わが国南部の沿岸都市・沙渓市に到達する見込みです」</p>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「雲虫場の影響により、当日は市内の大半で電子機器が使用不能となります。雲虫が市内を通過する数週間、送電網は保護措置として停止されます。市民の皆さまは、あらかじめ非常用物資をご用意ください」</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［受信メッセージ］</span> 「マヒナ、元気にしてる？」</p>
+<p class="text tag-caption"><span class="tag">［受信メッセージ］</span> 「バークレーの大学院に受かった。両親もこっちに来たんだ。みんなで移住することになって……」</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「雲虫の滞留予想区域にお住まいの方は、関係機関の指示に従い、早めの避難・移転をお願いします。個人財産への被害を最小限に抑えるため、十分な準備を行ってください」</p>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「専門家によると、今回、沙渓市を通過するのは世界で確認された第九号の雲虫、コードネーム《双子》です。雲虫の起源、そしてそれが機械なのか生物なのかについては、今なお科学界で議論が続いています。現在の主流説では、十二体の雲虫は、先史時代に地球を訪れた地球外超文明が残した探査機だと考えられています」</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［受信メッセージ］</span> 「ただ、その……両親が……僕たちのことを認めてくれなくて……」</p>
+<p class="text tag-caption"><span class="tag">［受信メッセージ］</span> 「ごめん……マヒナ……」</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［受信メッセージ］</span> 「別れよう……」</p>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「専門家はさらに、雲虫場は通常の電磁干渉とは異なり、その影響圏内では電磁気学の法則そのものが変質すると説明しています。雲虫場の内部では、プランク定数はもはや定数ではなくなり、マクスウェル方程式も成立しません。科学界はいまだ、この現象を説明できていません」</p>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「中国科学院の莫博士は、生涯を雲虫の足跡研究に捧げました。博士によれば、異なる時代に残された足跡の観測から、すべての雲虫の質量が一定の割合で減少し続けていることを示す、十分な証拠が得られています。博士はそこから、雲虫が数千年にわたり地上を歩き続けるためのエネルギーは、体内にある反物質と物質の対消滅によって生み出されていると推測しています」</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［受信メッセージ］</span> 「そっちに雲虫が来るんだってね。身体に気をつけて……」</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［ニュース］</span> 「幾千年ものあいだ、人類は雲虫への好奇心を失わず、その謎を追い続けてきました。しかし科学技術が高度に発達した現代においてさえ、雲虫場の存在に阻まれ、その研究は今なお困難を極めています」</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ko" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">운충 </h1>
+<h2 class="opening-title">제0장 프롤로그</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “신화통신 보도입니다. ‘톈궁 2호’ 위성의 관측에 따르면, 제9호 운충 ‘쌍둥이’가 한 달 뒤 중국 남부 해안 도시 사시에 도달할 것으로 예상됩니다.”</p>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “운충장의 영향으로, 해당 시기에는 시내 대부분 지역에서 전자기기를 사용할 수 없게 됩니다. 운충이 도시를 통과하는 수 주 동안 전력망은 보호 조치에 따라 폐쇄될 예정이니, 시민 여러분께서는 비상 물자를 미리 준비해 주시기 바랍니다.”</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[받은 메시지]</span> “마히나, 잘 지내?”</p>
+<p class="text tag-caption"><span class="tag">[받은 메시지]</span> “버클리 대학원에 합격했어. 부모님도 이곳으로 오셨고, 우린 함께 이민을 준비하고 있어……”</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “운충의 체류 예상 구역에 거주하는 주민께서는 관계 기관의 지시에 따라 사전에 이주를 준비해 주십시오. 개인 재산 피해를 최소화할 수 있도록 충분히 대비하시기 바랍니다.”</p>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “전문가에 따르면, 이번에 사시를 통과하는 운충은 세계에서 아홉 번째로 확인된 운충으로, 코드명은 ‘쌍둥이’입니다. 운충의 기원과 그것이 기계인지 생명체인지를 두고는 지금도 과학계의 논쟁이 이어지고 있습니다. 현재의 주류 학설은 열두 마리의 운충이 선사 시대에 지구를 방문한 외계 초문명이 남긴 탐사 장치라는 것입니다.”</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[받은 메시지]</span> “그런데…… 부모님이…… 우리 사이를 허락하지 않으셔……”</p>
+<p class="text tag-caption"><span class="tag">[받은 메시지]</span> “미안해…… 마히나……”</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[받은 메시지]</span> “우리…… 헤어지자……”</p>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “전문가들은 운충장이 단순한 전자기 간섭이 아니라, 그 영향권 안에서 전자기학의 법칙 자체가 변질되는 현상이라고 설명합니다. 운충장 내부에서는 플랑크 상수가 더 이상 상수가 아니며, 맥스웰 방정식 또한 성립하지 않습니다. 과학계는 아직까지 이 현상을 설명하지 못하고 있습니다.”</p>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “중국과학원의 모 박사는 평생을 운충의 발자취를 연구하는 데 바쳤습니다. 그는 서로 다른 시대에 남은 운충의 흔적을 관측한 결과, 모든 운충의 질량이 일정한 속도로 감소하고 있음을 보여 주는 충분한 증거가 확보되었다고 밝혔습니다. 이를 바탕으로, 운충이 수천 년 동안 지상을 걸을 수 있는 에너지는 체내의 반물질과 물질이 쌍소멸하며 발생하는 것이라고 추정했습니다.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[받은 메시지]</span> “그쪽으로 운충이 지나간다면서. 몸조심해……”</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[뉴스]</span> “수천 년 동안 인류는 운충을 향한 호기심을 잃지 않았고, 그 비밀을 밝히려는 탐구도 멈추지 않았습니다. 그러나 과학기술이 고도로 발달한 오늘날에도 운충장의 존재로 인해, 운충 연구는 여전히 한 걸음 내딛기조차 어려운 실정입니다.”</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="es" hidden="">
+<section aria-label="Apertura del capítulo" class="opening">
+<h1 class="opening-brand">CloudInsect </h1>
+<h2 class="opening-title">Capítulo cero: Prólogo</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «Según informa la Agencia de Noticias Xinhua, las observaciones del satélite Tiangong-2 indican que CloudInsect n.º 9, “Géminis”, llegará dentro de un mes a Shaxi, ciudad costera del sur del país.»</p>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «Debido a los efectos del campo CloudInsect, los dispositivos electrónicos dejarán de funcionar en la mayor parte de la ciudad. Durante las semanas en que CloudInsect atraviese Shaxi, la red eléctrica será desconectada por precaución. Se ruega a los ciudadanos que preparen suministros de emergencia.»</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Buzón de mensajes]</span> «Mahina, ¿estás bien?»</p>
+<p class="text tag-caption"><span class="tag">[Buzón de mensajes]</span> «Me han admitido en el posgrado de Berkeley. Mis padres también han venido… Vamos a emigrar juntos…»</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «Los residentes de las zonas previstas para el asentamiento de CloudInsect deberán colaborar con las autoridades y trasladarse con antelación, a fin de reducir al mínimo las pérdidas materiales.»</p>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «Los expertos señalan que el ejemplar que atravesará Shaxi es el noveno CloudInsect conocido en el mundo, con el nombre en clave “Géminis”. La comunidad científica sigue dividida tanto sobre su origen como sobre su naturaleza mecánica o biológica. La teoría predominante sostiene que los doce CloudInsects son sondas abandonadas por una civilización extraterrestre superior durante una visita prehistórica a la Tierra.»</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Buzón de mensajes]</span> «Es solo que… mis padres… no aceptan lo nuestro…»</p>
+<p class="text tag-caption"><span class="tag">[Buzón de mensajes]</span> «Lo siento… Mahina…»</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Buzón de mensajes]</span> «Deberíamos… dejarlo…»</p>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «Los expertos añaden que el campo CloudInsect no es una interferencia electromagnética ordinaria: dentro de su zona de influencia, las leyes físicas del electromagnetismo se alteran. La constante de Planck deja de ser constante y las ecuaciones de Maxwell dejan de cumplirse. La ciencia aún no ha logrado explicar este fenómeno.»</p>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «El doctor Mo, de la Academia China de Ciencias, dedicó su vida al estudio de las huellas de los CloudInsects. A partir de observaciones pertenecientes a distintas épocas, concluyó que existen pruebas suficientes de una disminución constante de su masa. Por ello planteó que la energía que les ha permitido caminar por la Tierra durante milenios procede de la aniquilación de materia y antimateria en su interior.»</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Buzón de mensajes]</span> «He oído que un CloudInsect va a pasar por tu zona. Cuídate…»</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Noticias]</span> «Aunque la curiosidad humana y la búsqueda de respuestas sobre los CloudInsects nunca han cesado a lo largo de los siglos, incluso hoy, en una era de gran desarrollo científico y tecnológico, la existencia del campo CloudInsect hace que su estudio siga avanzando con enorme dificultad.»</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Navegación entre capítulos" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="Capítulo anterior"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Capítulo siguiente" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="Capítulo siguiente"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="fr" hidden="">
+<section aria-label="Ouverture du chapitre" class="opening">
+<h1 class="opening-brand">Insecte-Nuage </h1>
+<h2 class="opening-title">Chapitre zéro : Prologue</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « Selon l’agence Xinhua, les observations du satellite Tiangong-2 indiquent que l’Insecte-Nuage nº 9, “Gémeaux”, devrait atteindre dans un mois la ville côtière de Shaxi, dans le sud du pays. »</p>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « Sous l’effet du champ de l’Insecte-Nuage, les appareils électroniques cesseront de fonctionner dans la majeure partie de la ville. Durant les plusieurs semaines que prendra sa traversée, le réseau électrique sera coupé par mesure de sécurité. Les habitants sont priés de constituer des réserves d’urgence. »</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Messagerie]</span> « Mahina, est-ce que tu vas bien ? »</p>
+<p class="text tag-caption"><span class="tag">[Messagerie]</span> « J’ai été admis en master à Berkeley. Mes parents sont venus aussi… Nous allons émigrer ensemble… »</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « Les habitants situés dans le périmètre des points d’arrêt des Insectes-Nuages sont priés de coopérer avec les services compétents et d’évacuer suffisamment tôt afin de limiter les pertes matérielles. »</p>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « D’après les experts, l’Insecte-Nuage qui traversera Shaxi est le neuvième recensé dans le monde, sous le nom de code “Gémeaux”. La communauté scientifique reste divisée sur leur origine et sur leur nature, mécanique ou biologique. L’hypothèse dominante veut que les douze Insectes-Nuages soient des sondes laissées par une civilisation extraterrestre extrêmement avancée lors d’une visite sur Terre à l’ère préhistorique. »</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Messagerie]</span> « Seulement… mes parents… ils refusent notre relation… »</p>
+<p class="text tag-caption"><span class="tag">[Messagerie]</span> « Je suis désolé… Mahina… »</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Messagerie]</span> « Il vaut mieux… qu’on se sépare… »</p>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « Les experts précisent que le champ de l’Insecte-Nuage ne constitue pas une simple perturbation électromagnétique : dans sa zone d’influence, les lois de l’électromagnétisme se modifient. La constante de Planck cesse d’être constante et les équations de Maxwell ne sont plus valides. La science demeure à ce jour incapable d’expliquer ce phénomène. »</p>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « Le docteur Mo, de l’Académie chinoise des sciences, a consacré sa vie à l’étude des traces laissées par les Insectes-Nuages. Ses observations à travers différentes époques apportent des preuves suffisantes que leur masse diminue de façon régulière. Il suppose donc que l’énergie qui leur permet de parcourir la Terre depuis des millénaires provient de l’annihilation de matière et d’antimatière en leur sein. »</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Messagerie]</span> « J’ai entendu dire qu’un Insecte-Nuage allait passer près de chez vous. Prends soin de toi… »</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Journal télévisé]</span> « Depuis des siècles, la curiosité des hommes pour les Insectes-Nuages et leurs tentatives de les comprendre n’ont jamais cessé. Pourtant, malgré les progrès considérables de la science et de la technologie, l’existence de leur champ rend encore toute recherche extrêmement difficile. »</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Navigation des chapitres" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="Section précédente"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Chapitre suivant" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="Section suivante"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ar" hidden="">
+<section aria-label="افتتاح الفصل" class="opening">
+<h1 class="opening-brand">حشرة السحاب </h1>
+<h2 class="opening-title">الفصل صفر: تمهيد</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «أفادت وكالة أنباء شينخوا بأن رصد القمر الاصطناعي ‹تيانغونغ-2› يشير إلى أن حشرة السحاب التاسعة، ‹الجوزاء›، ستصل بعد شهر إلى مدينة شاشي الساحلية في جنوب البلاد.»</p>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «وبفعل حقل حشرة السحاب، ستتعطل الأجهزة الإلكترونية في معظم أنحاء المدينة. وخلال الأسابيع التي تعبر فيها حشرة السحاب المدينة، ستُفصل شبكة الكهرباء احترازيًا. يُرجى من السكان تخزين مؤن الطوارئ اللازمة.»</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[صندوق الرسائل]</span> «ماهينا، هل أنت بخير؟»</p>
+<p class="text tag-caption"><span class="tag">[صندوق الرسائل]</span> «قُبلت في الدراسات العليا بجامعة بيركلي. وجاء والداي أيضًا… سنهاجر معًا…»</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «على السكان القاطنين ضمن نطاق مواقع هبوط حشرات السحاب التعاون مع الجهات الحكومية المختصة وإتمام الإخلاء مبكرًا، للحد من خسائر الممتلكات الشخصية.»</p>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «ويوضح الخبراء أن حشرة السحاب التي ستعبر شاشي هي التاسعة المعروفة عالميًا، واسمها الرمزي ‹الجوزاء›. ولا يزال الوسط العلمي منقسمًا بشأن أصل حشرات السحاب، وبشأن كونها آلات أم كائنات حية. ويرى الرأي السائد أن الحشرات الاثنتي عشرة مسابير خلّفتها حضارة فائقة من خارج الأرض حين زارت كوكبنا في عصور ما قبل التاريخ.»</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[صندوق الرسائل]</span> «لكن… والديّ… لا يوافقان علينا…»</p>
+<p class="text tag-caption"><span class="tag">[صندوق الرسائل]</span> «أنا آسف… ماهينا…»</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[صندوق الرسائل]</span> «لننهِ… علاقتنا…»</p>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «ويضيف الخبراء أن حقل حشرة السحاب ليس تشويشًا كهرومغناطيسيًا عاديًا؛ ففي نطاق تأثيره تتبدل قوانين الفيزياء الكهرومغناطيسية. لا يعود ثابت بلانك ثابتًا، وتفقد معادلات ماكسويل صلاحيتها. وحتى اليوم، لم يجد العلم تفسيرًا لهذه الظاهرة.»</p>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «كرّس الدكتور مو، من الأكاديمية الصينية للعلوم، حياته لدراسة آثار أقدام حشرات السحاب. وأشار إلى أن رصد تلك الآثار عبر عصور مختلفة قدّم أدلة كافية على أن كتلة جميع الحشرات تتناقص باطراد. ومن ذلك افترض أن الطاقة التي أبقتها سائرة على الأرض آلاف السنين ناتجة من إفناء المادة والمادة المضادة في داخلها.»</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[صندوق الرسائل]</span> «سمعت أن حشرة سحاب ستمر من عندكم… اعتني بنفسك…»</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[أخبار]</span> «على مدى قرون طويلة، لم يخمد فضول البشر تجاه حشرات السحاب ولا سعيهم إلى فهمها. لكن حتى اليوم، على ما بلغه العلم والتقنية من تقدم، ما زال حقل حشرة السحاب يجعل كل خطوة في دراستها شاقة.»</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="التنقل بين الفصول" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="القسم السابق"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="الفصل التالي" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="القسم التالي"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ptBR" hidden="">
+<section aria-label="Abertura do capítulo" class="opening">
+<h1 class="opening-brand">Inseto-Nuvem </h1>
+<h2 class="opening-title">Capítulo Zero: Prólogo</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “Segundo a Agência de Notícias Xinhua, observações do satélite Tiangong-2 indicam que o Inseto-Nuvem nº 9, ‘Gêmeos’, deverá chegar à cidade costeira de Shaxi, no sul do país, dentro de um mês.”</p>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “Devido à influência do campo dos Insetos-Nuvem, a maior parte dos equipamentos eletrônicos da cidade ficará inoperante. Durante as semanas em que o Inseto-Nuvem atravessar toda a área urbana, a rede elétrica será desligada por precaução. Recomenda-se que a população providencie suprimentos de emergência.”</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Caixa de mensagens]</span> “Mahina, você está bem?”</p>
+<p class="text tag-caption"><span class="tag">[Caixa de mensagens]</span> “Fui aceito na pós-graduação em Berkeley. Meus pais também vieram. Estamos nos preparando para emigrar juntos…”</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “Moradores das áreas próximas aos locais de passagem e repouso dos Insetos-Nuvem devem colaborar com os órgãos governamentais e se mudar com antecedência, a fim de reduzir ao mínimo as perdas materiais.”</p>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “Segundo especialistas, o Inseto-Nuvem que passará por Shaxi é o nono já registrado no mundo e recebeu o codinome ‘Gêmeos’. A comunidade científica ainda discute sua origem e sequer chegou a um consenso sobre tratar-se de máquina ou ser vivo. A hipótese predominante sustenta que os doze Insetos-Nuvem são sondas deixadas por uma supercivilização extraterrestre que visitou a Terra na pré-história.”</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Caixa de mensagens]</span> “É que… meus pais… não aceitam a gente…”</p>
+<p class="text tag-caption"><span class="tag">[Caixa de mensagens]</span> “Me desculpe… Mahina…”</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Caixa de mensagens]</span> “Acho melhor… terminarmos…”</p>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “Especialistas afirmam ainda que o campo dos Insetos-Nuvem não é uma simples interferência eletromagnética. Dentro de sua área de influência, as próprias leis físicas do eletromagnetismo sofrem alterações: a constante de Planck deixa de ser constante, e as equações de Maxwell já não se sustentam. Até hoje, a ciência não conseguiu explicar o fenômeno.”</p>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “O doutor Mo, da Academia Chinesa de Ciências, dedicou a vida ao estudo dos rastros dos Insetos-Nuvem. Segundo ele, observações de vestígios deixados em diferentes épocas oferecem provas suficientes de que a massa de todos esses seres vem diminuindo de modo constante. A partir disso, ele propôs que a energia que os mantém caminhando pela Terra há milhares de anos provém da aniquilação entre matéria e antimatéria em seu interior.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Caixa de mensagens]</span> “Ouvi dizer que um Inseto-Nuvem vai passar por aí. Cuide-se…”</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Noticiário]</span> “Embora a curiosidade e a busca humanas pelos Insetos-Nuvem jamais tenham cessado ao longo dos séculos, mesmo hoje, em uma era de ciência e tecnologia altamente avançadas, a existência de seu campo continua tornando cada passo dessa pesquisa extraordinariamente difícil.”</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Navegação entre capítulos" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Próximo capítulo" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ru" hidden="">
+<section aria-label="Открытие главы" class="opening">
+<h1 class="opening-brand">Облачное насекомое</h1>
+<h2 class="opening-title">Глава нулевая: Пролог</h2>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:1.39042996;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> ”Основываясь на данных полученных со спутника "Тяньгун-2", девятое облачное насекомое под кодовым именем "Близнецы" прибудет в прибрежный город Шаси в течение месяца.“</p>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> "Из-за воздействия поля облачного насекомого электрические приборы в большей части города перестанут функционировать. Электроснабжение города будет приостановлено на время прохода насекомого. Жителям рекомендуется подготовить резервные запасы."</p>
+<figure class="panel" data-panel="3" style="--ratio:0.66650391;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Голосовое сообщение]</span> Юэя, как ты?</p>
+<p class="text tag-caption"><span class="tag">[Голосовое сообщение]</span> Я поступил в магистратуру в Беркли. Мои родители тоже тут, мы готовимся к переезду за границу</p>
+<figure class="panel" data-panel="4" style="--ratio:0.57763672;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> "Власти призывают жителей районов, расположенных на пути следования насекомого, сотрудничать с правоохранительными органами для эвакуации."</p>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> "По словам экспертов, насекомое с кодовым именем "Близнецы", идущее в сторону Шаси является девятым в мире. До сих пор ведутся споры о биологическом или механическом происхождении облачных насекомых. Согласно распространенной точке зрения, 12 облачных насекомых — исследовательские аппараты внеземной сверхцивилизации, которая обосновалась на Земле в доисторическую эпоху"</p>
+<figure class="panel" data-panel="5" style="--ratio:0.52148438;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Голосовое сообщение]</span> "Только вот... мои родители... против наших отношений..."</p>
+<p class="text tag-caption"><span class="tag">[Голосовое сообщение]</span> "Прости, Юэя..."</p>
+<figure class="panel" data-panel="6" style="--ratio:0.61425781;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="7" style="--ratio:0.76806641;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Голосовое сообщение]</span> "Мы... должны расстаться..."</p>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> "Эксперты также утверждают, что поля облачных насекомых не являются обычными электромагнитными помехами, в зоне их влияния электромагнитные законы физики могут претерпевать аномалии. Постоянная Планка поддаётся изменениям, а уравнение Максвелла перестаёт работать. Научное сообщество до сих пор не может объяснить этот феномен."</p>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> "Доктор Мо из Китайской академии наук посвятил свою жизнь изучению следов облачных насекомых. Он отметил, что данные, полученные при изучении их следов в разные эпохи являются убедительным доказательством того, что насекомые неуклонно теряют массу. Учёный предполагает, что энергия, поддерживающая их в течение тысячелетнего путешествия по Земле, образуется в результате аннигиляции материи и антиматерии в их телах."</p>
+<figure class="panel" data-panel="9" style="--ratio:0.72850000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Голосовое сообщение]</span> "Я слышал, что в вашу сторону движется облачное насекомое. Береги себя..."</p>
+<figure class="panel" data-panel="10" style="--ratio:0.66000000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="11" style="--ratio:0.75000000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[НОВОСТИ]</span> "Несмотря на то, что человечество на протяжении тысячелетий проявляет неутолимое любопытство к изучению облачных насекомых, даже сегодня, когда наука и технологии достигли высокого уровня развития, их исследование остаётся крайне сложным из-за особенностей поля этих существ."</p>
+<figure class="panel" data-panel="12" style="--ratio:1.77009507;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="13" style="--ratio:1.08589608;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Навигация по главам" class="chapter-pager">
+<span aria-disabled="true" class="chapter-pager-button is-disabled" data-pager-disabled="previous" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></span>
+<a aria-label="Следующая глава" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main>
+<script data-cloudinsect-lang="true">
+(function () {
+  const settingsToggle = document.querySelector('.settings-toggle');
+  const controlsPanel = document.querySelector('.controls-panel');
+  const controls = Array.from(document.querySelectorAll('.lang-option'));
+  const fontButtons = Array.from(document.querySelectorAll('.font-button'));
+  const chapterSelect = document.querySelector('.chapter-select');
+  const menuLabels = Array.from(document.querySelectorAll('.toc-link[data-zh][data-zh-hant][data-en], .chapter-select option[data-zh][data-zh-hant][data-en]'));
+  const pages = Array.from(document.querySelectorAll('.comic[data-lang-page]'));
+  const languageMeta = {
+    vi: { htmlLang: 'vi', title: 'Vân Trùng · Chương 0: Mở đầu · v5.1.39' },
+    zh: { htmlLang: 'zh-CN', title: '云虫 第零章 楔子 · v5.1.39' },
+    zhHant: { htmlLang: 'zh-Hant', title: '雲蟲 第零章 楔子 · v5.1.39' },
+    en: { htmlLang: 'en', title: 'CloudInsect Chapter 0: Prologue · v5.1.39' },
+    ja: { htmlLang: 'ja', title: '雲虫 第零章 プロローグ · v5.1.39' },
+    ko: { htmlLang: 'ko', title: '운충 제0장 프롤로그 · v5.1.39' },
+    es: { htmlLang: 'es', title: 'CloudInsect · Capítulo cero: Prólogo · v5.1.39' },
+    fr: { htmlLang: 'fr', title: "Insecte-Nuage · Chapitre zéro : Prologue · v5.1.39" },
+    ar: { htmlLang: 'ar', title: 'حشرة السحاب · الفصل صفر: تمهيد · v5.1.39' },
+    ptBR: { htmlLang: 'pt-BR', title: "Inseto-Nuvem · Capítulo Zero: Prólogo · v5.1.39" },
+    ru: { htmlLang: 'ru', title: "Облачное насекомое · Глава нулевая: Пролог · v5.1.39" }
+  };
+  const fontScales = [0.74, 0.80, 0.86, 0.94, 1, 1.1, 1.22, 1.36];
+  function readStoredValue(key) { try { return window.localStorage.getItem(key); } catch (error) { return null; } }
+  function writeStoredValue(key, value) { try { window.localStorage.setItem(key, value); } catch (error) {} }
+  function removeStoredValue(key) { try { window.localStorage.removeItem(key); } catch (error) {} }
+  let lang = readStoredValue('cloudinsect-lang') || 'vi';
+  let fontIndex = 3;
+  if (!languageMeta[lang]) lang = 'zh';
+  removeStoredValue('cloudinsect-font-index');
+  function visiblePage() { return pages.find((page) => !page.hidden) || pages[0]; }
+  function captureReadingAnchor() {
+    const page = visiblePage();
+    if (!page) return null;
+    const viewportAnchor = window.innerHeight * 0.45;
+    const centered = document.elementFromPoint(window.innerWidth / 2, viewportAnchor);
+    const centeredAnchor = centered && centered.closest('.opening, .panel, .text, .chapter-pager');
+    if (centeredAnchor && page.contains(centeredAnchor)) {
+      return { index: Array.from(page.querySelectorAll('.opening, .panel, .text, .chapter-pager')).indexOf(centeredAnchor), top: centeredAnchor.getBoundingClientRect().top };
+    }
+    const candidates = Array.from(page.querySelectorAll('.opening, .panel, .text, .chapter-pager'));
+    let best = null;
+    candidates.forEach((el, index) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.bottom <= 0 || rect.top >= window.innerHeight) return;
+      const distance = Math.abs((rect.top + rect.bottom) / 2 - viewportAnchor);
+      if (!best || distance < best.distance) best = { index, top: rect.top, distance };
+    });
+    return best;
+  }
+
+  function setControlsOpen(open) {
+    if (!settingsToggle || !controlsPanel) return;
+    controlsPanel.classList.toggle('is-open', open);
+    settingsToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  function restoreReadingAnchor(anchor) {
+    if (!anchor) return;
+    const page = visiblePage();
+    if (!page) return;
+    const nextItems = Array.from(page.querySelectorAll('.opening, .panel, .text, .chapter-pager'));
+    const nextEl = nextItems[Math.min(anchor.index, nextItems.length - 1)];
+    if (!nextEl) return;
+    const nextTop = nextEl.getBoundingClientRect().top;
+    window.scrollBy(0, nextTop - anchor.top);
+  }
+  function applyLanguage(nextLang) {
+    const anchor = captureReadingAnchor();
+    lang = languageMeta[nextLang] ? nextLang : 'zh';
+    document.documentElement.lang = languageMeta[lang].htmlLang;
+    document.title = languageMeta[lang].title;
+    pages.forEach((page) => { page.hidden = page.dataset.langPage !== lang; });
+    controls.forEach((control) => control.setAttribute('aria-pressed', control.dataset.lang === lang ? 'true' : 'false'));
+    menuLabels.forEach((option) => {
+      const key = lang === 'zhHant' ? 'zhHant' : (lang === 'ptBR' ? 'ptBr' : lang);
+      option.textContent = option.dataset[key] || option.dataset.zh;
+    });
+    writeStoredValue('cloudinsect-lang', lang);
+    restoreReadingAnchor(anchor);
+  }
+  function applyFontScale(nextIndex, preserveAnchor) {
+    const anchor = preserveAnchor ? captureReadingAnchor() : null;
+    fontIndex = Math.min(fontScales.length - 1, Math.max(0, nextIndex));
+    document.documentElement.style.setProperty('--reader-scale', fontScales[fontIndex]);
+    fontButtons.forEach((button) => {
+      const step = Number(button.dataset.fontStep);
+      button.disabled = (step < 0 && fontIndex === 0) || (step > 0 && fontIndex === fontScales.length - 1);
+    });
+    restoreReadingAnchor(anchor);
+  }
+  controls.forEach((control) => {
+    control.addEventListener('click', () => {
+      applyLanguage(control.dataset.lang);
+      setControlsOpen(false);
+    });
+  });
+  fontButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      button.blur();
+      applyFontScale(fontIndex + Number(button.dataset.fontStep), true);
+    });
+  });
+  if (chapterSelect) {
+    chapterSelect.addEventListener('change', () => {
+      if (!chapterSelect.value) return;
+      window.location.href = chapterSelect.value;
+    });
+  }
+  if (settingsToggle && controlsPanel) {
+    settingsToggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      setControlsOpen(!controlsPanel.classList.contains('is-open'));
+    });
+    controlsPanel.addEventListener('click', (event) => event.stopPropagation());
+    document.addEventListener('click', () => setControlsOpen(false));
+    window.addEventListener('scroll', () => setControlsOpen(false), { passive: true });
+  }
+  applyLanguage(lang);
+  applyFontScale(fontIndex);
+}());
+</script>
+<script src="../../assets/site-footer.js?v=5.1.39"></script>
+<script data-cloudinsect-language-select="true">
+(function () {
+  const select = document.querySelector('.language-select');
+  if (!select) return;
+  let stored = 'vi';
+  try { stored = localStorage.getItem('cloudinsect-lang') || 'vi'; } catch (error) {}
+  if (Array.from(select.options).some((option) => option.value === stored)) select.value = stored;
+  select.addEventListener('change', function () {
+    try { localStorage.setItem('cloudinsect-lang', select.value); } catch (error) {}
+    window.location.reload();
+  });
+}());
+</script>
+<script data-cloudinsect-spanish-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: suscripción mensual con pagos internacionales mediante tarjeta, PayPal y otros métodos.","gumroad":"Gumroad: compra directa con pagos internacionales mediante tarjeta, PayPal y otros métodos.","huotan":"HuoTan: compra directa mediante WeChat Pay y Alipay.","azz":"AZZ: suscripción mensual mediante WeChat Pay y Alipay."};
+  function applySpanishSurface() {
+    if (!/^es\b/i.test(document.documentElement.lang || '')) return;
+    document.querySelectorAll('[data-tooltip-es]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipEs; });
+    const wallpaperEntry = document.querySelector('.wallpaper-entry');
+    if (wallpaperEntry) wallpaperEntry.setAttribute('aria-label', 'Fondos de pantalla');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Índice de capítulos');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'Seleccionar capítulo');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo el contenido y los derechos relacionados de este sitio pertenecen a WLOP. Se prohíbe su reproducción, copia, adaptación o uso comercial sin autorización. Todos los derechos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contacto:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applySpanishSurface, { once: true });
+  else applySpanishSurface();
+  window.setTimeout(applySpanishSurface, 0);
+}());
+</script>
+<script data-cloudinsect-arabic-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: اشتراك شهري يدعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","gumroad":"Gumroad: شراء مباشر للأعمال مع دعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","huotan":"HuoTan: شراء مباشر للأعمال عبر WeChat Pay وAlipay.","azz":"AZZ: اشتراك شهري عبر WeChat Pay وAlipay."};
+  function applyArabicSurface() {
+    if (!/^ar\b/i.test(document.documentElement.lang || '')) return;
+    document.documentElement.dir = 'ltr';
+    document.querySelectorAll('[data-tooltip-ar]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipAr; });
+    const wallpaperEntry = document.querySelector('.wallpaper-entry');
+    if (wallpaperEntry) wallpaperEntry.setAttribute('aria-label', 'الخلفيات');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'فهرس الفصول');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'اختر فصلًا');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. جميع محتويات هذا الموقع والحقوق المرتبطة بها مملوكة لـWLOP. يُحظر النشر أو النسخ أو الاقتباس أو التعديل أو الاستخدام التجاري من دون إذن. جميع الحقوق محفوظة."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "للتواصل:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyArabicSurface, { once: true });
+  else applyArabicSurface();
+  window.setTimeout(applyArabicSurface, 0);
+}());
+</script>
+<script data-cloudinsect-french-surface="true">
+(function () {
+ const tips={"patreon":"Patreon : abonnement mensuel, cartes bancaires, PayPal et autres paiements internationaux.","gumroad":"Gumroad : achat direct des œuvres, cartes bancaires, PayPal et autres paiements internationaux.","huotan":"HuoTan : achat direct des œuvres avec WeChat Pay ou Alipay.","azz":"AZZ : abonnement mensuel avec WeChat Pay ou Alipay."};
+ function applyFrenchSurface() {
+  if (!/^fr\b/i.test(document.documentElement.lang || '')) return;
+  document.querySelectorAll('[data-tooltip-fr]').forEach((item)=>{ item.dataset.tooltip=item.dataset.tooltipFr; });
+  const w=document.querySelector('.wallpaper-entry'); if(w) w.setAttribute('aria-label','Fonds d’écran');
+  const c=document.querySelector('.catalog'); if(c) c.setAttribute('aria-label','Sommaire des chapitres');
+  const s=document.querySelector('.chapter-select'); if(s) s.setAttribute('aria-label','Choisir un chapitre');
+  document.querySelectorAll('.cloudinsect-copyright').forEach((item)=>{item.textContent="© WLOP. L’ensemble du contenu de ce site et les droits associés appartiennent à WLOP. Toute reproduction, copie, adaptation ou utilisation commerciale sans autorisation est interdite. Tous droits réservés.";});
+  document.querySelectorAll('.cloudinsect-contact-label').forEach((item)=>{item.textContent="Contact :";});
+  document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link)=>{const tip=tips[link.dataset.footerKey];if(tip){link.dataset.tooltip=tip;link.setAttribute('aria-label',link.textContent+': '+tip);}});
+ }
+ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',applyFrenchSurface,{once:true}); else applyFrenchSurface(); window.setTimeout(applyFrenchSurface,0);
+}());
+</script>
+<script data-cloudinsect-adaptive-chapter-menu="true">
+(function () {
+  const select = document.querySelector('.chapter-select');
+  const controls = select && select.closest('.chapter-controls');
+  if (!select || !controls) return;
+  const probe = document.createElement('span');
+  probe.setAttribute('aria-hidden', 'true');
+  probe.style.cssText = 'position:fixed;left:-10000px;top:-10000px;visibility:hidden;white-space:pre;pointer-events:none;';
+  document.body.appendChild(probe);
+  let frame = 0;
+
+  function number(value) {
+    const parsed = Number.parseFloat(value);
+    return Number.isFinite(parsed) ? parsed : 0;
+  }
+
+  function measure() {
+    frame = 0;
+    const style = getComputedStyle(select);
+    probe.style.font = style.font;
+    probe.style.fontFamily = style.fontFamily;
+    probe.style.fontSize = style.fontSize;
+    probe.style.fontWeight = style.fontWeight;
+    probe.style.letterSpacing = style.letterSpacing;
+    let textWidth = 0;
+    Array.from(select.options).forEach(function (option) {
+      probe.textContent = option.textContent.trim();
+      textWidth = Math.max(textWidth, probe.getBoundingClientRect().width);
+    });
+    const chrome = number(style.paddingLeft) + number(style.paddingRight) +
+      number(style.borderLeftWidth) + number(style.borderRightWidth) + 4;
+    const desired = Math.ceil(textWidth + chrome);
+    const toc = controls.querySelector('.toc-link');
+    const controlsStyle = getComputedStyle(controls);
+    const gap = number(controlsStyle.columnGap || controlsStyle.gap);
+    const outerPadding = number(controlsStyle.paddingLeft) + number(controlsStyle.paddingRight);
+    const left = controls.getBoundingClientRect().left;
+    const edge = Math.max(12, left);
+    const inlineCap = Math.max(120, window.innerWidth - edge - 12 - outerPadding - gap - (toc ? toc.getBoundingClientRect().width : 0));
+    const shouldStack = desired > inlineCap && window.innerWidth <= 760;
+    controls.classList.toggle('is-stacked', shouldStack);
+    const cap = shouldStack
+      ? Math.max(120, window.innerWidth - edge - 12 - outerPadding)
+      : inlineCap;
+    select.style.setProperty('--chapter-select-width', desired + 'px');
+    select.style.setProperty('--chapter-select-cap', Math.floor(cap) + 'px');
+  }
+
+  function schedule() {
+    if (frame) cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(measure);
+  }
+
+  select.addEventListener('change', schedule);
+  const settingsToggle = document.querySelector('.settings-toggle');
+  if (settingsToggle) {
+    settingsToggle.addEventListener('click', function () {
+      window.setTimeout(schedule, 0);
+    });
+  }
+  window.addEventListener('resize', schedule, { passive: true });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule).catch(function () {});
+  schedule();
+  window.setTimeout(schedule, 0);
+}());
+</script>
+<script data-cloudinsect-ptbr-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: assinatura mensal com cartões de crédito, PayPal e outros meios de pagamento internacionais.","gumroad":"Gumroad: compra direta das obras com cartões de crédito, PayPal e outros meios de pagamento internacionais.","huotan":"HuoTan: compra direta das obras com WeChat Pay ou Alipay.","azz":"AZZ: assinatura mensal com WeChat Pay ou Alipay."};
+  function applyPortugueseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'pt-br') return;
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Papéis de parede em destaque');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Sumário dos capítulos');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Selecionar capítulo');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Navegação entre capítulos');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo o conteúdo deste site e os direitos relacionados pertencem à WLOP. É proibida a reprodução, cópia, adaptação ou utilização comercial sem autorização. Todos os direitos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contato:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-pt-br]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipPtBr; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyPortugueseSurface, { once: true });
+  else applyPortugueseSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyPortugueseSurface, 0));
+}());
+</script>
+<script data-cloudinsect-ru-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: ежемесячная подписка с оплатой банковской картой, PayPal и другими международными способами.","gumroad":"Gumroad: прямая покупка работ с оплатой банковской картой, PayPal и другими международными способами.","huotan":"HuoTan: прямая покупка работ с оплатой через WeChat Pay или Alipay.","azz":"AZZ: ежемесячная подписка с оплатой через WeChat Pay или Alipay."};
+  function applyRussianSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'ru') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Выбор языка'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Язык'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Размер шрифта'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Уменьшить шрифт'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Увеличить шрифт'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Настройки чтения'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Назад'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Список обоев'); });
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Избранные обои');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Содержание');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Выбор главы');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Навигация по главам');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Открытие главы'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Всё содержимое этого сайта и связанные с ним права принадлежат WLOP. Копирование, воспроизведение, адаптация и коммерческое использование без разрешения запрещены. Все права защищены."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Связаться:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-ru]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipRu; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyRussianSurface, { once: true });
+  else applyRussianSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyRussianSurface, 0));
+}());
+</script>
+<script data-cloudinsect-vi-surface="true">
+(function () {
+  function applyVietnameseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'vi') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Chọn ngôn ngữ'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Ngôn ngữ'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Giảm cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Tăng cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Cài đặt đọc'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Quay lại'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Danh sách hình nền'); });
+    document.querySelectorAll('.toc-link').forEach((item) => {
+      item.setAttribute('aria-label', 'Quay lại mục lục chính');
+      item.setAttribute('title', 'Quay lại mục lục chính');
+    });
+    document.querySelectorAll('.chapter-pager-button[title="上一节"], [data-pager-disabled="previous"]').forEach((item) => {
+      item.setAttribute('title', 'Chương trước');
+      item.setAttribute('aria-label', 'Chương trước');
+    });
+    document.querySelectorAll('.chapter-pager-button[title="下一节"], [data-pager-disabled="next"]').forEach((item) => {
+      item.setAttribute('title', 'Chương tiếp theo');
+      item.setAttribute('aria-label', 'Chương tiếp theo');
+    });
+    document.querySelectorAll('summary[title="点击查看人物简介"]').forEach((item) => {
+      item.setAttribute('title', 'Nhấn để xem tiểu sử nhân vật');
+    });
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Hình nền nổi bật');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Mục lục các chương');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Chọn chương');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Điều hướng chương');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Mở đầu chương'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Toàn bộ nội dung và bản quyền liên quan trên trang web này thuộc về WLOP. Mọi hành vi sao chép, tái bản, cải biên hoặc sử dụng cho mục đích thương mại khi chưa được phép đều bị nghiêm cấm. Bảo lưu mọi quyền."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Liên hệ:"; });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyVietnameseSurface, { once: true });
+  else applyVietnameseSurface();
+  window.setTimeout(applyVietnameseSurface, 0);
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyVietnameseSurface, 0));
+}());
+</script>
+</body>
+</html>

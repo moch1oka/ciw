@@ -1,0 +1,617 @@
+# Vân Trùng / CloudInsect - Chương 3: Ngoài Nón Ánh Sáng · II (第三章 光锥之外 · 二)
+
+---
+
+![Panel 1](./media/image1.jpg)
+
+**VI**: “Khoan đã——Nguyệt Nha Nhi! Đừng chạm vào!”
+
+**ZH**: “等等——月牙儿！别碰！”
+
+**EN**: “Wait—Mahina! Don’t touch that!”
+
+
+
+![Panel 2](./media/image2.jpg)
+
+**VI**: ——Xì——
+
+**ZH**: ——嘶——
+
+**EN**: —hiss—
+
+
+
+**VI**: Ánh sáng uốn cong quanh rìa hố đen, tựa như bị một bàn tay vô hình kéo giật. Không khí đột ngột sụp đổ, âm thanh và sắc màu cùng lúc bị tước đoạt.
+
+**ZH**: 光从黑洞边缘弯折，像被无形的手牵引。空气骤然塌陷，声音与色彩一同被抽离。
+
+**EN**: Light bent along the rim of the black hole, drawn as if by an invisible hand. Air collapsed inward; sound and color were torn away together. Time began to coagulate—each second stretched infinitely, then shattered in an instant. Mahina felt her consciousness ripped into countless fragments, spinning, breaking, and reassembling in the dark without light. And the world… seemed to be rearranging itself on the other side.
+
+
+
+**VI**: Thời gian bắt đầu đông kết——từng giây từng khắc bị kéo dài vô tận, rồi lại sụp đổ trong nháy mắt. Nguyệt Nha Nhi cảm thấy ý thức của mình bị xé toạc thành vô số mảnh vụn, cuồn cuộn, tan vỡ rồi tái tổ hợp nơi sâu thẳm không một tia sáng. Mà thế giới, dường như đang được sắp đặt lại ở một bờ bên kia.
+
+**ZH**: 时间开始凝聚——每一秒都被无限拉长，又在瞬息之间崩塌。月牙儿感觉自己的意识被撕扯成无数碎片，在无光的深处翻涌、撕裂、再度重组。而世界，似乎正在另一端重新排列。
+
+
+
+![Panel 3](./media/image3.jpg)
+
+**VI**: Gió lại tìm lại được trọng lượng. Những chiếc lá rụng chao nghiêng trong ánh ngược sáng, không khí tràn ngập một mùi hương xa lạ——nồng đậm, ẩm ướt, xen lẫn mùi bùn đất, tro tàn và vị tanh lạnh của sắt thép, khiến lòng người bản năng dâng lên nỗi bất an.
+
+**ZH**: 风重新有了重量。落叶从逆光中飘下，空气里弥漫着一种陌生的气味——厚重、潮湿，夹着泥土、烟灰与铁的腥意，让人本能地感到不安。
+
+**EN**: The wind regained its weight. Leaves drifted down through backlight. The air was filled with a scent—thick, damp, laced with soil, ash, and the metallic tang of iron. It pressed into her lungs, raw and heavy, stirring unease deep in her chest.
+
+
+
+**VI**: Những tấm ván gỗ dưới chân khẽ rung lên. Lồng ngực Nguyệt Nha Nhi thắt lại, thứ mùi ấy len vào cổ họng, mang theo vị chát han gỉ, khiến cô muốn ho mà không sao ho nổi. Cô từ từ mở mắt, ánh sáng quá chói chang khiến cô vô thức giơ tay lên che. Lớp hào quang chói mắt kia dần tan biến, chỉ còn lại ráng chiều tà và bóng núi xa xa.
+
+**ZH**: 脚下的木板轻轻颤动。月牙儿胸口微微发紧，那味道钻进喉咙，带着一丝生锈的涩味，让她想咳，却又咳不出来。她缓缓睁开眼，光线太强，下意识抬手去遮。那层刺目的炫光逐渐散去，只剩暮色与远处的山影。
+
+**EN**: The wooden planks beneath her feet quivered. Mahina’s chest tightened; the taste of rust crept up her throat, sharp and dry. She wanted to cough, but no sound came out. She slowly opened her eyes. The light was too bright—instinctively, she raised a hand to shield them. The glare faded, leaving only twilight and the shadow of distant mountains.
+
+
+
+![Panel 4](./media/image4.jpg)
+
+**VI**: “……Đây là đâu?”
+
+**ZH**: “……这是哪里？”
+
+**EN**: “Where… are we?”
+
+
+
+![Panel 5](./media/image5.jpg)
+
+**VI**: “Không biết…… Màn hình tinh thể lỏng đã bật rồi? Trường Vân Trùng ở đây…… cường độ cực thấp. Rõ ràng chúng ta vẫn đang ở ngay bên dưới nó, nhưng nhiễu loạn gần như biến mất hoàn toàn?”
+
+**ZH**: “不知道……液晶屏启动了？这里的云虫场……强度极低。明明我们还在它的正下方，可干扰几乎消失了？”
+
+**EN**: “I don’t know… The LCD just came on?The CloudInsect field here is abnormally weak.We’re still right beneath it—but the interference’s almost gone.”
+
+
+
+![Panel 6](./media/image6.jpg)
+
+**VI**: [???]
+
+**ZH**: [???]
+
+**EN**: [???]
+
+
+
+**VI**: “Hai vị, chẳng hay cũng vì Chiếu chiêu hiền của Tần công mà đến? Nếu cùng chung đường, chi bằng kết bạn đồng hành?”
+
+**ZH**: “二位，可也是为秦公的昭贤令而来？若是同途，不如结伴同行？”
+
+**EN**: “Are the two of you also answering the Qin Lord’s call for the worthy?If so, perhaps we might travel together.”
+
+
+
+![Panel 7](./media/image7.jpg)
+
+**VI**: Nguyệt Nha Nhi và Hi Dương gần như cùng lúc quay người lại.
+
+**ZH**: 月牙儿与希扬几乎同时转过身。
+
+**EN**: Mahina and Suvan turned at the same moment.
+
+
+
+**VI**: Người nọ dắt một con lừa, đang đứng ở tận cùng của ánh hoàng hôn. Tà dương kéo chiếc bóng của ông ta dài thật dài, vạt áo dài khẽ lay động trong gió. Đó là một bộ trường bào màu đen sẫm, đường nét gọn gàng dứt khoát, chất vải trầm ổn. Dáng người ông thẳng tắp, cử chỉ ung dung tự tại. Xương mày góc cạnh sắc sảo, ánh mắt sắc như lưỡi đao nhưng không hề mang vẻ lấn át, chỉ là khi ánh mắt ấy dừng lại, người ta sẽ bất giác thẳng sống lưng lên. Thần thái toát ra một sự tự tin kiên định——như một kẻ từ lâu đã nhìn thấu con đường phía trước. Ông dừng lại giữa đường, khẽ ghì dây cương, chắp tay hành lễ với hai người.
+
+**ZH**: 那人牵着一头驴，正立在暮色的尽头。夕阳将他的身影拉得很长，长袍的下摆在风中微微摆动。那是一袭深黑的衣袍，线条利落，质地沉稳。他身形笔直，举止从容。眉骨锋挺，目光锐利如刃，却不显侵人，只是那种目光一落，便让人本能地挺直了背脊。神态透着一种笃定的自信——像是早已看清前路的人。他停在路中央，轻轻收缰，朝他们拱手致礼。
+
+**EN**: A man stood at the end of the twilight road, leading a donkey by its reins. The setting sun stretched his shadow long across the dust. His robe was black—sleek lines, steady fabric, moving faintly with the wind. He stood upright, movements calm and measured. His brow was sharp, his gaze cutting like a blade—yet not hostile; the kind that made one straighten their back without realizing it. There was a quiet certainty in his expression, as though he had already seen the road ahead. He stopped in the middle of the path, drew the reins gently, and saluted them with a polite bow.
+
+
+
+**VI**: “Ông là?”
+
+**ZH**: “你是？”
+
+**EN**: “Who are you?”
+
+
+
+**VI**: “Ông là?”
+
+**ZH**: “你是？”
+
+**EN**: “Who are you?”
+
+
+
+![Panel 8](./media/image8.jpg)
+
+**VI**: [???]
+
+**ZH**: [???]
+
+**EN**: [???]
+
+
+
+**VI**: “Tại hạ họ kép Công Tôn, tên Ưởng, là người nước Vệ. Chuyến đi này là theo Chiếu chiêu hiền của Tần công, muốn tới Lịch Dương thử sức một phen. Y phục của hai vị khác xa chốn này, hẳn cũng không phải người bản xứ nơi đây?”
+
+**ZH**: “在下复姓公孙，名鞅，卫人也。此行乃应秦公昭贤之令，欲往栎阳一试。二位衣着颇异于此地，想必亦非本乡之人？”
+
+**EN**: “I bear the compound surname Gongsun, given name Yang, a man of Wei.I journey to Yueyang at the summons of the Qin Lord’s decree for talent.Your attire differs greatly from the people of this land—Perhaps you, too, are travelers from afar?”
+
+
+
+![Panel 9](./media/image9.jpg)
+
+**VI**: “Công Tôn…… Ưởng? Người nước Vệ? Khoan đã, ông là——Thương——”
+
+**ZH**: “公孙……鞅？卫国人？等等，你是——商——”
+
+**EN**: “Gongsun Yang… from Wei?Wait—you’re—Shang—”
+
+
+
+![Panel 10](./media/image10.jpg)
+
+**VI**: Nguyệt Nha Nhi vừa thốt ra chữ “Thương”, âm tiết cuối cùng còn chưa kịp thành tiếng. Không khí bỗng chốc ngưng đọng. Gió ngừng thổi, mặt nước chẳng còn gợn sóng. Âm thanh ấy bị kéo dài vô tận trong không gian, chậm đến mức tưởng chừng như có thể nhìn thấy từng đợt sóng âm, từng tấc từng tấc đông cứng lại trong thời gian. Rồi sau đó——mọi thứ tĩnh lặng hoàn toàn.
+
+**ZH**: 月牙儿刚吐出“商”字，最后一个音节尚未成形。空气忽然凝固了。风停了，水面也不再起波。那声音在空气中被无限拉长，慢到仿佛能看见声波本身，一寸一寸冻结在时间里。然后——一切静止。
+
+**EN**: The final syllable never formed. Air froze. Wind stopped. The river stilled. That sound—the half-spoken name—stretched infinitely, until even the waves of it seemed visible, inch by inch suspended in time. Then—everything stopped.
+
+
+
+**VI**: Ngay sau đó là cảm giác xé rách quen thuộc. Ánh sáng vặn xoắn, trọng lực nghiêng ngả, thế giới tựa hồ bị bàn tay vô hình vặn xoắn thành một mối. Ý thức của cô lại bị xé thành vô số mảnh vụn, rồi lại được tái cấu trúc trong giây tiếp theo. Tiếng rít gào bên tai tựa như chính thời gian đang đứt gãy, non sông, cương vực, tên gọi của các vương triều không ngừng lướt qua trong tầm mắt, rồi lại bị tầng ánh sáng tiếp theo nuốt chửng. Bọn họ rơi xuống giữa vô số nếp gấp của thời gian, tựa như hai hạt bụi nhỏ bị ném vào giữa dòng hồng lưu thời không.
+
+**ZH**: 紧接着，是熟悉的撕扯感。光线扭曲、重力倾斜，世界像被无形的手拧成一股。她的意识再次被撕成无数碎片，又在下一秒被重组。耳边的嘶鸣像时间本身在断裂，山川、疆域、王朝的名字在视野中不断掠过，又被下一层光吞没。他们在无数条时间的褶皱之间坠落，如两颗被抛出的微尘，穿过一场时空洪流。
+
+**EN**: And the familiar tearing returned. Light twisted; gravity tilted; the world folded into itself. Her mind was torn apart again, reassembled the next heartbeat. A shriek roared in her ears, as if time itself were splitting open. Mountains, borders, dynasties flashed past her vision, each swallowed by the next burst of light. They fell through the creases of countless timelines, two motes of dust hurled into a storm of time and space.
+
+
+
+![Panel 11](./media/image11.jpg)
+
+![Panel 12](./media/image12.jpg)
+
+**VI**: Ánh sáng một lần nữa tràn về thế giới. Một luồng hào quang chói lòa chiếu vào từ bốn phương tám hướng, đất trời đảo lộn, không khí tràn ngập những hạt bụi sáng li ti. Bên tai vang lên giọng nói quen thuộc——vừa lo lắng, đè nén, nhưng lại ngập tràn gấp gáp:
+
+**ZH**: 光重新涌回世界。一阵刺目的炫光从四面透入，天地翻转，空气中满是细碎的尘光。耳边传来熟悉的声音——焦急、压低，却带着急切：
+
+**EN**: Light returned to the world. A blinding radiance poured from all directions. The sky flipped, the air shimmered with motes of dust. Suvan’s voice broke through, urgent and trembling:
+
+
+
+**VI**: “Nguyệt Nha Nhi, Nguyệt Nha Nhi! Em không sao chứ?”
+
+**ZH**: “月牙儿，月牙儿！你没事吧？”
+
+**EN**: “Mahina! Mahina! Are you alright?”
+
+
+
+![Panel 13](./media/image13.jpg)
+
+**VI**: “……Chuyện này lại là sao nữa? Hi Dương…… đây…… lại là đâu nữa rồi?”
+
+**ZH**: “……这又是怎么了？希扬……这……又是哪儿？”
+
+**EN**: “What… happened this time?Suvan… where are we now?”
+
+
+
+![Panel 14](./media/image14.jpg)
+
+**VI**: “Chúng ta…… đáng lẽ vẫn ở nguyên chỗ cũ.”
+
+**ZH**: “我们……应该还在原来的地方。”
+
+**EN**: “I think… we’re still in the same place.”
+
+
+
+![Panel 15](./media/image15.jpg)
+
+**VI**: “Nhưng——hình như không cùng một thời điểm.”
+
+**ZH**: “但——似乎不在同一个时间点。”
+
+**EN**: “But not the same moment.”
+
+
+
+**VI**: [???]
+
+**ZH**: [???]
+
+**EN**: [???]
+
+
+
+**VI**: “Hai người, cuối cùng cũng đã đến.”
+
+**ZH**: “你们，终于来了。”
+
+**EN**: “You’ve finally arrived.”
+
+
+
+![Panel 16](./media/image16.jpg)
+
+**VI**: Một tiếng bước chân nhẹ tựa cát mịn vang lên từ phía sau họ. Hai bóng hình từ từ hiện ra giữa vùng quang ảnh mờ ảo.
+
+**ZH**: 一阵清沙般的脚步声，从他们身后传来。两道身影缓缓出现在朦胧光影之间。
+
+**EN**: A soft rustle of sand-laced footsteps came from behind them. Two figures emerged from the mist and fractured light.
+
+
+
+**VI**: Người đi trước là một thanh niên dáng vóc hiên ngang, trường bào viền chỉ vàng huyền mặc khẽ phấp phới trong gió, bên hông đeo thanh trường kiếm, vỏ kiếm tỏa ra ánh sáng lạnh lẽo. Chàng đeo một chiếc mặt nạ nanh vuốt che kín cả khuôn mặt, chỉ để lộ đôi mắt thâm trầm tĩnh lặng, ánh nhìn sắc bén, nhuệ khí lộ rõ ra ngoài. Phía sau chàng là một đại hán vai vác chiếc búa khổng lồ, vai khoác tàn giáp, trên cánh tay trần lộ rõ những vết sẹo cũ, nước da ngăm đen, ánh mắt cứng như sắt đá. Bước chân của họ vững vàng mà thanh thoát, tựa như từng bước bước ra từ trong màn sương. Chàng thanh niên dừng lại trước mặt hai người, khẽ gật đầu chào.
+
+**ZH**: 前者是一名身姿挺拔的青年，玄金镶边的长袍在风中微微拂动，腰间佩剑，剑鞘泛着冷光。他戴着一副遮住全脸的獠牙面具，只露出一双沉静的眼，目光锐利，锋芒外泄。在他身后，是一名肩扛巨锤的壮汉，肩披残甲，裸露的臂膀上隐见旧伤的痕迹，肤色黝黑，眼神如铁。他们脚步稳而轻，仿佛是从雾中一步步走出。青年在两人面前停下，向他们微微点头示意。
+
+**EN**: The first was a tall, straight-backed young man in a dark robe lined with gold. His sword hung at his waist, the sheath catching the fading light. A mask shaped like fangs covered his face, revealing only calm, penetrating eyes. Behind him strode a broad-shouldered warrior, carrying a massive hammer across his back. His armor was worn, his arms scarred, skin dark as bronze, gaze unwavering. Their steps were slow and sure—like men walking out of a dream. The masked youth stopped before them and inclined his head slightly.
+
+
+
+![Panel 17](./media/image17.jpg)
+
+**VI**: [???]
+
+**ZH**: [???]
+
+**EN**: [???]
+
+
+
+**VI**: “Tại hạ Trương Lương, tự Tử Phòng, đã đợi hai vị người trong mây ở đây từ rất lâu rồi.”
+
+**ZH**: “在下张良，字子房，已在此等候二位云中之人多时。”
+
+**EN**: “I am Zhang Liang, courtesy name Zifang.I have awaited the Cloud Dwellers for some time.”
+
+
+
+**VI**: Nguyệt Nha Nhi và Hi Dương bàng hoàng nhìn nhau. Khoảnh khắc ấy, cả hai đều đọc được sóng to gió lớn trong mắt đối phương. Giữa thời không xa lạ đến nhường này, bọn họ lại nghe thấy một cái tên quen thuộc đến thế——Trương Lương. Và điều khiến lồng ngực họ thắt lại, chính là ba chữ thốt ra từ miệng chàng——‘Người trong mây’.
+
+**ZH**: 月牙儿与希扬猛然对视。那一瞬，两人都在对方的眼中读到了惊涛骇浪。在这片如此陌生的时空里，他们竟听到了一个如此熟悉的名字——张良。而让人心口发紧的，是他口中的那三个字——云中人。
+
+**EN**: Mahina and Suvan froze. For a heartbeat, they saw the same shock reflected in each other’s eyes. In this utterly foreign world—they had heard a name they knew. Zhang Liang. And more than that—three words that made their hearts tighten—Cloud Dwellers.
+
+
+
+**VI**: Mọi manh mối rời rạc vào lúc này đã quấn chặt thành một nút thắt chết, tựa như bị số phận buộc chặt vào một chỗ. Lần đầu tiên họ nhận ra rằng——danh xưng ‘Người trong mây’ này, không chỉ tồn tại trong miệng của chính mình.
+
+**ZH**: 所有散乱的线索在这一刻纠缠成一个死结，像是被命运拧在了一处。他们第一次意识到——“云中人”这个称呼，不只存在于自己口中。
+
+**EN**: Every broken thread in their memories twisted together in that instant, tangled into a single knot—as though fate itself had drawn them to this point. For the first time, they understood—that the name “Cloud Dwellers” existed not only on their tongues.
+
+
+
+![Panel 18](./media/image18.jpg)
+
+**VI**: [Trương Lương]
+
+**ZH**: [张良]
+
+**EN**: [Zhang Liang]
+
+
+
+**VI**: “Tần Hoàng đế bạo ngược, thiên hạ khổ vì Tần đã lâu. Hai vị người trong mây, xin hãy giúp ta cứu vớt thiên hạ thoát khỏi cảnh dầu sôi lửa bỏng.”
+
+**ZH**: “秦皇帝暴虐，天下苦秦久矣。二位云中之人，请助我救天下于水火。”
+
+**EN**: “The Qin Emperor is tyrannical, and all under Heaven has suffered beneath Qin for too long.Cloud Dwellers, will you help me rescue the people from fire and flood?”
+
+
+
+![Panel 19](./media/image19.jpg)
+
+**VI**: Chàng thanh niên tự xưng là Trương Lương chậm rãi bước lại gần, dừng lại cách Nguyệt Nha Nhi chỉ một bước chân. Giọng chàng bình thản mà ôn hòa, từng câu từng chữ rõ ràng, mang theo lễ nghi nho nhã của bậc văn nhân, nhưng tự thân lại toát ra một cỗ uy thế không thể khước từ.
+
+**ZH**: 那名自称张良的青年缓缓走近，停在离月牙儿仅一步之遥处。他的声音平稳而温和，字字清晰，带着读书人的礼节与儒雅，却自有一股不容抗拒的威势。
+
+**EN**: The young man who called himself Zhang Liang stepped closer, stopping a single pace from Mahina. His voice was calm and even, every word precise—carrying the restraint of a scholar, yet a force that could not be denied.
+
+
+
+**VI**: Chàng đứng ở đó, cả con người sừng sững như một thanh bảo kiếm cắm giữa trời đất, khí trường vô hình ấy khiến cho vị dũng sĩ tựa núi non phía sau cũng phải lu mờ. Nguyệt Nha Nhi chỉ cảm thấy như mình sắp bị ánh mắt sau chiếc mặt nạ kia xuyên thấu, đầu ngón tay cô khẽ run, hơi thở ngưng trệ, tâm tư bị khí thế trầm mặc ấy nuốt chửng, trong đầu một mảng trống rỗng.
+
+**ZH**: 他站在那里，整个人如同一把利剑，矗于天地之间，那股无形的气场让他身后山岳一般的武士都相形失色。月牙儿只觉得自己快被那面具下的目光洞穿，她的指尖微颤，呼吸凝滞，思绪被那份沉默的气势吞没，脑海一片空白。
+
+**EN**: He stood tall, like a drawn sword piercing heaven and earth. The air around him seemed to bend; even the warrior behind him dimmed in comparison. Mahina felt as though that unseen gaze beneath the mask pierced straight through her. Her fingertips trembled; breath caught—her mind blank beneath the weight of his silence.
+
+
+
+![Panel 20](./media/image20.jpg)
+
+**VI**: “……Vậy…… chúng tôi phải giúp ngài thế nào?”
+
+**ZH**: “……那……我们要怎么帮你？”
+
+**EN**: “Then… how can we help you?”
+
+
+
+![Panel 21](./media/image21.jpg)
+
+**VI**: [Trương Lương]
+
+**ZH**: [张良]
+
+**EN**: [Zhang Liang]
+
+
+
+**VI**: “Rất đơn giản. Hai người chỉ cần nói cho ta biết——lần này Tần Hoàng đế tuần du phía đông, khi đi qua Bác Lãng Sa, ngài ấy ngồi ở xe trước…… hay là xe sau?”
+
+**ZH**: “很简单。你们只需告诉我——秦皇帝这次东游，过博浪沙时，是坐于前车……还是后车？”
+
+**EN**: “It is simple.Tell me this:when the Qin Emperor travels east and passes through Bolang Sha,will he ride in the front carriage… or the rear?”
+
+
+
+![Panel 22](./media/image22.jpg)
+
+**VI**: Ba chữ “Bác Lãng Sa” vừa dứt, trái tim Nguyệt Nha Nhi bỗng thắt mạnh lại. Cái tên đó quá đỗi quen thuộc——như được rút ra từ lớp bụi thời gian trong sách giáo khoa, từ nơi sâu thẳm nhất của ký ức.
+
+**ZH**: “博浪沙”三个字落下的瞬间，月牙儿的心猛地一紧。那名字太熟悉了——像是从课本的尘封里、从记忆的深处被抽出。
+
+**EN**: At the mention of Bolang Sha, Mahina’s heart jolted. That name—so familiar. It rose like dust from the pages of history, from the half-forgotten corners of memory.
+
+
+
+**VI**: Cô vô thức ngẩng đầu, nhìn về phía tráng sĩ phía sau Trương Lương. Ánh tà dương hắt lên bờ vai trần của người nọ những tia sáng lạnh lẽo, chiếc búa khổng lồ trên vai nặng trĩu tựa như muốn đập vỡ toang không khí. Cô cảm thấy tim mình như sắp nhảy ra khỏi lồng ngực.
+
+**ZH**: 她下意识抬头，看向张良身后的那名壮士。夕光在那人裸露的肩上打出冷色的光，肩上的巨锤厚重得几乎要将空气砸裂。她感觉自己的心快要跳出胸腔了。
+
+**EN**: She glanced up instinctively toward the giant behind Zhang Liang. Evening light glinted cold along his bare shoulder; The hammer across his back seemed heavy enough to split the air. Her heartbeat thundered in her chest.
+
+
+
+**VI**: “Người đó…… người đó đang——”
+
+**ZH**: “他……他在——”
+
+**EN**: “He… he’s—”
+
+
+
+![Panel 23](./media/image23.jpg)
+
+**VI**: “Khoan đã! Nguyệt Nha Nhi!”
+
+**ZH**: “等等！月牙儿！”
+
+**EN**: “Wait! Mahina!”
+
+
+
+![Panel 24](./media/image24.jpg)
+
+**VI**: “Ngài thực sự nghĩ rằng——giết Tần Thủy Hoàng là có thể cứu được thiên hạ sao?”
+
+**ZH**: “你真以为——杀了秦始皇，就能救天下？”
+
+**EN**: “Do you really think—killing the Qin Emperor will save the world?”
+
+
+
+**VI**: Hi Dương im lặng bấy lâu nay, chẳng biết tự lúc nào đã bước đến chắn giữa hai người. Cậu hơi nghiêng người, che chở cho Nguyệt Nha Nhi ở phía sau, sống lưng thẳng tắp như cánh cung đã giương căng.
+
+**ZH**: 在一旁沉默许久的希扬，不知何时已走到他们之间。他微微侧身，将月牙儿护在身后，背脊笔直，如弓上满弦。
+
+**EN**: The boy who had been silent for so long was suddenly between them. He moved without a sound, placing himself before Mahina, shielding her.
+
+
+
+**VI**: Cậu đứng cách Trương Lương nửa bước, ánh mắt giao phong, không chút sợ hãi, từng lời thốt ra đều mang cùng một vẻ điềm tĩnh và sắc bén. Hoàng hôn dường như đang rực cháy giữa hai mũi kiếm, quang ảnh đan xen, khí tức ngưng tụ thành một đường thẳng.
+
+**ZH**: 他与张良相距半步，目光交锋，毫无惧色，吐出的每个字，都带着同样的冷静与锋芒。夕阳仿佛在两柄利剑之间燃烧，光影交错，气息凝成一线。
+
+**EN**: His spine was straight as a drawn bow, standing half a step from Zhang Liang—eyes locked, unwavering. Each word left his lips with clarity and edge, as sharp as Zhang Liang’s own. The setting sun burned between them like fire caught between two blades, light and shadow crossing in the air.
+
+
+
+**VI**: Nguyệt Nha Nhi nhìn bóng lưng của Hi Dương, lồng ngực bỗng chốc nhẹ nhõm. Giữa kinh sợ và hoang mang, một cảm giác ấm áp bất ngờ nảy sinh. Cậu học sinh cấp ba vốn luôn bị cô coi là một mọt sách này, vậy mà ngay khoảnh khắc này lại cho cô một cảm giác an toàn khó tả.
+
+**ZH**: 月牙儿望着希扬的背影，胸口忽然一松。惊惧与茫然中，生出一丝意外的温暖。这个一直被她视为书呆子的高中生，竟然在此刻给了她一分莫名的安全感。
+
+**EN**: Mahina stared at Suvan’s back—her chest loosened. Amid fear and confusion, warmth flickered through her. This boy she had always seen as a quiet, bookish student—was now her one point of calm in the storm.
+
+
+
+![Panel 25](./media/image25.jpg)
+
+**VI**: [Trương Lương]
+
+**ZH**: [张良]
+
+**EN**: [Zhang Liang]
+
+
+
+**VI**: “Quả nhiên là vậy, không thể nói, phải không? Cho nên, đúng như lời đồn đại——người trong mây, không phải người của cõi đời này. Có thể thấy được dòng chảy của thiên đạo, biết được hướng đi của mệnh số, nhưng lại không thể tiết lộ thiên cơ.”
+
+**ZH**: “果然如此，不能说，是吗？所以，真如传闻所言——云中之人，非此世之人。能见天道之流，知命数之所向，而不言天机。”
+
+**EN**: “As I thought. You cannot say, can you?Then the tales were true—The Cloud Dwellers are not of this world.You see the flow of Heaven’s path,yet you do not speak of its design.”
+
+
+
+**VI**: Chàng khẽ thở dài, từ từ cúi đầu, tiếng thở dài bị gió cuốn vào giữa những tầng mây nhuộm sắc vàng rực rỡ. Giọng nói ấy không mang chút trách cứ, chỉ có một nỗi cô liêu đã được dự liệu từ trước.
+
+**ZH**: 他叹了口气，缓缓低下头，叹息声被风卷入金色的云端。那声音不带责问，只有一种早已预料的落寞。
+
+**EN**: He exhaled softly, lowering his head. The sigh was almost carried away by the wind, not heavy with reproach, but with a quiet sorrow long expected.
+
+
+
+**VI**: Nguyệt Nha Nhi và Hi Dương nhìn nhau không nói nên lời, hóa ra mưu sĩ dưới chiếc mặt nạ kia chưa từng mong đợi một câu trả lời, chàng chỉ đang xác nhận lại một nỗi cô độc đã được số phận an bài.
+
+**ZH**: 月牙儿与希扬相顾无言，原来那面具下的谋士，从未期待答案，他只是在确认一场命中注定的孤独。
+
+**EN**: Mahina and Suvan exchanged a glance; they understood then—the strategist behind that mask had never truly sought an answer. He was merely confirming a loneliness written into fate.
+
+
+
+![Panel 26](./media/image26.jpg)
+
+**VI**: [Trương Lương]
+
+**ZH**: [张良]
+
+**EN**: [Zhang Liang]
+
+
+
+**VI**: “Nhưng hôm nay được diện kiến hai vị người trong mây, Trương Lương này đời này chẳng còn điều gì hối tiếc. Những gì trời cao hiển lộ, cuối cùng rồi cũng có lúc tỏ tường. Xin cáo từ tại đây!”
+
+**ZH**: “但今日得见二位云中人，张良此生已无憾。天之所示，终有启明之时。就此别过！”
+
+**EN**: “But to meet the Cloud Dwellers in my lifetime—Zhang Liang has no regrets.What Heaven has revealed will one day shine in full light.Now… our paths diverge.”
+
+
+
+![Panel 27](./media/image27.jpg)
+
+**VI**: Gió cuốn qua núi đồi hoang vu, vạt áo bay phấp phới. Chàng quay người rời đi, bước đi vô cùng nhẹ nhàng, tựa như từ lâu đã đạt được sự thấu hiểu ngầm với đất trời, kiên định mà thong dong.
+
+**ZH**: 风卷过山野，衣袂飞扬。他转身离去，动作极轻，仿佛早已与这天地达成默契，笃定而从容。
+
+**EN**: The wind swept over the hills, tugging at his robes. He turned and walked away—steps light, calm, as if already at peace with heaven and earth.
+
+
+
+**VI**: Nguyệt Nha Nhi ngơ ngác nhìn theo hai bóng lưng kia, tựa như vừa bị ai đánh thức khỏi một giấc mộng.
+
+**ZH**: 月牙儿怔怔望着那两道背影，仿佛被什么从梦中惊醒。
+
+**EN**: Mahina watched his fading figure, dazed, as though waking from a dream.
+
+
+
+**VI**: “Khoan đã——tôi có thể hỏi một câu không…… Rốt cuộc hiện tại chúng tôi đang ở đâu?”
+
+**ZH**: “等等——我能问一下……我们现在，究竟在哪里？”
+
+**EN**: “Wait—Can I ask… where are we, exactly?”
+
+
+
+![Panel 28](./media/image28.jpg)
+
+**VI**: [Trương Lương]
+
+**ZH**: [张良]
+
+**EN**: [Zhang Liang]
+
+
+
+**VI**: “——Ngoài nón ánh sáng.”
+
+**ZH**: “——光锥之外。”
+
+**EN**: “Beyond the light cone.”
+
+
+
+![Panel 29](./media/image29.jpg)
+
+**VI**: 《Sử ký · Thương Quân liệt truyện》 — Tư Mã Thiên
+
+**ZH**: 《史记·商君列传》 — 司马迁
+
+**EN**: Records of the Grand Historian · Biography of Lord Shang — Sima Qian
+
+
+
+**VI**: Thương Quân vốn là con thứ của dòng thứ công thất nước Vệ, tên Ưởng, mang họ Công Tôn, tổ tiên vốn là họ Cơ.
+
+**ZH**: 商君者，卫之诸庶孽公子也，名鞅，姓公孙氏，其祖本姬姓也。
+
+**EN**: Lord Shang was an illegitimate son of a lesser branch of the ruling house of Wei. His given name was Yang and his surname Gongsun; his ancestors had borne the Ji surname.
+
+
+
+**VI**: Sau khi Công Thúc Thoa chết, Công Tôn Ưởng nghe tin Tần Hiếu Công hạ lệnh cầu hiền trong nước, muốn nối lại nghiệp của Tần Mục Công, thu phục đất đai phía đông, bèn sang phía tây vào đất Tần, nhờ sủng thần của Hiếu Công là Cảnh Giám để xin yết kiến Hiếu Công.
+
+**ZH**: 公叔既死，公孙鞅闻秦孝公下令国中求贤者，将修缪公之业，东复侵地，乃遂西入秦，因孝公宠臣景监以求见孝公。
+
+**EN**: After Gongsun Cuo died, Gongsun Yang heard that Duke Xiao of Qin had issued an order throughout the state seeking men of talent, intending to restore the achievements of Duke Mu and recover Qin’s lost lands in the east. He therefore traveled west to Qin and sought an audience with Duke Xiao through Jing Jian, one of the duke’s favored retainers.
+
+
+
+**VI**: 《Sử ký · Lưu Hầu thế gia》 — Tư Mã Thiên
+
+**ZH**: 《史记·留侯世家》 — 司马迁
+
+**EN**: Records of the Grand Historian · Hereditary House of the Marquis of Liu — Sima Qian
+
+
+
+**VI**: Lưu Hầu Trương Lương, tổ tiên là người nước Hàn. Ông nội là Khai Địa, làm tướng quốc phụng sự Hàn Chiêu Hầu, Tuyên Huệ Vương, Tương Ai Vương. Cha là Bình, làm tướng quốc phụng sự Li Vương, Điệu Huệ Vương.
+
+**ZH**: 留侯张良者，其先韩人也。大父开地，相韩昭侯、宣惠王、襄哀王。父平，相厘王、悼惠王。
+
+**EN**: The Marquis of Liu, Zhang Liang, came from a family of Han. His grandfather Kaidi served as chancellor to Marquis Zhao, King Xuanhui, and King Xiang’ai of Han. His father Ping served as chancellor to King Li and King Daohui.
+
+
+
+**VI**: Trương Lương từng học lễ ở Hoài Dương. Sau sang phía đông gặp Thương Hải Quân, tìm được một dũng sĩ, đúc cho cây chùy sắt nặng một trăm hai mươi cân. Khi Tần Hoàng đế tuần du phía đông, Trương Lương cùng dũng sĩ mai phục thích sát Tần Hoàng đế tại Bác Lãng Sa, nhưng đánh nhầm vào xe phụ. Tần Hoàng đế nổi giận lôi đình, ra lệnh lùng sục khắp thiên hạ, truy nã thích khách ráo riết vì duyên cớ Trương Lương. Trương Lương bèn đổi họ thay tên, trốn đến Hạ Bì.
+
+**ZH**: 良尝学礼淮阳。东见仓海君。得力士，为铁椎重百二十斤。秦皇帝东游，良与客狙击秦皇帝博浪沙中，误中副车。秦皇帝大怒，大索天下，求贼甚急，为张良故也。良乃更名姓，亡匿下邳。
+
+**EN**: Zhang Liang once studied ritual in Huaiyang. Traveling east, he met Lord Canghai and obtained a strongman for whom he made an iron mace weighing one hundred and twenty catties. When the Qin Emperor toured east, Zhang Liang and his companion ambushed him at Bolang Sha, but struck the decoy carriage. The Qin Emperor was furious and ordered a great search throughout the realm. Because the hunt for Zhang Liang was so urgent, he changed his name and went into hiding at Xiapi.
+
+
+
+**VI**: Thương Ưởng (khoảng năm 390 TCN — 338 TCN)
+
+**ZH**: 商鞅（约前390年—前338年）
+
+**EN**: Shang Yang (c. 390 BCE–338 BCE)
+
+
+
+**VI**: Tên là Công Tôn Ưởng, người nước Vệ. Vì hưởng ứng “Cầu hiền lệnh” của Tần Hiếu Công mà vào đất Tần, chủ trì biến pháp. Cuộc cải cách của ông giúp quốc phú binh cường, khiến nước Tần trỗi dậy nhanh chóng, đặt nền móng vững chắc cho Tần Thủy Hoàng thống nhất sáu nước. Sau khi biến pháp thành công, ông được phong đất ở đất Thương, hậu thế gọi là “Thương Ưởng”. Tư tưởng pháp trị của ông ảnh hưởng sâu sắc đến hệ thống chính trị và tiến trình văn minh Hoa Hạ đời sau, kéo dài cho đến ngày nay vẫn mang ý nghĩa sâu xa.
+
+**ZH**: 名公孙鞅，卫国人。因应秦孝公“求贤令”入秦，主持变法。其改革富国强兵，使秦国迅速崛起，为秦始皇统一六国奠定坚实基础。变法成功后，受封于商地，后世称“商鞅”。其法制思想深刻影响后世政治体系与华夏文明进程，延续至今仍具深远意义。
+
+**EN**: Born Gongsun Yang in the State of Wei, he entered Qin in response to Duke Xiao’s ‘Edict Summoning Worthy Men’ and led its reforms. His policies enriched the state and strengthened its armies, allowing Qin to rise rapidly and laying a firm foundation for Qin Shi Huang’s unification of the six states. After the reforms succeeded, he was enfeoffed in Shang and became known to later generations as Shang Yang. His legal and political thought profoundly influenced later systems of government and the course of Chinese civilization, and its effects endure to this day.
+
+
+
+**VI**: Tuy nhiên Thương Ưởng cũng là một nhân vật gây nhiều tranh cãi. Sau khi Tần Hiếu Công qua đời, do bị kẻ thù chính trị bức hại, ông thua trận bị giết, thi thể bị phanh thây bằng xe (xa liệt) tại Hàm Dương.
+
+**ZH**: 然商鞅亦为争议人物。秦孝公死后，因政敌迫害，兵败被杀，尸体车裂于咸阳。
+
+**EN**: Shang Yang nevertheless remains a controversial figure. After Duke Xiao of Qin died, political enemies persecuted him; he was defeated and killed, and his body was torn apart by chariots in Xianyang.
+
+
+
+**VI**: Trương Lương (? — năm 186 TCN)
+
+**ZH**: 张良（？—前186年）
+
+**EN**: Zhang Liang (?–186 BCE)
+
+
+
+**VI**: Tự Tử Phòng, người Dĩnh Xuyên (thuộc nước Hàn thời Chiến Quốc). Trong các cuộc khởi nghĩa cuối thời Tần, ông từng mưu toan thích sát Tần Thủy Hoàng nhưng không thành, sau quy phục Lưu Bang, trở thành một trong những mưu thần quan trọng nhất của ông. Lưu Bang ca ngợi ông “Bày mưu nơi trướng rủ, quyết thắng ngoài nghìn dặm”, cùng Tiêu Hà, Hàn Tín được tôn xưng là “Hán sơ tam kiệt”, là một trong những người sáng lập nên đế chế Đại Hán.
+
+**ZH**: 字子房，颍川（战国韩国境内）人。秦末起义时曾谋刺秦始皇未果，后归附刘邦，成为其最重要的谋臣之一。刘邦赞其“运筹帷幄之中，决胜千里之外”，与萧何、韩信并称“汉初三杰”，是大汉帝国的缔造者之一。
+
+**EN**: Courtesy name Zifang, he was from Yingchuan, within the former territory of the state of Han. During the uprisings at the end of Qin, he plotted unsuccessfully to assassinate Qin Shi Huang. He later joined Liu Bang and became one of his most important strategists. Liu Bang praised him for ‘devising strategies within the command tent and deciding victory a thousand li away.’ Together with Xiao He and Han Xin, he was known as one of the Three Heroes of the Early Han and was among the founders of the Han Empire.
+
+
+
+**VI**: Sau khi đại nghiệp thành công, ông từ chối phong thưởng ba vạn hộ, chỉ nhận một vạn hộ, cuối cùng lui về ở ẩn, có được kết cục trọn vẹn an lành.
+
+**ZH**: 功成之后，他推辞三万户封赏，仅受万户，最终隐退，得以善终。
+
+**EN**: After victory, he declined a fief of thirty thousand households, accepted only ten thousand, and ultimately withdrew from public life, meeting a peaceful end.

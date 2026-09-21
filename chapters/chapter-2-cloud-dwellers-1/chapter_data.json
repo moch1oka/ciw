@@ -1,0 +1,984 @@
+{
+  "id": "chapter-2-1",
+  "dir": "chapter-2-cloud-dwellers-1",
+  "title_zh": "第二章 云中人 · 一",
+  "title_en": "Chapter 2: Cloud Dwellers · Part 1",
+  "available_languages": [
+    "zh",
+    "zhHant",
+    "en",
+    "ja",
+    "ko",
+    "es",
+    "fr",
+    "ar",
+    "ptBR",
+    "ru",
+    "vi"
+  ],
+  "panel_count": 16,
+  "panels": [
+    {
+      "panel_index": 1,
+      "type": "image",
+      "image_src": "media/image1.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "咔嚓",
+          "“请进。”",
+          "门轴发出一声细微的金属摩擦声，像某种生锈的脊骨被硬生生拧开。空气中弥漫着工厂特有的金属锈味，夹杂着老旧电器散发的气息，冷清得令人心生疏离。"
+        ],
+        "zhHant": [
+          "咔嚓",
+          "“請進。”",
+          "門軸發出一聲細微的金屬摩擦聲，像某種生鏽的脊骨被硬生生擰開。空氣中瀰漫着工廠特有的金屬鏽味，夾雜着老舊電器散發的氣息，冷清得令人心生疏離。"
+        ],
+        "en": [
+          "Click.",
+          "“Come in.”",
+          "The hinge gave a faint metallic scrape, like a rusted spine being forced open. The air held the factory’s peculiar smell of oxidized metal, mingled with the stale odor of old electrical equipment. The desolation of the place made it feel alien."
+        ],
+        "ja": [
+          "ガチャ",
+          "「どうぞ」",
+          "蝶番がかすかな金属音を立てた。錆びついた背骨を無理やりひねり開けるような音だった。空気には工場特有の鉄錆の臭いと、古びた電気機器の匂いが染みつき、ひどく冷え冷えとして、よそよそしかった。"
+        ],
+        "ko": [
+          "철컥",
+          "“들어와.”",
+          "문 경첩이 가느다란 쇳소리를 냈다. 녹슨 척추를 억지로 비틀어 여는 듯한 소리였다. 공장 특유의 쇳내와 낡은 전기 기기 냄새가 뒤섞여 공기 속에 배어 있었다. 싸늘하고 적막한 기운이 사람을 저절로 멀어지게 했다."
+        ],
+        "es": [
+          "Clic",
+          "«Adelante.»",
+          "Las bisagras dejaron escapar un leve roce metálico, como si alguien retorciera a la fuerza una espina dorsal oxidada. En el aire flotaba el olor a herrumbre propio de una fábrica, mezclado con el aliento de viejos aparatos eléctricos. La desolación del lugar imponía distancia."
+        ],
+        "fr": [
+          "Clic",
+          "« Entrez. »",
+          "Le gond émit un léger grincement métallique, comme si l’on tordait de force une colonne vertébrale rouillée. L’air avait cette odeur de fer propre aux usines, mêlée aux relents d’appareils électriques vétustes ; une froide désolation qui tenait le monde à distance."
+        ],
+        "ar": [
+          "طَقّ",
+          "«تفضل.»",
+          "صدر عن مفصل الباب احتكاك معدني خافت، كأن عمودًا فقريًا صدئًا يُلوى بالقوة. امتلأ الهواء برائحة الصدأ الخاصة بالمصانع، ممتزجة بأنفاس أجهزة كهربائية عتيقة؛ برودة موحشة تدفع المرء إلى الابتعاد."
+        ],
+        "ptBR": [
+          "Clac",
+          "“Entre.”",
+          "A dobradiça soltou um leve rangido metálico, como a espinha enferrujada de alguma criatura sendo torcida à força. No ar pairava o cheiro de ferrugem próprio das fábricas, misturado ao odor de aparelhos elétricos envelhecidos — uma frieza desolada que mantinha tudo à distância."
+        ],
+        "ru": [
+          "Щелк",
+          "Проходи.",
+          "[Дверные петли издали едва уловимый скрип, словно заржавевший механизм который насильно привели в движение. Воздух пропитался запахом старой электроники, привнося ощущение холода и отстранённости.]"
+        ],
+        "vi": [
+          "Cạch.",
+          "“Mời vào.”",
+          "Bản lề cửa phát ra một tiếng ma sát kim loại khe khẽ, tựa như một đốt sống rỉ sét bị người ta gượng gạo vặn mở. Trong không khí phảng phất mùi gỉ sét kim loại đặc trưng của nhà xưởng, lẫn với mùi ngai ngái của đồ điện tử cũ kỹ, lạnh lẽo đến mức khiến lòng người sinh ra cảm giác xa lạ tách biệt."
+        ]
+      }
+    },
+    {
+      "panel_index": 2,
+      "type": "image",
+      "image_src": "media/image2.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    },
+    {
+      "panel_index": 3,
+      "type": "image",
+      "image_src": "media/image3.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    },
+    {
+      "panel_index": 4,
+      "type": "image",
+      "image_src": "media/image4.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[废旧PCB板]",
+          "[电烙铁]",
+          "[电子元件]"
+        ],
+        "zhHant": [
+          "[廢舊PCB板]",
+          "[電烙鐵]",
+          "[電子元件]"
+        ],
+        "en": [
+          "[Discarded PCB boards]",
+          "[Soldering iron]",
+          "[Electronic components]"
+        ],
+        "ja": [
+          "［廃PCB基板］",
+          "［はんだごて］",
+          "［電子部品］"
+        ],
+        "ko": [
+          "[폐 PCB 기판]",
+          "[인두]",
+          "[전자 부품]"
+        ],
+        "es": [
+          "[Placas de circuito desechadas]",
+          "[Soldador eléctrico]",
+          "[Componentes electrónicos]"
+        ],
+        "fr": [
+          "[Circuits imprimés usagés]",
+          "[Fer à souder]",
+          "[Composants électroniques]"
+        ],
+        "ar": [
+          "[لوحة دوائر مطبوعة مستعملة]",
+          "[مكواة لحام]",
+          "[مكوّنات إلكترونية]"
+        ],
+        "ptBR": [
+          "[Placa de circuito impresso descartada]",
+          "[Ferro de solda]",
+          "[Componentes eletrônicos]"
+        ],
+        "ru": [
+          "[Старые печатные платы]",
+          "[Паяльник]",
+          "[Радиодетали]"
+        ],
+        "vi": [
+          "[Bo mạch điện tử PCB phế liệu]",
+          "[Mỏ hàn chì]",
+          "[Linh kiện điện tử]"
+        ]
+      }
+    },
+    {
+      "panel_index": 5,
+      "type": "image",
+      "image_src": "media/image5.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "vi": []
+      }
+    },
+    {
+      "panel_index": 6,
+      "type": "image",
+      "image_src": "media/image6.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[书籍]难题集萃",
+          "[书籍]数学分析",
+          "[书籍]场论",
+          "[示波器]"
+        ],
+        "zhHant": [
+          "[書籍]難題集萃",
+          "[書籍]數學分析",
+          "[書籍]場論",
+          "[示波器]"
+        ],
+        "en": [
+          "[Book]Collection of Difficult Problems",
+          "[Book]Mathematical Analysis",
+          "[Book]Field Theory",
+          "[Oscilloscope]"
+        ],
+        "ja": [
+          "［書籍］難問精選",
+          "［書籍］数学解析",
+          "［書籍］場の理論",
+          "［オシロスコープ］"
+        ],
+        "ko": [
+          "[서적]난제 선집",
+          "[서적]수학해석",
+          "[서적]장론",
+          "[오실로스코프]"
+        ],
+        "es": [
+          "[Libro]Antología de problemas difíciles",
+          "[Libro]Análisis matemático",
+          "[Libro]Teoría de campos",
+          "[Osciloscopio]"
+        ],
+        "fr": [
+          "[Livres]Recueil de problèmes difficiles",
+          "[Livres]Analyse mathématique",
+          "[Livres]Théorie des champs",
+          "[Oscilloscope]"
+        ],
+        "ar": [
+          "[كتب]مختارات من المسائل العويصة",
+          "[كتب]التحليل الرياضي",
+          "[كتب]نظرية الحقول",
+          "[راسم ذبذبات]"
+        ],
+        "ptBR": [
+          "[Livro]Coletânea de Problemas Difíceis",
+          "[Livro]Análise Matemática",
+          "[Livro]Teoria de Campos",
+          "[Osciloscópio]"
+        ],
+        "ru": [
+          "[Книга]Сборник задач по Физике",
+          "[Книга]Математический анализ",
+          "[Книга]Теория поля",
+          "[Осциллограф]"
+        ],
+        "vi": [
+          "[Sách] Tuyển tập các bài toán hóc búa",
+          "[Sách] Giải tích toán học",
+          "[Sách] Lý thuyết trường",
+          "[Máy hiện sóng Oscilloscope]"
+        ]
+      }
+    },
+    {
+      "panel_index": 7,
+      "type": "image",
+      "image_src": "media/image7.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“你就住这？这不是工厦吗？”",
+          "她皱了皱鼻子，环顾四周，目光掠过那些泛黄的纸页、散落的仪器，眼神漫不经心地停留在墙角的黑色水渍上，眉头轻轻地蹙了蹙，声音里透出疑惑与淡淡的不安。",
+          "“是啊。这片区域早年划入了重建计划，结果一直搁置。几年前还发生过一起命案，案子到现在没破，所以根本没人敢租，房租自然便宜。”",
+          "“啊？凶宅啊？你不忌讳？要不要放尊观音像镇一镇？”",
+          "她的语气像开玩笑，目光却无意间流露出某种防备与戒心。窗外，云虫将至的躁动声隐约传来，城市被一股难以言喻的慌乱笼罩着。",
+          "“驱邪是要的，不过我有更物理的办法。”",
+          "“更物理的？”"
+        ],
+        "zhHant": [
+          "“你就住這？這不是工廈嗎？”",
+          "她皺了皺鼻子，環顧四周，目光掠過那些泛黃的紙頁、散落的儀器，眼神漫不經心地停留在牆角的黑色水漬上，眉頭輕輕地蹙了蹙，聲音裏透出疑惑與淡淡的不安。",
+          "“是啊。這片區域早年劃入了重建計劃，結果一直擱置。幾年前還發生過一起命案，案子到現在沒破，所以根本沒人敢租，房租自然便宜。”",
+          "“啊？凶宅啊？你不忌諱？要不要放尊觀音像鎮一鎮？”",
+          "她的語氣像開玩笑，目光卻無意間流露出某種防備與戒心。窗外，雲蟲將至的躁動聲隱約傳來，城市被一股難以言喻的慌亂籠罩着。",
+          "“驅邪是要的，不過我有更物理的辦法。”",
+          "“更物理的？”"
+        ],
+        "en": [
+          "“You live here? Isn’t this an industrial building?”",
+          "She wrinkled her nose slightly, her eyes roaming aimlessly over scattered, yellowed papers and cluttered instruments, briefly pausing on a dark water stain at the corner. Her brow furrowed subtly, a hint of unease threading through her casual tone.",
+          "“Yeah, it is. This place was scheduled for redevelopment years ago, but they never got around to it. A murder happened here a few years back, still unsolved. That scared everyone off, so the rent is really cheap.”",
+          "“A murder house? Doesn’t that bother you? Maybe you should put up a statue of Guanyin to keep the place quiet.”",
+          "She joked lightly, but her eyes betrayed an unspoken caution. Outside, faint murmurs from the approaching CloudInsect whispered through the city, casting a restless tension over everything.",
+          "“An exorcism may be in order, but I have a more physical solution.”",
+          "“More physical?”"
+        ],
+        "ja": [
+          "「ここに住んでるの？　ここ、工業ビルじゃない？」",
+          "彼女は鼻をしかめて辺りを見回した。黄ばんだ紙束や散らばった機器の上を通り過ぎた視線が、何げなく壁際の黒い染みに止まる。眉がわずかに寄り、声には戸惑いと、かすかな不安がにじんでいた。",
+          "「そうだよ。この辺りは昔、再開発地区に指定されたんだけど、計画はずっと棚上げのまま。何年か前には殺人事件まであって、いまだに未解決なんだ。だから誰も借りたがらないし、家賃も安い」",
+          "「えっ、いわくつきの部屋？　気にならないの？　観音さまでも置いて、鎮めたほうがよくない？」",
+          "口調こそ冗談めいていたが、目には無意識の警戒が浮かんでいた。窓の外からは、雲虫の接近にざわめく街の気配がかすかに届く。都市全体が、言葉にならない動揺に覆われていた。",
+          "「魔除けは必要だけど、もっと物理的な方法がある」",
+          "「もっと物理的？」"
+        ],
+        "ko": [
+          "“여기서 살아? 여긴 공업용 건물 아니야?”",
+          "그녀는 코끝을 찡그리며 주위를 둘러보았다. 누렇게 뜬 종이와 널브러진 기구들을 스치던 시선이 무심한 듯 벽 모퉁이의 검은 물때에 멎었다. 살짝 찌푸린 미간과 목소리에 의아함과 희미한 불안이 배어 있었다.",
+          "“응. 이 일대가 예전에 재개발 구역으로 묶였는데, 계획이 계속 미뤄졌어. 몇 년 전엔 살인 사건까지 났고 아직도 미제라서 아무도 빌리려 하지 않지. 그러니 월세가 쌀 수밖에.”",
+          "“뭐? 흉가잖아? 그런 거 안 꺼려? 관음상이라도 하나 모셔서 눌러 놔야 하는 거 아냐?”",
+          "말투는 농담 같았지만, 눈빛에는 저도 모르게 경계하는 기색이 드러났다. 창밖에서는 운충이 다가온다는 소요가 희미하게 밀려왔다. 도시는 말로 다 할 수 없는 불안에 휩싸여 있었다.",
+          "“액막이는 해야지. 대신 난 좀 더 물리적인 방법이 있어.”",
+          "“더 물리적인 방법?”"
+        ],
+        "es": [
+          "«¿Vives aquí? ¿Esto no es un edificio industrial?»",
+          "Ella arrugó la nariz y recorrió el lugar con la mirada. Sus ojos pasaron sobre las páginas amarillentas y los instrumentos esparcidos hasta detenerse, con fingida indiferencia, en una mancha negra de humedad que trepaba por un rincón. Frunció apenas el ceño; en su voz asomaban la duda y una vaga inquietud.",
+          "«Sí. Hace años incluyeron esta zona en un plan de reconstrucción, pero nunca llegó a hacerse nada. Además, hace unos años hubo un asesinato que sigue sin resolver. Nadie se atreve a alquilar aquí, así que el precio es muy bajo.»",
+          "«¿Qué? ¿Vives en la escena de un crimen? ¿No te da mal rollo? ¿No deberías poner una estatua de Guanyin para ahuyentar a los malos espíritus?»",
+          "Lo dijo como si bromeara, pero en sus ojos se coló una cautela involuntaria. Desde fuera llegaba, apagado, el rumor de una ciudad agitada ante la inminente llegada de CloudInsect. Una inquietud imposible de nombrar lo cubría todo.",
+          "«Hay que mantener alejados a los espíritus, sí. Pero yo utilizo un método más… físico.»",
+          "«¿Más físico?»"
+        ],
+        "fr": [
+          "« Tu vis ici ? Mais c’est un bâtiment industriel. »",
+          "Elle plissa le nez et regarda autour d’elle. Ses yeux glissèrent sur les pages jaunies, les instruments épars, puis s’arrêtèrent distraitement sur une tache d’humidité noire dans un coin. Ses sourcils se froncèrent à peine ; un doute, et une sourde inquiétude, passèrent dans sa voix.",
+          "« Oui. Le quartier devait être réaménagé il y a des années, mais le projet est resté en suspens. Il y a aussi eu un meurtre ici ; l’affaire n’est toujours pas résolue. Personne n’ose louer, alors forcément, ce n’est pas cher. »",
+          "« Quoi ? Une maison hantée par un meurtre ? Ça ne te gêne pas ? Tu ne devrais pas mettre une statue de Guanyin pour calmer les esprits ? »",
+          "Elle avait pris le ton de la plaisanterie, mais son regard trahissait une vigilance involontaire. Au-dehors montait confusément l’agitation qui précédait l’Insecte-Nuage ; une panique sans nom enveloppait la ville.",
+          "« Il faut bien chasser les esprits. Mais j’ai une méthode plus… physique. »",
+          "« Plus physique ? »"
+        ],
+        "ar": [
+          "«أنت تعيش هنا؟ أليس هذا مبنى صناعيًا؟»",
+          "جعّدت أنفها وهي تتلفت. مرّ بصرها على الأوراق المصفرّة والأجهزة المبعثرة، ثم استقر بلا قصد على بقعة ماء سوداء في زاوية الجدار. انعقد حاجباها قليلًا، وتسلل إلى صوتها حيرة وقلق خافت.",
+          "«نعم. أُدرجت هذه المنطقة قبل سنوات في خطة لإعادة البناء، ثم ظلت الخطة معلّقة. ووقعت هنا جريمة قتل منذ أعوام لم تُحل حتى اليوم، لذلك لا يجرؤ أحد على الاستئجار، والإيجار رخيص بطبيعة الحال.»",
+          "«ماذا؟ بيت شهد جريمة قتل؟ ألا تتشاءم منه؟ ما رأيك أن تضع تمثالًا لغوانيين كي تردع الأرواح؟»",
+          "بدت نبرتها مازحة، لكن نظرتها أفصحت من غير قصد عن حذر متأهب. في الخارج تناهى اضطراب اقتراب حشرة السحاب، وكانت المدينة غارقة في هلع يعجز عن تسمية نفسه.",
+          "«طرد الأرواح مطلوب فعلًا، لكن لدي طريقة أكثر… فيزيائية.»",
+          "«أكثر فيزيائية؟»"
+        ],
+        "ptBR": [
+          "“Você mora aqui? Isto não é um prédio industrial?”",
+          "Ela franziu o nariz e percorreu o lugar com os olhos. O olhar passou pelas páginas amareladas, pelos instrumentos espalhados e, displicente, deteve-se na mancha escura de umidade junto à parede. As sobrancelhas se apertaram de leve; havia dúvida em sua voz e uma inquietação mal disfarçada.",
+          "“Moro. Esta área entrou num plano de reconstrução há muitos anos, mas o projeto ficou parado. Alguns anos atrás ainda houve um assassinato aqui, nunca solucionado. Ninguém tem coragem de alugar, por isso o aluguel é tão barato.”",
+          "“O quê? Um lugar mal-assombrado? E você não liga? Não quer pôr uma imagem de Guanyin para proteger a casa?”",
+          "O tom parecia de brincadeira, mas seu olhar deixava escapar certa cautela. Lá fora, já se ouvia ao longe a agitação que anunciava a chegada do Inseto-Nuvem; uma ansiedade sem nome envolvia a cidade.",
+          "“Afastar espíritos é importante. Mas eu tenho um método mais… físico.”",
+          "“Mais físico?”"
+        ],
+        "ru": [
+          "И ты здесь живешь? Разве это не промышленное здание?",
+          "[Она сморщилась, осмотрелась, её взгляд скользнул по пожелтевшим страницам книг и разбросанным приборам, ненадолго задержавшимся на чёрном пятне плесени в углу. Брови едва заметно сдвинулись — в голосе пронеслись нотки сомнения и неспокойствия]",
+          "Да, этот район давно хотят реконструировать, но проект продолжают откладывать. Несколько лет назад здесь произошло убийство, дело до сих пор не раскрыли. Желающих поселиться здесь почти нет, так что стоимость аренды довольно низкая.",
+          "Убийство? Может, поставить статуэтку Гуаньинь*, чтобы отпугнуть злых духов?\n*Гуаньинь — буддийская богиня милосердия, которая защищает от бед и приносит благополучие. Ее статуэтки часто ставят дома для защиты и удачи.",
+          "[Её тон был шутливым, но в глазах промелькнула настороженность. Из окна смутно доносился шум, предвещавший приближение «облачного насекомого». Город окутало беспокойство, которое трудно было выразить словами]",
+          "Защита от зла нужна, но, у меня есть более практичный способ.",
+          "Практичный?"
+        ],
+        "vi": [
+          "“Cậu sống ở đây thật đấy à? Chỗ này chẳng phải là tòa nhà xưởng công nghiệp sao?”",
+          "Cô hơi chun mũi, đưa mắt nhìn quanh bốn phía, ánh nhìn lướt qua những trang giấy ố vàng, các thiết bị đo đạc nằm ngổn ngang, rồi dừng lại một cách vô định nơi vết ố nước màu đen loang lổ góc tường. Đôi lông mày khẽ chau lại, giọng nói lộ rõ vẻ ngờ vực pha lẫn chút bất an mơ hồ.",
+          "“Ừ, đúng vậy. Khu này từ nhiều năm trước đã nằm trong diện quy hoạch cải tạo, nhưng rồi cứ bị đình trệ mãi. Mấy năm trước ở đây từng xảy ra một vụ án mạng, đến giờ vẫn chưa phá được án, thế nên chẳng ai dám thuê cả, giá thuê tự nhiên rẻ như bèo.”",
+          "“Hả? Nhà có án mạng á? Cậu không kiêng kỵ gì sao? Có cần thỉnh một bức tượng Quan Âm về để trấn yểm không đấy?”",
+          "Giọng cô nghe như đang nói đùa, nhưng trong ánh mắt lại vô thức để lộ chút cảnh giác và đề phòng. Ngoài cửa sổ, thanh âm náo động khi Vân Trùng sắp tới lờ mờ vọng lại, cả thành phố như bị bao phủ trong một nỗi hoang mang khó tả.",
+          "“Trừ tà thì cũng cần đấy, nhưng tôi có cách giải quyết mang tính 'vật lý' hơn nhiều.”",
+          "“Mang tính vật lý hơn?”"
+        ]
+      }
+    },
+    {
+      "panel_index": 8,
+      "type": "image",
+      "image_src": "media/image8.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“看，有这些大神们坐镇，方圆百米鬼神莫近。”"
+        ],
+        "zhHant": [
+          "“看，有這些大神們坐鎮，方圓百米鬼神莫近。”"
+        ],
+        "en": [
+          "“With these masters around, no ghost or spirit would dare come within a hundred meters.”"
+        ],
+        "ja": [
+          "「ほら。この大先生方が鎮座していれば、半径百メートルは鬼も神も近寄れない」"
+        ],
+        "ko": [
+          "“봐. 이 대가들이 버티고 계시니 반경 백 미터 안에는 귀신도 얼씬 못 해.”"
+        ],
+        "es": [
+          "«Mira. Con todos estos titanes de guardia, ningún fantasma ni dios se atreve a acercarse en cien metros a la redonda.»"
+        ],
+        "fr": [
+          "« Regarde. Avec ces grands maîtres pour monter la garde, ni fantôme ni dieu n’osera approcher à cent mètres. »"
+        ],
+        "ar": [
+          "«انظري. ما دام هؤلاء العظماء يحرسون المكان، فلن يقترب شبح ولا شيطان لمسافة مئة متر.»"
+        ],
+        "ptBR": [
+          "“Olhe. Com estes grandes mestres de guarda, nenhum fantasma ou divindade chega a cem metros daqui.”"
+        ],
+        "ru": [
+          "Рядом с такими великими учёными мне не страшен ни один призрак."
+        ],
+        "vi": [
+          "“Nhìn kìa, có các vị 'đại thần' này trấn tọa ở đây, trong vòng bán kính trăm mét quỷ thần cũng chẳng dám bén mảng tới gần đâu.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 9,
+      "type": "image",
+      "image_src": "media/image9.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "[相片]第五届索尔维会议 （AD1927）",
+          "[图片]人类文明发展时间轴",
+          "她顺着他的手指望过去，看到一张陈旧的黑白照片，上面蒙了一层淡淡的灰。照片里是1927年第五届索尔维会议，一群物理学界的巨匠——爱因斯坦、薛定谔、玻尔、海森堡——正坐在一起，面无表情地直视镜头，神情里透着某种冷峻的威严。"
+        ],
+        "zhHant": [
+          "[相片]第五屆索爾維會議 （AD1927）",
+          "[圖片]人類文明發展時間軸",
+          "她順着他的手指望過去，看到一張陳舊的黑白照片，上面蒙了一層淡淡的灰。照片裏是1927年第五屆索爾維會議，一羣物理學界的巨匠——愛因斯坦、薛定諤、玻爾、海森堡——正坐在一起，面無表情地直視鏡頭，神情裏透着某種冷峻的威嚴。"
+        ],
+        "en": [
+          "[Photo]The Fifth Solvay Conference (1927)",
+          "[Image]Timeline of Human Civilization",
+          "Her eyes followed his finger, settling on the dusty black-and-white photo from the 1927 Solvay Conference, showcasing legendary physicists—Einstein, Schrödinger, Bohr, and Heisenberg—sitting sternly, eyes fixed forward with cold authority."
+        ],
+        "ja": [
+          "［写真］第5回ソルベー会議（1927年）",
+          "［図］人類文明発展年表",
+          "彼の指先を追うと、薄く埃をかぶった古い白黒写真が目に入った。写っているのは、1927年の第5回ソルベー会議。アインシュタイン、シュレーディンガー、ボーア、ハイゼンベルク――物理学史に名を刻む巨人たちが並んで腰を下ろし、無表情にレンズを見据えている。その顔には、どこか冷厳な威圧感があった。"
+        ],
+        "ko": [
+          "[사진]제5차 솔베이 회의 (1927)",
+          "[도표]인류 문명 발전 연표",
+          "그녀가 그의 손끝을 따라 바라보자, 먼지가 엷게 내려앉은 낡은 흑백사진 한 장이 눈에 들어왔다. 1927년 제5차 솔베이 회의 사진이었다. 아인슈타인, 슈뢰딩거, 보어, 하이젠베르크——물리학계의 거장들이 한자리에 앉아 무표정한 얼굴로 렌즈를 정면으로 응시하고 있었다. 그 표정에는 서늘하고 엄정한 위엄이 서려 있었다."
+        ],
+        "es": [
+          "[Fotografía]Quinta Conferencia Solvay (1927 d. C.)",
+          "[Imagen]Cronología del desarrollo de la civilización humana",
+          "Siguió la dirección de su dedo y descubrió una vieja fotografía en blanco y negro velada por una fina capa de polvo. Era la Quinta Conferencia Solvay de 1927. Allí estaban sentados varios gigantes de la física —Einstein, Schrödinger, Bohr, Heisenberg—, mirando a la cámara sin una sonrisa, con una severa majestad en el rostro."
+        ],
+        "fr": [
+          "[Photographie]Cinquième congrès Solvay (1927 apr. J.-C.)",
+          "[Image]Chronologie du développement de la civilisation humaine",
+          "Elle suivit son doigt et découvrit une vieille photographie en noir et blanc, voilée d’une fine poussière. Le cinquième congrès Solvay, en 1927 : les géants de la physique — Einstein, Schrödinger, Bohr, Heisenberg — assis côte à côte, fixant l’objectif sans expression, avec une sorte de majesté glaciale."
+        ],
+        "ar": [
+          "[صورة فوتوغرافية]مؤتمر سولفاي الخامس (1927م)",
+          "[صورة]خط تطور الحضارة البشرية",
+          "اتبعت اتجاه إصبعه فرأت صورة قديمة بالأبيض والأسود غشاها رماد خفيف. كانت صورة مؤتمر سولفاي الخامس عام 1927: عمالقة الفيزياء — أينشتاين وشرودنغر وبور وهايزنبرغ — جالسون معًا، يحدقون في العدسة بلا تعبير، وفي وجوههم مهابة صارمة باردة."
+        ],
+        "ptBR": [
+          "[Fotografia]Quinta Conferência de Solvay (1927 d.C.)",
+          "[Imagem]Linha do tempo do desenvolvimento da civilização humana",
+          "Ela acompanhou a direção do dedo dele e viu uma velha fotografia em preto e branco coberta por uma fina camada de poeira. Era a Quinta Conferência de Solvay, em 1927: gigantes da física — Einstein, Schrödinger, Bohr, Heisenberg — sentados lado a lado, encarando a câmera sem sorrir, com uma austeridade quase ameaçadora."
+        ],
+        "ru": [
+          "[Фото]Пятый Сольвеевский конгресс (1927 г.)",
+          "[Изображение]Хронология развития человеческой цивилизации",
+          "[Она проследила за движением его руки и увидела старую чёрно-белую фотографию, покрытую лёгким слоем пыли. На снимке — участники Пятого Сольвеевского конгресса: Эйнштейн, Шрёдингер, Бор, Гейзенберг... Они сидели вместе, бесчувственно глядя в камеру, выражая невозмутимую строгость]"
+        ],
+        "vi": [
+          "[Bức ảnh] Hội nghị Solvay lần thứ 5 (Năm 1927)",
+          "[Sơ đồ] Trục thời gian tiến trình phát triển của văn minh nhân loại",
+          "Cô dõi theo ngón tay chỉ của cậu, nhìn thấy một bức ảnh đen trắng đã cũ kỹ, trên mặt phủ một lớp bụi mỏng. Trong bức ảnh là Hội nghị Solvay lần thứ 5 năm 1927, quy tụ cả một dàn cự phách vĩ đại nhất của nền vật lý thế giới — Einstein, Schrödinger, Bohr, Heisenberg... Họ ngồi ngay ngắn bên nhau, nghiêm nghị nhìn thẳng vào ống kính, toát lên một vẻ uy nghiêm lãnh đạm đầy khí phách."
+        ]
+      }
+    },
+    {
+      "panel_index": 10,
+      "type": "image",
+      "image_src": "media/image10.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“好吧，这确实很物理……”"
+        ],
+        "zhHant": [
+          "“好吧，這確實很物理……”"
+        ],
+        "en": [
+          "“All right. That is certainly… physical.”"
+        ],
+        "ja": [
+          "「なるほど。たしかに、ものすごく物理的……」"
+        ],
+        "ko": [
+          "“그래. 이건 확실히 아주 물리적이네……”"
+        ],
+        "es": [
+          "«De acuerdo. Esto sí que es muy físico…»"
+        ],
+        "fr": [
+          "« D’accord… c’est effectivement très physique. »"
+        ],
+        "ar": [
+          "«حسنًا… هذا فيزيائي فعلًا.»"
+        ],
+        "ptBR": [
+          "“Está bem… isso é mesmo muito físico.”"
+        ],
+        "ru": [
+          "Ну да... это действительно... очень «практичный» способ..."
+        ],
+        "vi": [
+          "“Được rồi... Cách này quả thực rất là 'vật lý'...”"
+        ]
+      }
+    },
+    {
+      "panel_index": 11,
+      "type": "image",
+      "image_src": "media/image11.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“我记得你们大学是有宿舍的，为什么还要自己租房？”",
+          "他望着她安静而柔和的侧脸，唇角微微抿起又放开，似乎终于还是决定开口问出那个问题。",
+          "“我和室友合不来。而且我经常要出去打工，住校也不方便。”",
+          "“是去酒吧唱歌么？”",
+          "“你可是好学生，问这些干嘛？”",
+          "“现在外面租房不易，如果不嫌弃的话，等你找到房子之前，可以先凑合住这儿。我那边靠窗还有块地方空着……”",
+          "“……你确定？”",
+          "“嗯。”"
+        ],
+        "zhHant": [
+          "“我記得你們大學是有宿舍的，爲什麼還要自己租房？”",
+          "他望着她安靜而柔和的側臉，脣角微微抿起又放開，似乎終於還是決定開口問出那個問題。",
+          "“我和室友合不來。而且我經常要出去打工，住校也不方便。”",
+          "“是去酒吧唱歌麼？”",
+          "“你可是好學生，問這些幹嘛？”",
+          "“現在外面租房不易，如果不嫌棄的話，等你找到房子之前，可以先湊合住這兒。我那邊靠窗還有塊地方空着……”",
+          "“……你確定？”",
+          "“嗯。”"
+        ],
+        "en": [
+          "“I thought your university provided dormitories—why rent your own place?”",
+          "He glanced quietly at her gentle profile, lips subtly tightening and then relaxing, as if gathering the resolve to ask a lingering question.",
+          "“I don’t really get along with my roommates.Besides, I have to work part-time often, so it’s inconvenient to stay on campus.”",
+          "“Singing at bars?”",
+          "“You’re a good student—why ask about that?”",
+          "“It’s tough renting a place these days. If you don’t mind, you can stay here temporarily until you find somewhere else. There’s some space near the window…”",
+          "“…Are you sure?”",
+          "“Yeah.”"
+        ],
+        "ja": [
+          "「君の大学には寮があるだろ。どうしてわざわざ部屋を借りてるの？」",
+          "彼は、静かで柔らかな彼女の横顔を見つめた。唇をわずかに結び、またほどく。迷った末に、とうとうその問いを口にすることにしたらしい。",
+          "「ルームメイトとうまくいかないの。それに、しょっちゅうバイトに出るから、寮暮らしも不便で」",
+          "「バーで歌う仕事？」",
+          "「優等生が、そんなこと聞いてどうするの？」",
+          "「今は外で部屋を探すのも大変だし、嫌じゃなければ、見つかるまでここでしのいでもいいよ。僕のほう、窓際にまだ少し空いてる場所があるから……」",
+          "「……本気？」",
+          "「うん」"
+        ],
+        "ko": [
+          "“네 대학엔 기숙사 있잖아. 그런데 왜 따로 방을 구했어?”",
+          "그는 고요하고 부드러운 그녀의 옆얼굴을 바라보았다. 입술을 살짝 다물었다가 풀었다. 망설인 끝에 결국 그 질문을 꺼내기로 한 듯했다.",
+          "“룸메이트들이랑 안 맞아.게다가 밖에서 아르바이트할 일이 많아서, 기숙사 생활은 불편해.”",
+          "“바에서 노래하는 일이야?”",
+          "“모범생이 그런 건 왜 물어?”",
+          "“지금은 밖에서 방 구하기도 힘들잖아. 싫지만 않으면 방을 찾을 때까지 여기서 지내도 돼. 내 쪽 창가에 아직 빈자리가 좀 있거든……”",
+          "“……정말?”",
+          "“응.”"
+        ],
+        "es": [
+          "«Creía que tu universidad tenía residencias. ¿Por qué alquilas una habitación por tu cuenta?»",
+          "Él contempló la suavidad serena de su perfil. Apretó apenas los labios y volvió a relajarlos, como si por fin se hubiera decidido a formular aquella pregunta.",
+          "«No me llevo bien con mis compañeras de habitación.Además, salgo a trabajar a menudo. Vivir en la residencia no me resulta práctico.»",
+          "«¿Trabajas cantando en un bar?»",
+          "«Tú eres un chico modélico. ¿Para qué preguntas esas cosas?»",
+          "«Ahora es difícil encontrar alquiler. Si no te importa cómo está esto, podrías quedarte aquí hasta que encuentres otra cosa. Junto a la ventana aún queda un espacio libre…»",
+          "«…¿Estás seguro?»",
+          "«Sí.»"
+        ],
+        "fr": [
+          "« Il me semble que ton université a des résidences. Pourquoi louer ailleurs ? »",
+          "Il contempla son profil calme et doux. Ses lèvres se serrèrent, puis se détendirent : il semblait avoir enfin résolu de poser la question.",
+          "« Je ne m’entends pas avec mes colocataires.Et comme je travaille souvent dehors, le campus n’est pas pratique. »",
+          "« Tu vas chanter dans un bar ? »",
+          "« Toi, l’élève modèle, pourquoi ça t’intéresse ? »",
+          "« Ce n’est pas facile de trouver un logement en ce moment. Si l’endroit ne te rebute pas, tu peux rester ici en attendant. Il me reste un peu de place près de la fenêtre… »",
+          "« … Tu es sûr ? »",
+          "« Oui. »"
+        ],
+        "ar": [
+          "«على حد علمي، لجامعتكم سكن طلابي. لماذا تستأجرين بيتًا وحدك؟»",
+          "تأمل جانب وجهها الهادئ الرقيق. انطبقت شفتاه قليلًا ثم ارتختا، كأنه حسم أمره أخيرًا وقرر أن يسأل.",
+          "«لا أنسجم مع زميلاتي في الغرفة.ثم إنني أخرج كثيرًا للعمل، والسكن في الحرم لا يناسبني.»",
+          "«للذهاب إلى الحانة والغناء؟»",
+          "«أنت طالب نموذجي، فلماذا تسأل عن أشياء كهذه؟»",
+          "«من الصعب إيجاد بيت هذه الأيام. إن لم يزعجك المكان، يمكنك الإقامة هنا مؤقتًا إلى أن تجدي بيتًا. ثمة مساحة خالية قرب النافذة عندي…»",
+          "«…أأنت متأكد؟»",
+          "«نعم.»"
+        ],
+        "ptBR": [
+          "“Pensei que sua universidade tivesse alojamentos. Por que alugar um lugar por conta própria?”",
+          "Ele contemplou o perfil sereno e delicado dela. Os lábios se comprimiram e relaxaram, como se, afinal, tivesse decidido fazer a pergunta.",
+          "“Eu não me dou bem com minhas colegas de quarto.Além disso, vivo saindo para trabalhar. Morar no alojamento não é prático.”",
+          "“Você vai cantar em bares?”",
+          "“Você é um aluno exemplar. Para que quer saber disso?”",
+          "“Está difícil encontrar aluguel agora. Se não se importar, pode ficar aqui até achar outro lugar. Ainda há um espaço livre perto da janela, do meu lado…”",
+          "“…Tem certeza?”",
+          "“Tenho.”"
+        ],
+        "ru": [
+          "Я помню, что в твоем университете есть общежитие, зачем тебе снимать жильё?",
+          "[Он всмотрелся в её спокойное лицо с нежными, изысканными чертами, его губы слегка дрогнули — он только сейчас решился задать этот вопрос.]",
+          "Я не уживаюсь с соседями.К тому же мне часто приходится работать, и жить в общежитии не очень удобно.",
+          "Ты в баре поёшь?",
+          "Ты же примерный студент, зачем тебе это знать?",
+          "Сейчас с арендой жилья тяжело. Если не против, можешь пока пожить здесь, пока не найдешь квартиру.\nУ окна есть свободное место.",
+          "... Ты уверен?",
+          "Да."
+        ],
+        "vi": [
+          "“Tôi nhớ trường đại học của các cậu có ký túc xá mà, sao cậu lại phải tự ra ngoài thuê phòng làm gì?”",
+          "Cậu nhìn nghiêng gương mặt tĩnh lặng và dịu dàng của cô, bờ môi khẽ mím lại rồi thả lỏng, dường như cuối cùng vẫn quyết định mở lời hỏi câu hỏi chất chứa bấy lâu.",
+          "“Tôi không hợp tính với bạn cùng phòng. Với lại tôi thường xuyên phải ra ngoài làm thêm, ở trong trường bất tiện lắm.”",
+          "“Là đi hát ở quán bar sao?”",
+          "“Cậu là học sinh ngoan trò giỏi, hỏi mấy chuyện này làm chi?”",
+          "“Bây giờ thuê phòng bên ngoài khó khăn lắm. Nếu cậu không chê, thì trong lúc chưa tìm được phòng mới, có thể tạm thời ở lại đây. Chỗ phía bên cửa sổ kia của tôi vẫn còn một khoảng trống...”",
+          "“... Cậu chắc chứ?”",
+          "“Ừ.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 12,
+      "type": "image",
+      "image_src": "media/image12.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "喵！",
+          "[奖杯]物理奥林匹克竞赛金牌",
+          "[猫粮]",
+          "[奖状]全国数学竞赛一等奖"
+        ],
+        "zhHant": [
+          "喵！",
+          "[獎盃]物理奧林匹克競賽金牌",
+          "[貓糧]",
+          "[獎狀]全國數學競賽一等獎"
+        ],
+        "en": [
+          "Meow!",
+          "[Trophy]Physics Olympiad Gold Medal",
+          "[Cat Food]",
+          "[Certificate]First Prize, National Mathematics Competition"
+        ],
+        "ja": [
+          "ニャア！",
+          "［トロフィー］物理オリンピック　金メダル",
+          "［キャットフード］",
+          "［賞状］全国数学コンクール　一等賞"
+        ],
+        "ko": [
+          "야옹!",
+          "[트로피]물리 올림피아드 금메달",
+          "[고양이 사료]",
+          "[상장]전국 수학 경시대회 1등"
+        ],
+        "es": [
+          "¡Miau!",
+          "[Trofeo]Medalla de oro de la Olimpiada de Física",
+          "[Comida para gatos]",
+          "[Diploma]Primer premio del Concurso Nacional de Matemáticas"
+        ],
+        "fr": [
+          "Miaou !",
+          "[Trophée]Médaille d’or aux Olympiades de physique",
+          "[Croquettes pour chats]",
+          "[Diplôme]Premier prix au concours national de mathématiques"
+        ],
+        "ar": [
+          "مياو!",
+          "[كأس]الميدالية الذهبية في أولمبياد الفيزياء",
+          "[طعام قطط]",
+          "[شهادة تقدير]الجائزة الأولى في المسابقة الوطنية للرياضيات"
+        ],
+        "ptBR": [
+          "Miau!",
+          "[Troféu]Medalha de ouro na Olimpíada de Física",
+          "[Ração para gatos]",
+          "[Certificado]Primeiro lugar na Competição Nacional de Matemática"
+        ],
+        "ru": [
+          "Мяу!",
+          "[Кубок]Золотая медаль за победу на олимпиаде по физике",
+          "[Кошачий корм]",
+          "[Грамота]Первое место на национальной математической олимпиаде"
+        ],
+        "vi": [
+          "Meo!",
+          "[Cúp lưu niệm] Huy chương Vàng Olympic Vật lý",
+          "[Hạt thức ăn cho mèo]",
+          "[Bằng khen] Giải Nhất Kỳ thi Học sinh Giỏi Toán Quốc gia"
+        ]
+      }
+    },
+    {
+      "panel_index": 13,
+      "type": "image",
+      "image_src": "media/image13.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“这猫是你养的？”",
+          "“不算。流浪猫。我常喂它们吃的，它们就认熟了。”",
+          "“有名字么？”",
+          "“黑的叫参宿四，橘的叫木卫二。”",
+          "“这么好看的猫，起的什么鬼名字……”",
+          "“你不懂，星星的名字才是最浪漫的。”",
+          "“哟，理工男也懂浪漫啊，怎么，想捡个银河系回来？”"
+        ],
+        "zhHant": [
+          "“這貓是你養的？”",
+          "“不算。流浪貓。我常餵它們喫的，它們就認熟了。”",
+          "“有名字麼？”",
+          "“黑的叫參宿四，橘的叫木衛二。”",
+          "“這麼好看的貓，起的什麼鬼名字……”",
+          "“你不懂，星星的名字纔是最浪漫的。”",
+          "“喲，理工男也懂浪漫啊，怎麼，想撿個銀河系回來？”"
+        ],
+        "en": [
+          "“Is this your cat?”",
+          "“Not exactly. They’re strays, but I feed them regularly, so they've gotten used to me.”",
+          "“Do they have names?”",
+          "“The black one’s Betelgeuse, and the orange one’s Europa.”",
+          "“They’re such beautiful cats. Why give them such strange names?”",
+          "“You wouldn’t understand. The names of stars are the most romantic names there are.”",
+          "“Wow, even a scientist knows romance? Planning to adopt an entire galaxy?”"
+        ],
+        "ja": [
+          "「この猫、君が飼ってるの？」",
+          "「飼ってるわけじゃないよ。野良猫。よく餌をやるから、顔を覚えられただけ」",
+          "「名前はあるの？」",
+          "「黒いほうがベテルギウスで、茶トラがエウロパ」",
+          "「こんなに可愛い猫なのに、何よその変な名前……」",
+          "「分かってないな。星の名前こそ、いちばんロマンチックなんだ」",
+          "「へえ、理系男子にもロマンが分かるんだ。何、銀河系でも拾って帰るつもり？」"
+        ],
+        "ko": [
+          "“이 고양이, 네가 키워?”",
+          "“그건 아니야. 길고양이야. 자주 밥을 주니까 낯을 익힌 거지.”",
+          "“이름은 있어?”",
+          "“검은 애는 베텔게우스, 치즈색 애는 유로파.”",
+          "“이렇게 예쁜 고양이들한테 무슨 이름을 그렇게 지었어……”",
+          "“넌 몰라. 별 이름이야말로 제일 낭만적이야.”",
+          "“어머, 이과생도 낭만을 아네. 왜, 은하수 하나 주워 오려고?”"
+        ],
+        "es": [
+          "«¿Este gato es tuyo?»",
+          "«No exactamente. Son callejeros. Les doy de comer a menudo y ya me conocen.»",
+          "«¿Tienen nombre?»",
+          "«El negro se llama Betelgeuse; el naranja, Europa.»",
+          "«Con lo bonitos que son… ¿Qué clase de nombres son esos?»",
+          "«No lo entiendes. No hay nombres más románticos que los de las estrellas.»",
+          "«Vaya, así que el científico también entiende de romanticismo. ¿Qué pasa, quieres recoger una galaxia entera de la calle?»"
+        ],
+        "fr": [
+          "« Ces chats sont à toi ? »",
+          "« Pas vraiment. Ce sont des chats errants. Je les nourris souvent, alors ils me connaissent. »",
+          "« Ils ont des noms ? »",
+          "« La noire s’appelle Bételgeuse, le roux Europe. »",
+          "« Des chats aussi beaux… et tu leur donnes des noms pareils. »",
+          "« Tu ne comprends pas. Rien n’est plus romantique qu’un nom d’étoile. »",
+          "« Tiens donc, le scientifique connaît le romantisme ? Quoi, tu comptes recueillir toute une galaxie ? »"
+        ],
+        "ar": [
+          "«أنت تربي هذه القطط؟»",
+          "«ليس تمامًا. إنها قطط شاردة. أطعمها كثيرًا، فألفتني.»",
+          "«ألها أسماء؟»",
+          "«السوداء اسمها منكب الجوزاء، والبرتقالية أوروبا.»",
+          "«قطتان جميلتان إلى هذا الحد… وما هذه الأسماء الغريبة؟»",
+          "«أنت لا تفهمين. أسماء النجوم هي الأكثر شاعرية.»",
+          "«يا للمفاجأة، فتى العلوم يعرف الرومانسية أيضًا! ماذا، أتريد أن تلتقط مجرة كاملة من الشارع؟»"
+        ],
+        "ptBR": [
+          "“Este gato é seu?”",
+          "“Não exatamente. É de rua. Eu sempre lhes dou comida, então eles já me conhecem.”",
+          "“Eles têm nome?”",
+          "“O preto se chama Betelgeuse; o laranja, Europa.”",
+          "“Gatos tão bonitos, com nomes tão esquisitos…”",
+          "“Você não entende. Nomes de estrelas são os mais românticos.”",
+          "“Ora, o rapaz das exatas também entende de romance? O quê, quer recolher uma galáxia inteira da rua?”"
+        ],
+        "ru": [
+          "Это твои кошки?",
+          "Не совсем. Это бездомные кошки. Я их подкармливаю, вот они и привыкли ко мне",
+          "У них есть имена?",
+          "Черную я назвал Бетельгейзе, рыжую — Европа.\nЕвропа - шестой спутик Юпитера",
+          "Такие красивые кошки, а имена какие-то странные.",
+          "Ты не понимаешь, звёздые имена — самые романтичные.",
+          "О, технари могут быть еще и романтиками? Хочешь собрать у себя целую галактику?"
+        ],
+        "vi": [
+          "“Con mèo này là do cậu nuôi à?”",
+          "“Cũng không hẳn. Là mèo hoang đấy. Tôi hay cho chúng ăn, nên chúng quen hơi bén mùi thôi.”",
+          "“Chúng có tên không?”",
+          "“Con lông đen tên là Sâm Túc Tứ (Betelgeuse), còn con lông vàng tên là Mộc Vệ Nhị (Europa).”",
+          "“Mèo đẹp thế này mà cậu đặt cho chúng cái tên kỳ quặc gì vậy trời...”",
+          "“Cậu không hiểu đâu, tên của các vì tinh tú mới là thứ lãng mạn nhất trần đời.”",
+          "“Ối chà, dân tự nhiên kỹ thuật mà cũng biết lãng mạn cơ đấy à? Sao nào, cậu định nhặt cả dải Ngân Hà mang về nuôi luôn chắc?”"
+        ]
+      }
+    },
+    {
+      "panel_index": 14,
+      "type": "image",
+      "image_src": "media/image14.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“可怜的小家伙，这么好看，到最后还是没人要。”",
+          "她低头抚摸着黑猫的背，用指尖感受它柔软而温热的皮毛，没察觉到自己声音里透出一丝漫不经心的悲哀。"
+        ],
+        "zhHant": [
+          "“可憐的小傢伙，這麼好看，到最後還是沒人要。”",
+          "她低頭撫摸着黑貓的背，用指尖感受它柔軟而溫熱的皮毛，沒察覺到自己聲音裏透出一絲漫不經心的悲哀。"
+        ],
+        "en": [
+          "“Poor little thing. So beautiful, yet still unwanted.”",
+          "She bent down, gently caressing the black cat’s soft, warm fur, oblivious to the quiet sadness creeping into her voice."
+        ],
+        "ja": [
+          "「かわいそうに。こんなに可愛いのに、結局は誰にももらわれなかったんだね」",
+          "彼女はうつむき、黒猫の背を撫でた。指先で柔らかく温かな毛並みを確かめながら、自分の何げない声に、かすかな悲しみがにじんでいることには気づかなかった。"
+        ],
+        "ko": [
+          "“가엾은 녀석. 이렇게 예쁜데도 결국 아무도 데려가지 않았네.”",
+          "그녀는 고개를 숙여 검은 고양이의 등을 쓰다듬었다. 손끝으로 부드럽고 따뜻한 털을 느끼면서도, 무심히 흘린 목소리에 옅은 슬픔이 배어 있다는 건 알아차리지 못했다."
+        ],
+        "es": [
+          "«Pobrecito… Tan bonito y, al final, nadie lo quiere.»",
+          "Bajó la cabeza y acarició el lomo del gato negro, sintiendo bajo las yemas la tibieza de su pelaje. No advirtió la tristeza distraída que se había filtrado en su voz."
+        ],
+        "fr": [
+          "« Pauvre petite chose… si belle, et malgré tout, personne ne veut de toi. »",
+          "Elle baissa la tête et caressa le dos de la chatte noire, éprouvant sous ses doigts la douceur tiède de son pelage, sans entendre la tristesse distraite qui venait de se glisser dans sa voix."
+        ],
+        "ar": [
+          "«يا لك من صغيرة مسكينة… جميلة هكذا، وفي النهاية لا يريدك أحد.»",
+          "انحنت تمسح ظهر القطة السوداء، تتلمس بأطراف أصابعها فراءها الناعم الدافئ، ولم تنتبه إلى مسحة الحزن التي تسللت عرضًا إلى صوتها."
+        ],
+        "ptBR": [
+          "“Pobrezinho… tão bonito e, no fim, ninguém o quis.”",
+          "Ela baixou a cabeça e acariciou o dorso do gato preto, sentindo sob os dedos o pelo macio e morno. Não percebeu o fio de tristeza distraída que atravessara sua voz."
+        ],
+        "ru": [
+          "Бедняжка... Такая красивая, а в итоге никому не нужна",
+          "[Она наклонилась, поглаживая черную кошку и ощущая кончиками пальцев её мягкую, тёплую шерсть, не замечая, как в её голосе промелькнула едва уловимая грусть.]"
+        ],
+        "vi": [
+          "“Sinh linh bé nhỏ tội nghiệp, rõ ràng xinh xắn thế này, mà cuối cùng vẫn chẳng có ai cần.”",
+          "Cô cúi đầu vuốt ve dọc sống lưng chú mèo đen, dùng đầu ngón tay cảm nhận lớp lông mềm mại và ấm áp của nó, dường như chẳng hề nhận ra trong giọng nói của chính mình đang thoáng gợn lên một nỗi bi thương trầm lắng khôn nguôi."
+        ]
+      }
+    },
+    {
+      "panel_index": 15,
+      "type": "image",
+      "image_src": "media/image15.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "他沉默片刻，似乎听出了什么，却没有接话。只是站在光里，眼神平静得像一块久未融化的坚冰。"
+        ],
+        "zhHant": [
+          "他沉默片刻，似乎聽出了什麼，卻沒有接話。只是站在光裏，眼神平靜得像一塊久未融化的堅冰。"
+        ],
+        "en": [
+          "He stood silently for a moment, sensing the subtle sorrow in her tone but choosing not to speak. He simply stood there, bathed in gentle sunlight, his expression calm and unreadable as ice untouched by warmth."
+        ],
+        "ja": [
+          "彼はしばらく黙っていた。何かを聞き取ったらしいが、言葉は返さない。ただ光の中に立ち、その眼差しだけが、長いあいだ解けずにいる硬い氷のように静かだった。"
+        ],
+        "ko": [
+          "그는 잠시 침묵했다. 무언가를 알아들은 듯했지만 말을 잇지 않았다. 그저 빛 속에 서 있었다. 눈빛은 오래도록 녹지 않은 단단한 얼음처럼 고요했다."
+        ],
+        "es": [
+          "Él guardó silencio un instante. Pareció captar algo, pero no respondió. Se limitó a permanecer de pie en medio de la luz, con una mirada tan serena como un bloque de hielo que llevara años sin derretirse."
+        ],
+        "fr": [
+          "Il se tut un instant. Il semblait avoir perçu quelque chose, mais n’ajouta rien. Debout dans la lumière, il avait le regard calme d’une glace que rien n’avait fait fondre depuis longtemps."
+        ],
+        "ar": [
+          "صمت لحظة، كأنه التقط ما وراء كلماتها، لكنه لم يعلّق. ظل واقفًا في الضوء، وعيناه ساكنتان كقطعة جليد لم تعرف الذوبان منذ زمن."
+        ],
+        "ptBR": [
+          "Ele se calou por um instante. Parecia ter ouvido alguma coisa naquela frase, mas não respondeu. Apenas permaneceu de pé na luz, com os olhos serenos como um bloco de gelo que há muito se recusava a derreter."
+        ],
+        "ru": [
+          "[Он на мгновение замолчал, будто что-то уловив. Слово не находилось. Он просто стоял в свете, а его взгляд был спокоен, как застывший лёд]"
+        ],
+        "vi": [
+          "Cậu lặng thinh hồi lâu, dường như lắng nghe và hiểu được điều gì đó ẩn sau câu nói, nhưng không đáp lại. Cậu chỉ lặng lẽ đứng giữa luồng sáng, ánh mắt bình lặng và thâm trầm tựa như một tảng băng vĩnh cửu chưa từng tan chảy."
+        ]
+      }
+    },
+    {
+      "panel_index": 16,
+      "type": "image",
+      "image_src": "media/image16.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "我未曾遇见过神明。",
+          "直至那日，",
+          "他立于光中，",
+          "赐我食粮与星辰之名。"
+        ],
+        "zhHant": [
+          "我未曾遇見過神明。",
+          "直至那日，",
+          "他立於光中，",
+          "賜我食糧與星辰之名。"
+        ],
+        "en": [
+          "Never had I encountered a god,",
+          "until that day—",
+          "he stood within the light",
+          "and bestowed on me food and the names of stars."
+        ],
+        "ja": [
+          "私は、神に出会ったことなどなかった。",
+          "あの日までは。",
+          "彼は光の中に立ち、",
+          "私に糧と、星の名を授けた。"
+        ],
+        "ko": [
+          "나는 신을 만난 적이 없었다.",
+          "그날까지는.",
+          "그는 빛 속에 서서,",
+          "내게 먹을 것과 별의 이름을 내려 주었다."
+        ],
+        "es": [
+          "Nunca había conocido a un dios.",
+          "Hasta aquel día:",
+          "él se alzó en medio de la luz",
+          "y me concedió alimento y el nombre de una estrella."
+        ],
+        "fr": [
+          "Jamais je n’avais rencontré de dieu.",
+          "Jusqu’à ce jour-là,",
+          "où il se tint dans la lumière",
+          "et m’offrit de quoi vivre, avec le nom d’un astre."
+        ],
+        "ar": [
+          "لم ألتقِ إلهًا قط.",
+          "حتى ذلك اليوم،",
+          "وقف في قلب الضوء،",
+          "ومنحني قوتًا واسم نجم."
+        ],
+        "ptBR": [
+          "Eu jamais havia encontrado um deus.",
+          "Até aquele dia,",
+          "quando ele se ergueu na luz",
+          "e me concedeu alimento e o nome de uma estrela."
+        ],
+        "ru": [
+          "[Я никогда не встречала богов,",
+          "пока не увидела его,",
+          "стоящего в свете.",
+          "Он дал мне пищу и имя звезды.]"
+        ],
+        "vi": [
+          "Ta chưa từng diện kiến thần linh.",
+          "Cho đến ngày hôm ấy,",
+          "Người đứng giữa vầng dương chan hòa,",
+          "Ban cho ta lương thực cùng danh xưng của muôn vì tinh tú."
+        ]
+      }
+    }
+  ],
+  "title_vi": "Vân Trùng · Chương 2: Người Trong Mây · I · v5.1.39"
+}

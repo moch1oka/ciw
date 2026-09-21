@@ -1,0 +1,2658 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="v5.1.39" name="cloudinsect-version"/>
+<title>云虫 第二章 云中人 · 一 · v5.1.39</title>
+<link href="../../assets/cloud-insect-logo-v4.2.03.png" rel="icon"/>
+<style>
+    :root {
+      --page-width: 1440px;
+      --text-width: 1120px;
+      --bg: #090a0b;
+      --paper: #101112;
+      --text: #d9d9d9;
+      --moon: #fa1c78;
+      --xiyang: #05b5fc;
+      --label: #fce5cd;
+      --reader-scale: 1;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; background: var(--bg); }
+    body {
+      font-family: Arial, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    .comic {
+      width: min(94vw, var(--page-width));
+      margin: 0 auto;
+      background: var(--paper);
+      padding: clamp(28px, 4vw, 84px) clamp(18px, 4.5vw, 88px);
+    }
+    .comic[hidden] { display: none; }
+    .opening {
+      max-width: var(--text-width);
+      margin: 0 auto clamp(54px, 7.5vw, 108px);
+      padding-top: clamp(10px, 2.8vw, 40px);
+    }
+    .opening-brand {
+      margin: 0 0 clamp(72px, 8.8vw, 124px);
+      font-size: clamp(calc(38px * var(--reader-scale)), calc(4vw * var(--reader-scale)), calc(64px * var(--reader-scale)));
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 0;
+      color: rgba(230, 230, 230, 0.92);
+      white-space: pre-wrap;
+    }
+    .opening-title {
+      margin: 0 0 clamp(42px, 4.8vw, 72px);
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-weight: 800;
+      letter-spacing: 0;
+      color: rgba(224, 224, 224, 0.9);
+      white-space: pre-wrap;
+    }
+    .opening-meta { display: grid; gap: clamp(2px, 0.45vw, 7px); }
+    .opening-meta .tag-caption {
+      display: flex;
+      align-items: center;
+      gap: 0.72em;
+    }
+    .opening-meta .tag-caption > span:last-child { min-width: 0; }
+    .opening-time {
+      display: flex;
+      align-items: center;
+      gap: 0.72em;
+      margin: 0;
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.72vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.5;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: rgba(217, 217, 217, 0.76);
+      white-space: pre-wrap;
+    }
+    
+    .opening-meta {
+      text-align: left;
+      justify-items: stretch;
+    }
+    .opening-meta .tag-caption,
+    .opening-meta .opening-time {
+      margin: 0;
+      max-width: none;
+      width: 100%;
+      justify-self: stretch;
+    }
+    .opening-meta .opening-time {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+      line-height: 1.58;
+      color: rgba(205, 205, 198, 0.78);
+      text-align: left;
+    }
+    .opening-meta .opening-audit,
+    .opening-meta .opening-audit-cont {
+      display: grid;
+      grid-template-columns: max-content minmax(0, 1fr);
+      column-gap: 0.72em;
+      align-items: baseline;
+    }
+    .opening-meta .opening-audit .tag-body,
+    .opening-meta .opening-audit-cont .tag-body { min-width: 0; }
+    .opening-meta .opening-audit-cont .tag-spacer { visibility: hidden; }
+    .opening-meta .tag-caption.tag-row { margin: 0; }
+    .opening-icon, .opening-icon-spacer { height: 1.18em; flex: 0 0 auto; }
+    .opening-icon { width: auto; opacity: 0.78; filter: drop-shadow(0 0 8px rgba(235, 235, 230, 0.11)); }
+    .panel {
+      width: calc(100% + clamp(36px, 9vw, 176px));
+      aspect-ratio: 1 / var(--ratio);
+      position: relative;
+      overflow: hidden;
+      margin: 0 calc(clamp(18px, 4.5vw, 88px) * -1) clamp(24px, 4.8vw, 54px);
+      background: #050607;
+    }
+    .panel img {
+      position: absolute;
+      width: var(--img-w);
+      height: var(--img-h);
+      left: var(--img-left);
+      top: var(--img-top);
+      max-width: none;
+      object-fit: fill;
+      display: block;
+    }
+    .text {
+      max-width: var(--text-width);
+      margin: 0 auto clamp(18px, 3.8vw, 38px);
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.62;
+      font-weight: 700;
+      letter-spacing: 0;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+      color: var(--text);
+    }
+    .scene-break {
+      width: 100%;
+      min-height: clamp(420px, 82vh, 820px);
+      margin: clamp(24px, 5vw, 60px) auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .scene-break img {
+      width: clamp(44px, 6vw, 72px);
+      height: auto;
+      display: block;
+      opacity: 0.74;
+      filter: drop-shadow(0 0 10px rgba(235, 235, 230, 0.14));
+    }
+    .sound-effect {
+      margin-top: clamp(30px, 5vw, 66px);
+      margin-bottom: clamp(30px, 5vw, 66px);
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+    }
+    .left { text-align: left; }
+    .right { text-align: right; }
+    .center { text-align: center; }
+    .moon { color: var(--moon); }
+    .xiyang { color: var(--xiyang); }
+    .label { color: var(--label); }
+    .dim { color: rgba(217, 217, 217, 0.72); }
+    .quote {
+      margin-top: clamp(52px, 6.5vw, 104px);
+      margin-bottom: clamp(10px, 2vw, 22px);
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.58;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.48);
+    }
+    .quote + .quote { margin-top: clamp(8px, 1.4vw, 18px); }
+    .endnote {
+      margin-top: clamp(38px, 5vw, 82px);
+      margin-bottom: clamp(8px, 1.6vw, 18px);
+      font-size: clamp(calc(13px * var(--reader-scale)), calc(0.98vw * var(--reader-scale)), calc(17px * var(--reader-scale)));
+      line-height: 1.55;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.42);
+    }
+    .lang-toggle {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 50;
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.26);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .lang-option {
+      min-width: 58px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.72);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1;
+      padding: 0 15px;
+      cursor: pointer;
+    }
+    .lang-option:hover { color: #ffffff; background: rgba(255, 255, 255, 0.08); }
+    .lang-option[aria-pressed="true"] { color: #090a0b; background: rgba(235, 235, 230, 0.92); }
+    .font-controls {
+      position: fixed;
+      top: 78px;
+      left: 18px;
+      z-index: 50;
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .font-button {
+      min-width: 54px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.82);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1;
+      padding: 0 14px;
+      cursor: pointer;
+    }
+    .font-button:hover { color: #ffffff; background: rgba(255, 255, 255, 0.08); }
+    .font-button:disabled { color: rgba(217, 217, 217, 0.28); cursor: default; }
+    .font-button:disabled:hover { background: transparent; }
+    .sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+      text-align: center;
+    }
+
+    html[lang="en"] .text {
+      font-size: clamp(calc(19px * var(--reader-scale)), calc(1.48vw * var(--reader-scale)), calc(27px * var(--reader-scale)));
+      line-height: 1.58;
+    }
+    html[lang="en"] .quote, html[lang="en"] .endnote { font-size: clamp(calc(13px * var(--reader-scale)), calc(0.98vw * var(--reader-scale)), calc(17px * var(--reader-scale))); }
+    .chapter-pager {
+      max-width: var(--text-width);
+      margin: clamp(44px, 7vw, 96px) auto clamp(18px, 4vw, 52px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: clamp(18px, 4vw, 36px);
+    }
+    .chapter-pager-button {
+      width: clamp(50px, 6vw, 68px);
+      height: clamp(50px, 6vw, 68px);
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(232, 232, 226, 0.88);
+      background: rgba(10, 11, 12, 0.74);
+      text-decoration: none;
+      font-size: clamp(34px, 4.2vw, 48px);
+      line-height: 1;
+      font-weight: 500;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .chapter-pager-icon {
+      width: 58%;
+      height: 58%;
+      display: block;
+      object-fit: contain;
+      transform: translateX(0);
+      filter: drop-shadow(0 0 8px rgba(5, 181, 252, 0.14));
+    }
+    .chapter-pager-button:hover,
+    .chapter-pager-button:focus-visible {
+      color: #ffffff;
+      border-color: rgba(5, 181, 252, 0.68);
+      background: rgba(5, 181, 252, 0.16);
+      outline: none;
+    }
+    .chapter-pager-button.is-disabled {
+      opacity: 0.24;
+      pointer-events: none;
+      box-shadow: none;
+    }
+
+
+
+    @media (max-width: 520px) {
+      .comic { width: 100vw; padding-left: 18px; padding-right: 18px; }
+      .opening { max-width: 100%; margin-bottom: 48px; padding-top: 14px; }
+      .opening-brand { margin-bottom: 58px; font-size: calc(34px * var(--reader-scale)); }
+      .opening-title { margin-bottom: 34px; font-size: calc(30px * var(--reader-scale)); }
+      .sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      .opening-time { font-size: calc(20px * var(--reader-scale)); }
+      .opening-meta .opening-time { font-size: calc(16px * var(--reader-scale)); }
+      .panel { width: calc(100% + 36px); margin-left: -18px; margin-right: -18px; }
+      .text { max-width: 100%; font-size: calc(21px * var(--reader-scale)); line-height: 1.68; }
+      html[lang="en"] .text { font-size: calc(19px * var(--reader-scale)); }
+      .lang-toggle { top: 12px; left: 12px; transform: scale(0.86); transform-origin: top left; }
+      .font-controls { top: 64px; left: 12px; transform: scale(0.86); transform-origin: top left; }
+    }
+
+    .settings-toggle { display: none; }
+    .controls-panel {
+      position: fixed;
+      top: 18px;
+      left: 18px;
+      z-index: 50;
+    }
+    .controls-panel .lang-toggle,
+    .controls-panel .font-controls {
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+      transform-origin: center;
+    }
+    .controls-panel .font-controls { margin-top: 10px; }
+    .chapter-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      width: max-content;
+      margin-top: 10px;
+      padding: 6px;
+      border: 1px solid rgba(217, 217, 217, 0.24);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.74);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .site-version {
+      width: max-content;
+      min-height: 32px;
+      margin-top: 8px;
+      padding: 0 14px;
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid rgba(217, 217, 217, 0.18);
+      border-radius: 999px;
+      background: rgba(10, 11, 12, 0.54);
+      color: rgba(217, 217, 217, 0.52);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      line-height: 1;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.16);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .toc-link,
+    .chapter-select {
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: transparent;
+      color: rgba(217, 217, 217, 0.82);
+      font-family: Arial, "PingFang SC", "PingFang TC", "Microsoft YaHei", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1;
+    }
+    .toc-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 14px;
+      text-decoration: none;
+    }
+    .toc-link:hover,
+    .chapter-select:hover {
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .chapter-select option {
+      background: #101112;
+      color: rgba(245, 245, 240, 0.94);
+    }
+    .chapter-select option:checked {
+      background: #2a2a24;
+      color: #ffffff;
+    }
+    .chapter-select {
+      max-width: min(270px, 58vw);
+      padding: 0 32px 0 14px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: linear-gradient(45deg, transparent 50%, rgba(217, 217, 217, 0.78) 50%), linear-gradient(135deg, rgba(217, 217, 217, 0.78) 50%, transparent 50%);
+      background-position: calc(100% - 18px) 18px, calc(100% - 12px) 18px;
+      background-size: 6px 6px, 6px 6px;
+      background-repeat: no-repeat;
+    }
+    @media (max-width: 520px) {
+      .settings-toggle {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 60;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border: 1px solid rgba(217, 217, 217, 0.24);
+        border-radius: 999px;
+        background: rgba(10, 11, 12, 0.64);
+        color: rgba(235, 235, 230, 0.92);
+        font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      .settings-toggle img {
+        width: 30px;
+        height: 34px;
+        object-fit: contain;
+        display: block;
+      }
+      .settings-toggle[aria-expanded="true"] {
+        border-color: rgba(235, 235, 230, 0.42);
+        background: rgba(10, 11, 12, 0.84);
+      }
+      .controls-panel {
+        top: 62px;
+        left: 12px;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .controls-panel.is-open { display: flex; }
+      .controls-panel .lang-toggle,
+      .controls-panel .font-controls,
+      .chapter-controls {
+        position: static;
+        transform: none;
+      }
+      .lang-option {
+        min-width: 50px;
+        min-height: 36px;
+        font-size: 14px;
+        padding: 0 11px;
+      }
+      .font-button {
+        min-width: 48px;
+        min-height: 36px;
+        font-size: 16px;
+        padding: 0 12px;
+      }
+      .chapter-controls {
+        max-width: calc(100vw - 24px);
+        gap: 6px;
+      }
+      .toc-link,
+      .chapter-select {
+        min-height: 36px;
+        font-size: 14px;
+      }
+      .toc-link { padding: 0 11px; }
+      .chapter-select {
+        max-width: calc(100vw - 116px);
+        padding-left: 11px;
+      }
+    }
+
+    @media print {
+      html, body { background: var(--paper); }
+      .comic { width: var(--page-width); padding: 84px 88px; }
+      .comic[hidden] { display: none; }
+    }
+    @media (max-width: 760px) {
+      .scene-break { min-height: 72svh; margin: 24px auto; }
+    }
+
+    /* cloudinsect-text-style:start */
+    .text {
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+      line-height: 1.62;
+      font-weight: 700;
+      letter-spacing: 0;
+      color: #dddddd;
+    }
+    .chapter-title, .opening-title {
+      color: rgba(232, 232, 226, 0.9);
+    }
+    .prose {
+      font-size: clamp(calc(19.5px * var(--reader-scale)), calc(1.62vw * var(--reader-scale)), calc(28px * var(--reader-scale)));
+      color: #dddddd;
+    }
+    .moon { color: #ff2b91; text-align: left; }
+    .xiyang { color: #28b7ff; text-align: right; }
+    .other { color: #f5e9b8; text-align: right; }
+    .tag-caption {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+      line-height: 1.58;
+      font-weight: 700;
+      color: rgba(205, 205, 198, 0.78);
+      text-align: left;
+    }
+    .tag-caption .tag { color: rgba(245, 233, 184, 0.84); }
+    .tag-row {
+      display: grid;
+      grid-template-columns: max-content minmax(0, 1fr);
+      column-gap: 0.45em;
+      align-items: baseline;
+    }
+    .tag-row .tag-body { min-width: 0; }
+    .tag-row .tag-spacer {
+      visibility: hidden;
+      white-space: pre;
+      color: rgba(245, 233, 184, 0.84);
+    }
+    .tag-caption.tag-row { margin-bottom: clamp(4px, 0.8vw, 10px); }
+    .quote {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+      line-height: 1.58;
+      font-style: italic;
+      font-weight: 600;
+      color: rgba(217, 217, 217, 0.48);
+    }
+    html[lang="en"] .text {
+      font-size: clamp(calc(21px * var(--reader-scale)), calc(1.75vw * var(--reader-scale)), calc(30px * var(--reader-scale)));
+    }
+    html[lang="en"] .prose {
+      font-size: clamp(calc(19.5px * var(--reader-scale)), calc(1.62vw * var(--reader-scale)), calc(28px * var(--reader-scale)));
+    }
+    html[lang="en"] .tag-caption {
+      font-size: clamp(calc(16px * var(--reader-scale)), calc(1.25vw * var(--reader-scale)), calc(22px * var(--reader-scale)));
+    }
+    html[lang="en"] .quote {
+      font-size: clamp(calc(14px * var(--reader-scale)), calc(1.08vw * var(--reader-scale)), calc(18px * var(--reader-scale)));
+    }
+    html[lang="en"] .sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+    }
+
+    @media (max-width: 760px) {
+      .chapter-title, .opening-title { font-size: calc(30px * var(--reader-scale)); }
+      .sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      .text { font-size: calc(21px * var(--reader-scale)); line-height: 1.68; }
+      .prose { font-size: calc(19.5px * var(--reader-scale)); }
+      .tag-caption { font-size: calc(16px * var(--reader-scale)); }
+      .quote { font-size: calc(14px * var(--reader-scale)); }
+      html[lang="en"] .sound-effect { font-size: calc(30px * var(--reader-scale)); }
+      html[lang="en"] .text { font-size: calc(21px * var(--reader-scale)); }
+      html[lang="en"] .prose { font-size: calc(19.5px * var(--reader-scale)); }
+      html[lang="en"] .tag-caption { font-size: calc(16px * var(--reader-scale)); }
+      html[lang="en"] .quote { font-size: calc(14px * var(--reader-scale)); }
+    }
+    .text.sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+      line-height: 1.35;
+      font-style: italic;
+      font-weight: 800;
+      color: rgba(232, 232, 226, 0.9);
+      text-align: center;
+    }
+    html[lang="en"] .text.sound-effect {
+      font-size: clamp(calc(36px * var(--reader-scale)), calc(3.2vw * var(--reader-scale)), calc(56px * var(--reader-scale)));
+    }
+    @media (max-width: 760px) {
+      .text.sound-effect { font-size: calc(30px * var(--reader-scale)); line-height: 1.35; }
+      html[lang="en"] .text.sound-effect { font-size: calc(30px * var(--reader-scale)); }
+    }
+    /* cloudinsect-text-style:end */
+  </style>
+<link href="../../assets/site-footer.css?v=5.1.39" rel="stylesheet"/>
+<style data-cloudinsect-language-select="true">
+.language-select {
+  min-height: 36px;
+  max-width: min(180px, 48vw);
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 9px;
+  padding: 0 30px 0 12px;
+  color: rgba(255,255,255,.92);
+  background: rgba(14,16,18,.94);
+  font: 700 13px/1.2 Arial, "PingFang SC", "Hiragino Sans", sans-serif;
+}
+</style>
+<style data-cloudinsect-language-select-refinement="v5.1.39">
+.language-select {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  cursor: pointer;
+  color-scheme: dark;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23e8e8e2' stroke-opacity='.82' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 10px 6px;
+}
+.language-select:focus,
+.language-select:focus-visible {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.language-toggle:has(.language-select:focus-visible),
+.lang-toggle:has(.language-select:focus-visible) {
+  border-color: rgba(232, 232, 226, 0.52);
+}
+</style><style data-cloudinsect-arabic-rtl="true">
+html[lang="ar"] body {
+  direction: ltr;
+  text-align: initial;
+  font-family: Arial, "Noto Sans Arabic", "Noto Naskh Arabic", sans-serif;
+}
+html[lang="ar"] .controls-panel,
+html[lang="ar"] .reader-controls,
+html[lang="ar"] .settings-panel,
+html[lang="ar"] .chapter-controls,
+html[lang="ar"] .lang-toggle,
+html[lang="ar"] .language-toggle,
+html[lang="ar"] .font-controls,
+html[lang="ar"] .chapter-pager,
+html[lang="ar"] .pager,
+html[lang="ar"] .topbar,
+html[lang="ar"] .thumb-rail,
+html[lang="ar"] .links,
+html[lang="ar"] .cloudinsect-site-footer {
+  direction: ltr;
+}
+html[lang="ar"] main[data-lang-page="ar"] {
+  direction: rtl;
+}
+html[lang="ar"] main[data-lang-page="ar"] .text,
+html[lang="ar"] main[data-lang-page="ar"] p,
+html[lang="ar"] [data-ar],
+html[lang="ar"] #itemTagText,
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright,
+html[lang="ar"] .cloudinsect-contact-label {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  overflow-wrap: anywhere;
+}
+html[lang="ar"] #itemTitle,
+html[lang="ar"] #itemSpec,
+html[lang="ar"] #itemQuote,
+html[lang="ar"] #itemDesc,
+html[lang="ar"] .cloudinsect-copyright {
+  text-align: right;
+}
+html[lang="ar"] .language-select,
+html[lang="ar"] .chapter-select {
+  direction: ltr;
+  text-align: left;
+}
+html[lang="ar"] .chapter-select option,
+html[lang="ar"] .language-select option {
+  direction: rtl;
+  text-align: right;
+}
+html[lang="ar"] .chapter-pager .label,
+html[lang="ar"] .pager .label,
+html[lang="ar"] .toc-link {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+html[lang="ar"] .formula,
+html[lang="ar"] code,
+html[lang="ar"] [data-ltr] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+</style>
+<style data-cloudinsect-select-option-contrast="true">
+.language-select,
+.chapter-select {
+  color-scheme: dark;
+}
+.language-select option,
+.chapter-select option {
+  background-color: #101112;
+  color: rgba(245, 245, 240, 0.96);
+}
+</style>
+<style data-cloudinsect-adaptive-chapter-menu="true">
+.chapter-controls {
+  max-width: calc(100vw - 24px);
+}
+.chapter-select {
+  width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 160px)));
+  max-width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 160px)));
+  text-overflow: clip;
+}
+.chapter-controls.is-stacked {
+  display: grid;
+  grid-template-columns: minmax(0, max-content);
+  align-items: stretch;
+  width: max-content;
+  max-width: calc(100vw - 24px);
+  border-radius: 24px;
+}
+.chapter-controls.is-stacked .toc-link {
+  justify-content: flex-start;
+}
+.chapter-controls.is-stacked .chapter-select {
+  width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 36px)));
+  max-width: min(var(--chapter-select-width, 270px), var(--chapter-select-cap, calc(100vw - 36px)));
+  padding-right: 32px;
+}
+@media (max-width: 520px) {
+  .chapter-select {
+    font-size: 14px;
+  }
+  .chapter-controls.is-stacked .chapter-select {
+    font-size: 13px;
+  }
+}
+</style>
+<style data-cloudinsect-ptbr-style="true">
+html[lang="pt-BR"] main[data-lang-page="ptBR"] { direction: ltr; }
+html[lang="pt-BR"] .history-card { max-width: min(340px, calc(100% - 24px)); }
+html[lang="pt-BR"] .history-card-kicker { white-space: normal; letter-spacing: 0.03em; line-height: 1.24; }
+html[lang="pt-BR"] .chapter-select option,
+html[lang="pt-BR"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="pt-BR"] .history-card { max-width: min(280px, calc(100% - 20px)); }
+  html[lang="pt-BR"] .history-card-kicker { font-size: 12px; }
+}
+</style>
+<style data-cloudinsect-ru-style="true">
+html[lang="ru"] main[data-lang-page="ru"] { direction: ltr; }
+html[lang="ru"] .history-card { max-width: min(350px, calc(100% - 24px)); }
+html[lang="ru"] .history-card-kicker { white-space: normal; letter-spacing: 0.02em; line-height: 1.24; }
+html[lang="ru"] .chapter-select option,
+html[lang="ru"] .language-select option { direction: ltr; text-align: left; }
+@media (max-width: 760px) {
+  html[lang="ru"] .history-card { max-width: min(288px, calc(100% - 20px)); }
+  html[lang="ru"] .history-card-kicker { font-size: 12px; }
+  html[lang="ru"] .title-line { flex-wrap: wrap; align-items: flex-start; gap: 14px; }
+  html[lang="ru"] .title-line h1 { width: 100%; max-width: 100%; overflow-wrap: normal; }
+  html[lang="ru"] .title-line .wallpaper-entry { margin-left: 0; }
+}
+</style>
+<style data-cloudinsect-toc-return-icon="v5.1.39">
+.toc-return-icon {
+  width: 52px;
+  min-width: 52px;
+  padding: 0 10px;
+  justify-content: center;
+}
+.toc-return-icon svg {
+  display: block;
+  width: 29px;
+  height: 29px;
+  overflow: visible;
+}
+.language-select {
+  field-sizing: content;
+  width: auto !important;
+  min-width: 72px;
+  max-width: min(210px, calc(100vw - 48px));
+}
+@media (min-width: 761px) {
+  body {
+    padding-top: 0 !important;
+  }
+  main.comic {
+    padding-top: 200px !important;
+  }
+  .controls-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: max-content;
+    max-width: calc(100vw - 36px);
+    max-height: none;
+    overflow: visible;
+  }
+  .reader-control-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: max-content;
+    max-width: 100%;
+  }
+  .controls-panel .lang-toggle,
+  .controls-panel .font-controls,
+  .controls-panel .chapter-controls,
+  .controls-panel .site-version {
+    position: static;
+    flex: 0 0 auto;
+    margin-top: 0 !important;
+    transform: none;
+  }
+  .controls-panel .lang-toggle {
+    width: max-content;
+  }
+  .controls-panel .site-version {
+    align-self: center;
+  }
+}
+@media (max-width: 760px) {
+  body {
+    padding-top: 0 !important;
+  }
+  main.comic {
+    padding-top: 128px !important;
+  }
+  .reader-control-row {
+    display: contents;
+  }
+  .toc-return-icon {
+    width: 46px;
+    min-width: 46px;
+    padding: 0 8px;
+  }
+  .toc-return-icon svg {
+    width: 27px;
+    height: 27px;
+  }
+}
+</style>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;0,800;1,400;1,700;1,800&amp;display=swap" rel="stylesheet"/>
+<style data-cloudinsect-vi-style="true">
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-400-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-400-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-600-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-800-normal.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../../assets/fonts/be-vietnam-pro-700-italic.ttf') format('truetype');
+}
+
+html[lang="vi"],
+html[lang="vi"] body {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] :is(
+  .comic,
+  .opening,
+  .opening-brand,
+  .opening-title,
+  .opening-time,
+  .opening-meta,
+  .text,
+  .quote,
+  .sound-effect,
+  .scene-break,
+  .tag,
+  .tag-caption,
+  .endnote,
+  .next-chapter,
+  .next-chapter .title,
+  .next-chapter .hint,
+  .chapter-pager,
+  .chapter-controls,
+  .chapter-select,
+  .chapter-select option,
+  .language-select,
+  .language-select option,
+  .lang-option,
+  .pager,
+  .toc-link,
+  .settings-toggle,
+  .reader-setting-btn,
+  .controls-panel,
+  .panel-caption
+) {
+  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] .opening-brand {
+  line-height: 1.18;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .opening-title {
+  line-height: 1.32;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .opening-time {
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+html[lang="vi"] .text {
+  font-size: clamp(calc(19px * var(--reader-scale)), calc(1.5vw * var(--reader-scale)), calc(27px * var(--reader-scale)));
+  line-height: 1.68;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+html[lang="vi"] .quote {
+  line-height: 1.6;
+  font-weight: 500;
+  font-style: italic;
+}
+
+html[lang="vi"] .sound-effect {
+  line-height: 1.35;
+  font-weight: 800;
+  font-style: italic;
+}
+
+html[lang="vi"] main[data-lang-page="vi"] {
+  direction: ltr;
+}
+</style>
+</head>
+<body>
+<button aria-expanded="false" aria-label="Reader settings" class="settings-toggle" type="button">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</button>
+<div class="controls-panel" id="reader-controls">
+<div class="reader-control-row reader-control-row-primary">
+<div aria-label="Language selection" class="lang-toggle" role="group"><select aria-label="Language" class="language-select"><option value="vi">Tiếng Việt</option><option value="zh">简体</option><option value="zhHant">繁體</option><option value="en">English</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="ptBR">Português do Brasil</option><option value="ru">Русский</option><option value="es">Español</option><option value="fr">Français</option><option value="ar">العربية</option></select></div>
+<div aria-label="Font size controls" class="font-controls" role="group">
+<button aria-label="Decrease font size" class="font-button" data-font-step="-1" type="button">A−</button>
+<button aria-label="Increase font size" class="font-button" data-font-step="1" type="button">A+</button>
+</div>
+</div>
+<div class="reader-control-row reader-control-row-secondary">
+<div aria-label="Chapter navigation" class="chapter-controls">
+<a aria-label="返回主目录" class="toc-link toc-return-icon" href="../../index.html" title="返回主目录">
+<svg aria-hidden="true" viewbox="0 0 32 32">
+<path d="M13 6L3.5 14.5 13 23v-5.6c7.6.3 11.9 3 15 7.6 0-8.4-5-13.7-15-14V6Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
+</svg>
+</a>
+<select aria-label="选择章节" class="chapter-select">
+<option data-ar="الفصل صفر: تمهيد" data-en="Chapter 0: Prologue" data-es="Capítulo cero: Prólogo" data-fr="Chapitre zéro : Prologue" data-ja="第零章 プロローグ" data-ko="제0장 프롤로그" data-pt-br="Capítulo Zero: Prólogo" data-ru="Глава нулевая: Пролог" data-vi="Chương 0: Mở đầu" data-zh="第零章 楔子" data-zh-hant="第零章 楔子" value="../chapter-0-prologue/index.html">第零章 楔子</option>
+<option data-ar="الفصل الأول: سوفان" data-en="Chapter 1: Suvan" data-es="Capítulo uno: Suvan" data-fr="Chapitre 1 : Suvan" data-ja="第一章 スヴァン" data-ko="제1장 수반" data-pt-br="Capítulo Um: Suvan" data-ru="Глава первая: Сиян" data-vi="Chương 1: Hi Dương" data-zh="第一章 希扬" data-zh-hant="第一章 希揚" value="../chapter-1-xiyang/index.html">第一章 希扬</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 1" data-en="Chapter 2: Cloud Dwellers - 1" data-es="Capítulo 2: Habitantes de las nubes · 1" data-fr="Chapitre 2 : Les Habitants des nuages · I" data-ja="第二章 雲中人 · 一" data-ko="제2장 운중인 · 1" data-pt-br="Capítulo Dois: Habitantes das Nuvens · I" data-ru="Глава вторая: Обитатели облаков · I" data-vi="Chương 2: Người Trong Mây · I" data-zh="第二章 云中人 · 一" data-zh-hant="第二章 雲中人 · 一" selected="" value="../chapter-2-cloud-dwellers-1/index.html">第二章 云中人 · 一</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 2" data-en="Chapter 2: Cloud Dwellers - 2" data-es="Capítulo 2: Habitantes de las nubes · 2" data-fr="Chapitre 2 : Les Habitants des nuages · II" data-ja="第二章 雲中人 · 二" data-ko="제2장 운중인 · 2" data-pt-br="Capítulo Dois: Habitantes das Nuvens · II" data-ru="Глава вторая: Обитатели облаков · II" data-vi="Chương 2: Người Trong Mây · II" data-zh="第二章 云中人 · 二" data-zh-hant="第二章 雲中人 · 二" value="../chapter-2-cloud-dwellers-2/index.html">第二章 云中人 · 二</option>
+<option data-ar="الفصل الثاني: سكان السحاب · 3" data-en="Chapter 2: Cloud Dwellers - 3" data-es="Capítulo 2: Habitantes de las nubes · 3" data-fr="Chapitre 2 : Les Habitants des nuages · III" data-ja="第二章 雲中人 · 三" data-ko="제2장 운중인 · 3" data-pt-br="Capítulo Dois: Habitantes das Nuvens · III" data-ru="Глава вторая: Обитатели облаков · III" data-vi="Chương 2: Người Trong Mây · III" data-zh="第二章 云中人 · 三" data-zh-hant="第二章 雲中人 · 三" value="../chapter-2-cloud-dwellers-3/index.html">第二章 云中人 · 三</option>
+<option data-ar="الفصل الثالث: ما وراء مخروط الضوء · 1" data-en="Chapter 3: Beyond the Light Cone - 1" data-es="Capítulo 3: Más allá del cono de luz · 1" data-fr="Chapitre 3 : Au-delà du cône de lumière · I" data-ja="第三章 光円錐の外 · 一" data-ko="제3장 광추 너머 · 1" data-pt-br="Capítulo Três: Além do Cone de Luz · I" data-ru="Глава третья: За пределами светового конуса · I" data-vi="Chương 3: Ngoài Nón Ánh Sáng · I" data-zh="第三章 光锥之外 · 一" data-zh-hant="第三章 光錐之外 · 一" value="../chapter-3-beyond-light-cone-1/index.html">第三章 光锥之外 · 一</option>
+<option data-ar="الفصل الثالث: ما وراء مخروط الضوء · 2" data-en="Chapter 3: Beyond the Light Cone - 2" data-es="Capítulo 3: Más allá del cono de luz · 2" data-fr="Chapitre 3 : Au-delà du cône de lumière · II" data-ja="第三章 光円錐の外 · 二" data-ko="제3장 광추 너머 · 2" data-pt-br="Capítulo Três: Além do Cone de Luz · II" data-ru="Глава третья: За пределами светового конуса · II" data-vi="Chương 3: Ngoài Nón Ánh Sáng · II" data-zh="第三章 光锥之外 · 二" data-zh-hant="第三章 光錐之外 · 二" value="../chapter-3-beyond-light-cone-2/index.html">第三章 光锥之外 · 二</option>
+<option data-ar="الفصل الرابع: مخروط القدر · 1" data-en="Chapter 4: The Cone of Fate - 1" data-es="Capítulo 4: El cono del destino · 1" data-fr="Chapitre 4 : Le Cône du destin · I" data-ja="第四章 運命の円錐 · 一" data-ko="제4장 운명의 추 · 1" data-pt-br="Capítulo Quatro: O Cone do Destino · I" data-ru="Глава четвёртая: Конус судьбы · I" data-vi="Chương 4: Nón Định Mệnh · I" data-zh="第四章 命运之锥 · 一" data-zh-hant="第四章 命運之錐 · 一" value="../chapter-4-fate-1/index.html">第四章 命运之锥 · 一</option>
+<option data-ar="الفصل الرابع: مخروط القدر · 2" data-en="Chapter 4: The Cone of Fate - 2" data-es="Capítulo 4: El cono del destino · 2" data-fr="Chapitre 4 : Le Cône du destin · II" data-ja="第四章 運命の円錐 · 二" data-ko="제4장 운명의 추 · 2" data-pt-br="Capítulo Quatro: O Cone do Destino · II" data-ru="Глава четвёртая: Конус судьбы · II" data-vi="Chương 4: Nón Định Mệnh · II" data-zh="第四章 命运之锥 · 二" data-zh-hant="第四章 命運之錐 · 二" value="../chapter-4-fate-2/index.html">第四章 命运之锥 · 二</option>
+<option data-ar="الفصل الخامس: ووتشوي · 1" data-en="Chapter 5: Wuzhui - 1" data-es="Capítulo 5: Wuzhui · 1" data-fr="Chapitre 5 : Wuzhui · I" data-ja="第五章 烏騅・一" data-ko="제5장 오추 · 1" data-pt-br="Capítulo Cinco: Wuzhui · I" data-ru="Глава 5. Учжуй · I" data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓 · 一" data-zh-hant="第五章 烏騅 · 一" value="../chapter-5-wuzhui-1/index.html">第五章 乌骓 · 一</option>
+</select>
+</div>
+<div class="site-version" data-cloudinsect-version="">v5.1.39</div>
+</div>
+</div>
+<main class="comic" data-lang-page="zh">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">云虫</h1>
+<h2 class="opening-title">第二章 云中人 · 一</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[云虫]</span><span class="tag-body">7115恒星系7号文明第6次审判记事</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[云虫]</span><span class="tag-body">仅记录与审判相关内容</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">咔嚓</p>
+<p class="text xiyang speech">“请进。”</p>
+<p class="text right prose">门轴发出一声细微的金属摩擦声，像某种生锈的脊骨被硬生生拧开。空气中弥漫着工厂特有的金属锈味，夹杂着老旧电器散发的气息，冷清得令人心生疏离。</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[废旧PCB板]</span></p>
+<p class="text tag-caption"><span class="tag">[电烙铁]</span></p>
+<p class="text tag-caption"><span class="tag">[电子元件]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[书籍]</span> 难题集萃</p>
+<p class="text tag-caption"><span class="tag">[书籍]</span> 数学分析</p>
+<p class="text tag-caption"><span class="tag">[书籍]</span> 场论</p>
+<p class="text tag-caption"><span class="tag">[示波器]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“你就住这？这不是工厦吗？”</p>
+<p class="text right prose">她皱了皱鼻子，环顾四周，目光掠过那些泛黄的纸页、散落的仪器，眼神漫不经心地停留在墙角的黑色水渍上，眉头轻轻地蹙了蹙，声音里透出疑惑与淡淡的不安。</p>
+<p class="text xiyang speech">“是啊。这片区域早年划入了重建计划，结果一直搁置。几年前还发生过一起命案，案子到现在没破，所以根本没人敢租，房租自然便宜。”</p>
+<p class="text moon speech">“啊？凶宅啊？你不忌讳？要不要放尊观音像镇一镇？”</p>
+<p class="text left prose">她的语气像开玩笑，目光却无意间流露出某种防备与戒心。窗外，云虫将至的躁动声隐约传来，城市被一股难以言喻的慌乱笼罩着。</p>
+<p class="text xiyang speech">“驱邪是要的，不过我有更物理的办法。”</p>
+<p class="text moon speech">“更物理的？”</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“看，有这些大神们坐镇，方圆百米鬼神莫近。”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[相片]</span> 第五届索尔维会议 （AD1927）</p>
+<p class="text tag-caption"><span class="tag">[图片]</span> 人类文明发展时间轴</p>
+<p class="text left prose">她顺着他的手指望过去，看到一张陈旧的黑白照片，上面蒙了一层淡淡的灰。照片里是1927年第五届索尔维会议，一群物理学界的巨匠——爱因斯坦、薛定谔、玻尔、海森堡——正坐在一起，面无表情地直视镜头，神情里透着某种冷峻的威严。</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“好吧，这确实很物理……”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“我记得你们大学是有宿舍的，为什么还要自己租房？”</p>
+<p class="text left prose">他望着她安静而柔和的侧脸，唇角微微抿起又放开，似乎终于还是决定开口问出那个问题。</p>
+<p class="text moon speech">“我和室友合不来。<br/>而且我经常要出去打工，住校也不方便。”</p>
+<p class="text xiyang speech">“是去酒吧唱歌么？”</p>
+<p class="text moon speech">“你可是好学生，问这些干嘛？”</p>
+<p class="text xiyang speech">“现在外面租房不易，如果不嫌弃的话，等你找到房子之前，可以先凑合住这儿。我那边靠窗还有块地方空着……”</p>
+<p class="text moon speech">“……你确定？”</p>
+<p class="text xiyang speech">“嗯。”</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">喵！</p>
+<p class="text tag-caption"><span class="tag">[奖杯]</span> 物理奥林匹克竞赛金牌</p>
+<p class="text tag-caption"><span class="tag">[猫粮]</span></p>
+<p class="text tag-caption"><span class="tag">[奖状]</span> 全国数学竞赛一等奖</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“这猫是你养的？”</p>
+<p class="text xiyang speech">“不算。流浪猫。我常喂它们吃的，它们就认熟了。”</p>
+<p class="text moon speech">“有名字么？”</p>
+<p class="text xiyang speech">“黑的叫参宿四，橘的叫木卫二。”</p>
+<p class="text moon speech">“这么好看的猫，起的什么鬼名字……”</p>
+<p class="text xiyang speech">“你不懂，星星的名字才是最浪漫的。”</p>
+<p class="text moon speech">“哟，理工男也懂浪漫啊，怎么，想捡个银河系回来？”</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“可怜的小家伙，这么好看，到最后还是没人要。”</p>
+<p class="text left prose">她低头抚摸着黑猫的背，用指尖感受它柔软而温热的皮毛，没察觉到自己声音里透出一丝漫不经心的悲哀。</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">他沉默片刻，似乎听出了什么，却没有接话。只是站在光里，眼神平静得像一块久未融化的坚冰。</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">我未曾遇见过神明。</p>
+<p class="text left prose">直至那日，</p>
+<p class="text left prose">他立于光中，</p>
+<p class="text left prose">赐我食粮与星辰之名。</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Previous chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="vi" hidden="">
+<section aria-label="Mở đầu chương" class="opening">
+<h1 class="opening-brand">Vân Trùng</h1>
+<h2 class="opening-title">Chương 2: Người Trong Mây · I</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[Vân Trùng]</span> 7115 hệ sao - Ký sự phán quyết lần thứ 6 của nền văn minh số 7</p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[Vân Trùng]</span><span class="tag-body">Chỉ ghi chép các nội dung liên quan đến cuộc phán xét</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Cạch.</p>
+<p class="text xiyang speech">“Mời vào.”</p>
+<p class="text right prose">Bản lề cửa phát ra một tiếng ma sát kim loại khe khẽ, tựa như một đốt sống rỉ sét bị người ta gượng gạo vặn mở. Trong không khí phảng phất mùi gỉ sét kim loại đặc trưng của nhà xưởng, lẫn với mùi ngai ngái của đồ điện tử cũ kỹ, lạnh lẽo đến mức khiến lòng người sinh ra cảm giác xa lạ tách biệt.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Bo mạch điện tử PCB phế liệu]</span> </p>
+<p class="text tag-caption"><span class="tag">[Mỏ hàn chì]</span> </p>
+<p class="text tag-caption"><span class="tag">[Linh kiện điện tử]</span> </p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Sách]</span> Tuyển tập các bài toán hóc búa</p>
+<p class="text tag-caption"><span class="tag">[Sách]</span> Giải tích toán học</p>
+<p class="text tag-caption"><span class="tag">[Sách]</span> Lý thuyết trường</p>
+<p class="text tag-caption"><span class="tag">[Máy hiện sóng Oscilloscope]</span> </p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Cậu sống ở đây thật đấy à? Chỗ này chẳng phải là tòa nhà xưởng công nghiệp sao?”</p>
+<p class="text right prose">Cô hơi chun mũi, đưa mắt nhìn quanh bốn phía, ánh nhìn lướt qua những trang giấy ố vàng, các thiết bị đo đạc nằm ngổn ngang, rồi dừng lại một cách vô định nơi vết ố nước màu đen loang lổ góc tường. Đôi lông mày khẽ chau lại, giọng nói lộ rõ vẻ ngờ vực pha lẫn chút bất an mơ hồ.</p>
+<p class="text xiyang speech">“Ừ, đúng vậy. Khu này từ nhiều năm trước đã nằm trong diện quy hoạch cải tạo, nhưng rồi cứ bị đình trệ mãi. Mấy năm trước ở đây từng xảy ra một vụ án mạng, đến giờ vẫn chưa phá được án, thế nên chẳng ai dám thuê cả, giá thuê tự nhiên rẻ như bèo.”</p>
+<p class="text moon speech">“Hả? Nhà có án mạng á? Cậu không kiêng kỵ gì sao? Có cần thỉnh một bức tượng Quan Âm về để trấn yểm không đấy?”</p>
+<p class="text left prose">Giọng cô nghe như đang nói đùa, nhưng trong ánh mắt lại vô thức để lộ chút cảnh giác và đề phòng. Ngoài cửa sổ, thanh âm náo động khi Vân Trùng sắp tới lờ mờ vọng lại, cả thành phố như bị bao phủ trong một nỗi hoang mang khó tả.</p>
+<p class="text xiyang speech">“Trừ tà thì cũng cần đấy, nhưng tôi có cách giải quyết mang tính 'vật lý' hơn nhiều.”</p>
+<p class="text moon speech">“Mang tính vật lý hơn?”</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“Nhìn kìa, có các vị 'đại thần' này trấn tọa ở đây, trong vòng bán kính trăm mét quỷ thần cũng chẳng dám bén mảng tới gần đâu.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Bức ảnh]</span> Hội nghị Solvay lần thứ 5 (Năm 1927)</p>
+<p class="text tag-caption"><span class="tag">[Sơ đồ]</span> Trục thời gian tiến trình phát triển của văn minh nhân loại</p>
+<p class="text left prose">Cô dõi theo ngón tay chỉ của cậu, nhìn thấy một bức ảnh đen trắng đã cũ kỹ, trên mặt phủ một lớp bụi mỏng. Trong bức ảnh là Hội nghị Solvay lần thứ 5 năm 1927, quy tụ cả một dàn cự phách vĩ đại nhất của nền vật lý thế giới — Einstein, Schrödinger, Bohr, Heisenberg... Họ ngồi ngay ngắn bên nhau, nghiêm nghị nhìn thẳng vào ống kính, toát lên một vẻ uy nghiêm lãnh đạm đầy khí phách.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Được rồi... Cách này quả thực rất là 'vật lý'...”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“Tôi nhớ trường đại học của các cậu có ký túc xá mà, sao cậu lại phải tự ra ngoài thuê phòng làm gì?”</p>
+<p class="text left prose">Cậu nhìn nghiêng gương mặt tĩnh lặng và dịu dàng của cô, bờ môi khẽ mím lại rồi thả lỏng, dường như cuối cùng vẫn quyết định mở lời hỏi câu hỏi chất chứa bấy lâu.</p>
+<p class="text moon speech">“Tôi không hợp tính với bạn cùng phòng. Với lại tôi thường xuyên phải ra ngoài làm thêm, ở trong trường bất tiện lắm.”</p>
+<p class="text xiyang speech">“Là đi hát ở quán bar sao?”</p>
+<p class="text moon speech">“Cậu là học sinh ngoan trò giỏi, hỏi mấy chuyện này làm chi?”</p>
+<p class="text xiyang speech">“Bây giờ thuê phòng bên ngoài khó khăn lắm. Nếu cậu không chê, thì trong lúc chưa tìm được phòng mới, có thể tạm thời ở lại đây. Chỗ phía bên cửa sổ kia của tôi vẫn còn một khoảng trống...”</p>
+<p class="text moon speech">“... Cậu chắc chứ?”</p>
+<p class="text xiyang speech">“Ừ.”</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Meo!</p>
+<p class="text tag-caption"><span class="tag">[Cúp lưu niệm]</span> Huy chương Vàng Olympic Vật lý</p>
+<p class="text tag-caption"><span class="tag">[Hạt thức ăn cho mèo]</span> </p>
+<p class="text tag-caption"><span class="tag">[Bằng khen]</span> Giải Nhất Kỳ thi Học sinh Giỏi Toán Quốc gia</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Con mèo này là do cậu nuôi à?”</p>
+<p class="text xiyang speech">“Cũng không hẳn. Là mèo hoang đấy. Tôi hay cho chúng ăn, nên chúng quen hơi bén mùi thôi.”</p>
+<p class="text moon speech">“Chúng có tên không?”</p>
+<p class="text xiyang speech">“Con lông đen tên là Sâm Túc Tứ (Betelgeuse), còn con lông vàng tên là Mộc Vệ Nhị (Europa).”</p>
+<p class="text moon speech">“Mèo đẹp thế này mà cậu đặt cho chúng cái tên kỳ quặc gì vậy trời...”</p>
+<p class="text xiyang speech">“Cậu không hiểu đâu, tên của các vì tinh tú mới là thứ lãng mạn nhất trần đời.”</p>
+<p class="text moon speech">“Ối chà, dân tự nhiên kỹ thuật mà cũng biết lãng mạn cơ đấy à? Sao nào, cậu định nhặt cả dải Ngân Hà mang về nuôi luôn chắc?”</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Sinh linh bé nhỏ tội nghiệp, rõ ràng xinh xắn thế này, mà cuối cùng vẫn chẳng có ai cần.”</p>
+<p class="text left prose">Cô cúi đầu vuốt ve dọc sống lưng chú mèo đen, dùng đầu ngón tay cảm nhận lớp lông mềm mại và ấm áp của nó, dường như chẳng hề nhận ra trong giọng nói của chính mình đang thoáng gợn lên một nỗi bi thương trầm lắng khôn nguôi.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Cậu lặng thinh hồi lâu, dường như lắng nghe và hiểu được điều gì đó ẩn sau câu nói, nhưng không đáp lại. Cậu chỉ lặng lẽ đứng giữa luồng sáng, ánh mắt bình lặng và thâm trầm tựa như một tảng băng vĩnh cửu chưa từng tan chảy.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Ta chưa từng diện kiến thần linh.</p>
+<p class="text left prose">Cho đến ngày hôm ấy,</p>
+<p class="text left prose">Người đứng giữa vầng dương chan hòa,</p>
+<p class="text left prose">Ban cho ta lương thực cùng danh xưng của muôn vì tinh tú.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Chương trước" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="Chương trước"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Chương tiếp theo" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="Chương tiếp theo"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main>
+<main class="comic" data-lang-page="zhHant" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">雲蟲</h1>
+<h2 class="opening-title">第二章 雲中人 · 一</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[雲蟲]</span><span class="tag-body">7115恆星系7號文明第6次審判記事</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[雲蟲]</span><span class="tag-body">僅記錄與審判相關內容</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">咔嚓</p>
+<p class="text xiyang speech">“請進。”</p>
+<p class="text right prose">門軸發出一聲細微的金屬摩擦聲，像某種生鏽的脊骨被硬生生擰開。空氣中瀰漫着工廠特有的金屬鏽味，夾雜着老舊電器散發的氣息，冷清得令人心生疏離。</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[廢舊PCB板]</span></p>
+<p class="text tag-caption"><span class="tag">[電烙鐵]</span></p>
+<p class="text tag-caption"><span class="tag">[電子元件]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[書籍]</span> 難題集萃</p>
+<p class="text tag-caption"><span class="tag">[書籍]</span> 數學分析</p>
+<p class="text tag-caption"><span class="tag">[書籍]</span> 場論</p>
+<p class="text tag-caption"><span class="tag">[示波器]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“你就住這？這不是工廈嗎？”</p>
+<p class="text right prose">她皺了皺鼻子，環顧四周，目光掠過那些泛黃的紙頁、散落的儀器，眼神漫不經心地停留在牆角的黑色水漬上，眉頭輕輕地蹙了蹙，聲音裏透出疑惑與淡淡的不安。</p>
+<p class="text xiyang speech">“是啊。這片區域早年劃入了重建計劃，結果一直擱置。幾年前還發生過一起命案，案子到現在沒破，所以根本沒人敢租，房租自然便宜。”</p>
+<p class="text moon speech">“啊？凶宅啊？你不忌諱？要不要放尊觀音像鎮一鎮？”</p>
+<p class="text left prose">她的語氣像開玩笑，目光卻無意間流露出某種防備與戒心。窗外，雲蟲將至的躁動聲隱約傳來，城市被一股難以言喻的慌亂籠罩着。</p>
+<p class="text xiyang speech">“驅邪是要的，不過我有更物理的辦法。”</p>
+<p class="text moon speech">“更物理的？”</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“看，有這些大神們坐鎮，方圓百米鬼神莫近。”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[相片]</span> 第五屆索爾維會議 （AD1927）</p>
+<p class="text tag-caption"><span class="tag">[圖片]</span> 人類文明發展時間軸</p>
+<p class="text left prose">她順着他的手指望過去，看到一張陳舊的黑白照片，上面蒙了一層淡淡的灰。照片裏是1927年第五屆索爾維會議，一羣物理學界的巨匠——愛因斯坦、薛定諤、玻爾、海森堡——正坐在一起，面無表情地直視鏡頭，神情裏透着某種冷峻的威嚴。</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“好吧，這確實很物理……”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“我記得你們大學是有宿舍的，爲什麼還要自己租房？”</p>
+<p class="text left prose">他望着她安靜而柔和的側臉，脣角微微抿起又放開，似乎終於還是決定開口問出那個問題。</p>
+<p class="text moon speech">“我和室友合不來。<br/>而且我經常要出去打工，住校也不方便。”</p>
+<p class="text xiyang speech">“是去酒吧唱歌麼？”</p>
+<p class="text moon speech">“你可是好學生，問這些幹嘛？”</p>
+<p class="text xiyang speech">“現在外面租房不易，如果不嫌棄的話，等你找到房子之前，可以先湊合住這兒。我那邊靠窗還有塊地方空着……”</p>
+<p class="text moon speech">“……你確定？”</p>
+<p class="text xiyang speech">“嗯。”</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">喵！</p>
+<p class="text tag-caption"><span class="tag">[獎盃]</span> 物理奧林匹克競賽金牌</p>
+<p class="text tag-caption"><span class="tag">[貓糧]</span></p>
+<p class="text tag-caption"><span class="tag">[獎狀]</span> 全國數學競賽一等獎</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“這貓是你養的？”</p>
+<p class="text xiyang speech">“不算。流浪貓。我常餵它們喫的，它們就認熟了。”</p>
+<p class="text moon speech">“有名字麼？”</p>
+<p class="text xiyang speech">“黑的叫參宿四，橘的叫木衛二。”</p>
+<p class="text moon speech">“這麼好看的貓，起的什麼鬼名字……”</p>
+<p class="text xiyang speech">“你不懂，星星的名字纔是最浪漫的。”</p>
+<p class="text moon speech">“喲，理工男也懂浪漫啊，怎麼，想撿個銀河系回來？”</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“可憐的小傢伙，這麼好看，到最後還是沒人要。”</p>
+<p class="text left prose">她低頭撫摸着黑貓的背，用指尖感受它柔軟而溫熱的皮毛，沒察覺到自己聲音裏透出一絲漫不經心的悲哀。</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">他沉默片刻，似乎聽出了什麼，卻沒有接話。只是站在光裏，眼神平靜得像一塊久未融化的堅冰。</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">我未曾遇見過神明。</p>
+<p class="text left prose">直至那日，</p>
+<p class="text left prose">他立於光中，</p>
+<p class="text left prose">賜我食糧與星辰之名。</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Previous chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main>
+<main class="comic" data-lang-page="en" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">CloudInsect</h1>
+<h2 class="opening-title">Chapter 2: Cloud Dwellers - 1</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[CloudInsect]</span><span class="tag-body">Star System 7115, Civilization No. 7 — Record of the Sixth Judgment</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[CloudInsect]</span><span class="tag-body">Only content related to the trial is documented.</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Click.</p>
+<p class="text xiyang speech">“Come in.”</p>
+<p class="text right prose">The hinge gave a faint metallic scrape, like a rusted spine being forced open. The air held the factory’s peculiar smell of oxidized metal, mingled with the stale odor of old electrical equipment. The desolation of the place made it feel alien.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Discarded PCB boards]</span></p>
+<p class="text tag-caption"><span class="tag">[Soldering iron]</span></p>
+<p class="text tag-caption"><span class="tag">[Electronic components]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Book]</span> Collection of Difficult Problems</p>
+<p class="text tag-caption"><span class="tag">[Book]</span> Mathematical Analysis</p>
+<p class="text tag-caption"><span class="tag">[Book]</span> Field Theory</p>
+<p class="text tag-caption"><span class="tag">[Oscilloscope]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“You live here? Isn’t this an industrial building?”</p>
+<p class="text right prose">She wrinkled her nose slightly, her eyes roaming aimlessly over scattered, yellowed papers and cluttered instruments, briefly pausing on a dark water stain at the corner. Her brow furrowed subtly, a hint of unease threading through her casual tone.</p>
+<p class="text xiyang speech">“Yeah, it is. This place was scheduled for redevelopment years ago, but they never got around to it. A murder happened here a few years back, still unsolved. That scared everyone off, so the rent is really cheap.”</p>
+<p class="text moon speech">“A murder house? Doesn’t that bother you? Maybe you should put up a statue of Guanyin to keep the place quiet.”</p>
+<p class="text left prose">She joked lightly, but her eyes betrayed an unspoken caution. Outside, faint murmurs from the approaching CloudInsect whispered through the city, casting a restless tension over everything.</p>
+<p class="text xiyang speech">“An exorcism may be in order, but I have a more physical solution.”</p>
+<p class="text moon speech">“More physical?”</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“With these masters around, no ghost or spirit would dare come within a hundred meters.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Photo]</span> The Fifth Solvay Conference (1927)</p>
+<p class="text tag-caption"><span class="tag">[Image]</span> Timeline of Human Civilization</p>
+<p class="text left prose">Her eyes followed his finger, settling on the dusty black-and-white photo from the 1927 Solvay Conference, showcasing legendary physicists—Einstein, Schrödinger, Bohr, and Heisenberg—sitting sternly, eyes fixed forward with cold authority.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“All right. That is certainly… physical.”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“I thought your university provided dormitories—why rent your own place?”</p>
+<p class="text left prose">He glanced quietly at her gentle profile, lips subtly tightening and then relaxing, as if gathering the resolve to ask a lingering question.</p>
+<p class="text moon speech">“I don’t really get along with my roommates.<br/>Besides, I have to work part-time often, so it’s inconvenient to stay on campus.”</p>
+<p class="text xiyang speech">“Singing at bars?”</p>
+<p class="text moon speech">“You’re a good student—why ask about that?”</p>
+<p class="text xiyang speech">“It’s tough renting a place these days. If you don’t mind, you can stay here temporarily until you find somewhere else. There’s some space near the window…”</p>
+<p class="text moon speech">“…Are you sure?”</p>
+<p class="text xiyang speech">“Yeah.”</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Meow!</p>
+<p class="text tag-caption"><span class="tag">[Trophy]</span> Physics Olympiad Gold Medal</p>
+<p class="text tag-caption"><span class="tag">[Cat Food]</span></p>
+<p class="text tag-caption"><span class="tag">[Certificate]</span> First Prize, National Mathematics Competition</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Is this your cat?”</p>
+<p class="text xiyang speech">“Not exactly. They’re strays, but I feed them regularly, so they've gotten used to me.”</p>
+<p class="text moon speech">“Do they have names?”</p>
+<p class="text xiyang speech">“The black one’s Betelgeuse, and the orange one’s Europa.”</p>
+<p class="text moon speech">“They’re such beautiful cats. Why give them such strange names?”</p>
+<p class="text xiyang speech">“You wouldn’t understand. The names of stars are the most romantic names there are.”</p>
+<p class="text moon speech">“Wow, even a scientist knows romance? Planning to adopt an entire galaxy?”</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Poor little thing. So beautiful, yet still unwanted.”</p>
+<p class="text left prose">She bent down, gently caressing the black cat’s soft, warm fur, oblivious to the quiet sadness creeping into her voice.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">He stood silently for a moment, sensing the subtle sorrow in her tone but choosing not to speak. He simply stood there, bathed in gentle sunlight, his expression calm and unreadable as ice untouched by warmth.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Never had I encountered a god,</p>
+<p class="text left prose">until that day—</p>
+<p class="text left prose">he stood within the light</p>
+<p class="text left prose">and bestowed on me food and the names of stars.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Previous chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ja" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">雲虫</h1>
+<h2 class="opening-title">第二章 雲中人 · 一</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">［雲虫］</span><span class="tag-body">7115恒星系第7文明・第6次審判記録</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">［雲虫］</span><span class="tag-body">審判に関わる事項のみを記録</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">ガチャ</p>
+<p class="text xiyang speech">「どうぞ」</p>
+<p class="text right prose">蝶番がかすかな金属音を立てた。錆びついた背骨を無理やりひねり開けるような音だった。空気には工場特有の鉄錆の臭いと、古びた電気機器の匂いが染みつき、ひどく冷え冷えとして、よそよそしかった。</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［廃PCB基板］</span></p>
+<p class="text tag-caption"><span class="tag">［はんだごて］</span></p>
+<p class="text tag-caption"><span class="tag">［電子部品］</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［書籍］</span> 難問精選</p>
+<p class="text tag-caption"><span class="tag">［書籍］</span> 数学解析</p>
+<p class="text tag-caption"><span class="tag">［書籍］</span> 場の理論</p>
+<p class="text tag-caption"><span class="tag">［オシロスコープ］</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">「ここに住んでるの？　ここ、工業ビルじゃない？」</p>
+<p class="text right prose">彼女は鼻をしかめて辺りを見回した。黄ばんだ紙束や散らばった機器の上を通り過ぎた視線が、何げなく壁際の黒い染みに止まる。眉がわずかに寄り、声には戸惑いと、かすかな不安がにじんでいた。</p>
+<p class="text xiyang speech">「そうだよ。この辺りは昔、再開発地区に指定されたんだけど、計画はずっと棚上げのまま。何年か前には殺人事件まであって、いまだに未解決なんだ。だから誰も借りたがらないし、家賃も安い」</p>
+<p class="text moon speech">「えっ、いわくつきの部屋？　気にならないの？　観音さまでも置いて、鎮めたほうがよくない？」</p>
+<p class="text left prose">口調こそ冗談めいていたが、目には無意識の警戒が浮かんでいた。窓の外からは、雲虫の接近にざわめく街の気配がかすかに届く。都市全体が、言葉にならない動揺に覆われていた。</p>
+<p class="text xiyang speech">「魔除けは必要だけど、もっと物理的な方法がある」</p>
+<p class="text moon speech">「もっと物理的？」</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">「ほら。この大先生方が鎮座していれば、半径百メートルは鬼も神も近寄れない」</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">［写真］</span> 第5回ソルベー会議（1927年）</p>
+<p class="text tag-caption"><span class="tag">［図］</span> 人類文明発展年表</p>
+<p class="text left prose">彼の指先を追うと、薄く埃をかぶった古い白黒写真が目に入った。写っているのは、1927年の第5回ソルベー会議。アインシュタイン、シュレーディンガー、ボーア、ハイゼンベルク――物理学史に名を刻む巨人たちが並んで腰を下ろし、無表情にレンズを見据えている。その顔には、どこか冷厳な威圧感があった。</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">「なるほど。たしかに、ものすごく物理的……」</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">「君の大学には寮があるだろ。どうしてわざわざ部屋を借りてるの？」</p>
+<p class="text left prose">彼は、静かで柔らかな彼女の横顔を見つめた。唇をわずかに結び、またほどく。迷った末に、とうとうその問いを口にすることにしたらしい。</p>
+<p class="text moon speech">「ルームメイトとうまくいかないの。<br/>それに、しょっちゅうバイトに出るから、寮暮らしも不便で」</p>
+<p class="text xiyang speech">「バーで歌う仕事？」</p>
+<p class="text moon speech">「優等生が、そんなこと聞いてどうするの？」</p>
+<p class="text xiyang speech">「今は外で部屋を探すのも大変だし、嫌じゃなければ、見つかるまでここでしのいでもいいよ。僕のほう、窓際にまだ少し空いてる場所があるから……」</p>
+<p class="text moon speech">「……本気？」</p>
+<p class="text xiyang speech">「うん」</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">ニャア！</p>
+<p class="text tag-caption"><span class="tag">［トロフィー］</span> 物理オリンピック　金メダル</p>
+<p class="text tag-caption"><span class="tag">［キャットフード］</span></p>
+<p class="text tag-caption"><span class="tag">［賞状］</span> 全国数学コンクール　一等賞</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">「この猫、君が飼ってるの？」</p>
+<p class="text xiyang speech">「飼ってるわけじゃないよ。野良猫。よく餌をやるから、顔を覚えられただけ」</p>
+<p class="text moon speech">「名前はあるの？」</p>
+<p class="text xiyang speech">「黒いほうがベテルギウスで、茶トラがエウロパ」</p>
+<p class="text moon speech">「こんなに可愛い猫なのに、何よその変な名前……」</p>
+<p class="text xiyang speech">「分かってないな。星の名前こそ、いちばんロマンチックなんだ」</p>
+<p class="text moon speech">「へえ、理系男子にもロマンが分かるんだ。何、銀河系でも拾って帰るつもり？」</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">「かわいそうに。こんなに可愛いのに、結局は誰にももらわれなかったんだね」</p>
+<p class="text left prose">彼女はうつむき、黒猫の背を撫でた。指先で柔らかく温かな毛並みを確かめながら、自分の何げない声に、かすかな悲しみがにじんでいることには気づかなかった。</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">彼はしばらく黙っていた。何かを聞き取ったらしいが、言葉は返さない。ただ光の中に立ち、その眼差しだけが、長いあいだ解けずにいる硬い氷のように静かだった。</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">私は、神に出会ったことなどなかった。</p>
+<p class="text left prose">あの日までは。</p>
+<p class="text left prose">彼は光の中に立ち、</p>
+<p class="text left prose">私に糧と、星の名を授けた。</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Previous chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ko" hidden="">
+<section aria-label="章节开场" class="opening">
+<h1 class="opening-brand">운충</h1>
+<h2 class="opening-title">제2장 운중인 · 1</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[운충]</span><span class="tag-body">7115 항성계 제7문명 제6차 심판 기록</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[운충]</span><span class="tag-body">문명 심판과 관련된 내용만 기록한다</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">철컥</p>
+<p class="text xiyang speech">“들어와.”</p>
+<p class="text right prose">문 경첩이 가느다란 쇳소리를 냈다. 녹슨 척추를 억지로 비틀어 여는 듯한 소리였다. 공장 특유의 쇳내와 낡은 전기 기기 냄새가 뒤섞여 공기 속에 배어 있었다. 싸늘하고 적막한 기운이 사람을 저절로 멀어지게 했다.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[폐 PCB 기판]</span></p>
+<p class="text tag-caption"><span class="tag">[인두]</span></p>
+<p class="text tag-caption"><span class="tag">[전자 부품]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[서적]</span> 난제 선집</p>
+<p class="text tag-caption"><span class="tag">[서적]</span> 수학해석</p>
+<p class="text tag-caption"><span class="tag">[서적]</span> 장론</p>
+<p class="text tag-caption"><span class="tag">[오실로스코프]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“여기서 살아? 여긴 공업용 건물 아니야?”</p>
+<p class="text right prose">그녀는 코끝을 찡그리며 주위를 둘러보았다. 누렇게 뜬 종이와 널브러진 기구들을 스치던 시선이 무심한 듯 벽 모퉁이의 검은 물때에 멎었다. 살짝 찌푸린 미간과 목소리에 의아함과 희미한 불안이 배어 있었다.</p>
+<p class="text xiyang speech">“응. 이 일대가 예전에 재개발 구역으로 묶였는데, 계획이 계속 미뤄졌어. 몇 년 전엔 살인 사건까지 났고 아직도 미제라서 아무도 빌리려 하지 않지. 그러니 월세가 쌀 수밖에.”</p>
+<p class="text moon speech">“뭐? 흉가잖아? 그런 거 안 꺼려? 관음상이라도 하나 모셔서 눌러 놔야 하는 거 아냐?”</p>
+<p class="text left prose">말투는 농담 같았지만, 눈빛에는 저도 모르게 경계하는 기색이 드러났다. 창밖에서는 운충이 다가온다는 소요가 희미하게 밀려왔다. 도시는 말로 다 할 수 없는 불안에 휩싸여 있었다.</p>
+<p class="text xiyang speech">“액막이는 해야지. 대신 난 좀 더 물리적인 방법이 있어.”</p>
+<p class="text moon speech">“더 물리적인 방법?”</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“봐. 이 대가들이 버티고 계시니 반경 백 미터 안에는 귀신도 얼씬 못 해.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[사진]</span> 제5차 솔베이 회의 (1927)</p>
+<p class="text tag-caption"><span class="tag">[도표]</span> 인류 문명 발전 연표</p>
+<p class="text left prose">그녀가 그의 손끝을 따라 바라보자, 먼지가 엷게 내려앉은 낡은 흑백사진 한 장이 눈에 들어왔다. 1927년 제5차 솔베이 회의 사진이었다. 아인슈타인, 슈뢰딩거, 보어, 하이젠베르크——물리학계의 거장들이 한자리에 앉아 무표정한 얼굴로 렌즈를 정면으로 응시하고 있었다. 그 표정에는 서늘하고 엄정한 위엄이 서려 있었다.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“그래. 이건 확실히 아주 물리적이네……”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“네 대학엔 기숙사 있잖아. 그런데 왜 따로 방을 구했어?”</p>
+<p class="text left prose">그는 고요하고 부드러운 그녀의 옆얼굴을 바라보았다. 입술을 살짝 다물었다가 풀었다. 망설인 끝에 결국 그 질문을 꺼내기로 한 듯했다.</p>
+<p class="text moon speech">“룸메이트들이랑 안 맞아.<br/>게다가 밖에서 아르바이트할 일이 많아서, 기숙사 생활은 불편해.”</p>
+<p class="text xiyang speech">“바에서 노래하는 일이야?”</p>
+<p class="text moon speech">“모범생이 그런 건 왜 물어?”</p>
+<p class="text xiyang speech">“지금은 밖에서 방 구하기도 힘들잖아. 싫지만 않으면 방을 찾을 때까지 여기서 지내도 돼. 내 쪽 창가에 아직 빈자리가 좀 있거든……”</p>
+<p class="text moon speech">“……정말?”</p>
+<p class="text xiyang speech">“응.”</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">야옹!</p>
+<p class="text tag-caption"><span class="tag">[트로피]</span> 물리 올림피아드 금메달</p>
+<p class="text tag-caption"><span class="tag">[고양이 사료]</span></p>
+<p class="text tag-caption"><span class="tag">[상장]</span> 전국 수학 경시대회 1등</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“이 고양이, 네가 키워?”</p>
+<p class="text xiyang speech">“그건 아니야. 길고양이야. 자주 밥을 주니까 낯을 익힌 거지.”</p>
+<p class="text moon speech">“이름은 있어?”</p>
+<p class="text xiyang speech">“검은 애는 베텔게우스, 치즈색 애는 유로파.”</p>
+<p class="text moon speech">“이렇게 예쁜 고양이들한테 무슨 이름을 그렇게 지었어……”</p>
+<p class="text xiyang speech">“넌 몰라. 별 이름이야말로 제일 낭만적이야.”</p>
+<p class="text moon speech">“어머, 이과생도 낭만을 아네. 왜, 은하수 하나 주워 오려고?”</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“가엾은 녀석. 이렇게 예쁜데도 결국 아무도 데려가지 않았네.”</p>
+<p class="text left prose">그녀는 고개를 숙여 검은 고양이의 등을 쓰다듬었다. 손끝으로 부드럽고 따뜻한 털을 느끼면서도, 무심히 흘린 목소리에 옅은 슬픔이 배어 있다는 건 알아차리지 못했다.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">그는 잠시 침묵했다. 무언가를 알아들은 듯했지만 말을 잇지 않았다. 그저 빛 속에 서 있었다. 눈빛은 오래도록 녹지 않은 단단한 얼음처럼 고요했다.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">나는 신을 만난 적이 없었다.</p>
+<p class="text left prose">그날까지는.</p>
+<p class="text left prose">그는 빛 속에 서서,</p>
+<p class="text left prose">내게 먹을 것과 별의 이름을 내려 주었다.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Chapter navigation" class="chapter-pager">
+<a aria-label="Previous chapter" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Next chapter" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="es" hidden="">
+<section aria-label="Apertura del capítulo" class="opening">
+<h1 class="opening-brand">CloudInsect</h1>
+<h2 class="opening-title">Capítulo 2: Habitantes de las nubes · 1</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[CloudInsect]</span><span class="tag-body">Sistema estelar 7115, Civilización n.º 7 — Registro del Sexto Juicio</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[CloudInsect]</span><span class="tag-body">Solo se consigna lo relacionado con el juicio</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Clic</p>
+<p class="text xiyang speech">«Adelante.»</p>
+<p class="text right prose">Las bisagras dejaron escapar un leve roce metálico, como si alguien retorciera a la fuerza una espina dorsal oxidada. En el aire flotaba el olor a herrumbre propio de una fábrica, mezclado con el aliento de viejos aparatos eléctricos. La desolación del lugar imponía distancia.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Placas de circuito desechadas]</span></p>
+<p class="text tag-caption"><span class="tag">[Soldador eléctrico]</span></p>
+<p class="text tag-caption"><span class="tag">[Componentes electrónicos]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Libro]</span> Antología de problemas difíciles</p>
+<p class="text tag-caption"><span class="tag">[Libro]</span> Análisis matemático</p>
+<p class="text tag-caption"><span class="tag">[Libro]</span> Teoría de campos</p>
+<p class="text tag-caption"><span class="tag">[Osciloscopio]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«¿Vives aquí? ¿Esto no es un edificio industrial?»</p>
+<p class="text right prose">Ella arrugó la nariz y recorrió el lugar con la mirada. Sus ojos pasaron sobre las páginas amarillentas y los instrumentos esparcidos hasta detenerse, con fingida indiferencia, en una mancha negra de humedad que trepaba por un rincón. Frunció apenas el ceño; en su voz asomaban la duda y una vaga inquietud.</p>
+<p class="text xiyang speech">«Sí. Hace años incluyeron esta zona en un plan de reconstrucción, pero nunca llegó a hacerse nada. Además, hace unos años hubo un asesinato que sigue sin resolver. Nadie se atreve a alquilar aquí, así que el precio es muy bajo.»</p>
+<p class="text moon speech">«¿Qué? ¿Vives en la escena de un crimen? ¿No te da mal rollo? ¿No deberías poner una estatua de Guanyin para ahuyentar a los malos espíritus?»</p>
+<p class="text left prose">Lo dijo como si bromeara, pero en sus ojos se coló una cautela involuntaria. Desde fuera llegaba, apagado, el rumor de una ciudad agitada ante la inminente llegada de CloudInsect. Una inquietud imposible de nombrar lo cubría todo.</p>
+<p class="text xiyang speech">«Hay que mantener alejados a los espíritus, sí. Pero yo utilizo un método más… físico.»</p>
+<p class="text moon speech">«¿Más físico?»</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">«Mira. Con todos estos titanes de guardia, ningún fantasma ni dios se atreve a acercarse en cien metros a la redonda.»</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Fotografía]</span> Quinta Conferencia Solvay (1927 d. C.)</p>
+<p class="text tag-caption"><span class="tag">[Imagen]</span> Cronología del desarrollo de la civilización humana</p>
+<p class="text left prose">Siguió la dirección de su dedo y descubrió una vieja fotografía en blanco y negro velada por una fina capa de polvo. Era la Quinta Conferencia Solvay de 1927. Allí estaban sentados varios gigantes de la física —Einstein, Schrödinger, Bohr, Heisenberg—, mirando a la cámara sin una sonrisa, con una severa majestad en el rostro.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«De acuerdo. Esto sí que es muy físico…»</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">«Creía que tu universidad tenía residencias. ¿Por qué alquilas una habitación por tu cuenta?»</p>
+<p class="text left prose">Él contempló la suavidad serena de su perfil. Apretó apenas los labios y volvió a relajarlos, como si por fin se hubiera decidido a formular aquella pregunta.</p>
+<p class="text moon speech">«No me llevo bien con mis compañeras de habitación.<br/>Además, salgo a trabajar a menudo. Vivir en la residencia no me resulta práctico.»</p>
+<p class="text xiyang speech">«¿Trabajas cantando en un bar?»</p>
+<p class="text moon speech">«Tú eres un chico modélico. ¿Para qué preguntas esas cosas?»</p>
+<p class="text xiyang speech">«Ahora es difícil encontrar alquiler. Si no te importa cómo está esto, podrías quedarte aquí hasta que encuentres otra cosa. Junto a la ventana aún queda un espacio libre…»</p>
+<p class="text moon speech">«…¿Estás seguro?»</p>
+<p class="text xiyang speech">«Sí.»</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">¡Miau!</p>
+<p class="text tag-caption"><span class="tag">[Trofeo]</span> Medalla de oro de la Olimpiada de Física</p>
+<p class="text tag-caption"><span class="tag">[Comida para gatos]</span></p>
+<p class="text tag-caption"><span class="tag">[Diploma]</span> Primer premio del Concurso Nacional de Matemáticas</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«¿Este gato es tuyo?»</p>
+<p class="text xiyang speech">«No exactamente. Son callejeros. Les doy de comer a menudo y ya me conocen.»</p>
+<p class="text moon speech">«¿Tienen nombre?»</p>
+<p class="text xiyang speech">«El negro se llama Betelgeuse; el naranja, Europa.»</p>
+<p class="text moon speech">«Con lo bonitos que son… ¿Qué clase de nombres son esos?»</p>
+<p class="text xiyang speech">«No lo entiendes. No hay nombres más románticos que los de las estrellas.»</p>
+<p class="text moon speech">«Vaya, así que el científico también entiende de romanticismo. ¿Qué pasa, quieres recoger una galaxia entera de la calle?»</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«Pobrecito… Tan bonito y, al final, nadie lo quiere.»</p>
+<p class="text left prose">Bajó la cabeza y acarició el lomo del gato negro, sintiendo bajo las yemas la tibieza de su pelaje. No advirtió la tristeza distraída que se había filtrado en su voz.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Él guardó silencio un instante. Pareció captar algo, pero no respondió. Se limitó a permanecer de pie en medio de la luz, con una mirada tan serena como un bloque de hielo que llevara años sin derretirse.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Nunca había conocido a un dios.</p>
+<p class="text left prose">Hasta aquel día:</p>
+<p class="text left prose">él se alzó en medio de la luz</p>
+<p class="text left prose">y me concedió alimento y el nombre de una estrella.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Navegación entre capítulos" class="chapter-pager">
+<a aria-label="Capítulo anterior" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="Capítulo anterior"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Capítulo siguiente" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="Capítulo siguiente"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="fr" hidden="">
+<section aria-label="Ouverture du chapitre" class="opening">
+<h1 class="opening-brand">Insecte-Nuage</h1>
+<h2 class="opening-title">Chapitre 2 : Les Habitants des nuages · I</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[Insecte-Nuage]</span><span class="tag-body">Système stellaire 7115, civilisation n° 7 — Registre du sixième Jugement</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[Insecte-Nuage]</span><span class="tag-body">Seuls les éléments relatifs au procès sont consignés</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Clic</p>
+<p class="text xiyang speech">« Entrez. »</p>
+<p class="text right prose">Le gond émit un léger grincement métallique, comme si l’on tordait de force une colonne vertébrale rouillée. L’air avait cette odeur de fer propre aux usines, mêlée aux relents d’appareils électriques vétustes ; une froide désolation qui tenait le monde à distance.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Circuits imprimés usagés]</span></p>
+<p class="text tag-caption"><span class="tag">[Fer à souder]</span></p>
+<p class="text tag-caption"><span class="tag">[Composants électroniques]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Livres]</span> Recueil de problèmes difficiles</p>
+<p class="text tag-caption"><span class="tag">[Livres]</span> Analyse mathématique</p>
+<p class="text tag-caption"><span class="tag">[Livres]</span> Théorie des champs</p>
+<p class="text tag-caption"><span class="tag">[Oscilloscope]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">« Tu vis ici ? Mais c’est un bâtiment industriel. »</p>
+<p class="text right prose">Elle plissa le nez et regarda autour d’elle. Ses yeux glissèrent sur les pages jaunies, les instruments épars, puis s’arrêtèrent distraitement sur une tache d’humidité noire dans un coin. Ses sourcils se froncèrent à peine ; un doute, et une sourde inquiétude, passèrent dans sa voix.</p>
+<p class="text xiyang speech">« Oui. Le quartier devait être réaménagé il y a des années, mais le projet est resté en suspens. Il y a aussi eu un meurtre ici ; l’affaire n’est toujours pas résolue. Personne n’ose louer, alors forcément, ce n’est pas cher. »</p>
+<p class="text moon speech">« Quoi ? Une maison hantée par un meurtre ? Ça ne te gêne pas ? Tu ne devrais pas mettre une statue de Guanyin pour calmer les esprits ? »</p>
+<p class="text left prose">Elle avait pris le ton de la plaisanterie, mais son regard trahissait une vigilance involontaire. Au-dehors montait confusément l’agitation qui précédait l’Insecte-Nuage ; une panique sans nom enveloppait la ville.</p>
+<p class="text xiyang speech">« Il faut bien chasser les esprits. Mais j’ai une méthode plus… physique. »</p>
+<p class="text moon speech">« Plus physique ? »</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">« Regarde. Avec ces grands maîtres pour monter la garde, ni fantôme ni dieu n’osera approcher à cent mètres. »</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Photographie]</span> Cinquième congrès Solvay (1927 apr. J.-C.)</p>
+<p class="text tag-caption"><span class="tag">[Image]</span> Chronologie du développement de la civilisation humaine</p>
+<p class="text left prose">Elle suivit son doigt et découvrit une vieille photographie en noir et blanc, voilée d’une fine poussière. Le cinquième congrès Solvay, en 1927 : les géants de la physique — Einstein, Schrödinger, Bohr, Heisenberg — assis côte à côte, fixant l’objectif sans expression, avec une sorte de majesté glaciale.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">« D’accord… c’est effectivement très physique. »</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">« Il me semble que ton université a des résidences. Pourquoi louer ailleurs ? »</p>
+<p class="text left prose">Il contempla son profil calme et doux. Ses lèvres se serrèrent, puis se détendirent : il semblait avoir enfin résolu de poser la question.</p>
+<p class="text moon speech">« Je ne m’entends pas avec mes colocataires.<br/>Et comme je travaille souvent dehors, le campus n’est pas pratique. »</p>
+<p class="text xiyang speech">« Tu vas chanter dans un bar ? »</p>
+<p class="text moon speech">« Toi, l’élève modèle, pourquoi ça t’intéresse ? »</p>
+<p class="text xiyang speech">« Ce n’est pas facile de trouver un logement en ce moment. Si l’endroit ne te rebute pas, tu peux rester ici en attendant. Il me reste un peu de place près de la fenêtre… »</p>
+<p class="text moon speech">« … Tu es sûr ? »</p>
+<p class="text xiyang speech">« Oui. »</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Miaou !</p>
+<p class="text tag-caption"><span class="tag">[Trophée]</span> Médaille d’or aux Olympiades de physique</p>
+<p class="text tag-caption"><span class="tag">[Croquettes pour chats]</span></p>
+<p class="text tag-caption"><span class="tag">[Diplôme]</span> Premier prix au concours national de mathématiques</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">« Ces chats sont à toi ? »</p>
+<p class="text xiyang speech">« Pas vraiment. Ce sont des chats errants. Je les nourris souvent, alors ils me connaissent. »</p>
+<p class="text moon speech">« Ils ont des noms ? »</p>
+<p class="text xiyang speech">« La noire s’appelle Bételgeuse, le roux Europe. »</p>
+<p class="text moon speech">« Des chats aussi beaux… et tu leur donnes des noms pareils. »</p>
+<p class="text xiyang speech">« Tu ne comprends pas. Rien n’est plus romantique qu’un nom d’étoile. »</p>
+<p class="text moon speech">« Tiens donc, le scientifique connaît le romantisme ? Quoi, tu comptes recueillir toute une galaxie ? »</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">« Pauvre petite chose… si belle, et malgré tout, personne ne veut de toi. »</p>
+<p class="text left prose">Elle baissa la tête et caressa le dos de la chatte noire, éprouvant sous ses doigts la douceur tiède de son pelage, sans entendre la tristesse distraite qui venait de se glisser dans sa voix.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Il se tut un instant. Il semblait avoir perçu quelque chose, mais n’ajouta rien. Debout dans la lumière, il avait le regard calme d’une glace que rien n’avait fait fondre depuis longtemps.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Jamais je n’avais rencontré de dieu.</p>
+<p class="text left prose">Jusqu’à ce jour-là,</p>
+<p class="text left prose">où il se tint dans la lumière</p>
+<p class="text left prose">et m’offrit de quoi vivre, avec le nom d’un astre.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Navigation des chapitres" class="chapter-pager">
+<a aria-label="Chapitre précédent" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="Section précédente"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Chapitre suivant" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="Section suivante"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ar" hidden="">
+<section aria-label="افتتاح الفصل" class="opening">
+<h1 class="opening-brand">حشرة السحاب</h1>
+<h2 class="opening-title">الفصل الثاني: سكان السحاب · 1</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[حشرة السحاب]</span><span class="tag-body">النظام النجمي 7115، الحضارة رقم 7 — سجل المحاكمة السادسة</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[حشرة السحاب]</span><span class="tag-body">لا يُسجَّل إلا ما يتصل بالمحاكمة</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">طَقّ</p>
+<p class="text xiyang speech">«تفضل.»</p>
+<p class="text right prose">صدر عن مفصل الباب احتكاك معدني خافت، كأن عمودًا فقريًا صدئًا يُلوى بالقوة. امتلأ الهواء برائحة الصدأ الخاصة بالمصانع، ممتزجة بأنفاس أجهزة كهربائية عتيقة؛ برودة موحشة تدفع المرء إلى الابتعاد.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[لوحة دوائر مطبوعة مستعملة]</span></p>
+<p class="text tag-caption"><span class="tag">[مكواة لحام]</span></p>
+<p class="text tag-caption"><span class="tag">[مكوّنات إلكترونية]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[كتب]</span> مختارات من المسائل العويصة</p>
+<p class="text tag-caption"><span class="tag">[كتب]</span> التحليل الرياضي</p>
+<p class="text tag-caption"><span class="tag">[كتب]</span> نظرية الحقول</p>
+<p class="text tag-caption"><span class="tag">[راسم ذبذبات]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«أنت تعيش هنا؟ أليس هذا مبنى صناعيًا؟»</p>
+<p class="text right prose">جعّدت أنفها وهي تتلفت. مرّ بصرها على الأوراق المصفرّة والأجهزة المبعثرة، ثم استقر بلا قصد على بقعة ماء سوداء في زاوية الجدار. انعقد حاجباها قليلًا، وتسلل إلى صوتها حيرة وقلق خافت.</p>
+<p class="text xiyang speech">«نعم. أُدرجت هذه المنطقة قبل سنوات في خطة لإعادة البناء، ثم ظلت الخطة معلّقة. ووقعت هنا جريمة قتل منذ أعوام لم تُحل حتى اليوم، لذلك لا يجرؤ أحد على الاستئجار، والإيجار رخيص بطبيعة الحال.»</p>
+<p class="text moon speech">«ماذا؟ بيت شهد جريمة قتل؟ ألا تتشاءم منه؟ ما رأيك أن تضع تمثالًا لغوانيين كي تردع الأرواح؟»</p>
+<p class="text left prose">بدت نبرتها مازحة، لكن نظرتها أفصحت من غير قصد عن حذر متأهب. في الخارج تناهى اضطراب اقتراب حشرة السحاب، وكانت المدينة غارقة في هلع يعجز عن تسمية نفسه.</p>
+<p class="text xiyang speech">«طرد الأرواح مطلوب فعلًا، لكن لدي طريقة أكثر… فيزيائية.»</p>
+<p class="text moon speech">«أكثر فيزيائية؟»</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">«انظري. ما دام هؤلاء العظماء يحرسون المكان، فلن يقترب شبح ولا شيطان لمسافة مئة متر.»</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[صورة فوتوغرافية]</span> مؤتمر سولفاي الخامس (1927م)</p>
+<p class="text tag-caption"><span class="tag">[صورة]</span> خط تطور الحضارة البشرية</p>
+<p class="text left prose">اتبعت اتجاه إصبعه فرأت صورة قديمة بالأبيض والأسود غشاها رماد خفيف. كانت صورة مؤتمر سولفاي الخامس عام 1927: عمالقة الفيزياء — أينشتاين وشرودنغر وبور وهايزنبرغ — جالسون معًا، يحدقون في العدسة بلا تعبير، وفي وجوههم مهابة صارمة باردة.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«حسنًا… هذا فيزيائي فعلًا.»</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">«على حد علمي، لجامعتكم سكن طلابي. لماذا تستأجرين بيتًا وحدك؟»</p>
+<p class="text left prose">تأمل جانب وجهها الهادئ الرقيق. انطبقت شفتاه قليلًا ثم ارتختا، كأنه حسم أمره أخيرًا وقرر أن يسأل.</p>
+<p class="text moon speech">«لا أنسجم مع زميلاتي في الغرفة.<br/>ثم إنني أخرج كثيرًا للعمل، والسكن في الحرم لا يناسبني.»</p>
+<p class="text xiyang speech">«للذهاب إلى الحانة والغناء؟»</p>
+<p class="text moon speech">«أنت طالب نموذجي، فلماذا تسأل عن أشياء كهذه؟»</p>
+<p class="text xiyang speech">«من الصعب إيجاد بيت هذه الأيام. إن لم يزعجك المكان، يمكنك الإقامة هنا مؤقتًا إلى أن تجدي بيتًا. ثمة مساحة خالية قرب النافذة عندي…»</p>
+<p class="text moon speech">«…أأنت متأكد؟»</p>
+<p class="text xiyang speech">«نعم.»</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">مياو!</p>
+<p class="text tag-caption"><span class="tag">[كأس]</span> الميدالية الذهبية في أولمبياد الفيزياء</p>
+<p class="text tag-caption"><span class="tag">[طعام قطط]</span></p>
+<p class="text tag-caption"><span class="tag">[شهادة تقدير]</span> الجائزة الأولى في المسابقة الوطنية للرياضيات</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«أنت تربي هذه القطط؟»</p>
+<p class="text xiyang speech">«ليس تمامًا. إنها قطط شاردة. أطعمها كثيرًا، فألفتني.»</p>
+<p class="text moon speech">«ألها أسماء؟»</p>
+<p class="text xiyang speech">«السوداء اسمها منكب الجوزاء، والبرتقالية أوروبا.»</p>
+<p class="text moon speech">«قطتان جميلتان إلى هذا الحد… وما هذه الأسماء الغريبة؟»</p>
+<p class="text xiyang speech">«أنت لا تفهمين. أسماء النجوم هي الأكثر شاعرية.»</p>
+<p class="text moon speech">«يا للمفاجأة، فتى العلوم يعرف الرومانسية أيضًا! ماذا، أتريد أن تلتقط مجرة كاملة من الشارع؟»</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">«يا لك من صغيرة مسكينة… جميلة هكذا، وفي النهاية لا يريدك أحد.»</p>
+<p class="text left prose">انحنت تمسح ظهر القطة السوداء، تتلمس بأطراف أصابعها فراءها الناعم الدافئ، ولم تنتبه إلى مسحة الحزن التي تسللت عرضًا إلى صوتها.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">صمت لحظة، كأنه التقط ما وراء كلماتها، لكنه لم يعلّق. ظل واقفًا في الضوء، وعيناه ساكنتان كقطعة جليد لم تعرف الذوبان منذ زمن.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">لم ألتقِ إلهًا قط.</p>
+<p class="text left prose">حتى ذلك اليوم،</p>
+<p class="text left prose">وقف في قلب الضوء،</p>
+<p class="text left prose">ومنحني قوتًا واسم نجم.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="التنقل بين الفصول" class="chapter-pager">
+<a aria-label="الفصل السابق" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="القسم السابق"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="الفصل التالي" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="القسم التالي"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ptBR" hidden="">
+<section aria-label="Abertura do capítulo" class="opening">
+<h1 class="opening-brand">Inseto-Nuvem</h1>
+<h2 class="opening-title">Capítulo Dois: Habitantes das Nuvens · I</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[Inseto-Nuvem]</span><span class="tag-body">Sistema Estelar 7115, Civilização nº 7 — Registro do Sexto Julgamento</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[Inseto-Nuvem]</span><span class="tag-body">Somente fatos relacionados ao Julgamento são registrados</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Clac</p>
+<p class="text xiyang speech">“Entre.”</p>
+<p class="text right prose">A dobradiça soltou um leve rangido metálico, como a espinha enferrujada de alguma criatura sendo torcida à força. No ar pairava o cheiro de ferrugem próprio das fábricas, misturado ao odor de aparelhos elétricos envelhecidos — uma frieza desolada que mantinha tudo à distância.</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Placa de circuito impresso descartada]</span></p>
+<p class="text tag-caption"><span class="tag">[Ferro de solda]</span></p>
+<p class="text tag-caption"><span class="tag">[Componentes eletrônicos]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Livro]</span> Coletânea de Problemas Difíceis</p>
+<p class="text tag-caption"><span class="tag">[Livro]</span> Análise Matemática</p>
+<p class="text tag-caption"><span class="tag">[Livro]</span> Teoria de Campos</p>
+<p class="text tag-caption"><span class="tag">[Osciloscópio]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Você mora aqui? Isto não é um prédio industrial?”</p>
+<p class="text right prose">Ela franziu o nariz e percorreu o lugar com os olhos. O olhar passou pelas páginas amareladas, pelos instrumentos espalhados e, displicente, deteve-se na mancha escura de umidade junto à parede. As sobrancelhas se apertaram de leve; havia dúvida em sua voz e uma inquietação mal disfarçada.</p>
+<p class="text xiyang speech">“Moro. Esta área entrou num plano de reconstrução há muitos anos, mas o projeto ficou parado. Alguns anos atrás ainda houve um assassinato aqui, nunca solucionado. Ninguém tem coragem de alugar, por isso o aluguel é tão barato.”</p>
+<p class="text moon speech">“O quê? Um lugar mal-assombrado? E você não liga? Não quer pôr uma imagem de Guanyin para proteger a casa?”</p>
+<p class="text left prose">O tom parecia de brincadeira, mas seu olhar deixava escapar certa cautela. Lá fora, já se ouvia ao longe a agitação que anunciava a chegada do Inseto-Nuvem; uma ansiedade sem nome envolvia a cidade.</p>
+<p class="text xiyang speech">“Afastar espíritos é importante. Mas eu tenho um método mais… físico.”</p>
+<p class="text moon speech">“Mais físico?”</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“Olhe. Com estes grandes mestres de guarda, nenhum fantasma ou divindade chega a cem metros daqui.”</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Fotografia]</span> Quinta Conferência de Solvay (1927 d.C.)</p>
+<p class="text tag-caption"><span class="tag">[Imagem]</span> Linha do tempo do desenvolvimento da civilização humana</p>
+<p class="text left prose">Ela acompanhou a direção do dedo dele e viu uma velha fotografia em preto e branco coberta por uma fina camada de poeira. Era a Quinta Conferência de Solvay, em 1927: gigantes da física — Einstein, Schrödinger, Bohr, Heisenberg — sentados lado a lado, encarando a câmera sem sorrir, com uma austeridade quase ameaçadora.</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Está bem… isso é mesmo muito físico.”</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">“Pensei que sua universidade tivesse alojamentos. Por que alugar um lugar por conta própria?”</p>
+<p class="text left prose">Ele contemplou o perfil sereno e delicado dela. Os lábios se comprimiram e relaxaram, como se, afinal, tivesse decidido fazer a pergunta.</p>
+<p class="text moon speech">“Eu não me dou bem com minhas colegas de quarto.<br/>Além disso, vivo saindo para trabalhar. Morar no alojamento não é prático.”</p>
+<p class="text xiyang speech">“Você vai cantar em bares?”</p>
+<p class="text moon speech">“Você é um aluno exemplar. Para que quer saber disso?”</p>
+<p class="text xiyang speech">“Está difícil encontrar aluguel agora. Se não se importar, pode ficar aqui até achar outro lugar. Ainda há um espaço livre perto da janela, do meu lado…”</p>
+<p class="text moon speech">“…Tem certeza?”</p>
+<p class="text xiyang speech">“Tenho.”</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Miau!</p>
+<p class="text tag-caption"><span class="tag">[Troféu]</span> Medalha de ouro na Olimpíada de Física</p>
+<p class="text tag-caption"><span class="tag">[Ração para gatos]</span></p>
+<p class="text tag-caption"><span class="tag">[Certificado]</span> Primeiro lugar na Competição Nacional de Matemática</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Este gato é seu?”</p>
+<p class="text xiyang speech">“Não exatamente. É de rua. Eu sempre lhes dou comida, então eles já me conhecem.”</p>
+<p class="text moon speech">“Eles têm nome?”</p>
+<p class="text xiyang speech">“O preto se chama Betelgeuse; o laranja, Europa.”</p>
+<p class="text moon speech">“Gatos tão bonitos, com nomes tão esquisitos…”</p>
+<p class="text xiyang speech">“Você não entende. Nomes de estrelas são os mais românticos.”</p>
+<p class="text moon speech">“Ora, o rapaz das exatas também entende de romance? O quê, quer recolher uma galáxia inteira da rua?”</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">“Pobrezinho… tão bonito e, no fim, ninguém o quis.”</p>
+<p class="text left prose">Ela baixou a cabeça e acariciou o dorso do gato preto, sentindo sob os dedos o pelo macio e morno. Não percebeu o fio de tristeza distraída que atravessara sua voz.</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Ele se calou por um instante. Parecia ter ouvido alguma coisa naquela frase, mas não respondeu. Apenas permaneceu de pé na luz, com os olhos serenos como um bloco de gelo que há muito se recusava a derreter.</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">Eu jamais havia encontrado um deus.</p>
+<p class="text left prose">Até aquele dia,</p>
+<p class="text left prose">quando ele se ergueu na luz</p>
+<p class="text left prose">e me concedeu alimento e o nome de uma estrela.</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Navegação entre capítulos" class="chapter-pager">
+<a aria-label="Capítulo anterior" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Próximo capítulo" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main><main class="comic" data-lang-page="ru" hidden="">
+<section aria-label="Открытие главы" class="opening">
+<h1 class="opening-brand">Облачное насекомое</h1>
+<h2 class="opening-title">Глава вторая: Обитатели облаков</h2>
+<div class="opening-meta">
+<p class="text tag-caption tag-row opening-audit"><span class="tag">[Облачное насекомое]</span><span class="tag-body"> Запись 6-го судебного процесса над 7-ой цивилизацией 7115-ой звездной системы.</span></p>
+<p class="opening-time opening-audit-cont"><span class="tag-spacer">[Облачное насекомое]</span><span class="tag-body">Записывать только сведения, относящиеся к суду</span></p>
+</div>
+</section>
+<figure class="panel" data-panel="1" style="--ratio:0.56250000;">
+<img alt="" src="media/image1.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Щелк</p>
+<p class="text xiyang speech">Проходи.</p>
+<p class="text right prose">[Дверные петли издали едва уловимый скрип, словно заржавевший механизм который насильно привели в движение. Воздух пропитался запахом старой электроники, привнося ощущение холода и отстранённости.]</p>
+<figure class="panel" data-panel="2" style="--ratio:0.56250000;">
+<img alt="" src="media/image2.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="3" style="--ratio:0.56250000;">
+<img alt="" src="media/image3.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="4" style="--ratio:0.56250000;">
+<img alt="" src="media/image4.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Старые печатные платы]</span></p>
+<p class="text tag-caption"><span class="tag">[Паяльник]</span></p>
+<p class="text tag-caption"><span class="tag">[Радиодетали]</span></p>
+<figure class="panel" data-panel="5" style="--ratio:0.61230469;">
+<img alt="" src="media/image5.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<figure class="panel" data-panel="6" style="--ratio:0.56250000;">
+<img alt="" src="media/image6.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Книга]</span> Сборник задач по Физике</p>
+<p class="text tag-caption"><span class="tag">[Книга]</span> Математический анализ</p>
+<p class="text tag-caption"><span class="tag">[Книга]</span> Теория поля</p>
+<p class="text tag-caption"><span class="tag">[Осциллограф]</span></p>
+<figure class="panel" data-panel="7" style="--ratio:0.56250000;">
+<img alt="" src="media/image7.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">И ты здесь живешь? Разве это не промышленное здание?</p>
+<p class="text right prose">[Она сморщилась, осмотрелась, её взгляд скользнул по пожелтевшим страницам книг и разбросанным приборам, ненадолго задержавшимся на чёрном пятне плесени в углу. Брови едва заметно сдвинулись — в голосе пронеслись нотки сомнения и неспокойствия]</p>
+<p class="text xiyang speech">Да, этот район давно хотят реконструировать, но проект продолжают откладывать. Несколько лет назад здесь произошло убийство, дело до сих пор не раскрыли. Желающих поселиться здесь почти нет, так что стоимость аренды довольно низкая.</p>
+<p class="text moon speech">Убийство? Может, поставить статуэтку Гуаньинь*, чтобы отпугнуть злых духов?
+*Гуаньинь — буддийская богиня милосердия, которая защищает от бед и приносит благополучие. Ее статуэтки часто ставят дома для защиты и удачи.</p>
+<p class="text left prose">[Её тон был шутливым, но в глазах промелькнула настороженность. Из окна смутно доносился шум, предвещавший приближение «облачного насекомого». Город окутало беспокойство, которое трудно было выразить словами]</p>
+<p class="text xiyang speech">Защита от зла нужна, но, у меня есть более практичный способ.</p>
+<p class="text moon speech">Практичный?</p>
+<figure class="panel" data-panel="8" style="--ratio:0.56250000;">
+<img alt="" src="media/image8.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">Рядом с такими великими учёными мне не страшен ни один призрак.</p>
+<figure class="panel" data-panel="9" style="--ratio:0.56250000;">
+<img alt="" src="media/image9.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text tag-caption"><span class="tag">[Фото]</span> Пятый Сольвеевский конгресс (1927 г.)</p>
+<p class="text tag-caption"><span class="tag">[Изображение]</span> Хронология развития человеческой цивилизации</p>
+<p class="text left prose">[Она проследила за движением его руки и увидела старую чёрно-белую фотографию, покрытую лёгким слоем пыли. На снимке — участники Пятого Сольвеевского конгресса: Эйнштейн, Шрёдингер, Бор, Гейзенберг... Они сидели вместе, бесчувственно глядя в камеру, выражая невозмутимую строгость]</p>
+<figure class="panel" data-panel="10" style="--ratio:0.56250000;">
+<img alt="" src="media/image10.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">Ну да... это действительно... очень «практичный» способ...</p>
+<figure class="panel" data-panel="11" style="--ratio:0.56250000;">
+<img alt="" src="media/image11.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text xiyang speech">Я помню, что в твоем университете есть общежитие, зачем тебе снимать жильё?</p>
+<p class="text left prose">[Он всмотрелся в её спокойное лицо с нежными, изысканными чертами, его губы слегка дрогнули — он только сейчас решился задать этот вопрос.]</p>
+<p class="text moon speech">Я не уживаюсь с соседями.<br/>К тому же мне часто приходится работать, и жить в общежитии не очень удобно.</p>
+<p class="text xiyang speech">Ты в баре поёшь?</p>
+<p class="text moon speech">Ты же примерный студент, зачем тебе это знать?</p>
+<p class="text xiyang speech">Сейчас с арендой жилья тяжело. Если не против, можешь пока пожить здесь, пока не найдешь квартиру.
+У окна есть свободное место.</p>
+<p class="text moon speech">... Ты уверен?</p>
+<p class="text xiyang speech">Да.</p>
+<figure class="panel" data-panel="12" style="--ratio:0.56250000;">
+<img alt="" src="media/image12.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text center sound-effect">Мяу!</p>
+<p class="text tag-caption"><span class="tag">[Кубок]</span> Золотая медаль за победу на олимпиаде по физике</p>
+<p class="text tag-caption"><span class="tag">[Кошачий корм]</span></p>
+<p class="text tag-caption"><span class="tag">[Грамота]</span> Первое место на национальной математической олимпиаде</p>
+<figure class="panel" data-panel="13" style="--ratio:0.56250000;">
+<img alt="" src="media/image13.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">Это твои кошки?</p>
+<p class="text xiyang speech">Не совсем. Это бездомные кошки. Я их подкармливаю, вот они и привыкли ко мне</p>
+<p class="text moon speech">У них есть имена?</p>
+<p class="text xiyang speech">Черную я назвал Бетельгейзе, рыжую — Европа.
+Европа - шестой спутик Юпитера</p>
+<p class="text moon speech">Такие красивые кошки, а имена какие-то странные.</p>
+<p class="text xiyang speech">Ты не понимаешь, звёздые имена — самые романтичные.</p>
+<p class="text moon speech">О, технари могут быть еще и романтиками? Хочешь собрать у себя целую галактику?</p>
+<figure class="panel" data-panel="14" style="--ratio:0.56250000;">
+<img alt="" src="media/image14.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text moon speech">Бедняжка... Такая красивая, а в итоге никому не нужна</p>
+<p class="text left prose">[Она наклонилась, поглаживая черную кошку и ощущая кончиками пальцев её мягкую, тёплую шерсть, не замечая, как в её голосе промелькнула едва уловимая грусть.]</p>
+<figure class="panel" data-panel="15" style="--ratio:0.56250000;">
+<img alt="" src="media/image15.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">[Он на мгновение замолчал, будто что-то уловив. Слово не находилось. Он просто стоял в свете, а его взгляд был спокоен, как застывший лёд]</p>
+<figure class="panel" data-panel="16" style="--ratio:0.73779297;">
+<img alt="" src="media/image16.jpg" style="--img-w:100.000000%; --img-h:100.000000%; --img-left:0.000000%; --img-top:0.000000%;"/>
+</figure>
+<p class="text left prose">[Я никогда не встречала богов,</p>
+<p class="text left prose">пока не увидела его,</p>
+<p class="text left prose">стоящего в свете.</p>
+<p class="text left prose">Он дал мне пищу и имя звезды.]</p>
+<figure aria-hidden="true" class="scene-break">
+<img alt="" src="../../assets/cloud-insect-logo-v4.2.03.png"/>
+</figure>
+<nav aria-label="Навигация по главам" class="chapter-pager">
+<a aria-label="Предыдущая глава" class="chapter-pager-button" href="../chapter-1-xiyang/index.html" title="上一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-prev.png"/></a>
+<a aria-label="Следующая глава" class="chapter-pager-button" href="../chapter-2-cloud-dwellers-2/index.html" title="下一节"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>
+</nav>
+</main>
+<script data-cloudinsect-lang="true">
+(function () {
+  const settingsToggle = document.querySelector('.settings-toggle');
+  const controlsPanel = document.querySelector('.controls-panel');
+  const controls = Array.from(document.querySelectorAll('.lang-option'));
+  const fontButtons = Array.from(document.querySelectorAll('.font-button'));
+  const chapterSelect = document.querySelector('.chapter-select');
+  const menuLabels = Array.from(document.querySelectorAll('.toc-link[data-zh][data-zh-hant][data-en], .chapter-select option[data-zh][data-zh-hant][data-en]'));
+  const pages = Array.from(document.querySelectorAll('.comic[data-lang-page]'));
+  const languageMeta = {
+    vi: { htmlLang: 'vi', title: 'Vân Trùng · Chương 2: Người Trong Mây · I · v5.1.39' },
+    zh: { htmlLang: 'zh-CN', title: '云虫 第二章 云中人 · 一 · v5.1.39' },
+    zhHant: { htmlLang: 'zh-Hant', title: '雲蟲 第二章 雲中人 · 一 · v5.1.39' },
+    en: { htmlLang: 'en', title: 'CloudInsect Chapter 2: Cloud Dwellers - 1 · v5.1.39' },
+    ja: { htmlLang: 'ja', title: '雲虫 第二章 雲中人 · 一 · v5.1.39' },
+    ko: { htmlLang: 'ko', title: '운충 제2장 운중인 · 1 · v5.1.39' },
+    es: { htmlLang: 'es', title: 'CloudInsect · Capítulo 2: Habitantes de las nubes · 1 · v5.1.39' },
+    fr: { htmlLang: 'fr', title: "Insecte-Nuage · Chapitre 2 : Les Habitants des nuages · I · v5.1.39" },
+    ar: { htmlLang: 'ar', title: 'حشرة السحاب · الفصل الثاني: سكان السحاب · 1 · v5.1.39' },
+    ptBR: { htmlLang: 'pt-BR', title: "Inseto-Nuvem · Capítulo Dois: Habitantes das Nuvens · I · v5.1.39" },
+    ru: { htmlLang: 'ru', title: "Облачное насекомое · Глава вторая: Обитатели облаков · I · v5.1.39" }
+  };
+  const fontScales = [0.74, 0.80, 0.86, 0.94, 1, 1.1, 1.22, 1.36];
+  function readStoredValue(key) { try { return window.localStorage.getItem(key); } catch (error) { return null; } }
+  function writeStoredValue(key, value) { try { window.localStorage.setItem(key, value); } catch (error) {} }
+  function removeStoredValue(key) { try { window.localStorage.removeItem(key); } catch (error) {} }
+  let lang = readStoredValue('cloudinsect-lang') || 'vi';
+  let fontIndex = 3;
+  if (!languageMeta[lang]) lang = 'zh';
+  removeStoredValue('cloudinsect-font-index');
+  function visiblePage() { return pages.find((page) => !page.hidden) || pages[0]; }
+  function captureReadingAnchor() {
+    const page = visiblePage();
+    if (!page) return null;
+    const viewportAnchor = window.innerHeight * 0.45;
+    const centered = document.elementFromPoint(window.innerWidth / 2, viewportAnchor);
+    const centeredAnchor = centered && centered.closest('.opening, .panel, .text, .chapter-pager');
+    if (centeredAnchor && page.contains(centeredAnchor)) {
+      return { index: Array.from(page.querySelectorAll('.opening, .panel, .text, .chapter-pager')).indexOf(centeredAnchor), top: centeredAnchor.getBoundingClientRect().top };
+    }
+    const candidates = Array.from(page.querySelectorAll('.opening, .panel, .text, .chapter-pager'));
+    let best = null;
+    candidates.forEach((el, index) => {
+      const rect = el.getBoundingClientRect();
+      if (rect.bottom <= 0 || rect.top >= window.innerHeight) return;
+      const distance = Math.abs((rect.top + rect.bottom) / 2 - viewportAnchor);
+      if (!best || distance < best.distance) best = { index, top: rect.top, distance };
+    });
+    return best;
+  }
+
+  function setControlsOpen(open) {
+    if (!settingsToggle || !controlsPanel) return;
+    controlsPanel.classList.toggle('is-open', open);
+    settingsToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  function restoreReadingAnchor(anchor) {
+    if (!anchor) return;
+    const page = visiblePage();
+    if (!page) return;
+    const nextItems = Array.from(page.querySelectorAll('.opening, .panel, .text, .chapter-pager'));
+    const nextEl = nextItems[Math.min(anchor.index, nextItems.length - 1)];
+    if (!nextEl) return;
+    const nextTop = nextEl.getBoundingClientRect().top;
+    window.scrollBy(0, nextTop - anchor.top);
+  }
+  function applyLanguage(nextLang) {
+    const anchor = captureReadingAnchor();
+    lang = languageMeta[nextLang] ? nextLang : 'zh';
+    document.documentElement.lang = languageMeta[lang].htmlLang;
+    document.title = languageMeta[lang].title;
+    pages.forEach((page) => { page.hidden = page.dataset.langPage !== lang; });
+    controls.forEach((control) => control.setAttribute('aria-pressed', control.dataset.lang === lang ? 'true' : 'false'));
+    menuLabels.forEach((option) => {
+      const key = lang === 'zhHant' ? 'zhHant' : (lang === 'ptBR' ? 'ptBr' : lang);
+      option.textContent = option.dataset[key] || option.dataset.zh;
+    });
+    writeStoredValue('cloudinsect-lang', lang);
+    restoreReadingAnchor(anchor);
+  }
+  function applyFontScale(nextIndex, preserveAnchor) {
+    const anchor = preserveAnchor ? captureReadingAnchor() : null;
+    fontIndex = Math.min(fontScales.length - 1, Math.max(0, nextIndex));
+    document.documentElement.style.setProperty('--reader-scale', fontScales[fontIndex]);
+    fontButtons.forEach((button) => {
+      const step = Number(button.dataset.fontStep);
+      button.disabled = (step < 0 && fontIndex === 0) || (step > 0 && fontIndex === fontScales.length - 1);
+    });
+    restoreReadingAnchor(anchor);
+  }
+  controls.forEach((control) => {
+    control.addEventListener('click', () => {
+      applyLanguage(control.dataset.lang);
+      setControlsOpen(false);
+    });
+  });
+  fontButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      button.blur();
+      applyFontScale(fontIndex + Number(button.dataset.fontStep), true);
+    });
+  });
+  if (chapterSelect) {
+    chapterSelect.addEventListener('change', () => {
+      if (!chapterSelect.value) return;
+      window.location.href = chapterSelect.value;
+    });
+  }
+  if (settingsToggle && controlsPanel) {
+    settingsToggle.addEventListener('click', (event) => {
+      event.stopPropagation();
+      setControlsOpen(!controlsPanel.classList.contains('is-open'));
+    });
+    controlsPanel.addEventListener('click', (event) => event.stopPropagation());
+    document.addEventListener('click', () => setControlsOpen(false));
+    window.addEventListener('scroll', () => setControlsOpen(false), { passive: true });
+  }
+  applyLanguage(lang);
+  applyFontScale(fontIndex);
+}());
+</script>
+<script src="../../assets/site-footer.js?v=5.1.39"></script>
+<script data-cloudinsect-language-select="true">
+(function () {
+  const select = document.querySelector('.language-select');
+  if (!select) return;
+  let stored = 'vi';
+  try { stored = localStorage.getItem('cloudinsect-lang') || 'vi'; } catch (error) {}
+  if (Array.from(select.options).some((option) => option.value === stored)) select.value = stored;
+  select.addEventListener('change', function () {
+    try { localStorage.setItem('cloudinsect-lang', select.value); } catch (error) {}
+    window.location.reload();
+  });
+}());
+</script>
+<script data-cloudinsect-spanish-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: suscripción mensual con pagos internacionales mediante tarjeta, PayPal y otros métodos.","gumroad":"Gumroad: compra directa con pagos internacionales mediante tarjeta, PayPal y otros métodos.","huotan":"HuoTan: compra directa mediante WeChat Pay y Alipay.","azz":"AZZ: suscripción mensual mediante WeChat Pay y Alipay."};
+  function applySpanishSurface() {
+    if (!/^es\b/i.test(document.documentElement.lang || '')) return;
+    document.querySelectorAll('[data-tooltip-es]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipEs; });
+    const wallpaperEntry = document.querySelector('.wallpaper-entry');
+    if (wallpaperEntry) wallpaperEntry.setAttribute('aria-label', 'Fondos de pantalla');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Índice de capítulos');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'Seleccionar capítulo');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo el contenido y los derechos relacionados de este sitio pertenecen a WLOP. Se prohíbe su reproducción, copia, adaptación o uso comercial sin autorización. Todos los derechos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contacto:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applySpanishSurface, { once: true });
+  else applySpanishSurface();
+  window.setTimeout(applySpanishSurface, 0);
+}());
+</script>
+<script data-cloudinsect-arabic-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: اشتراك شهري يدعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","gumroad":"Gumroad: شراء مباشر للأعمال مع دعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","huotan":"HuoTan: شراء مباشر للأعمال عبر WeChat Pay وAlipay.","azz":"AZZ: اشتراك شهري عبر WeChat Pay وAlipay."};
+  function applyArabicSurface() {
+    if (!/^ar\b/i.test(document.documentElement.lang || '')) return;
+    document.documentElement.dir = 'ltr';
+    document.querySelectorAll('[data-tooltip-ar]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipAr; });
+    const wallpaperEntry = document.querySelector('.wallpaper-entry');
+    if (wallpaperEntry) wallpaperEntry.setAttribute('aria-label', 'الخلفيات');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'فهرس الفصول');
+    const chapterSelect = document.querySelector('.chapter-select');
+    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'اختر فصلًا');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. جميع محتويات هذا الموقع والحقوق المرتبطة بها مملوكة لـWLOP. يُحظر النشر أو النسخ أو الاقتباس أو التعديل أو الاستخدام التجاري من دون إذن. جميع الحقوق محفوظة."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "للتواصل:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (!tip) return;
+      link.dataset.tooltip = tip;
+      link.setAttribute('aria-label', link.textContent + ': ' + tip);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyArabicSurface, { once: true });
+  else applyArabicSurface();
+  window.setTimeout(applyArabicSurface, 0);
+}());
+</script>
+<script data-cloudinsect-french-surface="true">
+(function () {
+ const tips={"patreon":"Patreon : abonnement mensuel, cartes bancaires, PayPal et autres paiements internationaux.","gumroad":"Gumroad : achat direct des œuvres, cartes bancaires, PayPal et autres paiements internationaux.","huotan":"HuoTan : achat direct des œuvres avec WeChat Pay ou Alipay.","azz":"AZZ : abonnement mensuel avec WeChat Pay ou Alipay."};
+ function applyFrenchSurface() {
+  if (!/^fr\b/i.test(document.documentElement.lang || '')) return;
+  document.querySelectorAll('[data-tooltip-fr]').forEach((item)=>{ item.dataset.tooltip=item.dataset.tooltipFr; });
+  const w=document.querySelector('.wallpaper-entry'); if(w) w.setAttribute('aria-label','Fonds d’écran');
+  const c=document.querySelector('.catalog'); if(c) c.setAttribute('aria-label','Sommaire des chapitres');
+  const s=document.querySelector('.chapter-select'); if(s) s.setAttribute('aria-label','Choisir un chapitre');
+  document.querySelectorAll('.cloudinsect-copyright').forEach((item)=>{item.textContent="© WLOP. L’ensemble du contenu de ce site et les droits associés appartiennent à WLOP. Toute reproduction, copie, adaptation ou utilisation commerciale sans autorisation est interdite. Tous droits réservés.";});
+  document.querySelectorAll('.cloudinsect-contact-label').forEach((item)=>{item.textContent="Contact :";});
+  document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link)=>{const tip=tips[link.dataset.footerKey];if(tip){link.dataset.tooltip=tip;link.setAttribute('aria-label',link.textContent+': '+tip);}});
+ }
+ if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',applyFrenchSurface,{once:true}); else applyFrenchSurface(); window.setTimeout(applyFrenchSurface,0);
+}());
+</script>
+<script data-cloudinsect-adaptive-chapter-menu="true">
+(function () {
+  const select = document.querySelector('.chapter-select');
+  const controls = select && select.closest('.chapter-controls');
+  if (!select || !controls) return;
+  const probe = document.createElement('span');
+  probe.setAttribute('aria-hidden', 'true');
+  probe.style.cssText = 'position:fixed;left:-10000px;top:-10000px;visibility:hidden;white-space:pre;pointer-events:none;';
+  document.body.appendChild(probe);
+  let frame = 0;
+
+  function number(value) {
+    const parsed = Number.parseFloat(value);
+    return Number.isFinite(parsed) ? parsed : 0;
+  }
+
+  function measure() {
+    frame = 0;
+    const style = getComputedStyle(select);
+    probe.style.font = style.font;
+    probe.style.fontFamily = style.fontFamily;
+    probe.style.fontSize = style.fontSize;
+    probe.style.fontWeight = style.fontWeight;
+    probe.style.letterSpacing = style.letterSpacing;
+    let textWidth = 0;
+    Array.from(select.options).forEach(function (option) {
+      probe.textContent = option.textContent.trim();
+      textWidth = Math.max(textWidth, probe.getBoundingClientRect().width);
+    });
+    const chrome = number(style.paddingLeft) + number(style.paddingRight) +
+      number(style.borderLeftWidth) + number(style.borderRightWidth) + 4;
+    const desired = Math.ceil(textWidth + chrome);
+    const toc = controls.querySelector('.toc-link');
+    const controlsStyle = getComputedStyle(controls);
+    const gap = number(controlsStyle.columnGap || controlsStyle.gap);
+    const outerPadding = number(controlsStyle.paddingLeft) + number(controlsStyle.paddingRight);
+    const left = controls.getBoundingClientRect().left;
+    const edge = Math.max(12, left);
+    const inlineCap = Math.max(120, window.innerWidth - edge - 12 - outerPadding - gap - (toc ? toc.getBoundingClientRect().width : 0));
+    const shouldStack = desired > inlineCap && window.innerWidth <= 760;
+    controls.classList.toggle('is-stacked', shouldStack);
+    const cap = shouldStack
+      ? Math.max(120, window.innerWidth - edge - 12 - outerPadding)
+      : inlineCap;
+    select.style.setProperty('--chapter-select-width', desired + 'px');
+    select.style.setProperty('--chapter-select-cap', Math.floor(cap) + 'px');
+  }
+
+  function schedule() {
+    if (frame) cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(measure);
+  }
+
+  select.addEventListener('change', schedule);
+  const settingsToggle = document.querySelector('.settings-toggle');
+  if (settingsToggle) {
+    settingsToggle.addEventListener('click', function () {
+      window.setTimeout(schedule, 0);
+    });
+  }
+  window.addEventListener('resize', schedule, { passive: true });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule).catch(function () {});
+  schedule();
+  window.setTimeout(schedule, 0);
+}());
+</script>
+<script data-cloudinsect-ptbr-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: assinatura mensal com cartões de crédito, PayPal e outros meios de pagamento internacionais.","gumroad":"Gumroad: compra direta das obras com cartões de crédito, PayPal e outros meios de pagamento internacionais.","huotan":"HuoTan: compra direta das obras com WeChat Pay ou Alipay.","azz":"AZZ: assinatura mensal com WeChat Pay ou Alipay."};
+  function applyPortugueseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'pt-br') return;
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Papéis de parede em destaque');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Sumário dos capítulos');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Selecionar capítulo');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Navegação entre capítulos');
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo o conteúdo deste site e os direitos relacionados pertencem à WLOP. É proibida a reprodução, cópia, adaptação ou utilização comercial sem autorização. Todos os direitos reservados."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contato:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-pt-br]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipPtBr; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyPortugueseSurface, { once: true });
+  else applyPortugueseSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyPortugueseSurface, 0));
+}());
+</script>
+<script data-cloudinsect-ru-surface="true">
+(function () {
+  const tips = {"patreon":"Patreon: ежемесячная подписка с оплатой банковской картой, PayPal и другими международными способами.","gumroad":"Gumroad: прямая покупка работ с оплатой банковской картой, PayPal и другими международными способами.","huotan":"HuoTan: прямая покупка работ с оплатой через WeChat Pay или Alipay.","azz":"AZZ: ежемесячная подписка с оплатой через WeChat Pay или Alipay."};
+  function applyRussianSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'ru') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Выбор языка'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Язык'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Размер шрифта'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Уменьшить шрифт'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Увеличить шрифт'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Настройки чтения'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Назад'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Список обоев'); });
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Избранные обои');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Содержание');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Выбор главы');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Навигация по главам');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Открытие главы'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Всё содержимое этого сайта и связанные с ним права принадлежат WLOP. Копирование, воспроизведение, адаптация и коммерческое использование без разрешения запрещены. Все права защищены."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Связаться:"; });
+    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
+      const tip = tips[link.dataset.footerKey];
+      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
+    });
+    document.querySelectorAll('[data-tooltip-ru]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipRu; });
+    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyRussianSurface, { once: true });
+  else applyRussianSurface();
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyRussianSurface, 0));
+}());
+</script>
+<script data-cloudinsect-vi-surface="true">
+(function () {
+  function applyVietnameseSurface() {
+    if ((document.documentElement.lang || '').toLowerCase() !== 'vi') return;
+    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Chọn ngôn ngữ'); });
+    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Ngôn ngữ'); });
+    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Giảm cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Tăng cỡ chữ'); });
+    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Cài đặt đọc'); });
+    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Quay lại'); });
+    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Danh sách hình nền'); });
+    document.querySelectorAll('.toc-link').forEach((item) => {
+      item.setAttribute('aria-label', 'Quay lại mục lục chính');
+      item.setAttribute('title', 'Quay lại mục lục chính');
+    });
+    document.querySelectorAll('.chapter-pager-button[title="上一节"], [data-pager-disabled="previous"]').forEach((item) => {
+      item.setAttribute('title', 'Chương trước');
+      item.setAttribute('aria-label', 'Chương trước');
+    });
+    document.querySelectorAll('.chapter-pager-button[title="下一节"], [data-pager-disabled="next"]').forEach((item) => {
+      item.setAttribute('title', 'Chương tiếp theo');
+      item.setAttribute('aria-label', 'Chương tiếp theo');
+    });
+    document.querySelectorAll('summary[title="点击查看人物简介"]').forEach((item) => {
+      item.setAttribute('title', 'Nhấn để xem tiểu sử nhân vật');
+    });
+    const wallpaper = document.querySelector('.wallpaper-entry');
+    if (wallpaper) wallpaper.setAttribute('aria-label', 'Hình nền nổi bật');
+    const catalog = document.querySelector('.catalog');
+    if (catalog) catalog.setAttribute('aria-label', 'Mục lục các chương');
+    const chapter = document.querySelector('.chapter-select');
+    if (chapter) chapter.setAttribute('aria-label', 'Chọn chương');
+    const controls = document.querySelector('.chapter-controls');
+    if (controls) controls.setAttribute('aria-label', 'Điều hướng chương');
+    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Mở đầu chương'); });
+    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Toàn bộ nội dung và bản quyền liên quan trên trang web này thuộc về WLOP. Mọi hành vi sao chép, tái bản, cải biên hoặc sử dụng cho mục đích thương mại khi chưa được phép đều bị nghiêm cấm. Bảo lưu mọi quyền."; });
+    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Liên hệ:"; });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyVietnameseSurface, { once: true });
+  else applyVietnameseSurface();
+  window.setTimeout(applyVietnameseSurface, 0);
+  const select = document.querySelector('.language-select');
+  if (select) select.addEventListener('change', () => setTimeout(applyVietnameseSurface, 0));
+}());
+</script>
+</body>
+</html>
