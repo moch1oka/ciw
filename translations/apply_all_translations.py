@@ -1011,16 +1011,9 @@ html[lang="vi"] .chapter-action {
     # 2. Update README.md
     readme_path = 'README.md'
     readme = open(readme_path, encoding='utf-8').read()
-    readme = re.sub(r'10 chương', '11 chương', readme)
-    if 'Bản dịch tiếng Việt' not in readme:
-        vi_note = """
-## 🇻🇳 Bản Dịch Tiếng Việt (Vietnamese Translation)
-Dự án đã hoàn thành bản dịch tiếng Việt trọn bộ 11 chương cho tác phẩm **Vân Trùng (Cloud Insect)** của tác giả WLOP.
-- **Trình đọc HTML Offline**: Chọn mục `Tiếng Việt` trên thanh chọn ngôn ngữ ở bất kỳ chương nào để đọc offline hoàn toàn.
-- **Bản dịch thuần tiếng Việt**: Xem file `chapter_vi.md` trong từng thư mục chương.
-- **Bản dịch song ngữ Đối chiếu (VI - ZH - EN)**: Xem file `chapter_vi_bilingual.md` trong từng thư mục chương.
-"""
-        readme = readme.replace('## 目录结构 / Directory Structure', vi_note + '\n## 目录结构 / Directory Structure')
+    readme = re.sub(r'10 [Cc]hapters?', '11 chapters', readme)
+    readme = re.sub(r'10 [Cc]hương', '11 chương', readme)
+    readme = re.sub(r'10 Chapter', '11 Chapter', readme)
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write(readme)
     print("  README.md updated.")
