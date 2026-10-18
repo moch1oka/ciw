@@ -1,0 +1,167 @@
+# -*- coding: utf-8 -*-
+"""
+Vietnamese translations for Chapter 5.2: Wuzhui 2
+Total texts: 74
+"""
+
+TRANSLATIONS_CH5_2 = [
+    # Panel 1 (2 texts)
+    "Bất chợt, một tiếng ngựa hí xé toang không gian.",
+    "Con chiến mã đen nhánh chẳng biết tự khi nào đã tiến lại gần. Nó áp đầu vào lưng Hạng Vũ, khẽ cọ xát, trong tiếng hí ngân vang ẩn chứa một nỗi lưu luyến khôn cùng chẳng thốt nên lời. Giữa làn sương mờ mịt, lớp lông trên mình nó ánh lên từng đốm sáng li ti, lúc tỏ lúc mờ, tựa hồ cả một dải ngân hà rực rỡ.",
+
+    # Panel 2 (1 text)
+    "Hạng Vũ ngoảnh đầu lại, dịu dàng vuốt ve con chiến mã của mình. Chàng áp trán vào trán nó, tựa như đang vỗ về ủi an, lại dường như đang nói lời vĩnh biệt. Lặng đi một thoáng, chàng mới quay về phía mũi thuyền, cất tiếng: “Con ngựa này tên là Ô Chuy, theo ta chinh chiến sa trường đã bấy nhiêu năm. Ta không nỡ để nó cùng vùi thây nơi đây. Nếu các ngươi còn niệm tình muốn vì ta làm một việc sau cuối, xin hãy đối đãi tử tế với nó.”",
+
+    # Panel 3 (3 texts)
+    "Dứt lời, chàng quay người đối diện với những tướng sĩ còn lại của mình.",
+    "“Các ngươi cũng đi đi. Quân Hán muốn, cũng chỉ là cái đầu của một mình Hạng Tịch này mà thôi. Thừa lúc sương chưa tan, hãy men theo bờ sông mà rút lui, sẽ không có ai đuổi theo đâu.”",
+    "Vừa dứt lời, chàng sải bước xuyên qua hàng quân phía sau lưng, một mình tiến thẳng về phía tiếng hò reo chém giết đang rền vang trong sương mù.",
+
+    # Panel 4 (5 texts)
+    "Tuyệt nhiên không một ai rời đi.",
+    "Hơn hai mươi dũng sĩ, kẻ tung mình xuống ngựa, người rút đoản đao sắc lẹm. Họ lặng lẽ theo sau, dàn thành một hàng dài sau lưng Hạng Vũ. Chẳng rõ là ai đã cất tiếng hô trước tiên, nhưng rồi ngay sau đó, tất cả đồng thanh gầm thét:",
+    "“Thề chết đi theo Hạng Vương!”",
+    "“Thề chết đi theo Hạng Vương——!”",
+    "Tiếng thét dội thẳng vào màn sương dày đặc, làm kinh động bầy chim nước bay túa lên rợp cả bãi bồi.",
+
+    # Panel 5 (2 texts)
+    "Quân Hán đã ập tới.",
+    "Kỵ binh xé toạc màn sương ào ạt tràn ra, tựa như cuồng phong bão táp quét ngang trời đất, chỉ trong chớp mắt đã áp sát ngay trước mặt.",
+
+    # Panel 6 (1 text)
+    "Hạng Vũ chậm rãi nâng thanh cự đao gãy nát trong tay lên, cất từng bước chân vững chãi như núi thái sơn, nghênh đón đại quân Hán đang cuồn cuộn ùa tới. Từng bước, từng bước một, chàng ung dung bước vào chương cuối cùng của thiên anh hùng ca đời mình.",
+
+    # Panel 7 (1 text)
+    "Quân Hán tựa như một cơn thủy triều đen ngòm vỡ đê, trong chớp mắt đã tràn ngập bãi bồi ven sông. Hơn hai mươi bóng hình cô độc ấy sừng sững giữa triều dâng trong thoáng chốc, rồi vĩnh viễn bị nhấn chìm.",
+
+    # Panel 8 (4 texts)
+    "Âm thanh của đao kiếm chạm nhau nơi giáp trận cận chiến chẳng hề vang rền đanh thép như Nguyệt Nha Nhi từng tưởng tượng. Chỉ có những tiếng va đập trầm đục lẫn trong tiếng gầm rú khản đặc, tanh nồng mùi máu và tàn khốc khôn cùng. Lát sau, tiếng chém giết trên bờ dần dần biến sắc, chuyển thành cảnh tranh giành xâu xé, biến thành một bữa tiệc cuồng hoan man rợ. Gió cuốn từng đợt thanh âm hỗn loạn ấy thốc qua mặt sông:",
+    "“Ở đây! Mảnh này là của tao——!”",
+    "“Chia cho tao một phần!”",
+    "Nguyệt Nha Nhi quay mặt đi nơi khác, không nỡ và cũng không thể đành lòng nhìn tiếp.",
+
+    # Panel 9 (1 text)
+    "Chàng thanh niên lái đò vẫn đứng yên nơi mũi thuyền, sắc mặt phẳng lặng như tờ, đăm đăm nhìn về phía bờ bên kia mà chẳng hề lay động.",
+
+    # Panel 10 (1 text)
+    "Dõi theo ánh mắt chàng, Nguyệt Nha Nhi mới nhận ra thứ mà chàng đang nhìn chằm chằm không phải là cảnh hỗn chiến tàn khốc kia, mà là đại kỳ mang chữ “HÁN” đang nhấp nhô lay động giữa màn sương. Chàng đứng nhìn lá cờ ấy rất lâu, rất lâu.",
+
+    # Panel 11 (3 texts)
+    "Nơi bãi bồi ven sông, Ô Chuy vẫn còn ở đó.",
+    "Nó không hề bước lên thuyền, cũng chẳng chịu rời đi, chỉ ngẩng cao hai vó trước hướng về nơi chủ nhân vừa ngã xuống, cất lên từng hồi hí dài thảm thiết, quẩn quanh mãi chẳng dứt. Nơi tận cùng của làn sương, bóng đen khổng lồ nơi chân trời bỗng nhiên phát ra một tiếng trùng minh trầm đục, tựa như một tiếng thở dài trầm lắng miên man, rơi trúng vào khoảng lặng giữa những tiếng ngựa hí.",
+    "Một tiếng ngựa hí, một tiếng trùng minh. Một tiếng thảng thốt, một lời đáp hồi.",
+
+    # Panel 12 (8 texts)
+    "Trời rạng sáng dần, màn sương trên mặt sông cũng từ từ tan biến. Chàng phu đò trẻ tuổi ngồi nơi mũi thuyền, tĩnh lặng tựa như một pho tượng tạc.",
+    "“……Anh tên là gì thế?” Nguyệt Nha Nhi khẽ hỏi, dường như chỉ cốt để phá tan bầu không khí tĩnh mịch ngột ngạt trên con thuyền.",
+    "Chàng thanh niên không đáp ngay. Chàng vẫn nhìn chằm chằm vào lá cờ Hán phía xa, cất lời như đang tự nhủ với chính mình, lại dường như đang hỏi cô:",
+    "“Nếu đã là ý trời không thể trái, cớ sao định mệnh lại dẫn dắt chúng ta đến đây để dòm ngó định mệnh?”",
+    "Mãi một lúc lâu sau, chàng mới ngoảnh đầu lại. Thấy vẻ mặt ngơ ngác đầy mờ mịt của cô, chàng bỗng nở một nụ cười nhàn nhạt.",
+    "“Xem ra, đây là lần đầu tiên cô nương hành tẩu giữa những tầng mây.”",
+    "Chàng thở dài một tiếng.",
+    "“Ta cũng chỉ là một kẻ thảo dân áo vải. Sau khi giang sơn nhà Hán sụp đổ, ta cũng chỉ là một gã nông phu cày cấy giữa thời loạn lạc mà thôi. Chẳng rõ vì sao lại có được vinh hạnh này, có thể mang thân phận Người Trong Mây, đến tận bến Ô Giang này để được tận mắt trông thấy Tây Sở Bá Vương.”",
+
+    # Panel 13 (1 text)
+    "“Tại hạ họ Lưu, tên Tú, tự Văn Thúc.”",
+
+    # Panel 14 (2 texts)
+    "“Lưu Tú?!” Nguyệt Nha Nhi kinh hãi thốt lên, “Hán Quang Vũ——!”",
+    "Đúng khoảnh khắc tiếng thốt nghẹn ngào vừa cất lên, cả thế giới tức thì chìm vào bóng tối mịt mùng.",
+
+    # Panel 15 (7 texts)
+    "“——Rồi sau đó, tất cả tối sầm lại.”",
+    "Đêm nơi tòa nhà công xưởng tĩnh lặng như tờ, ngọn đèn nhỏ hắt ra ánh sáng vàng vọt lờ mờ. Những bản thảo phác họa nón ánh sáng do Hi Dương vẽ trên khung cửa kính phản chiếu ánh trăng, ánh lên thứ quang sắc kỳ dị như đang mang một sinh mệnh sống động.",
+    "“Lúc tôi tỉnh lại,” Nguyệt Nha Nhi nói, “người vẫn đang gục trên đài quan sát, tay vẫn cầm máy ảnh, bầu trời chỉ hơi tối đi một chút. Cảm giác như thể tôi chưa từng rời đi vậy.”",
+    "Cô ngập ngừng một lát rồi nói tiếp.",
+    "“Khi đó tôi chẳng nhớ được gì, chỉ nghĩ là mình vừa thất thần một thoáng. Mãi sau này nhớ lại được đôi chút, tôi cũng chỉ ngỡ đó là ảo giác do thiếu dưỡng khí trên cao nguyên mà thôi. Cho đến tận hôm nay, nghe anh giảng giải về nón ánh sáng, về 'thông tin có trật tự', tôi mới xâu chuỗi được toàn bộ những manh mối này lại với nhau.”",
+    "Hi Dương trầm ngâm giây lát, rồi khẽ gật đầu.",
+    "“Nói vậy là, em đã đứng ngay trước mặt Lưu Tú mà hô to thụy hiệu của ông ấy.”",
+
+    # Panel 16 (5 texts)
+    "Nguyệt Nha Nhi mím chặt môi nhìn Hi Dương, cả hai im lặng nhìn nhau trong giây lát. Bất chợt, gần như cùng một lúc, cả hai phì cười thành tiếng.",
+    "“Trời đất, lúc đó sao tôi biết được chứ!” Nguyệt Nha Nhi cúi đầu, khóe môi vẫn không kìm nổi nụ cười, “Vừa nghe đến cái tên Lưu Tú là tôi…… xúc động quá nên buột miệng kêu lên thôi.”",
+    "“Lúc đó người ta vẫn còn là một anh nông dân áo vải cày ruộng, đến bản thân sau này sẽ làm hoàng đế cũng chẳng hề hay biết. Em thì hay rồi, định sẵn luôn cả thụy hiệu sau khi mất cho người ta.”",
+    "“Anh đừng có cười tôi nữa mà!” Nguyệt Nha Nhi khẽ hờn dỗi than trách, nhưng tay vẫn che miệng, đuôi mắt cong cong ý cười.",
+    "Hi Dương nhìn cô, đợi cho cô dịu bớt cơn cười mới tiếp tục nói: “Cho nên, tiếng gọi ‘Hán Quang Vũ Đế’ ấy……”",
+
+    # Panel 17 (4 texts)
+    "Nói đến đây, ánh mắt hai người bất giác chạm nhau, nửa câu sau gần như cùng một lúc bật thốt ra khỏi miệng:",
+    "“—— Thông tin có trật tự!”",
+    "“—— Thông tin có trật tự!”",
+    "Hai thanh âm hòa quyện làm một. Nụ cười vừa kịp nén lại của Nguyệt Nha Nhi lại một lần nữa lan tỏa rạng rỡ. Hi Dương cũng mỉm cười theo, trong giây lát, chẳng ai vội vã nói thêm lời nào.",
+
+    # Panel 18 (5 texts)
+    "Hi Dương lật mở cuốn sổ tay bên cạnh. Tiếng cười đùa ban nãy dần lắng xuống, dưới ánh đèn vàng vang lên tiếng ngòi bút sột soạt cọ trên trang giấy.",
+    "“Bởi vậy, những Người Trong Mây phân tán ở khắp các niên đại khác nhau. Chúng ta ở thời đại này, còn Lưu Tú lại ở hai nghìn năm trước. Nhưng khi hành tẩu giữa những tầng mây, tháng năm đằng đẵng muôn trùng cũng không còn là rào cản bất khả vượt qua nữa. Hai người cùng đến bờ Ô Giang, cùng ngồi chung một con thuyền, cùng dõi mắt trông về một dải bờ bãi, chứng kiến Hạng Vũ đi trọn đoạn đường cuối cùng của cuộc đời.”",
+    "Đầu bút khẽ khựng lại trên mặt giấy.",
+    "“Thế nhưng gặp gỡ, không đồng nghĩa với việc có thể nói toạc ra vận mệnh của nhau. Bản thân Lưu Tú dẫu sao cũng nằm bên ngoài nón ánh sáng của em. ‘Hán Quang Vũ Đế’ là cái tên do hậu thế ghi vào sử sách, còn Lưu Tú trên con thuyền thuở ấy vẫn chưa lật tới trang sách đó. Tiếng thốt kinh ngạc của em sẽ khiến ông ấy biết trước tương lai của chính mình. Thế là, chuyến hành tẩu giữa mây ngàn lần đó của hai người đành phải đứt đoạn ngay tại giây phút ấy.”",
+    "Nguyệt Nha Nhi ôm lấy đầu gối, lặng lẽ ngắm nhìn anh. Hi Dương gạch bỏ một câu vừa viết, nắn nót viết lại bên cạnh. Dưới ánh đèn đêm, đoạn dĩ vãng ly kỳ chấn động ấy đang được anh cẩn trọng ghi lại trên trang giấy, từng câu từng chữ một.",
+
+    # Panel 19 (6 texts)
+    "“Này.”",
+    "“Hửm?”",
+    "“Chuyện hoang đường không tưởng đến mức này, tôi nói thế nào là anh tin ngay thế đó à?”",
+    "Nguyệt Nha Nhi chống tay lặng lẽ nhích lại gần, nghiêng đầu ngước gương mặt thanh tú lên tìm kiếm ánh mắt anh lấp lánh sau tròng kính.",
+    "“Anh không sợ là tôi tự bịa ra để trêu chọc anh à?”",
+    "Hi Dương chỉ khẽ cong khóe môi mỉm cười, nét bút trên tay vẫn chẳng hề ngơi nghỉ.",
+
+    # Panel 20 (12 texts)
+    "Nguyệt Nha Nhi dường như còn muốn nói điều chi nữa, nhưng lời đến bên môi lại nuốt ngược vào trong. Cô khẽ thu người lại, ngồi ngay ngắn về chỗ cũ.",
+    "Đêm đô thị trước khi Vân Trùng giáng lâm chìm trong một sự tĩnh lặng lạ thường. Những ký hiệu toán học trên khung cửa kính dưới ánh trăng bàng bạc tựa như một đàn tinh linh đang nhảy múa không một tiếng động. Cô bỗng thấy lòng mình bảng lảng chơi vơi, ngỡ như bản thân đang ngồi trên một mặt hồ lơ lửng giữa hư không vô tận, lại ngỡ như đã ngược dòng thời gian hai ngàn năm trước, trở về ngồi trên con thuyền trôi giữa dòng Ô Giang năm ấy.",
+    "Những trận cãi vã triền miên bất tận của cha mẹ trong ký ức, những lời chế giễu và ánh mắt lạnh lùng khó hiểu của bạn bè đồng trang lứa, những ánh nhìn cợt nhả suồng sã nơi quán bar tối đèn——tất cả những huyên náo hỗn tạp từng bủa vây lấy đời cô, ngay vào thời khắc này bỗng trở nên xa xăm diệu vợi, ngỡ như câu chuyện từ tiền kiếp.",
+    "Bên cạnh cô lúc này, chỉ còn lại tiếng ngòi bút sột soạt lướt nhẹ trên mặt giấy. Nguyệt Nha Nhi chống cằm, lặng lẽ ngắm nhìn cây bút trong tay Hi Dương, hơi thở từ từ lắng lại chậm rãi. Cô chỉ ước ao sao khoảnh khắc này có thể ngừng đọng lại thêm một chút nữa, mong sao trang giấy trước mặt anh vĩnh viễn chẳng thể viết hết.",
+    "Đêm mỗi lúc một thâm u. Đằng xa, tiếng trùng minh của Vân Trùng Số 9 văng vẳng vọng lại, trầm đục và miên man, chầm chậm hòa quyện vào làm một với tiếng rền vang bên bờ Ô Giang hai ngàn năm trước.",
+    "《Sử Ký · Hạng Vũ Bản Kỷ》 — Tư Mã Thiên",
+    "Thế rồi Hạng Vương muốn sang đông qua bến Ô Giang. Đình trưởng Ô Giang đã neo thuyền chờ sẵn, nói với Hạng Vương rằng: “Đất Giang Đông tuy nhỏ, nhưng đất đai ngàn dặm, dân số mấy mươi vạn, cũng đủ để xưng vương. Cầu xin Đại vương mau mau qua sông. Nay chỉ một mình thần có thuyền, quân Hán có đuổi tới cũng chẳng lấy gì mà qua.” Hạng Vương cười đáp: “Trời muốn diệt ta, ta qua sông làm chi nữa! Huống hồ năm xưa Tịch này cùng tám ngàn đệ tử Giang Đông vượt sông sang tây, nay chẳng một ai còn sống trở về. Dẫu cho các bậc phụ huynh chốn Giang Đông có xót thương mà tôn ta làm vương, ta còn mặt mũi nào để nhìn họ nữa? Dẫu miệng họ chẳng nói ra, lòng Hạng Tịch này há chẳng thấy hổ thẹn với lương tâm hay sao?” Đoạn quay sang bảo người đình trưởng: “Ta biết ngài là bậc trưởng giả trung hậu. Ta cưỡi con ngựa này đã năm năm, xông pha trận mạc không ai địch nổi, từng một ngày đi được ngàn dặm, nay chẳng nỡ giết nó, xin tặng lại cho ngài.”",
+    "……Nói rồi chàng tự vẫn mà chết. Vương Ế đoạt lấy đầu chàng, tàn quân kỵ binh giẫm đạp lên nhau mà tranh cướp thi thể Hạng Vương, chém giết lẫn nhau đến mấy mươi người. Sau rốt, Lang trung kỵ Dương Hỷ, Kỵ tư mã Lữ Mã Đồng, Lang trung Lữ Thắng và Dương Vũ mỗi người đoạt được một phần thi thể. Năm người gom các phần lại với nhau, đều được Hán vương phong tước Liệt hầu.",
+    "Hạng Vũ (232 TCN — 202 TCN)",
+    "Tên là Tịch, tự là Vũ, người Hạ Tương. Cuối thời nhà Tần theo chú là Hạng Lương dấy binh khởi nghĩa; trong trận Cự Lộc đã đập nồi dìm thuyền (phá phủ trầm chu), tiêu diệt toàn bộ quân chủ lực nhà Tần, phân chia chư hầu thiên hạ, tự xưng là Tây Sở Bá Vương. Tranh hùng Sở - Hán suốt năm năm; đến khi bị bao vây ở Cai Hạ, bốn bề vang vọng khúc ca nước Sở (tứ diện Sở ca), bèn dẫn tàn kỵ phá vòng vây chạy đến Ô Giang. Không chịu qua sông, tự vẫn mà chết khi mới ba mươi tuổi. Thái Sử Công bàn rằng: “Ngôi vị tuy không trọn vẹn, nhưng từ cổ chí kim chưa từng có người thứ hai.”",
+    "Lưu Tú (5 TCN — 57 SCN)",
+    "Tự Văn Thúc, người Thái Dương quận Nam Dương, là cháu đời thứ chín của Hán Cao Tổ. Vương Mãng soán ngôi nhà Hán khiến gia cảnh sa sút, thuở hàn vi từng tự mình cày cấy ruộng đồng, sử chép “tính tình siêng năng việc cày cấy canh tác”. Về sau dấy binh giữa thời loạn lạc; trong trận Côn Dương đã thống lĩnh vài ngàn nghĩa sĩ cảm tử đập tan bốn mươi hai vạn đại quân Tân Mãng, quét sạch quần hùng, tái lập cơ nghiệp Hán thất, định đô ở Lạc Dương, sử xưng là Đông Hán. Tại vị ba mươi ba năm, giảm trừ sưu thuế, đình chỉ can qua, bồi dưỡng sức dân, hậu thế ngợi ca là thời kỳ “Quang Vũ trung hưng”. Thụy hiệu là Quang Vũ Hoàng Đế, miếu hiệu Thế Tổ."
+]
+
+SPAN_MAPPINGS_CH5_2 = {
+    '项羽回过头，轻轻抚摸着自己的战马，与它额头相抵，像是在安抚，也似是在告别。过了片刻，他才转向船头，说道：': 'Hạng Vũ ngoảnh đầu lại, dịu dàng vuốt ve con chiến mã của mình, áp trán vào trán nó, tựa như đang vỗ về ủi an, lại dường như đang nói lời từ biệt. Lặng đi một thoáng, chàng mới quay về phía mũi thuyền, cất tiếng: ',
+    '“此马名乌骓，随我征战多年。我不忍它同死于此。若尔等还愿替我做一件事，便善待它。”': '“Con ngựa này tên là Ô Chuy, theo ta chinh chiến sa trường đã bấy nhiêu năm. Ta không nỡ để nó cùng vùi thây nơi đây. Nếu các ngươi còn niệm tình muốn vì ta làm một việc sau cuối, xin hãy đối đãi tử tế với nó.”',
+    '“你们也走吧。汉军要的，只是籍一人之头。趁雾未散，沿江而去，不会有人追。”': '“Các ngươi cũng đi đi. Quân Hán muốn, cũng chỉ là cái đầu của một mình Hạng Tịch này mà thôi. Thừa lúc sương chưa tan, hãy men theo bờ sông mà rút lui, sẽ không có ai đuổi theo đâu.”',
+    '“誓死追随项王！”': '“Thề chết đi theo Hạng Vương!”',
+    '“誓死追随项王——！”': '“Thề chết đi theo Hạng Vương——!”',
+    '“在这儿！这块是我的——！”': '“Ở đây! Mảnh này là của tao——!”',
+    '“分我一块！”': '“Chia cho tao một phần!”',
+    '“……你叫什么名字？”': '“……Anh tên là gì thế?”',
+    '月牙儿轻声问，似乎只是想打破船上的沉默。': 'Nguyệt Nha Nhi khẽ hỏi, dường như chỉ cốt để phá tan bầu không khí tĩnh mịch ngột ngạt trên con thuyền.',
+    '“既然天意不可违，命运又为何要指引我们来窥探命运？”': '“Nếu đã là ý trời không thể trái, cớ sao định mệnh lại dẫn dắt chúng ta đến đây để dòm ngó định mệnh?”',
+    '“看来，你是头一回于云中行走。”': '“Xem ra, đây là lần đầu tiên cô nương hành tẩu giữa những tầng mây.”',
+    '“我也不过是一介草民。汉家天下倾覆之后，乱世里的一个农夫罢了。也不知为何偏偏是我有此荣幸，能以云中人之身，来这乌江边，见一见楚霸王。”': '“Ta cũng chỉ là một kẻ thảo dân áo vải. Sau khi giang sơn nhà Hán sụp đổ, ta cũng chỉ là một gã nông phu cày cấy giữa thời loạn lạc mà thôi. Chẳng rõ vì sao lại có được vinh hạnh này, có thể mang thân phận Người Trong Mây, đến tận bến Ô Giang này để được tận mắt trông thấy Tây Sở Bá Vương.”',
+    '汉光武帝': 'Hán Quang Vũ Đế',
+    '刘秀': 'Lưu Tú',
+    '字文叔': 'Tự Văn Thúc',
+    '字文叔，南阳蔡阳人。早年躬耕田亩，后于乱世起兵，重建汉室，定都洛阳，史称东汉。谥光武皇帝，庙号世祖。': 'Tự Văn Thúc, người Thái Dương quận Nam Dương. Thuở thiếu thời từng tự mình cày bừa nơi ruộng đồng, sau dấy binh khởi nghĩa giữa thời loạn lạc, phục hưng Hán thất, định đô tại Lạc Dương, sử gọi là Đông Hán. Thụy hiệu Quang Vũ Hoàng Đế, miếu hiệu Thế Tổ.',
+    '“在下姓刘，名秀，字文叔。”': '“Tại hạ họ Lưu, tên Tú, tự Văn Thúc.”',
+    '“刘秀？！”': '“Lưu Tú?!”',
+    '月牙儿大惊，': 'Nguyệt Nha Nhi kinh hãi thốt lên,',
+    '“汉光武——！”': '“Hán Quang Vũ——!”',
+    '“——然后，就全黑了。”': '“——Rồi sau đó, tất cả tối sầm lại.”',
+    '“我醒过来的时候，”': '“Lúc tôi tỉnh lại,”',
+    '月牙儿说，': 'Nguyệt Nha Nhi nói,',
+    '“人还趴在观测台上，手里还拿着相机，天就暗了一点。好像我根本没有离开过。”': '“người vẫn đang gục trên đài quan sát, tay vẫn cầm máy ảnh, bầu trời chỉ hơi tối đi một chút. Cảm giác như thể tôi chưa từng rời đi vậy.”',
+    '“那时候我什么都不记得，只觉得自己失了一阵神。后来想起来一点，也一直当它是缺氧时的幻觉。直到今天你讲光锥，讲有序信息，我才把这些事全拼上了。”': '“Khi đó tôi chẳng nhớ được gì, chỉ nghĩ là mình vừa thất thần một thoáng. Mãi sau này nhớ lại được đôi chút, tôi cũng chỉ ngỡ đó là ảo giác do thiếu dưỡng khí trên cao nguyên mà thôi. Cho đến tận hôm nay, nghe anh giảng giải về nón ánh sáng, về \'thông tin có trật tự\', tôi mới xâu chuỗi được toàn bộ những manh mối này lại với nhau.”',
+    '“所以，你当着刘秀的面，喊出了他的谥号。”': '“Nói vậy là, em đã đứng ngay trước mặt Lưu Tú mà hô to thụy hiệu của ông ấy.”',
+    '“哎呀，我那时候哪知道嘛。”': '“Trời đất, lúc đó sao tôi biết được chứ!”',
+    '月牙儿低下头，嘴角却还没收住，': 'Nguyệt Nha Nhi cúi đầu, khóe môi vẫn không kìm nổi nụ cười,',
+    '“一听是刘秀，我就……一激动，喊出来了。”': '“Vừa nghe đến cái tên Lưu Tú là tôi…… xúc động quá nên buột miệng kêu lên thôi.”',
+    '“他那时候还只是个种地的，连自己以后会当皇帝都不知道。你倒好，连谥号都替他安排上了。”': '“Lúc đó người ta vẫn còn là một anh nông dân áo vải cày ruộng, đến bản thân sau này sẽ làm hoàng đế cũng chẳng hề hay biết. Em thì hay rồi, định sẵn luôn cả thụy hiệu sau khi mất cho người ta.”',
+    '“你就别笑我了。”': '“Anh đừng có cười tôi nữa mà!”',
+    '月牙儿轻声埋怨着，却还捂着嘴，眉眼弯弯。': 'Nguyệt Nha Nhi khẽ hờn dỗi than trách, nhưng tay vẫn che miệng, đuôi mắt cong cong ý cười.',
+    '希扬望着她，等她稍稍收住了笑，才接着说：': 'Hi Dương nhìn cô, đợi cho cô dịu bớt cơn cười mới tiếp tục nói: ',
+    '“所以，那声‘汉光武帝’……”': '“Cho nên, tiếng gọi ‘Hán Quang Vũ Đế’ ấy……”',
+    '“——有序信息！”': '“—— Thông tin có trật tự!”',
+    '“所以，云中人散落在不同的年代。我们在这里，刘秀在两千年前。可在云中行走时，漫长的岁月也不再是无法跨越的阻隔。你们来到乌江，乘着同一条船，望着同一片江岸，看着项羽走完最后一程。”': '“Bởi vậy, những Người Trong Mây phân tán ở khắp các niên đại khác nhau. Chúng ta ở thời đại này, còn Lưu Tú lại ở hai nghìn năm trước. Nhưng khi hành tẩu giữa những tầng mây, tháng năm đằng đẵng muôn trùng cũng không còn là rào cản bất khả vượt qua nữa. Hai người cùng đến bờ Ô Giang, cùng ngồi chung một con thuyền, cùng dõi mắt trông về một dải bờ bãi, chứng kiến Hạng Vũ đi trọn đoạn đường cuối cùng của cuộc đời.”',
+    '“但相逢，并不意味着可以说破彼此的命运。刘秀本身毕竟也在你的光锥之外。‘汉光武帝’，是后人写进史书的名字，船上的刘秀却还没有走到那一页。你的那一声惊呼，会让他提前知道自己的未来。于是，你们两个人那次的云中行走，就在那里中断了。”': '“Thế nhưng gặp gỡ, không đồng nghĩa với việc có thể nói toạc ra vận mệnh của nhau. Bản thân Lưu Tú dẫu sao cũng nằm bên ngoài nón ánh sáng của em. ‘Hán Quang Vũ Đế’ là cái tên do hậu thế ghi vào sử sách, còn Lưu Tú trên con thuyền thuở ấy vẫn chưa lật tới trang sách đó. Tiếng thốt kinh ngạc của em sẽ khiến ông ấy biết trước tương lai của chính mình. Thế là, chuyến hành tẩu giữa mây ngàn lần đó của hai người đành phải đứt đoạn ngay tại giây phút ấy.”',
+    '“哎。”': '“Này.”',
+    '“嗯？”': '“Hửm?”',
+    '“这么离谱的事，我说，你就信啊？”': '“Chuyện hoang đường không tưởng đến mức này, tôi nói thế nào là anh tin ngay thế đó à?”',
+    '“不怕是我瞎编出来逗你的？”': '“Anh không sợ là tôi tự bịa ra để trêu chọc anh à?”',
+    '敬请期待': 'Kính mời đón đọc',
+    '《云虫》第六章 · 文明审判': '《Vân Trùng》Chương 6: Phán Xét Văn Minh'
+}

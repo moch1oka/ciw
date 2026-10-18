@@ -1,0 +1,1458 @@
+{
+  "id": "chapter-5-2",
+  "dir": "chapter-5-wuzhui-2",
+  "file": "chapter-5-wuzhui-2.html",
+  "title_zh": "第五章 乌骓 · 二",
+  "title_en": "Chapter 5: Wuzhui · Part 2",
+  "available_languages": [
+    "zh",
+    "zhHant",
+    "en",
+    "ja",
+    "ko",
+    "es",
+    "fr",
+    "ru",
+    "ar",
+    "ptBR",
+    "vi"
+  ],
+  "panel_count": 20,
+  "panels": [
+    {
+      "panel_index": 1,
+      "type": "image",
+      "image_src": "media/38.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "忽然，一声马嘶。",
+          "那匹黑马不知何时已靠了上来，头抵着项羽的后背，轻轻摩挲，声音里有种说不出的不舍。雾里，它的皮毛间泛起一层细碎的光，明明灭灭，宛若星空。"
+        ],
+        "zhHant": [
+          "忽然，一聲馬嘶。",
+          "那匹黑馬不知何時已靠了上來，頭抵着項羽的後背，輕輕摩挲，聲音裏有種說不出的不捨。霧裏，它的皮毛間泛起一層細碎的光，明明滅滅，宛若星空。"
+        ],
+        "en": [
+          "Suddenly, a horse neighed.",
+          "At some point the black horse had drawn close. It pressed its head against Xiang Yu’s back and nuzzled him gently, its voice carrying a reluctance to part that no words could name. In the fog, tiny lights shimmered through its coat, kindling and fading like a field of stars."
+        ],
+        "ja": [
+          "不意に、馬がいなないた。",
+          "いつのまにか、あの黒馬がそばに来ていた。項羽の背に頭を押し当て、そっとすり寄せる。その声には、言葉にならない別れがたさがにじんでいた。霧の中、毛並みのあいだに細かな光が浮かび、星空のように明滅していた。"
+        ],
+        "ko": [
+          "갑자기 말이 울었다.",
+          "검은 말이 어느새 다가와 있었다. 항우의 등에 머리를 대고 살며시 비볐다. 울음소리에는 차마 떠나보내지 못하는, 말로 다 할 수 없는 마음이 배어 있었다. 안개 속에서 털 사이로 잘게 빛이 떠올랐다. 별이 가득한 하늘처럼 가물거리며 켜졌다 꺼졌다 했다."
+        ],
+        "es": [
+          "De pronto, un relincho.",
+          "Sin que nadie advirtiera cuándo, el caballo negro se había acercado. Apoyaba la cabeza contra la espalda de Xiang Yu y la frotaba con suavidad; en su voz había una pena de despedida imposible de expresar. En la niebla, pequeños destellos recorrían su pelaje, encendiéndose y apagándose como un cielo de estrellas."
+        ],
+        "fr": [
+          "Soudain, un hennissement.",
+          "Sans qu’on s’en aperçoive, le cheval noir s’était approché. Il appuyait la tête contre le dos de Xiang Yu et s’y frottait doucement ; sa voix portait une peine de séparation indicible. Dans la brume, de menus éclats parcouraient son pelage, s’allumant et s’éteignant comme un ciel étoilé."
+        ],
+        "ru": [
+          "Вдруг раздалось ржание.",
+          "Чёрный конь незаметно подошёл и теперь ласково тёрся головой о спину Сян Юя. В его голосе слышалась невыразимая тоска расставания. В тумане на его шерсти проступила россыпь крошечных огней; они то вспыхивали, то гасли, словно звёздное небо."
+        ],
+        "ar": [
+          "فجأة، ارتفع صهيل.",
+          "كان الحصان الأسود قد اقترب من دون أن يشعر به أحد. أسند رأسه إلى ظهر شيانغ يو وأخذ يحتك به برفق، وفي صوته تعلق يعجز الوصف عنه. وبين الضباب، تناثرت في شعره أضواء دقيقة، تومض وتخبو كسماء مرصعة بالنجوم."
+        ],
+        "ptBR": [
+          "De repente, um relincho.",
+          "Sem que ninguém percebesse quando, o cavalo negro havia se aproximado. Encostava a cabeça nas costas de Xiang Yu e a esfregava de leve; em sua voz havia uma tristeza de despedida impossível de expressar. Na névoa, pequenos pontos de luz surgiam em sua pelagem, acendendo e se apagando como um céu estrelado."
+        ],
+        "vi": [
+          "Bất chợt, một tiếng ngựa hí xé toang không gian.",
+          "Con chiến mã đen nhánh chẳng biết tự khi nào đã tiến lại gần. Nó áp đầu vào lưng Hạng Vũ, khẽ cọ xát, trong tiếng hí ngân vang ẩn chứa một nỗi lưu luyến khôn cùng chẳng thốt nên lời. Giữa làn sương mờ mịt, lớp lông trên mình nó ánh lên từng đốm sáng li ti, lúc tỏ lúc mờ, tựa hồ cả một dải ngân hà rực rỡ."
+        ]
+      }
+    },
+    {
+      "panel_index": 2,
+      "type": "image",
+      "image_src": "media/37.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "项羽回过头，轻轻抚摸着自己的战马，与它额头相抵，像是在安抚，也似是在告别。过了片刻，他才转向船头，说道： “此马名乌骓，随我征战多年。我不忍它同死于此。若尔等还愿替我做一件事，便善待它。”"
+        ],
+        "zhHant": [
+          "項羽回過頭，輕輕撫摸着自己的戰馬，與它額頭相抵，像是在安撫，也似是在告別。過了片刻，他才轉向船頭，說道： “此馬名烏騅，隨我征戰多年。我不忍它同死於此。若爾等還願替我做一件事，便善待它。”"
+        ],
+        "en": [
+          "Xiang Yu turned and gently stroked his warhorse, resting his forehead against its own, as though to soothe it, or to say goodbye. Only after a while did he turn toward the bow and speak:  “This horse is called Wuzhui. He has followed me through years of war. I cannot bear to let him die here with me. If you would do one last thing for me, treat him well.”"
+        ],
+        "ja": [
+          "項羽は振り返り、戦馬を優しくなでた。額と額を合わせるその仕草は、なだめているようでも、別れを告げているようでもあった。しばらくして、ようやく舳先へ向き直り、言った。 「この馬は烏騅という。長年、私とともに戦場を駆けてきた。ここでともに死なせるには忍びない。もし、なお一つだけ願いを聞いてくれるのなら、この馬を大切にしてほしい。」"
+        ],
+        "ko": [
+          "항우는 돌아보며 전장을 함께한 말을 가만히 쓰다듬었다. 이마를 맞댄 모습은 달래는 듯도, 작별을 고하는 듯도 했다. 한참 뒤에야 그는 뱃머리 쪽으로 고개를 돌려 말했다.  “이 말의 이름은 오추요. 오랜 세월 나와 함께 전장을 누볐소. 이곳에서 함께 죽게 할 수는 없소. 나를 위해 한 가지만 더 해 줄 뜻이 있다면, 부디 잘 돌보아 주시오.”"
+        ],
+        "es": [
+          "Xiang Yu volvió la cabeza y acarició con suavidad a su caballo de guerra. Apoyó la frente contra la suya, como para calmarlo, o para despedirse. Solo al cabo de un momento se volvió hacia la proa y dijo:  «Este caballo se llama Wuzhui. Me ha acompañado en la guerra durante muchos años. No soporto que muera aquí conmigo. Si aún queréis hacer algo por mí, tratadlo bien.»"
+        ],
+        "fr": [
+          "Xiang Yu tourna la tête et caressa doucement son cheval de guerre. Il posa son front contre le sien, comme pour l’apaiser, ou lui faire ses adieux. Ce ne fut qu’après un moment qu’il se tourna vers la proue et dit :  « Ce cheval se nomme Wuzhui. Il m’accompagne à la guerre depuis de longues années. Je ne puis me résoudre à le voir mourir ici avec moi. Si vous voulez encore faire une chose pour moi, prenez soin de lui. »"
+        ],
+        "ru": [
+          "Сян Юй обернулся, нежно погладил своего боевого коня и прижался лбом к его лбу, словно утешая — или прощаясь. Лишь спустя несколько мгновений он повернулся к носу лодки и сказал: «Этого коня зовут Учжуй. Он много лет прошёл со мной по полям сражений. Я не могу допустить, чтобы и он погиб здесь. Если вы готовы исполнить ещё одну мою просьбу — позаботьтесь о нём»."
+        ],
+        "ar": [
+          "التفت شيانغ يو، ومسح برفق على حصانه الذي رافقه في الحروب، ثم أسند جبينه إلى جبينه، كأنه يواسيه، أو كأنه يودعه. وبعد برهة، استدار نحو مقدمة القارب وقال:  «اسم هذا الحصان ووتشوي. رافقني في الحروب أعوامًا طويلة، ولا يهون علي أن يموت معي هنا. إن كنتم لا تزالون مستعدين لتلبية طلب أخير لي، فأحسنوا إليه.»"
+        ],
+        "ptBR": [
+          "Xiang Yu virou a cabeça e acariciou suavemente seu cavalo de guerra. Encostou a testa na dele, como se o acalmasse, ou se despedisse. Só depois de um momento voltou-se para a proa e disse:  “Este cavalo se chama Wuzhui. Há muitos anos me acompanha na guerra. Não suporto a ideia de que morra aqui comigo. Se ainda estiverem dispostos a fazer algo por mim, cuidem bem dele.”"
+        ],
+        "vi": [
+          "Hạng Vũ ngoảnh đầu lại, dịu dàng vuốt ve con chiến mã của mình. Chàng áp trán vào trán nó, tựa như đang vỗ về ủi an, lại dường như đang nói lời vĩnh biệt. Lặng đi một thoáng, chàng mới quay về phía mũi thuyền, cất tiếng: “Con ngựa này tên là Ô Chuy, theo ta chinh chiến sa trường đã bấy nhiêu năm. Ta không nỡ để nó cùng vùi thây nơi đây. Nếu các ngươi còn niệm tình muốn vì ta làm một việc sau cuối, xin hãy đối đãi tử tế với nó.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 3,
+      "type": "image",
+      "image_src": "media/36.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "说罢，他转身面向自己的将士。",
+          "“你们也走吧。汉军要的，只是籍一人之头。趁雾未散，沿江而去，不会有人追。”",
+          "他说着，便穿过身后的队伍，独自迎着雾中传来的喊杀声走去。"
+        ],
+        "zhHant": [
+          "說罷，他轉身面向自己的將士。",
+          "“你們也走吧。漢軍要的，只是籍一人之頭。趁霧未散，沿江而去，不會有人追。”",
+          "他說着，便穿過身後的隊伍，獨自迎着霧中傳來的喊殺聲走去。"
+        ],
+        "en": [
+          "With that, he turned to face his soldiers.",
+          "“You should go too. The Han army wants only my head. Follow the river while the fog still holds. No one will pursue you.”",
+          "As he spoke, he passed through the men behind him and walked alone toward the cries of battle coming through the fog."
+        ],
+        "ja": [
+          "そう言い終えると、項羽は自らの将兵へ向き直った。",
+          "「お前たちも行け。漢軍が欲しいのは、私一人の首だ。霧が晴れぬうちに、川沿いに去れ。追う者はいない。」",
+          "言いながら、背後の兵たちの間を抜け、霧の向こうから届く鬨の声へ、一人で歩いていった。"
+        ],
+        "ko": [
+          "말을 마친 그는 몸을 돌려 제 장병들을 마주했다.",
+          "“너희도 가거라. 한군이 원하는 것은 내 머리 하나뿐이다. 안개가 걷히기 전에 강을 따라 떠나라. 쫓는 자는 없을 것이다.”",
+          "그렇게 말하며 그는 뒤에 선 병사들 사이를 지나, 안개 너머에서 들려오는 함성을 향해 홀로 걸어갔다."
+        ],
+        "es": [
+          "Dicho esto, se volvió hacia sus hombres.",
+          "«Marchaos vosotros también. Los Han solo quieren mi cabeza. Seguid el río antes de que se disipe la niebla. Nadie os perseguirá.»",
+          "Mientras hablaba, atravesó las filas que tenía a su espalda y avanzó solo hacia los gritos de combate que llegaban de la niebla."
+        ],
+        "fr": [
+          "Sur ces mots, il se retourna vers ses hommes.",
+          "« Partez, vous aussi. Les Han ne veulent que ma tête. Longez le fleuve avant que la brume se dissipe. Personne ne vous poursuivra. »",
+          "Tout en parlant, il traversa les rangs derrière lui et s’avança seul vers les cris de combat qui montaient de la brume."
+        ],
+        "ru": [
+          "Сказав это, он повернулся к своим воинам.",
+          "«Вам тоже пора уходить. Ханьскому войску нужна лишь моя голова, голова Цзи. Пока туман не рассеялся, ступайте вдоль реки. Никто не станет вас преследовать».",
+          "С этими словами он прошёл сквозь ряды стоявших за ним воинов и один направился навстречу боевым крикам, доносившимся из тумана."
+        ],
+        "ar": [
+          "ثم استدار إلى رجاله.",
+          "«ارحلوا أنتم أيضًا. لا يريد جيش هان إلا رأسي وحدي، رأس جي. امضوا بمحاذاة النهر قبل أن ينقشع الضباب، ولن يتبعكم أحد.»",
+          "وبينما يقول ذلك، مر بين صفوف رجاله خلفه، ومضى وحده نحو صيحات القتال القادمة من الضباب."
+        ],
+        "ptBR": [
+          "Dito isso, virou-se para seus homens.",
+          "“Partam vocês também. O exército de Han quer apenas a minha cabeça. Sigam pelo rio antes que a névoa se dissipe. Ninguém os perseguirá.”",
+          "Enquanto falava, atravessou as fileiras atrás de si e avançou sozinho em direção aos gritos de combate que vinham da névoa."
+        ],
+        "vi": [
+          "Dứt lời, chàng quay người đối diện với những tướng sĩ còn lại của mình.",
+          "“Các ngươi cũng đi đi. Quân Hán muốn, cũng chỉ là cái đầu của một mình Hạng Tịch này mà thôi. Thừa lúc sương chưa tan, hãy men theo bờ sông mà rút lui, sẽ không có ai đuổi theo đâu.”",
+          "Vừa dứt lời, chàng sải bước xuyên qua hàng quân phía sau lưng, một mình tiến thẳng về phía tiếng hò reo chém giết đang rền vang trong sương mù."
+        ]
+      }
+    },
+    {
+      "panel_index": 4,
+      "type": "image",
+      "image_src": "media/42.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "没有人离去。",
+          "二十余人或翻身下马，或拔出短刃。他们默然跟上，在项羽身后一字排开。不知是谁先喊了一声，接着所有人都喊了起来：",
+          "“誓死追随项王！”",
+          "“誓死追随项王——！”",
+          "喊声撞进浓雾里，惊起满滩水鸟。"
+        ],
+        "zhHant": [
+          "沒有人離去。",
+          "二十餘人或翻身下馬，或拔出短刃。他們默然跟上，在項羽身後一字排開。不知是誰先喊了一聲，接着所有人都喊了起來：",
+          "“誓死追隨項王！”",
+          "“誓死追隨項王——！”",
+          "喊聲撞進濃霧裏，驚起滿灘水鳥。"
+        ],
+        "en": [
+          "No one left.",
+          "The twenty-odd men dismounted or drew their short blades. Silently they followed, forming a line behind Xiang Yu. Someone shouted first; then they were all shouting:",
+          "“We follow King Xiang to the death!”",
+          "“We follow King Xiang to the death—!”",
+          "Their cries struck the thick fog, startling waterbirds into flight all along the shore."
+        ],
+        "ja": [
+          "立ち去る者はいなかった。",
+          "二十数人の兵は、馬を降り、あるいは短い刃を抜いた。黙って項羽に続き、その背後に一列に並ぶ。誰かが最初に叫び、やがて全員が声を上げた。",
+          "「命に代えても、項王に従う！」",
+          "「命に代えても、項王に従う——！」",
+          "叫びは濃霧にぶつかり、岸を埋めていた水鳥が一斉に飛び立った。"
+        ],
+        "ko": [
+          "아무도 떠나지 않았다.",
+          "스무 명이 넘는 병사들이 말에서 내리거나 짧은 칼을 뽑았다. 그들은 말없이 따라가 항우의 뒤에 한 줄로 늘어섰다. 누군가 먼저 외쳤고, 곧 모두가 외치기 시작했다.",
+          "“죽는 날까지 항왕을 따르겠습니다!”",
+          "“죽는 날까지 항왕을 따르겠습니다——!”",
+          "외침이 짙은 안개에 부딪히자, 강가를 가득 메웠던 물새들이 놀라 날아올랐다."
+        ],
+        "es": [
+          "Nadie se marchó.",
+          "Los más de veinte hombres desmontaron o desenvainaron sus hojas cortas. Lo siguieron en silencio y se desplegaron en una línea detrás de Xiang Yu. No se supo quién dio el primer grito; después gritaron todos:",
+          "«¡Juramos seguir al rey Xiang hasta la muerte!»",
+          "«¡Juramos seguir al rey Xiang hasta la muerte…!»",
+          "Los gritos golpearon la espesa niebla e hicieron levantar el vuelo a las aves acuáticas de toda la ribera."
+        ],
+        "fr": [
+          "Personne ne partit.",
+          "Les vingt et quelques hommes mirent pied à terre ou tirèrent leurs lames courtes. Ils le suivirent en silence et se déployèrent sur une ligne derrière Xiang Yu. Nul ne sut qui cria le premier ; puis tous se mirent à crier :",
+          "« Nous jurons de suivre le roi Xiang jusqu’à la mort ! »",
+          "« Nous jurons de suivre le roi Xiang jusqu’à la mort — ! »",
+          "Leurs cris heurtèrent l’épaisse brume et firent s’envoler les oiseaux d’eau de toute la grève."
+        ],
+        "ru": [
+          "Никто не ушёл.",
+          "Два с лишним десятка воинов — одни спешиваясь, другие обнажая короткие клинки — молча двинулись следом и выстроились за спиной Сян Юя. Кто-то крикнул первым, а затем подхватили все:",
+          "«За государем Сяном — до самой смерти!»",
+          "«За государем Сяном — до самой смерти—!»",
+          "Крики ударили в густой туман, подняв с отмели стаи водяных птиц."
+        ],
+        "ar": [
+          "لم يرحل أحد.",
+          "ترجل بعض أولئك الرجال الذين تجاوز عددهم العشرين، وسل آخرون نصالهم القصيرة. تبعوه في صمت، واصطفوا وراء شيانغ يو. لا أحد يدري من أطلق الهتاف أولًا، ثم هتفوا جميعًا: ",
+          "«نتبع الملك شيانغ حتى الموت!»",
+          "«نتبع الملك شيانغ حتى الموت——!»",
+          "اندفعت الهتافات في الضباب الكثيف، فأفزعت طيور الماء على امتداد الشاطئ وأطارتها."
+        ],
+        "ptBR": [
+          "Ninguém partiu.",
+          "Os vinte e tantos homens desmontaram ou sacaram suas lâminas curtas. Seguiram-no em silêncio e se alinharam atrás de Xiang Yu. Não se soube quem gritou primeiro; em seguida, todos começaram a gritar:",
+          "“Juramos seguir o rei Xiang até a morte!”",
+          "“Juramos seguir o rei Xiang até a morte —!”",
+          "Os gritos atingiram a névoa espessa e fizeram levantar voo as aves aquáticas de toda a praia."
+        ],
+        "vi": [
+          "Tuyệt nhiên không một ai rời đi.",
+          "Hơn hai mươi dũng sĩ, kẻ tung mình xuống ngựa, người rút đoản đao sắc lẹm. Họ lặng lẽ theo sau, dàn thành một hàng dài sau lưng Hạng Vũ. Chẳng rõ là ai đã cất tiếng hô trước tiên, nhưng rồi ngay sau đó, tất cả đồng thanh gầm thét:",
+          "“Thề chết đi theo Hạng Vương!”",
+          "“Thề chết đi theo Hạng Vương——!”",
+          "Tiếng thét dội thẳng vào màn sương dày đặc, làm kinh động bầy chim nước bay túa lên rợp cả bãi bồi."
+        ]
+      }
+    },
+    {
+      "panel_index": 5,
+      "type": "image",
+      "image_src": "media/22.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "汉军到了。",
+          "骑兵从雾里涌了出来，如狂风席卷而至，转瞬之间，已近在咫尺。"
+        ],
+        "zhHant": [
+          "漢軍到了。",
+          "騎兵從霧裏湧了出來，如狂風席捲而至，轉瞬之間，已近在咫尺。"
+        ],
+        "en": [
+          "The Han army had arrived.",
+          "Cavalry poured out of the fog, sweeping toward them like a gale. In an instant they were almost upon them."
+        ],
+        "ja": [
+          "漢軍が来た。",
+          "騎兵が霧から湧き出し、烈風のように押し寄せた。瞬く間に、もう眼前に迫っていた。"
+        ],
+        "ko": [
+          "한군이 왔다.",
+          "기병이 안개 속에서 쏟아져 나와 광풍처럼 밀려들었다. 눈 깜짝할 사이, 바로 코앞까지 다가와 있었다."
+        ],
+        "es": [
+          "El ejército Han había llegado.",
+          "La caballería surgió de la niebla, arrasándolo todo como un vendaval. En un instante estaba ya a unos pasos."
+        ],
+        "fr": [
+          "L’armée des Han était arrivée.",
+          "La cavalerie jaillit de la brume et déferla comme une bourrasque. En un instant, elle était tout près."
+        ],
+        "ru": [
+          "Ханьское войско подоспело.",
+          "Конница хлынула из тумана, налетела, словно ураган, и в одно мгновение оказалась совсем рядом."
+        ],
+        "ar": [
+          "وصل جيش هان.",
+          "اندفع الفرسان من الضباب كريح عاتية تجتاح المكان، وفي طرفة عين صاروا على مرمى خطوة."
+        ],
+        "ptBR": [
+          "O exército de Han havia chegado.",
+          "A cavalaria surgiu da névoa, avançando como um vendaval. Num instante, já estava a poucos passos."
+        ],
+        "vi": [
+          "Quân Hán đã ập tới.",
+          "Kỵ binh xé toạc màn sương ào ạt tràn ra, tựa như cuồng phong bão táp quét ngang trời đất, chỉ trong chớp mắt đã áp sát ngay trước mặt."
+        ]
+      }
+    },
+    {
+      "panel_index": 6,
+      "type": "image",
+      "image_src": "media/40.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "项羽缓缓提起手中那柄折断的巨刃，迈着沉稳的步子，迎向奔涌而来的汉军。一步一步，走进了自己故事的终章。"
+        ],
+        "zhHant": [
+          "項羽緩緩提起手中那柄折斷的巨刃，邁着沉穩的步子，迎向奔湧而來的漢軍。一步一步，走進了自己故事的終章。"
+        ],
+        "en": [
+          "Xiang Yu slowly raised the great broken blade in his hand and walked with steady steps to meet the oncoming Han army. Step by step, he entered the final chapter of his own story."
+        ],
+        "ja": [
+          "項羽は折れた大きな戦刃をゆっくりと持ち上げ、確かな足取りで、押し寄せる漢軍へ歩み出した。一歩、また一歩。自らの物語の終章へと入っていった。"
+        ],
+        "ko": [
+          "항우는 손에 든 부러진 거대한 칼을 천천히 들어 올리고, 밀려드는 한군을 향해 흔들림 없는 걸음을 내디뎠다. 한 걸음, 또 한 걸음. 자신의 이야기 마지막 장으로 걸어 들어갔다."
+        ],
+        "es": [
+          "Xiang Yu alzó despacio la enorme hoja rota que llevaba en la mano y, con paso firme, salió al encuentro de los Han que se precipitaban hacia él. Paso a paso, entró en el último capítulo de su propia historia."
+        ],
+        "fr": [
+          "Xiang Yu leva lentement l’immense lame brisée qu’il tenait à la main et, d’un pas ferme, alla au-devant des Han qui se ruaient vers lui. Pas après pas, il entra dans le dernier chapitre de sa propre histoire."
+        ],
+        "ru": [
+          "Сян Юй медленно поднял свой огромный сломанный клинок и твёрдым шагом пошёл навстречу ханьскому войску. Шаг за шагом он вступал в последнюю главу собственной истории."
+        ],
+        "ar": [
+          "رفع شيانغ يو ببطء نصله الهائل المكسور، ومضى بخطوات راسخة نحو جيش هان المتدفق. خطوة بعد خطوة، دخل الفصل الأخير من حكايته."
+        ],
+        "ptBR": [
+          "Xiang Yu ergueu devagar a enorme lâmina quebrada que segurava e, com passos firmes, foi ao encontro do exército de Han que avançava sobre ele. Passo a passo, entrou no último capítulo de sua própria história."
+        ],
+        "vi": [
+          "Hạng Vũ chậm rãi nâng thanh cự đao gãy nát trong tay lên, cất từng bước chân vững chãi như núi thái sơn, nghênh đón đại quân Hán đang cuồn cuộn ùa tới. Từng bước, từng bước một, chàng ung dung bước vào chương cuối cùng của thiên anh hùng ca đời mình."
+        ]
+      }
+    },
+    {
+      "panel_index": 7,
+      "type": "image",
+      "image_src": "media/41.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "汉军像决了堤的黑潮，转眼漫过滩头。那二十几道身影在潮水里站了片刻，便被吞没了。"
+        ],
+        "zhHant": [
+          "漢軍像決了堤的黑潮，轉眼漫過灘頭。那二十幾道身影在潮水裏站了片刻，便被吞沒了。"
+        ],
+        "en": [
+          "The Han army broke over the shore like a black tide through a breached embankment. Those twenty-odd figures stood within it for a moment, then were swallowed."
+        ],
+        "ja": [
+          "漢軍は堤を破った黒い潮のように、たちまち岸を覆った。二十数人の影は、その流れの中にわずかなあいだ立っていたが、やがて呑み込まれた。"
+        ],
+        "ko": [
+          "한군은 둑을 무너뜨린 검은 밀물처럼 순식간에 강가를 뒤덮었다. 스무 개 남짓한 형체가 그 물결 속에 잠시 서 있다가 이내 삼켜졌다."
+        ],
+        "es": [
+          "El ejército Han inundó la ribera como una marea negra que hubiera roto sus diques. Aquellas veintitantas figuras se mantuvieron un momento entre las aguas, y luego fueron engullidas."
+        ],
+        "fr": [
+          "L’armée des Han submergea la grève comme une marée noire rompant ses digues. Les vingt et quelques silhouettes tinrent un moment dans ce flot, puis furent englouties."
+        ],
+        "ru": [
+          "Ханьское войско, точно чёрная волна, прорвавшая плотину, вмиг затопило отмель. Два с лишним десятка силуэтов продержались в этом потоке лишь мгновение — и исчезли под ним."
+        ],
+        "ar": [
+          "كمد أسود خرق السد، غمر جيش هان الشاطئ في لحظات. ظلت ظلال أولئك الرجال، العشرين ونيف، قائمة في قلب التيار برهة، ثم ابتلعها."
+        ],
+        "ptBR": [
+          "Como uma maré negra que rompesse os diques, o exército de Han inundou a praia num instante. Aquelas vinte e tantas silhuetas se mantiveram por um momento em meio à correnteza, antes de serem engolidas."
+        ],
+        "vi": [
+          "Quân Hán tựa như một cơn thủy triều đen ngòm vỡ đê, trong chớp mắt đã tràn ngập bãi bồi ven sông. Hơn hai mươi bóng hình cô độc ấy sừng sững giữa triều dâng trong thoáng chốc, rồi vĩnh viễn bị nhấn chìm."
+        ]
+      }
+    },
+    {
+      "panel_index": 8,
+      "type": "image",
+      "image_src": "media/24.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "短兵相接的声音，远没有月牙儿想象中那样清脆响亮。沉闷的撞击声混着嘶哑的嚎叫，血腥而残酷。过了一会儿，岸上的喊杀声渐渐变了味，变成争抢，变成狂欢。风把那些声音一阵阵送过江面：",
+          "“在这儿！这块是我的——！”",
+          "“分我一块！”",
+          "月牙儿别过头去,不忍再看。"
+        ],
+        "zhHant": [
+          "短兵相接的聲音，遠沒有月牙兒想象中那樣清脆響亮。沉悶的撞擊聲混着嘶啞的嚎叫，血腥而殘酷。過了一會兒，岸上的喊殺聲漸漸變了味，變成爭搶，變成狂歡。風把那些聲音一陣陣送過江面：",
+          "“在這兒！這塊是我的——！”",
+          "“分我一塊！”",
+          "月牙兒別過頭去,不忍再看。"
+        ],
+        "en": [
+          "The sound of blades meeting was nothing like the clear, ringing clash Mahina had imagined. Dull impacts mingled with hoarse howls, bloody and brutal. After a while, the cries on shore began to change: into a scramble, into a frenzy of celebration. The wind carried their voices across the river in gusts:",
+          "“Here! This piece is mine—!”",
+          "“Give me a piece!”",
+          "Mahina turned her head away. She could not bear to watch."
+        ],
+        "ja": [
+          "刃を交える音は、マヒナが思い描いていたような、澄んだ響きではなかった。鈍い衝突音に、かすれた叫びが混じる。血なまぐさく、残酷だった。しばらくすると、岸の鬨の声は次第に様相を変えた。奪い合う声へ、狂喜の声へ。風がその声を、幾度も川面の向こうから運んできた。",
+          "「ここだ！　これは俺のものだ——！」",
+          "「俺にもひとかけよこせ！」",
+          "マヒナは顔を背けた。もう見ていられなかった。"
+        ],
+        "ko": [
+          "칼과 칼이 맞붙는 소리는 마히나가 상상하던 것처럼 맑고 쨍하지 않았다. 둔탁한 충돌음에 목이 쉰 울부짖음이 뒤섞였다. 피비린내 나고 잔혹했다. 얼마 뒤 강가의 함성이 조금씩 다른 소리로 변했다. 서로 빼앗는 소리로, 미친 듯이 환호하는 소리로. 바람이 그 목소리들을 강물 너머로 실어 왔다.",
+          "“여기다! 이 조각은 내 거야——!”",
+          "“나도 한 조각 줘!”",
+          "마히나는 고개를 돌렸다. 더는 차마 볼 수 없었다."
+        ],
+        "es": [
+          "El choque de las armas cuerpo a cuerpo distaba mucho del sonido limpio y resonante que Mahina había imaginado. Los golpes sordos se mezclaban con aullidos roncos. Era sangriento, cruel. Al cabo de un rato, los gritos de combate en la orilla fueron cambiando: se volvieron disputa, se volvieron júbilo. El viento llevaba aquellas voces sobre el río, una ráfaga tras otra:",
+          "«¡Aquí! ¡Este pedazo es mío…!»",
+          "«¡Dame un pedazo!»",
+          "Mahina volvió la cara, incapaz de seguir mirando."
+        ],
+        "fr": [
+          "Le choc des armes au corps à corps n’avait rien du son clair et sonore que Mahina avait imaginé. Les coups sourds se mêlaient aux hurlements rauques. C’était sanglant, cruel. Au bout d’un moment, les cris de combat sur la rive changèrent peu à peu de nature : ils devinrent dispute, puis liesse. Par rafales, le vent portait ces voix au-dessus du fleuve :",
+          "« Ici ! Ce morceau est à moi — ! »",
+          "« Donne-m’en un morceau ! »",
+          "Mahina détourna la tête, incapable de regarder davantage."
+        ],
+        "ru": [
+          "Звуки ближнего боя оказались совсем не такими звонкими и отчётливыми, как представляла себе Юэя. Глухие удары смешивались с хриплыми воплями — кроваво и жестоко. Спустя некоторое время боевые крики на берегу стали меняться: теперь в них слышались жадная свалка и исступлённое ликование. Ветер доносил эти голоса через реку:",
+          "«Здесь! Этот кусок мой—!»",
+          "«И мне кусок!»",
+          "Юэя отвернулась, не в силах больше смотреть."
+        ],
+        "ar": [
+          "لم تكن أصوات التحام السلاح صافية رنانة كما تخيلتها ماهينا. كانت ضربات مكتومة تختلط بعواء أجش، دامية وقاسية. وبعد قليل، أخذت صيحات القتال على الضفة تتبدل؛ صارت تنازعًا وتخاطفًا، ثم صخب احتفال محموم. وحملت الريح تلك الأصوات عبر النهر، دفعة بعد أخرى: ",
+          "«هنا! هذه القطعة لي——!»",
+          "«أعطني قطعة!»",
+          "أشاحت ماهينا بوجهها، فلم تعد تطيق النظر."
+        ],
+        "ptBR": [
+          "O som das armas no combate corpo a corpo estava longe de ser tão límpido e ressoante quanto Mahina imaginara. Impactos surdos se misturavam a uivos roucos. Era sangrento e cruel. Depois de algum tempo, os gritos de combate na margem foram mudando: tornaram-se disputa, tornaram-se euforia. O vento carregava aquelas vozes sobre o rio, uma rajada após outra:",
+          "“Aqui! Este pedaço é meu —!”",
+          "“Me dá um pedaço!”",
+          "Mahina virou o rosto, sem suportar continuar olhando."
+        ],
+        "vi": [
+          "Âm thanh của đao kiếm chạm nhau nơi giáp trận cận chiến chẳng hề vang rền đanh thép như Nguyệt Nha Nhi từng tưởng tượng. Chỉ có những tiếng va đập trầm đục lẫn trong tiếng gầm rú khản đặc, tanh nồng mùi máu và tàn khốc khôn cùng. Lát sau, tiếng chém giết trên bờ dần dần biến sắc, chuyển thành cảnh tranh giành xâu xé, biến thành một bữa tiệc cuồng hoan man rợ. Gió cuốn từng đợt thanh âm hỗn loạn ấy thốc qua mặt sông:",
+          "“Ở đây! Mảnh này là của tao——!”",
+          "“Chia cho tao một phần!”",
+          "Nguyệt Nha Nhi quay mặt đi nơi khác, không nỡ và cũng không thể đành lòng nhìn tiếp."
+        ]
+      }
+    },
+    {
+      "panel_index": 9,
+      "type": "image",
+      "image_src": "media/25.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "青年依旧立在那里,神色平静,一动不动地望着岸上。"
+        ],
+        "zhHant": [
+          "青年依舊立在那裏,神色平靜,一動不動地望着岸上。"
+        ],
+        "en": [
+          "The young man still stood there, his face calm, gazing at the shore without moving."
+        ],
+        "ja": [
+          "若者はなおそこに立ち、穏やかな表情のまま、身じろぎもせず岸を見つめていた。"
+        ],
+        "ko": [
+          "젊은이는 여전히 그 자리에 서 있었다. 평온한 얼굴로, 미동도 없이 강가를 바라보고 있었다."
+        ],
+        "es": [
+          "El joven seguía de pie, inmóvil, contemplando la orilla con expresión serena."
+        ],
+        "fr": [
+          "Le jeune homme était toujours debout, immobile, les yeux fixés sur la rive, le visage calme."
+        ],
+        "ru": [
+          "Юноша всё так же стоял на месте и неподвижно смотрел на берег. Лицо его оставалось спокойным."
+        ],
+        "ar": [
+          "ظل الشاب واقفًا في مكانه، هادئ الملامح، ينظر إلى الضفة من دون أن يتحرك."
+        ],
+        "ptBR": [
+          "O jovem permanecia de pé, imóvel, contemplando a margem com o rosto sereno."
+        ],
+        "vi": [
+          "Chàng thanh niên lái đò vẫn đứng yên nơi mũi thuyền, sắc mặt phẳng lặng như tờ, đăm đăm nhìn về phía bờ bên kia mà chẳng hề lay động."
+        ]
+      }
+    },
+    {
+      "panel_index": 10,
+      "type": "image",
+      "image_src": "media/26.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "顺着他的目光,月牙儿发现他盯着的不是那片混乱,而是那面在雾中起伏的“汉”字大旗。他看了很久,很久。"
+        ],
+        "zhHant": [
+          "順着他的目光,月牙兒發現他盯着的不是那片混亂,而是那面在霧中起伏的“漢”字大旗。他看了很久,很久。"
+        ],
+        "en": [
+          "Following his gaze, Mahina realized that he was watching not the chaos, but the great banner bearing the character for Han as it rose and fell in the fog. He watched for a long, long time."
+        ],
+        "ja": [
+          "その視線をたどり、マヒナは気づいた。彼が見つめているのは、あの混乱ではない。霧の中でうねる、『漢』の一字を掲げた大旗だった。彼はいつまでも、いつまでも見つめていた。"
+        ],
+        "ko": [
+          "그 시선을 따라간 마히나는 그가 혼란스러운 광경을 보는 것이 아님을 알았다. 안개 속에서 오르내리는, ‘한(漢)’ 자가 쓰인 커다란 깃발이었다. 그는 오래도록, 아주 오래도록 바라보았다."
+        ],
+        "es": [
+          "Al seguir su mirada, Mahina descubrió que no observaba aquel caos, sino el gran estandarte con la palabra «Han» que ondulaba entre la niebla. Lo miró durante mucho, mucho tiempo."
+        ],
+        "fr": [
+          "En suivant son regard, Mahina comprit qu’il ne contemplait pas le chaos, mais le grand étendard portant le mot « Han », qui ondulait dans la brume. Il le regarda longtemps, très longtemps."
+        ],
+        "ru": [
+          "Проследив за его взглядом, Юэя поняла: он смотрит не на ту свалку, а на огромное знамя с иероглифом «Хань», колыхавшееся в тумане. Он смотрел долго. Очень долго."
+        ],
+        "ar": [
+          "تبعت ماهينا نظره، فاكتشفت أنه لا يحدق في تلك الفوضى، بل في الراية الكبيرة التي تحمل اسم «هان»، ترتفع وتهبط بين الضباب. ظل ينظر إليها طويلًا، طويلًا."
+        ],
+        "ptBR": [
+          "Ao seguir o olhar dele, Mahina percebeu que ele não observava a confusão, mas a grande bandeira com a palavra “Han”, que ondulava na névoa. Ele a fitou por muito, muito tempo."
+        ],
+        "vi": [
+          "Dõi theo ánh mắt chàng, Nguyệt Nha Nhi mới nhận ra thứ mà chàng đang nhìn chằm chằm không phải là cảnh hỗn chiến tàn khốc kia, mà là đại kỳ mang chữ “HÁN” đang nhấp nhô lay động giữa màn sương. Chàng đứng nhìn lá cờ ấy rất lâu, rất lâu."
+        ]
+      }
+    },
+    {
+      "panel_index": 11,
+      "type": "image",
+      "image_src": "media/39.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "滩头上，乌骓还在。",
+          "它没有上船，也不肯走，只是朝着主人消失的方向扬起前蹄，一声又一声地长嘶，久久不去。雾的尽头，天边那个巨大的影子突然发出一声沉闷的虫鸣，像一声绵长的叹息，正正落在马嘶的间隙里。",
+          "一声马嘶，一声虫鸣。一应，一答。"
+        ],
+        "zhHant": [
+          "灘頭上，烏騅還在。",
+          "它沒有上船，也不肯走，只是朝着主人消失的方向揚起前蹄，一聲又一聲地長嘶，久久不去。霧的盡頭，天邊那個巨大的影子突然發出一聲沉悶的蟲鳴，像一聲綿長的嘆息，正正落在馬嘶的間隙裏。",
+          "一聲馬嘶，一聲蟲鳴。一應，一答。"
+        ],
+        "en": [
+          "Wuzhui was still on the shore.",
+          "He had not boarded the boat, and would not leave. He only reared toward the place where his master had vanished, neighing again and again, lingering there. Beyond the fog, the immense shadow on the horizon suddenly gave a low insect cry, like a long sigh, falling precisely into the silence between the horse’s calls.",
+          "A horse’s neigh. An insect’s cry. A call, an answer."
+        ],
+        "ja": [
+          "岸辺には、まだ烏騅がいた。",
+          "舟には乗らず、立ち去ろうともしない。主人の消えた方へ前脚を上げ、繰り返し長くいななき、その場を離れなかった。霧の果て、空の際に立つ巨大な影が、不意に低い虫の声を上げた。長いため息のようなその声は、ちょうど馬のいななきの合間に落ちた。",
+          "馬のいななき。虫の声。呼びかけ、応える。"
+        ],
+        "ko": [
+          "강가에는 아직 오추가 있었다.",
+          "배에도 오르지 않았고 떠나려 하지도 않았다. 그저 주인이 사라진 쪽을 향해 앞발을 치켜들고, 길게 울고 또 울며 오래도록 그 자리를 지켰다. 안개 끝, 하늘가의 거대한 그림자가 문득 낮고 둔중한 벌레 울음소리를 냈다. 긴 한숨 같은 그 소리는, 말 울음이 잦아든 틈으로 꼭 맞게 내려앉았다.",
+          "한 번은 말이 울고, 한 번은 벌레가 울었다. 부르고, 답했다."
+        ],
+        "es": [
+          "Wuzhui seguía en la ribera.",
+          "No había subido a la barca y tampoco quería marcharse. Se alzaba sobre las patas traseras en la dirección por la que había desaparecido su amo y lanzaba un largo relincho tras otro, sin alejarse. Al fondo de la niebla, la sombra gigantesca del horizonte emitió de pronto un zumbido sordo, como un suspiro prolongado, justo entre dos relinchos.",
+          "Un relincho, un zumbido. Una llamada, una respuesta."
+        ],
+        "fr": [
+          "Sur la grève, Wuzhui était encore là.",
+          "Il n’était pas monté dans la barque et refusait de partir. Il se cabrait dans la direction où son maître avait disparu, poussant un long hennissement après l’autre, sans s’éloigner. Au bout de la brume, l’ombre gigantesque à l’horizon émit soudain un cri d’insecte assourdi, tel un long soupir, qui vint se glisser exactement entre deux hennissements.",
+          "Un hennissement, un cri d’insecte. Un appel, une réponse."
+        ],
+        "ru": [
+          "Учжуй всё ещё был на отмели.",
+          "Он не взошёл на лодку и не хотел уходить. Поднимаясь на дыбы в ту сторону, где исчез его хозяин, он снова и снова протяжно ржал, не покидая берега. За краем тумана огромная тень у горизонта вдруг издала глухой гул насекомого, похожий на долгий вздох. Он пришёлся как раз на паузу между криками коня.",
+          "Ржание коня. Гул насекомого. Зов — и ответ."
+        ],
+        "ar": [
+          "كان ووتشوي لا يزال على الشاطئ.",
+          "لم يصعد إلى القارب، وأبى أن يرحل. كان يرفع قائمتيه الأماميتين نحو الجهة التي اختفى فيها صاحبه، ويطلق صهيلًا طويلًا إثر صهيل، ولا يبرح مكانه. وعند أقصى الضباب، أصدر الظل الهائل في الأفق فجأة طنينًا مكتومًا، كزفرة مديدة، وقع تمامًا في الفسحة بين صهيلين.",
+          "صهيل حصان، وطنين حشرة. نداء، وجواب."
+        ],
+        "ptBR": [
+          "Na praia, Wuzhui ainda estava lá.",
+          "Não havia embarcado e se recusava a partir. Empinava-se na direção em que o dono desaparecera e soltava um longo relincho após o outro, sem ir embora. No fim da névoa, a sombra gigantesca no horizonte emitiu de repente um zumbido abafado, como um suspiro demorado, que veio se encaixar entre dois relinchos.",
+          "Um relincho, um zumbido. Um chamado, uma resposta."
+        ],
+        "vi": [
+          "Nơi bãi bồi ven sông, Ô Chuy vẫn còn ở đó.",
+          "Nó không hề bước lên thuyền, cũng chẳng chịu rời đi, chỉ ngẩng cao hai vó trước hướng về nơi chủ nhân vừa ngã xuống, cất lên từng hồi hí dài thảm thiết, quẩn quanh mãi chẳng dứt. Nơi tận cùng của làn sương, bóng đen khổng lồ nơi chân trời bỗng nhiên phát ra một tiếng trùng minh trầm đục, tựa như một tiếng thở dài trầm lắng miên man, rơi trúng vào khoảng lặng giữa những tiếng ngựa hí.",
+          "Một tiếng ngựa hí, một tiếng trùng minh. Một tiếng thảng thốt, một lời đáp hồi."
+        ]
+      }
+    },
+    {
+      "panel_index": 12,
+      "type": "image",
+      "image_src": "media/27.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "天光渐渐放亮，江上的雾气也缓缓散去。年轻的船夫坐在船头，安静得像一尊塑像。",
+          "“……你叫什么名字？” 月牙儿轻声问，似乎只是想打破船上的沉默。",
+          "青年没有回答。他仍望着那面汉旗，像是自言自语，又像是在问她：",
+          "“既然天意不可违，命运又为何要指引我们来窥探命运？”",
+          "过了好一会儿，他才回过头，看见她一脸茫然的样子，忽然淡淡一笑。",
+          "“看来，你是头一回于云中行走。”",
+          "他叹了口气。",
+          "“我也不过是一介草民。汉家天下倾覆之后，乱世里的一个农夫罢了。也不知为何偏偏是我有此荣幸，能以云中人之身，来这乌江边，见一见楚霸王。”"
+        ],
+        "zhHant": [
+          "天光漸漸放亮，江上的霧氣也緩緩散去。年輕的船伕坐在船頭，安靜得像一尊塑像。",
+          "“……你叫什麼名字？” 月牙兒輕聲問，似乎只是想打破船上的沉默。",
+          "青年沒有回答。他仍望着那面漢旗，像是自言自語，又像是在問她：",
+          "“既然天意不可違，命運又爲何要指引我們來窺探命運？”",
+          "過了好一會兒，他纔回過頭，看見她一臉茫然的樣子，忽然淡淡一笑。",
+          "“看來，你是頭一回於雲中行走。”",
+          "他嘆了口氣。",
+          "“我也不過是一介草民。漢家天下傾覆之後，亂世裏的一個農夫罷了。也不知爲何偏偏是我有此榮幸，能以雲中人之身，來這烏江邊，見一見楚霸王。”"
+        ],
+        "en": [
+          "The sky was growing light, and the fog over the river slowly thinned. The young boatman sat at the bow, as still as a statue.",
+          "“…What’s your name?”  Mahina asked softly, as if she wanted only to break the silence on the boat.",
+          "The young man did not answer. Still watching the Han banner, he spoke as if to himself, or as if asking her:",
+          "“If Heaven’s will cannot be defied, why does fate lead us here to glimpse fate itself?”",
+          "Only after a long while did he turn. Seeing her bewildered face, he suddenly gave a faint smile.",
+          "“It seems this is your first walk through the clouds.”",
+          "He sighed.",
+          "“I am only a common man myself. A farmer in a time of turmoil, after the fall of the Han. I do not know why I, of all people, should have the honor of coming as a Cloud Dweller to the banks of the Wujiang, to see the Hegemon-King of Chu.”"
+        ],
+        "ja": [
+          "空は少しずつ明るみ、川を覆う霧もゆっくりと晴れていった。若い船頭は舳先に座り、彫像のように静かだった。",
+          "「……名前は、何ていうの？」 マヒナは小声で尋ねた。ただ、舟の沈黙を破りたかっただけのようだった。",
+          "若者は答えなかった。漢の旗を見つめたまま、独り言のように、彼女に問うように言った。",
+          "「天意に逆らえぬのなら、運命はなぜ我々を導き、運命を垣間見せるのだろう。」",
+          "長い間を置いてから、彼はようやく振り返った。ぽかんとした彼女の顔を見て、不意にかすかな笑みを浮かべた。",
+          "「どうやら、雲の中を歩くのは初めてのようだ。」",
+          "彼はため息をついた。",
+          "「私も、ただの民の一人にすぎない。漢の世が倒れたあとの乱世を生きる、一介の農夫だ。なぜ私にこの栄誉が与えられたのかはわからない。雲中人となって、この烏江のほとりへ来て、楚の覇王にお会いできるとは。」"
+        ],
+        "ko": [
+          "하늘이 차츰 밝아지고, 강을 덮은 안개도 서서히 걷혔다. 젊은 뱃사공은 뱃머리에 앉아 있었다. 조각상처럼 고요했다.",
+          "“……이름이 뭐예요?”  마히나가 나직이 물었다. 그저 배 안의 침묵을 깨고 싶은 듯했다.",
+          "젊은이는 대답하지 않았다. 여전히 한나라 깃발을 바라보며, 혼잣말 같기도 하고 그녀에게 묻는 것 같기도 한 말을 했다.",
+          "“하늘의 뜻을 거스를 수 없다면, 운명은 어찌하여 우리를 이끌어 운명을 엿보게 하는 것일까.”",
+          "한참 뒤에야 그가 돌아보았다. 어리둥절한 마히나의 얼굴을 보고 문득 엷은 미소를 지었다.",
+          "“보아하니 구름 속을 걷는 것은 처음인 모양이오.”",
+          "그는 한숨을 쉬었다.",
+          "“나 역시 한낱 백성에 불과하오. 한나라 천하가 무너진 뒤, 난세를 살아가는 농부일 뿐이지. 어찌하여 하필 내게 이런 영광이 주어졌는지는 모르겠소. 운중인이 되어 이 오강 가에 와서, 초패왕을 뵙게 되다니.”"
+        ],
+        "es": [
+          "El cielo fue clareando y la niebla del río comenzó a disiparse. El joven barquero estaba sentado en la proa, tan quieto como una estatua.",
+          "«…¿Cómo se llama?»  preguntó Mahina en voz baja, como si solo quisiera romper el silencio de la barca.",
+          "El joven no respondió. Seguía mirando el estandarte Han y, como si hablara consigo mismo o le preguntara a ella, dijo:",
+          "«Si no se puede desafiar la voluntad del Cielo, ¿por qué nos guía el destino a contemplar el destino?»",
+          "Tardó un buen rato en volver la cabeza. Al ver su expresión desconcertada, esbozó de pronto una leve sonrisa.",
+          "«Parece que es la primera vez que camina usted entre las nubes.»",
+          "Suspiró.",
+          "«Yo no soy más que un hombre del pueblo. Un campesino de estos tiempos revueltos, tras la caída de la dinastía Han. No sé por qué me ha correspondido a mí este honor: venir como habitante de las nubes a la orilla del Wujiang y conocer al Rey Hegemón de Chu.»"
+        ],
+        "fr": [
+          "Le jour se leva peu à peu et la brume du fleuve commença à se dissiper. Le jeune passeur était assis à la proue, aussi tranquille qu’une statue.",
+          "« … Comment vous appelez-vous ? »  demanda doucement Mahina, comme si elle voulait seulement rompre le silence de la barque.",
+          "Le jeune homme ne répondit pas. Il regardait toujours l’étendard des Han, comme s’il se parlait à lui-même, ou lui posait la question :",
+          "« Si l’on ne peut aller contre la volonté du Ciel, pourquoi le destin nous guide-t-il pour entrevoir le destin ? »",
+          "Ce ne fut qu’après un long moment qu’il tourna la tête. En voyant son air déconcerté, il eut soudain un léger sourire.",
+          "« Il semble que ce soit la première fois que vous marchez parmi les nuages. »",
+          "Il soupira.",
+          "« Je ne suis moi-même qu’un homme du peuple. Un simple paysan de ces temps troublés, après la chute de la maison Han. J’ignore pourquoi cet honneur m’échoit : pouvoir venir au bord du Wujiang, en tant qu’Habitant des nuages, rencontrer le Roi-hégémon du Chu. »"
+        ],
+        "ru": [
+          "Небо понемногу светлело, туман над рекой медленно рассеивался. Молодой лодочник сидел на носу, безмолвный, словно изваяние.",
+          "«…Как тебя зовут?»  — тихо спросила Юэя, словно желая лишь нарушить царившую в лодке тишину.",
+          "Юноша не ответил. По-прежнему глядя на ханьское знамя, он произнёс — то ли обращаясь к самому себе, то ли спрашивая её:",
+          "«Если воле Неба нельзя противиться, зачем же судьба ведёт нас заглянуть в саму судьбу?»",
+          "Лишь спустя долгое время он обернулся и, увидев её растерянное лицо, вдруг едва заметно улыбнулся.",
+          "«Похоже, ты впервые идёшь среди облаков».",
+          "Он вздохнул.",
+          "«Я и сам всего лишь простолюдин. После падения дома Хань — обычный земледелец в смутные времена. Не ведаю, почему именно мне выпала честь стать Облачным человеком, прийти сюда, к Уцзяну, и увидеть самого Властителя Чу»."
+        ],
+        "ar": [
+          "أخذ ضوء النهار يزداد شيئًا فشيئًا، وراح الضباب فوق النهر ينقشع ببطء. جلس الملاح الشاب عند مقدمة القارب، ساكنًا كتمثال.",
+          "«…ما اسمك؟»  سألت ماهينا بصوت خافت، كأنها لم ترد إلا كسر الصمت في القارب.",
+          "لم يجب الشاب. ظل ينظر إلى راية هان، وقال كأنه يحدث نفسه، أو كأنه يسألها: ",
+          "«إذا كانت مشيئة السماء لا ترد، فلماذا يقودنا القدر إلى استراق النظر في القدر؟»",
+          "ومضى وقت طويل قبل أن يلتفت. وحين رأى الحيرة على وجهها، ارتسمت على وجهه فجأة ابتسامة خفيفة.",
+          "«يبدو أن هذه أول مرة تسيرين فيها بين السحاب.»",
+          "تنهد.",
+          "«لست أنا أيضًا إلا رجلًا من عامة الناس. مجرد فلاح في زمن الفوضى، بعد سقوط بيت هان. ولا أدري لماذا حظيت أنا بالذات بهذا الشرف، أن أكون من سكان السحاب، وأن آتي إلى ضفة ووجيانغ هذه لأرى سيد تشو المهيمن.»"
+        ],
+        "ptBR": [
+          "O céu clareou aos poucos, e a névoa sobre o rio começou a se dissipar. O jovem barqueiro estava sentado na proa, quieto como uma estátua.",
+          "“…Como você se chama?”  perguntou Mahina em voz baixa, como se quisesse apenas quebrar o silêncio do barco.",
+          "O jovem não respondeu. Continuava olhando a bandeira de Han, como se falasse consigo mesmo, ou perguntasse a ela:",
+          "“Se não podemos contrariar a vontade do Céu, por que o destino nos guia para vislumbrar o destino?”",
+          "Só depois de um bom tempo ele virou a cabeça. Ao ver a expressão perdida dela, esboçou de repente um leve sorriso.",
+          "“Parece que é a primeira vez que você caminha entre as nuvens.”",
+          "Ele suspirou.",
+          "“Eu também não passo de um homem do povo. Apenas um agricultor destes tempos conturbados, depois da queda da dinastia Han. Não sei por que coube justamente a mim a honra de vir, como Habitante das Nuvens, à margem do Wujiang, conhecer o Rei-Hegemônico de Chu.”"
+        ],
+        "vi": [
+          "Trời rạng sáng dần, màn sương trên mặt sông cũng từ từ tan biến. Chàng phu đò trẻ tuổi ngồi nơi mũi thuyền, tĩnh lặng tựa như một pho tượng tạc.",
+          "“……Anh tên là gì thế?” Nguyệt Nha Nhi khẽ hỏi, dường như chỉ cốt để phá tan bầu không khí tĩnh mịch ngột ngạt trên con thuyền.",
+          "Chàng thanh niên không đáp ngay. Chàng vẫn nhìn chằm chằm vào lá cờ Hán phía xa, cất lời như đang tự nhủ với chính mình, lại dường như đang hỏi cô:",
+          "“Nếu đã là ý trời không thể trái, cớ sao định mệnh lại dẫn dắt chúng ta đến đây để dòm ngó định mệnh?”",
+          "Mãi một lúc lâu sau, chàng mới ngoảnh đầu lại. Thấy vẻ mặt ngơ ngác đầy mờ mịt của cô, chàng bỗng nở một nụ cười nhàn nhạt.",
+          "“Xem ra, đây là lần đầu tiên cô nương hành tẩu giữa những tầng mây.”",
+          "Chàng thở dài một tiếng.",
+          "“Ta cũng chỉ là một kẻ thảo dân áo vải. Sau khi giang sơn nhà Hán sụp đổ, ta cũng chỉ là một gã nông phu cày cấy giữa thời loạn lạc mà thôi. Chẳng rõ vì sao lại có được vinh hạnh này, có thể mang thân phận Người Trong Mây, đến tận bến Ô Giang này để được tận mắt trông thấy Tây Sở Bá Vương.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 13,
+      "type": "image",
+      "image_src": "media/28.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“在下姓刘，名秀，字文叔。”"
+        ],
+        "zhHant": [
+          "“在下姓劉，名秀，字文叔。”"
+        ],
+        "en": [
+          "“My family name is Liu, my given name Xiu. My courtesy name is Wenshu.”"
+        ],
+        "ja": [
+          "「姓は劉、名は秀。字は文叔という。」"
+        ],
+        "ko": [
+          "“성은 유, 이름은 수, 자는 문숙이라 하오.”"
+        ],
+        "es": [
+          "«Mi apellido es Liu y mi nombre, Xiu. Mi nombre de cortesía es Wenshu.»"
+        ],
+        "fr": [
+          "« Mon nom de famille est Liu, mon prénom Xiu, et mon nom de courtoisie Wenshu. »"
+        ],
+        "ru": [
+          "«Моя фамилия Лю, имя Сю, второе имя — Вэньшу»."
+        ],
+        "ar": [
+          "«اسم عائلتي ليو، واسمي شيو، واسمي الأدبي ونشو.»"
+        ],
+        "ptBR": [
+          "“Meu sobrenome é Liu, meu nome é Xiu, e meu nome de cortesia é Wenshu.”"
+        ],
+        "vi": [
+          "“Tại hạ họ Lưu, tên Tú, tự Văn Thúc.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 14,
+      "type": "image",
+      "image_src": "media/29.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“刘秀？！” 月牙儿大惊， “汉光武——！”",
+          "话音扬起的一瞬,世界黑了。"
+        ],
+        "zhHant": [
+          "“劉秀？！” 月牙兒大驚， “漢光武——！”",
+          "話音揚起的一瞬,世界黑了。"
+        ],
+        "en": [
+          "“Liu Xiu?!”  Mahina exclaimed, startled.  “Guangwu of Han—!”",
+          "The instant her voice rose, the world went black."
+        ],
+        "ja": [
+          "「劉秀？！」 マヒナは仰天した。 「漢の光武——！」",
+          "その声が高まった瞬間、世界は暗転した。"
+        ],
+        "ko": [
+          "“유수?!”  마히나는 깜짝 놀랐다.  “한 광무——!”",
+          "그 목소리가 높아진 순간, 세상이 까맣게 변했다."
+        ],
+        "es": [
+          "«¿Liu Xiu?!»  exclamó Mahina, asombrada.  «¡Guangwu de Han…!»",
+          "En el instante en que se elevó su voz, el mundo se oscureció."
+        ],
+        "fr": [
+          "« Liu Xiu ?! »  s’exclama Mahina, stupéfaite.  « Guangwu des Han — ! »",
+          "À l’instant où sa voix s’éleva, le monde devint noir."
+        ],
+        "ru": [
+          "«Лю Сю?!  — ахнула Юэя. —  Гуанъу Ханьский—!»",
+          "В тот миг, когда её голос взлетел, мир погрузился во тьму."
+        ],
+        "ar": [
+          "«ليو شيو؟!»  شهقت ماهينا من الدهشة،  «غوانغ وو من هان——!»",
+          "وفي اللحظة التي ارتفع فيها صوتها، اسود العالم."
+        ],
+        "ptBR": [
+          "“Liu Xiu?!”  exclamou Mahina, espantada.  “Guangwu de Han —!”",
+          "No instante em que sua voz se elevou, o mundo escureceu."
+        ],
+        "vi": [
+          "“Lưu Tú?!” Nguyệt Nha Nhi kinh hãi thốt lên, “Hán Quang Vũ——!”",
+          "Đúng khoảnh khắc tiếng thốt nghẹn ngào vừa cất lên, cả thế giới tức thì chìm vào bóng tối mịt mùng."
+        ]
+      }
+    },
+    {
+      "panel_index": 15,
+      "type": "image",
+      "image_src": "media/31.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“——然后，就全黑了。”",
+          "工厦的夜很静，小灯昏黄。希扬留在玻璃窗上的光锥手稿，在月光下泛着奇异的光泽，仿佛有了生命。",
+          "“我醒过来的时候，” 月牙儿说， “人还趴在观测台上，手里还拿着相机，天就暗了一点。好像我根本没有离开过。”",
+          "她顿了顿。",
+          "“那时候我什么都不记得，只觉得自己失了一阵神。后来想起来一点，也一直当它是缺氧时的幻觉。直到今天你讲光锥，讲有序信息，我才把这些事全拼上了。”",
+          "希扬沉默了一会儿，点了点头。",
+          "“所以，你当着刘秀的面，喊出了他的谥号。”"
+        ],
+        "zhHant": [
+          "“——然後，就全黑了。”",
+          "工廈的夜很靜，小燈昏黃。希揚留在玻璃窗上的光錐手稿，在月光下泛着奇異的光澤，彷彿有了生命。",
+          "“我醒過來的時候，” 月牙兒說， “人還趴在觀測臺上，手裏還拿着相機，天就暗了一點。好像我根本沒有離開過。”",
+          "她頓了頓。",
+          "“那時候我什麼都不記得，只覺得自己失了一陣神。後來想起來一點，也一直當它是缺氧時的幻覺。直到今天你講光錐，講有序信息，我才把這些事全拼上了。”",
+          "希揚沉默了一會兒，點了點頭。",
+          "“所以，你當着劉秀的面，喊出了他的諡號。”"
+        ],
+        "en": [
+          "“—And then everything went black.”",
+          "Night lay quiet in the industrial building. The little lamp cast a dim yellow light. On the window, Suvan’s sketches of light cones gleamed strangely in the moonlight, as though they had come alive.",
+          "“When I came to,”  Mahina said,  “I was still slumped over the observation platform, still holding my camera. The sky was just a little darker. It was as if I’d never left.”",
+          "She paused.",
+          "“At the time, I didn’t remember anything. I just thought I’d blanked out for a while. Even when a little of it came back later, I kept putting it down to hallucinations from lack of oxygen. It wasn’t until today, when you talked about light cones and ordered information, that I finally pieced it all together.”",
+          "Suvan was silent for a moment, then nodded.",
+          "“So you shouted Liu Xiu’s posthumous title right in front of him.”"
+        ],
+        "ja": [
+          "「——それで、何もかも真っ暗になったの。」",
+          "工業ビルの夜は静かで、小さな灯りは淡い黄色をしていた。窓ガラスにスヴァンが描き残した光円錐の図は、月明かりの中で不思議な光沢を帯び、命を宿したように見えた。",
+          "「気がついたときは、」 とマヒナは言った。 「まだ観測台に突っ伏してて、手にはカメラを持ってた。空が少し暗くなっただけ。まるで、どこにも行ってなかったみたいだった。」",
+          "彼女は少し言葉を切った。",
+          "「あのときは何も覚えてなくて、ちょっとぼうっとしてただけだと思ったの。あとで少し思い出しても、ずっと酸欠のときに見た幻覚だと思ってた。今日、光円錐とか、有序情報の話を聞いて、やっと全部つながった。」",
+          "スヴァンはしばらく黙ってから、うなずいた。",
+          "「つまり、劉秀の目の前で、本人の諡号を叫んじゃったんだ。」"
+        ],
+        "ko": [
+          "“——그러고는 전부 캄캄해졌어.”",
+          "공업용 건물의 밤은 고요했고, 작은 등은 누렇게 어두웠다. 수반이 유리창에 그려 둔 광추 도식이 달빛 아래서 기묘하게 빛났다. 마치 생명이 깃든 듯했다.",
+          "“정신이 들었을 땐,”  마히나가 말했다.  “여전히 관측대에 엎드려 있었고, 손에는 카메라를 쥐고 있었어. 하늘만 조금 어두워졌더라. 어디에도 다녀오지 않은 것 같았어.”",
+          "그녀는 잠깐 말을 멈췄다.",
+          "“그때는 아무것도 기억이 안 났어. 그냥 잠깐 넋이 나갔나 보다 했지. 나중에 조금 떠올랐을 때도 줄곧 산소가 부족해서 본 환각이라고 생각했고. 오늘 네가 광추랑 질서 정보 얘기를 해 주고 나서야, 그 일들이 전부 맞춰졌어.”",
+          "수반은 잠시 말이 없다가 고개를 끄덕였다.",
+          "“그러니까 유수 앞에서 본인의 시호를 외친 거네.”"
+        ],
+        "es": [
+          "«…Y entonces todo se quedó negro.»",
+          "La noche estaba en calma en el edificio industrial, bajo la tenue luz amarilla de una lámpara. Los apuntes sobre el cono de luz que Suvan había trazado en el cristal de la ventana adquirían un extraño brillo bajo la luna, como si hubieran cobrado vida.",
+          "«Cuando desperté»,  dijo Mahina,  «seguía apoyada sobre la plataforma de observación, con la cámara aún en la mano. El cielo apenas se había oscurecido un poco. Era como si nunca me hubiera ido.»",
+          "Hizo una pausa.",
+          "«En aquel momento no recordaba nada. Solo me parecía que me había quedado ida un rato. Después me acordé de algunas cosas, pero siempre creí que había sido una alucinación por la falta de oxígeno. Hoy, cuando has hablado del cono de luz y de la información ordenada, he podido encajarlo todo.»",
+          "Suvan guardó silencio un momento y asintió.",
+          "«O sea que gritaste el nombre póstumo de Liu Xiu delante de él.»"
+        ],
+        "fr": [
+          "« — Et là, tout est devenu noir. »",
+          "La nuit était calme dans l’immeuble industriel, sous la faible lumière jaune d’une petite lampe. Les notes sur le cône de lumière que Suvan avait tracées sur la vitre prenaient un éclat étrange au clair de lune, comme si elles s’étaient animées.",
+          "« Quand je me suis réveillée, »  dit Mahina,  « j’étais toujours penchée sur la plateforme d’observation, l’appareil photo encore à la main. Le ciel s’était juste un peu assombri. Comme si je n’étais jamais partie. »",
+          "Elle marqua une pause.",
+          "« Sur le moment, je ne me souvenais de rien. J’avais seulement l’impression d’avoir eu une absence. Des souvenirs me sont revenus ensuite, mais j’ai toujours cru que c’était une hallucination due au manque d’oxygène. C’est seulement aujourd’hui, quand tu as parlé du cône de lumière et de l’information ordonnée, que j’ai pu tout remettre en place. »",
+          "Suvan garda un moment le silence, puis hocha la tête.",
+          "« Donc tu as crié le nom posthume de Liu Xiu devant lui. »"
+        ],
+        "ru": [
+          "«— А потом всё стало чёрным».",
+          "Ночью в промышленном здании было тихо. Маленькая лампа давала тусклый жёлтый свет. Наброски световых конусов, оставленные Сияном на оконном стекле, странно мерцали в лунном сиянии, словно обрели жизнь.",
+          "«Когда я очнулась,  — сказала Юэя, —  я всё ещё лежала ничком на наблюдательной площадке, с камерой в руке. Только небо чуть потемнело. Будто я никуда и не уходила».",
+          "Она помолчала.",
+          "«Тогда я ничего не помнила. Казалось, просто на какое-то время задумалась. Потом кое-что вспомнилось, но я всё равно считала это галлюцинацией от нехватки кислорода. Только сегодня, когда ты заговорил о световых конусах и упорядоченной информации, всё наконец сложилось».",
+          "Сиян помолчал, затем кивнул.",
+          "«Значит, ты выкрикнула посмертное имя Лю Сю прямо у него на глазах»."
+        ],
+        "ar": [
+          "«——وبعدها، صار كل شيء أسود.»",
+          "كان الليل ساكنًا في المبنى الصناعي، وضوء المصباح الصغير أصفر خافتًا. أما رسوم مخروط الضوء التي تركها سوفان على زجاج النافذة، فكانت تتلألأ في ضوء القمر ببريق غريب، كأن الحياة سرت فيها.",
+          "«حين أفقت،»  قالت ماهينا،  «كنت ما زلت منبطحة على منصة الرصد، والكاميرا في يدي. لم يتغير إلا أن السماء أظلمت قليلًا. كأنني لم أغادر مكاني أصلًا.»",
+          "توقفت برهة.",
+          "«لم أكن أتذكر شيئًا وقتها، وظننت أنني شردت قليلًا فحسب. وحين تذكرت بعض الأشياء لاحقًا، ظللت أحسبها هلوسة بسبب نقص الأكسجين. لم تكتمل الصورة عندي إلا اليوم، عندما تحدثت عن مخروط الضوء والمعلومات المنظمة.»",
+          "صمت سوفان قليلًا، ثم أومأ برأسه.",
+          "«إذًا، هتفت بلقب ليو شيو الذي منح له بعد وفاته، وهو واقف أمامك.»"
+        ],
+        "ptBR": [
+          "“— E então ficou tudo escuro.”",
+          "A noite estava quieta no prédio industrial, sob a luz amarelada de uma pequena lâmpada. As anotações sobre o cone de luz que Suvan havia traçado no vidro da janela ganhavam um brilho estranho ao luar, como se tivessem vida.",
+          "“Quando acordei,”  disse Mahina,  “eu ainda estava debruçada na plataforma de observação, com a câmera na mão. O céu só tinha escurecido um pouquinho. Era como se eu nem tivesse saído de lá.”",
+          "Ela fez uma pausa.",
+          "“Na hora, eu não lembrava de nada. Só parecia que tinha ficado meio fora do ar por um tempo. Depois lembrei de algumas coisas, mas sempre achei que fosse uma alucinação por falta de oxigênio. Só hoje, quando você falou do cone de luz e da informação ordenada, consegui juntar tudo.”",
+          "Suvan ficou em silêncio por um momento e assentiu.",
+          "“Então você gritou o nome póstumo de Liu Xiu na frente dele.”"
+        ],
+        "vi": [
+          "“——Rồi sau đó, tất cả tối sầm lại.”",
+          "Đêm nơi tòa nhà công xưởng tĩnh lặng như tờ, ngọn đèn nhỏ hắt ra ánh sáng vàng vọt lờ mờ. Những bản thảo phác họa nón ánh sáng do Hi Dương vẽ trên khung cửa kính phản chiếu ánh trăng, ánh lên thứ quang sắc kỳ dị như đang mang một sinh mệnh sống động.",
+          "“Lúc tôi tỉnh lại,” Nguyệt Nha Nhi nói, “người vẫn đang gục trên đài quan sát, tay vẫn cầm máy ảnh, bầu trời chỉ hơi tối đi một chút. Cảm giác như thể tôi chưa từng rời đi vậy.”",
+          "Cô ngập ngừng một lát rồi nói tiếp.",
+          "“Khi đó tôi chẳng nhớ được gì, chỉ nghĩ là mình vừa thất thần một thoáng. Mãi sau này nhớ lại được đôi chút, tôi cũng chỉ ngỡ đó là ảo giác do thiếu dưỡng khí trên cao nguyên mà thôi. Cho đến tận hôm nay, nghe anh giảng giải về nón ánh sáng, về 'thông tin có trật tự', tôi mới xâu chuỗi được toàn bộ những manh mối này lại với nhau.”",
+          "Hi Dương trầm ngâm giây lát, rồi khẽ gật đầu.",
+          "“Nói vậy là, em đã đứng ngay trước mặt Lưu Tú mà hô to thụy hiệu của ông ấy.”"
+        ]
+      }
+    },
+    {
+      "panel_index": 16,
+      "type": "image",
+      "image_src": "media/32.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "月牙儿抿着嘴看着希扬，两人一时都没说话。忽然，几乎同时扑哧一声笑了出来。",
+          "“哎呀，我那时候哪知道嘛。” 月牙儿低下头，嘴角却还没收住， “一听是刘秀，我就……一激动，喊出来了。”",
+          "“他那时候还只是个种地的，连自己以后会当皇帝都不知道。你倒好，连谥号都替他安排上了。”",
+          "“你就别笑我了。” 月牙儿轻声埋怨着，却还捂着嘴，眉眼弯弯。",
+          "希扬望着她，等她稍稍收住了笑，才接着说： “所以，那声‘汉光武帝’……”"
+        ],
+        "zhHant": [
+          "月牙兒抿着嘴看着希揚，兩人一時都沒說話。忽然，幾乎同時撲哧一聲笑了出來。",
+          "“哎呀，我那時候哪知道嘛。” 月牙兒低下頭，嘴角卻還沒收住， “一聽是劉秀，我就……一激動，喊出來了。”",
+          "“他那時候還只是個種地的，連自己以後會當皇帝都不知道。你倒好，連諡號都替他安排上了。”",
+          "“你就別笑我了。” 月牙兒輕聲埋怨着，卻還捂着嘴，眉眼彎彎。",
+          "希揚望着她，等她稍稍收住了笑，才接着說： “所以，那聲‘漢光武帝’……”"
+        ],
+        "en": [
+          "Mahina pressed her lips together and looked at Suvan. Neither spoke for a moment. Then, almost at once, they both burst out laughing.",
+          "“Oh, how was I supposed to know?”  Mahina lowered her head, still unable to quite suppress her smile.  “As soon as I heard he was Liu Xiu, I just… got excited and blurted it out.”",
+          "“He was still just a farmer. He didn’t even know he’d become an emperor, and there you were, arranging his posthumous title for him.”",
+          "“Stop laughing at me.”  Mahina’s complaint was soft, but her hand still covered her mouth, her eyes curved with laughter.",
+          "Suvan watched her, waiting for her laughter to subside a little before he went on:  “So, that cry of ‘Emperor Guangwu of Han’…”"
+        ],
+        "ja": [
+          "マヒナは唇を結び、スヴァンを見た。二人ともしばらく黙っていたが、不意に、ほとんど同時に吹き出した。",
+          "「もう、あのときは知らなかったんだって。」 マヒナはうつむいたが、口元にはまだ笑みが残っていた。 「劉秀だって聞いたら、つい……興奮して、叫んじゃったの。」",
+          "「そのころの彼は、まだただの農夫で、自分が皇帝になることさえ知らなかった。なのに君は、諡号まで用意してあげたわけだ。」",
+          "「もう笑わないでよ。」 マヒナは小声で文句を言いながらも、まだ口を手で覆い、笑みに目を細めていた。",
+          "スヴァンは彼女を見つめ、笑いが少し収まるのを待ってから続けた。 「つまり、あの『漢の光武帝』という叫びは……」"
+        ],
+        "ko": [
+          "마히나는 입술을 꾹 다물고 수반을 바라보았다. 둘 다 한동안 아무 말도 하지 않았다. 그러다 갑자기, 거의 동시에 웃음이 터졌다.",
+          "“아, 그땐 내가 뭘 알았겠어.”  마히나는 고개를 숙였지만 입가의 웃음은 아직 가시지 않았다.  “유수라는 말을 듣자마자, 그냥…… 신이 나서 외쳐 버렸지.”",
+          "“그때 그는 아직 농사만 짓던 사람이었잖아. 나중에 자기가 황제가 될 줄도 몰랐는데, 넌 시호까지 정해 준 거네.”",
+          "“그만 놀려.”  마히나는 나직이 투덜대면서도, 아직 입을 손으로 가린 채 눈웃음을 짓고 있었다.",
+          "수반은 그녀를 바라보다가, 웃음이 조금 가라앉고 나서야 말을 이었다.  “그러니까, 그 ‘한 광무제’라는 외침은……”"
+        ],
+        "es": [
+          "Mahina miró a Suvan con los labios apretados. Por un momento ninguno dijo nada. De pronto, casi a la vez, soltaron una carcajada.",
+          "«Ay, ¿cómo iba a saberlo entonces?»  Mahina bajó la cabeza, aunque aún sonreía.  «En cuanto oí que era Liu Xiu, me… me emocioné y lo grité.»",
+          "«Por entonces solo era un campesino. Ni siquiera sabía que iba a ser emperador. Y tú ya le habías elegido hasta el nombre póstumo.»",
+          "«Deja ya de reírte de mí.»  Mahina protestaba en voz baja, pero seguía tapándose la boca, con los ojos arqueados por la sonrisa.",
+          "Suvan la miró y esperó a que se le pasara un poco la risa antes de continuar:  «Así que aquel “emperador Guangwu de Han”…»"
+        ],
+        "fr": [
+          "Mahina regarda Suvan en pinçant les lèvres. Un instant, ils ne dirent rien. Puis, presque en même temps, ils laissèrent échapper un éclat de rire.",
+          "« Mais comment j’aurais pu savoir, à l’époque ? »  Mahina baissa la tête, sans parvenir à effacer son sourire.  « Dès que j’ai entendu que c’était Liu Xiu, j’ai… je me suis emballée et je l’ai crié. »",
+          "« À l’époque, ce n’était encore qu’un paysan. Il ne savait même pas qu’il deviendrait empereur. Et toi, tu lui avais déjà choisi jusqu’à son nom posthume. »",
+          "« Arrête de te moquer de moi. »  Mahina protestait à voix basse, mais gardait la main devant la bouche, les yeux plissés par son sourire.",
+          "Suvan la regarda et attendit que son rire se calme un peu avant de reprendre :  « Alors, ce “Guangwu des Han”… »"
+        ],
+        "ru": [
+          "Юэя смотрела на Сияна, сжав губы. Некоторое время оба молчали. А потом почти одновременно прыснули со смеху.",
+          "«Ну откуда я тогда могла знать?  — Юэя опустила голову, всё ещё не в силах скрыть улыбку. —  Услышала, что он Лю Сю, и… разволновалась, вот и выкрикнула».",
+          "«Он тогда был всего лишь земледельцем. Ещё даже не знал, что станет императором. А ты ему уже и посмертное имя подобрала».",
+          "«Ну хватит надо мной смеяться».  Юэя тихонько упрекала его, по-прежнему прикрывая рот ладонью; глаза её весело щурились.",
+          "Сиян смотрел на неё и продолжил лишь тогда, когда она немного справилась со смехом:  «Значит, тот возглас — „Ханьский император Гуанъу“…»"
+        ],
+        "ar": [
+          "نظرت ماهينا إلى سوفان مطبقة شفتيها، وسكت الاثنان برهة. ثم أفلتت منهما فجأة ضحكة، في اللحظة نفسها تقريبًا.",
+          "«وكيف كنت سأعرف وقتها؟»  خفضت ماهينا رأسها، لكن ابتسامتها لم تفارق شفتيها بعد،  «ما إن سمعت أنه ليو شيو حتى… تحمست، وخرجت الصيحة مني.»",
+          "«كان وقتها مجرد فلاح. لم يكن يعرف حتى أنه سيصبح إمبراطورًا. أما أنت، فقد رتبت له حتى لقبه بعد الوفاة.»",
+          "«كف عن الضحك علي.»  عاتبته ماهينا بصوت خافت، لكنها ظلت تغطي فمها بيدها، وعيناها تضيقان بابتسامة.",
+          "نظر إليها سوفان، وانتظر حتى هدأت ضحكتها قليلًا، ثم تابع:  «إذًا، تلك الصيحة: ‹غوانغ وو، إمبراطور هان›…»"
+        ],
+        "ptBR": [
+          "Mahina olhou para Suvan com os lábios apertados. Por um instante, nenhum dos dois disse nada. De repente, quase ao mesmo tempo, soltaram uma risada.",
+          "“Ah, como é que eu ia saber naquela hora?”  Mahina baixou a cabeça, mas ainda não conseguia conter o sorriso.  “Quando ouvi que era Liu Xiu, eu… me empolguei e acabei gritando.”",
+          "“Naquela época, ele era só um agricultor. Nem sabia que ia ser imperador. E você já tinha arranjado até um nome póstumo para ele.”",
+          "“Para de rir de mim.”  Mahina reclamava baixinho, mas continuava com a mão sobre a boca e os olhos curvados pelo sorriso.",
+          "Suvan olhou para ela e esperou que a risada se acalmasse um pouco antes de continuar:  “Então, aquele ‘imperador Guangwu de Han’…”"
+        ],
+        "vi": [
+          "Nguyệt Nha Nhi mím chặt môi nhìn Hi Dương, cả hai im lặng nhìn nhau trong giây lát. Bất chợt, gần như cùng một lúc, cả hai phì cười thành tiếng.",
+          "“Trời đất, lúc đó sao tôi biết được chứ!” Nguyệt Nha Nhi cúi đầu, khóe môi vẫn không kìm nổi nụ cười, “Vừa nghe đến cái tên Lưu Tú là tôi…… xúc động quá nên buột miệng kêu lên thôi.”",
+          "“Lúc đó người ta vẫn còn là một anh nông dân áo vải cày ruộng, đến bản thân sau này sẽ làm hoàng đế cũng chẳng hề hay biết. Em thì hay rồi, định sẵn luôn cả thụy hiệu sau khi mất cho người ta.”",
+          "“Anh đừng có cười tôi nữa mà!” Nguyệt Nha Nhi khẽ hờn dỗi than trách, nhưng tay vẫn che miệng, đuôi mắt cong cong ý cười.",
+          "Hi Dương nhìn cô, đợi cho cô dịu bớt cơn cười mới tiếp tục nói: “Cho nên, tiếng gọi ‘Hán Quang Vũ Đế’ ấy……”"
+        ]
+      }
+    },
+    {
+      "panel_index": 17,
+      "type": "image",
+      "image_src": "media/30.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "话到这里，两人的目光恰好碰在一处，余下的半句几乎同时脱口而出：",
+          "“——有序信息！”",
+          "“——有序信息！”",
+          "两个声音叠在一起，月牙儿才收住的笑意便又漾了开来。希扬也跟着笑了，一时谁都没有急着往下说。"
+        ],
+        "zhHant": [
+          "話到這裏，兩人的目光恰好碰在一處，餘下的半句幾乎同時脫口而出：",
+          "“——有序信息！”",
+          "“——有序信息！”",
+          "兩個聲音疊在一起，月牙兒才收住的笑意便又漾了開來。希揚也跟着笑了，一時誰都沒有急着往下說。"
+        ],
+        "en": [
+          "Their eyes happened to meet, and the rest slipped out almost in unison:",
+          "“—Ordered information!”",
+          "“—Ordered information!”",
+          "As their voices overlapped, the smile Mahina had only just subdued spread across her face again. Suvan laughed too. For a while, neither was in any hurry to go on."
+        ],
+        "ja": [
+          "そこでふと視線が合い、残りの言葉が、ほとんど同時に二人の口をついて出た。",
+          "「——有序情報！」",
+          "「——有序情報！」",
+          "二つの声が重なると、ようやく収まったマヒナの笑みがまた広がった。スヴァンもつられて笑い、しばらくは、どちらも先を急がなかった。"
+        ],
+        "ko": [
+          "거기서 마침 눈이 마주쳤고, 나머지 말이 거의 동시에 두 사람의 입에서 튀어나왔다.",
+          "“——질서 정보!”",
+          "“——질서 정보!”",
+          "두 목소리가 겹치자, 겨우 가라앉았던 마히나의 웃음이 다시 번졌다. 수반도 함께 웃었다. 잠시 동안은 누구도 서둘러 말을 잇지 않았다."
+        ],
+        "es": [
+          "Sus miradas se encontraron justo entonces, y casi al mismo tiempo se les escapó el resto de la frase:",
+          "«…¡Información ordenada!»",
+          "«…¡Información ordenada!»",
+          "Las dos voces se superpusieron, y la sonrisa que Mahina apenas había logrado contener volvió a abrirse. Suvan también se echó a reír. Durante un rato, ninguno tuvo prisa por seguir hablando."
+        ],
+        "fr": [
+          "Leurs regards se croisèrent à cet instant, et la fin de la phrase leur échappa presque en même temps :",
+          "« — De l’information ordonnée ! »",
+          "« — De l’information ordonnée ! »",
+          "Les deux voix se superposèrent, et le sourire que Mahina venait à peine de contenir s’épanouit de nouveau. Suvan se mit lui aussi à rire. Un moment, aucun d’eux ne se pressa de poursuivre."
+        ],
+        "ru": [
+          "На этих словах их взгляды встретились, и оба почти одновременно закончили фразу:",
+          "«— Упорядоченная информация!»",
+          "«— Упорядоченная информация!»",
+          "Два голоса слились в один, и едва сдержанная улыбка вновь расцвела на лице Юэи. Сиян тоже засмеялся. Некоторое время ни один из них не спешил продолжать."
+        ],
+        "ar": [
+          "وعند هذه الكلمات، التقت نظراتهما، فأكملا بقية العبارة معًا تقريبًا: ",
+          "«——معلومات منظمة!»",
+          "«——معلومات منظمة!»",
+          "امتزج الصوتان، فعادت الابتسامة تتسع على وجه ماهينا بعدما كادت تهدأ. وضحك سوفان معها. ولم يتعجل أي منهما متابعة الكلام."
+        ],
+        "ptBR": [
+          "Naquele instante, seus olhares se encontraram, e o restante da frase escapou quase ao mesmo tempo dos dois:",
+          "“— Informação ordenada!”",
+          "“— Informação ordenada!”",
+          "As duas vozes se sobrepuseram, e o sorriso que Mahina mal havia contido se abriu de novo. Suvan também começou a rir. Por um momento, nenhum dos dois teve pressa de continuar."
+        ],
+        "vi": [
+          "Nói đến đây, ánh mắt hai người bất giác chạm nhau, nửa câu sau gần như cùng một lúc bật thốt ra khỏi miệng:",
+          "“—— Thông tin có trật tự!”",
+          "“—— Thông tin có trật tự!”",
+          "Hai thanh âm hòa quyện làm một. Nụ cười vừa kịp nén lại của Nguyệt Nha Nhi lại một lần nữa lan tỏa rạng rỡ. Hi Dương cũng mỉm cười theo, trong giây lát, chẳng ai vội vã nói thêm lời nào."
+        ]
+      }
+    },
+    {
+      "panel_index": 18,
+      "type": "image",
+      "image_src": "media/34.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "希扬翻开手边的本子。刚才的笑声渐渐歇了，灯下响起细微的落笔声。",
+          "“所以，云中人散落在不同的年代。我们在这里，刘秀在两千年前。可在云中行走时，漫长的岁月也不再是无法跨越的阻隔。你们来到乌江，乘着同一条船，望着同一片江岸，看着项羽走完最后一程。”",
+          "笔尖在纸上稍停。",
+          "“但相逢，并不意味着可以说破彼此的命运。刘秀本身毕竟也在你的光锥之外。‘汉光武帝’，是后人写进史书的名字，船上的刘秀却还没有走到那一页。你的那一声惊呼，会让他提前知道自己的未来。于是，你们两个人那次的云中行走，就在那里中断了。”",
+          "月牙儿抱着膝，安静地望着他。他把刚写下的一句话划去，在旁边重新补写。灯下，那段离奇的往事正被他一字一句，郑重地记在纸上。"
+        ],
+        "zhHant": [
+          "希揚翻開手邊的本子。剛纔的笑聲漸漸歇了，燈下響起細微的落筆聲。",
+          "“所以，雲中人散落在不同的年代。我們在這裏，劉秀在兩千年前。可在雲中行走時，漫長的歲月也不再是無法跨越的阻隔。你們來到烏江，乘着同一條船，望着同一片江岸，看着項羽走完最後一程。”",
+          "筆尖在紙上稍停。",
+          "“但相逢，並不意味着可以說破彼此的命運。劉秀本身畢竟也在你的光錐之外。‘漢光武帝’，是後人寫進史書的名字，船上的劉秀卻還沒有走到那一頁。你的那一聲驚呼，會讓他提前知道自己的未來。於是，你們兩個人那次的雲中行走，就在那裏中斷了。”",
+          "月牙兒抱着膝，安靜地望着他。他把剛寫下的一句話劃去，在旁邊重新補寫。燈下，那段離奇的往事正被他一字一句，鄭重地記在紙上。"
+        ],
+        "en": [
+          "Suvan opened the notebook beside him. Their laughter slowly faded, and under the lamplight came the faint sound of pen touching paper.",
+          "“So Cloud Dwellers are scattered across different eras. We’re here; Liu Xiu was two thousand years ago. But when you walk through the clouds, even all those years cease to be an impassable barrier. You came to the Wujiang, rode in the same boat, looked toward the same stretch of shore, and watched Xiang Yu take the last steps of his journey.”",
+          "The pen paused briefly on the page.",
+          "“But meeting doesn’t mean you can reveal each other’s fate. Liu Xiu himself is outside your light cone, after all. ‘Emperor Guangwu of Han’ is a name later generations wrote into the histories. The Liu Xiu on that boat hadn’t reached that page yet. That cry of yours would have let him learn his own future before its time. So that was where your walk through the clouds ended—for both of you.”",
+          "Mahina hugged her knees and watched him quietly. He crossed out a sentence he had just written and wrote it anew beside it. There beneath the lamp, he was carefully committing that strange passage of her past to paper, word by word."
+        ],
+        "ja": [
+          "スヴァンは手元のノートを開いた。さっきまでの笑い声が次第に静まり、灯りの下で、ペンが紙に触れるかすかな音がした。",
+          "「だから、雲中人は違う時代に散らばっているんだ。僕たちはここにいて、劉秀は二千年前にいる。でも、雲の中を歩くときは、その長い歳月も、越えられない隔たりではなくなる。君たちは烏江へ来て、同じ舟に乗り、同じ岸を眺め、項羽が最期の道を歩み終えるのを見届けた。」",
+          "ペン先が、紙の上で少し止まった。",
+          "「でも、出会えたからといって、互いの運命を明かせるわけじゃない。劉秀自身も、君の光円錐の外にいるんだから。『漢の光武帝』は、後世の人が史書に記した名前だ。舟の上の劉秀は、まだそのページにたどり着いていなかった。君のあの叫びが届けば、彼は自分の未来を先に知ってしまう。だから、あのときの君たち二人の雲の中の歩みは、そこで途切れたんだ。」",
+          "マヒナは膝を抱え、静かに彼を見つめていた。彼は今書いた一文に線を引き、その脇に書き直した。灯りの下で、あの奇妙な過去の出来事が、一字一句、大切に紙へ記されていく。"
+        ],
+        "ko": [
+          "수반은 곁에 둔 공책을 펼쳤다. 웃음소리가 차츰 잦아들고, 등불 아래서 펜이 종이에 닿는 작은 소리가 났다.",
+          "“그러니까 운중인은 서로 다른 시대에 흩어져 있는 거야. 우리는 여기에 있고, 유수는 이천 년 전에 있지. 하지만 구름 속을 걸을 때는 그 긴 세월도 더 이상 넘을 수 없는 장벽이 아니게 돼. 너희는 오강에 와서 같은 배를 타고, 같은 강가를 바라보면서 항우가 마지막 길을 다 가는 모습을 지켜본 거야.”",
+          "펜촉이 종이 위에서 잠시 멎었다.",
+          "“하지만 만날 수 있다고 해서 서로의 운명을 밝혀 줄 수 있다는 뜻은 아니야. 유수 자신도 결국 네 광추 바깥에 있잖아. ‘한 광무제’는 후대 사람들이 역사책에 써 넣은 이름이야. 배 위의 유수는 아직 그 페이지에 이르지 않았지. 네 그 외침이 들렸다면, 그는 자기 미래를 미리 알게 됐을 거야. 그래서 그때 너희 두 사람의 구름 속 걸음은 거기서 끊긴 거지.”",
+          "마히나는 무릎을 끌어안고 조용히 그를 바라보았다. 그는 방금 쓴 문장 하나에 줄을 긋고 옆에 다시 적었다. 등불 아래서 그 기묘한 지난 일이 한 글자 한 글자, 소중히 종이 위에 기록되고 있었다."
+        ],
+        "es": [
+          "Suvan abrió el cuaderno que tenía al lado. La risa fue apagándose y, bajo la lámpara, se oyó el leve roce de la pluma.",
+          "«Así que los habitantes de las nubes están dispersos en distintas épocas. Nosotros estamos aquí y Liu Xiu, dos mil años atrás. Pero al caminar entre las nubes, los largos siglos dejan de ser una barrera infranqueable. Llegasteis al Wujiang, subisteis a la misma barca y mirasteis la misma orilla, mientras Xiang Yu recorría su último camino.»",
+          "La punta de la pluma se detuvo un instante sobre el papel.",
+          "«Pero encontrarse no significa poder revelar el destino del otro. Al fin y al cabo, el propio Liu Xiu también está fuera de tu cono de luz. “Emperador Guangwu de Han” es un nombre que las generaciones posteriores escribieron en los libros de historia, pero el Liu Xiu de la barca aún no había llegado a esa página. Aquel grito tuyo le habría revelado su futuro antes de tiempo. Por eso vuestro viaje entre las nubes se interrumpió allí, para los dos.»",
+          "Mahina lo miraba en silencio, abrazada a sus rodillas. Él tachó una frase que acababa de escribir y la redactó de nuevo al lado. A la luz de la lámpara, iba dejando constancia de aquel extraño episodio del pasado, palabra por palabra, con toda seriedad."
+        ],
+        "fr": [
+          "Suvan ouvrit le carnet posé près de lui. Leurs rires s’éteignirent peu à peu et, sous la lampe, on entendit le léger bruit de la plume sur le papier.",
+          "« Les Habitants des nuages sont donc dispersés à travers les époques. Nous sommes ici, Liu Xiu vivait deux mille ans avant nous. Mais lorsqu’on marche parmi les nuages, les longs siècles cessent d’être une barrière infranchissable. Vous êtes arrivés au Wujiang, vous avez pris place dans la même barque, regardé la même rive, et vu Xiang Yu parcourir son dernier chemin. »",
+          "La pointe de la plume s’arrêta un instant sur le papier.",
+          "« Mais se rencontrer ne signifie pas qu’on puisse dévoiler le destin de l’autre. Après tout, Liu Xiu lui-même est aussi en dehors de ton cône de lumière. “Empereur Guangwu des Han” est un nom que les générations suivantes ont inscrit dans les livres d’histoire. Mais le Liu Xiu de la barque n’était pas encore arrivé à cette page. Ton exclamation lui aurait révélé son avenir avant l’heure. Alors, pour vous deux, cette marche parmi les nuages s’est interrompue là. »",
+          "Mahina le regardait en silence, les bras autour des genoux. Il raya une phrase qu’il venait d’écrire et la reprit à côté. Sous la lampe, il consignait sur le papier, mot après mot, avec gravité, cet étrange épisode du passé."
+        ],
+        "ru": [
+          "Сиян раскрыл лежавшую рядом тетрадь. Смех постепенно стих, и в свете лампы послышался тихий шорох пера.",
+          "«Значит, Облачные люди рассеяны по разным эпохам. Мы — здесь, Лю Сю — за две тысячи лет до нас. Но когда идёшь среди облаков, даже долгие столетия перестают быть непреодолимой преградой. Вы пришли к Уцзяну, оказались в одной лодке, смотрели на один и тот же берег и видели, как Сян Юй проходит свой последний путь».",
+          "Перо на мгновение замерло над бумагой.",
+          "«Но встреча ещё не означает, что можно открыть друг другу судьбу. Ведь сам Лю Сю тоже находится за пределами твоего светового конуса. „Ханьский император Гуанъу“ — имя, которое потомки вписали в книги по истории, а Лю Сю в той лодке ещё не дошёл до этой страницы. Твой возглас позволил бы ему узнать своё будущее раньше времени. Поэтому ваше тогдашнее странствие среди облаков оборвалось именно в тот миг — для вас обоих».",
+          "Юэя сидела, обхватив колени, и молча смотрела на него. Он зачеркнул только что написанную фразу и вписал рядом новую. В свете лампы та невероятная история из прошлого ложилась на бумагу — слово за словом, бережно и серьёзно."
+        ],
+        "ar": [
+          "فتح سوفان الدفتر القريب من يده. أخذ الضحك يخفت شيئًا فشيئًا، وتحت المصباح سمع صوت القلم الرقيق وهو يلامس الورق.",
+          "«إذًا، يتوزع سكان السحاب على عصور مختلفة. نحن هنا، وليو شيو قبل ألفي عام. لكن حين نسير بين السحاب، لا تعود القرون الطويلة حاجزًا يستحيل عبوره. جئتما إلى ووجيانغ، وركبتما القارب نفسه، ونظرتما إلى الضفة نفسها، وشاهدتما شيانغ يو يمضي في رحلته الأخيرة.»",
+          "توقف سن القلم فوق الورق لحظة.",
+          "«لكن اللقاء لا يعني أن بإمكانكما كشف مصير أحدكما للآخر. فليو شيو نفسه يقع، في نهاية الأمر، خارج مخروط الضوء الخاص بك. ‹غوانغ وو، إمبراطور هان› اسم كتبه اللاحقون في كتب التاريخ، أما ليو شيو الذي كان على القارب فلم يكن قد بلغ تلك الصفحة بعد. كانت صيحتك ستتيح له أن يعرف مستقبله قبل أوانه. ولهذا انقطعت رحلتكما بين السحاب في تلك اللحظة، لكليكما.»",
+          "ضمت ماهينا ركبتيها إلى صدرها، وظلت تنظر إليه في هدوء. شطب جملة كتبها لتوه، وأعاد صياغتها إلى جانبها. وتحت ضوء المصباح، كان يدون تلك الحكاية العجيبة من الماضي على الورق، كلمة كلمة، بكل عناية وجدية."
+        ],
+        "ptBR": [
+          "Suvan abriu o caderno ao lado. As risadas foram cessando aos poucos e, sob a lâmpada, ouviu-se o leve som da caneta sobre o papel.",
+          "“Então, os Habitantes das Nuvens estão espalhados por épocas diferentes. Nós estamos aqui; Liu Xiu, dois mil anos atrás. Mas, quando se caminha entre as nuvens, os longos séculos deixam de ser uma barreira intransponível. Vocês chegaram ao Wujiang, entraram no mesmo barco, olharam para a mesma margem e viram Xiang Yu percorrer seu último caminho.”",
+          "A ponta da caneta parou por um instante sobre o papel.",
+          "“Mas se encontrar não significa poder revelar o destino um do outro. Afinal, o próprio Liu Xiu também está fora do seu cone de luz. ‘Imperador Guangwu de Han’ é um nome que as gerações seguintes escreveram nos livros de história. Só que o Liu Xiu daquele barco ainda não tinha chegado a essa página. A sua exclamação teria revelado a ele o próprio futuro antes da hora. Por isso, aquela caminhada entre as nuvens foi interrompida ali, para vocês dois.”",
+          "Abraçada aos joelhos, Mahina o observava em silêncio. Ele riscou uma frase que acabara de escrever e a refez ao lado. Sob a lâmpada, aquele episódio estranho do passado dela era registrado no papel, palavra por palavra, com toda a seriedade."
+        ],
+        "vi": [
+          "Hi Dương lật mở cuốn sổ tay bên cạnh. Tiếng cười đùa ban nãy dần lắng xuống, dưới ánh đèn vàng vang lên tiếng ngòi bút sột soạt cọ trên trang giấy.",
+          "“Bởi vậy, những Người Trong Mây phân tán ở khắp các niên đại khác nhau. Chúng ta ở thời đại này, còn Lưu Tú lại ở hai nghìn năm trước. Nhưng khi hành tẩu giữa những tầng mây, tháng năm đằng đẵng muôn trùng cũng không còn là rào cản bất khả vượt qua nữa. Hai người cùng đến bờ Ô Giang, cùng ngồi chung một con thuyền, cùng dõi mắt trông về một dải bờ bãi, chứng kiến Hạng Vũ đi trọn đoạn đường cuối cùng của cuộc đời.”",
+          "Đầu bút khẽ khựng lại trên mặt giấy.",
+          "“Thế nhưng gặp gỡ, không đồng nghĩa với việc có thể nói toạc ra vận mệnh của nhau. Bản thân Lưu Tú dẫu sao cũng nằm bên ngoài nón ánh sáng của em. ‘Hán Quang Vũ Đế’ là cái tên do hậu thế ghi vào sử sách, còn Lưu Tú trên con thuyền thuở ấy vẫn chưa lật tới trang sách đó. Tiếng thốt kinh ngạc của em sẽ khiến ông ấy biết trước tương lai của chính mình. Thế là, chuyến hành tẩu giữa mây ngàn lần đó của hai người đành phải đứt đoạn ngay tại giây phút ấy.”",
+          "Nguyệt Nha Nhi ôm lấy đầu gối, lặng lẽ ngắm nhìn anh. Hi Dương gạch bỏ một câu vừa viết, nắn nót viết lại bên cạnh. Dưới ánh đèn đêm, đoạn dĩ vãng ly kỳ chấn động ấy đang được anh cẩn trọng ghi lại trên trang giấy, từng câu từng chữ một."
+        ]
+      }
+    },
+    {
+      "panel_index": 19,
+      "type": "image",
+      "image_src": "media/33.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "“哎。”",
+          "“嗯？”",
+          "“这么离谱的事，我说，你就信啊？”",
+          "月牙儿撑着手悄悄凑近，歪着头，仰起脸去寻他镜片后的目光。",
+          "“不怕是我瞎编出来逗你的？”",
+          "希扬只弯了弯嘴角，笔下未停。"
+        ],
+        "zhHant": [
+          "“哎。”",
+          "“嗯？”",
+          "“這麼離譜的事，我說，你就信啊？”",
+          "月牙兒撐着手悄悄湊近，歪着頭，仰起臉去尋他鏡片後的目光。",
+          "“不怕是我瞎編出來逗你的？”",
+          "希揚只彎了彎嘴角，筆下未停。"
+        ],
+        "en": [
+          "“Hey.”",
+          "“Hm?”",
+          "“Something this absurd, and you believe it just because I tell you?”",
+          "Bracing herself on her hands, Mahina edged closer. She tilted her head and lifted her face, seeking his eyes behind the lenses.",
+          "“Aren’t you worried I made it all up just to tease you?”",
+          "Suvan only let the corners of his mouth lift a little. His pen did not stop."
+        ],
+        "ja": [
+          "「ねえ。」",
+          "「ん？」",
+          "「こんな突拍子もない話、私が言えば信じるの？」",
+          "マヒナは両手をつき、そっと身を寄せた。首を傾げ、顔を上げて、レンズの向こうの彼の目を探した。",
+          "「からかうために、でたらめ言ってるかもって思わない？」",
+          "スヴァンはただ、口の端を少し上げただけで、ペンを止めなかった。"
+        ],
+        "ko": [
+          "“있잖아.”",
+          "“응?”",
+          "“이렇게 말도 안 되는 얘긴데, 내가 말하면 그냥 믿어?”",
+          "마히나는 손으로 몸을 받치고 살며시 다가앉았다. 고개를 기울이고 얼굴을 들어, 안경 너머 그의 눈을 찾았다.",
+          "“내가 놀리려고 다 지어낸 거면 어쩌려고?”",
+          "수반은 그저 입꼬리를 조금 올렸을 뿐, 펜을 멈추지 않았다."
+        ],
+        "es": [
+          "«Oye.»",
+          "«¿Sí?»",
+          "«¿Te cuento algo tan disparatado y te lo crees así, sin más?»",
+          "Apoyándose en las manos, Mahina se acercó discretamente, ladeó la cabeza y alzó el rostro para buscar su mirada detrás de las gafas.",
+          "«¿No te preocupa que me lo haya inventado para tomarte el pelo?»",
+          "Suvan apenas curvó los labios y siguió escribiendo."
+        ],
+        "fr": [
+          "« Dis. »",
+          "« Oui ? »",
+          "« Je te raconte un truc aussi invraisemblable et tu me crois comme ça ? »",
+          "Prenant appui sur ses mains, Mahina se rapprocha discrètement, pencha la tête et leva le visage pour chercher son regard derrière ses lunettes.",
+          "« Tu n’as pas peur que j’aie tout inventé pour te faire marcher ? »",
+          "Suvan eut seulement un léger sourire, sans cesser d’écrire."
+        ],
+        "ru": [
+          "«Слушай».",
+          "«Мм?»",
+          "«Я рассказываю такую невероятную историю, а ты вот так просто веришь?»",
+          "Опираясь на руки, Юэя незаметно придвинулась ближе. Наклонив голову и приподняв лицо, она попыталась поймать его взгляд за стёклами очков.",
+          "«Не боишься, что я всё выдумала, чтобы тебя разыграть?»",
+          "Сиян лишь чуть приподнял уголки губ, не переставая писать."
+        ],
+        "ar": [
+          "«اسمع.»",
+          "«نعم؟»",
+          "«أحكي لك شيئًا لا يصدق إلى هذا الحد، فتصدقني هكذا؟»",
+          "استندت ماهينا إلى يديها واقتربت منه خلسة، ثم أمالت رأسها ورفعت وجهها، تبحث عن عينيه خلف عدستي نظارته.",
+          "«ألا تخشى أن أكون قد اختلقت كل هذا لأمازحك؟»",
+          "لم يفعل سوفان سوى أن رفع زاويتي فمه قليلًا، من دون أن يتوقف عن الكتابة."
+        ],
+        "ptBR": [
+          "“Ei.”",
+          "“Hum?”",
+          "“Eu te conto uma coisa tão absurda e você acredita assim?”",
+          "Apoiando-se nas mãos, Mahina se aproximou discretamente, inclinou a cabeça e ergueu o rosto para procurar o olhar dele por trás dos óculos.",
+          "“Não tem medo de eu ter inventado tudo só para brincar com você?”",
+          "Suvan apenas esboçou um leve sorriso, sem parar de escrever."
+        ],
+        "vi": [
+          "“Này.”",
+          "“Hửm?”",
+          "“Chuyện hoang đường không tưởng đến mức này, tôi nói thế nào là anh tin ngay thế đó à?”",
+          "Nguyệt Nha Nhi chống tay lặng lẽ nhích lại gần, nghiêng đầu ngước gương mặt thanh tú lên tìm kiếm ánh mắt anh lấp lánh sau tròng kính.",
+          "“Anh không sợ là tôi tự bịa ra để trêu chọc anh à?”",
+          "Hi Dương chỉ khẽ cong khóe môi mỉm cười, nét bút trên tay vẫn chẳng hề ngơi nghỉ."
+        ]
+      }
+    },
+    {
+      "panel_index": 20,
+      "type": "image",
+      "image_src": "media/35.jpg",
+      "video_src": null,
+      "poster_src": null,
+      "texts": {
+        "zh": [
+          "月牙儿似乎还想说什么，话到嘴边却又咽下，便轻轻收回身子，坐了回去。",
+          "城市的夜在云虫来临前显得格外安静。窗上的数学符号在银白的月光里，像一群无声跃动的精灵。她忽然有些恍惚，仿佛正坐在一片悬于虚空的湖面上，又像回到了两千年前，身在乌江的那条船上。",
+          "记忆里父母无休止的争吵、同龄人的嘲讽与不解、酒吧里轻佻暧昧的目光——那些曾经与她有关的喧闹，在这一刻都遥远得像发生在前世。",
+          "身旁只有笔尖划过纸面的沙沙声。月牙托着腮，安静地看着希扬手中的那支笔，一点一点放缓自己的呼吸。她只希望这一刻能停留得再久一点，盼着他面前的那一页纸，永远也写不完。",
+          "夜更深了。远处九号云虫的虫鸣隐隐传来，低沉而又绵长，和两千年前乌江边的那一声慢慢地叠在了一起。",
+          "《史记·项羽本纪》 — 司马迁",
+          "于是项王乃欲东渡乌江。乌江亭长檥船待，谓项王曰：“江东虽小，地方千里，众数十万人，亦足王也。愿大王急渡。今独臣有船，汉军至，无以渡。”项王笑曰：“天之亡我，我何渡为！且籍与江东子弟八千人渡江而西，今无一人还，纵江东父兄怜而王我，我何面目见之？纵彼不言，籍独不愧于心乎？”乃谓亭长曰：“吾知公长者。吾骑此马五岁，所当无敌，尝一日行千里，不忍杀之，以赐公。”",
+          "……乃自刎而死。王翳取其头，余骑相蹂践争项王，相杀者数十人。最其后，郎中骑杨喜、骑司马吕马童、郎中吕胜、杨武各得其一体。五人共会其体，皆赐爵列侯。",
+          "项羽（前232年—前202年）",
+          "名籍，字羽，下相人。秦末随叔父项梁起兵，巨鹿一战破釜沉舟，歼灭秦军主力，分封天下，自号西楚霸王。楚汉相争五年，垓下被围，四面楚歌，率残骑突围至乌江，不肯过江，自刎而死，年三十。太史公论曰：“位虽不终，近古以来未尝有也。”",
+          "刘秀（前5年—57年）",
+          "字文叔，南阳蔡阳人，汉高祖九世孙。王莽篡汉，家道中落，微时躬耕于田亩，史称“性勤于稼穑”。后于乱世起兵，昆阳之战以数千敢死之士破新莽四十二万大军，扫平群雄，重建汉室，定都洛阳，史称东汉。在位三十三年，轻徭薄赋，息兵养民，后世谓之“光武中兴”。谥光武皇帝，庙号世祖。"
+        ],
+        "zhHant": [
+          "月牙兒似乎還想說什麼，話到嘴邊卻又咽下，便輕輕收回身子，坐了回去。",
+          "城市的夜在雲蟲來臨前顯得格外安靜。窗上的數學符號在銀白的月光裏，像一羣無聲躍動的精靈。她忽然有些恍惚，彷彿正坐在一片懸於虛空的湖面上，又像回到了兩千年前，身在烏江的那條船上。",
+          "記憶裏父母無休止的爭吵、同齡人的嘲諷與不解、酒吧裏輕佻曖昧的目光——那些曾經與她有關的喧鬧，在這一刻都遙遠得像發生在前世。",
+          "身旁只有筆尖劃過紙面的沙沙聲。月牙託着腮，安靜地看着希揚手中的那支筆，一點一點放緩自己的呼吸。她只希望這一刻能停留得再久一點，盼着他面前的那一頁紙，永遠也寫不完。",
+          "夜更深了。遠處九號雲蟲的蟲鳴隱隱傳來，低沉而又綿長，和兩千年前烏江邊的那一聲慢慢地疊在了一起。",
+          "《史記·項羽本紀》 — 司馬遷",
+          "於是項王乃欲東渡烏江。烏江亭長檥船待，謂項王曰：“江東雖小，地方千里，衆數十萬人，亦足王也。願大王急渡。今獨臣有船，漢軍至，無以渡。”項王笑曰：“天之亡我，我何渡爲！且籍與江東子弟八千人渡江而西，今無一人還，縱江東父兄憐而王我，我何面目見之？縱彼不言，籍獨不愧於心乎？”乃謂亭長曰：“吾知公長者。吾騎此馬五歲，所當無敵，嘗一日行千里，不忍殺之，以賜公。”",
+          "……乃自刎而死。王翳取其頭，餘騎相蹂踐爭項王，相殺者數十人。最其後，郎中騎楊喜、騎司馬呂馬童、郎中呂勝、楊武各得其一體。五人共會其體，皆賜爵列侯。",
+          "項羽（前232年—前202年）",
+          "名籍，字羽，下相人。秦末隨叔父項梁起兵，鉅鹿一戰破釜沉舟，殲滅秦軍主力，分封天下，自號西楚霸王。楚漢相爭五年，垓下被圍，四面楚歌，率殘騎突圍至烏江，不肯過江，自刎而死，年三十。太史公論曰：“位雖不終，近古以來未嘗有也。”",
+          "劉秀（前5年—57年）",
+          "字文叔，南陽蔡陽人，漢高祖九世孫。王莽篡漢，家道中落，微時躬耕于田畝，史稱“性勤於稼穡”。後於亂世起兵，昆陽之戰以數千敢死之士破新莽四十二萬大軍，掃平羣雄，重建漢室，定都洛陽，史稱東漢。在位三十三年，輕徭薄賦，息兵養民，後世謂之“光武中興”。諡光武皇帝，廟號世祖。"
+        ],
+        "en": [
+          "Mahina seemed about to say something more, then swallowed the words. Gently, she drew back and settled into her place.",
+          "The city’s night seemed especially quiet before the CloudInsects arrived. In the silver-white moonlight, the mathematical symbols on the window were like a gathering of spirits leaping without a sound. For a moment she felt unmoored, as though she were sitting on a lake suspended in empty space, or had returned to that boat on the Wujiang two thousand years before.",
+          "Her parents’ endless quarrels, the mockery and incomprehension of people her own age, the flippant, suggestive looks in bars—all the noise that had once belonged to her life now seemed as distant as something from a previous existence.",
+          "Beside her there was only the soft scratch of the pen across the paper. Mahina rested her chin on her hand and quietly watched the pen in Suvan’s fingers, letting her breathing slow little by little. She only wished this moment could last a little longer, that the page before him might never be filled.",
+          "The night deepened. Far away, the faint cry of CloudInsect No. 9 sounded, low and long, slowly merging with that other cry on the banks of the Wujiang two thousand years before.",
+          "Records of the Grand Historian, “The Basic Annals of Xiang Yu” — Sima Qian",
+          "Then King Xiang wished to cross the Wujiang eastward. The headman of Wujiang had moored a boat and was waiting. He said to King Xiang, “Though the land east of the river is small, it extends a thousand li and has several hundred thousand people. It is enough for you to rule as king. I beg Your Majesty to cross at once. Only I have a boat here. When the Han army arrives, they will have no means to cross.” King Xiang laughed and said, “Heaven is destroying me. Why should I cross? I crossed the river westward with eight thousand sons of the land east of the river, and now not one has returned. Even if their fathers and brothers took pity on me and made me king, how could I face them? Even if they said nothing, would I not feel shame in my own heart?” Then he said to the headman, “I know you are an honorable man. I have ridden this horse for five years, and none who stood against him could prevail. Once he traveled a thousand li in a single day. I cannot bear to kill him, and so I give him to you.”",
+          "…Then he cut his own throat and died. Wang Yi took his head. The other horsemen trampled one another in their struggle for King Xiang’s body, and dozens killed one another. At last, the palace cavalryman Yang Xi, the cavalry commander Lü Matong, and the palace attendants Lü Sheng and Yang Wu each obtained a part of his body. The five men brought the parts together, and all were granted the rank of marquis.",
+          "Xiang Yu (232–202 BCE)",
+          "Given name Ji, courtesy name Yu; a native of Xiaxiang. At the end of the Qin dynasty, he joined his uncle Xiang Liang in rebellion. At the Battle of Julu, he broke his cooking pots and sank his boats, destroying the main force of the Qin army. He divided the realm into fiefs and proclaimed himself Hegemon-King of Western Chu. After five years of war between Chu and Han, he was surrounded at Gaixia, with songs of Chu rising on every side. Leading his remaining horsemen, he broke out and reached the Wujiang. Refusing to cross, he cut his own throat and died at thirty. The Grand Historian wrote: “Though his rule did not endure, nothing like it had been seen since antiquity.”",
+          "Liu Xiu (5 BCE–57 CE)",
+          "Courtesy name Wenshu; a native of Caiyang in Nanyang and a ninth-generation descendant of Emperor Gaozu of Han. After Wang Mang usurped the Han throne, his family’s fortunes declined. In his humble early years he worked the fields himself; the histories record that he was “by nature diligent in farming.” He later raised an army amid the turmoil. At the Battle of Kunyang, a few thousand men prepared to fight to the death defeated the 420,000-strong army of Wang Mang’s Xin dynasty. He subdued the rival warlords, restored the Han dynasty, and established his capital at Luoyang. His dynasty is known to history as the Eastern Han. During his thirty-three-year reign, he reduced labor levies and taxes, ended warfare, and allowed the people to recover. Later generations called this the “Guangwu Restoration.” His posthumous title was Emperor Guangwu; his temple name, Shizu."
+        ],
+        "ja": [
+          "マヒナはまだ何か言いたそうだったが、口にしかけた言葉をのみ込んだ。そっと身を引き、元の場所に座り直した。",
+          "雲虫が来る前の街の夜は、ひときわ静かに感じられた。窓の数式の記号は、銀白の月明かりの中で、音もなく跳ねる精霊の群れのようだった。ふと、心が遠のいた。虚空に浮かぶ湖の上に座っているようでも、二千年前、烏江に浮かぶあの舟へ戻ったようでもあった。",
+          "記憶の中の、両親の果てしない口論。同世代の者たちの嘲りと無理解。バーで向けられた、軽薄で思わせぶりな視線。かつて自分にまとわりついていたあの喧騒は、今この瞬間、前世の出来事のように遠かった。",
+          "隣では、ペン先が紙を走る、さらさらという音だけがしていた。マヒナは頬杖をつき、スヴァンの手の中のペンを静かに見つめながら、少しずつ呼吸を緩めた。ただ、このひとときがもう少し長く続いてほしかった。彼の前の一ページが、いつまでも書き終わらなければいいと思った。",
+          "夜はさらに深まった。遠くで雲虫第九号の声がかすかに響いていた。低く、長いその声は、二千年前、烏江のほとりに響いたあの声と、ゆっくり重なっていった。",
+          "『史記・項羽本紀』 — 司馬遷",
+          "そこで項王は、烏江を東へ渡ろうとした。烏江の亭長は舟を岸につけて待ち、項王に言った。「江東は小さいとはいえ、千里の土地があり、民は数十万おります。王となるには十分です。大王、どうか急いでお渡りください。今、舟を持っているのは私だけです。漢軍が来ても、渡るすべはありません。」項王は笑って言った。「天が私を滅ぼすのだ。渡って何になる。私は江東の若者八千人とともに川を渡って西へ向かったが、今や一人も戻らぬ。たとえ江東の父兄が哀れんで私を王としてくれたとしても、どんな顔で会えようか。彼らが何も言わずとも、私の心に恥がないはずがあろうか。」そして亭長に言った。「あなたが徳のある方だとはわかっている。私はこの馬に五年乗ってきたが、向かうところ敵はなく、一日に千里を駆けたこともある。殺すには忍びない。あなたに差し上げよう。」",
+          "……そして自ら喉を切って死んだ。王翳がその首を取り、残りの騎兵は項王の遺体を奪い合って互いに踏みつけ、殺し合って死んだ者は数十人に及んだ。最後には、郎中騎の楊喜、騎司馬の呂馬童、郎中の呂勝と楊武が、それぞれ遺体の一部を得た。五人はその遺体を合わせ、全員が列侯の爵位を授けられた。",
+          "項羽（紀元前232年—紀元前202年）",
+          "名は籍、字は羽。下相の人。秦末、叔父の項梁に従って挙兵。鉅鹿の戦いでは釜を壊し、舟を沈めて退路を断ち、秦軍の主力を殲滅した。天下を分封し、自ら西楚の覇王と称した。楚漢の争いは五年に及び、垓下で包囲され、四方から楚の歌が聞こえる中、残った騎兵を率いて包囲を破り、烏江へ至った。川を渡ることを拒み、自ら喉を切って死んだ。享年三十。太史公は評して言う。「その地位は最後まで続かなかったが、近古以来、かつてないことであった。」",
+          "劉秀（紀元前5年—西暦57年）",
+          "字は文叔。南陽郡蔡陽の人。漢の高祖の九世の孫。王莽が漢を簒奪すると家運は衰え、身分の低かったころは自ら田畑を耕した。史書には「生来、農耕に勤勉であった」と記される。のちに乱世の中で挙兵。昆陽の戦いでは、死を覚悟した数千の兵で王莽の新軍四十二万を破った。群雄を平定し、漢室を再興して洛陽に都を定めた。歴史上、後漢と呼ばれる。在位三十三年。賦役と租税を軽減し、戦をやめて民を休ませた。後世に「光武中興」と呼ばれる。諡号は光武皇帝、廟号は世祖。"
+        ],
+        "ko": [
+          "마히나는 무언가 더 말하려는 듯하다가 입가에 맴돌던 말을 삼켰다. 그러고는 살며시 몸을 거두어 제자리에 앉았다.",
+          "운충이 오기 전, 도시의 밤은 유난히 고요하게 느껴졌다. 유리창의 수학 기호들은 은백색 달빛 속에서 소리 없이 뛰노는 정령들 같았다. 문득 정신이 아득해졌다. 허공에 매달린 호수 위에 앉아 있는 것 같기도, 이천 년 전 오강 위의 그 배로 돌아간 것 같기도 했다.",
+          "기억 속 부모님의 끝없는 다툼, 또래들의 비웃음과 몰이해, 술집에서 마주하던 가볍고 은근한 시선들——한때 그녀를 둘러싸고 있던 소란이, 이 순간에는 전생의 일처럼 아득했다.",
+          "곁에서는 펜촉이 종이를 스치는 사각거림만 들렸다. 마히나는 턱을 괴고 수반의 손에 들린 펜을 가만히 바라보며, 조금씩 호흡을 늦췄다. 그저 이 순간이 조금만 더 머물러 주기를 바랐다. 그의 앞에 놓인 종이 한 장이, 영영 다 채워지지 않기를.",
+          "밤이 더 깊어졌다. 멀리서 9호 운충의 울음소리가 희미하게 들려왔다. 낮고도 긴 그 소리가, 이천 년 전 오강 가의 그 울음과 서서히 포개졌다.",
+          "《사기·항우본기》 — 사마천",
+          "이에 항왕은 오강을 건너 동쪽으로 가려 했다. 오강의 정장이 배를 대고 기다리다가 항왕에게 말했다. “강동이 비록 작으나 땅이 천 리에 백성이 수십만이니, 왕이 되시기에 충분합니다. 대왕께서는 서둘러 건너소서. 지금 배를 가진 이는 저뿐입니다. 한군이 오더라도 건널 방도가 없습니다.” 항왕이 웃으며 말했다. “하늘이 나를 망하게 하는데, 내가 강을 건너 무엇 하겠는가! 나는 강동의 젊은이 팔천 명과 함께 강을 건너 서쪽으로 갔으나, 이제 한 사람도 돌아가지 못했다. 강동의 부형들이 나를 불쌍히 여겨 왕으로 삼는다 한들, 무슨 낯으로 그들을 만나겠는가? 그들이 아무 말도 하지 않는다 해도, 내 마음에 어찌 부끄러움이 없겠는가?” 그러고는 정장에게 말했다. “그대가 덕 있는 분임을 알고 있소. 나는 이 말을 오 년 동안 탔는데, 맞서는 자마다 당해 내지 못했고, 하루에 천 리를 달린 적도 있소. 차마 죽일 수 없으니 그대에게 주겠소.”",
+          "……그러고는 스스로 목을 베어 죽었다. 왕예가 그 머리를 취했다. 나머지 기병들은 항왕의 시신을 차지하려 서로 짓밟았고, 서로 죽이다 목숨을 잃은 자가 수십 명이었다. 마지막에는 낭중 기병 양희, 기사마 여마동, 낭중 여승과 양무가 각각 시신의 일부를 얻었다. 다섯 사람이 시신을 모았고, 모두 열후의 작위를 받았다.",
+          "항우(기원전 232년—기원전 202년)",
+          "이름은 적, 자는 우. 하상 사람이다. 진나라 말기에 숙부 항량을 따라 군사를 일으켰다. 거록 전투에서 솥을 깨뜨리고 배를 가라앉혀 퇴로를 끊은 뒤 진군의 주력을 섬멸했다. 천하를 나누어 제후들을 봉하고 스스로 서초패왕이라 칭했다. 초한의 다툼이 오 년 동안 이어진 끝에 해하에서 포위되어 사방에서 초나라 노래가 들려왔다. 남은 기병을 이끌고 포위를 뚫어 오강에 이르렀으나, 강을 건너기를 거부하고 스스로 목을 베어 죽었다. 서른 살이었다. 태사공은 이렇게 평했다. “그 지위를 끝까지 지키지는 못했으나, 근고 이래 일찍이 없던 일이었다.”",
+          "유수(기원전 5년—서기 57년)",
+          "자는 문숙. 남양 채양 사람이며 한 고조의 구대손이다. 왕망이 한나라를 찬탈한 뒤 가세가 기울었다. 미천하던 시절에는 직접 밭을 갈았으며, 역사에는 “본래 농사에 부지런했다”고 기록되어 있다. 뒤에 난세 속에서 군사를 일으켰다. 곤양 전투에서는 죽음을 각오한 수천의 병사로 왕망의 신나라 사십이만 대군을 격파했다. 군웅을 평정하고 한 왕실을 재건하여 낙양에 도읍을 정했다. 역사에서는 동한이라 부른다. 삼십삼 년 동안 재위하며 부역과 세금을 줄이고, 전쟁을 멈추어 백성이 쉬며 살아갈 수 있게 했다. 후세에는 이를 ‘광무중흥’이라 불렀다. 시호는 광무황제, 묘호는 세조다."
+        ],
+        "es": [
+          "Mahina pareció querer añadir algo, pero se tragó las palabras antes de pronunciarlas. Se retiró suavemente y volvió a sentarse en su sitio.",
+          "La noche de la ciudad parecía especialmente silenciosa antes de la llegada del CloudInsect. Los símbolos matemáticos de la ventana, bajo la luz plateada de la luna, parecían espíritus que danzaban sin un sonido. Por un instante, Mahina se sintió algo perdida, como si estuviera sentada en la superficie de un lago suspendido en el vacío, o como si hubiera vuelto dos mil años atrás, a aquella barca del Wujiang.",
+          "Las discusiones interminables de sus padres, las burlas y la incomprensión de los de su edad, las miradas frívolas e insinuantes del bar: todo aquel ruido que había formado parte de su vida parecía ahora tan lejano como si perteneciera a una vida anterior.",
+          "A su lado solo se oía el susurro de la pluma sobre el papel. Mahina apoyó la barbilla en la mano y contempló en silencio la pluma de Suvan, mientras iba serenando poco a poco la respiración. Solo deseaba que aquel instante durara un poco más; que la página que él tenía delante no se terminara nunca.",
+          "La noche se hizo más profunda. A lo lejos llegaba, apenas perceptible, el zumbido del CloudInsect n.º 9, grave y prolongado. Poco a poco fue fundiéndose con aquel otro sonido de la orilla del Wujiang, dos mil años atrás.",
+          "Memorias históricas · Anales de Xiang Yu — Sima Qian",
+          "Entonces el rey Xiang quiso cruzar el Wujiang hacia el este. El jefe del puesto de Wujiang lo esperaba con una barca amarrada y le dijo: «Aunque Jiangdong sea pequeño, su territorio abarca mil li y cuenta con varios cientos de miles de habitantes. Es suficiente para que reinéis allí. Os ruego, gran rey, que crucéis sin demora. Ahora solo yo tengo una barca; cuando lleguen los Han, no tendrán con qué cruzar». El rey Xiang sonrió y dijo: «¡El Cielo quiere mi perdición! ¿Para qué habría de cruzar? Además, yo, Ji, crucé el río hacia el oeste con ocho mil jóvenes de Jiangdong, y ahora no regresa ninguno. Aunque sus padres y hermanos se apiadaran de mí y me hicieran rey, ¿con qué cara podría presentarme ante ellos? Aunque no dijeran nada, ¿acaso no sentiría vergüenza en mi corazón?». Luego dijo al jefe del puesto: «Sé que sois un hombre de bien. Hace cinco años que monto este caballo y nada ha podido hacerle frente. Una vez recorrió mil li en un solo día. No soporto matarlo; os lo regalo».",
+          "…Entonces se cortó el cuello y murió. Wang Yi tomó su cabeza. Los demás jinetes se pisoteaban disputándose el cuerpo del rey Xiang, y varias decenas murieron a manos de sus propios compañeros. Al final, Yang Xi, jinete de la guardia de palacio; Lü Matong, comandante de caballería; y Lü Sheng y Yang Wu, guardias de palacio, obtuvieron cada uno una parte de su cuerpo. Los cinco reunieron las partes y todos recibieron el rango de marqués.",
+          "Xiang Yu (232 a. C.—202 a. C.)",
+          "Su nombre personal era Ji y su nombre de cortesía, Yu. Era natural de Xiaxiang. Al final de la dinastía Qin se alzó en armas junto a su tío Xiang Liang. En la batalla de Julu rompió las calderas y hundió las barcas, decidido a no retroceder, y aniquiló al grueso del ejército Qin. Repartió los territorios del imperio entre señores feudales y se proclamó Rey Hegemón de Chu Occidental. Tras cinco años de guerra entre Chu y Han, quedó cercado en Gaixia, rodeado por cantos de Chu. Abrió una brecha con los jinetes que le quedaban y llegó al Wujiang. Se negó a cruzar el río y se cortó el cuello. Tenía treinta años. El Gran Historiador escribió: «Aunque su poder no perduró, nada semejante se había visto desde la antigüedad más reciente».",
+          "Liu Xiu (5 a. C.—57 d. C.)",
+          "De nombre de cortesía Wenshu, nació en Caiyang, Nanyang, y era descendiente de novena generación del emperador Gaozu de Han. Después de que Wang Mang usurpara el trono Han, su familia cayó en declive. En sus años humildes trabajó la tierra con sus propias manos; las crónicas dicen que «por naturaleza era diligente en las labores del campo». Más tarde se alzó en armas en tiempos de caos. En la batalla de Kunyang, con unos pocos miles de hombres dispuestos a morir, derrotó al ejército de cuatrocientos veinte mil soldados de la dinastía Xin de Wang Mang. Sometió a los caudillos rivales, restauró la dinastía Han y fijó la capital en Luoyang. Esta dinastía se conoce como Han Oriental. Reinó treinta y tres años, redujo las prestaciones de trabajo y los impuestos, puso fin a las guerras y permitió que el pueblo se recuperara. La posteridad llamó a este periodo «Restauración de Guangwu». Su nombre póstumo fue emperador Guangwu y su nombre de templo, Shizu."
+        ],
+        "fr": [
+          "Mahina parut vouloir ajouter quelque chose, mais retint les mots au bord des lèvres. Elle se recula doucement et reprit sa place.",
+          "La nuit de la ville semblait particulièrement silencieuse avant l’arrivée de l’Insecte-Nuage. Dans la clarté argentée de la lune, les symboles mathématiques sur la vitre ressemblaient à des esprits dansant sans bruit. Elle eut soudain un léger vertige, comme si elle était assise à la surface d’un lac suspendu dans le vide, ou revenue deux mille ans en arrière, dans cette barque sur le Wujiang.",
+          "Les disputes sans fin de ses parents, les moqueries et l’incompréhension de ceux de son âge, les regards désinvoltes et équivoques au bar : tout ce tumulte qui avait autrefois fait partie de sa vie lui semblait, à cet instant, aussi lointain qu’une vie antérieure.",
+          "Près d’elle, seul demeurait le froissement de la plume sur le papier. Le menton posé dans la main, Mahina regardait en silence la plume de Suvan, ralentissant peu à peu sa respiration. Elle souhaitait seulement que cet instant dure encore un peu, que la page devant lui ne soit jamais achevée.",
+          "La nuit se fit plus profonde. Au loin parvenait faiblement le cri de l’Insecte-Nuage no 9, grave et prolongé. Peu à peu, il se confondit avec celui qui avait retenti au bord du Wujiang, deux mille ans auparavant.",
+          "Mémoires historiques · Annales de Xiang Yu — Sima Qian",
+          "Alors le roi Xiang voulut traverser le Wujiang vers l’est. Le chef du poste de Wujiang l’attendait avec une barque amarrée et lui dit : « Le Jiangdong est certes petit, mais il s’étend sur mille li et compte plusieurs centaines de milliers d’habitants. Cela suffit pour y régner. Je vous prie, grand roi, de traverser sans tarder. Je suis seul à posséder une barque ; lorsque les Han arriveront, ils n’auront aucun moyen de passer. » Le roi Xiang sourit : « Le Ciel veut ma perte ! À quoi bon traverser ? De plus, moi, Ji, j’ai franchi le fleuve vers l’ouest avec huit mille jeunes gens du Jiangdong, et aucun ne revient aujourd’hui. Même si leurs pères et leurs frères me prenaient en pitié et me faisaient roi, de quel front pourrais-je me présenter devant eux ? Même s’ils ne disaient rien, n’aurais-je pas honte au fond de moi ? » Puis il dit au chef du poste : « Je sais que vous êtes un homme de bien. Voilà cinq ans que je monte ce cheval ; rien n’a pu lui résister. Il a un jour parcouru mille li en une journée. Je ne puis me résoudre à le tuer ; je vous le donne. »",
+          "… Alors il se trancha la gorge et mourut. Wang Yi prit sa tête. Les autres cavaliers se piétinèrent en se disputant le corps du roi Xiang, et plusieurs dizaines s’entretuèrent. Finalement, Yang Xi, cavalier de la garde du palais, Lü Matong, commandant de cavalerie, ainsi que Lü Sheng et Yang Wu, gardes du palais, obtinrent chacun une partie du corps. Les cinq hommes réunirent ces parties et reçurent tous le rang de marquis.",
+          "Xiang Yu (232 av. J.-C. — 202 av. J.-C.)",
+          "De son prénom Ji et de son nom de courtoisie Yu, il était originaire de Xiaxiang. À la fin de la dynastie Qin, il prit les armes avec son oncle Xiang Liang. À la bataille de Julu, il fit briser les chaudrons et couler les bateaux, renonçant à toute retraite, puis anéantit le gros des forces Qin. Il répartit les territoires de l’empire en fiefs et se proclama Roi-hégémon du Chu occidental. Après cinq ans de guerre entre Chu et Han, il fut encerclé à Gaixia, où les chants de Chu résonnaient de toutes parts. Il rompit l’encerclement avec les cavaliers qui lui restaient et atteignit le Wujiang. Refusant de traverser le fleuve, il se trancha la gorge à l’âge de trente ans. Le Grand Historien écrivit : « Bien que son pouvoir n’ait pas duré, rien de tel ne s’était vu depuis l’Antiquité récente. »",
+          "Liu Xiu (5 av. J.-C. — 57 apr. J.-C.)",
+          "De son nom de courtoisie Wenshu, il était originaire de Caiyang, dans la région de Nanyang, et descendait à la neuvième génération de l’empereur Gaozu des Han. Après l’usurpation des Han par Wang Mang, sa famille déclina. Durant ses années modestes, il cultiva lui-même la terre ; les chroniques le disent « naturellement assidu aux travaux des champs ». Il prit ensuite les armes en des temps troublés. À la bataille de Kunyang, avec quelques milliers d’hommes prêts à mourir, il vainquit les quatre cent vingt mille soldats de la dynastie Xin de Wang Mang. Il soumit les chefs rivaux, rétablit la dynastie Han et fixa sa capitale à Luoyang. Cette dynastie est connue sous le nom de Han orientaux. Il régna trente-trois ans, allégea les corvées et les impôts, mit fin aux guerres et laissa le peuple se rétablir. La postérité appela cette période la « restauration de Guangwu ». Son nom posthume fut empereur Guangwu et son nom de temple, Shizu."
+        ],
+        "ru": [
+          "Юэя словно хотела сказать что-то ещё, но проглотила уже готовые сорваться слова и тихо отодвинулась на своё место.",
+          "Перед приходом Облачного насекомого городская ночь казалась особенно тихой. Математические символы на стекле в серебристом лунном свете напоминали безмолвно резвящихся духов. На миг реальность поплыла: ей почудилось, будто она сидит на глади озера, повисшего в пустоте, — или снова очутилась две тысячи лет назад, в той лодке на Уцзяне.",
+          "Бесконечные родительские ссоры, насмешки и непонимание ровесников, легкомысленные, двусмысленные взгляды в баре — весь тот шум, который когда-то был частью её жизни, теперь казался далёким, словно всё это случилось в прежнем воплощении.",
+          "Рядом слышался лишь шорох пера по бумаге. Подперев щёку ладонью, Юэя молча следила за пером в руке Сияна и понемногу замедляла дыхание. Ей хотелось только одного: чтобы этот миг длился ещё немного, чтобы страница перед ним никогда не была дописана до конца.",
+          "Ночь становилась глубже. Издалека едва доносился низкий, протяжный гул Облачного насекомого № 9, постепенно сливаясь с тем звуком, что прозвучал на берегу Уцзяна две тысячи лет назад.",
+          "«Исторические записки. Основные записи о Сян Юе» — Сыма Цянь",
+          "Тогда государь Сян решил переправиться через Уцзян на восток. Начальник заставы Уцзян подвёл лодку к берегу и ждал его. Он сказал государю Сяну: «Хоть Цзяндун и невелик, земли его простираются на тысячу ли, а жителей в нём несколько сотен тысяч. Этого довольно, чтобы править. Прошу великого государя скорее переправиться. Сейчас лодка есть лишь у меня; когда подойдёт ханьское войско, переправиться ему будет не на чем». Государь Сян рассмеялся: «Небо губит меня — к чему мне переправа! Я, Цзи, с восемью тысячами сынов Цзяндуна перешёл реку на запад, а теперь ни один из них не вернулся. Пусть даже их отцы и братья пожалеют меня и вновь сделают своим правителем — с каким лицом я предстану перед ними? Даже если они промолчат, разве мне самому не будет стыдно?» Затем он сказал начальнику заставы: «Знаю, вы человек благородный. Пять лет я езжу на этом коне, и никто не мог устоять против него; бывало, он проходил тысячу ли за день. Я не могу убить его. Дарю его вам».",
+          "…И он перерезал себе горло и умер. Ван И взял его голову. Остальные всадники, растаптывая друг друга, боролись за тело государя Сяна; в этой схватке несколько десятков человек убили друг друга. В конце концов дворцовый всадник Ян Си, начальник конницы Люй Матун, дворцовые служители Люй Шэн и Ян У получили каждый по части тела. Пятеро собрали эти части вместе, и всем были пожалованы титулы владетельных хоу.",
+          "Сян Юй (232–202 гг. до н. э.)",
+          "Имя — Цзи, второе имя — Юй. Родился в Сясяне. На закате династии Цинь поднял восстание вместе с дядей Сян Ляном. В битве при Цзюйлу разбил котлы и потопил лодки, отрезав своим воинам путь к отступлению, и уничтожил основные силы Цинь. Разделил Поднебесную на уделы и провозгласил себя Властителем Западного Чу. Пять лет воевал с Хань. Окружённый при Гайся, где со всех сторон звучали чуские песни, прорвался с остатками конницы к Уцзяну. Отказавшись переправляться через реку, перерезал себе горло и умер в возрасте тридцати лет. Великий историограф писал: «Хоть и не удержал он своего положения до конца, с древних времён не было ему подобного».",
+          "Лю Сю (5 г. до н. э. — 57 г. н. э.)",
+          "Второе имя — Вэньшу. Родом из Цайяна, округ Наньян, потомок ханьского Гаоцзу в девятом поколении. После того как Ван Ман узурпировал престол Хань, его семья пришла в упадок. В годы безвестности он сам трудился в поле; историки отмечали, что он «по натуре был усерден в земледелии». Затем в смутные годы поднял войска. В битве при Куньяне с несколькими тысячами воинов, готовых умереть, разгромил четырёхсотдвадцатитысячную армию Ван Мана и его династии Синь. Победил соперничавших военачальников и восстановил династию Хань со столицей в Лояне; в истории она известна как Восточная Хань. Правил тридцать три года, облегчал трудовые повинности и налоги, прекращал войны и давал народу восстановить силы. Потомки назвали это время «Возрождением Гуанъу». Посмертное имя — император Гуанъу, храмовое имя — Шицзу."
+        ],
+        "ar": [
+          "بدا أن ماهينا تريد أن تقول شيئًا آخر، لكنها ابتلعت الكلمات عند طرف لسانها، ثم تراجعت برفق وعادت إلى جلستها.",
+          "بدا ليل المدينة ساكنًا على نحو خاص قبل مجيء حشرة السحاب. وكانت الرموز الرياضية على النافذة، في ضوء القمر الفضي، كأرواح صغيرة تتقافز في صمت. وغمرها فجأة شيء من الشرود؛ خيل إليها أنها تجلس على صفحة بحيرة معلقة في الفراغ، أو أنها عادت ألفي عام إلى الوراء، إلى ذلك القارب على ووجيانغ.",
+          "شجارات والديها التي لا تنتهي، وسخرية أقرانها وعجزهم عن فهمها، والنظرات العابثة الموحية في الحانة؛ كل ذلك الصخب الذي كان يومًا جزءًا من حياتها بدا في تلك اللحظة بعيدًا، كأنه جرى في حياة سابقة.",
+          "لم يكن إلى جوارها إلا حفيف سن القلم على الورق. أسندت ماهينا خدها إلى كفها، وظلت تتابع القلم في يد سوفان بصمت، وتبطئ أنفاسها شيئًا فشيئًا. لم تتمن إلا أن تطول هذه اللحظة قليلًا، وأن تبقى الصفحة التي أمامه عصية على الاكتمال إلى الأبد.",
+          "ازداد الليل عمقًا. وتسلل من بعيد طنين حشرة السحاب رقم 9، خافتًا وعميقًا ومديدًا، وأخذ يندمج ببطء مع ذلك الطنين على ضفة ووجيانغ قبل ألفي عام.",
+          "«سجلات المؤرخ الكبير: الحوليات الأساسية لشيانغ يو» — سيما تشيان",
+          "عندئذ أراد الملك شيانغ أن يعبر ووجيانغ شرقًا. وكان رئيس مخفر ووجيانغ قد أدنى قاربه من الضفة ينتظره، فقال له: «جيانغدونغ، وإن كانت صغيرة، تمتد ألف لي، وفيها مئات الآلاف من السكان، وهي تكفي لأن تكون لكم مملكة. أرجو من مولاي أن يعجل بالعبور. ليس هنا قارب إلا قاربي؛ فإذا وصل جيش هان، فلن يجد ما يعبر به.» فضحك الملك شيانغ وقال: «إن كانت السماء قد قضت بهلاكي، ففيم العبور؟ ثم إنني، أنا جي، عبرت النهر غربًا ومعي ثمانية آلاف من أبناء جيانغدونغ، ولم يعد منهم اليوم أحد. حتى لو رق لي آباؤهم وإخوتهم وجعلوني ملكًا عليهم، فبأي وجه ألقاهم؟ وحتى لو لم يقولوا شيئًا، أفلا أستحي أنا في قرارة نفسي؟» ثم قال لرئيس المخفر: «أعرف أنك رجل كريم الخلق. ركبت هذا الحصان خمس سنين، ولم يصمد أمامه خصم. وقد قطع ألف لي في يوم واحد. لا يهون علي أن أقتله، فأهبه لك.»",
+          "…ثم نحر نفسه فمات. وأخذ وانغ يي رأسه، أما بقية الفرسان فتدافعوا وداس بعضهم بعضًا يتنازعون جسد الملك شيانغ، وقتل بعضهم بعضًا حتى بلغ القتلى عشرات. وفي النهاية، نال كل من يانغ شي، الفارس من حرس القصر، ولو ماتونغ، قائد الفرسان، ولو شنغ ويانغ وو، وهما من رجال القصر، جزءًا من جسده. وجمع الخمسة أجزاءه، ونالوا جميعًا ألقاب هو الإقطاعية.",
+          "شيانغ يو (232–202 قبل الميلاد)",
+          "اسمه جي، واسمه الأدبي يو، من شياشيانغ. ثار في أواخر عهد تشين مع عمه شيانغ ليانغ. وفي معركة جولو حطم القدور وأغرق القوارب، قاطعًا سبيل التراجع، وقضى على القوة الرئيسية لجيش تشين. ثم قسم البلاد إلى إقطاعات، ولقب نفسه بالسيد المهيمن على تشو الغربية. استمر صراع تشو وهان خمس سنوات، ثم حوصر في غايشيا، وأحاطت به أغاني تشو من كل جانب. فشق الحصار بمن بقي من فرسانه ووصل إلى ووجيانغ. أبى أن يعبر النهر، ونحر نفسه فمات في الثلاثين من عمره. وقال المؤرخ الكبير في حكمه عليه: «وإن لم يدم له مقامه إلى النهاية، فلم يكن له نظير منذ الأزمنة القديمة.»",
+          "ليو شيو (5 قبل الميلاد–57 ميلادية)",
+          "اسمه الأدبي ونشو، من تساييانغ في نانيانغ، ومن ذرية غاوزو مؤسس هان في الجيل التاسع. استولى وانغ مانغ على عرش هان، فتراجعت أحوال أسرته. وفي أيام فقره وخموله فلح الأرض بيديه، وذكرت كتب التاريخ أنه «كان بطبعه دؤوبًا على الزراعة». ثم رفع راية القتال في زمن الفوضى. وفي معركة كونيانغ هزم ببضعة آلاف من الرجال المستميتين جيش وانغ مانغ ودولته شين، البالغ أربعمئة وعشرين ألفًا. وقضى على الأمراء المتنافسين، وأعاد حكم هان، واتخذ لويانغ عاصمة؛ فعرفت دولته في التاريخ باسم هان الشرقية. حكم ثلاثة وثلاثين عامًا، وخفف السخرة والضرائب، وأوقف الحروب وأتاح للرعية أن تستعيد عافيتها. وسمى اللاحقون ذلك «نهضة غوانغ وو». لقبه بعد الوفاة الإمبراطور غوانغ وو، واسمه المعبدي شيزو."
+        ],
+        "ptBR": [
+          "Mahina pareceu querer dizer mais alguma coisa, mas engoliu as palavras antes que saíssem. Recuou suavemente e voltou a se sentar em seu lugar.",
+          "A noite da cidade parecia especialmente silenciosa antes da chegada do Inseto-Nuvem. Sob o luar prateado, os símbolos matemáticos na janela lembravam espíritos dançando sem fazer ruído. Por um instante, tudo lhe pareceu irreal, como se estivesse sentada na superfície de um lago suspenso no vazio, ou tivesse voltado dois mil anos no tempo, àquele barco no Wujiang.",
+          "As discussões intermináveis dos pais, as zombarias e a incompreensão dos jovens de sua idade, os olhares levianos e insinuantes no bar — todo aquele tumulto que um dia fizera parte de sua vida parecia, naquele instante, tão distante quanto uma vida anterior.",
+          "Ao seu lado, só se ouvia o roçar da caneta sobre o papel. Com o queixo apoiado na mão, Mahina observava em silêncio a caneta de Suvan e ia desacelerando a respiração, pouco a pouco. Só queria que aquele instante durasse mais um pouco, que a página diante dele nunca chegasse ao fim.",
+          "A noite se aprofundou. Ao longe, mal se ouvia o zumbido do Inseto-Nuvem nº 9, grave e prolongado. Aos poucos, ele foi se sobrepondo àquele outro som, ouvido na margem do Wujiang dois mil anos antes.",
+          "Registros do Historiador · Anais de Xiang Yu — Sima Qian",
+          "Então o rei Xiang quis atravessar o Wujiang rumo ao leste. O chefe do posto de Wujiang o esperava com um barco amarrado e lhe disse: “Embora Jiangdong seja pequeno, seu território se estende por mil li e tem várias centenas de milhares de habitantes. É suficiente para que reine ali. Peço ao grande rei que atravesse sem demora. Agora só eu tenho um barco; quando o exército de Han chegar, não terá como atravessar.” O rei Xiang sorriu e disse: “O Céu quer a minha ruína! Para que haveria eu de atravessar? Além disso, eu, Ji, atravessei o rio rumo ao oeste com oito mil jovens de Jiangdong, e agora nenhum deles retorna. Ainda que seus pais e irmãos se compadecessem de mim e me fizessem rei, com que rosto eu poderia me apresentar diante deles? Mesmo que nada dissessem, não sentiria vergonha em meu coração?” Então disse ao chefe do posto: “Sei que o senhor é um homem de bem. Há cinco anos monto este cavalo, e nada pôde resistir à sua passagem. Certa vez percorreu mil li em um só dia. Não suporto matá-lo; por isso o dou ao senhor.”",
+          "…Então cortou a própria garganta e morreu. Wang Yi tomou sua cabeça. Os outros cavaleiros se atropelaram na disputa pelo corpo do rei Xiang, e várias dezenas mataram uns aos outros. Por fim, Yang Xi, cavaleiro da guarda do palácio; Lü Matong, comandante de cavalaria; e Lü Sheng e Yang Wu, guardas do palácio, ficaram cada um com uma parte do corpo. Os cinco reuniram as partes e todos receberam o título de marquês.",
+          "Xiang Yu (232 a.C. — 202 a.C.)",
+          "Seu nome pessoal era Ji, e seu nome de cortesia, Yu. Era natural de Xiaxiang. No fim da dinastia Qin, ergueu-se em armas com seu tio Xiang Liang. Na batalha de Julu, mandou quebrar os caldeirões e afundar os barcos, decidido a não recuar, e aniquilou o grosso do exército Qin. Distribuiu os territórios do império em feudos e se proclamou Rei-Hegemônico de Chu Ocidental. Após cinco anos de guerra entre Chu e Han, foi cercado em Gaixia, com cantos de Chu vindo de todas as direções. Rompeu o cerco com os cavaleiros que lhe restavam e chegou ao Wujiang. Recusou-se a atravessar o rio e cortou a própria garganta, aos trinta anos. O Grande Historiador escreveu: “Embora seu poder não tenha durado, nada semelhante se vira desde a Antiguidade recente.”",
+          "Liu Xiu (5 a.C. — 57 d.C.)",
+          "De nome de cortesia Wenshu, era natural de Caiyang, em Nanyang, e descendente de nona geração do imperador Gaozu de Han. Quando Wang Mang usurpou o trono Han, sua família entrou em declínio. Em seus anos humildes, cultivou a terra com as próprias mãos; as crônicas dizem que era “por natureza diligente no trabalho dos campos”. Mais tarde, ergueu-se em armas em tempos de caos. Na batalha de Kunyang, com alguns milhares de homens dispostos a morrer, derrotou os quatrocentos e vinte mil soldados da dinastia Xin de Wang Mang. Subjugou os chefes rivais, restaurou a dinastia Han e estabeleceu a capital em Luoyang. Essa dinastia ficou conhecida como Han Oriental. Reinou por trinta e três anos, reduziu os trabalhos compulsórios e os impostos, encerrou as guerras e permitiu que o povo se recuperasse. A posteridade chamou esse período de “Restauração de Guangwu”. Seu nome póstumo foi imperador Guangwu, e seu nome de templo, Shizu."
+        ],
+        "vi": [
+          "Nguyệt Nha Nhi dường như còn muốn nói điều chi nữa, nhưng lời đến bên môi lại nuốt ngược vào trong. Cô khẽ thu người lại, ngồi ngay ngắn về chỗ cũ.",
+          "Đêm đô thị trước khi Vân Trùng giáng lâm chìm trong một sự tĩnh lặng lạ thường. Những ký hiệu toán học trên khung cửa kính dưới ánh trăng bàng bạc tựa như một đàn tinh linh đang nhảy múa không một tiếng động. Cô bỗng thấy lòng mình bảng lảng chơi vơi, ngỡ như bản thân đang ngồi trên một mặt hồ lơ lửng giữa hư không vô tận, lại ngỡ như đã ngược dòng thời gian hai ngàn năm trước, trở về ngồi trên con thuyền trôi giữa dòng Ô Giang năm ấy.",
+          "Những trận cãi vã triền miên bất tận của cha mẹ trong ký ức, những lời chế giễu và ánh mắt lạnh lùng khó hiểu của bạn bè đồng trang lứa, những ánh nhìn cợt nhả suồng sã nơi quán bar tối đèn——tất cả những huyên náo hỗn tạp từng bủa vây lấy đời cô, ngay vào thời khắc này bỗng trở nên xa xăm diệu vợi, ngỡ như câu chuyện từ tiền kiếp.",
+          "Bên cạnh cô lúc này, chỉ còn lại tiếng ngòi bút sột soạt lướt nhẹ trên mặt giấy. Nguyệt Nha Nhi chống cằm, lặng lẽ ngắm nhìn cây bút trong tay Hi Dương, hơi thở từ từ lắng lại chậm rãi. Cô chỉ ước ao sao khoảnh khắc này có thể ngừng đọng lại thêm một chút nữa, mong sao trang giấy trước mặt anh vĩnh viễn chẳng thể viết hết.",
+          "Đêm mỗi lúc một thâm u. Đằng xa, tiếng trùng minh của Vân Trùng Số 9 văng vẳng vọng lại, trầm đục và miên man, chầm chậm hòa quyện vào làm một với tiếng rền vang bên bờ Ô Giang hai ngàn năm trước.",
+          "《Sử Ký · Hạng Vũ Bản Kỷ》 — Tư Mã Thiên",
+          "Thế rồi Hạng Vương muốn sang đông qua bến Ô Giang. Đình trưởng Ô Giang đã neo thuyền chờ sẵn, nói với Hạng Vương rằng: “Đất Giang Đông tuy nhỏ, nhưng đất đai ngàn dặm, dân số mấy mươi vạn, cũng đủ để xưng vương. Cầu xin Đại vương mau mau qua sông. Nay chỉ một mình thần có thuyền, quân Hán có đuổi tới cũng chẳng lấy gì mà qua.” Hạng Vương cười đáp: “Trời muốn diệt ta, ta qua sông làm chi nữa! Huống hồ năm xưa Tịch này cùng tám ngàn đệ tử Giang Đông vượt sông sang tây, nay chẳng một ai còn sống trở về. Dẫu cho các bậc phụ huynh chốn Giang Đông có xót thương mà tôn ta làm vương, ta còn mặt mũi nào để nhìn họ nữa? Dẫu miệng họ chẳng nói ra, lòng Hạng Tịch này há chẳng thấy hổ thẹn với lương tâm hay sao?” Đoạn quay sang bảo người đình trưởng: “Ta biết ngài là bậc trưởng giả trung hậu. Ta cưỡi con ngựa này đã năm năm, xông pha trận mạc không ai địch nổi, từng một ngày đi được ngàn dặm, nay chẳng nỡ giết nó, xin tặng lại cho ngài.”",
+          "……Nói rồi chàng tự vẫn mà chết. Vương Ế đoạt lấy đầu chàng, tàn quân kỵ binh giẫm đạp lên nhau mà tranh cướp thi thể Hạng Vương, chém giết lẫn nhau đến mấy mươi người. Sau rốt, Lang trung kỵ Dương Hỷ, Kỵ tư mã Lữ Mã Đồng, Lang trung Lữ Thắng và Dương Vũ mỗi người đoạt được một phần thi thể. Năm người gom các phần lại với nhau, đều được Hán vương phong tước Liệt hầu.",
+          "Hạng Vũ (232 TCN — 202 TCN)",
+          "Tên là Tịch, tự là Vũ, người Hạ Tương. Cuối thời nhà Tần theo chú là Hạng Lương dấy binh khởi nghĩa; trong trận Cự Lộc đã đập nồi dìm thuyền (phá phủ trầm chu), tiêu diệt toàn bộ quân chủ lực nhà Tần, phân chia chư hầu thiên hạ, tự xưng là Tây Sở Bá Vương. Tranh hùng Sở - Hán suốt năm năm; đến khi bị bao vây ở Cai Hạ, bốn bề vang vọng khúc ca nước Sở (tứ diện Sở ca), bèn dẫn tàn kỵ phá vòng vây chạy đến Ô Giang. Không chịu qua sông, tự vẫn mà chết khi mới ba mươi tuổi. Thái Sử Công bàn rằng: “Ngôi vị tuy không trọn vẹn, nhưng từ cổ chí kim chưa từng có người thứ hai.”",
+          "Lưu Tú (5 TCN — 57 SCN)",
+          "Tự Văn Thúc, người Thái Dương quận Nam Dương, là cháu đời thứ chín của Hán Cao Tổ. Vương Mãng soán ngôi nhà Hán khiến gia cảnh sa sút, thuở hàn vi từng tự mình cày cấy ruộng đồng, sử chép “tính tình siêng năng việc cày cấy canh tác”. Về sau dấy binh giữa thời loạn lạc; trong trận Côn Dương đã thống lĩnh vài ngàn nghĩa sĩ cảm tử đập tan bốn mươi hai vạn đại quân Tân Mãng, quét sạch quần hùng, tái lập cơ nghiệp Hán thất, định đô ở Lạc Dương, sử xưng là Đông Hán. Tại vị ba mươi ba năm, giảm trừ sưu thuế, đình chỉ can qua, bồi dưỡng sức dân, hậu thế ngợi ca là thời kỳ “Quang Vũ trung hưng”. Thụy hiệu là Quang Vũ Hoàng Đế, miếu hiệu Thế Tổ."
+        ]
+      }
+    }
+  ],
+  "title_vi": "Vân Trùng · Chương 5: Ô Chuy · II · v5.2.54"
+}

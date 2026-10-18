@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<iframe id="testframe" src="file:///C:\Users\mochioka\Documents\antigravity\dazzling-carson\chapters\chapter-5-wuzhui-2\index.html" style="width:1000px; height:800px;"></iframe>
+<script>
+window.addEventListener('message', () => {});
+setTimeout(() => {
+  const frameDoc = document.getElementById('testframe').contentDocument;
+  console.log('FRAME LANG:', frameDoc.documentElement.lang);
+  console.log('FRAME TITLE:', frameDoc.title);
+  const firstText = frameDoc.querySelector('p.text');
+  console.log('FRAME FIRST TEXT:', firstText ? firstText.textContent : 'none');
+}, 1000);
+</script>
+</body>
+</html>

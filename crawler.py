@@ -98,6 +98,13 @@ CHAPTERS_CONFIG = [
         'file': 'chapter-5-wuzhui-1.html',
         'title_zh': '第五章 乌骓 · 一',
         'title_en': 'Chapter 5: Wuzhui · Part 1'
+    },
+    {
+        'id': 'chapter-5-2',
+        'dir': 'chapter-5-wuzhui-2',
+        'file': 'chapter-5-wuzhui-2.html',
+        'title_zh': '第五章 乌骓 · 二',
+        'title_en': 'Chapter 5: Wuzhui · Part 2'
     }
 ]
 
@@ -518,6 +525,7 @@ def process_homepage():
 
     index_str = str(soup)
     index_str = index_str.replace('chapter-5-wuzhui-1-images/catalog-xiang-yu.jpg', 'assets/chapter-banners/catalog-xiang-yu.jpg')
+    index_str = index_str.replace('images/chapter-5-wuzhui-2/cover-mahina-profile.jpg', 'assets/chapter-banners/cover-mahina-profile.jpg')
 
     with open(os.path.join(WORKSPACE_DIR, "index.html"), 'w', encoding='utf-8') as f:
         f.write(index_str)
@@ -549,7 +557,8 @@ def process_homepage():
         'assets/chapter-banners/chapter-3-beyond-light-cone-2.jpg',
         'assets/chapter-banners/chapter-4-fate-1.jpg',
         'assets/chapter-banners/chapter-4-fate-2.jpg',
-        'chapter-5-wuzhui-1-images/catalog-xiang-yu.jpg'
+        'chapter-5-wuzhui-1-images/catalog-xiang-yu.jpg',
+        'images/chapter-5-wuzhui-2/cover-mahina-profile.jpg'
     ]
 
     downloads = []
@@ -558,6 +567,8 @@ def process_homepage():
         clean = a_url.split('?')[0]
         if 'catalog-xiang-yu.jpg' in clean:
             target = os.path.join(ASSETS_DIR, "chapter-banners", "catalog-xiang-yu.jpg")
+        elif 'cover-mahina-profile.jpg' in clean:
+            target = os.path.join(ASSETS_DIR, "chapter-banners", "cover-mahina-profile.jpg")
         else:
             target = os.path.join(WORKSPACE_DIR, clean)
         downloads.append((full_url, target))

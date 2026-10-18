@@ -24,6 +24,7 @@ from translations.trans_ch3_2 import TRANSLATIONS_CH3_2
 from translations.trans_ch4_1 import TRANSLATIONS_CH4_1
 from translations.trans_ch4_2 import TRANSLATIONS_CH4_2
 from translations.trans_ch5_1 import TRANSLATIONS_CH5_1
+from translations.trans_ch5_2 import TRANSLATIONS_CH5_2, SPAN_MAPPINGS_CH5_2
 
 CHAPTER_CONFIGS = [
     {
@@ -125,6 +126,16 @@ CHAPTER_CONFIGS = [
         'opening_title': 'Chương 5: Ô Chuy · I',
         'menu_label': 'Chương 5: Ô Chuy · I',
         'flat_trans': TRANSLATIONS_CH5_1
+    },
+    {
+        'id': 'chapter-5-wuzhui-2',
+        'dir': 'chapter-5-wuzhui-2',
+        'arch': 'B',
+        'title_vi': 'Vân Trùng · Chương 5: Ô Chuy · II · v5.2.54',
+        'opening_brand': 'Vân Trùng',
+        'opening_title': 'Chương 5: Ô Chuy · II',
+        'menu_label': 'Chương 5: Ô Chuy · II',
+        'flat_trans': TRANSLATIONS_CH5_2
     }
 ]
 
@@ -138,7 +149,8 @@ MENU_VI_LABELS = {
     '../chapter-3-beyond-light-cone-2/index.html': 'Chương 3: Ngoài Nón Ánh Sáng · II',
     '../chapter-4-fate-1/index.html': 'Chương 4: Nón Định Mệnh · I',
     '../chapter-4-fate-2/index.html': 'Chương 4: Nón Định Mệnh · II',
-    '../chapter-5-wuzhui-1/index.html': 'Chương 5: Ô Chuy · I'
+    '../chapter-5-wuzhui-1/index.html': 'Chương 5: Ô Chuy · I',
+    '../chapter-5-wuzhui-2/index.html': 'Chương 5: Ô Chuy · II'
 }
 
 # Explicit span mappings for Architecture B
@@ -330,8 +342,9 @@ def step2_generate_markdown():
         vi_path = os.path.join('chapters', cfg['dir'], 'chapter_vi.md')
         bi_path = os.path.join('chapters', cfg['dir'], 'chapter_vi_bilingual.md')
         
-        with open(vi_path, 'w', encoding='utf-8') as f:
-            f.write("\n".join(vi_lines).strip() + "\n")
+        if not os.path.exists(vi_path):
+            with open(vi_path, 'w', encoding='utf-8') as f:
+                f.write("\n".join(vi_lines).strip() + "\n")
             
         with open(bi_path, 'w', encoding='utf-8') as f:
             f.write("\n".join(bi_lines).strip() + "\n")
@@ -352,20 +365,61 @@ def step3_update_html_readers():
             )
             
         # 2. Add vi to languageMeta in JS
-        vi_meta_entry = f"vi: {{ htmlLang: 'vi', title: '{cfg['title_vi']}' }},"
-        if "vi: {" not in content:
+        t_vi = cfg['title_vi']
+        if "vi: {" not in content and '"vi": {' not in content:
+            if '"zh": {' in content:
+                content = content.replace(
+                    '"zh": {',
+                    f'"vi": {{"htmlLang": "vi", "title": "{t_vi}"}}, "zh": {{'
+                )
+            elif "zh: { htmlLang: 'zh-CN'," in content:
+                vi_meta_entry = f"vi: {{ htmlLang: 'vi', title: '{t_vi}' }},"
+                content = content.replace(
+                    "zh: { htmlLang: 'zh-CN',",
+                    vi_meta_entry + "\n    zh: { htmlLang: 'zh-CN',"
+                )
+            elif "zh: {" in content:
+                vi_meta_entry = f"vi: {{ htmlLang: 'vi', title: '{t_vi}' }},"
+                content = content.replace(
+                    "zh: {",
+                    vi_meta_entry + "\n    zh: {"
+                )
+                
+        # Fix potential null attribute setting when switching to vi in Architecture B
+        old_attr_set = "el.setAttribute(attribute, el.getAttribute('data-i18n-' + attribute + '-' + attributeSuffix));"
+        new_attr_set = "const val = el.getAttribute('data-i18n-' + attribute + '-' + attributeSuffix) || el.getAttribute('data-i18n-' + attribute + '-zh'); if (val) el.setAttribute(attribute, val);"
+        if old_attr_set in content:
+            content = content.replace(old_attr_set, new_attr_set)
+            
+        # Sync language-select dropdown in applyLanguage
+        if "const langSelect = document.querySelector('.language-select');" not in content and "function applyLanguage(nextLang)" in content:
             content = content.replace(
-                "zh: { htmlLang: 'zh-CN',",
-                vi_meta_entry + "\n    zh: { htmlLang: 'zh-CN',"
+                "writeStoredValue('cloudinsect-lang', lang);",
+                "const langSelect = document.querySelector('.language-select');\n    if (langSelect && langSelect.value !== lang) { langSelect.value = lang; }\n    writeStoredValue('cloudinsect-lang', lang);"
             )
             
-        # 3. Add data-vi to .chapter-select options
-        for opt_val, vi_label in MENU_VI_LABELS.items():
-            pattern = re.compile(rf'(<option[^>]*value="{re.escape(opt_val)}"[^>]*)>')
-            m = pattern.search(content)
-            if m and 'data-vi=' not in m.group(1):
-                new_opt = m.group(1) + f' data-vi="{vi_label}">'
-                content = content[:m.start()] + new_opt + content[m.end():]
+        # 3. Add data-vi to .chapter-select options and ensure chapter-5-wuzhui-2 is present
+        ch52_opt = '<option data-ar="الفصل الخامس: ووتشوي · 2" data-en="Chapter 5: Wuzhui - 2" data-es="Capítulo 5: Wuzhui · 2" data-fr="Chapitre 5 : Wuzhui · II" data-ja="第五章 烏騅・二" data-ko="제5장 오추 · 2" data-pt-br="Capítulo Cinco: Wuzhui · II" data-ru="Глава 5. Учжуй · II" data-vi="Chương 5: Ô Chuy · II" data-zh="第五章 乌骓 · 二" data-zh-hant="第五章 烏騅 · 二" value="../chapter-5-wuzhui-2/index.html">第五章 乌骓 · 二</option>'
+        if 'value="../chapter-5-wuzhui-2/index.html"' not in content:
+            content = re.sub(
+                r'(<select[^>]*class="chapter-select"[^>]*>[\s\S]*?)(</select>)',
+                rf'\1{ch52_opt}\n\2',
+                content,
+                count=1
+            )
+
+        def patch_option(m):
+            tag = m.group(0)
+            val_m = re.search(r'value="([^"]*)"', tag)
+            if not val_m or val_m.group(1) not in MENU_VI_LABELS:
+                return tag
+            vi_label = MENU_VI_LABELS[val_m.group(1)]
+            if 'data-vi=' in tag:
+                return re.sub(r'data-vi="[^"]*"', f'data-vi="{vi_label}"', tag)
+            else:
+                return tag[:-1] + f' data-vi="{vi_label}">'
+                
+        content = re.sub(r'<option\b[^>]*>', patch_option, content)
                 
         # 4. Add/Update Vietnamese font and direction CSS
         content = re.sub(r'<link[^>]*href="https://fonts\.googleapis\.com[^>]*>\s*', '', content)
@@ -635,7 +689,14 @@ html[lang="vi"] main[data-lang-page="vi"] {
             main_el = soup.find('main', class_='comic')
             
             # Map of targets
-            span_map = SPAN_MAPPINGS_CH4_2 if cfg['id'] == 'chapter-4-fate-2' else SPAN_MAPPINGS_CH5_1
+            if cfg['id'] == 'chapter-4-fate-2':
+                span_map = SPAN_MAPPINGS_CH4_2
+            elif cfg['id'] == 'chapter-5-wuzhui-1':
+                span_map = SPAN_MAPPINGS_CH5_1
+            elif cfg['id'] == 'chapter-5-wuzhui-2':
+                span_map = SPAN_MAPPINGS_CH5_2
+            else:
+                span_map = {}
             json_path = os.path.join('chapters', cfg['dir'], 'chapter_data.json')
             ch_data = json.load(open(json_path, encoding='utf-8'))
             all_vi = []
@@ -649,7 +710,7 @@ html[lang="vi"] main[data-lang-page="vi"] {
             zh_to_vi = {z.strip(): v.strip() for z, v in zip(all_zh, all_vi)}
             
             # Find all target elements in main
-            targets = main_el.find_all(lambda el: el.has_attr('data-zh'))
+            targets = main_el.find_all(lambda el: el.has_attr('data-zh')) if main_el else []
             updated_count = 0
             for t in targets:
                 zh_val = t.get('data-zh', '').strip()
@@ -666,18 +727,31 @@ html[lang="vi"] main[data-lang-page="vi"] {
                     t['data-vi'] = zh_val
                     
             # Also update opening brand and title
-            ob = main_el.find(class_='opening-brand')
-            if ob and ob.has_attr('data-zh'): ob['data-vi'] = cfg['opening_brand']
-            ot = main_el.find(class_='opening-title')
-            if ot and ot.has_attr('data-zh'): ot['data-vi'] = cfg['opening_title']
+            if main_el:
+                ob = main_el.find(class_='opening-brand')
+                if ob and ob.has_attr('data-zh'): ob['data-vi'] = cfg['opening_brand']
+                ot = main_el.find(class_='opening-title')
+                if ot and ot.has_attr('data-zh'): ot['data-vi'] = cfg['opening_title']
             
             # Also update summary title
-            for sm in main_el.find_all('summary'):
+            for sm in soup.find_all('summary'):
                 if sm.get('title') == '点击查看人物简介':
                     sm['title'] = 'Nhấn để xem tiểu sử nhân vật'
 
+            # Also update chapter-teaser aria-label
+            for sec in soup.find_all('section', class_='chapter-teaser'):
+                sec['data-i18n-aria-label-vi'] = 'Dự báo chương tiếp theo'
+
             content = str(soup)
             print(f"  Architecture B: Injected data-vi on {updated_count} targets for {cfg['id']}")
+
+        # Update chapter-5-wuzhui-1 next button to point to chapter 5-2
+        if cfg['id'] == 'chapter-5-wuzhui-1':
+            content = re.sub(
+                r'<span[^>]*class="[^"]*chapter-pager-button[^"]*is-disabled"[^>]*data-pager-disabled="next"[^>]*>[\s\S]*?</span>',
+                '<a class="chapter-pager-button" href="../chapter-5-wuzhui-2/index.html" title="Chương tiếp theo" aria-label="Chương tiếp theo"><img alt="" class="chapter-pager-icon" src="../../assets/pager-next.png"/></a>',
+                content
+            )
             
         # 6. Default to Vietnamese in JS
         content = re.sub(r"let lang = readStoredValue\('cloudinsect-lang'\) \|\| 'zh';", "let lang = readStoredValue('cloudinsect-lang') || 'vi';", content)
@@ -749,6 +823,54 @@ def step4_update_root_files():
     content = re.sub(r'<link[^>]*href="https://fonts\.gstatic\.com[^>]*>\s*', '', content)
     content = re.sub(r'<style data-cloudinsect-vi-style="true">[\s\S]*?</style>\s*', '', content)
     content = re.sub(r'<script data-cloudinsect-vi-surface="true">[\s\S]*?</script>\s*', '', content)
+
+    soup = BeautifulSoup(content, 'html.parser')
+
+    # Add <option value="vi">Tiếng Việt</option> to .language-select
+    for sel in soup.find_all('select', class_='language-select'):
+        if not sel.find('option', value='vi'):
+            zh_opt = sel.find('option', value='zh')
+            if zh_opt:
+                vi_opt = soup.new_tag('option', value='vi')
+                vi_opt.string = 'Tiếng Việt'
+                zh_opt.insert_before(vi_opt)
+
+    # Site title, subtitle, catalog title
+    st = soup.find(id='site-title')
+    if st: st['data-vi'] = 'Vân Trùng'
+    sub = soup.find(class_='subtitle')
+    if sub: sub['data-vi'] = 'Tác phẩm truyện tranh cá nhân của WLOP'
+    cat_t = soup.find(class_='catalog-title')
+    if cat_t: cat_t['data-vi'] = 'Mục lục'
+
+    ch_vi_map = {
+        '第零章 楔子': 'Chương 0: Mở đầu',
+        '第一章 希扬': 'Chương 1: Hi Dương',
+        '第二章 云中人 · 一': 'Chương 2: Người Trong Mây · I',
+        '第二章 云中人 · 二': 'Chương 2: Người Trong Mây · II',
+        '第二章 云中人 · 三': 'Chương 2: Người Trong Mây · III',
+        '第三章 光锥之外 · 一': 'Chương 3: Ngoài Nón Ánh Sáng · I',
+        '第三章 光锥之外 · 二': 'Chương 3: Ngoài Nón Ánh Sáng · II',
+        '第四章 命运之锥 · 一': 'Chương 4: Nón Định Mệnh · I',
+        '第四章 命运之锥 · 二': 'Chương 4: Nón Định Mệnh · II',
+        '第五章 乌骓 · 一': 'Chương 5: Ô Chuy · I',
+        '第五章 乌骓 · 二': 'Chương 5: Ô Chuy · II'
+    }
+    for cn in soup.find_all(class_='chapter-name'):
+        zh_val = cn.get('data-zh', '').strip()
+        if zh_val in ch_vi_map:
+            cn['data-vi'] = ch_vi_map[zh_val]
+    for cm in soup.find_all(class_='chapter-meta'):
+        cm['data-vi'] = 'Đã phát hành'
+    for ca in soup.find_all(class_='chapter-action'):
+        ca['data-vi'] = 'Bắt đầu đọc'
+
+    content = str(soup)
+
+    # Add vi to languageMeta in root JS if missing
+    vi_root_meta = "vi: { htmlLang: 'vi', title: 'Vân Trùng · Mục lục đọc truyện · v5.2.54' },"
+    if "vi: {" not in content:
+        content = content.replace("zh: { htmlLang: 'zh-CN',", vi_root_meta + "\n        zh: { htmlLang: 'zh-CN',")
 
     vi_root_css = """<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -889,17 +1011,18 @@ html[lang="vi"] .chapter-action {
     # 2. Update README.md
     readme_path = 'README.md'
     readme = open(readme_path, encoding='utf-8').read()
+    readme = re.sub(r'10 chương', '11 chương', readme)
     if 'Bản dịch tiếng Việt' not in readme:
         vi_note = """
 ## 🇻🇳 Bản Dịch Tiếng Việt (Vietnamese Translation)
-Dự án đã hoàn thành bản dịch tiếng Việt trọn bộ 10 chương cho tác phẩm **Vân Trùng (Cloud Insect)** của tác giả WLOP.
+Dự án đã hoàn thành bản dịch tiếng Việt trọn bộ 11 chương cho tác phẩm **Vân Trùng (Cloud Insect)** của tác giả WLOP.
 - **Trình đọc HTML Offline**: Chọn mục `Tiếng Việt` trên thanh chọn ngôn ngữ ở bất kỳ chương nào để đọc offline hoàn toàn.
 - **Bản dịch thuần tiếng Việt**: Xem file `chapter_vi.md` trong từng thư mục chương.
 - **Bản dịch song ngữ Đối chiếu (VI - ZH - EN)**: Xem file `chapter_vi_bilingual.md` trong từng thư mục chương.
 """
         readme = readme.replace('## 目录结构 / Directory Structure', vi_note + '\n## 目录结构 / Directory Structure')
-        with open(readme_path, 'w', encoding='utf-8') as f:
-            f.write(readme)
+    with open(readme_path, 'w', encoding='utf-8') as f:
+        f.write(readme)
     print("  README.md updated.")
 
 if __name__ == '__main__':

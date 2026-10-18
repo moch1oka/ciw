@@ -1,0 +1,633 @@
+# Vân Trùng / CloudInsect - Chương 5: Ô Chuy · II (第五章 乌骓 · 二)
+
+---
+
+![Panel 1](./media/38.jpg)
+
+**VI**: Bất chợt, một tiếng ngựa hí xé toang không gian.
+
+**ZH**: 忽然，一声马嘶。
+
+**EN**: Suddenly, a horse neighed.
+
+
+
+**VI**: Con chiến mã đen nhánh chẳng biết tự khi nào đã tiến lại gần. Nó áp đầu vào lưng Hạng Vũ, khẽ cọ xát, trong tiếng hí ngân vang ẩn chứa một nỗi lưu luyến khôn cùng chẳng thốt nên lời. Giữa làn sương mờ mịt, lớp lông trên mình nó ánh lên từng đốm sáng li ti, lúc tỏ lúc mờ, tựa hồ cả một dải ngân hà rực rỡ.
+
+**ZH**: 那匹黑马不知何时已靠了上来，头抵着项羽的后背，轻轻摩挲，声音里有种说不出的不舍。雾里，它的皮毛间泛起一层细碎的光，明明灭灭，宛若星空。
+
+**EN**: At some point the black horse had drawn close. It pressed its head against Xiang Yu’s back and nuzzled him gently, its voice carrying a reluctance to part that no words could name. In the fog, tiny lights shimmered through its coat, kindling and fading like a field of stars.
+
+
+
+![Panel 2](./media/37.jpg)
+
+**VI**: Hạng Vũ ngoảnh đầu lại, dịu dàng vuốt ve con chiến mã của mình. Chàng áp trán vào trán nó, tựa như đang vỗ về ủi an, lại dường như đang nói lời vĩnh biệt. Lặng đi một thoáng, chàng mới quay về phía mũi thuyền, cất tiếng: “Con ngựa này tên là Ô Chuy, theo ta chinh chiến sa trường đã bấy nhiêu năm. Ta không nỡ để nó cùng vùi thây nơi đây. Nếu các ngươi còn niệm tình muốn vì ta làm một việc sau cuối, xin hãy đối đãi tử tế với nó.”
+
+**ZH**: 项羽回过头，轻轻抚摸着自己的战马，与它额头相抵，像是在安抚，也似是在告别。过了片刻，他才转向船头，说道： “此马名乌骓，随我征战多年。我不忍它同死于此。若尔等还愿替我做一件事，便善待它。”
+
+**EN**: Xiang Yu turned and gently stroked his warhorse, resting his forehead against its own, as though to soothe it, or to say goodbye. Only after a while did he turn toward the bow and speak:  “This horse is called Wuzhui. He has followed me through years of war. I cannot bear to let him die here with me. If you would do one last thing for me, treat him well.”
+
+
+
+![Panel 3](./media/36.jpg)
+
+**VI**: Dứt lời, chàng quay người đối diện với những tướng sĩ còn lại của mình.
+
+**ZH**: 说罢，他转身面向自己的将士。
+
+**EN**: With that, he turned to face his soldiers.
+
+
+
+**VI**: “Các ngươi cũng đi đi. Quân Hán muốn, cũng chỉ là cái đầu của một mình Hạng Tịch này mà thôi. Thừa lúc sương chưa tan, hãy men theo bờ sông mà rút lui, sẽ không có ai đuổi theo đâu.”
+
+**ZH**: “你们也走吧。汉军要的，只是籍一人之头。趁雾未散，沿江而去，不会有人追。”
+
+**EN**: “You should go too. The Han army wants only my head. Follow the river while the fog still holds. No one will pursue you.”
+
+
+
+**VI**: Vừa dứt lời, chàng sải bước xuyên qua hàng quân phía sau lưng, một mình tiến thẳng về phía tiếng hò reo chém giết đang rền vang trong sương mù.
+
+**ZH**: 他说着，便穿过身后的队伍，独自迎着雾中传来的喊杀声走去。
+
+**EN**: As he spoke, he passed through the men behind him and walked alone toward the cries of battle coming through the fog.
+
+
+
+![Panel 4](./media/42.jpg)
+
+**VI**: Tuyệt nhiên không một ai rời đi.
+
+**ZH**: 没有人离去。
+
+**EN**: No one left.
+
+
+
+**VI**: Hơn hai mươi dũng sĩ, kẻ tung mình xuống ngựa, người rút đoản đao sắc lẹm. Họ lặng lẽ theo sau, dàn thành một hàng dài sau lưng Hạng Vũ. Chẳng rõ là ai đã cất tiếng hô trước tiên, nhưng rồi ngay sau đó, tất cả đồng thanh gầm thét:
+
+**ZH**: 二十余人或翻身下马，或拔出短刃。他们默然跟上，在项羽身后一字排开。不知是谁先喊了一声，接着所有人都喊了起来：
+
+**EN**: The twenty-odd men dismounted or drew their short blades. Silently they followed, forming a line behind Xiang Yu. Someone shouted first; then they were all shouting:
+
+
+
+**VI**: “Thề chết đi theo Hạng Vương!”
+
+**ZH**: “誓死追随项王！”
+
+**EN**: “We follow King Xiang to the death!”
+
+
+
+**VI**: “Thề chết đi theo Hạng Vương——!”
+
+**ZH**: “誓死追随项王——！”
+
+**EN**: “We follow King Xiang to the death—!”
+
+
+
+**VI**: Tiếng thét dội thẳng vào màn sương dày đặc, làm kinh động bầy chim nước bay túa lên rợp cả bãi bồi.
+
+**ZH**: 喊声撞进浓雾里，惊起满滩水鸟。
+
+**EN**: Their cries struck the thick fog, startling waterbirds into flight all along the shore.
+
+
+
+![Panel 5](./media/22.jpg)
+
+**VI**: Quân Hán đã ập tới.
+
+**ZH**: 汉军到了。
+
+**EN**: The Han army had arrived.
+
+
+
+**VI**: Kỵ binh xé toạc màn sương ào ạt tràn ra, tựa như cuồng phong bão táp quét ngang trời đất, chỉ trong chớp mắt đã áp sát ngay trước mặt.
+
+**ZH**: 骑兵从雾里涌了出来，如狂风席卷而至，转瞬之间，已近在咫尺。
+
+**EN**: Cavalry poured out of the fog, sweeping toward them like a gale. In an instant they were almost upon them.
+
+
+
+![Panel 6](./media/40.jpg)
+
+**VI**: Hạng Vũ chậm rãi nâng thanh cự đao gãy nát trong tay lên, cất từng bước chân vững chãi như núi thái sơn, nghênh đón đại quân Hán đang cuồn cuộn ùa tới. Từng bước, từng bước một, chàng ung dung bước vào chương cuối cùng của thiên anh hùng ca đời mình.
+
+**ZH**: 项羽缓缓提起手中那柄折断的巨刃，迈着沉稳的步子，迎向奔涌而来的汉军。一步一步，走进了自己故事的终章。
+
+**EN**: Xiang Yu slowly raised the great broken blade in his hand and walked with steady steps to meet the oncoming Han army. Step by step, he entered the final chapter of his own story.
+
+
+
+![Panel 7](./media/41.jpg)
+
+**VI**: Quân Hán tựa như một cơn thủy triều đen ngòm vỡ đê, trong chớp mắt đã tràn ngập bãi bồi ven sông. Hơn hai mươi bóng hình cô độc ấy sừng sững giữa triều dâng trong thoáng chốc, rồi vĩnh viễn bị nhấn chìm.
+
+**ZH**: 汉军像决了堤的黑潮，转眼漫过滩头。那二十几道身影在潮水里站了片刻，便被吞没了。
+
+**EN**: The Han army broke over the shore like a black tide through a breached embankment. Those twenty-odd figures stood within it for a moment, then were swallowed.
+
+
+
+![Panel 8](./media/24.jpg)
+
+**VI**: Âm thanh của đao kiếm chạm nhau nơi giáp trận cận chiến chẳng hề vang rền đanh thép như Nguyệt Nha Nhi từng tưởng tượng. Chỉ có những tiếng va đập trầm đục lẫn trong tiếng gầm rú khản đặc, tanh nồng mùi máu và tàn khốc khôn cùng. Lát sau, tiếng chém giết trên bờ dần dần biến sắc, chuyển thành cảnh tranh giành xâu xé, biến thành một bữa tiệc cuồng hoan man rợ. Gió cuốn từng đợt thanh âm hỗn loạn ấy thốc qua mặt sông:
+
+**ZH**: 短兵相接的声音，远没有月牙儿想象中那样清脆响亮。沉闷的撞击声混着嘶哑的嚎叫，血腥而残酷。过了一会儿，岸上的喊杀声渐渐变了味，变成争抢，变成狂欢。风把那些声音一阵阵送过江面：
+
+**EN**: The sound of blades meeting was nothing like the clear, ringing clash Mahina had imagined. Dull impacts mingled with hoarse howls, bloody and brutal. After a while, the cries on shore began to change: into a scramble, into a frenzy of celebration. The wind carried their voices across the river in gusts:
+
+
+
+**VI**: “Ở đây! Mảnh này là của tao——!”
+
+**ZH**: “在这儿！这块是我的——！”
+
+**EN**: “Here! This piece is mine—!”
+
+
+
+**VI**: “Chia cho tao một phần!”
+
+**ZH**: “分我一块！”
+
+**EN**: “Give me a piece!”
+
+
+
+**VI**: Nguyệt Nha Nhi quay mặt đi nơi khác, không nỡ và cũng không thể đành lòng nhìn tiếp.
+
+**ZH**: 月牙儿别过头去,不忍再看。
+
+**EN**: Mahina turned her head away. She could not bear to watch.
+
+
+
+![Panel 9](./media/25.jpg)
+
+**VI**: Chàng thanh niên lái đò vẫn đứng yên nơi mũi thuyền, sắc mặt phẳng lặng như tờ, đăm đăm nhìn về phía bờ bên kia mà chẳng hề lay động.
+
+**ZH**: 青年依旧立在那里,神色平静,一动不动地望着岸上。
+
+**EN**: The young man still stood there, his face calm, gazing at the shore without moving.
+
+
+
+![Panel 10](./media/26.jpg)
+
+**VI**: Dõi theo ánh mắt chàng, Nguyệt Nha Nhi mới nhận ra thứ mà chàng đang nhìn chằm chằm không phải là cảnh hỗn chiến tàn khốc kia, mà là đại kỳ mang chữ “HÁN” đang nhấp nhô lay động giữa màn sương. Chàng đứng nhìn lá cờ ấy rất lâu, rất lâu.
+
+**ZH**: 顺着他的目光,月牙儿发现他盯着的不是那片混乱,而是那面在雾中起伏的“汉”字大旗。他看了很久,很久。
+
+**EN**: Following his gaze, Mahina realized that he was watching not the chaos, but the great banner bearing the character for Han as it rose and fell in the fog. He watched for a long, long time.
+
+
+
+![Panel 11](./media/39.jpg)
+
+**VI**: Nơi bãi bồi ven sông, Ô Chuy vẫn còn ở đó.
+
+**ZH**: 滩头上，乌骓还在。
+
+**EN**: Wuzhui was still on the shore.
+
+
+
+**VI**: Nó không hề bước lên thuyền, cũng chẳng chịu rời đi, chỉ ngẩng cao hai vó trước hướng về nơi chủ nhân vừa ngã xuống, cất lên từng hồi hí dài thảm thiết, quẩn quanh mãi chẳng dứt. Nơi tận cùng của làn sương, bóng đen khổng lồ nơi chân trời bỗng nhiên phát ra một tiếng trùng minh trầm đục, tựa như một tiếng thở dài trầm lắng miên man, rơi trúng vào khoảng lặng giữa những tiếng ngựa hí.
+
+**ZH**: 它没有上船，也不肯走，只是朝着主人消失的方向扬起前蹄，一声又一声地长嘶，久久不去。雾的尽头，天边那个巨大的影子突然发出一声沉闷的虫鸣，像一声绵长的叹息，正正落在马嘶的间隙里。
+
+**EN**: He had not boarded the boat, and would not leave. He only reared toward the place where his master had vanished, neighing again and again, lingering there. Beyond the fog, the immense shadow on the horizon suddenly gave a low insect cry, like a long sigh, falling precisely into the silence between the horse’s calls.
+
+
+
+**VI**: Một tiếng ngựa hí, một tiếng trùng minh. Một tiếng thảng thốt, một lời đáp hồi.
+
+**ZH**: 一声马嘶，一声虫鸣。一应，一答。
+
+**EN**: A horse’s neigh. An insect’s cry. A call, an answer.
+
+
+
+![Panel 12](./media/27.jpg)
+
+**VI**: Trời rạng sáng dần, màn sương trên mặt sông cũng từ từ tan biến. Chàng phu đò trẻ tuổi ngồi nơi mũi thuyền, tĩnh lặng tựa như một pho tượng tạc.
+
+**ZH**: 天光渐渐放亮，江上的雾气也缓缓散去。年轻的船夫坐在船头，安静得像一尊塑像。
+
+**EN**: The sky was growing light, and the fog over the river slowly thinned. The young boatman sat at the bow, as still as a statue.
+
+
+
+**VI**: “……Anh tên là gì thế?” Nguyệt Nha Nhi khẽ hỏi, dường như chỉ cốt để phá tan bầu không khí tĩnh mịch ngột ngạt trên con thuyền.
+
+**ZH**: “……你叫什么名字？” 月牙儿轻声问，似乎只是想打破船上的沉默。
+
+**EN**: “…What’s your name?”  Mahina asked softly, as if she wanted only to break the silence on the boat.
+
+
+
+**VI**: Chàng thanh niên không đáp ngay. Chàng vẫn nhìn chằm chằm vào lá cờ Hán phía xa, cất lời như đang tự nhủ với chính mình, lại dường như đang hỏi cô:
+
+**ZH**: 青年没有回答。他仍望着那面汉旗，像是自言自语，又像是在问她：
+
+**EN**: The young man did not answer. Still watching the Han banner, he spoke as if to himself, or as if asking her:
+
+
+
+**VI**: “Nếu đã là ý trời không thể trái, cớ sao định mệnh lại dẫn dắt chúng ta đến đây để dòm ngó định mệnh?”
+
+**ZH**: “既然天意不可违，命运又为何要指引我们来窥探命运？”
+
+**EN**: “If Heaven’s will cannot be defied, why does fate lead us here to glimpse fate itself?”
+
+
+
+**VI**: Mãi một lúc lâu sau, chàng mới ngoảnh đầu lại. Thấy vẻ mặt ngơ ngác đầy mờ mịt của cô, chàng bỗng nở một nụ cười nhàn nhạt.
+
+**ZH**: 过了好一会儿，他才回过头，看见她一脸茫然的样子，忽然淡淡一笑。
+
+**EN**: Only after a long while did he turn. Seeing her bewildered face, he suddenly gave a faint smile.
+
+
+
+**VI**: “Xem ra, đây là lần đầu tiên cô nương hành tẩu giữa những tầng mây.”
+
+**ZH**: “看来，你是头一回于云中行走。”
+
+**EN**: “It seems this is your first walk through the clouds.”
+
+
+
+**VI**: Chàng thở dài một tiếng.
+
+**ZH**: 他叹了口气。
+
+**EN**: He sighed.
+
+
+
+**VI**: “Ta cũng chỉ là một kẻ thảo dân áo vải. Sau khi giang sơn nhà Hán sụp đổ, ta cũng chỉ là một gã nông phu cày cấy giữa thời loạn lạc mà thôi. Chẳng rõ vì sao lại có được vinh hạnh này, có thể mang thân phận Người Trong Mây, đến tận bến Ô Giang này để được tận mắt trông thấy Tây Sở Bá Vương.”
+
+**ZH**: “我也不过是一介草民。汉家天下倾覆之后，乱世里的一个农夫罢了。也不知为何偏偏是我有此荣幸，能以云中人之身，来这乌江边，见一见楚霸王。”
+
+**EN**: “I am only a common man myself. A farmer in a time of turmoil, after the fall of the Han. I do not know why I, of all people, should have the honor of coming as a Cloud Dweller to the banks of the Wujiang, to see the Hegemon-King of Chu.”
+
+
+
+![Panel 13](./media/28.jpg)
+
+**VI**: “Tại hạ họ Lưu, tên Tú, tự Văn Thúc.”
+
+**ZH**: “在下姓刘，名秀，字文叔。”
+
+**EN**: “My family name is Liu, my given name Xiu. My courtesy name is Wenshu.”
+
+
+
+![Panel 14](./media/29.jpg)
+
+**VI**: “Lưu Tú?!” Nguyệt Nha Nhi kinh hãi thốt lên, “Hán Quang Vũ——!”
+
+**ZH**: “刘秀？！” 月牙儿大惊， “汉光武——！”
+
+**EN**: “Liu Xiu?!”  Mahina exclaimed, startled.  “Guangwu of Han—!”
+
+
+
+**VI**: Đúng khoảnh khắc tiếng thốt nghẹn ngào vừa cất lên, cả thế giới tức thì chìm vào bóng tối mịt mùng.
+
+**ZH**: 话音扬起的一瞬,世界黑了。
+
+**EN**: The instant her voice rose, the world went black.
+
+
+
+![Panel 15](./media/31.jpg)
+
+**VI**: “——Rồi sau đó, tất cả tối sầm lại.”
+
+**ZH**: “——然后，就全黑了。”
+
+**EN**: “—And then everything went black.”
+
+
+
+**VI**: Đêm nơi tòa nhà công xưởng tĩnh lặng như tờ, ngọn đèn nhỏ hắt ra ánh sáng vàng vọt lờ mờ. Những bản thảo phác họa nón ánh sáng do Hi Dương vẽ trên khung cửa kính phản chiếu ánh trăng, ánh lên thứ quang sắc kỳ dị như đang mang một sinh mệnh sống động.
+
+**ZH**: 工厦的夜很静，小灯昏黄。希扬留在玻璃窗上的光锥手稿，在月光下泛着奇异的光泽，仿佛有了生命。
+
+**EN**: Night lay quiet in the industrial building. The little lamp cast a dim yellow light. On the window, Suvan’s sketches of light cones gleamed strangely in the moonlight, as though they had come alive.
+
+
+
+**VI**: “Lúc tôi tỉnh lại,” Nguyệt Nha Nhi nói, “người vẫn đang gục trên đài quan sát, tay vẫn cầm máy ảnh, bầu trời chỉ hơi tối đi một chút. Cảm giác như thể tôi chưa từng rời đi vậy.”
+
+**ZH**: “我醒过来的时候，” 月牙儿说， “人还趴在观测台上，手里还拿着相机，天就暗了一点。好像我根本没有离开过。”
+
+**EN**: “When I came to,”  Mahina said,  “I was still slumped over the observation platform, still holding my camera. The sky was just a little darker. It was as if I’d never left.”
+
+
+
+**VI**: Cô ngập ngừng một lát rồi nói tiếp.
+
+**ZH**: 她顿了顿。
+
+**EN**: She paused.
+
+
+
+**VI**: “Khi đó tôi chẳng nhớ được gì, chỉ nghĩ là mình vừa thất thần một thoáng. Mãi sau này nhớ lại được đôi chút, tôi cũng chỉ ngỡ đó là ảo giác do thiếu dưỡng khí trên cao nguyên mà thôi. Cho đến tận hôm nay, nghe anh giảng giải về nón ánh sáng, về 'thông tin có trật tự', tôi mới xâu chuỗi được toàn bộ những manh mối này lại với nhau.”
+
+**ZH**: “那时候我什么都不记得，只觉得自己失了一阵神。后来想起来一点，也一直当它是缺氧时的幻觉。直到今天你讲光锥，讲有序信息，我才把这些事全拼上了。”
+
+**EN**: “At the time, I didn’t remember anything. I just thought I’d blanked out for a while. Even when a little of it came back later, I kept putting it down to hallucinations from lack of oxygen. It wasn’t until today, when you talked about light cones and ordered information, that I finally pieced it all together.”
+
+
+
+**VI**: Hi Dương trầm ngâm giây lát, rồi khẽ gật đầu.
+
+**ZH**: 希扬沉默了一会儿，点了点头。
+
+**EN**: Suvan was silent for a moment, then nodded.
+
+
+
+**VI**: “Nói vậy là, em đã đứng ngay trước mặt Lưu Tú mà hô to thụy hiệu của ông ấy.”
+
+**ZH**: “所以，你当着刘秀的面，喊出了他的谥号。”
+
+**EN**: “So you shouted Liu Xiu’s posthumous title right in front of him.”
+
+
+
+![Panel 16](./media/32.jpg)
+
+**VI**: Nguyệt Nha Nhi mím chặt môi nhìn Hi Dương, cả hai im lặng nhìn nhau trong giây lát. Bất chợt, gần như cùng một lúc, cả hai phì cười thành tiếng.
+
+**ZH**: 月牙儿抿着嘴看着希扬，两人一时都没说话。忽然，几乎同时扑哧一声笑了出来。
+
+**EN**: Mahina pressed her lips together and looked at Suvan. Neither spoke for a moment. Then, almost at once, they both burst out laughing.
+
+
+
+**VI**: “Trời đất, lúc đó sao tôi biết được chứ!” Nguyệt Nha Nhi cúi đầu, khóe môi vẫn không kìm nổi nụ cười, “Vừa nghe đến cái tên Lưu Tú là tôi…… xúc động quá nên buột miệng kêu lên thôi.”
+
+**ZH**: “哎呀，我那时候哪知道嘛。” 月牙儿低下头，嘴角却还没收住， “一听是刘秀，我就……一激动，喊出来了。”
+
+**EN**: “Oh, how was I supposed to know?”  Mahina lowered her head, still unable to quite suppress her smile.  “As soon as I heard he was Liu Xiu, I just… got excited and blurted it out.”
+
+
+
+**VI**: “Lúc đó người ta vẫn còn là một anh nông dân áo vải cày ruộng, đến bản thân sau này sẽ làm hoàng đế cũng chẳng hề hay biết. Em thì hay rồi, định sẵn luôn cả thụy hiệu sau khi mất cho người ta.”
+
+**ZH**: “他那时候还只是个种地的，连自己以后会当皇帝都不知道。你倒好，连谥号都替他安排上了。”
+
+**EN**: “He was still just a farmer. He didn’t even know he’d become an emperor, and there you were, arranging his posthumous title for him.”
+
+
+
+**VI**: “Anh đừng có cười tôi nữa mà!” Nguyệt Nha Nhi khẽ hờn dỗi than trách, nhưng tay vẫn che miệng, đuôi mắt cong cong ý cười.
+
+**ZH**: “你就别笑我了。” 月牙儿轻声埋怨着，却还捂着嘴，眉眼弯弯。
+
+**EN**: “Stop laughing at me.”  Mahina’s complaint was soft, but her hand still covered her mouth, her eyes curved with laughter.
+
+
+
+**VI**: Hi Dương nhìn cô, đợi cho cô dịu bớt cơn cười mới tiếp tục nói: “Cho nên, tiếng gọi ‘Hán Quang Vũ Đế’ ấy……”
+
+**ZH**: 希扬望着她，等她稍稍收住了笑，才接着说： “所以，那声‘汉光武帝’……”
+
+**EN**: Suvan watched her, waiting for her laughter to subside a little before he went on:  “So, that cry of ‘Emperor Guangwu of Han’…”
+
+
+
+![Panel 17](./media/30.jpg)
+
+**VI**: Nói đến đây, ánh mắt hai người bất giác chạm nhau, nửa câu sau gần như cùng một lúc bật thốt ra khỏi miệng:
+
+**ZH**: 话到这里，两人的目光恰好碰在一处，余下的半句几乎同时脱口而出：
+
+**EN**: Their eyes happened to meet, and the rest slipped out almost in unison:
+
+
+
+**VI**: “—— Thông tin có trật tự!”
+
+**ZH**: “——有序信息！”
+
+**EN**: “—Ordered information!”
+
+
+
+**VI**: “—— Thông tin có trật tự!”
+
+**ZH**: “——有序信息！”
+
+**EN**: “—Ordered information!”
+
+
+
+**VI**: Hai thanh âm hòa quyện làm một. Nụ cười vừa kịp nén lại của Nguyệt Nha Nhi lại một lần nữa lan tỏa rạng rỡ. Hi Dương cũng mỉm cười theo, trong giây lát, chẳng ai vội vã nói thêm lời nào.
+
+**ZH**: 两个声音叠在一起，月牙儿才收住的笑意便又漾了开来。希扬也跟着笑了，一时谁都没有急着往下说。
+
+**EN**: As their voices overlapped, the smile Mahina had only just subdued spread across her face again. Suvan laughed too. For a while, neither was in any hurry to go on.
+
+
+
+![Panel 18](./media/34.jpg)
+
+**VI**: Hi Dương lật mở cuốn sổ tay bên cạnh. Tiếng cười đùa ban nãy dần lắng xuống, dưới ánh đèn vàng vang lên tiếng ngòi bút sột soạt cọ trên trang giấy.
+
+**ZH**: 希扬翻开手边的本子。刚才的笑声渐渐歇了，灯下响起细微的落笔声。
+
+**EN**: Suvan opened the notebook beside him. Their laughter slowly faded, and under the lamplight came the faint sound of pen touching paper.
+
+
+
+**VI**: “Bởi vậy, những Người Trong Mây phân tán ở khắp các niên đại khác nhau. Chúng ta ở thời đại này, còn Lưu Tú lại ở hai nghìn năm trước. Nhưng khi hành tẩu giữa những tầng mây, tháng năm đằng đẵng muôn trùng cũng không còn là rào cản bất khả vượt qua nữa. Hai người cùng đến bờ Ô Giang, cùng ngồi chung một con thuyền, cùng dõi mắt trông về một dải bờ bãi, chứng kiến Hạng Vũ đi trọn đoạn đường cuối cùng của cuộc đời.”
+
+**ZH**: “所以，云中人散落在不同的年代。我们在这里，刘秀在两千年前。可在云中行走时，漫长的岁月也不再是无法跨越的阻隔。你们来到乌江，乘着同一条船，望着同一片江岸，看着项羽走完最后一程。”
+
+**EN**: “So Cloud Dwellers are scattered across different eras. We’re here; Liu Xiu was two thousand years ago. But when you walk through the clouds, even all those years cease to be an impassable barrier. You came to the Wujiang, rode in the same boat, looked toward the same stretch of shore, and watched Xiang Yu take the last steps of his journey.”
+
+
+
+**VI**: Đầu bút khẽ khựng lại trên mặt giấy.
+
+**ZH**: 笔尖在纸上稍停。
+
+**EN**: The pen paused briefly on the page.
+
+
+
+**VI**: “Thế nhưng gặp gỡ, không đồng nghĩa với việc có thể nói toạc ra vận mệnh của nhau. Bản thân Lưu Tú dẫu sao cũng nằm bên ngoài nón ánh sáng của em. ‘Hán Quang Vũ Đế’ là cái tên do hậu thế ghi vào sử sách, còn Lưu Tú trên con thuyền thuở ấy vẫn chưa lật tới trang sách đó. Tiếng thốt kinh ngạc của em sẽ khiến ông ấy biết trước tương lai của chính mình. Thế là, chuyến hành tẩu giữa mây ngàn lần đó của hai người đành phải đứt đoạn ngay tại giây phút ấy.”
+
+**ZH**: “但相逢，并不意味着可以说破彼此的命运。刘秀本身毕竟也在你的光锥之外。‘汉光武帝’，是后人写进史书的名字，船上的刘秀却还没有走到那一页。你的那一声惊呼，会让他提前知道自己的未来。于是，你们两个人那次的云中行走，就在那里中断了。”
+
+**EN**: “But meeting doesn’t mean you can reveal each other’s fate. Liu Xiu himself is outside your light cone, after all. ‘Emperor Guangwu of Han’ is a name later generations wrote into the histories. The Liu Xiu on that boat hadn’t reached that page yet. That cry of yours would have let him learn his own future before its time. So that was where your walk through the clouds ended—for both of you.”
+
+
+
+**VI**: Nguyệt Nha Nhi ôm lấy đầu gối, lặng lẽ ngắm nhìn anh. Hi Dương gạch bỏ một câu vừa viết, nắn nót viết lại bên cạnh. Dưới ánh đèn đêm, đoạn dĩ vãng ly kỳ chấn động ấy đang được anh cẩn trọng ghi lại trên trang giấy, từng câu từng chữ một.
+
+**ZH**: 月牙儿抱着膝，安静地望着他。他把刚写下的一句话划去，在旁边重新补写。灯下，那段离奇的往事正被他一字一句，郑重地记在纸上。
+
+**EN**: Mahina hugged her knees and watched him quietly. He crossed out a sentence he had just written and wrote it anew beside it. There beneath the lamp, he was carefully committing that strange passage of her past to paper, word by word.
+
+
+
+![Panel 19](./media/33.jpg)
+
+**VI**: “Này.”
+
+**ZH**: “哎。”
+
+**EN**: “Hey.”
+
+
+
+**VI**: “Hửm?”
+
+**ZH**: “嗯？”
+
+**EN**: “Hm?”
+
+
+
+**VI**: “Chuyện hoang đường không tưởng đến mức này, tôi nói thế nào là anh tin ngay thế đó à?”
+
+**ZH**: “这么离谱的事，我说，你就信啊？”
+
+**EN**: “Something this absurd, and you believe it just because I tell you?”
+
+
+
+**VI**: Nguyệt Nha Nhi chống tay lặng lẽ nhích lại gần, nghiêng đầu ngước gương mặt thanh tú lên tìm kiếm ánh mắt anh lấp lánh sau tròng kính.
+
+**ZH**: 月牙儿撑着手悄悄凑近，歪着头，仰起脸去寻他镜片后的目光。
+
+**EN**: Bracing herself on her hands, Mahina edged closer. She tilted her head and lifted her face, seeking his eyes behind the lenses.
+
+
+
+**VI**: “Anh không sợ là tôi tự bịa ra để trêu chọc anh à?”
+
+**ZH**: “不怕是我瞎编出来逗你的？”
+
+**EN**: “Aren’t you worried I made it all up just to tease you?”
+
+
+
+**VI**: Hi Dương chỉ khẽ cong khóe môi mỉm cười, nét bút trên tay vẫn chẳng hề ngơi nghỉ.
+
+**ZH**: 希扬只弯了弯嘴角，笔下未停。
+
+**EN**: Suvan only let the corners of his mouth lift a little. His pen did not stop.
+
+
+
+![Panel 20](./media/35.jpg)
+
+**VI**: Nguyệt Nha Nhi dường như còn muốn nói điều chi nữa, nhưng lời đến bên môi lại nuốt ngược vào trong. Cô khẽ thu người lại, ngồi ngay ngắn về chỗ cũ.
+
+**ZH**: 月牙儿似乎还想说什么，话到嘴边却又咽下，便轻轻收回身子，坐了回去。
+
+**EN**: Mahina seemed about to say something more, then swallowed the words. Gently, she drew back and settled into her place.
+
+
+
+**VI**: Đêm đô thị trước khi Vân Trùng giáng lâm chìm trong một sự tĩnh lặng lạ thường. Những ký hiệu toán học trên khung cửa kính dưới ánh trăng bàng bạc tựa như một đàn tinh linh đang nhảy múa không một tiếng động. Cô bỗng thấy lòng mình bảng lảng chơi vơi, ngỡ như bản thân đang ngồi trên một mặt hồ lơ lửng giữa hư không vô tận, lại ngỡ như đã ngược dòng thời gian hai ngàn năm trước, trở về ngồi trên con thuyền trôi giữa dòng Ô Giang năm ấy.
+
+**ZH**: 城市的夜在云虫来临前显得格外安静。窗上的数学符号在银白的月光里，像一群无声跃动的精灵。她忽然有些恍惚，仿佛正坐在一片悬于虚空的湖面上，又像回到了两千年前，身在乌江的那条船上。
+
+**EN**: The city’s night seemed especially quiet before the CloudInsects arrived. In the silver-white moonlight, the mathematical symbols on the window were like a gathering of spirits leaping without a sound. For a moment she felt unmoored, as though she were sitting on a lake suspended in empty space, or had returned to that boat on the Wujiang two thousand years before.
+
+
+
+**VI**: Những trận cãi vã triền miên bất tận của cha mẹ trong ký ức, những lời chế giễu và ánh mắt lạnh lùng khó hiểu của bạn bè đồng trang lứa, những ánh nhìn cợt nhả suồng sã nơi quán bar tối đèn——tất cả những huyên náo hỗn tạp từng bủa vây lấy đời cô, ngay vào thời khắc này bỗng trở nên xa xăm diệu vợi, ngỡ như câu chuyện từ tiền kiếp.
+
+**ZH**: 记忆里父母无休止的争吵、同龄人的嘲讽与不解、酒吧里轻佻暧昧的目光——那些曾经与她有关的喧闹，在这一刻都遥远得像发生在前世。
+
+**EN**: Her parents’ endless quarrels, the mockery and incomprehension of people her own age, the flippant, suggestive looks in bars—all the noise that had once belonged to her life now seemed as distant as something from a previous existence.
+
+
+
+**VI**: Bên cạnh cô lúc này, chỉ còn lại tiếng ngòi bút sột soạt lướt nhẹ trên mặt giấy. Nguyệt Nha Nhi chống cằm, lặng lẽ ngắm nhìn cây bút trong tay Hi Dương, hơi thở từ từ lắng lại chậm rãi. Cô chỉ ước ao sao khoảnh khắc này có thể ngừng đọng lại thêm một chút nữa, mong sao trang giấy trước mặt anh vĩnh viễn chẳng thể viết hết.
+
+**ZH**: 身旁只有笔尖划过纸面的沙沙声。月牙托着腮，安静地看着希扬手中的那支笔，一点一点放缓自己的呼吸。她只希望这一刻能停留得再久一点，盼着他面前的那一页纸，永远也写不完。
+
+**EN**: Beside her there was only the soft scratch of the pen across the paper. Mahina rested her chin on her hand and quietly watched the pen in Suvan’s fingers, letting her breathing slow little by little. She only wished this moment could last a little longer, that the page before him might never be filled.
+
+
+
+**VI**: Đêm mỗi lúc một thâm u. Đằng xa, tiếng trùng minh của Vân Trùng Số 9 văng vẳng vọng lại, trầm đục và miên man, chầm chậm hòa quyện vào làm một với tiếng rền vang bên bờ Ô Giang hai ngàn năm trước.
+
+**ZH**: 夜更深了。远处九号云虫的虫鸣隐隐传来，低沉而又绵长，和两千年前乌江边的那一声慢慢地叠在了一起。
+
+**EN**: The night deepened. Far away, the faint cry of CloudInsect No. 9 sounded, low and long, slowly merging with that other cry on the banks of the Wujiang two thousand years before.
+
+
+
+**VI**: 《Sử Ký · Hạng Vũ Bản Kỷ》 — Tư Mã Thiên
+
+**ZH**: 《史记·项羽本纪》 — 司马迁
+
+**EN**: Records of the Grand Historian, “The Basic Annals of Xiang Yu” — Sima Qian
+
+
+
+**VI**: Thế rồi Hạng Vương muốn sang đông qua bến Ô Giang. Đình trưởng Ô Giang đã neo thuyền chờ sẵn, nói với Hạng Vương rằng: “Đất Giang Đông tuy nhỏ, nhưng đất đai ngàn dặm, dân số mấy mươi vạn, cũng đủ để xưng vương. Cầu xin Đại vương mau mau qua sông. Nay chỉ một mình thần có thuyền, quân Hán có đuổi tới cũng chẳng lấy gì mà qua.” Hạng Vương cười đáp: “Trời muốn diệt ta, ta qua sông làm chi nữa! Huống hồ năm xưa Tịch này cùng tám ngàn đệ tử Giang Đông vượt sông sang tây, nay chẳng một ai còn sống trở về. Dẫu cho các bậc phụ huynh chốn Giang Đông có xót thương mà tôn ta làm vương, ta còn mặt mũi nào để nhìn họ nữa? Dẫu miệng họ chẳng nói ra, lòng Hạng Tịch này há chẳng thấy hổ thẹn với lương tâm hay sao?” Đoạn quay sang bảo người đình trưởng: “Ta biết ngài là bậc trưởng giả trung hậu. Ta cưỡi con ngựa này đã năm năm, xông pha trận mạc không ai địch nổi, từng một ngày đi được ngàn dặm, nay chẳng nỡ giết nó, xin tặng lại cho ngài.”
+
+**ZH**: 于是项王乃欲东渡乌江。乌江亭长檥船待，谓项王曰：“江东虽小，地方千里，众数十万人，亦足王也。愿大王急渡。今独臣有船，汉军至，无以渡。”项王笑曰：“天之亡我，我何渡为！且籍与江东子弟八千人渡江而西，今无一人还，纵江东父兄怜而王我，我何面目见之？纵彼不言，籍独不愧于心乎？”乃谓亭长曰：“吾知公长者。吾骑此马五岁，所当无敌，尝一日行千里，不忍杀之，以赐公。”
+
+**EN**: Then King Xiang wished to cross the Wujiang eastward. The headman of Wujiang had moored a boat and was waiting. He said to King Xiang, “Though the land east of the river is small, it extends a thousand li and has several hundred thousand people. It is enough for you to rule as king. I beg Your Majesty to cross at once. Only I have a boat here. When the Han army arrives, they will have no means to cross.” King Xiang laughed and said, “Heaven is destroying me. Why should I cross? I crossed the river westward with eight thousand sons of the land east of the river, and now not one has returned. Even if their fathers and brothers took pity on me and made me king, how could I face them? Even if they said nothing, would I not feel shame in my own heart?” Then he said to the headman, “I know you are an honorable man. I have ridden this horse for five years, and none who stood against him could prevail. Once he traveled a thousand li in a single day. I cannot bear to kill him, and so I give him to you.”
+
+
+
+**VI**: ……Nói rồi chàng tự vẫn mà chết. Vương Ế đoạt lấy đầu chàng, tàn quân kỵ binh giẫm đạp lên nhau mà tranh cướp thi thể Hạng Vương, chém giết lẫn nhau đến mấy mươi người. Sau rốt, Lang trung kỵ Dương Hỷ, Kỵ tư mã Lữ Mã Đồng, Lang trung Lữ Thắng và Dương Vũ mỗi người đoạt được một phần thi thể. Năm người gom các phần lại với nhau, đều được Hán vương phong tước Liệt hầu.
+
+**ZH**: ……乃自刎而死。王翳取其头，余骑相蹂践争项王，相杀者数十人。最其后，郎中骑杨喜、骑司马吕马童、郎中吕胜、杨武各得其一体。五人共会其体，皆赐爵列侯。
+
+**EN**: …Then he cut his own throat and died. Wang Yi took his head. The other horsemen trampled one another in their struggle for King Xiang’s body, and dozens killed one another. At last, the palace cavalryman Yang Xi, the cavalry commander Lü Matong, and the palace attendants Lü Sheng and Yang Wu each obtained a part of his body. The five men brought the parts together, and all were granted the rank of marquis.
+
+
+
+**VI**: Hạng Vũ (232 TCN — 202 TCN)
+
+**ZH**: 项羽（前232年—前202年）
+
+**EN**: Xiang Yu (232–202 BCE)
+
+
+
+**VI**: Tên là Tịch, tự là Vũ, người Hạ Tương. Cuối thời nhà Tần theo chú là Hạng Lương dấy binh khởi nghĩa; trong trận Cự Lộc đã đập nồi dìm thuyền (phá phủ trầm chu), tiêu diệt toàn bộ quân chủ lực nhà Tần, phân chia chư hầu thiên hạ, tự xưng là Tây Sở Bá Vương. Tranh hùng Sở - Hán suốt năm năm; đến khi bị bao vây ở Cai Hạ, bốn bề vang vọng khúc ca nước Sở (tứ diện Sở ca), bèn dẫn tàn kỵ phá vòng vây chạy đến Ô Giang. Không chịu qua sông, tự vẫn mà chết khi mới ba mươi tuổi. Thái Sử Công bàn rằng: “Ngôi vị tuy không trọn vẹn, nhưng từ cổ chí kim chưa từng có người thứ hai.”
+
+**ZH**: 名籍，字羽，下相人。秦末随叔父项梁起兵，巨鹿一战破釜沉舟，歼灭秦军主力，分封天下，自号西楚霸王。楚汉相争五年，垓下被围，四面楚歌，率残骑突围至乌江，不肯过江，自刎而死，年三十。太史公论曰：“位虽不终，近古以来未尝有也。”
+
+**EN**: Given name Ji, courtesy name Yu; a native of Xiaxiang. At the end of the Qin dynasty, he joined his uncle Xiang Liang in rebellion. At the Battle of Julu, he broke his cooking pots and sank his boats, destroying the main force of the Qin army. He divided the realm into fiefs and proclaimed himself Hegemon-King of Western Chu. After five years of war between Chu and Han, he was surrounded at Gaixia, with songs of Chu rising on every side. Leading his remaining horsemen, he broke out and reached the Wujiang. Refusing to cross, he cut his own throat and died at thirty. The Grand Historian wrote: “Though his rule did not endure, nothing like it had been seen since antiquity.”
+
+
+
+**VI**: Lưu Tú (5 TCN — 57 SCN)
+
+**ZH**: 刘秀（前5年—57年）
+
+**EN**: Liu Xiu (5 BCE–57 CE)
+
+
+
+**VI**: Tự Văn Thúc, người Thái Dương quận Nam Dương, là cháu đời thứ chín của Hán Cao Tổ. Vương Mãng soán ngôi nhà Hán khiến gia cảnh sa sút, thuở hàn vi từng tự mình cày cấy ruộng đồng, sử chép “tính tình siêng năng việc cày cấy canh tác”. Về sau dấy binh giữa thời loạn lạc; trong trận Côn Dương đã thống lĩnh vài ngàn nghĩa sĩ cảm tử đập tan bốn mươi hai vạn đại quân Tân Mãng, quét sạch quần hùng, tái lập cơ nghiệp Hán thất, định đô ở Lạc Dương, sử xưng là Đông Hán. Tại vị ba mươi ba năm, giảm trừ sưu thuế, đình chỉ can qua, bồi dưỡng sức dân, hậu thế ngợi ca là thời kỳ “Quang Vũ trung hưng”. Thụy hiệu là Quang Vũ Hoàng Đế, miếu hiệu Thế Tổ.
+
+**ZH**: 字文叔，南阳蔡阳人，汉高祖九世孙。王莽篡汉，家道中落，微时躬耕于田亩，史称“性勤于稼穑”。后于乱世起兵，昆阳之战以数千敢死之士破新莽四十二万大军，扫平群雄，重建汉室，定都洛阳，史称东汉。在位三十三年，轻徭薄赋，息兵养民，后世谓之“光武中兴”。谥光武皇帝，庙号世祖。
+
+**EN**: Courtesy name Wenshu; a native of Caiyang in Nanyang and a ninth-generation descendant of Emperor Gaozu of Han. After Wang Mang usurped the Han throne, his family’s fortunes declined. In his humble early years he worked the fields himself; the histories record that he was “by nature diligent in farming.” He later raised an army amid the turmoil. At the Battle of Kunyang, a few thousand men prepared to fight to the death defeated the 420,000-strong army of Wang Mang’s Xin dynasty. He subdued the rival warlords, restored the Han dynasty, and established his capital at Luoyang. His dynasty is known to history as the Eastern Han. During his thirty-three-year reign, he reduced labor levies and taxes, ended warfare, and allowed the people to recover. Later generations called this the “Guangwu Restoration.” His posthumous title was Emperor Guangwu; his temple name, Shizu.
