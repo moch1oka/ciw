@@ -5,15 +5,6 @@
   "title_en": "Chapter 3: Beyond Light Cone · Part 1",
   "available_languages": [
     "zh",
-    "zhHant",
-    "en",
-    "ja",
-    "ko",
-    "es",
-    "fr",
-    "ar",
-    "ptBR",
-    "ru",
     "vi"
   ],
   "panel_count": 24,
@@ -36,124 +27,6 @@
           "“没什么……在背课文。”",
           "“哦？那你告诉我——哪本高中课本里有《洛神赋》？”",
           "他脸上微红，轻咳一声，低头继续在玻璃上演算。阳光斜照在他耳后，露出一瞬被人看穿后的局促。"
-        ],
-        "zhHant": [
-          "光線從落地窗外傾斜而入，在地板上切割出一格一格靜默的光影。",
-          "月牙兒坐在靠窗的小牀上，手裏的舊書翻到中頁，指尖還留着書頁泛黃的灰紋。參宿四蜷在她身後，尾巴輕輕擺動，像也在聽她心裏的聲音。",
-          "另一側，希揚獨坐在階梯上，身影被陽光拉得很長。玻璃上的公式密密麻麻，像一面悄無聲息的星圖。他神情專注，嘴脣微動，低聲背誦着什麼。",
-          "淡藍色的布簾在中央垂下，悄悄將這間屋子一分爲二——",
-          "一邊是沉靜的潮汐，一邊是躍動的星火。",
-          "“榮曜秋菊，華茂春松。髣髴兮若輕雲之蔽月，飄颻兮若流風之迴雪……”",
-          "“在唸什麼呢？”",
-          "“沒什麼……在背課文。”",
-          "“哦？那你告訴我——哪本高中課本里有《洛神賦》？”",
-          "他臉上微紅，輕咳一聲，低頭繼續在玻璃上演算。陽光斜照在他耳後，露出一瞬被人看穿後的侷促。"
-        ],
-        "en": [
-          "Sunlight slanted in through the floor-to-ceiling window, slicing the floor into quiet grids of shadow and light.",
-          "Mahina sat on the narrow bed by the window, her old book flipped open to the middle. Faint smudges of dust clung to her fingertips where they had touched the yellowed page.",
-          "Betelgeuse curled up behind her, its tail swaying softly—",
-          "as if listening to the thoughts she hadn’t spoken aloud.",
-          "Across the room, Suvan sat alone on the steps.",
-          "His figure was stretched long by the afternoon sun.",
-          "Formulas filled the glass before him, densely written like a silent star map.",
-          "He was deep in thought, lips moving faintly, reciting something under his breath.",
-          "A pale blue curtain hung down from the ceiling, quietly dividing the room in two—",
-          "on one side, the stillness of the tide;",
-          "on the other, the flicker of a star.",
-          "“Glory like autumn chrysanthemums; grace like spring pines…”",
-          "“She glides like drifting clouds across the moon,”",
-          "“like snow swept by the turning wind…”",
-          "“What are you reciting?”",
-          "“Nothing. Just something from class.”",
-          "“Really? Then tell me—which high school textbook includes Rhapsody on the Goddess of the Luo?”",
-          "He blushed, cleared his throat, and ducked his head, scribbling again on the glass.",
-          "Sunlight slid across his cheek and lit the edge of his ear—",
-          "betraying that brief moment of being seen through."
-        ],
-        "ja": [
-          "床までの大窓から光が斜めに差し込み、床に無言の光と影の格子を刻んでいた。",
-          "マヒナは窓辺の小さなベッドに腰かけ、古びた本を中ほどまで開いていた。指先には、黄ばんだ頁の灰色の粉がまだ残っている。背後で丸くなったベテルギウスは、彼女の心の声に耳を澄ますように、尾をそっと揺らしていた。",
-          "部屋の反対側では、スヴァンが階段にひとり腰かけ、陽射しに長い影を落としていた。ガラスを埋め尽くす数式は、音もなく広がる星図のようだ。彼はひたすらに見入り、唇をわずかに動かして、何かを小声で暗唱していた。",
-          "淡い青の布のカーテンが中央に垂れ、この部屋をそっと二つに隔てていた――",
-          "片方には静かな潮、もう片方には跳ねる星火。",
-          "「秋の菊のごとく輝き、春の松のごとく瑞々しい。かすかな雲が月を覆うように、流れる風が雪を舞い返すように……」",
-          "「何を読んでるの？」",
-          "「別に……教科書を暗記してただけ」",
-          "「へえ？　じゃあ教えて――どの高校の教科書に『洛神賦』が載ってるの？」",
-          "スヴァンはうっすら顔を赤らめ、小さく咳払いすると、うつむいてガラスの上の計算を続けた。斜めの陽射しが耳の後ろを照らし、見透かされた居心地の悪さを一瞬だけあらわにした。"
-        ],
-        "ko": [
-          "통유리창 밖에서 빛이 비스듬히 쏟아져 들어와, 마룻바닥에 조용한 빛과 그림자의 격자를 새겼다.",
-          "마히나는 창가의 작은 침대에 앉아 낡은 책을 중간쯤 펼쳐 놓고 있었다. 손끝에는 누렇게 삭은 책장의 회색 결이 묻어 있었다. 베텔게우스는 그녀 뒤에 웅크린 채 꼬리를 살랑거렸다. 마치 그녀의 마음속 소리까지 듣고 있는 듯했다.",
-          "반대편에서 수반은 계단에 혼자 앉아 있었다. 햇빛이 그의 그림자를 길게 늘어뜨렸다. 유리에 빼곡히 적힌 수식은 소리 없이 펼쳐진 별지도 같았다. 그는 온통 집중한 표정으로 입술을 작게 달싹이며 무언가를 나직이 외우고 있었다.",
-          "연한 푸른색 천 커튼이 방 한가운데 드리워져, 공간을 조용히 둘로 갈라놓았다——",
-          "한쪽은 고요한 조수였고, 다른 한쪽은 반짝이는 별불이었다.",
-          "“가을 국화처럼 빛나고, 봄 소나무처럼 성하구나. 어렴풋이 연운이 달을 가리듯, 흐르는 바람이 눈을 휘감아 돌듯……”",
-          "“뭐 읽고 있어?”",
-          "“아무것도 아니야…… 교과서 외우고 있었어.”",
-          "“그래? 그럼 말해 봐—— 어느 고등학교 교과서에 『낙신부』가 실려 있는데?”",
-          "그의 낯이 살짝 붉었다. 헛기침을 한 번 하고는 고개를 숙여 유리 위의 계산을 계속했다. 비스듬한 햇살이 귀 뒤를 스치며, 속을 들켜 버린 사람의 당황스러움을 순간 드러냈다."
-        ],
-        "es": [
-          "La luz entraba oblicua por los ventanales y recortaba sobre el suelo casillas de claridad y sombra silenciosas.",
-          "Mahina estaba sentada en la cama junto a la ventana. El viejo libro que sostenía permanecía abierto por la mitad, y el polvo gris de sus páginas amarillentas aún marcaba sus dedos. Betelgeuse se acurrucaba detrás de ella, meciendo suavemente la cola, como si también escuchara la voz de sus pensamientos.",
-          "Al otro lado, Suvan estaba sentado a solas en los peldaños, con la silueta alargada por el sol. Las fórmulas cubrían el cristal como un mapa estelar trazado en silencio. Concentrado, movía apenas los labios mientras recitaba algo en voz baja.",
-          "Una cortina azul pálido caía en el centro y dividía en silencio la habitación en dos:",
-          "a un lado, la marea en calma; al otro, una chispa de estrellas palpitante.",
-          "«Radiante como el crisantemo de otoño, lozana como el pino en primavera. Vaga como una nube leve que vela la luna; gira como la nieve que el viento arremolina…»",
-          "«¿Qué estás recitando?»",
-          "«Nada… Un texto de clase.»",
-          "«¿Ah, sí? Entonces dime: ¿en qué manual de secundaria aparece la Rapsodia de la diosa del río Luo?»",
-          "Se ruborizó, carraspeó y bajó la cabeza para seguir calculando sobre el cristal. El sol le rozó por detrás de la oreja y dejó al descubierto, por un instante, la incomodidad de quien acaba de ser descubierto."
-        ],
-        "fr": [
-          "La lumière entrait en biais par la baie vitrée et découpait sur le plancher des cases silencieuses d’ombre et de clarté.",
-          "Mahina était assise sur le petit lit près de la fenêtre, un vieux livre ouvert à mi-chemin ; la poussière des pages jaunies marquait encore ses doigts. Bételgeuse, roulée en boule derrière elle, remuait doucement la queue, comme si elle aussi écoutait la voix cachée dans son cœur.",
-          "De l’autre côté, Suvan était assis seul sur les marches, son ombre étirée par le soleil. Les formules serrées sur la vitre dessinaient une carte stellaire muette. Absorbé, il remuait les lèvres et récitait quelque chose à voix basse.",
-          "Au milieu pendait un rideau bleu pâle qui partageait silencieusement la pièce en deux —",
-          "d’un côté, une marée paisible ; de l’autre, une étincelle d’étoile.",
-          "« Éclatante comme le chrysanthème d’automne, florissante comme le pin au printemps. Tantôt légère nuée voilant la lune, tantôt vent errant faisant tournoyer la neige… »",
-          "« Qu’est-ce que tu récites ? »",
-          "« Rien… j’apprends un texte. »",
-          "« Ah oui ? Alors dis-moi : dans quel manuel de lycée trouve-t-on la Rhapsodie à la déesse de la rivière Luo ? »",
-          "Il rougit, toussota et se replongea dans ses calculs sur la vitre. Le soleil effleura l’arrière de son oreille et révéla, l’espace d’un instant, l’embarras d’un secret découvert."
-        ],
-        "ar": [
-          "انحدر الضوء مائلًا عبر النافذة الممتدة إلى الأرض، فقطّع فوقها مربعات صامتة من النور والظل.",
-          "جلست ماهينا على السرير الصغير قرب النافذة، والكتاب العتيق في يدها مفتوح عند منتصفه، وقد تركت صفحاته المصفرّة خطوطًا من الغبار على أطراف أصابعها. تكورت منكب الجوزاء خلفها، تحرك ذيلها في هدوء، كأنها تصغي هي الأخرى إلى الصوت في قلب ماهينا.",
-          "في الجانب الآخر جلس سوفان وحده على الدرج، ومدّت الشمس ظله طويلًا. ازدحمت المعادلات على الزجاج كخريطة نجوم صامتة. كان شديد التركيز، يحرك شفتيه ويردد شيئًا بصوت خفيض.",
-          "تدلّى في الوسط ستار قماشي أزرق شاحب، يقسم الغرفة في صمت إلى نصفين—",
-          "في أحدهما مد ساكن، وفي الآخر شرر نجمي متوثب.",
-          "«تشرق كأقحوان الخريف، وتزهو كصنوبر الربيع. تلوح كسحابة رقيقة تحجب القمر، وتنساب كريح تحمل الثلج في دورانها…»",
-          "«ماذا تتمتم؟»",
-          "«لا شيء… أحفظ نصًا مدرسيًا.»",
-          "«حقًا؟ فأخبرني: أي كتاب ثانوي يضم ‹رابسودية إلهة نهر لو›؟»",
-          "احمر وجهه قليلًا، وتنحنح ثم طأطأ رأسه وعاد إلى الحساب على الزجاج. لامست الشمس خلف أذنه، ففضحت للحظة ارتباك من كُشف سره."
-        ],
-        "ptBR": [
-          "A luz entrava oblíqua pelas janelas até o chão e recortava no piso quadrados silenciosos de claridade e sombra.",
-          "Mahina estava sentada na cama estreita junto à janela. O velho livro em suas mãos se abria pela metade, e os dedos ainda guardavam a poeira amarelada das páginas. Betelgeuse se enroscava atrás dela, balançando de leve a cauda, como se também escutasse sua voz interior.",
-          "Do outro lado, Suvan permanecia sozinho nos degraus, a silhueta prolongada pelo sol. Fórmulas cobriam o vidro como um mapa estelar sem voz. Concentrado, movia discretamente os lábios, recitando algo em voz baixa.",
-          "Uma cortina azul-clara pendia ao centro, dividindo o aposento em silêncio —",
-          "de um lado, a maré adormecida; do outro, centelhas em movimento.",
-          "“Radiante como o crisântemo no outono, viçosa como o pinheiro na primavera. Vaga como nuvem tênue velando a lua, errante como vento que revolve a neve…”",
-          "“O que está recitando?”",
-          "“Nada… só decorando uma lição.”",
-          "“Ah, é? Então me diga: em qual livro do ensino médio aparece a Rapsódia da Deusa do Rio Luo?”",
-          "O rosto dele corou. Limpou a garganta, baixou a cabeça e continuou os cálculos no vidro. O sol tocava-lhe a pele atrás da orelha, revelando por um instante o constrangimento de quem acabara de ser desmascarado."
-        ],
-        "ru": [
-          "[Солнце пробивалось сквозь панорамное окно, разбивая пол на полосы света и тени.",
-          "Юэя сидела на кровати у окна, листая потрёпанную книгу. Бетельгейзе свернулась клубком у неё за спиной, лениво помахивая хвостом, словно улавливая её мысли.",
-          "Сиян сидел на лестнице на другом конце комнаты. Его тень растянулась на полу. Стекло перед ним было исписано формулами, напоминая звёздную карту. Он сосредоточенно шептал себе что-то под нос, едва шевеля губами.",
-          "Голубая штора будто делила комнату надвое:",
-          "с одной стороны — тишина и покой, с другой — искры звёзд учёного сердца.]",
-          "Сияньем осени цветущей хризантеме подобна,\nВесенней сосне в блеске пышном сродни.\nТо словно лёгкое облако, что закрывает луну,\nТо как ветер играет со снежинками в вихре.",
-          "О чем задумался?",
-          "Ни о чем... Просто стих из школы...",
-          "Да? Тогда скажи, в каком из учебников была эта «Ода богине Ло»?",
-          "[Он слегка покраснел, тихо откашлялся и, опустив голову, продолжил выводить формулы на стекле. Солнечный свет скользнул по его щеке — выдав еле заметное смущение парня, будто его поймали с поличным.]"
         ],
         "vi": [
           "Ánh nắng từ khung cửa kính sát sàn nghiêng nghiêng rọi vào phòng, cắt mặt sàn thành từng ô sáng tối trầm mặc.",
@@ -180,43 +53,6 @@
           "“周末你不出门，也不玩游戏，连手机都不碰。”",
           "“一整天对着那些公式，你不觉得无聊吗？就没有娱乐活动？”"
         ],
-        "zhHant": [
-          "“週末你不出門，也不玩遊戲，連手機都不碰。”",
-          "“一整天對着那些公式，你不覺得無聊嗎？就沒有娛樂活動？”"
-        ],
-        "en": [
-          "“You don’t go out on weekends, you don’t play games, and you don’t even touch your phone.”",
-          "“Staring at those formulas all day—don’t you ever get bored?”",
-          "“Don’t you have... I don’t know, any hobbies?”"
-        ],
-        "ja": [
-          "「週末は外にも出ない、ゲームもしない、スマホにすら触らない」",
-          "「一日中そんな数式とにらめっこして、退屈じゃないの？　ほかに楽しみはないわけ？」"
-        ],
-        "ko": [
-          "“너 주말에도 밖에 안 나가고, 게임도 안 하고, 휴대폰에는 손도 안 대잖아.”",
-          "“하루 종일 그 수식들만 보고 있으면 안 지루해? 달리 즐기는 건 없어?”"
-        ],
-        "es": [
-          "«Los fines de semana no sales, no juegas y ni siquiera tocas el móvil.»",
-          "«Te pasas el día entero ante esas fórmulas. ¿No te aburres? ¿No haces nada para divertirte?»"
-        ],
-        "fr": [
-          "« Le week-end, tu ne sors pas, tu ne joues pas, tu ne touches même pas à ton téléphone. »",
-          "« Tu passes la journée devant ces formules. Tu ne t’ennuies jamais ? Tu n’as aucun loisir ? »"
-        ],
-        "ar": [
-          "«في عطلة نهاية الأسبوع لا تخرج، ولا تلعب، ولا تلمس هاتفك حتى.»",
-          "«تحدق في تلك المعادلات طوال اليوم. ألا تشعر بالملل؟ أليس لديك أي تسلية؟»"
-        ],
-        "ptBR": [
-          "“Você não sai nos fins de semana, não joga e nem toca no celular.”",
-          "“Passa o dia inteiro diante dessas fórmulas. Não fica entediado? Não tem nenhuma diversão?”"
-        ],
-        "ru": [
-          "«На выходных ты никуда не ходишь, не играешь и даже не берёшь телефон».",
-          "Ты никуда не выходишь по выходным, не играешь, даже к телефону не притрагиваешься. Целыми днями сидишь над этими формулами... Тебе не надоедает? У тебя хоть какое-то хобби есть?"
-        ],
         "vi": [
           "“Cuối tuần cậu không ra ngoài đi chơi, cũng chẳng chơi game, đến điện thoại còn chẳng buồn động vào.”",
           "“Cả ngày cứ cắm mặt vào đống công thức khô khốc kia, cậu không thấy chán ngắt à? Không có hoạt động giải trí gì sao?”"
@@ -238,90 +74,6 @@
           "“说人话！”",
           "“简单讲，精密仪器基本全废了。”",
           "“但有一点是确定的：这些异常和我们离云虫的距离成正比——越靠近它，变量反而越小。”"
-        ],
-        "zhHant": [
-          "“這對我來說就是娛樂活動。”",
-          "“相比於人類設計的遊戲，我更喜歡……神明設計的遊戲。”",
-          "“那現在有什麼頭緒了？”",
-          "“雲蟲場內的電磁規律發生異常，麥克斯韋方程組在這裏已無法成立，電磁場開始呈現非線性行爲。普朗克常量的波動導致電子能級躍遷規則紊亂，所有依賴硅基芯片的儀器幾乎完全失效。甚至連邏輯門都被幹擾得失去原有功能——與非門現在反而表現出或門的特性。”",
-          "“說人話！”",
-          "“簡單講，精密儀器基本全廢了。”",
-          "“但有一點是確定的：這些異常和我們離雲蟲的距離成正比——越靠近它，變量反而越小。”"
-        ],
-        "en": [
-          "“This is entertainment, to me.”",
-          "“Compared to games designed by humans, I prefer the ones designed by gods.”",
-          "“So? Got any leads yet?”",
-          "“Inside the CloudInsect field, the laws of electromagnetism become abnormal. Maxwell’s equations no longer hold, and electromagnetic fields behave nonlinearly. Fluctuations in Planck’s constant disrupt the rules governing electron energy-level transitions, rendering almost every silicon-chip device useless. Even logic gates lose their original functions—NAND gates begin behaving like OR gates.”",
-          "“Speak human, please.”",
-          "“In short?”",
-          "“All our precision instruments are pretty much dead.”",
-          "“But there’s one thing we do know for sure:”",
-          "“These anomalies scale with our distance from the CloudInsect.”",
-          "“The closer we are—the smaller the variables get.”"
-        ],
-        "ja": [
-          "「僕にとっては、これが遊びだよ」",
-          "「人間の作ったゲームより、僕は……神様の作ったゲームのほうが好きなんだ」",
-          "「それで、今は何かつかめた？」",
-          "「雲虫場では電磁法則に異常が起き、マクスウェル方程式が成り立たない。電磁場は非線形な振る舞いを始めている。プランク定数の揺らぎで電子のエネルギー準位間遷移の規則が乱れ、シリコンチップに依存する機器はほぼ全滅だ。論理ゲートまで本来の機能を失って、NANDゲートがいまではORゲートのように振る舞う」",
-          "「人間の言葉で言って！」",
-          "「簡単に言うと、精密機器はほぼ全部ダメになった」",
-          "「ただ、一つだけ確かなことがある。この異常は雲虫からの距離に比例している――雲虫に近づくほど、変数はかえって小さくなる」"
-        ],
-        "ko": [
-          "“나한테는 이게 놀이야.”",
-          "“사람이 만든 게임보다는…… 신이 만든 게임이 더 좋아.”",
-          "“그래서, 이제 뭔가 단서는 잡았어?”",
-          "“운충장 안에서 전자기 법칙이 이상을 일으켰어. 여기서는 맥스웰 방정식이 더 이상 성립하지 않고, 전자기장은 비선형적으로 거동하기 시작했지. 플랑크 상수의 요동 때문에 전자의 에너지 준위 전이 규칙이 엉키고, 실리콘 기반 칩에 의존하는 기기는 거의 모두 무용지물이 됐어. 논리 게이트마저 본래 기능을 잃어서—— 지금은 NAND 게이트가 오히려 OR 게이트처럼 작동해.”",
-          "“사람 말로 해!”",
-          "“간단히 말하면, 정밀 기기는 거의 전부 먹통이 됐어.”",
-          "“하지만 하나는 확실해. 이 이상 현상은 우리와 운충 사이의 거리에 비례해—— 운충에 가까워질수록 변수는 오히려 작아져.”"
-        ],
-        "es": [
-          "«Para mí, esto es divertirme.»",
-          "«Antes que los juegos diseñados por los hombres, prefiero… los que diseñaron los dioses.»",
-          "«¿Y ya tienes alguna pista?»",
-          "«Las leyes electromagnéticas se alteran dentro del campo CloudInsect. Las ecuaciones de Maxwell dejan de cumplirse y el campo electromagnético adquiere un comportamiento no lineal. Las fluctuaciones de la constante de Planck trastornan las transiciones entre niveles de energía de los electrones, de modo que casi todos los instrumentos que dependen de chips de silicio dejan de funcionar. Incluso las puertas lógicas pierden su función original: una puerta NAND se comporta ahora como una OR.»",
-          "«¡En cristiano!»",
-          "«En pocas palabras: los instrumentos de precisión no sirven.»",
-          "«Pero hay algo seguro: estas anomalías son proporcionales a la distancia que nos separa de CloudInsect. Cuanto más nos acercamos, menores son las variables.»"
-        ],
-        "fr": [
-          "« Pour moi, c’est un loisir. »",
-          "« Aux jeux conçus par les hommes, je préfère… celui qu’ont conçu les dieux. »",
-          "« Et tu as trouvé une piste ? »",
-          "« Les lois électromagnétiques sont perturbées dans le champ de l’Insecte-Nuage. Les équations de Maxwell n’y sont plus valides et le champ électromagnétique adopte un comportement non linéaire. Les fluctuations de la constante de Planck dérèglent les transitions entre niveaux d’énergie électroniques ; presque tous les appareils reposant sur des puces au silicium cessent de fonctionner. Même les portes logiques perdent leur fonction : une porte NON-ET se comporte désormais comme une porte OU. »",
-          "« Parle comme un être humain ! »",
-          "« En bref, les instruments de précision sont pratiquement tous hors service. »",
-          "« Une chose est certaine : ces anomalies sont proportionnelles à notre distance de l’Insecte-Nuage. Plus on s’en approche, plus les variables diminuent. »"
-        ],
-        "ar": [
-          "«هذه هي تسليتي.»",
-          "«مقارنة بالألعاب التي يصممها البشر، أفضل… اللعبة التي صممتها الآلهة.»",
-          "«وهل وصلت إلى شيء؟»",
-          "«تختل القوانين الكهرومغناطيسية داخل حقل حشرة السحاب، فلا تعود معادلات ماكسويل صالحة، ويبدأ المجال الكهرومغناطيسي في إظهار سلوك لا خطي. ويؤدي تذبذب ثابت بلانك إلى اضطراب قواعد انتقال الإلكترونات بين مستويات الطاقة؛ لذلك تتعطل تقريبًا كل الأجهزة المعتمدة على رقائق السيليكون. حتى البوابات المنطقية تفقد وظائفها الأصلية بفعل التشويش — فبوابة NAND تتصرف الآن كبوابة OR.»",
-          "«تكلم بلغة البشر!»",
-          "«باختصار، كل الأجهزة الدقيقة صارت عديمة الفائدة.»",
-          "«لكن أمرًا واحدًا مؤكد: هذه الاختلالات تتناسب طرديًا مع المسافة بيننا وبين حشرة السحاب — كلما اقتربنا منها، صغرت المتغيرات بدل أن تكبر.»"
-        ],
-        "ptBR": [
-          "“Para mim, isto é diversão.”",
-          "“Comparados aos jogos criados pelos homens, eu prefiro… os jogos criados pelos deuses.”",
-          "“E já descobriu alguma coisa?”",
-          "“As leis eletromagnéticas se tornam anômalas dentro do campo do Inseto-Nuvem. As equações de Maxwell deixam de valer, e o campo eletromagnético passa a apresentar comportamento não linear. Flutuações na constante de Planck desorganizam as regras de transição dos níveis de energia dos elétrons; quase todos os instrumentos que dependem de chips de silício param de funcionar. Até as portas lógicas sofrem interferência e perdem sua função original — uma porta NAND agora se comporta como uma porta OR.”",
-          "“Fale como gente!”",
-          "“Em resumo: quase todo aparelho de precisão virou sucata.”",
-          "“Mas uma coisa é certa: as anomalias variam de acordo com a nossa distância do Inseto-Nuvem. Quanto mais perto dele, menores se tornam as variáveis.”"
-        ],
-        "ru": [
-          "«Для меня это и есть развлечение».",
-          "Это и есть моё хобби.\n\nЯ предпочитаю игру с Богом, стремясь раскрыть Его замысел..",
-          "И как успехи?",
-          "Внутри поля облачного насекомого наблюдаются аномалии в поведении электромагнитных взаимодействий — уравнения Максвелла больше не работают, а электромагнитное поле проявляет выраженную нелинейность. Флуктуации постоянной Планка приводят к дестабилизации правил квантовых переходов между энергетическими уровнями, нарушая устоявшиеся принципы распределения электронных состояний атомов. В итоге, практически вся техника, основанная на кремниевых структурах, утрачивает работоспособность. Вплоть до логических вентилей — NAND-гейты демонстрируют поведение, характерное для OR-функций.",
-          "Говори, пожалуйста, на человеческом.",
-          "Короче, вся наша аппаратура по сути мертва.",
-          "Но есть одно, в чём я уверен: все эти аномалии зависят от расстояния между нами и облачными насекомыми. Чем ближе мы подходим — тем меньше становятся отклонения."
         ],
         "vi": [
           "“Đối với tôi, đây chính là hoạt động giải trí rồi.”",
@@ -345,43 +97,6 @@
           "“如果靠得足够近……那些异常变量，会不会就变得可以忽略？”",
           "她侧头望向那边，透过书架与窗之间的缝隙，悄悄打量着他的神情。"
         ],
-        "zhHant": [
-          "“如果靠得足夠近……那些異常變量，會不會就變得可以忽略？”",
-          "她側頭望向那邊，透過書架與窗之間的縫隙，悄悄打量着他的神情。"
-        ],
-        "en": [
-          "“If we get close enough...”",
-          "“could those anomalous variables become negligible?”",
-          "She turned slightly, glancing at him through the gap between the bookshelf and the window, quietly observing his expression."
-        ],
-        "ja": [
-          "「じゃあ、十分に近づけば……その異常な変数は、無視できるほど小さくなる？」",
-          "マヒナは首をかしげ、本棚と窓の隙間から、そっと彼の表情をうかがった。"
-        ],
-        "ko": [
-          "“충분히 가까이 가면…… 그 이상 변수들을 무시해도 될 만큼 작아지지 않을까?”",
-          "그녀는 고개를 없돌려 책장과 창 사이의 틈로 그의 표정을 몰래 살폈다."
-        ],
-        "es": [
-          "«Si nos acercáramos lo suficiente… ¿esas variables anómalas llegarían a ser despreciables?»",
-          "Volvió la cabeza y, por el hueco entre la estantería y la ventana, observó a escondidas su expresión."
-        ],
-        "fr": [
-          "« Si on s’approchait suffisamment… ces variables anormales finiraient-elles par devenir négligeables ? »",
-          "Elle inclina la tête et observa discrètement son expression par l’ouverture entre l’étagère et la fenêtre."
-        ],
-        "ar": [
-          "«وإذا اقتربنا بما يكفي… ألا تصبح تلك المتغيرات الشاذة صغيرة إلى حد يمكن إهمالها؟»",
-          "أمالت رأسها نحوه، وراقبت ملامحه خلسة عبر الفجوة بين رف الكتب والنافذة."
-        ],
-        "ptBR": [
-          "“Se chegarmos perto o bastante… essas variáveis anômalas não poderiam se tornar desprezíveis?”",
-          "Ela inclinou a cabeça e, pela fresta entre a estante e a janela, observou discretamente a expressão dele."
-        ],
-        "ru": [
-          "Если мы подойдём достаточно близко... Можно ли будет проигнорировать эти отклонения?",
-          "[Она повернулась, наблюдая за выражением его лица через пространство между книжной полкой и окном.]"
-        ],
         "vi": [
           "“Nếu như chúng ta tiến lại đủ gần... thì liệu những biến số dị thường kia có nhỏ tới mức có thể bỏ qua được không?”",
           "Cô nghiêng đầu nhìn sang phía bên kia, qua khe hở giữa giá sách và khung cửa sổ, lặng lẽ quan sát biểu cảm trên gương mặt cậu."
@@ -398,36 +113,6 @@
         "zh": [
           "“是的。如果靠得足够近，这些变量在公式中可以被视作无穷小量而忽略。重新改装的简单电子仪器，也许就能再次运作。只是——”"
         ],
-        "zhHant": [
-          "“是的。如果靠得足夠近，這些變量在公式中可以被視作無窮小量而忽略。重新改裝的簡單電子儀器，也許就能再次運作。只是——”"
-        ],
-        "en": [
-          "“Yes.”",
-          "“If we’re close enough, those variables can be treated as infinitesimals—negligible within the equations.”",
-          "“With that in mind, even simple reconfigured devices might work again.”",
-          "“It’s just that—”"
-        ],
-        "ja": [
-          "「そう。十分に近づけば、これらの変数は式の中で無限小とみなし、無視できる。単純な電子機器なら、作り直せばもう一度動かせるかもしれない。ただ――」"
-        ],
-        "ko": [
-          "“맞아. 충분히 가까이 가면 공식 안에서 그 변수들을 무한소로 보고 무시할 수 있어. 단순한 전자 기기라면 개조해서 다시 작동시킬 수도 있고. 다만——”"
-        ],
-        "es": [
-          "«Sí. Si nos acercáramos lo suficiente, en las fórmulas podríamos tratar esas variables como cantidades infinitesimales y descartarlas. Tal vez entonces volvieran a funcionar aparatos electrónicos sencillos, modificados para ello. Solo que…»"
-        ],
-        "fr": [
-          "« Oui. Assez près, on pourrait les traiter dans les équations comme des quantités infinitésimales et les négliger. Des appareils électroniques simples, convenablement modifiés, pourraient peut-être fonctionner de nouveau. Seulement— »"
-        ],
-        "ar": [
-          "«نعم. إذا اقتربنا بما يكفي، يمكن اعتبار تلك المتغيرات كميات متناهية الصغر وإهمالها في المعادلات. وربما تعود أجهزة إلكترونية بسيطة، بعد تعديلها، إلى العمل. لكن—»"
-        ],
-        "ptBR": [
-          "“Sim. Perto o bastante, essas variáveis podem ser tratadas nas fórmulas como quantidades infinitesimais e ignoradas. Talvez aparelhos eletrônicos simples, devidamente adaptados, voltem a funcionar. Só que…”"
-        ],
-        "ru": [
-          "Да.\nЕсли подойти достаточно близко, аномалии станут на столько незначительными, что на них можно будет не обращать внимания. Возможно, даже простая техника, если её переделать, сможет работать.\nВот только…"
-        ],
         "vi": [
           "“Đúng vậy. Nếu tiến lại đủ gần, những biến lượng ấy trong công thức hoàn toàn có thể coi là đại lượng vô cùng bé và có thể bỏ qua. Khi đó, các thiết bị điện tử cơ bản được cải tiến lại có lẽ sẽ có thể hoạt động trở lại. Chỉ là —”"
         ]
@@ -442,33 +127,6 @@
       "texts": {
         "zh": [
           "“走！”"
-        ],
-        "zhHant": [
-          "“走！”"
-        ],
-        "en": [
-          "“Let’s go!”"
-        ],
-        "ja": [
-          "「行こう！」"
-        ],
-        "ko": [
-          "“가자!”"
-        ],
-        "es": [
-          "«¡Vamos!»"
-        ],
-        "fr": [
-          "« On y va ! »"
-        ],
-        "ar": [
-          "«هيا بنا!»"
-        ],
-        "ptBR": [
-          "“Vamos!”"
-        ],
-        "ru": [
-          "Пошли!"
         ],
         "vi": [
           "“Đi thôi!”"
@@ -485,45 +143,6 @@
         "zh": [
           "话音还没落，一只头盔就从帘子那边飞了过来。希扬一惊，下意识伸手去接，却被砸了个正着。头盔掉进怀里，他自己几乎跌下台阶，动作有点狼狈。",
           "“啊？要去哪？”"
-        ],
-        "zhHant": [
-          "話音還沒落，一隻頭盔就從簾子那邊飛了過來。希揚一驚，下意識伸手去接，卻被砸了個正着。頭盔掉進懷裏，他自己幾乎跌下臺階，動作有點狼狽。",
-          "“啊？要去哪？”"
-        ],
-        "en": [
-          "Before the words even finished echoing, a helmet came flying through the curtain.",
-          "Suvan flinched, instinctively reaching out to catch it—",
-          "but got smacked square in the chest instead.",
-          "The helmet dropped into his lap, and he nearly tumbled down the steps, looking thoroughly caught off guard.",
-          "“Huh? Go where?”"
-        ],
-        "ja": [
-          "言い終わらないうちに、カーテンの向こうからヘルメットが飛んできた。驚いたスヴァンはとっさに手を伸ばしたが、まともにぶつけられた。ヘルメットは腕の中に落ち、彼自身もほとんど階段から転げ落ちそうになった。",
-          "「え？　どこに？」"
-        ],
-        "ko": [
-          "말이 끝나기도 전에 커튼 너머에서 헬멧 하나가 날아왔다. 깜짝 놀란 수반이 반사적으로 손을 뻗었지만, 헬멧은 그를 정통으로 때렸다. 품으로 떨어진 헬멧을 안는 바람에 그 자신도 계단 아래로 굴러떨어질 뻔했다.",
-          "“어? 어디로?”"
-        ],
-        "es": [
-          "Antes de que terminara, un casco salió volando desde el otro lado de la cortina. Suvan alzó las manos por reflejo, pero le dio de lleno. El casco cayó en su regazo y él estuvo a punto de rodar por los peldaños, torpe y descompuesto.",
-          "«¿Eh? ¿Adónde?»"
-        ],
-        "fr": [
-          "Avant qu’il ait achevé sa phrase, un casque vola par-dessus le rideau. Surpris, Suvan tendit les mains, mais le reçut de plein fouet. Le casque retomba sur ses genoux tandis qu’il manquait de dégringoler des marches.",
-          "« Hein ? Où ça ? »"
-        ],
-        "ar": [
-          "قبل أن يتم جملته طارت خوذة من خلف الستار. جفل سوفان ومد يده غريزيًا لالتقاطها، لكنها أصابته مباشرة. سقطت في حضنه وكاد هو يهوي عن الدرج، في مشهد لا يخلو من الارتباك.",
-          "«ماذا؟ إلى أين؟»"
-        ],
-        "ptBR": [
-          "Antes que ele terminasse, um capacete voou do outro lado da cortina. Surpreso, Suvan estendeu as mãos por reflexo, mas o objeto o acertou em cheio. O capacete caiu em seu colo, e ele quase despencou dos degraus, atrapalhado.",
-          "“O quê? Aonde vamos?”"
-        ],
-        "ru": [
-          "[Не успел он договорить, как из-за шторы в него прилетел шлем. Сиян вздрогнул, попытался его поймать — и получил прямо в лицо. Шлем шмякнулся ему на грудь, а сам он едва не скатился с лестницы.]",
-          "А? Куда?"
         ],
         "vi": [
           "Lời còn chưa dứt, một chiếc mũ bảo hiểm đã bay vèo qua tấm rèm vải. Hi Dương giật nảy mình, theo phản xạ giơ tay đón lấy, nhưng vẫn bị va trúng. Chiếc mũ rơi vào lòng, cả người cậu lảo đảo suýt ngã khỏi bậc thềm, bộ dạng có phần lúng túng vụng về.",
@@ -544,61 +163,6 @@
           "她一手拨开头发，同时朝他扬了扬下巴，眼神里带着不容拒绝的明亮。",
           "[蓝巴勒海峡｜临近云虫核心区域]"
         ],
-        "zhHant": [
-          "“姐姐帶你去看真正的雲蟲。”",
-          "她就那樣站在那裏，手裏拎着頭盔，赤腳踩在被雜物切碎的光斑上，像一隻踩在光上的精靈。",
-          "她一手撥開頭髮，同時朝他揚了揚下巴，眼神裏帶着不容拒絕的明亮。",
-          "[藍巴勒海峽｜臨近雲蟲核心區域]"
-        ],
-        "en": [
-          "“Your big sister is taking you to see a real CloudInsect.”",
-          "She stood there, barefoot, clutching another helmet in one hand, her feet bathed in shattered patches of sunlight like a sprite poised atop light itself.",
-          "With a flick of her hair and a tilt of her chin, she looked at him—",
-          "eyes bright, leaving no room for refusal.",
-          "Rambler Channel | Near the CloudInsect’s core zone"
-        ],
-        "ja": [
-          "「お姉さんが、本物の雲虫を見せてあげる」",
-          "彼女はそのまま、ヘルメットを手に立っていた。散らかった物々に切り刻まれた光の旑に素足を置く姿は、光を踏む精霊のようだった。",
-          "マヒナは片手で髪をかき上げ、彼に向かってあごをしゃくった。その瞳には、拒むことを許さない明るさが宿っていた。",
-          "［ランブラー海峡｜雲虫のコア領域付近］"
-        ],
-        "ko": [
-          "“누나가 진짜 운충을 보여 줄게.”",
-          "그녀는 헬멧을 한손에 든 채 그대로 서 있었다. 잡물에 잘게 잘린 빛 조각을 맨발로 밟고 서 있는 모습은, 마치 빛 위에 내려선 정령 같았다.",
-          "그녀는 한손으로 머리카락을 걷어 넘기며 그에게 턱짓했다. 그 눈빛에는 거절을 용납하지 않는 환함이 깃들어 있었다.",
-          "[람블러 해협 | 운충 핵심 영역 인근]"
-        ],
-        "es": [
-          "«Tu hermana mayor va a enseñarte un CloudInsect de verdad.»",
-          "Allí estaba, casco en mano y descalza sobre las manchas de luz fragmentadas por el desorden, como un duende que caminara sobre la claridad.",
-          "Se apartó el cabello con una mano y alzó la barbilla hacia él. En sus ojos brillaba algo que no admitía una negativa.",
-          "[Canal Rambler | Cerca de la zona central de CloudInsect]"
-        ],
-        "fr": [
-          "« Grande sœur va t’emmener voir un véritable Insecte-Nuage. »",
-          "Elle se tenait là, un casque à la main, pieds nus dans les éclats de lumière morcelés par le désordre, telle une créature féerique marchant sur le jour.",
-          "D’une main, elle rejeta ses cheveux ; de l’autre mouvement, elle leva le menton vers lui. Une clarté sans réplique brillait dans ses yeux.",
-          "[Chenal Rambler | À proximité du cœur de l’Insecte-Nuage]"
-        ],
-        "ar": [
-          "«ستأخذك أختك الكبرى لترى حشرة سحاب حقيقية.»",
-          "وقفت هناك، تمسك الخوذة بيدها، وقدماها الحافيتان فوق بقع الضوء التي مزقتها الفوضى من حولها؛ كجنيّة تطأ النور.",
-          "أزاحت شعرها بيد، ورفعت ذقنها نحوه. كان في عينيها بريق لا يقبل الرفض.",
-          "[قناة رامبلر | قرب المنطقة المركزية لحشرة السحاب]"
-        ],
-        "ptBR": [
-          "“Sua irmã mais velha vai mostrar a você um Inseto-Nuvem de verdade.”",
-          "Ela estava ali, segurando o próprio capacete, os pés descalços sobre as manchas de luz fragmentadas pelos objetos espalhados, como uma criatura feérica caminhando sobre o brilho.",
-          "Com uma das mãos, afastou os cabelos; ao mesmo tempo, ergueu o queixo para ele. Havia em seus olhos uma claridade impossível de recusar.",
-          "[Estreito de Lanbale | Próximo à região central do Inseto-Nuvem]"
-        ],
-        "ru": [
-          "Старшая сестра покажет тебе настоящее облачное насекомое.",
-          "[Она просто стояла там, босиком на полу, с вторым шлемом в руке. Распустив свои волосы, она вскинула подбородок и посмотрела на него так, что спорить сразу расхотелось..]",
-          "Одной рукой она откинула волосы, другой чуть приподняла подбородок. В ярком взгляде читалось: отказа она не примет.",
-          "[Ламбальский пролив | Рядом с ядром поля облачного насекомого.]"
-        ],
         "vi": [
           "“Bà chị đây dẫn cậu đi chiêm ngưỡng Vân Trùng thực sự!”",
           "Cô đứng sừng sững ở đó, tay xách chiếc mũ bảo hiểm còn lại, đôi chân trần giẫm lên những vệt nắng vụn vỡ rải rác trên sàn nhà, tựa như một tinh linh kiêu hãnh đang khiêu vũ trên muôn luồng ánh sáng.",
@@ -614,6 +178,7 @@
       "video_src": null,
       "poster_src": null,
       "texts": {
+        "zh": [],
         "vi": []
       }
     },
@@ -631,78 +196,6 @@
           "“那我手放哪？总得抓点什么吧。”",
           "“搂我腰啊。”",
           "“啊？”"
-        ],
-        "zhHant": [
-          "摩托的引擎聲在無人的公路上疾馳而過。月牙兒穿着深色外套，頭盔下的髮尾在風中飛舞，目光冷靜專注，彷彿早已與那冰冷的機車合爲一體。",
-          "希揚坐在後座，輕輕搭着她肩膀，臉埋得有些低——偶爾抬眼，望向前方雲層深處，那道若隱若現、彷彿不是此世之物的龐然輪廓。",
-          "“別搭我肩，會影響我開車。”",
-          "“那我手放哪？總得抓點什麼吧。”",
-          "“摟我腰啊。”",
-          "“啊？”"
-        ],
-        "en": [
-          "The roar of the motorcycle engine sliced through the empty coastal highway.Mahina, in a dark jacket, leaned forward with quiet intensity. Strands of hair whipped out from beneath her helmet, her gaze sharp, unwavering—as if she and the machine had long become one.",
-          "Suvan sat behind her, one hand resting lightly on her shoulder.His head was bowed slightly, but every so often he glanced up—toward the distant outline of the CloudInsect, faint and colossal, a shape that seemed to belong to another world altogether.",
-          "“Don't touch my shoulder. You're throwing off my balance.”",
-          "“Then... where should I hold on? I need to grab something.”",
-          "“My waist.”",
-          "“...Huh?”"
-        ],
-        "ja": [
-          "オートバイのエンジン音が、人影のない道路を驚き抜けた。濃色のジャケットを着たマヒナの髪はヘルメットの下から風に舞い、その眼差しは冷静に前を据えていた。とうに冷たい機体と一つになったかのように。",
-          "後部座席のスヴァンは、彼女の肩にそっと手を添え、少しうつむいていた。ときおり目を上げては、前方の雲の奥、見え隠れするこの世のものとは思えない巨大な輪郭を見つめた。",
-          "「肩に手を置かないで。運転しにくい」",
-          "「じゃあ手はどこに？　何かにつかまってないと」",
-          "「私の腰につかまれば？」",
-          "「え？」"
-        ],
-        "ko": [
-          "오토바이 엔진음이 인적 없는 도로를 질주했다. 어두운 재킷을 입은 마히나의 머리끝이 헬멧 아래서 바람에 날렸다. 냉정하게 전방을 응시하는 눈빛은, 오래전부터 차가운 기계와 한 몸이었던 것처럼 보였다.",
-          "뒷자리의 수반은 그녀의 어깨에 손을 살짝 얹고 고개를 낮춘 채였다. 간혹 눈을 들어 앞쪽 구름 깊은 곳을 바라보았다. 이 세상의 것이 아닌 듯, 보일 듯 말 듯한 거대한 윤곽이 그곳에 있었다.",
-          "“어깨에 손 올리지 마. 운전에 방해돼.”",
-          "“그럼 손을 어디에 두라고? 뭔가는 잡아야지.”",
-          "“내 허리 잡아.”",
-          "“어?”"
-        ],
-        "es": [
-          "El motor de la motocicleta rugía por la carretera desierta. Mahina llevaba una chaqueta oscura; las puntas del cabello danzaban bajo el casco y su mirada, serena y concentrada, parecía haberse fundido hacía tiempo con la fría máquina.",
-          "Suvan iba detrás, apoyando apenas las manos en sus hombros y con el rostro algo inclinado. De vez en cuando alzaba los ojos hacia la inmensa silueta que se insinuaba en lo profundo de las nubes, como algo que no perteneciera a este mundo.",
-          "«No te apoyes en mis hombros. Me estorbas para conducir.»",
-          "«¿Y dónde pongo las manos? Tendré que agarrarme a algo.»",
-          "«Rodéame la cintura.»",
-          "«¿Qué?»"
-        ],
-        "fr": [
-          "Le rugissement de la moto déchira la route déserte. Sous son casque, les pointes des cheveux de Mahina dansaient au vent. Vêtue d’une veste sombre, le regard calme et concentré, elle semblait depuis longtemps ne faire qu’une avec la machine froide.",
-          "Assis derrière elle, Suvan posait légèrement les mains sur ses épaules, le visage baissé. Par instants, il levait les yeux vers les profondeurs nuageuses, vers l’immense silhouette qui apparaissait puis s’effaçait, comme étrangère à ce monde.",
-          "« Ne pose pas les mains sur mes épaules, ça me gêne pour conduire. »",
-          "« Où est-ce que je les mets ? Il faut bien que je me tienne. »",
-          "« Autour de ma taille. »",
-          "« Hein ? »"
-        ],
-        "ar": [
-          "مزق هدير الدراجة الطريق الخالي. كانت ماهينا ترتدي معطفًا داكنًا، وأطراف شعرها تطير من تحت الخوذة. نظرتها هادئة مركزة، كأن جسدها اندمج منذ زمن مع الآلة الباردة.",
-          "جلس سوفان خلفها، ووضع يديه بخفة على كتفيها، مطأطئ الرأس قليلًا. وبين حين وآخر كان يرفع عينيه نحو أعماق السحب أمامهما، إلى ذلك المحيط الهائل الذي يظهر ويختفي كأنه ليس من هذا العالم.",
-          "«لا تضع يديك على كتفيّ، ستعيقان قيادتي.»",
-          "«فأين أضعهما؟ لا بد أن أتمسك بشيء.»",
-          "«طوّق خصري.»",
-          "«ماذا؟»"
-        ],
-        "ptBR": [
-          "O rugido da motocicleta cortava a estrada deserta. Mahina vestia um casaco escuro; as pontas dos cabelos dançavam ao vento sob o capacete, e seu olhar permanecia frio e atento, como se ela e a máquina já fossem um só corpo.",
-          "Suvan seguia no banco traseiro, com as mãos pousadas de leve sobre os ombros dela e a cabeça um pouco baixa. De vez em quando, erguia os olhos para o fundo das nuvens, onde surgia e desaparecia o contorno colossal de algo que não parecia pertencer a este mundo.",
-          "“Não apoie as mãos nos meus ombros. Atrapalha a pilotagem.”",
-          "“Então onde ponho as mãos? Preciso me segurar em alguma coisa.”",
-          "“Abrace minha cintura.”",
-          "“O quê?”"
-        ],
-        "ru": [
-          "[Рёв мотоцикла разносился по пустому прибрежному шоссе. Юэя в тёмной куртке сидела, слегка наклонившись вперёд. Из-под шлема выбивались пряди волос, а в её взгляде читались сосредоточенность и спокойная уверенность.\n\nСиян сидел позади, слегка придерживаясь за её плечо. Он опустил голову, но время от времени поднимал взгляд в сторону далёкого силуэта облачного насекомого: громадного, чуждого, будто бы не из этого мира.]",
-          "Суван сидел сзади, едва касаясь ладонями её плеч, и низко прятал лицо. Иногда он поднимал глаза туда, где в глубине облаков проступал чудовищный силуэт, будто принадлежавший не этому миру.",
-          "Не держись за моё плечо, ты мешаешь мне водить.",
-          "И... за что мне тогда держаться...",
-          "За мою талию.",
-          "...А?"
         ],
         "vi": [
           "Tiếng gầm rú của động cơ mô tô xé toạc màn đêm trên cung đường cao tốc ven biển vắng tanh không bóng người. Nguyệt Nha Nhi khoác chiếc áo khoác tối màu, những lọn tóc bay bay trong gió luồn ra dưới vành mũ bảo hiểm, ánh mắt cô điềm tĩnh và tập trung cao độ, dường như đã từ lâu hòa làm một thể với cỗ xe kim loại lạnh lẽo.",
@@ -724,35 +217,6 @@
         "zh": [
           "他一下子更窘，支支吾吾地挪了下姿势，却也没再反驳，老老实实地环住她的腰。"
         ],
-        "zhHant": [
-          "他一下子更窘，支支吾吾地挪了下姿勢，卻也沒再反駁，老老實實地環住她的腰。"
-        ],
-        "en": [
-          "Suvan flushed, awkwardly shifting his posture.",
-          "He didn't argue this time.",
-          "Quietly, obediently—he wrapped his arms around her waist."
-        ],
-        "ja": [
-          "スヴァンはたちまちますます赤面し、しどろもどろに姿勢をずらした。それでも今度は口答えせず、おとなしく彼女の腰に腕を回した。"
-        ],
-        "ko": [
-          "수반은 더욱 민망해져 말을 더듬으며 자세를 고쳤다. 그러나 더는 항변하지 않고 순순히 그녀의 허리에 팔을 둘렀다."
-        ],
-        "es": [
-          "Se turbó todavía más y cambió de postura entre balbuceos. Pero no protestó: obediente, le rodeó la cintura con los brazos."
-        ],
-        "fr": [
-          "Encore plus décontenancé, il bredouilla en changeant de position, puis, sans protester davantage, passa docilement les bras autour de sa taille."
-        ],
-        "ar": [
-          "ازداد ارتباكه فجأة. تمتم وهو يغيّر جلسته، لكنه لم يعترض ثانية، بل أحاط خصرها بذراعيه في طاعة."
-        ],
-        "ptBR": [
-          "Ainda mais embaraçado, ele balbuciou e mudou um pouco de posição. Não discutiu outra vez: obediente, passou os braços em torno da cintura dela."
-        ],
-        "ru": [
-          "[Он смутился, неуверенно поёрзал, но не стал спорить и послушно обнял её за талию.]"
-        ],
         "vi": [
           "Cậu càng thêm bối rối ngượng ngùng, ấp úng dịch chuyển lại tư thế ngồi, nhưng cũng chẳng buồn cãi lại nữa, ngoan ngoãn đưa hai tay vòng qua ôm chặt lấy eo cô."
         ]
@@ -768,42 +232,6 @@
         "zh": [
           "“你确定这车进云虫场……真的没问题？”",
           "“放心，我考的可是云虫场内特种机车驾照。”"
-        ],
-        "zhHant": [
-          "“你確定這車進雲蟲場……真的沒問題？”",
-          "“放心，我考的可是雲蟲場內特種機車駕照。”"
-        ],
-        "en": [
-          "“You sure this thing can really handle the CloudInsect field?”",
-          "“Relax. I have a special motorcycle license for riding inside a CloudInsect field.”"
-        ],
-        "ja": [
-          "「このバイクで雲虫場に入って……本当に大丈夫なの？」",
-          "「心配しないで。雲虫場用特殊バイク免許は取ってあるから」"
-        ],
-        "ko": [
-          "“이 오토바이로 운충장에 들어가도…… 정말 괜찮을까?”",
-          "“걱정 마. 나 운충장 내 특수 이륜차 면허도 따았어.”"
-        ],
-        "es": [
-          "«¿Seguro que esta moto puede entrar en el campo CloudInsect… sin problemas?»",
-          "«Tranquilo. Tengo licencia especial para conducir motocicletas dentro de campos CloudInsect.»"
-        ],
-        "fr": [
-          "« Tu es sûre que cette moto peut entrer dans le champ de l’Insecte-Nuage… sans problème ? »",
-          "« Ne t’inquiète pas. J’ai le permis spécial pour conduire dans un champ d’Insecte-Nuage. »"
-        ],
-        "ar": [
-          "«أأنت متأكدة أن دخول هذه الدراجة حقل حشرة السحاب… لن يسبب مشكلة؟»",
-          "«اطمئن. لدي رخصة خاصة لقيادة الدراجات داخل حقل حشرة السحاب.»"
-        ],
-        "ptBR": [
-          "“Tem certeza de que esta moto vai ficar bem… dentro do campo do Inseto-Nuvem?”",
-          "“Fique tranquilo. Eu tenho habilitação especial para conduzir motocicletas em campos de Inseto-Nuvem.”"
-        ],
-        "ru": [
-          "Ты уверена, что твой мотоцикл выдержит поле облачного насекомого?",
-          "Успокойся. У меня лицензия S класса — специальный допуск на управление транспортом внутри поля насекомого."
         ],
         "vi": [
           "“Cậu có chắc là chiếc xe này đi vào trong trường Vân Trùng... thực sự không có vấn đề gì chứ?”",
@@ -821,35 +249,6 @@
         "zh": [
           "他低头盯着绑在小臂上的测试仪——几块简陋的电路板焊接而成，液晶屏上跳动着浅蓝色的读数。每一次数据更新，设备都会发出规律而细碎的“嘟——嘟——”声。那声音被内燃机的轰鸣包裹着，像是某种神秘生物在深海中的心跳。"
         ],
-        "zhHant": [
-          "他低頭盯着綁在小臂上的測試儀——幾塊簡陋的電路板焊接而成，液晶屏上跳動着淺藍色的讀數。每一次數據更新，設備都會發出規律而細碎的“嘟——嘟——”聲。那聲音被內燃機的轟鳴包裹着，像是某種神祕生物在深海中的心跳。"
-        ],
-        "en": [
-          "He kept his eyes fixed on the sensor strapped to his forearm—just a handful of crude circuit boards, wires messily soldered together.",
-          "Pale blue digits flickered across the LCD, blinking in soft, precise intervals.",
-          "With every new reading, the device gave off a faint beep—beep—, a sound swallowed by the roar of the combustion engine—like the heartbeat of some deep-sea creature, pulsing from the abyss."
-        ],
-        "ja": [
-          "スヴァンは前腕に縛りつけた測定器を見つめた。粗末な回路基板を数枚はんだ代物で、液晶画面に淡い青の数値が跳ねている。データが更新されるたび、装置は規則的な細い「ピー――ピー――」という音を立てた。その音は内燃機関の轟音に包まれ、深海に潜む謎の生き物の鼓動のように聞こえた。"
-        ],
-        "ko": [
-          "그는 팔뚝에 묶은 측정기를 내려다봤다. 조악한 회로 기판 몇 개를 납땜해 만든 장치였고, 액정 화면에서는 연한 파란색 수치가 튀었다. 데이터가 갱신될 때마다 장치는 규칙적이고 잘게 끊기는 “삐—— 삐——” 소리를 냈다. 내연기관의 폭음에 둘러싸인 그 소리는 심해에 숨은 신비로운 생물의 심장 박동 같았다."
-        ],
-        "es": [
-          "Bajó la vista hacia el medidor sujeto a su antebrazo: unas placas de circuito rudimentarias, soldadas entre sí, con cifras azul claro que palpitaban en la pantalla. Cada actualización producía un «bip… bip…» regular y tenue. Envuelto en el rugido del motor de combustión, sonaba como el corazón de una criatura misteriosa en las profundidades del mar."
-        ],
-        "fr": [
-          "Il regarda l’appareil fixé à son avant-bras : quelques circuits rudimentaires soudés ensemble, avec des chiffres bleu pâle sautillant sur un écran à cristaux liquides. À chaque mise à jour, l’appareil émettait un petit « bip — bip — » régulier. Pris dans le grondement du moteur à combustion, ce son ressemblait aux battements d’une créature mystérieuse au fond de l’océan."
-        ],
-        "ar": [
-          "خفض بصره إلى جهاز الاختبار المثبت على ساعده — بضع لوحات بدائية ملحومة معًا، تتقافز على شاشتها البلورية قراءات زرقاء شاحبة. ومع كل تحديث للبيانات كان الجهاز يصدر صفيرًا دقيقًا منتظمًا: «بيب— بيب—». غلّفه هدير محرك الاحتراق، فبدا كنبض مخلوق غامض في أعماق البحر."
-        ],
-        "ptBR": [
-          "Ele baixou os olhos para o aparelho preso ao antebraço — algumas placas de circuito rudimentares soldadas entre si, com números azul-claros saltando na tela de cristal líquido. A cada atualização dos dados, o equipamento emitia uma série regular de bipes curtos. Envolvido pelo rugido do motor a combustão, aquele som parecia o coração de uma criatura misteriosa nas profundezas do oceano."
-        ],
-        "ru": [
-          "[Он не сводил глаз с прибора, закреплённого на его предплечье — грубая сборка из плат и спутанных проводов, кое-как спаянных между собой. На маленьком экране вспыхивали бледно-голубые цифры. С каждым новым показанием устройство тихо подавало звуковой сигнал, тонущий в рёве двигателя, как сердцебиение какого-то глубоководного существа, пульсирующее где-то внизу, в темноте.]"
-        ],
         "vi": [
           "Cậu cúi đầu nhìn chăm chú vào thiết bị đo lường buộc trên cẳng tay mình — chỉ là vài bảng mạch thô sơ được hàn nối tạm bợ, trên màn hình tinh thể lỏng nhảy múa những con số phát ra ánh sáng lam nhạt. Mỗi lần dữ liệu được cập nhật, thiết bị lại phát ra tiếng kêu 'tút... tút...' đều đặn và khe khẽ. Âm thanh ấy bị tiếng gầm của động cơ đốt trong nuốt trọn, tựa như nhịp đập con tim của một sinh vật huyền bí nào đó nơi đáy biển sâu."
         ]
@@ -866,55 +265,6 @@
           "“原来……这个世界，是这么美的啊。”",
           "月牙儿没有接话，只是轻轻松开油门。风声裹挟着那句低语，一同被甩进身后逐渐拉远的长桥。摩托如流星般飞驰而去，朝着那道高悬天际的身影——云虫的轮廓正缓缓显现，像是沉睡在天穹之上的巨神。",
           "坐在后座的希扬，始终望着它。那句感慨像是压抑许久的喟叹。"
-        ],
-        "zhHant": [
-          "“原來……這個世界，是這麼美的啊。”",
-          "月牙兒沒有接話，只是輕輕鬆開油門。風聲裹挾着那句低語，一同被甩進身後逐漸拉遠的長橋。摩托如流星般飛馳而去，朝着那道高懸天際的身影——雲蟲的輪廓正緩緩顯現，像是沉睡在天穹之上的巨神。",
-          "坐在後座的希揚，始終望着它。那句感慨像是壓抑許久的喟嘆。"
-        ],
-        "en": [
-          "“So this is what the world looks like... when it’s truly beautiful.”",
-          "Mahina didn’t respond. She simply eased off the throttle.",
-          "The wind caught his quiet words, scattering them across the long, empty bridge behind them.",
-          "The motorcycle raced forward like a meteor, streaking toward the figure looming in the sky—the CloudInsect, vast and still, slowly revealing its silhouette.",
-          "Like a slumbering titan curled upon the edge of the firmament.",
-          "From the backseat, Suvan couldn’t take his eyes off it.",
-          "His voice had held the weight of something long buried."
-        ],
-        "ja": [
-          "「この世界って……こんなに美しかったんだ」",
-          "マヒナは何も返さず、ただそっとアクセルを戻した。風がそのつぶやきをさらい、遠ざかっていく長い橋の後方へ投げ捨てていく。オートバイは流星のように天際高く浮かぶ影へと駆けていった。雲虫の輪郭がゆっくりと姿を現しつつあった。大空の上に眠る巨神のように。",
-          "後部座席のスヴァンは、ずっとそれを見つめていた。あの一言は、長いあいだ胸の奥に押し込めてきたため息のようだった。"
-        ],
-        "ko": [
-          "“원래…… 이 세상이 이렇게 아름다운 거였구나.”",
-          "마히나는 대답하지 않고 가속 손잡이를 살짝 놓았다. 바람은 그 나직한 감탄을 휘감아 뒤로 멀어지는 긴 다리에 뿌렸다. 오토바이는 유성처럼 내달려 하늘 높이 매달린 그 형체를 향했다—— 운충의 윤곽이 천천히 드러났다. 창공 위에 잠든 거신 같았다.",
-          "뒷자리의 수반은 내내 그것을 바라보았다. 그 감탄은 오랫동안 가슴에 눌러 두었던 한숨 같았다."
-        ],
-        "es": [
-          "«Así que… el mundo era tan hermoso.»",
-          "Mahina no respondió; solo aflojó un poco el acelerador. El viento arrebató aquellas palabras y las arrojó al largo puente que se alejaba a sus espaldas. La moto corrió como un meteoro hacia la figura suspendida en el horizonte. El perfil de CloudInsect emergía poco a poco, semejante a un dios colosal dormido sobre la bóveda celeste.",
-          "Desde el asiento trasero, Suvan no apartó los ojos. Su asombro había sonado como un suspiro contenido durante demasiado tiempo."
-        ],
-        "fr": [
-          "« Alors… le monde est aussi beau que ça. »",
-          "Mahina ne répondit pas ; elle relâcha seulement un peu l’accélérateur. Le vent emporta cette confidence et la rejeta sur le long pont qui s’éloignait derrière eux. La moto fila comme une étoile vers la forme suspendue dans le ciel. Le contour de l’Insecte-Nuage se dévoilait lentement, tel un dieu colossal endormi au-dessus de la voûte céleste.",
-          "Derrière elle, Suvan ne cessait de le regarder. Ses mots avaient eu la profondeur d’un soupir trop longtemps retenu."
-        ],
-        "ar": [
-          "«إذًا… هذا العالم جميل إلى هذا الحد.»",
-          "لم تجبه ماهينا، بل خففت الوقود قليلًا. حملت الريح همسته وألقتها على الجسر الطويل الذي كان يبتعد وراءهما. انطلقت الدراجة كشهاب نحو ذلك الجسد المعلق عاليًا في السماء — كان محيط حشرة السحاب يتجلى ببطء، كإله عظيم نائم فوق قبة الفلك.",
-          "ظل سوفان في المقعد الخلفي ينظر إليها. خرجت عبارته كتنهيدة مكبوتة منذ زمن طويل."
-        ],
-        "ptBR": [
-          "“Então… o mundo é tão bonito assim.”",
-          "Mahina não respondeu; apenas aliviou de leve o acelerador. O vento levou consigo aquele murmúrio e o lançou sobre a longa ponte que se afastava atrás deles. Como um meteoro, a moto seguiu em direção à figura suspensa no céu. O contorno do Inseto-Nuvem emergia lentamente, como um deus gigantesco adormecido sobre a abóbada celeste.",
-          "No banco traseiro, Suvan não desviou os olhos. Aquelas palavras pareciam um suspiro contido havia muito tempo."
-        ],
-        "ru": [
-          "Оказывается... мир невероятно красивый.",
-          "[Его тихие слова растворились в ветре и остались где-то позади, на длинном пустом мосту. Мотоцикл нёсся вперёд, как метеор, прямо к силуэту, медленно проступающему в небе облачному насекомому: огромному, неподвижному, как спящий титан, свернувшийся на краю горизонта.",
-          "Сиян не мог отвести от него взгляд. От избытка чувств он резко глотнул воздух.]"
         ],
         "vi": [
           "“Hóa ra…… thế giới này, lại có thể tráng lệ và đẹp đẽ đến nhường này.”",
@@ -934,43 +284,6 @@
           "他们离云虫越来越近。巨神脚下，浓雾翻涌。",
           "数小时后，海峡中段"
         ],
-        "zhHant": [
-          "他們離雲蟲越來越近。巨神腳下，濃霧翻湧。",
-          "數小時後，海峽中段"
-        ],
-        "en": [
-          "They drew closer to the CloudInsect.",
-          "Beneath the slumbering giant, mist churned like a rising tide.",
-          "A few hours later | Mid-channel"
-        ],
-        "ja": [
-          "二人は雲虫にどんどん近づいていった。巨神の足元で、濃い霧が波打っていた。",
-          "数時間後、海峡中央部"
-        ],
-        "ko": [
-          "두 사람은 운충에 점점 다가갔다. 거신의 발아래에서 짙은 안개가 용솟음치고 있었다.",
-          "몇 시간 후, 해협 중간 지점"
-        ],
-        "es": [
-          "Cada vez estaban más cerca de CloudInsect. Bajo los pies del dios gigante, la niebla se encrespaba.",
-          "Varias horas después, en mitad del canal"
-        ],
-        "fr": [
-          "Ils approchaient de l’Insecte-Nuage. Sous les pieds du dieu immense, la brume bouillonnait.",
-          "Quelques heures plus tard, au milieu du chenal"
-        ],
-        "ar": [
-          "ازدادا قربًا من حشرة السحاب. وتحت قدمي الإله العظيم كان الضباب الكثيف يغلي.",
-          "بعد ساعات، في منتصف القناة"
-        ],
-        "ptBR": [
-          "Aproximavam-se cada vez mais do Inseto-Nuvem. Sob os pés do deus colossal, a névoa revolvia-se.",
-          "Horas depois, na região central do estreito"
-        ],
-        "ru": [
-          "[Они приближались к облачному насекомому. У ног гиганта клубился густой туман.]",
-          "[Несколько часов спустя. Центральная часть пролива]"
-        ],
         "vi": [
           "Họ đang ngày một tiến lại gần Vân Trùng hơn. Dưới chân vị cự thần, sương mù dày đặc cuồn cuộn dâng trào.",
           "Vài giờ sau, đoạn giữa eo biển..."
@@ -984,6 +297,7 @@
       "video_src": null,
       "poster_src": null,
       "texts": {
+        "zh": [],
         "vi": []
       }
     },
@@ -999,55 +313,6 @@
           "希扬下车后立刻展开仪器，蹲下开始调试。他检查显示屏，又迅速绕车一圈，确认四周的磁扰变化。",
           "“我第一次从这个角度看它……这里，正好位于云虫下方的干扰核心区域。简单的测试仪器可以开始运作了。”"
         ],
-        "zhHant": [
-          "他們在一段海峽中央的一段空曠路段停了車。頭頂正是雲蟲懸停的核心區域，厚重的雲層像一塊低垂的天蓋，緩緩壓迫着大地。",
-          "希揚下車後立刻展開儀器，蹲下開始調試。他檢查顯示屏，又迅速繞車一圈，確認四周的磁擾變化。",
-          "“我第一次從這個角度看它……這裏，正好位於雲蟲下方的干擾核心區域。簡單的測試儀器可以開始運作了。”"
-        ],
-        "en": [
-          "They stopped on an empty stretch of road in the middle of the channel.",
-          "Directly overhead loomed the core of the CloudInsect’s presence—",
-          "the clouds hung low and heavy, like a ceiling of sky sinking toward the earth.",
-          "As soon as Suvan got off the bike, he opened his equipment case and knelt down to begin calibration. He checked the display, then quickly circled the vehicle, scanning for magnetic fluctuations in the area.",
-          "“This is my first time seeing it from this angle...”",
-          "“We're right beneath the interference core of the CloudInsect.”",
-          "“Basic testing instruments should be able to function here.”"
-        ],
-        "ja": [
-          "二人は海峡の中ほど、開けた道路にバイクを停めた。頭上はちょうど、雲虫が滂空するコア領域だ。厚重な雲が低く垂れた天蓋のように、大地へゆっくりと圧力をかけていた。",
-          "スヴァンはバイクを降りるなり機器を広げ、しゃがんで調整を始めた。画面を確かめ、すぐにバイクの周囲を一周して、周辺の磁気擾乱の変化を確認した。",
-          "「この角度から見るのは初めてだ……ここはちょうど、雲虫の真下にある干渉の中心領域だ。簡単な測定器なら動き始めてる」"
-        ],
-        "ko": [
-          "두 사람은 해협 한가운데의 한적한 도로에 오토바이를 세웠다. 머리 위는 바로 운충이 멈춰 있는 핵심 영역이었다. 무거운 구름층이 낮게 드리운 천개처럼 대지를 서서히 짓눌렀다.",
-          "수반은 오토바이에서 내리자마자 장비를 펼쳐 놓고 웅크려 조정하기 시작했다. 화면을 점검한 다음 오토바이를 빠르게 한 바퀴 돌며 주변 자기 교란의 변화를 확인했다.",
-          "“이 각도에서 보는 건 처음이야…… 여기가 바로 운충 아래쪽의 교란 핵심 영역이야. 간단한 측정 장비는 작동하기 시작했어.”"
-        ],
-        "es": [
-          "Detuvieron la moto en un tramo despejado, en mitad del canal. Sobre ellos estaba la zona central donde flotaba CloudInsect. Las nubes pesadas descendían como una bóveda baja que oprimiera lentamente la tierra.",
-          "Nada más bajar, Suvan desplegó el equipo y se agachó para calibrarlo. Revisó la pantalla y dio una vuelta rápida a la moto para comprobar las variaciones magnéticas del entorno.",
-          "«Nunca lo había visto desde este ángulo… Estamos justo en el núcleo de la interferencia, debajo de CloudInsect. Los instrumentos de prueba más sencillos ya pueden funcionar.»"
-        ],
-        "fr": [
-          "Ils s’arrêtèrent sur une portion de route déserte, au milieu du chenal. Juste au-dessus d’eux se trouvait le cœur de la zone où stationnait l’Insecte-Nuage. Les nuées épaisses formaient un ciel bas qui pesait lentement sur la terre.",
-          "À peine descendu, Suvan déploya ses instruments et s’accroupit pour les régler. Il vérifia l’écran, puis fit rapidement le tour de la moto afin de mesurer les variations des perturbations magnétiques.",
-          "« C’est la première fois que je le vois sous cet angle… Nous sommes exactement au cœur des interférences, sous l’Insecte-Nuage. Les instruments simples commencent à fonctionner. »"
-        ],
-        "ar": [
-          "أوقفا الدراجة في جزء خالٍ من الطريق وسط القناة. فوق رأسيهما مباشرة كانت المنطقة المركزية التي تحوم فيها حشرة السحاب، فيما هبطت طبقات السحب الثقيلة كقبة سماء منخفضة تضغط الأرض ببطء.",
-          "ما إن نزل سوفان حتى نشر أجهزته وجثا يضبطها. فحص الشاشة، ثم دار سريعًا حول الدراجة ليتأكد من تغيرات التشويش المغناطيسي المحيط.",
-          "«هذه أول مرة أراها من هذه الزاوية… نحن هنا في قلب منطقة التشويش تحت حشرة السحاب مباشرة. بدأت أجهزة الاختبار البسيطة تعمل.»"
-        ],
-        "ptBR": [
-          "Pararam num trecho vazio da estrada, bem no meio do estreito. Acima deles ficava o núcleo da área em que o Inseto-Nuvem pairava; nuvens pesadas pendiam como uma abóbada baixa, comprimindo lentamente a terra.",
-          "Assim que desceu, Suvan abriu o equipamento e se agachou para regulá-lo. Conferiu o visor e contornou a moto depressa, verificando as mudanças na perturbação magnética ao redor.",
-          "“É a primeira vez que o vejo deste ângulo… Estamos exatamente sob o núcleo de interferência do Inseto-Nuvem. Instrumentos simples de medição já conseguem funcionar.”"
-        ],
-        "ru": [
-          "[Они остановились на пустом участке дороги посреди пролива. Прямо под облачным насекомым — тяжёлые облака висели низко, словно потолок неба, медленно давивший на землю.\n\nСиян сразу слез с мотоцикла, разложил приборы и присел, начав их настраивать. Он проверил дисплей, затем быстро обошёл мотоцикл, отслеживая изменения магнитных помех вокруг него.]",
-          "Соскочив с мотоцикла, Суван сразу разложил приборы и присел на корточки, настраивая их. Проверил экран, затем быстро обошёл мотоцикл и оценил изменения магнитных помех вокруг.",
-          "Я впервые вижу его с такого ракурса... Отлично, мы прямо под ядром поля насекомого, здесь обычные приборы уже могут нормально работать."
-        ],
         "vi": [
           "Họ dừng xe lại ở một đoạn đường trống trải nằm ngay chính giữa eo biển. Ngay trên đỉnh đầu họ chính là khu vực lõi nơi Vân Trùng đang lơ lửng, tầng mây xám xịt dày cộm tựa như một mái vòm khổng lồ trĩu nặng, đè nén mặt đất bên dưới.",
           "Hi Dương vừa xuống xe đã lập tức mở thiết bị ra, ngồi xổm xuống bắt đầu cân chỉnh. Cậu kiểm tra màn hình hiển thị, rồi nhanh chóng đi một vòng quanh xe để xác nhận sự biến đổi của độ nhiễu từ trường xung quanh.",
@@ -1062,6 +327,7 @@
       "video_src": null,
       "poster_src": null,
       "texts": {
+        "zh": [],
         "vi": []
       }
     },
@@ -1075,42 +341,6 @@
         "zh": [
           "“你装在我相机上的那个探测器，屏幕上完全没反应。”",
           "“嗯，液晶屏没反应是正常的，这种干扰场太强，驱动频率根本对不上。但只要你按下快门，装置还是会记录信号——只是现在看不见而已。”"
-        ],
-        "zhHant": [
-          "“你裝在我相機上的那個探測器，屏幕上完全沒反應。”",
-          "“嗯，液晶屏沒反應是正常的，這種干擾場太強，驅動頻率根本對不上。但只要你按下快門，裝置還是會記錄信號——只是現在看不見而已。”"
-        ],
-        "en": [
-          "“The detector you mounted on my camera—its screen isn’t responding at all.”",
-          "“Yeah, that’s expected. The LCD won’t react in this interference field—its driving frequency is completely mismatched. But as long as you press the shutter, the device will still capture the signal. You just can’t see it right now, that’s all.”"
-        ],
-        "ja": [
-          "「私のカメラに付けた探知機、画面はまったく反応ないけど」",
-          "「うん、液晶が反応しないのは普通だよ。干渉場が強すぎて、駆動周波数がまったく合わない。でもシャッターを切れば、装置自体は信号を記録する――今は表示されないだけ」"
-        ],
-        "ko": [
-          "“내 카메라에 달아 놓은 탐지기, 화면에 아무 반응도 없어.”",
-          "“응, 액정 화면에 반응이 없는 건 정상이야. 교란장이 너무 강해서 구동 주파수가 전혀 맞지 않거든. 그래도 셔터를 누르면 장치는 신호를 기록해—— 지금은 눈에 안 보일 뿐이야.”"
-        ],
-        "es": [
-          "«El detector que pusiste en mi cámara no muestra nada en la pantalla.»",
-          "«Es normal que la pantalla no responda. Este campo de interferencias es demasiado intenso y la frecuencia de excitación no logra sincronizarse. Pero cuando pulses el disparador, el aparato registrará la señal. Lo único es que ahora no puedes verla.»"
-        ],
-        "fr": [
-          "« Le détecteur que tu as monté sur mon appareil ne montre absolument rien. »",
-          "« C’est normal. Le champ d’interférences est trop puissant ; la fréquence de commande de l’écran ne peut pas s’y accorder. Mais dès que tu appuieras sur le déclencheur, le dispositif enregistrera bien le signal. Seulement, nous ne pouvons pas le voir pour l’instant. »"
-        ],
-        "ar": [
-          "«أما الكاشف الذي ثبّتّه على كاميرتي، فلا يظهر على شاشته شيء.»",
-          "«هذا طبيعي. مجال التشويش هنا قوي إلى حد أن تردد تشغيل الشاشة لا يستطيع التوافق معه. لكن حين تضغطين زر الالتقاط، سيظل الجهاز يسجل الإشارة — كل ما في الأمر أننا لا نستطيع رؤيتها الآن.»"
-        ],
-        "ptBR": [
-          "“O detector que você pôs na minha câmera não mostra nada na tela.”",
-          "“É normal que a tela de cristal líquido não responda. O campo de interferência é forte demais; a frequência de acionamento não consegue se ajustar. Mas, quando você apertar o obturador, o dispositivo ainda registrará o sinal. Só não podemos vê-lo agora.”"
-        ],
-        "ru": [
-          "Тот датчик, который ты закрепил на мою камеру, вообще не реагирует.",
-          "Ага, это нормально. ЖК-экраны не реагируют на эти помехи, так как частоты не совпадают. Но если ты нажмешь затвор, сигнал всё равно будет записан. Просто мы его сейчас не увидим."
         ],
         "vi": [
           "“Cái bộ phận cảm biến cậu gắn trên máy ảnh của tôi, màn hình của nó chẳng có chút phản ứng nào cả.”",
@@ -1128,43 +358,6 @@
         "zh": [
           "他从背包中取出另一台装置——一块改装过的电路板，接上了发光的二极管与细长天线。通过拨盘手动调节频率，导线连通电池，几秒后，指示灯依节奏闪烁，信号成功发出。",
           "“可以用了……果然，在离云虫足够近的地方，那些扰动变量可以忽略掉……简单的信号，就能穿透云虫场。”"
-        ],
-        "zhHant": [
-          "他從揹包中取出另一臺裝置——一塊改裝過的電路板，接上了發光的二極管與細長天線。通過撥盤手動調節頻率，導線連通電池，幾秒後，指示燈依節奏閃爍，信號成功發出。",
-          "“可以用了……果然，在離雲蟲足夠近的地方，那些擾動變量可以忽略掉……簡單的信號，就能穿透雲蟲場。”"
-        ],
-        "en": [
-          "He pulled another device from his backpack—a modified circuit board rigged with a glowing LED and a thin antenna.",
-          "He manually adjusted the frequency using a dial, connected the wires to a battery, and within seconds, the indicator light began blinking in a steady rhythm. The signal had gone through.",
-          "“It’s working... Just as I thought. Close enough to the CloudInsect, those interference variables become negligible. Simple signals can pierce through the field.”"
-        ],
-        "ja": [
-          "スヴァンはバックパックから、もう一台の装置を取り出した。改造した回路基板に発光ダイオードと細長いアンテナをつないだものだ。ダイヤルで周波数を手動調整し、導線を電池につなぐ。数秒後、インジケーターがリズムを刻んで点滅し、信号は無事に送出された。",
-          "「使える……やっぱり、雲虫に十分近い場所なら、擾乱変数は無視できる……単純な信号なら、雲虫場を突き抜けられるんだ」"
-        ],
-        "ko": [
-          "그는 배낭에서 다른 장치를 꺼냈다—— 개조한 회로 기판에 발광 다이오드와 길쭉한 안테나를 연결한 물건이었다. 다이얼로 주파수를 수동 조절한 뒤 도선을 배터리에 연결했다. 몇 초 뒤, 표시등이 일정한 리듬으로 깜빡이며 신호가 송출됐다.",
-          "“된다…… 역시 운충에 충분히 가까운 곳에서는 교란 변수를 무시할 수 있어…… 단순한 신호라면 운충장을 뚫고 나갈 수 있어.”"
-        ],
-        "es": [
-          "Sacó de la mochila otro aparato: una placa de circuito modificada, conectada a un diodo luminoso y una antena fina y alargada. Ajustó a mano la frecuencia con una rueda y conectó los cables a la batería. Segundos después, la luz parpadeó a un ritmo regular: la señal había sido emitida.",
-          "«Funciona… Tal como pensaba: lo bastante cerca de CloudInsect, las variables de perturbación pueden despreciarse… Una señal sencilla consigue atravesar el campo CloudInsect.»"
-        ],
-        "fr": [
-          "Il tira de son sac un autre dispositif : un circuit modifié relié à une diode lumineuse et à une longue antenne fine. Il régla manuellement la fréquence, raccorda les fils à la batterie et, quelques secondes plus tard, le voyant se mit à clignoter en rythme. Le signal était parti.",
-          "« Ça fonctionne… Comme prévu, assez près de l’Insecte-Nuage, les variables de perturbation deviennent négligeables… Un signal simple peut traverser le champ. »"
-        ],
-        "ar": [
-          "أخرج من حقيبته جهازًا آخر — لوحة دوائر معدّلة موصولة بصمام ثنائي مضيء وهوائي رفيع طويل. ضبط التردد يدويًا بقرص، ووصل الأسلاك بالبطارية. بعد ثوان أخذ المصباح يومض بإيقاع؛ انطلقت الإشارة بنجاح.",
-          "«إنه يعمل… كما توقعت. حين نقترب بما يكفي من حشرة السحاب، يمكن إهمال متغيرات الاضطراب… وتستطيع إشارة بسيطة اختراق الحقل.»"
-        ],
-        "ptBR": [
-          "Ele tirou da mochila outro aparelho: uma placa de circuito modificada, ligada a diodos luminosos e a uma antena fina. Ajustou manualmente a frequência no seletor e conectou os fios à bateria. Segundos depois, a luz indicadora piscou em ritmo regular: o sinal fora transmitido.",
-          "“Funcionou… Como eu imaginava: perto o bastante do Inseto-Nuvem, as variáveis de perturbação podem ser ignoradas… Um sinal simples consegue atravessar o campo.”"
-        ],
-        "ru": [
-          "[Он достал из рюкзака еще одно устройство — модифицированную плату со светодиодом и длинной антенной. Подкрутил колёсико для настройки частоты, подключил питание, и через несколько секунд диод ритмично замигал, сигнализируя об успешном запуске.]",
-          "Работает... Значит, на достаточном приближении к облачному насекомому помехи можно игнорировать — даже простой сигнал может проходить сквозь их поле."
         ],
         "vi": [
           "Cậu lấy từ trong ba lô ra một thiết bị khác — một bo mạch điện tử đã được cải tiến, gắn đèn đi-ốt phát quang cùng một chiếc ăng-ten mỏng dài. Cậu dùng núm xoay điều chỉnh tần số bằng tay, đấu dây nối vào cục pin, vài giây sau, đèn tín hiệu bắt đầu nhấp nháy theo nhịp điệu đều đặn. Tín hiệu đã được phát đi thành công.",
@@ -1187,89 +380,6 @@
           "“是不是被附近什么设备接收了，又自动反射回来？这附近……会不会还有别人？”",
           "“不可能。我的发射功率极低，等效距离不到五米。附近根本不可能有接收器……也没人。”",
           "“那你……再发一句试试。”"
-        ],
-        "zhHant": [
-          "他低頭準備記錄數據，忽然神色一變，盯住發射器的頻率反饋顯示。額頭悄然滲出細汗，手指也開始微微顫抖。",
-          "“……我收到回信了。”",
-          "“什麼回信？”",
-          "“我剛纔測試的時候發出了一句‘你好’……現在收到了同一頻段的回應——也是‘你好’。”",
-          "“是不是被附近什麼設備接收了，又自動反射回來？這附近……會不會還有別人？”",
-          "“不可能。我的發射功率極低，等效距離不到五米。附近根本不可能有接收器……也沒人。”",
-          "“那你……再發一句試試。”"
-        ],
-        "en": [
-          "He looked down, ready to log the data—",
-          "But suddenly, his expression froze. His eyes locked onto the frequency feedback on the transmitter.",
-          "A fine layer of sweat began to gather at his temples, and his fingers started to tremble.",
-          "“…I just got a reply.”",
-          "“A reply? From what?”",
-          "“I sent ‘Hello’ as a test just now… and I received a reply on the same frequency—also ‘Hello.’”",
-          "“Could it have bounced back from some nearby device? Maybe someone else is around here?”",
-          "“Impossible. The transmitter's power is minimal—its effective range is less than five meters. There can’t be any receivers nearby… and no people either.”",
-          "“Then… send another message. See what happens.”"
-        ],
-        "ja": [
-          "データを書き留めようとうつむいた瞬間、スヴァンの表情が変わった。送信機の周波数フィードバック表示を凝視する。額にはいつの間にか汗がにじみ、指先までが微かに震え始めた。",
-          "「……返信が来た」",
-          "「返信って？」",
-          "「さっきテストで『こんにちは』と送った……今、同じ周波数帯で応答が返ってきた。同じ『こんにちは』だ」",
-          "「近くの機器が受信して、自動的に反射したとか？　この近くに……ほかの誰かがいるんじゃない？」",
-          "「ありえない。送信出力はごく弱くて、実効距離は五メートルもない。近くに受信機があるはずがない……人もいない」",
-          "「じゃあ……もう一言、送ってみて」"
-        ],
-        "ko": [
-          "고개를 숙여 데이터를 기록하려던 수반의 표정이 갑자기 변했다. 그는 송신기의 주파수 피드백 표시를 응시했다. 이마에 어느새 식은땀이 배어나왔고, 손가락도 가늘게 떨리기 시작했다.",
-          "“…… 답신이 왔어.”",
-          "“무슨 답신?”",
-          "“아까 테스트하면서 ‘안녕’이라고 보냈어…… 그런데 방금 같은 주파수 대역에서 응답이 왔어—— 이쪽도 ‘안녕’이야.”",
-          "“근처의 어떤 장치가 신호를 받았다가 자동으로 반사해 돌려보낸 거 아니야? 이 근처에…… 다른 사람이 있는 건 아닐까?”",
-          "“그럴 수 없어. 송신 출력이 극히 낮아서 유효 거리가 5미터도 안 돼. 근처에 수신기가 있을 리 없어…… 사람도 없고.”",
-          "“그럼…… 한마디 더 보내 봐.”"
-        ],
-        "es": [
-          "Bajó la cabeza para anotar los datos, pero su expresión cambió de pronto. Se quedó mirando la lectura de retorno de frecuencia del transmisor. Un sudor fino le perló la frente y los dedos comenzaron a temblarle.",
-          "«…He recibido respuesta.»",
-          "«¿Qué respuesta?»",
-          "«Durante la prueba envié un “hola”… Y ahora he recibido una respuesta en la misma banda: también dice “hola”.»",
-          "«¿Y si algún aparato cercano la ha recibido y devuelto automáticamente? ¿Puede haber… alguien más por aquí?»",
-          "«Imposible. La potencia es ínfima: el alcance efectivo no llega a cinco metros. No puede haber ningún receptor cerca… ni ninguna persona.»",
-          "«Entonces… prueba a enviar otra cosa.»"
-        ],
-        "fr": [
-          "Il baissa la tête pour noter les données, puis son expression changea brusquement. Il fixa l’indicateur de retour de fréquence. Une sueur fine perla sur son front ; ses doigts se mirent à trembler.",
-          "« … J’ai reçu une réponse. »",
-          "« Quelle réponse ? »",
-          "« Pendant le test, j’ai envoyé “bonjour”… Je viens de recevoir une réponse sur la même bande. Elle dit aussi “bonjour”. »",
-          "« Un appareil voisin l’a peut-être capté et renvoyé automatiquement ? Il y aurait… quelqu’un d’autre ici ? »",
-          "« Impossible. La puissance est infime, la portée utile n’atteint pas cinq mètres. Il ne peut pas y avoir de récepteur à proximité… ni personne. »",
-          "« Alors… envoie autre chose. »"
-        ],
-        "ar": [
-          "طأطأ رأسه ليستعد لتسجيل البيانات، ثم تبدلت ملامحه فجأة. حدّق في مؤشر ارتداد التردد على جهاز الإرسال. ندى العرق جبينه، وبدأت أصابعه ترتجف قليلًا.",
-          "«…تلقيت ردًا.»",
-          "«أي رد؟»",
-          "«أرسلت أثناء الاختبار كلمة ‹مرحبًا›… والآن وصلت إجابة على النطاق نفسه — تقول ‹مرحبًا› أيضًا.»",
-          "«ربما التقطها جهاز قريب ثم أعادها تلقائيًا؟ هل يمكن أن يكون… أحد آخر هنا؟»",
-          "«مستحيل. قدرة الإرسال منخفضة جدًا، ومداها الفعلي أقل من خمسة أمتار. لا يمكن أن يوجد جهاز استقبال قريب… ولا يوجد أحد.»",
-          "«إذًا… أرسل شيئًا آخر.»"
-        ],
-        "ptBR": [
-          "Ele baixou a cabeça para anotar os dados, mas sua expressão mudou de repente. Fitou a leitura de retorno da frequência no transmissor. Um suor fino surgiu em sua testa, e os dedos começaram a tremer.",
-          "“…Recebi uma resposta.”",
-          "“Que resposta?”",
-          "“Durante o teste, enviei um ‘olá’… Agora chegou uma resposta na mesma frequência. Também diz ‘olá’.”",
-          "“Será que algum aparelho por perto recebeu o sinal e o refletiu automaticamente? Talvez… haja mais alguém aqui?”",
-          "“Impossível. A potência do transmissor é baixíssima; o alcance efetivo não chega a cinco metros. Não pode haver um receptor por perto… nem há ninguém aqui.”",
-          "“Então… tente mandar outra coisa.”"
-        ],
-        "ru": [
-          "[Он опустил взгляд на прибор и вдруг замер, уставившись на частотный отклик устройства. На лбу выступил пот, а пальцы задрожали.]",
-          "…Мне ответили.",
-          "В смысле?",
-          "Я только что отправил «Привет»…\nИ сразу же получил ответ на той же частоте — тоже «Привет».",
-          "Может, что-то поблизости поймало и отразило сигнал? Тут... есть кто-то ещё?",
-          "Невозможно.\nМощность передачи мизерная — диапазон меньше 5 метров. Здесь нет других приёмников... и людей — тоже.",
-          "Тогда... попробуй отправить ещё одно сообщение."
         ],
         "vi": [
           "Cậu cúi đầu chuẩn bị ghi chép số liệu, bỗng nhiên sắc mặt thay đổi đột ngột, ánh mắt dán chặt vào màn hình phản hồi tần số của bộ phát tín hiệu. Mồ hôi lạnh lấm tấm rịn ra trên trán, những ngón tay cũng bắt đầu run rẩy nhè nhẹ.",
@@ -1296,74 +406,6 @@
           "‘我’。‘是’。‘播……种……者’。",
           "当最后一个字落下，他的手微微一抖，笔尖差点划破纸页。"
         ],
-        "zhHant": [
-          "他重新調頻，將輸入改爲：“你是誰？”",
-          "幾秒之後，指示燈再次亮起，短促但清晰，回波信號準確地返回。",
-          "他迅速在身旁翻出那本筆記本，在紙上記下每一道二進制信號的明滅節奏。一邊寫，一邊對照表格解碼，每還原出一個字，手指就停頓片刻——",
-          "‘我’。‘是’。‘播……種……者’。",
-          "當最後一個字落下，他的手微微一抖，筆尖差點劃破紙頁。"
-        ],
-        "en": [
-          "He adjusted the frequency again and changed the input to: “Who are you?”",
-          "Seconds later, the indicator light blinked—short, sharp, unmistakable.",
-          "The return signal was precise.",
-          "He quickly grabbed a notebook from his side and began jotting down the on-and-off rhythm of each binary flash.",
-          "As he wrote, he decoded them one by one, cross-referencing a chart beside him.",
-          "With each character deciphered, his pen paused for a beat—",
-          "‘I’",
-          "‘am’",
-          "‘the… Sow…er…’",
-          "When the final word appeared, his hand trembled, the pen nearly tearing the paper."
-        ],
-        "ja": [
-          "スヴァンは周波数を調整し直し、入力を「あなたは誰だ？」に変えた。",
-          "数秒後、インジケーターが再び点灯した。短く、しかし鮮明に、応答信号が正確に返ってきた。",
-          "スヴァンはすぐに傍らのノートをつかみ、二進信号の明滅のリズムを一つずつ紙に書き留めた。書きながら対応表と照らし合わせ、一文字を復元するたびに、指がひととき止まった――",
-          "「私」。「は」。「種……を播く……者」。",
-          "最後の一文字を書き終えたとき、彼の手がかすかに震え、ペン先があやうく紙を引き裂きかけた。"
-        ],
-        "ko": [
-          "그는 주파수를 다시 맞추고 입력을 “너는 누구지?”로 바꿘다.",
-          "몇 초 뒤 표시등이 다시 켜졌다. 짧지만 선명했고, 응답 신호는 정확하게 돌아왔다.",
-          "수반은 각이 있던 공책을 빠르게 펼쳐 이진 신호의 명멸 리듬을 하나씩 종이에 적었다. 쓰는 동시에 표와 대조해 해독했고, 글자 하나를 복원할 때마다 손가락이 잠시 멈췄다——",
-          "‘나’.‘는’.‘씨…… 뿌리는…… 자’.",
-          "마지막 글자를 적는 순간 그의 손이 살짝 떨렸고, 펜촉이 종이를 찢어 버릴 뻔했다."
-        ],
-        "es": [
-          "Reajustó la frecuencia e introdujo: «¿Quién eres?»",
-          "Segundos después, la luz volvió a encenderse. Breve, pero nítida: el eco había regresado con precisión.",
-          "Sacó a toda prisa el cuaderno y anotó el ritmo de cada destello de la señal binaria. Escribía y descifraba con ayuda de una tabla. Cada vez que recuperaba un carácter, sus dedos se detenían un instante:",
-          "“Yo”.“soy”.“el… Sembrador”.",
-          "Al escribir el último carácter, la mano le tembló y la punta del bolígrafo casi rasgó el papel."
-        ],
-        "fr": [
-          "Il régla de nouveau la fréquence et saisit : « Qui es-tu ? »",
-          "Quelques secondes plus tard, le voyant se ralluma. Bref, mais net. L’écho revint avec précision.",
-          "Il retrouva précipitamment son carnet et nota le rythme de chaque allumage et extinction du signal binaire. Il écrivait tout en décodant à l’aide d’un tableau ; à chaque mot reconstitué, ses doigts s’arrêtaient —",
-          "« Je ».« suis ».« le… Se… meur ».",
-          "Au dernier mot, sa main tressaillit et la pointe du stylo faillit déchirer la page."
-        ],
-        "ar": [
-          "أعاد ضبط التردد، وغيّر الرسالة إلى: «من أنت؟»",
-          "بعد ثوان أضاء المؤشر من جديد. ومض قصير واضح، وعادت إشارة الصدى بدقة.",
-          "أخرج دفتره بسرعة، ودوّن على الورق إيقاع كل ومضة وانطفاء في الإشارة الثنائية. كان يكتب ويقارن بالجدول ليفك الشفرة، وكلما استعاد كلمة توقفت أصابعه لحظة—",
-          "‹أنا›.‹هو›.‹الزارع…›.",
-          "حين كتب الكلمة الأخيرة ارتعشت يده، وكاد سن القلم يمزق الورقة."
-        ],
-        "ptBR": [
-          "Ele reajustou a frequência e mudou a mensagem para: ‘Quem é você?’",
-          "Alguns segundos depois, a luz indicadora acendeu outra vez. Breve, mas nítido, o eco retornou com precisão.",
-          "Ele puxou às pressas o caderno, anotando no papel o ritmo de cada pulso binário. Enquanto escrevia, comparava os sinais com uma tabela e os decodificava. A cada palavra recuperada, seus dedos paravam por um instante —",
-          "‘Eu’.‘sou’.‘o Se… me… a… dor’.",
-          "Ao terminar a última palavra, sua mão estremeceu; a ponta da caneta quase rasgou a página."
-        ],
-        "ru": [
-          "Он снова настроил частоту и ввёл: «Кто ты?»",
-          "[Он перенастроил частоту, ввёл: «Кто ты?». Через несколько секунд светодиод снова вспыхнул — короткий, чёткий отклик, ошибки быть не может.]",
-          "[Он вытащил блокнот, быстро записал длину каждой вспышки — единицы и нули. Сверяясь с таблицей, расшифровывал сообщение, делая паузу на каждом символе.]",
-          "'Я.''Есть.''Се...я...тель'",
-          "[На последнем слове его рука дрогнула — ручка едва не прорвала страницу.]"
-        ],
         "vi": [
           "Cậu chỉnh lại tần số, đổi nội dung nhập thành: “Ngươi là ai?”",
           "Vài giây sau, đèn chỉ thị lại một lần nữa sáng lên, ngắn ngủi nhưng vô cùng dứt khoát và rõ ràng, tín hiệu phản hồi quay trở lại chuẩn xác.",
@@ -1385,52 +427,6 @@
           "这时，月牙儿忽然发出一声压低的惊呼，打断了他的思绪。那声音里带着明显的惊惧，比他此刻还要更慌乱几分——",
           "“希扬！别管信号了，你快过来看这个——！”"
         ],
-        "zhHant": [
-          "“‘……我是播種者……’？”",
-          "這時，月牙兒忽然發出一聲壓低的驚呼，打斷了他的思緒。那聲音裏帶着明顯的驚懼，比他此刻還要更慌亂幾分——",
-          "“希揚！別管信號了，你快過來看這個——！”"
-        ],
-        "en": [
-          "“‘…I’m the Sower…?’”",
-          "Just then, Mahina let out a sharp, hushed gasp that snapped him out of his thoughts.",
-          "There was fear in her voice—clear and urgent—more shaken than he was.",
-          "“Suvan! Forget the signal—come look at this, now!”"
-        ],
-        "ja": [
-          "「『……私は、種を播く者……』？」",
-          "そのとき、マヒナが押し殺した悲鳴をあげ、彼の思考を断ち切った。その声にははっきりと恐怖が混じり、今のスヴァンよりもさらに取り乱していた――",
-          "「スヴァン！　信号はいいから、早くこれを見に来て――！」"
-        ],
-        "ko": [
-          "“‘…… 나는 씨 뿌리는 자……’?”",
-          "그때 마히나가 낮게 누른 외침을 터뜨려 그의 상념을 끊었다. 그 목소리에는 떠렀한 공포가 섞여 있었고, 지금의 그보다도 한층 더 당황한 기색이었다——",
-          "“수반! 신호는 그만 봐, 빨리 와서 이것 좀 봐——!”"
-        ],
-        "es": [
-          "«“…Yo soy el Sembrador…”?»",
-          "Entonces Mahina soltó una exclamación ahogada que quebró sus pensamientos. En su voz había un miedo manifiesto, una alarma aún mayor que la de él:",
-          "«¡Suvan! ¡Olvida la señal y ven a ver esto!»"
-        ],
-        "fr": [
-          "« “… Je suis le Semeur…” ? »",
-          "Soudain, Mahina étouffa un cri qui brisa le fil de ses pensées. Sa voix portait une peur manifeste, plus vive encore que la sienne —",
-          "« Suvan ! Laisse le signal, viens voir ça — ! »"
-        ],
-        "ar": [
-          "«‹…أنا الزارع…›؟»",
-          "عندئذ أطلقت ماهينا شهقة مكتومة قطعت أفكاره. كان في صوتها خوف صريح، أشد اضطرابًا منه في تلك اللحظة—",
-          "«سوفان! دعك من الإشارة، تعال وانظر إلى هذا—!»"
-        ],
-        "ptBR": [
-          "“‘…Eu sou o Semeador…’?”",
-          "Nesse momento, Mahina soltou uma exclamação abafada e interrompeu-lhe os pensamentos. O medo em sua voz era evidente; parecia ainda mais perturbada do que ele —",
-          "“Suvan! Esqueça o sinal e venha ver isto, depressa!”"
-        ],
-        "ru": [
-          "...Я есть Сеятель..?",
-          "[В этот момент Юэя резко приглушённо вскрикнула, оборвав ход его мыслей. В её голосе звучал испуг — сильнее, чем у него самого.]",
-          "Сиян! Забей на сигнал — быстро иди сюда, посмотри на это!"
-        ],
         "vi": [
           "“‘... Tôi là Kẻ Gieo Mầm...’ ư?”",
           "Đúng lúc này, Nguyệt Nha Nhi bỗng thốt lên một tiếng kinh hô nén chặt, cắt đứt dòng suy nghĩ đang cuộn trào của cậu. Thanh âm ấy chứa đựng nỗi hoảng loạn và sợ hãi tột cùng, thậm chí còn thất thần hơn cả cậu lúc này —",
@@ -1451,60 +447,6 @@
           "漩涡中央微微塌陷，像是在持续坍缩，时空在那一点悄然拉伸、变形，仿佛正被撕开一道裂缝。",
           "月牙儿站在它面前，怔怔望着这奇异结构，眼中闪过惊惧与迷惑。她缓缓伸出手，指尖颤抖着，朝那片塌陷的空间伸去——"
         ],
-        "zhHant": [
-          "他回頭望去——",
-          "一團發光的漩渦懸浮在地表半米處，約莫巴掌大，靜靜旋轉着。邊緣出現引力透鏡效應，光線被扭曲成一圈模糊的暈環，連周圍的空氣都彷彿被牽引，幾近停滯。",
-          "漩渦中央微微塌陷，像是在持續坍縮，時空在那一點悄然拉伸、變形，彷彿正被撕開一道裂縫。",
-          "月牙兒站在它面前，怔怔望着這奇異結構，眼中閃過驚懼與迷惑。她緩緩伸出手，指尖顫抖着，朝那片塌陷的空間伸去——"
-        ],
-        "en": [
-          "He turned around—",
-          "A glowing vortex hovered half a meter above the ground, no larger than a human palm. It spun in utter silence, its edges bending light into a blurred halo—gravitational lensing in motion. Even the air around it seemed pulled inward, frozen in place.",
-          "At the center, the vortex sagged inward slightly, as if collapsing—space and time stretching, distorting, unraveling into what felt like the beginning of a tear.",
-          "Mahina stood before it, staring at the strange structure with fear and confusion in her eyes. Slowly, she reached out—fingers trembling—toward that collapsing fold in space."
-        ],
-        "ja": [
-          "スヴァンは振り返った――",
-          "地表から半メートルほどの空中に、手のひら大の発光する渦が浮かび、静かに回転していた。縁では重力レンズ効果が生じ、光は歪められてぼんやりとした環になっている。周りの空気さえ引き寄せられ、ほとんど止まっているように見えた。",
-          "渦の中心はわずかに落ち込み、絶えず崩壊し続けているようだった。時空はその一点でひそやかに引き伸ばされ、歪み、今にも一筋の裂け目に引き破られそうだった。",
-          "マヒナはその前に立ち、異様な構造を呆然と見つめていた。瞳に恐怖と困惑がよぎる。やがて彼女はゆっくりと手を伸ばし、震える指先を、落ち込んだ空間へと近づけていった――"
-        ],
-        "ko": [
-          "그가 뒤돌아보았다——",
-          "지면에서 반 미터쯤 떨어진 공중에 손바닥만 한 빛의 소용돌이가 떠서 고요히 회전하고 있었다. 가장자리에서는 중력 렌즈 효과가 나타나 빛이 휘어져 흐릿한 테를 이뤄다. 주변의 공기마저 끌려가 거의 멈춘 듯했다.",
-          "소용돌이의 중심은 미세하게 꺼져 들어가 계속 붕괴하는 듯했다. 시공간이 그 한 점에서 조용히 늘어나고 변형되며, 마치 한 줄기 균열로 찢어지려는 듯했다.",
-          "마히나는 그 앞에 서서 기이한 구조물을 넋을 잃고 바라봤다. 두려움과 혼란이 그녀의 눈을 스쳤다. 그녀는 천천히 손을 뻗었다. 떨리는 손끝이 꺼져 든 그 공간을 향했다——"
-        ],
-        "es": [
-          "Se volvió.",
-          "Un remolino luminoso, del tamaño de una palma, flotaba a medio metro del suelo y giraba en silencio. En sus bordes se producía un efecto de lente gravitacional: la luz se curvaba en un halo borroso y hasta el aire parecía atraído, casi inmóvil.",
-          "El centro se hundía poco a poco, como en un colapso continuo. En aquel punto, el espacio-tiempo se estiraba y deformaba en silencio, como si una grieta estuviera abriéndose.",
-          "Mahina estaba frente a él, inmóvil, contemplando aquella estructura imposible con miedo y desconcierto en los ojos. Alargó lentamente una mano. Los dedos le temblaban mientras se acercaban al espacio hundido…"
-        ],
-        "fr": [
-          "Il se retourna —",
-          "Un tourbillon lumineux, grand comme une paume, flottait à un demi-mètre du sol et tournait en silence. Sur son bord, un effet de lentille gravitationnelle déformait la lumière en un halo flou. Même l’air alentour semblait attiré vers lui, presque immobile.",
-          "Son centre s’affaissait légèrement, comme en perpétuel effondrement. En ce point, l’espace-temps s’étirait, se déformait en silence, comme si une fissure était en train de s’ouvrir.",
-          "Mahina se tenait devant lui, pétrifiée, fixant cette structure étrange. La peur et l’incompréhension traversèrent ses yeux. Lentement, elle tendit une main tremblante vers l’espace affaissé —"
-        ],
-        "ar": [
-          "استدار—",
-          "كانت دوامة مضيئة بحجم الكف معلقة على ارتفاع نصف متر من الأرض، تدور في صمت. عند حافتها ظهر تأثير عدسة الجاذبية، فانحنى الضوء إلى هالة ضبابية، وحتى الهواء من حولها بدا مشدودًا إليها، يكاد يتوقف.",
-          "كان مركز الدوامة غائرًا قليلًا، كأنه يواصل الانهيار. تمدد الزمكان عند تلك النقطة وتشوه في صمت، كأن شقًا يُمزق فيه.",
-          "وقفت ماهينا أمامها تحدق مشدوهة في البنية الغريبة. مرّ الخوف والحيرة في عينيها. مدّت يدها ببطء، وأطراف أصابعها ترتجف نحو ذلك الفراغ المنهار—"
-        ],
-        "ptBR": [
-          "Ele se virou —",
-          "Um vórtice luminoso, do tamanho de uma palma, pairava meio metro acima do chão e girava em silêncio. Em torno das bordas surgia um efeito de lente gravitacional: a luz se curvava num halo difuso, e até o ar ao redor parecia atraído, quase imóvel.",
-          "O centro do vórtice afundava ligeiramente, em colapso contínuo. Naquele ponto, o espaço-tempo se alongava e se deformava em silêncio, como se uma fenda estivesse prestes a ser rasgada.",
-          "Mahina parou diante dele, contemplando atônita a estrutura impossível. Medo e perplexidade atravessaram seus olhos. Devagar, estendeu a mão; os dedos trêmulos avançaram para o espaço em colapso —"
-        ],
-        "ru": [
-          "Он обернулся.",
-          "[Он обернулся и увидел, как над землёй, на полуметровой высоте, висит светящийся вихрь размером с ладонь. По краям — эффект гравитационной линзы, свет искажал форму, создавая расплывчатый ореол, и даже воздух вокруг почти остановился под его воздействием.\n\nЦентр вихря был вдавлен, как будто продолжал сжимать материю вокруг. Пространство и время медленно растягивались и искривлялись — словно там рвался сам мир.\n\nЮэя стояла перед вихрем, поражённо глядя на аномалию. В её глазах мелькали страх и замешательство. Она медленно подняла дрожащую руку и потянулась к разрыву.]",
-          "Центр вихря чуть проседал, будто непрерывно схлопывался. В одной точке пространство-время беззвучно растягивалось и деформировалось, словно кто-то разрывал в нём щель.",
-          "Махина стояла перед странной структурой и смотрела на неё, оцепенев от страха и недоумения. Медленно подняла руку; дрожащие пальцы потянулись к провалу в пространстве…"
-        ],
         "vi": [
           "Cậu ngoảnh đầu nhìn lại —",
           "Một xoáy lốc ánh sáng phát quang đang lơ lửng cách mặt đất chừng nửa mét, kích thước chỉ độ bằng một lòng bàn tay, đang lặng lẽ xoay tròn trong tĩnh mịch tuyệt đối. Ở rìa ngoài xuất hiện hiệu ứng thấu kính hấp dẫn, ánh sáng bị bẻ cong thành một vầng hào quang nhòe mờ, ngay cả không khí xung quanh dường như cũng bị lực hút kéo lệch, gần như đông cứng lại.",
@@ -1514,5 +456,5 @@
       }
     }
   ],
-  "title_vi": "Vân Trùng · Chương 3: Ngoài Nón Ánh Sáng · I · v5.1.39"
+  "title_vi": "Vân Trùng · Chương 3: Ngoài Nón Ánh Sáng · I · v5.2.55"
 }

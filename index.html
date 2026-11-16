@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="v5.2.54" name="cloudinsect-version"/>
-<title>云虫 阅读目录 · v5.2.54</title>
+<title>Vân Trùng · Mục lục đọc truyện · v5.2.55</title>
 <link href="assets/cloud-insect-logo-v4.2.03.png" rel="icon"/>
 <style>
     :root {
@@ -462,7 +462,7 @@
       .title-line h1 { font-size: clamp(54px, 15vw, 76px); }
     }
   </style>
-<link href="assets/site-footer.css?v=5.2.54" rel="stylesheet"/>
+<link href="assets/site-footer.css?v=5.2.55" rel="stylesheet"/>
 <style data-cloudinsect-language-select="true">
 .language-select {
   min-height: 36px;
@@ -689,7 +689,12 @@ html[lang="ru"] .chapter-name {
   }
 }
 </style>
-<style data-cloudinsect-chapter-cover-face="">.chapter-row[href="chapter-5-wuzhui-2.html"]::before { opacity:1; }.chapter-row[href="chapter-5-wuzhui-2.html"]::after {background:linear-gradient(90deg,rgba(5,6,7,.82) 0%,rgba(5,6,7,.62) 36%,rgba(5,6,7,.08) 62%,rgba(5,6,7,.08) 100%),linear-gradient(0deg,rgba(5,6,7,.3) 0%,rgba(5,6,7,0) 64%);}</style><link rel="preconnect" href="https://fonts.googleapis.com">
+<style data-cloudinsect-chapter-cover-face="">.chapter-row[href="chapter-5-wuzhui-2.html"]::before { opacity:1; }.chapter-row[href="chapter-5-wuzhui-2.html"]::after {background:linear-gradient(90deg,rgba(5,6,7,.82) 0%,rgba(5,6,7,.62) 36%,rgba(5,6,7,.08) 62%,rgba(5,6,7,.08) 100%),linear-gradient(0deg,rgba(5,6,7,.3) 0%,rgba(5,6,7,0) 64%);}</style>
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 <style data-cloudinsect-vi-style="true">
@@ -798,7 +803,7 @@ html[lang="vi"] .chapter-action {
 <figure aria-hidden="true" class="cover-bg">
 <video autoplay="" id="homeBgVideo" loop="" muted="" playsinline="" preload="metadata"></video>
 </figure>
-<div aria-label="Language selection" class="language-toggle" role="group"><select aria-label="Language" class="language-select"><option value="vi">Tiếng Việt</option><option value="zh">简体</option><option value="zhHant">繁體</option><option value="en">English</option><option value="ja">日本語</option><option value="ko">한국어</option><option value="ptBR">Português do Brasil</option><option value="ru">Русский</option><option value="es">Español</option><option value="fr">Français</option><option value="ar">العربية</option></select></div>
+<div aria-label="Language selection" class="language-toggle" role="group"><select aria-label="Language" class="language-select"><option value="vi">Tiếng Việt</option><option value="zh">简体中文</option></select></div>
 <section aria-labelledby="site-title" class="intro">
 <div>
 <div class="brand">
@@ -945,19 +950,7 @@ html[lang="vi"] .chapter-action {
 <script>
     (function () {
       const controls = Array.from(document.querySelectorAll('.language-option'));
-      const languageMeta = {
-        vi: { htmlLang: 'vi', title: 'Vân Trùng · Mục lục đọc truyện · v5.2.54' },
-        zh: { htmlLang: 'zh-CN', title: '云虫 阅读目录 · v5.2.54' },
-        zhHant: { htmlLang: 'zh-Hant', title: '雲蟲 閱讀目錄 · v5.2.54' },
-        en: { htmlLang: 'en', title: 'CloudInsect Reading Catalog · v5.2.54' },
-        ja: { htmlLang: 'ja', title: '雲虫 閲覧目次 · v5.2.54' },
-        ko: { htmlLang: 'ko', title: '운충 읽기 목차 · v5.2.54' },
-        es: { htmlLang: 'es', title: 'CloudInsect · Catálogo de lectura · v5.2.54' },
-        fr: { htmlLang: 'fr', title: "Insecte-Nuage · Sommaire · v5.2.54" },
-        ar: { htmlLang: 'ar', title: 'حشرة السحاب · فهرس القراءة · v5.2.54' },
-        ptBR: { htmlLang: 'pt-BR', title: "Inseto-Nuvem · Sumário · v5.2.54" },
-        ru: { htmlLang: 'ru', title: "Облачное насекомое · Содержание · v5.2.54" }
-      };
+      const languageMeta = {"vi": {"htmlLang": "vi", "title": "Vân Trùng · Mục lục đọc truyện · v5.2.55"}, "zh": {"htmlLang": "zh-CN", "title": "云虫 阅读目录 · v5.2.55"}};
       function readStoredValue(key) {
         try {
           return window.localStorage.getItem(key);
@@ -976,13 +969,11 @@ html[lang="vi"] .chapter-action {
         const lang = languageMeta[nextLang] ? nextLang : 'zh';
         document.documentElement.lang = languageMeta[lang].htmlLang;
         document.title = languageMeta[lang].title;
-        document.querySelectorAll('[data-zh][data-zh-hant][data-en]').forEach((el) => {
-          const key = lang === 'zhHant' ? 'zhHant' : (lang === 'ptBR' ? 'ptBr' : lang);
-          el.textContent = el.dataset[key] || el.dataset.zh;
+        document.querySelectorAll('[data-zh]').forEach((el) => {
+          el.textContent = (lang === 'vi' ? el.dataset.vi : el.dataset.zh) || el.dataset.zh || '';
         });
-        controls.forEach((control) => {
-          control.setAttribute('aria-pressed', control.dataset.lang === lang ? 'true' : 'false');
-        });
+        const langSelect = document.querySelector('.language-select');
+        if (langSelect && langSelect.value !== lang) { langSelect.value = lang; }
         writeStoredValue('cloudinsect-lang', lang);
       }
       controls.forEach((control) => {
@@ -991,7 +982,7 @@ html[lang="vi"] .chapter-action {
       applyLanguage(readStoredValue('cloudinsect-lang') || 'vi');
     }());
   </script>
-<script src="assets/site-footer.js?v=5.2.54"></script>
+<script src="assets/site-footer.js?v=5.2.55"></script>
 <script data-cloudinsect-language-select="true">
 (function () {
   const select = document.querySelector('.language-select');
@@ -1005,131 +996,7 @@ html[lang="vi"] .chapter-action {
   });
 }());
 </script>
-<script data-cloudinsect-spanish-surface="true">
-(function () {
-  const tips = {"patreon":"Patreon: suscripción mensual con pagos internacionales mediante tarjeta, PayPal y otros métodos.","gumroad":"Gumroad: compra directa con pagos internacionales mediante tarjeta, PayPal y otros métodos.","huotan":"HuoTan: compra directa mediante WeChat Pay y Alipay.","azz":"AZZ: suscripción mensual mediante WeChat Pay y Alipay."};
-  function applySpanishSurface() {
-    if (!/^es\b/i.test(document.documentElement.lang || '')) return;
-    document.querySelectorAll('[data-tooltip-es]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipEs; });
-    const catalog = document.querySelector('.catalog');
-    if (catalog) catalog.setAttribute('aria-label', 'Índice de capítulos');
-    const chapterSelect = document.querySelector('.chapter-select');
-    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'Seleccionar capítulo');
-    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo el contenido y los derechos relacionados de este sitio pertenecen a WLOP. Se prohíbe su reproducción, copia, adaptación o uso comercial sin autorización. Todos los derechos reservados."; });
-    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contacto:"; });
-    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
-      const tip = tips[link.dataset.footerKey];
-      if (!tip) return;
-      link.dataset.tooltip = tip;
-      link.setAttribute('aria-label', link.textContent + ': ' + tip);
-    });
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applySpanishSurface, { once: true });
-  else applySpanishSurface();
-  window.setTimeout(applySpanishSurface, 0);
-}());
-</script>
-<script data-cloudinsect-arabic-surface="true">
-(function () {
-  const tips = {"patreon":"Patreon: اشتراك شهري يدعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","gumroad":"Gumroad: شراء مباشر للأعمال مع دعم بطاقات الائتمان وPayPal وغيرها من وسائل الدفع الدولية.","huotan":"HuoTan: شراء مباشر للأعمال عبر WeChat Pay وAlipay.","azz":"AZZ: اشتراك شهري عبر WeChat Pay وAlipay."};
-  function applyArabicSurface() {
-    if (!/^ar\b/i.test(document.documentElement.lang || '')) return;
-    document.documentElement.dir = 'ltr';
-    document.querySelectorAll('[data-tooltip-ar]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipAr; });
-    const catalog = document.querySelector('.catalog');
-    if (catalog) catalog.setAttribute('aria-label', 'فهرس الفصول');
-    const chapterSelect = document.querySelector('.chapter-select');
-    if (chapterSelect) chapterSelect.setAttribute('aria-label', 'اختر فصلًا');
-    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. جميع محتويات هذا الموقع والحقوق المرتبطة بها مملوكة لـWLOP. يُحظر النشر أو النسخ أو الاقتباس أو التعديل أو الاستخدام التجاري من دون إذن. جميع الحقوق محفوظة."; });
-    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "للتواصل:"; });
-    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
-      const tip = tips[link.dataset.footerKey];
-      if (!tip) return;
-      link.dataset.tooltip = tip;
-      link.setAttribute('aria-label', link.textContent + ': ' + tip);
-    });
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyArabicSurface, { once: true });
-  else applyArabicSurface();
-  window.setTimeout(applyArabicSurface, 0);
-}());
-</script>
-<script data-cloudinsect-french-surface="true">
-(function () {
- const tips={"patreon":"Patreon : abonnement mensuel, cartes bancaires, PayPal et autres paiements internationaux.","gumroad":"Gumroad : achat direct des œuvres, cartes bancaires, PayPal et autres paiements internationaux.","huotan":"HuoTan : achat direct des œuvres avec WeChat Pay ou Alipay.","azz":"AZZ : abonnement mensuel avec WeChat Pay ou Alipay."};
- function applyFrenchSurface() {
-  if (!/^fr\b/i.test(document.documentElement.lang || '')) return;
-  document.querySelectorAll('[data-tooltip-fr]').forEach((item)=>{ item.dataset.tooltip=item.dataset.tooltipFr; });
-  const c=document.querySelector('.catalog'); if(c) c.setAttribute('aria-label','Sommaire des chapitres');
-  const s=document.querySelector('.chapter-select'); if(s) s.setAttribute('aria-label','Choisir un chapitre');
-  document.querySelectorAll('.cloudinsect-copyright').forEach((item)=>{item.textContent="© WLOP. L’ensemble du contenu de ce site et les droits associés appartiennent à WLOP. Toute reproduction, copie, adaptation ou utilisation commerciale sans autorisation est interdite. Tous droits réservés.";});
-  document.querySelectorAll('.cloudinsect-contact-label').forEach((item)=>{item.textContent="Contact :";});
-  document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link)=>{const tip=tips[link.dataset.footerKey];if(tip){link.dataset.tooltip=tip;link.setAttribute('aria-label',link.textContent+': '+tip);}});
- }
- if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',applyFrenchSurface,{once:true}); else applyFrenchSurface(); window.setTimeout(applyFrenchSurface,0);
-}());
-</script>
-<script data-cloudinsect-ptbr-surface="true">
-(function () {
-  const tips = {"patreon":"Patreon: assinatura mensal com cartões de crédito, PayPal e outros meios de pagamento internacionais.","gumroad":"Gumroad: compra direta das obras com cartões de crédito, PayPal e outros meios de pagamento internacionais.","huotan":"HuoTan: compra direta das obras com WeChat Pay ou Alipay.","azz":"AZZ: assinatura mensal com WeChat Pay ou Alipay."};
-  function applyPortugueseSurface() {
-    if ((document.documentElement.lang || '').toLowerCase() !== 'pt-br') return;
-    const catalog = document.querySelector('.catalog');
-    if (catalog) catalog.setAttribute('aria-label', 'Sumário dos capítulos');
-    const chapter = document.querySelector('.chapter-select');
-    if (chapter) chapter.setAttribute('aria-label', 'Selecionar capítulo');
-    const controls = document.querySelector('.chapter-controls');
-    if (controls) controls.setAttribute('aria-label', 'Navegação entre capítulos');
-    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Todo o conteúdo deste site e os direitos relacionados pertencem à WLOP. É proibida a reprodução, cópia, adaptação ou utilização comercial sem autorização. Todos os direitos reservados."; });
-    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Contato:"; });
-    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
-      const tip = tips[link.dataset.footerKey];
-      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
-    });
-    document.querySelectorAll('[data-tooltip-pt-br]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipPtBr; });
-    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyPortugueseSurface, { once: true });
-  else applyPortugueseSurface();
-  const select = document.querySelector('.language-select');
-  if (select) select.addEventListener('change', () => setTimeout(applyPortugueseSurface, 0));
-}());
-</script>
-<script data-cloudinsect-ru-surface="true">
-(function () {
-  const tips = {"patreon":"Patreon: ежемесячная подписка с оплатой банковской картой, PayPal и другими международными способами.","gumroad":"Gumroad: прямая покупка работ с оплатой банковской картой, PayPal и другими международными способами.","huotan":"HuoTan: прямая покупка работ с оплатой через WeChat Pay или Alipay.","azz":"AZZ: ежемесячная подписка с оплатой через WeChat Pay или Alipay."};
-  function applyRussianSurface() {
-    if ((document.documentElement.lang || '').toLowerCase() !== 'ru') return;
-    document.querySelectorAll('[aria-label="Language selection"]').forEach((item) => { item.setAttribute('aria-label', 'Выбор языка'); });
-    document.querySelectorAll('.language-select').forEach((item) => { item.setAttribute('aria-label', 'Язык'); });
-    document.querySelectorAll('[aria-label="Font size controls"]').forEach((item) => { item.setAttribute('aria-label', 'Размер шрифта'); });
-    document.querySelectorAll('[aria-label="Decrease font size"]').forEach((item) => { item.setAttribute('aria-label', 'Уменьшить шрифт'); });
-    document.querySelectorAll('[aria-label="Increase font size"]').forEach((item) => { item.setAttribute('aria-label', 'Увеличить шрифт'); });
-    document.querySelectorAll('[aria-label="Reader settings"]').forEach((item) => { item.setAttribute('aria-label', 'Настройки чтения'); });
-    document.querySelectorAll('[aria-label="Back"]').forEach((item) => { item.setAttribute('aria-label', 'Назад'); });
-    document.querySelectorAll('[aria-label="动态壁纸列表"]').forEach((item) => { item.setAttribute('aria-label', 'Список обоев'); });
-    const catalog = document.querySelector('.catalog');
-    if (catalog) catalog.setAttribute('aria-label', 'Содержание');
-    const chapter = document.querySelector('.chapter-select');
-    if (chapter) chapter.setAttribute('aria-label', 'Выбор главы');
-    const controls = document.querySelector('.chapter-controls');
-    if (controls) controls.setAttribute('aria-label', 'Навигация по главам');
-    document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Открытие главы'); });
-    document.querySelectorAll('.cloudinsect-copyright').forEach((item) => { item.textContent = "© WLOP. Всё содержимое этого сайта и связанные с ним права принадлежат WLOP. Копирование, воспроизведение, адаптация и коммерческое использование без разрешения запрещены. Все права защищены."; });
-    document.querySelectorAll('.cloudinsect-contact-label').forEach((item) => { item.textContent = "Связаться:"; });
-    document.querySelectorAll('.cloudinsect-footer-link[data-footer-key]').forEach((link) => {
-      const tip = tips[link.dataset.footerKey];
-      if (tip) { link.dataset.tooltip = tip; link.setAttribute('aria-label', link.textContent + ': ' + tip); }
-    });
-    document.querySelectorAll('[data-tooltip-ru]').forEach((item) => { item.dataset.tooltip = item.dataset.tooltipRu; });
-    requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', applyRussianSurface, { once: true });
-  else applyRussianSurface();
-  const select = document.querySelector('.language-select');
-  if (select) select.addEventListener('change', () => setTimeout(applyRussianSurface, 0));
-}());
-</script>
+
 <script data-cloudinsect-vi-surface="true">
 (function () {
   function applyVietnameseSurface() {

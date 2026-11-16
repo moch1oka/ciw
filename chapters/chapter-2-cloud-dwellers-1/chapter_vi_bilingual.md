@@ -1,4 +1,4 @@
-# Vân Trùng / CloudInsect - Chương 2: Người Trong Mây · I (第二章 云中人 · 一)
+# Vân Trùng / 云虫 - Chương 2: Người Trong Mây · I (第二章 云中人 · 一)
 
 ---
 
@@ -8,23 +8,17 @@
 
 **ZH**: 咔嚓
 
-**EN**: Click.
-
 
 
 **VI**: “Mời vào.”
 
 **ZH**: “请进。”
 
-**EN**: “Come in.”
-
 
 
 **VI**: Bản lề cửa phát ra một tiếng ma sát kim loại khe khẽ, tựa như một đốt sống rỉ sét bị người ta gượng gạo vặn mở. Trong không khí phảng phất mùi gỉ sét kim loại đặc trưng của nhà xưởng, lẫn với mùi ngai ngái của đồ điện tử cũ kỹ, lạnh lẽo đến mức khiến lòng người sinh ra cảm giác xa lạ tách biệt.
 
 **ZH**: 门轴发出一声细微的金属摩擦声，像某种生锈的脊骨被硬生生拧开。空气中弥漫着工厂特有的金属锈味，夹杂着老旧电器散发的气息，冷清得令人心生疏离。
-
-**EN**: The hinge gave a faint metallic scrape, like a rusted spine being forced open. The air held the factory’s peculiar smell of oxidized metal, mingled with the stale odor of old electrical equipment. The desolation of the place made it feel alien.
 
 
 
@@ -38,23 +32,17 @@
 
 **ZH**: [废旧PCB板]
 
-**EN**: [Discarded PCB boards]
-
 
 
 **VI**: [Mỏ hàn chì]
 
 **ZH**: [电烙铁]
 
-**EN**: [Soldering iron]
-
 
 
 **VI**: [Linh kiện điện tử]
 
 **ZH**: [电子元件]
-
-**EN**: [Electronic components]
 
 
 
@@ -66,15 +54,11 @@
 
 **ZH**: [书籍]难题集萃
 
-**EN**: [Book]Collection of Difficult Problems
-
 
 
 **VI**: [Sách] Giải tích toán học
 
 **ZH**: [书籍]数学分析
-
-**EN**: [Book]Mathematical Analysis
 
 
 
@@ -82,15 +66,11 @@
 
 **ZH**: [书籍]场论
 
-**EN**: [Book]Field Theory
-
 
 
 **VI**: [Máy hiện sóng Oscilloscope]
 
 **ZH**: [示波器]
-
-**EN**: [Oscilloscope]
 
 
 
@@ -100,15 +80,11 @@
 
 **ZH**: “你就住这？这不是工厦吗？”
 
-**EN**: “You live here? Isn’t this an industrial building?”
-
 
 
 **VI**: Cô hơi chun mũi, đưa mắt nhìn quanh bốn phía, ánh nhìn lướt qua những trang giấy ố vàng, các thiết bị đo đạc nằm ngổn ngang, rồi dừng lại một cách vô định nơi vết ố nước màu đen loang lổ góc tường. Đôi lông mày khẽ chau lại, giọng nói lộ rõ vẻ ngờ vực pha lẫn chút bất an mơ hồ.
 
 **ZH**: 她皱了皱鼻子，环顾四周，目光掠过那些泛黄的纸页、散落的仪器，眼神漫不经心地停留在墙角的黑色水渍上，眉头轻轻地蹙了蹙，声音里透出疑惑与淡淡的不安。
-
-**EN**: She wrinkled her nose slightly, her eyes roaming aimlessly over scattered, yellowed papers and cluttered instruments, briefly pausing on a dark water stain at the corner. Her brow furrowed subtly, a hint of unease threading through her casual tone.
 
 
 
@@ -116,15 +92,11 @@
 
 **ZH**: “是啊。这片区域早年划入了重建计划，结果一直搁置。几年前还发生过一起命案，案子到现在没破，所以根本没人敢租，房租自然便宜。”
 
-**EN**: “Yeah, it is. This place was scheduled for redevelopment years ago, but they never got around to it. A murder happened here a few years back, still unsolved. That scared everyone off, so the rent is really cheap.”
-
 
 
 **VI**: “Hả? Nhà có án mạng á? Cậu không kiêng kỵ gì sao? Có cần thỉnh một bức tượng Quan Âm về để trấn yểm không đấy?”
 
 **ZH**: “啊？凶宅啊？你不忌讳？要不要放尊观音像镇一镇？”
-
-**EN**: “A murder house? Doesn’t that bother you? Maybe you should put up a statue of Guanyin to keep the place quiet.”
 
 
 
@@ -132,23 +104,17 @@
 
 **ZH**: 她的语气像开玩笑，目光却无意间流露出某种防备与戒心。窗外，云虫将至的躁动声隐约传来，城市被一股难以言喻的慌乱笼罩着。
 
-**EN**: She joked lightly, but her eyes betrayed an unspoken caution. Outside, faint murmurs from the approaching CloudInsect whispered through the city, casting a restless tension over everything.
-
 
 
 **VI**: “Trừ tà thì cũng cần đấy, nhưng tôi có cách giải quyết mang tính 'vật lý' hơn nhiều.”
 
 **ZH**: “驱邪是要的，不过我有更物理的办法。”
 
-**EN**: “An exorcism may be in order, but I have a more physical solution.”
-
 
 
 **VI**: “Mang tính vật lý hơn?”
 
 **ZH**: “更物理的？”
-
-**EN**: “More physical?”
 
 
 
@@ -158,8 +124,6 @@
 
 **ZH**: “看，有这些大神们坐镇，方圆百米鬼神莫近。”
 
-**EN**: “With these masters around, no ghost or spirit would dare come within a hundred meters.”
-
 
 
 ![Panel 9](./media/image9.jpg)
@@ -168,23 +132,17 @@
 
 **ZH**: [相片]第五届索尔维会议 （AD1927）
 
-**EN**: [Photo]The Fifth Solvay Conference (1927)
-
 
 
 **VI**: [Sơ đồ] Trục thời gian tiến trình phát triển của văn minh nhân loại
 
 **ZH**: [图片]人类文明发展时间轴
 
-**EN**: [Image]Timeline of Human Civilization
-
 
 
 **VI**: Cô dõi theo ngón tay chỉ của cậu, nhìn thấy một bức ảnh đen trắng đã cũ kỹ, trên mặt phủ một lớp bụi mỏng. Trong bức ảnh là Hội nghị Solvay lần thứ 5 năm 1927, quy tụ cả một dàn cự phách vĩ đại nhất của nền vật lý thế giới — Einstein, Schrödinger, Bohr, Heisenberg... Họ ngồi ngay ngắn bên nhau, nghiêm nghị nhìn thẳng vào ống kính, toát lên một vẻ uy nghiêm lãnh đạm đầy khí phách.
 
 **ZH**: 她顺着他的手指望过去，看到一张陈旧的黑白照片，上面蒙了一层淡淡的灰。照片里是1927年第五届索尔维会议，一群物理学界的巨匠——爱因斯坦、薛定谔、玻尔、海森堡——正坐在一起，面无表情地直视镜头，神情里透着某种冷峻的威严。
-
-**EN**: Her eyes followed his finger, settling on the dusty black-and-white photo from the 1927 Solvay Conference, showcasing legendary physicists—Einstein, Schrödinger, Bohr, and Heisenberg—sitting sternly, eyes fixed forward with cold authority.
 
 
 
@@ -194,8 +152,6 @@
 
 **ZH**: “好吧，这确实很物理……”
 
-**EN**: “All right. That is certainly… physical.”
-
 
 
 ![Panel 11](./media/image11.jpg)
@@ -204,15 +160,11 @@
 
 **ZH**: “我记得你们大学是有宿舍的，为什么还要自己租房？”
 
-**EN**: “I thought your university provided dormitories—why rent your own place?”
-
 
 
 **VI**: Cậu nhìn nghiêng gương mặt tĩnh lặng và dịu dàng của cô, bờ môi khẽ mím lại rồi thả lỏng, dường như cuối cùng vẫn quyết định mở lời hỏi câu hỏi chất chứa bấy lâu.
 
 **ZH**: 他望着她安静而柔和的侧脸，唇角微微抿起又放开，似乎终于还是决定开口问出那个问题。
-
-**EN**: He glanced quietly at her gentle profile, lips subtly tightening and then relaxing, as if gathering the resolve to ask a lingering question.
 
 
 
@@ -220,15 +172,11 @@
 
 **ZH**: “我和室友合不来。而且我经常要出去打工，住校也不方便。”
 
-**EN**: “I don’t really get along with my roommates.Besides, I have to work part-time often, so it’s inconvenient to stay on campus.”
-
 
 
 **VI**: “Là đi hát ở quán bar sao?”
 
 **ZH**: “是去酒吧唱歌么？”
-
-**EN**: “Singing at bars?”
 
 
 
@@ -236,15 +184,11 @@
 
 **ZH**: “你可是好学生，问这些干嘛？”
 
-**EN**: “You’re a good student—why ask about that?”
-
 
 
 **VI**: “Bây giờ thuê phòng bên ngoài khó khăn lắm. Nếu cậu không chê, thì trong lúc chưa tìm được phòng mới, có thể tạm thời ở lại đây. Chỗ phía bên cửa sổ kia của tôi vẫn còn một khoảng trống...”
 
 **ZH**: “现在外面租房不易，如果不嫌弃的话，等你找到房子之前，可以先凑合住这儿。我那边靠窗还有块地方空着……”
-
-**EN**: “It’s tough renting a place these days. If you don’t mind, you can stay here temporarily until you find somewhere else. There’s some space near the window…”
 
 
 
@@ -252,15 +196,11 @@
 
 **ZH**: “……你确定？”
 
-**EN**: “…Are you sure?”
-
 
 
 **VI**: “Ừ.”
 
 **ZH**: “嗯。”
-
-**EN**: “Yeah.”
 
 
 
@@ -270,15 +210,11 @@
 
 **ZH**: 喵！
 
-**EN**: Meow!
-
 
 
 **VI**: [Cúp lưu niệm] Huy chương Vàng Olympic Vật lý
 
 **ZH**: [奖杯]物理奥林匹克竞赛金牌
-
-**EN**: [Trophy]Physics Olympiad Gold Medal
 
 
 
@@ -286,15 +222,11 @@
 
 **ZH**: [猫粮]
 
-**EN**: [Cat Food]
-
 
 
 **VI**: [Bằng khen] Giải Nhất Kỳ thi Học sinh Giỏi Toán Quốc gia
 
 **ZH**: [奖状]全国数学竞赛一等奖
-
-**EN**: [Certificate]First Prize, National Mathematics Competition
 
 
 
@@ -304,15 +236,11 @@
 
 **ZH**: “这猫是你养的？”
 
-**EN**: “Is this your cat?”
-
 
 
 **VI**: “Cũng không hẳn. Là mèo hoang đấy. Tôi hay cho chúng ăn, nên chúng quen hơi bén mùi thôi.”
 
 **ZH**: “不算。流浪猫。我常喂它们吃的，它们就认熟了。”
-
-**EN**: “Not exactly. They’re strays, but I feed them regularly, so they've gotten used to me.”
 
 
 
@@ -320,15 +248,11 @@
 
 **ZH**: “有名字么？”
 
-**EN**: “Do they have names?”
-
 
 
 **VI**: “Con lông đen tên là Sâm Túc Tứ (Betelgeuse), còn con lông vàng tên là Mộc Vệ Nhị (Europa).”
 
 **ZH**: “黑的叫参宿四，橘的叫木卫二。”
-
-**EN**: “The black one’s Betelgeuse, and the orange one’s Europa.”
 
 
 
@@ -336,23 +260,17 @@
 
 **ZH**: “这么好看的猫，起的什么鬼名字……”
 
-**EN**: “They’re such beautiful cats. Why give them such strange names?”
-
 
 
 **VI**: “Cậu không hiểu đâu, tên của các vì tinh tú mới là thứ lãng mạn nhất trần đời.”
 
 **ZH**: “你不懂，星星的名字才是最浪漫的。”
 
-**EN**: “You wouldn’t understand. The names of stars are the most romantic names there are.”
-
 
 
 **VI**: “Ối chà, dân tự nhiên kỹ thuật mà cũng biết lãng mạn cơ đấy à? Sao nào, cậu định nhặt cả dải Ngân Hà mang về nuôi luôn chắc?”
 
 **ZH**: “哟，理工男也懂浪漫啊，怎么，想捡个银河系回来？”
-
-**EN**: “Wow, even a scientist knows romance? Planning to adopt an entire galaxy?”
 
 
 
@@ -362,15 +280,11 @@
 
 **ZH**: “可怜的小家伙，这么好看，到最后还是没人要。”
 
-**EN**: “Poor little thing. So beautiful, yet still unwanted.”
-
 
 
 **VI**: Cô cúi đầu vuốt ve dọc sống lưng chú mèo đen, dùng đầu ngón tay cảm nhận lớp lông mềm mại và ấm áp của nó, dường như chẳng hề nhận ra trong giọng nói của chính mình đang thoáng gợn lên một nỗi bi thương trầm lắng khôn nguôi.
 
 **ZH**: 她低头抚摸着黑猫的背，用指尖感受它柔软而温热的皮毛，没察觉到自己声音里透出一丝漫不经心的悲哀。
-
-**EN**: She bent down, gently caressing the black cat’s soft, warm fur, oblivious to the quiet sadness creeping into her voice.
 
 
 
@@ -380,8 +294,6 @@
 
 **ZH**: 他沉默片刻，似乎听出了什么，却没有接话。只是站在光里，眼神平静得像一块久未融化的坚冰。
 
-**EN**: He stood silently for a moment, sensing the subtle sorrow in her tone but choosing not to speak. He simply stood there, bathed in gentle sunlight, his expression calm and unreadable as ice untouched by warmth.
-
 
 
 ![Panel 16](./media/image16.jpg)
@@ -390,15 +302,11 @@
 
 **ZH**: 我未曾遇见过神明。
 
-**EN**: Never had I encountered a god,
-
 
 
 **VI**: Cho đến ngày hôm ấy,
 
 **ZH**: 直至那日，
-
-**EN**: until that day—
 
 
 
@@ -406,12 +314,8 @@
 
 **ZH**: 他立于光中，
 
-**EN**: he stood within the light
-
 
 
 **VI**: Ban cho ta lương thực cùng danh xưng của muôn vì tinh tú.
 
 **ZH**: 赐我食粮与星辰之名。
-
-**EN**: and bestowed on me food and the names of stars.

@@ -5,15 +5,6 @@
   "title_en": "Chapter 2: Cloud Dwellers · Part 3",
   "available_languages": [
     "zh",
-    "zhHant",
-    "en",
-    "ja",
-    "ko",
-    "es",
-    "fr",
-    "ar",
-    "ptBR",
-    "ru",
     "vi"
   ],
   "panel_count": 17,
@@ -32,78 +23,6 @@
           "“骑行西藏，还追着‘盘古’拍照片……你的人生也太精彩了吧。”",
           "“我这样的人，也值得你这高材生羡慕？”",
           "“值得，非常值得。你是用……胶卷拍的？”"
-        ],
-        "zhHant": [
-          "“這幾張——你應該能認出來。”",
-          "“布達拉宮？等等……這雲層下的是……盤古？這角度也太絕了……你不會是爬上什麼山崖拍的吧？”",
-          "“沒有，我只是站在一塊廢棄觀測臺上。去年暑假我特意去追它——一號雲蟲盤古，按預測軌跡一路騎行進了藏南。”",
-          "“騎行西藏，還追着‘盤古’拍照片……你的人生也太精彩了吧。”",
-          "“我這樣的人，也值得你這高材生羨慕？”",
-          "“值得，非常值得。你是用……膠捲拍的？”"
-        ],
-        "en": [
-          "“These photos—you should recognize them.”",
-          "“The Potala Palace? Wait... under that cloud layer... is that Pangu?This angle is insane. Don’t tell me you climbed some cliff to shoot this?”",
-          "“Nope. I was just standing on a derelict observation deck. Last summer I followed it—CloudInsect No. 1, ‘Pangu.’ Rode all the way into southern Tibet along its predicted path.”",
-          "“You biked through Tibet, chasing Pangu for photos... Your life is unreal.”",
-          "“And someone like me is worthy of admiration from a top student like you?”",
-          "“Absolutely. Totally worth it. Did you shoot this on... film?”"
-        ],
-        "ja": [
-          "「この数枚なら――君にも何が写っているかわかるはずだ」",
-          "「ポタラ宮？　待って……この雲の下にいるのは……盤古？すごい角度……まさか崖にでも登って撮ったの？」",
-          "「いや、廃観測台の上に立っただけ。去年の夏休み、こいつを追うためにわざわざ行ったんだ――雲虫第一号『盤古』。予測軌道を追って、チベット南部までずっと自転車で」",
-          "「チベットを自転車で走って、『盤古』を追いながら写真まで……君の人生、楽しすぎない？」",
-          "「私みたいな人間を、優等生の君が羨む価値なんてある？」",
-          "「あるよ。大いにある。これ……フィルムで撮ったの？」"
-        ],
-        "ko": [
-          "“이 몇 장은——너도 알아볼 수 있을 거야.”",
-          "“포탈라궁? 잠깐……이 구름층 아래 있는 건……반고?각도도 말도 안 되게 좋은데……설마 절벽 같은 데 올라가서 찍은 거야?”",
-          "“아니, 버려진 관측대 위에 서 있었을 뿐이야. 작년 여름방학엔 녀석을 쫓으려고 일부러 갔어——1호 운충 ‘반고’. 예상 궤적을 따라 티베트 남부까지 줄곧 자전거를 탔지.”",
-          "“티베트를 자전거로 달리면서 ‘반고’를 쫓아 사진까지 찍고……네 인생, 너무 다채로운 거 아니야?”",
-          "“나 같은 사람도 너 같은 수재가 부러워할 만해?”",
-          "“그럼. 아주 많이. 이건……필름으로 찍은 거야?”"
-        ],
-        "es": [
-          "«Estas fotos… deberías reconocerlas.»",
-          "«¿El palacio de Potala? Espera… ¿Eso que hay bajo las nubes es… Pangu?El ángulo es increíble… No me digas que trepaste por algún precipicio para hacerla.»",
-          "«No. Solo estaba sobre una plataforma de observación abandonada. El verano pasado fui expresamente tras él: CloudInsect n.º 1, “Pangu”. Seguí su trayectoria prevista en bicicleta hasta el sur del Tíbet.»",
-          "«Recorrer el Tíbet en bicicleta mientras persigues a Pangu para fotografiarlo… Tu vida es increíble.»",
-          "«¿Alguien como yo merece la envidia de un alumno prodigio como tú?»",
-          "«Sí. Muchísima. ¿Las hiciste con… película?»"
-        ],
-        "fr": [
-          "« Celles-ci… tu devrais reconnaître ce qu’on y voit. »",
-          "« Le palais du Potala ? Attends… sous les nuages, là… c’est Pangu ?Cet angle est incroyable… ne me dis pas que tu as escaladé une falaise pour prendre ça ? »",
-          "« Non, j’étais seulement sur une ancienne plate-forme d’observation. L’été dernier, je suis partie exprès à sa poursuite — l’Insecte-Nuage no 1, Pangu. J’ai suivi sa trajectoire prévue à vélo jusque dans le sud du Tibet. »",
-          "« Traverser le Tibet à vélo, poursuivre Pangu pour le photographier… ta vie est tout de même incroyable. »",
-          "« Quelqu’un comme moi mérite l’envie d’un étudiant brillant comme toi ? »",
-          "« Oui. Vraiment. Tu as pris ça… sur pellicule ? »"
-        ],
-        "ar": [
-          "«هذه الصور… يفترض أن تتعرفي إلى ما فيها.»",
-          "«قصر بوتالا؟ مهلاً… أهذا الذي تحت السحب… بانغو؟هذه الزاوية مذهلة… لا تقولي إنك تسلقت جرفًا لالتقاطها؟»",
-          "«لا. كنت أقف على منصة رصد مهجورة فحسب. في الصيف الماضي ذهبت خصيصًا لمطاردتها — حشرة السحاب رقم 1، ‹بانغو›. تبعت مسارها المتوقع على دراجتي حتى دخلت جنوب التبت.»",
-          "«تجوبين التبت على دراجة وتطاردين ‹بانغو› لتصويرها… حياتك مدهشة حقًا.»",
-          "«شخص مثلي يستحق حسد طالب نابغة مثلك؟»",
-          "«يستحق، وبكل تأكيد. هل التقطتها… على فيلم؟»"
-        ],
-        "ptBR": [
-          "“Estas aqui… você deve reconhecer.”",
-          "“O Palácio de Potala? Espere… aquilo sob as nuvens é… Pangu?Este ângulo é incrível. Não me diga que subiu num penhasco para fotografar?”",
-          "“Não. Eu só estava numa plataforma de observação abandonada. No verão passado fui atrás dele de propósito — Pangu, o Inseto-Nuvem nº 1. Segui de bicicleta a rota prevista até o sul do Tibete.”",
-          "“Pedalou pelo Tibete perseguindo Pangu para tirar fotos… Sua vida é interessante demais.”",
-          "“Alguém como eu merece a inveja de uma aluna brilhante como você?”",
-          "“Merece. E muito. Você usou… filme?”"
-        ],
-        "ru": [
-          "Вот. Думаю, тебе стоит это увидеть.",
-          "Дворец Потала? Стоп, а под этими облаками... Это что, Паньгу?Потрясающий ракурс... Не говори мне, что ты залезла на какую-то гору, чтобы это сфотографировать?",
-          "Нет, я просто стояла на заброшенной смотровой площадке. Прошлым летом я специально отправилась за облачным насекомым №1 \"Паньгу\". Я приехала на велосипеде в Тибет, ориентируясь на прогноз его маршрута.",
-          "В Тибет на велосипеде... Еще и в погоне за Паньгу, и всё ради этих снимков... Ну и опасная у тебя жизнь.",
-          "Разве такая, как я, может вызвать зависть у такого отличника, как ты?",
-          "Более чем. Ты что?.. Снимала это... на плёнку?"
         ],
         "vi": [
           "“Mấy tấm này — chắc là cậu nhận ra được chứ?”",
@@ -127,51 +46,6 @@
           "“这相机还真适合你。你是不是故意活得像从九十年代穿越来的？”",
           "“胶片洗出来那种灰调子，是数码永远做不出来的。”"
         ],
-        "zhHant": [
-          "“就用這個。”",
-          "“這相機還真適合你。你是不是故意活得像從九十年代穿越來的？”",
-          "“膠片洗出來那種灰調子，是數碼永遠做不出來的。”"
-        ],
-        "en": [
-          "“Yeah. With this.”",
-          "“It suits you. You sure you're not a time traveler from the ’90s?”",
-          "“Film develops this grayish tone that digital can never replicate.”"
-        ],
-        "ja": [
-          "「これでね」",
-          "「そのカメラ、本当に君らしいな。わざと九十年代からタイムスリップしてきたみたいに生きてるの？」",
-          "「フィルムを現像したときの、あの灰色がかった色合いは、デジタルじゃ永遠に出せない」"
-        ],
-        "ko": [
-          "“이걸로.”",
-          "“그 카메라 정말 너랑 잘 어울린다. 일부러 90년대에서 시간 여행이라도 온 사람처럼 사는 거야?”",
-          "“필름을 현상했을 때 나오는 그 잿빛은 디지털로는 절대 못 만들어.”"
-        ],
-        "es": [
-          "«Con esta.»",
-          "«Esa cámara te pega mucho. ¿Intentas vivir como si hubieras viajado hasta aquí desde los noventa?»",
-          "«Ese tono gris que aparece al revelar la película es algo que lo digital jamás podrá reproducir.»"
-        ],
-        "fr": [
-          "« Avec ça. »",
-          "« Cet appareil te va vraiment bien. Tu fais exprès de vivre comme si tu arrivais tout droit des années quatre-vingt-dix ? »",
-          "« Le gris d’une pellicule développée, le numérique ne saura jamais le produire. »"
-        ],
-        "ar": [
-          "«بهذه.»",
-          "«هذه الكاميرا تليق بك فعلًا. هل تتعمدين العيش كأنك جئت من تسعينيات القرن الماضي؟»",
-          "«تلك الدرجة الرمادية التي يخرج بها الفيلم بعد التحميض لن تصنعها الكاميرات الرقمية أبدًا.»"
-        ],
-        "ptBR": [
-          "“Usei esta aqui.”",
-          "“Esta câmera combina mesmo com você. Você vive de propósito como se tivesse viajado no tempo desde os anos noventa?”",
-          "“O tom acinzentado de uma foto revelada em filme é algo que o digital jamais consegue reproduzir.”"
-        ],
-        "ru": [
-          "Да, этим.",
-          "Тебе идет. Ты уверена, что ты не путешественница во времени из 90ых?",
-          "Пленка придает изображению сероватый оттенок. Цифра не сможет такое воспроизвести."
-        ],
         "vi": [
           "“Chính là bằng chiếc máy này đây.”",
           "“Chiếc máy ảnh này thực sự rất hợp với phong cách của cậu. Có phải cậu cố tình sống như một người vừa du hành thời gian từ những năm thập niên 90 xuyên không tới đây không?”",
@@ -193,69 +67,6 @@
           "“那你希望我每次都是一个人吗？”",
           "“我……”"
         ],
-        "zhHant": [
-          "“可離雲蟲這麼近的地方……不都應該劃入禁區了麼？”",
-          "“你果然是個乖學生。雲蟲穿過城市時纔會設禁區，荒郊野嶺的，誰來管？”",
-          "“你每次都……一個人嗎？”",
-          "“那你希望我每次都是一個人嗎？”",
-          "“我……”"
-        ],
-        "en": [
-          "“But places that close to a CloudInsect... aren't they restricted zones?”",
-          "“Spoken like a true model student. They only establish restricted zones when CloudInsects pass through cities. Out in the wilderness, who would bother?”",
-          "“Do you always... go alone?”",
-          "“Would you prefer I always go alone?”",
-          "“I...”"
-        ],
-        "ja": [
-          "「でも、雲虫にこんなに近い場所って……普通は立入禁止区域じゃないの？」",
-          "「やっぱり優等生だね。立入禁止になるのは雲虫が街を通るときだけ。こんな人里離れた荒野、誰が取り締まるの？」",
-          "「いつも……一人で行くの？」",
-          "「じゃあ君は、私が毎回一人でいてほしいの？」",
-          "「僕は……」"
-        ],
-        "ko": [
-          "“하지만 운충에 이렇게 가까운 곳은……전부 출입 금지 구역으로 지정되는 거 아니야?”",
-          "“역시 모범생이네. 운충이 도시를 지날 때나 금지 구역을 만들지, 이런 인적 없는 산골까지 누가 관리해?”",
-          "“매번……혼자 가?”",
-          "“그럼 넌 내가 매번 혼자이길 바라는 거야?”",
-          "“나는……”"
-        ],
-        "es": [
-          "«Pero tan cerca de CloudInsect… ¿No debería ser una zona restringida?»",
-          "«Se nota que eres un alumno obediente. Solo crean zonas restringidas cuando un CloudInsect atraviesa una ciudad. En medio de la nada, ¿quién iba a vigilar?»",
-          "«¿Siempre vas… sola?»",
-          "«¿Te gustaría que siempre fuera sola?»",
-          "«Yo…»"
-        ],
-        "fr": [
-          "« Mais si près d’un Insecte-Nuage… ce ne devrait pas être une zone interdite ? »",
-          "« Tu es bien un élève modèle. On interdit l’accès quand l’Insecte-Nuage traverse une ville. Au fin fond de nulle part, qui viendrait s’en occuper ? »",
-          "« Tu y vas toujours… seule ? »",
-          "« Et toi, tu aimerais que je sois toujours seule ? »",
-          "« Je… »"
-        ],
-        "ar": [
-          "«لكن الأماكن القريبة إلى هذا الحد من حشرة السحاب… ألا يفترض أن تكون مناطق محظورة؟»",
-          "«أنت طالب مطيع فعلًا. تُقام المناطق المحظورة حين تعبر حشرة السحاب المدن. أما البراري المقفرة، فمن سيأتي ليراقبها؟»",
-          "«هل تذهبين دائمًا… وحدك؟»",
-          "«وهل تتمنى أن أكون وحدي في كل مرة؟»",
-          "«أنا…»"
-        ],
-        "ptBR": [
-          "“Mas lugares tão próximos do Inseto-Nuvem… não deveriam ser áreas proibidas?”",
-          "“Você é mesmo uma aluna obediente. Só interditam a área quando o Inseto-Nuvem atravessa uma cidade. No meio do nada, quem vai fiscalizar?”",
-          "“Você vai sempre… sozinho?”",
-          "“E você gostaria que eu fosse sempre sozinho?”",
-          "“Eu…”"
-        ],
-        "ru": [
-          "Но разве места вблизи облачных насекомых не являются запретной зоной?",
-          "Типичный отличник. Запретная зона вводится только, когда насекомые проходят через города. А в глуши кому какое дело?",
-          "Ты каждый раз... ходишь одна?",
-          "А ты хочешь, чтобы я всегда ходила одна?",
-          "Я..."
-        ],
         "vi": [
           "“Nhưng những nơi ở gần Vân Trùng đến thế... chẳng phải đều bị phong tỏa thành khu vực cấm rồi sao?”",
           "“Cậu đúng là một học sinh gương mẫu ngoan ngoãn. Khi Vân Trùng đi xuyên qua các đô thị lớn người ta mới thiết lập khu cấm thôi, chứ chốn rừng thiêng nước độc, đồng không mông quạnh thì ai rảnh đâu mà quản lý?”",
@@ -275,33 +86,6 @@
         "zh": [
           "“别乱猜了，还有谁愿意陪我做这种傻事。来，这张是我压箱底的，你肯定感兴趣。”"
         ],
-        "zhHant": [
-          "“別亂猜了，還有誰願意陪我做這種傻事。來，這張是我壓箱底的，你肯定感興趣。”"
-        ],
-        "en": [
-          "“Don't overthink it. Who else would be crazy enough to do this with me?Here—this one’s my favorite. I’ve never shown it to anyone. I think you’ll be interested.”"
-        ],
-        "ja": [
-          "「勝手な想像しないで。こんな馬鹿なことに付き合ってくれる人なんていないよ。ほら、これはとっておき。君なら絶対食いつくと思う」"
-        ],
-        "ko": [
-          "“엉뚱한 상상은 그만해. 누가 나랑 이런 바보 같은 짓을 함께하겠어.자, 이건 아껴 둔 비장의 한 장이야. 넌 틀림없이 관심 있을걸.”"
-        ],
-        "es": [
-          "«No te hagas ideas raras. ¿Quién iba a querer acompañarme en una locura así?Mira, esta es mi joya mejor guardada. Seguro que te interesa.»"
-        ],
-        "fr": [
-          "« Ne va pas t’imaginer des choses. Qui d’autre accepterait de m’accompagner dans ce genre de folie ?Tiens, celle-là, c’est mon trésor caché. Elle va t’intéresser. »"
-        ],
-        "ar": [
-          "«لا تترك خيالك يشطح. من ذا الذي يرافقني في حماقة كهذه؟تعال، هذه أثمن صورة خبأتها. ستثير اهتمامك بالتأكيد.»"
-        ],
-        "ptBR": [
-          "“Não imagine coisas. Quem mais aceitaria me acompanhar numa loucura dessas?Venha. Esta é a foto que eu guardava a sete chaves. Você com certeza vai se interessar.”"
-        ],
-        "ru": [
-          "Не бери в голову. Кто ещё был бы настолько сумасшедшим, чтобы сделать это вместе со мной?Вот – это моё любимое. Я никому его не показывала. Думаю, тебе понравится."
-        ],
         "vi": [
           "“Thôi đừng có đoán mò đoán non nữa, làm gì có ai chịu điên rồ cùng tôi làm mấy cái trò ngốc nghếch này. Nào, bức ảnh này là bảo bối đáy hòm của tôi đấy, đảm bảo cậu sẽ cực kỳ có hứng thú cho xem.”"
         ]
@@ -316,33 +100,6 @@
       "texts": {
         "zh": [
           "“好模糊……两个人影？长焦拍的？等等……”"
-        ],
-        "zhHant": [
-          "“好模糊……兩個人影？長焦拍的？等等……”"
-        ],
-        "en": [
-          "“It’s blurry... two figures? Shot with a telephoto lens? Wait—”"
-        ],
-        "ja": [
-          "「ぼやけてる……人影が二つ？　望遠で撮ったの？　待って……」"
-        ],
-        "ko": [
-          "“너무 흐린데……사람 그림자 둘? 망원으로 찍은 거야? 잠깐……”"
-        ],
-        "es": [
-          "«Está muy borrosa… ¿Dos siluetas? ¿La hiciste con teleobjetivo? Espera…»"
-        ],
-        "fr": [
-          "« C’est très flou… deux silhouettes ? Prises au téléobjectif ? Attends… »"
-        ],
-        "ar": [
-          "«إنها ضبابية جدًا… شبحا شخصين؟ التقطتها بعدسة مقرّبة؟ مهلاً…»"
-        ],
-        "ptBR": [
-          "“Está tão borrada… Duas silhuetas? Com teleobjetiva? Espere…”"
-        ],
-        "ru": [
-          "Такое размытое... две фигуры? Снято с телеобъективом? Постой..."
         ],
         "vi": [
           "“Mờ quá... Hai bóng người sao? Chụp bằng ống kính tele à? Khoan đã...”"
@@ -359,33 +116,6 @@
         "zh": [
           "“你拍到——云中人了？！”"
         ],
-        "zhHant": [
-          "“你拍到——雲中人了？！”"
-        ],
-        "en": [
-          "“You captured a Cloud Dweller?!”"
-        ],
-        "ja": [
-          "「君、雲中人を――撮ったの？！」"
-        ],
-        "ko": [
-          "“너——운중인을 찍은 거야?!”"
-        ],
-        "es": [
-          "«¿Fotografiaste… a los habitantes de las nubes?»"
-        ],
-        "fr": [
-          "« Tu as photographié… des Habitants des nuages ?! »"
-        ],
-        "ar": [
-          "«لقد صورتِ… سكان السحاب؟!»"
-        ],
-        "ptBR": [
-          "“Você fotografou… Habitantes das Nuvens?!”"
-        ],
-        "ru": [
-          "Ты сняла обитателей облаков!?"
-        ],
         "vi": [
           "“Cậu chụp được... 'Người Trong Mây' rồi ư?!”"
         ]
@@ -400,33 +130,6 @@
       "texts": {
         "zh": [
           "“你确定？”"
-        ],
-        "zhHant": [
-          "“你確定？”"
-        ],
-        "en": [
-          "“Are you sure?”"
-        ],
-        "ja": [
-          "「そう思う？」"
-        ],
-        "ko": [
-          "“확실해?”"
-        ],
-        "es": [
-          "«¿Estás seguro?»"
-        ],
-        "fr": [
-          "« Tu es sûr ? »"
-        ],
-        "ar": [
-          "«أأنت متأكد؟»"
-        ],
-        "ptBR": [
-          "“Tem certeza?”"
-        ],
-        "ru": [
-          "Ты уверен?"
         ],
         "vi": [
           "“Cậu có chắc không đấy?”"
@@ -444,51 +147,6 @@
           "“不然呢？这比例，这位置，人影明明就在云虫表面——你怎么拍到的？”",
           "“那次云虫经过雅鲁藏布江，我在河谷对岸守了一整晚。凌晨五点拍到的。那时候我也想再靠近一点。但那地方……安静得有点奇怪。没有鸟叫，没有风，只有低频的嗡鸣，像在耳膜里盘旋。你会不自觉地想后退，像是有一双陌生的眼睛正盯着你看。更诡异的是，我回来之后发现整卷胶片都曝光了，唯独这一张没事。”",
           "“你不怕吗？一个人在荒郊野外，杳无人烟，巨大的云虫，诡异的人影……”"
-        ],
-        "zhHant": [
-          "“不然呢？這比例，這位置，人影明明就在雲蟲表面——你怎麼拍到的？”",
-          "“那次雲蟲經過雅魯藏布江，我在河谷對岸守了一整晚。凌晨五點拍到的。那時候我也想再靠近一點。但那地方……安靜得有點奇怪。沒有鳥叫，沒有風，只有低頻的嗡鳴，像在耳膜裏盤旋。你會不自覺地想後退，像是有一雙陌生的眼睛正盯着你看。更詭異的是，我回來之後發現整卷膠片都曝光了，唯獨這一張沒事。”",
-          "“你不怕嗎？一個人在荒郊野外，杳無人煙，巨大的雲蟲，詭異的人影……”"
-        ],
-        "en": [
-          "“What else could it be? The scale, the position... those figures are clearly on the surface of the CloudInsect.How did you even take this?”",
-          "“That time the CloudInsect passed over the Yarlung Tsangpo River, I waited overnight on the opposite bank. Took the shot at 5 a.m.I wanted to get closer, but the place was... unnaturally silent. No birds, no wind—just this low-frequency hum circling inside my ears. You feel this instinctive urge to step back, like something unseen is watching you.Stranger still—when I came back, the entire roll of film was overexposed... except this one.”",
-          "“Weren’t you scared? Alone, in the middle of nowhere—no one around. A colossal CloudInsect, and those... strange figures?”"
-        ],
-        "ja": [
-          "「ほかに何だっていうの？　この大きさ、この位置、人影はどう見ても雲虫の表面にいる――どうやって撮ったの？」",
-          "「あのとき雲虫がヤルンツァンポ川を通った。私は谷の対岸で一晩中張り込んで、朝の五時に撮った。私も、もう少し近づいてみたかった。でもあそこは……妙なほど静かだった。鳥の声も、風もない。あるのは低い唸りだけで、鼓膜の内側をぐるぐる回っているみたいだった。知らない目にじっと見られているようで、気づけば後ずさりしたくなる。もっと不気味なのは、戻ってから見たらフィルムが一本まるごと感光していたのに、この一枚だけは無事だったこと」",
-          "「怖くなかった？　人っ子一人いない荒野に一人きりで、巨大な雲虫と、不気味な人影……」"
-        ],
-        "ko": [
-          "“그럼 뭐겠어? 이 비율에, 이 위치면 사람 그림자가 분명 운충 표면에 있잖아——어떻게 찍은 거야?”",
-          "“그때 운충이 야를룽창포강을 지났어. 나는 강 계곡 건너편에서 밤새 기다리다가 새벽 다섯 시에 찍었지.나도 그때 조금 더 가까이 가 보고 싶었어. 그런데 그곳은……이상할 만큼 고요했어.새소리도, 바람도 없었어. 낮게 웅웅거리는 소리만 고막 안을 맴돌았지. 낯선 두 눈이 나를 빤히 지켜보는 것 같아서, 저도 모르게 뒷걸음치고 싶어져. 더 기이한 건, 돌아와 보니 필름 한 롤이 통째로 빛을 먹었는데 이 한 장만 멀쩡했다는 거야.”",
-          "“무섭지 않았어? 인적 하나 없는 황야에 혼자, 거대한 운충에 기묘한 사람 그림자까지……”"
-        ],
-        "es": [
-          "«¿Qué otra cosa podrían ser? Por la escala, por la posición… Esas figuras están sobre la superficie de CloudInsect. ¿Cómo conseguiste la foto?»",
-          "«Cuando CloudInsect pasó sobre el Yarlung Tsangpo, esperé toda la noche en la orilla opuesta del valle. Hice la foto a las cinco de la mañana.También quise acercarme un poco más. Pero aquel lugar estaba… extrañamente callado.No cantaban los pájaros, no soplaba el viento. Solo había un zumbido grave que parecía girar dentro de los tímpanos. Sin darte cuenta, querías retroceder, como si unos ojos desconocidos te observaran. Y lo más extraño fue que, al volver, descubrí que todo el rollo se había velado salvo esta foto.»",
-          "«¿No tenías miedo? Sola en un paraje desierto, sin nadie alrededor, con ese CloudInsect gigantesco y aquellas figuras inquietantes…»"
-        ],
-        "fr": [
-          "« Qu’est-ce que ça pourrait être d’autre ? Vu l’échelle et l’endroit, ces silhouettes sont clairement sur la surface de l’Insecte-Nuage. Comment as-tu pris cette photo ? »",
-          "« Cette fois-là, l’Insecte-Nuage passait au-dessus du Yarlung Tsangpo. J’ai attendu toute la nuit sur l’autre versant de la vallée. J’ai pris la photo à cinq heures du matin.Moi aussi, j’ai voulu m’approcher. Mais cet endroit… le silence y était étrange.Pas un oiseau, pas un souffle de vent. Seulement un bourdonnement grave qui tournait à l’intérieur des tympans. On avait envie de reculer sans même savoir pourquoi, comme si des yeux inconnus vous observaient. Le plus troublant, c’est qu’à mon retour, toute la pellicule était voilée. Toute, sauf cette photo. »",
-          "« Tu n’avais pas peur ? Seule dans un désert inhabité, avec cet Insecte-Nuage gigantesque, ces silhouettes inquiétantes… »"
-        ],
-        "ar": [
-          "«فماذا يكونان إذًا؟ بهذا الحجم، وفي هذا الموضع… الظلان فوق سطح حشرة السحاب بوضوح. كيف التقطتِ الصورة؟»",
-          "«حين عبرت حشرة السحاب نهر يارلونغ تسانغبو، رابطت طوال الليل على الضفة الأخرى من الوادي. التقطتها عند الخامسة فجرًا.أردت يومها أن أقترب أكثر، لكن المكان… كان ساكنًا على نحو غريب.لا زقزقة طيور ولا ريح؛ فقط طنين منخفض يدور داخل طبلة الأذن. تجد نفسك تتراجع من غير وعي، كأن عينين غريبتين تحدقان فيك. والأغرب أنني حين عدت وجدت لفة الفيلم كلها قد أُتلفت بالضوء، إلا هذه الصورة وحدها.»",
-          "«ألم تخافي؟ وحدك في برية لا يسكنها أحد، وحشرة سحاب هائلة، وظلال بشرية غامضة…»"
-        ],
-        "ptBR": [
-          "“O que mais seriam? Pela proporção, pela posição… as figuras estão claramente sobre a superfície do Inseto-Nuvem. Como conseguiu esta foto?”",
-          "“Naquela vez, o Inseto-Nuvem passou pelo rio Yarlung Tsangpo. Fiquei de vigília a noite inteira no outro lado do vale e fotografei às cinco da manhã.Eu também quis chegar mais perto. Mas aquele lugar… era silencioso de um jeito estranho.Não havia pássaros nem vento. Apenas um zumbido grave circulando dentro dos tímpanos. Você sentia vontade de recuar sem saber por quê, como se olhos desconhecidos o observassem. E o mais esquisito: quando voltei, descobri que o rolo inteiro tinha velado. Só esta fotografia permaneceu intacta.”",
-          "“Você não teve medo? Sozinho no ermo, sem ninguém por perto, diante de um Inseto-Nuvem gigantesco e daquelas silhuetas estranhas…”"
-        ],
-        "ru": [
-          "Что это еще может быть? Масштаб, положение... эти фигуры явно находятся на поверхности облачного насекомого. Как ты это сняла?!",
-          "В тот раз, когда облачное насекомое проходило над рекой Ярлунг-Цангпо, я всю ночь сидела на противоположном берегу. Сняла это только в пять утра.Я хотела подойти поближе, но там было... подозрительно тихо.Не было ни птиц, ни ветра – только этот низкочастотный гул насекомого, раздающийся в ушах. Появляется это инстинктивное желание отойти назад, будто кто-то незаметно за тобой наблюдает.\n\nА самое странное – когда я пришла домой, вся плёнка была пересвечена... кроме этого кадра.",
-          "Разве тебе не было страшно? Одна в глуши, вокруг никого. Огромное облачное насекомое и эти... странные фигуры..."
         ],
         "vi": [
           "“Không thì còn là gì nữa? Tỷ lệ này, vị trí này, bóng người rõ ràng đang đứng ngay trên bề mặt của Vân Trùng cơ mà — Cậu làm thế nào mà chụp được hay vậy?”",
@@ -510,69 +168,6 @@
           "她笑了，笑里带着一点不动声色的挑衅，像一只知道自己已经绕开规则的猫，懒懒地看着还在规规矩矩做题的人。光线斜斜落下，照亮她眼尾一丝似有若无的弯。",
           "“你不是说我像九十年代来的嘛，那会儿的小孩都爱往野外跑。”",
           "“可那时候没人是追着云虫跑。”"
-        ],
-        "zhHant": [
-          "“我也不知道爲什麼，那些孤獨、荒涼、無人回應的地方……反而讓我安心。我喜歡雲蟲。龐大，沉默，孤獨，俯瞰衆生，卻從不靠近。——它太美了。像一位沉睡千年的古神，夢醒時卻發現，世上早已沒人記得它的名字。”",
-          "“……你真是瘋了。”",
-          "她笑了，笑裏帶着一點不動聲色的挑釁，像一隻知道自己已經繞開規則的貓，懶懶地看着還在規規矩矩做題的人。光線斜斜落下，照亮她眼尾一絲似有若無的彎。",
-          "“你不是說我像九十年代來的嘛，那會兒的小孩都愛往野外跑。”",
-          "“可那時候沒人是追着雲蟲跑。”"
-        ],
-        "en": [
-          "“I don’t know why, but lonely, desolate places where no one answers… they make me feel safe. I like CloudInsects. Vast, silent, solitary—looking down upon all life, yet never drawing near.They’re beautiful. Like an ancient god who slumbered for a thousand years, only to awaken and find that no one remembers its name.”",
-          "“...You’re insane.”",
-          "She smiled, a subtle, unreadable provocation in her eyes—like a cat who knows it’s already slipped past the rules, lazily watching others still stuck playing by them. The afternoon light angled in, catching the faintest curve at the corner of her eye.",
-          "“Didn’t you say I looked like I came from the ’90s? Back then, kids loved running into the wild.”",
-          "“Sure, but none of them were chasing CloudInsects.”"
-        ],
-        "ja": [
-          "「自分でも、どうしてかわからない。孤独で、荒れ果てて、誰からも返事のない場所……そういうところにいるほうが、かえって落ち着く。私は雲虫が好き。巨大で、寡黙で、孤独。あらゆる命を見下ろしながら、決して近づこうとはしない。――あまりにも美しい。千年の眠りから目覚めたとき、世界にはもう自分の名を覚えている者がいないと知った古い神みたいに」",
-          "「……君、やっぱりどうかしてる」",
-          "彼女は笑った。その笑みには、素知らぬ顔をした挑発がわずかに混じっていた。自分だけはとうに規則をすり抜けたと知る猫が、まだ律儀に問題を解いている人間を気だるげに眺めるような笑みだった。斜めに差す光が、その目尻にかすかな弧を灯した。",
-          "「私が九十年代から来たみたいだって言ったのは君でしょ。あの頃の子供は、みんな野山を駆け回ってたの」",
-          "「でも、雲虫を追いかけ回す子供はいなかったよ」"
-        ],
-        "ko": [
-          "“나도 왜 그런지 모르겠어. 외롭고 황량하고, 아무도 대답해 주지 않는 곳……그런 곳에 있으면 오히려 마음이 놓여.나는 운충이 좋아. 거대하고, 침묵하고, 외로워. 모든 생명을 굽어보면서도 결코 다가오지 않지. ——너무 아름다워. 천 년을 잠든 옛 신이 꿈에서 깨어났더니, 세상에는 이미 제 이름을 기억하는 이가 아무도 없는 것처럼.”",
-          "“……너 정말 미쳤구나.”",
-          "그녀가 웃었다. 티 내지 않는 도발이 살짝 밴 웃음이었다. 자신은 이미 규칙을 빠져나왔다는 걸 아는 고양이가, 아직도 얌전히 문제를 풀고 있는 사람을 느긋하게 바라보는 듯했다. 비스듬히 내려앉은 빛이 눈꼬리의 희미한 곡선을 밝혔다.",
-          "“내가 90년대에서 온 사람 같다며. 그때 애들은 다 들판으로 뛰어나가 놀았어.”",
-          "“그래도 그때 운충을 쫓아다니는 애는 없었어.”"
-        ],
-        "es": [
-          "«No sé por qué, pero esos lugares solitarios, desolados, donde nadie responde… son precisamente los que me hacen sentir a salvo.Me gustan los CloudInsects. Inmensos, silenciosos, solitarios; contemplan a todos los seres desde lo alto, pero nunca se acercan. Son hermosos. Como un dios antiguo que despierta después de dormir mil años y descubre que ya nadie en el mundo recuerda su nombre.»",
-          "«…Estás completamente loca.»",
-          "Ella sonrió con una provocación apenas disimulada, como un gato que sabe que ha burlado las reglas y observa con pereza a quien todavía resuelve el ejercicio siguiendo cada paso. La luz cayó de lado y encendió una curva casi imperceptible en el extremo de sus ojos.",
-          "«¿No decías que parezco salida de los noventa? Los niños de aquella época siempre andaban corriendo por el campo.»",
-          "«Pero ninguno perseguía CloudInsects.»"
-        ],
-        "fr": [
-          "« Je ne sais pas pourquoi, mais les lieux solitaires, désolés, où personne ne répond… ce sont eux qui me rassurent.J’aime les Insectes-Nuages. Immenses, silencieux, solitaires. Ils contemplent les êtres d’en haut sans jamais s’en approcher. Ils sont si beaux. Comme un dieu ancien endormi depuis mille ans qui, en s’éveillant, découvre que plus personne au monde ne se souvient de son nom. »",
-          "« … Tu es vraiment folle. »",
-          "Elle rit, avec dans son rire un défi presque imperceptible. On aurait dit une chatte qui, sachant avoir contourné les règles, regardait paresseusement celui qui continuait à résoudre les exercices avec application. La lumière tombait en biais et éclairait au coin de ses yeux une courbe à peine esquissée.",
-          "« Tu disais que je venais des années quatre-vingt-dix. À l’époque, les enfants adoraient courir dans la nature. »",
-          "« Mais à l’époque, personne ne courait après les Insectes-Nuages. »"
-        ],
-        "ar": [
-          "«لا أعرف لماذا، لكن تلك الأماكن الوحيدة المقفرة، حيث لا يجيبك أحد… هي التي تمنحني الطمأنينة.أحب حشرات السحاب. هائلة، صامتة، وحيدة؛ تطل على الخلائق ولا تقترب منها قط. إنها جميلة إلى حد لا يطاق. كإله قديم نام ألف عام، ثم أفاق من حلمه ليجد أن لا أحد في العالم يذكر اسمه.»",
-          "«…أنت مجنونة حقًا.»",
-          "ضحكت، وفي ضحكتها تحدٍّ مستتر. بدت كقطة تعرف أنها أفلتت من القواعد، ترمق في كسل من لا يزال يحل المسائل كما ينبغي. انحدر الضوء مائلًا، فأضاء انحناءة تكاد لا تُرى عند طرف عينها.",
-          "«ألم تقل إنني آتية من التسعينيات؟ أطفال ذلك الزمن كانوا يهربون دائمًا إلى البرية.»",
-          "«لكن لم يكن أحد يومها يطارد حشرات السحاب.»"
-        ],
-        "ptBR": [
-          "“Não sei por quê, mas lugares solitários, desolados, onde ninguém responde… são justamente os que me trazem paz.Eu gosto dos Insetos-Nuvem. Imensos, silenciosos, solitários. Contemplam todos os seres, mas nunca se aproximam. São belos demais. Como deuses antigos adormecidos há milênios que, ao despertar, descobrem que ninguém no mundo ainda se lembra de seus nomes.”",
-          "“…Você é mesmo louca.”",
-          "Ela sorriu. Havia no sorriso uma provocação discreta, como a de uma gata que já encontrara um caminho em torno das regras e agora observava, preguiçosa, quem ainda resolvia os exercícios como mandava o livro. A luz caía de viés e iluminava a curva quase imperceptível no canto de seus olhos.",
-          "“Você não disse que eu parecia ter vindo dos anos noventa? Naquela época, as crianças adoravam se meter pelo mato.”",
-          "“Mas nenhuma delas corria atrás de Insetos-Nuvem.”"
-        ],
-        "ru": [
-          "Не знаю почему, но именно такие места — одинокие, пустынные и безлюдные... Они меня успокаивают.Мне нравятся облачные насекомые. Огромные, молчаливые, одинокие – смотрят свысока на всю жизнь, но никогда не приближаются.\n\nОни прекрасны. Словно древний бог, спавший тысячу лет и проснувшийся лишь затем, чтобы обнаружить, что никто уже не помнит его имени.\"",
-          "...Ты и правда сумасшедшая.",
-          "[Она улыбнулась, в её взгляде читалась тонкая, неуловимая насмешка, как у кошки, которая уже нарушила все правила и теперь лениво наблюдает за тем, как остальные их соблюдают. Косой луч дневного света зацепил едва заметный изгиб в уголке её глаза]",
-          "Разве не ты говорил, что я из 90ых?\nВ те времена дети обожали убегать на природу.",
-          "Конечно, но никто из них не преследовал облачных насекомых."
         ],
         "vi": [
           "“Tôi cũng chẳng hiểu tại sao nữa, những nơi chốn cô độc, hoang vu, không một lời hồi đáp ấy... trái lại lại khiến lòng tôi cảm thấy an yên đến lạ lùng. Tôi yêu Vân Trùng. Đồ sộ, trầm mặc, cô tịch, đứng từ trên cao dõi mắt nhìn xuống chúng sinh, nhưng chưa từng bao giờ hạ mình bước lại gần. —— Nó đẹp đến nao lòng. Tựa như một vị cổ thần đã chìm sâu vào giấc ngủ ngàn năm, để rồi khi bừng tỉnh giấc mộng mới bàng hoàng nhận ra, trên thế gian này đã chẳng còn một ai nhớ nổi tôn danh của người nữa rồi.”",
@@ -597,77 +192,6 @@
           "“这张照片，你有没有发到过网上？”",
           "“没有。你是第一个看到的。——所以，你相信世界上真的有‘云中人’吗？”",
           "“我信。从古代壁画到中世纪书稿，各文明在不同年代都记载过相似的身影，不可能是巧合。”"
-        ],
-        "zhHant": [
-          "他們都笑了，笑聲短促，在落地窗透進的金光裏輕輕散開。",
-          "月牙兒撐着下巴，指尖輕敲地面，眼神卻飄向一旁，彷彿對自己的古怪執念毫無歉意，甚至有些得意。",
-          "希揚低頭看了看那張仍握在手中的照片，手指不自覺地沿着邊緣撫過一圈。",
-          "“這張照片，你有沒有發到過網上？”",
-          "“沒有。你是第一個看到的。——所以，你相信世界上真的有‘雲中人’嗎？”",
-          "“我信。從古代壁畫到中世紀書稿，各文明在不同年代都記載過相似的身影，不可能是巧合。”"
-        ],
-        "en": [
-          "They both laughed—a brief sound, scattering softly in the golden light pouring through the floor-to-ceiling windows.",
-          "Mahina rested her chin on one hand, fingertips tapping the ground idly. Her gaze drifted sideways, unapologetic—perhaps even a little proud—about her strange obsession. Suvan lowered his eyes to the photo still in his hand, his fingers unconsciously tracing its edges.",
-          "“Did you ever post this online?”",
-          "“No.You’re the first person to see it.—So, do you believe Cloud Dwellers really exist?”",
-          "“I do. From ancient murals to medieval manuscripts, civilizations across time have recorded similar figures. It can’t be coincidence.”"
-        ],
-        "ja": [
-          "二人は笑った。短い笑い声が、窓いっぱいに差し込む金色の光のなかへ、ふわりとほどけていった。",
-          "マヒナは頬杖をつき、指先で床を軽く叩きながら、視線だけをそっと逸らした。自分の風変わりな執着を悪びれる様子はなく、むしろ少し得意げですらあった。",
-          "スヴァンはまだ手にしていた写真へ目を落とし、無意識に指で縁をひと回りなぞった。",
-          "「この写真、ネットに上げたことは？」",
-          "「ないよ。見せたのは君が初めて。――それで、君は本当に雲中人がいると信じてる？」",
-          "「信じてる。古代の壁画から中世の写本まで、時代も文明も違うのに、似た姿が記録されている。偶然のはずがない」"
-        ],
-        "ko": [
-          "두 사람은 함께 웃었다. 짧은 웃음소리가 통유리창으로 스며든 금빛 속에 가볍게 흩어졌다.",
-          "마히나는 턱을 괴고 손끝으로 바닥을 가볍게 두드리면서, 시선만 슬쩍 옆으로 흘렸다. 자신의 별난 집착을 미안해하기는커녕, 조금은 뿌듯해하는 듯했다.",
-          "수반은 아직 손에 쥔 사진을 내려다보며, 무심코 손가락으로 가장자리를 한 바퀴 쓸었다.",
-          "“이 사진, 인터넷에 올린 적 있어?”",
-          "“없어. 네가 처음 본 사람이야.——그래서 말인데, 넌 세상에 정말 ‘운중인’이 있다고 믿어?”",
-          "“믿어. 고대 벽화부터 중세 필사본까지, 서로 다른 시대와 문명에서 비슷한 형상을 기록했잖아. 우연일 리 없어.”"
-        ],
-        "es": [
-          "Ambos rieron. Fue una risa breve, que se deshizo suavemente en la luz dorada de los ventanales.",
-          "Mahina apoyó la barbilla en una mano y tamborileó el suelo con los dedos mientras desviaba la mirada. No parecía sentir la menor vergüenza por aquella obsesión extraña; más bien estaba orgullosa de ella.",
-          "Suvan bajó los ojos hacia la fotografía que aún sostenía y recorrió su borde con un dedo, sin darse cuenta.",
-          "«¿Has publicado esta foto en internet?»",
-          "«No. Tú eres el primero que la ve.Entonces… ¿crees de verdad que existen los habitantes de las nubes?»",
-          "«Sí. Desde los murales antiguos hasta los manuscritos medievales, civilizaciones de épocas distintas dejaron constancia de figuras semejantes. No puede ser una coincidencia.»"
-        ],
-        "fr": [
-          "Ils rirent tous les deux. Un rire bref, qui se dissipa doucement dans la lumière dorée venue de la baie vitrée.",
-          "Mahina, le menton dans la main, tapotait le sol du bout des doigts et regardait ailleurs, sans la moindre honte de son étrange obsession — avec même une pointe de fierté.",
-          "Suvan baissa les yeux vers la photographie qu’il tenait encore. Sans y penser, son doigt en suivit tout le bord.",
-          "« Cette photo, tu l’as déjà publiée en ligne ? »",
-          "« Non. Tu es le premier à la voir.Alors… tu crois vraiment que les Habitants des nuages existent ? »",
-          "« Oui. Des fresques antiques aux manuscrits médiévaux, des civilisations différentes ont décrit les mêmes silhouettes à des époques différentes. Ce ne peut pas être une coïncidence. »"
-        ],
-        "ar": [
-          "ضحكا معًا. كانت ضحكتهما قصيرة، وتلاشت برفق في الضوء الذهبي المتسلل من النافذة الممتدة إلى الأرض.",
-          "أسندت ماهينا ذقنها إلى كفها، وأخذت تنقر الأرض بأطراف أصابعها فيما شرد بصرها جانبًا؛ لا اعتذار في ملامحها عن هوسها الغريب، بل شيء من الزهو.",
-          "خفض سوفان رأسه إلى الصورة التي ما زالت في يده، ومرر إصبعه حول حافتها من غير وعي.",
-          "«هل نشرتِ هذه الصورة على الإنترنت؟»",
-          "«لا. أنت أول من يراها.إذًا… أتؤمن حقًا بوجود ‹سكان السحاب› في هذا العالم؟»",
-          "«أؤمن. من جداريات العصور القديمة إلى مخطوطات القرون الوسطى، سجّلت حضارات شتى في أزمنة مختلفة أشكالًا متشابهة. لا يمكن أن تكون مصادفة.»"
-        ],
-        "ptBR": [
-          "Os dois riram. O riso breve se dispersou suavemente na luz dourada que entrava pelas janelas até o chão.",
-          "Mahina apoiou o queixo numa das mãos e tamborilou os dedos no chão, mas desviou os olhos para o lado. Não parecia minimamente arrependida de sua obsessão excêntrica; ao contrário, havia nela certo orgulho.",
-          "Suvan baixou os olhos para a fotografia que ainda segurava. Sem perceber, percorreu toda a borda com a ponta dos dedos.",
-          "“Você já publicou esta foto na internet?”",
-          "“Não. Você é o primeiro a vê-la.Então… acredita que os Habitantes das Nuvens existem de verdade?”",
-          "“Acredito. De antigos murais a manuscritos medievais, civilizações de épocas diferentes registraram figuras semelhantes. Não pode ser coincidência.”"
-        ],
-        "ru": [
-          "Они оба рассмеялись. Короткий смех легко растаял в золотом свете, льющемся из высоких окон.",
-          "[Они рассмеялись — звук смеха мягко рассыпался в золотом свете, льющемся сквозь окна от пола до потолка. Юэя опёрлась подбородком на ладонь, рассеянно постукивая кончиками пальцев по полу. Её взгляд скользнул в сторону — без тени смущения, а может, даже с лёгкой гордостью за свою странную одержимость. Сиян опустил глаза на фотографию в руке, невольно проводя пальцами по её краям.]",
-          "Суван опустил глаза на фотографию, которую всё ещё держал, и бессознательно провёл пальцем по её краю.",
-          "Ты выкладывала это в интернет?",
-          "Нет.\nТы первый, кому я это показала.Так ты веришь в существование облачных людей?",
-          "Верю. От древних фресок до средневековых манускриптов — цивилизации на протяжении веков запечатлевали похожие образы. Это не может быть простым совпадением."
         ],
         "vi": [
           "Cả hai cùng bật cười, tiếng cười khúc khích ngắn ngủi khẽ tan vào trong vạt nắng vàng ruộm rọi qua ô cửa kính sát sàn.",
@@ -696,96 +220,6 @@
           "他走过去，伸手把它从墙上揭了下来，铺在地面上——",
           "红点密布，如流星划过史册。"
         ],
-        "zhHant": [
-          "“我也覺得。我讀《斷代史》的時候，看到有人把‘錐中之人’解釋爲雲中人。我國春秋時期就有關於‘雲中人’的童謠。而相機這種東西，也不過才發明了一百多年。可也有人說，那只是當時的人在描述異象。”",
-          "“對，上世紀末，一個北歐極限運動員用跳傘方式登陸雲蟲，帶回的畫面顯示它表面完全無縫，連塵屑都撬不下來。也沒發現任何生命跡象。”",
-          "“我記得那件事。他說，雲蟲就像一個完整的、閉合的機器。”",
-          "“古代人見到他們，說是神。中世紀人叫他們‘雲使’或‘光之靈’。而現代人，只會說‘雲中人’不過是電磁異常引發的大氣蜃景。科技越進步，我們的想象力反而越貧瘠。”",
-          "希揚抬頭望了一眼對面的牆。",
-          "那張被圖釘固定的文明時間軸圖在夕陽下微微翹起邊角，紙面泛黃。",
-          "他走過去，伸手把它從牆上揭了下來，鋪在地面上——",
-          "紅點密佈，如流星劃過史冊。"
-        ],
-        "en": [
-          "“I think so too.I was reading Chronicle of Eras once—someone interpreted the term ‘The Figure in the Cone’ as referring to Cloud Dwellers.There’s even a nursery rhyme from our Spring and Autumn period that mentions them. And film cameras? They've only existed for a little over a century. Some say the ancients were just describing natural phenomena.”",
-          "“Right. At the end of the last century, there was that Nordic extreme athlete—he parachuted onto a CloudInsect. The footage he brought back showed a seamless surface, no dust, nothing to scrape off. No signs of life at all.”",
-          "“I remember that. He said the CloudInsect felt like a complete, sealed machine.”",
-          "“Ancient people saw them and called them gods.Medieval folks called them ‘Cloud Messengers’ or ‘Spirits of Light.’And modern science? It reduces them to optical illusions—atmospheric mirages caused by electromagnetic anomalies.The more advanced we become, the poorer our imagination gets.”",
-          "Suvan looked up at the wall across from them.",
-          "The civilizational timeline pinned there curled slightly at the corners in the fading light.",
-          "He walked over, unpinned it, and spread it across the floor.",
-          "Red dots covered the sheet—like shooting stars strewn across the pages of history."
-        ],
-        "ja": [
-          "「私もそう思う。『断代史』を読んだとき、『光円錐の人』は雲中人のことだとする解釈を見た。私たちの国には、春秋時代から雲中人を歌った童謡がある。カメラなんて、発明されてまだ百年あまりなのに。でも、当時の人がただ異常な光景を描写しただけだっていう説もある」",
-          "「そう。前世紀の終わり、北欧のエクストリームスポーツ選手がスカイダイビングで雲虫に降り立った。持ち帰った映像では、表面は完全に継ぎ目がなく、塵ひとつ剥がせなかった。生命の痕跡も、何も見つからなかった」",
-          "「その話は覚えてる。彼は、雲虫は一つの完全に閉じた機械みたいだと言ってた」",
-          "「古代の人々は彼らを目にして、神と呼んだ。中世の人々は『雲の使者』、あるいは『光の精霊』と呼んだ。現代人は、雲中人など電磁異常が生んだ大気の蜃気楼にすぎないと言う。科学技術が進むほど、かえって私たちの想像力は痩せていく」",
-          "スヴァンは顔を上げ、向かいの壁へ目をやった。",
-          "画鋲で留められた文明の年表は、夕陽のなかで端がわずかに浮き、紙は黄ばんでいた。",
-          "彼は歩み寄ると、壁からそれを外し、床いっぱいに広げた――",
-          "無数の赤い点が、歴史書を横切る流星のように散らばっていた。"
-        ],
-        "ko": [
-          "“나도 그렇게 생각해. 『시대사』를 읽다가 ‘광추 속 사람’을 운중인으로 해석한 글을 봤어. 우리나라에는 춘추 시대부터 운중인을 노래한 동요가 있었고. 카메라라는 물건은 발명된 지 고작 백여 년밖에 안 됐잖아. 하지만 당시 사람들이 그저 기이한 현상을 묘사했을 뿐이라는 주장도 있어.”",
-          "“맞아. 지난 세기 말, 북유럽의 익스트림 스포츠 선수가 낙하산으로 운충에 착륙했어. 그가 가져온 영상에는 표면이 완전히 이음매 없이 닫혀 있고, 먼지 한 조각조차 떼어 낼 수 없는 모습이 담겼지. 생명의 흔적도 전혀 발견되지 않았고.”",
-          "“그 일 기억나. 그는 운충이 하나의 완전하고 닫힌 기계 같다고 했지.”",
-          "“고대인은 그들을 보고 신이라 했어. 중세 사람들은 ‘구름의 사자’나 ‘빛의 정령’이라 불렀고. 하지만 현대인은 운중인이란 전자기 이상이 만들어 낸 대기 신기루에 불과하다고 하지. 과학 기술이 발전할수록 우리의 상상력은 오히려 메말라 가.”",
-          "수반은 고개를 들어 맞은편 벽을 바라보았다.",
-          "압정으로 고정한 문명 연대표는 석양 아래서 모서리가 살짝 들려 있었고, 종이는 누렇게 바래 있었다.",
-          "그는 다가가 연대표를 벽에서 떼어 내 바닥에 펼쳤다——",
-          "빼곡한 붉은 점들이 역사책을 가로지르는 유성처럼 흩어져 있었다."
-        ],
-        "es": [
-          "«Yo pienso lo mismo. En la Crónica de las Eras leí que algunos identifican a la “figura del cono” con los habitantes de las nubes. En China ya circulaban canciones infantiles sobre ellos durante el período de Primavera y Otoño, mucho antes de que existieran las cámaras. Aunque otros dicen que aquella gente solo intentaba describir fenómenos extraños.»",
-          "«Sí. A finales del siglo pasado, un deportista extremo nórdico aterrizó en paracaídas sobre un CloudInsect. Las imágenes que trajo mostraban una superficie totalmente continua: ni siquiera pudo desprender una mota. Tampoco encontró señales de vida.»",
-          "«Recuerdo aquel caso. Dijo que CloudInsect era como una máquina íntegra y herméticamente cerrada.»",
-          "«Los antiguos los vieron y los llamaron dioses. En la Edad Media fueron “mensajeros de las nubes” o “espíritus de luz”. Nosotros, en cambio, nos limitamos a decir que los habitantes de las nubes son espejismos atmosféricos causados por anomalías electromagnéticas. Cuanto más avanza la tecnología, más pobre parece volverse nuestra imaginación.»",
-          "Suvan levantó la mirada hacia la pared de enfrente.",
-          "La cronología de las civilizaciones, sujeta con chinchetas, tenía las esquinas ligeramente levantadas bajo el sol poniente. El papel se había amarilleado.",
-          "Se acercó, la desclavó de la pared y la extendió en el suelo.",
-          "Estaba sembrada de puntos rojos, como meteoros atravesando los anales de la historia."
-        ],
-        "fr": [
-          "« Je le pense aussi. Dans l’Histoire des dynasties, j’ai lu que certains interprétaient la Figure dans le cône comme un Habitant des nuages. Il existait déjà chez nous, à l’époque des Printemps et Automnes, des comptines qui en parlaient. Or l’appareil photo n’a guère plus d’un siècle. Mais d’autres disent que les anciens ne faisaient que décrire des phénomènes singuliers. »",
-          "« Oui. À la fin du siècle dernier, un sportif de l’extrême nord-européen s’est posé en parachute sur un Insecte-Nuage. Ses images montraient une surface parfaitement lisse, sans un seul joint ; impossible même d’en détacher un grain de poussière. Il n’a trouvé aucun signe de vie. »",
-          "« Je m’en souviens. Il a dit que l’Insecte-Nuage ressemblait à une machine complète, fermée sur elle-même. »",
-          "« Les anciens les voyaient et parlaient de dieux. Au Moyen Âge, on les appelait Messagers des nuages ou Esprits de lumière. L’homme moderne, lui, se contente de dire que les Habitants des nuages ne sont qu’un mirage atmosphérique causé par une anomalie électromagnétique. Plus la technique progresse, plus notre imagination s’appauvrit. »",
-          "Suvan leva les yeux vers le mur d’en face.",
-          "La frise chronologique des civilisations, fixée par des punaises, relevait légèrement ses coins dans le soleil couchant. Le papier avait jauni.",
-          "Il s’approcha, la détacha du mur et la déploya sur le sol —",
-          "Des points rouges la couvraient, pareils à des météores traversant les annales."
-        ],
-        "ar": [
-          "«وأنا أرى ذلك. حين قرأت ‹تاريخ الحقب› وجدت من يفسر ‹الشخص في المخروط› بأنه واحد من سكان السحاب. ولدينا منذ عصر الربيع والخريف أهازيج أطفال عنهم. أما الكاميرا فلم تُخترع إلا منذ أكثر قليلًا من قرن. ومع ذلك يقول بعضهم إن القدماء كانوا يصفون ظواهر غريبة فحسب.»",
-          "«صحيح. في أواخر القرن الماضي هبط رياضي مغامر من شمال أوروبا بالمظلة على حشرة سحاب. أظهرت اللقطات التي عاد بها أن سطحها مصمت بلا فاصل واحد، ولم يستطع حتى اقتلاع ذرة غبار منه. ولم يجد أي أثر للحياة.»",
-          "«أذكر ذلك. قال إن حشرة السحاب أشبه بآلة كاملة، مغلقة على ذاتها.»",
-          "«رآهم القدماء فسمّوهم آلهة. وسمّاهم أهل القرون الوسطى ‹رسل السحاب› أو ‹أرواح النور›. أما إنسان اليوم فلا يقول إلا إن ‹سكان السحاب› سراب جوي سببه اضطراب كهرومغناطيسي. كلما تقدمت التقنية، ازداد خيالنا فقرًا.»",
-          "رفع سوفان رأسه ونظر إلى الجدار المقابل.",
-          "كانت أطراف خط الحضارة الزمني المثبّت بالدبابيس تلتوي قليلًا في ضوء الغروب، وقد اصفرّ ورقه.",
-          "مشى إليه، نزعه عن الجدار وبسطه على الأرض—",
-          "تناثرت عليه نقاط حمراء كثيفة، كنيازك تشق صفحات التاريخ."
-        ],
-        "ptBR": [
-          "“Eu também penso assim. Quando li História das Dinastias, encontrei quem interpretasse ‘o povo dentro do cone’ como referência aos Habitantes das Nuvens. Já no Período das Primaveras e Outonos havia cantigas infantis sobre eles. E a câmera fotográfica só existe há pouco mais de cem anos. Ainda assim, alguns dizem que aquelas pessoas apenas tentavam descrever fenômenos incomuns.”",
-          "“Sim. No fim do século passado, um atleta radical do norte da Europa pousou de paraquedas num Inseto-Nuvem. As imagens que trouxe mostravam uma superfície inteiriça, sem uma única emenda; não conseguiu arrancar nem um grão de poeira. Tampouco encontrou sinal de vida.”",
-          "“Lembro desse caso. Ele disse que o Inseto-Nuvem parecia uma máquina completa, hermeticamente fechada.”",
-          "“Para os antigos, eram deuses. Na Idade Média, chamavam-nos de ‘mensageiros das nuvens’ ou ‘espíritos da luz’. Hoje, as pessoas apenas dizem que os Habitantes das Nuvens são miragens atmosféricas causadas por anomalias eletromagnéticas. Quanto mais a tecnologia avança, mais pobre se torna a nossa imaginação.”",
-          "Suvan ergueu os olhos para a parede do outro lado.",
-          "Sob a luz do entardecer, as pontas do mapa cronológico da civilização, preso com tachinhas, se curvavam ligeiramente; o papel já amarelecera.",
-          "Ele se levantou, soltou o mapa da parede e o estendeu no chão —",
-          "Pontos vermelhos cobriam-no como meteoros riscando os anais da história."
-        ],
-        "ru": [
-          "Я тоже так думаю.\nКогда читала историю династий — кто-то истолковал выражение \"Человек в конусе\" как упоминание обитателей облаков.\n\nЕсть даже детская песенка из периода Вёсен и Осеней про это.\nА пленочные камеры? Им чуть больше века. Некоторые считают, что это всего лишь описание необычного природного явления людьми того времени",
-          "Ага. В конце прошлого века один скандинавский экстремал прыгнул с парашютом прямо на облачное насекомое. Кадры, которые он получил, показали гладкую поверхность: ни пылинки, ни царапины, вообще никаких признаков жизни.",
-          "Я помню тот случай.\nОн сказал, что насекомое ощущалось как цельная, замкнутая машина.",
-          "Древние люди видели их и называли богами. В средневековье их звали \"Небесными Вестниками\" или \"Духами Света\". А современная наука? Она объясняет это оптическими иллюзиями — атмосферными миражами, вызванными электромагнитными аномалиями. Чем больше мы развиваемся, тем хуже становится наше воображение.",
-          "[Сиян поднял взгляд на стену напротив.",
-          "Там висел большой лист с временной шкалой цивилизаций, края которого чуть свернулись от времени.",
-          "Он подошёл, аккуратно снял его и разложил на полу.",
-          "Поверхность была усыпана красными точками — словно звёзды, рассыпанные по страницам истории.]"
-        ],
         "vi": [
           "“Tôi cũng nghĩ như vậy đấy. Hồi tôi đọc cuốn 'Đoạn Đại Sử', từng thấy có người giải thích cụm từ 'Người Trong Nón' chính là để chỉ Người Trong Mây. Từ thời Xuân Thu ở nước ta đã lưu truyền bài đồng dao nhắc tới 'Người Trong Mây' rồi. Còn máy ảnh cơ thì mới chỉ được phát minh ra hơn một trăm năm nay thôi. Nhưng cũng có người lại bảo, đó chẳng qua chỉ là người xưa đang miêu tả lại một hiện tượng dị tượng tự nhiên nào đó mà thôi.”",
           "“Phải rồi, cuối thế kỷ trước, từng có một vận động viên thể thao mạo hiểm người Bắc Âu đã dùng dù lượn nhảy đáp xuống lưng Vân Trùng. Thước phim ghi lại mang về cho thấy bề mặt của nó hoàn toàn liền mạch không tì vết, ngay cả một hạt bụi cũng chẳng cạy ra nổi. Và hoàn toàn không phát hiện bất kỳ dấu hiệu nào của sự sống.”",
@@ -805,6 +239,7 @@
       "video_src": null,
       "poster_src": null,
       "texts": {
+        "zh": [],
         "vi": []
       }
     },
@@ -815,6 +250,7 @@
       "video_src": null,
       "poster_src": null,
       "texts": {
+        "zh": [],
         "vi": []
       }
     },
@@ -830,60 +266,6 @@
           "“听起来，都是战争时期？”",
           "“也不全是。唐朝贞观年间、罗马的五贤帝时期也有很多记录，那些可是黄金时代。”",
           "“那可能只是幸存者偏差。盛世乱世，人们都更有理由把‘神迹’记下来。”"
-        ],
-        "zhHant": [
-          "“這是我標註過的史料中雲中人目擊記錄。你看這些紅點密集區域，分佈得很有意思——東周戰國末年、東漢末期、羅馬從共和國轉向帝國的時期、還有孔雀帝國解體前後、泰西封被破薩珊帝國覆滅的時期，還有歐洲一戰二戰的時候……”",
-          "“聽起來，都是戰爭時期？”",
-          "“也不全是。唐朝貞觀年間、羅馬的五賢帝時期也有很多記錄，那些可是黃金時代。”",
-          "“那可能只是倖存者偏差。盛世亂世，人們都更有理由把‘神蹟’記下來。”"
-        ],
-        "en": [
-          "“These are the Cloud Dweller sightings I marked in the historical record. Look at the dense clusters of red: the late Eastern Zhou during the Warring States period, the late Eastern Han, Rome’s transition from republic to empire, the disintegration of the Maurya Empire, the fall of Ctesiphon and the collapse of the Sasanian Empire, and the two world wars in Europe…”",
-          "“Sounds like they all happened during times of war.”",
-          "“Not all.There were also many records during golden ages, such as the Zhenguan era of the Tang dynasty and Rome’s age of the Five Good Emperors.”",
-          "“Maybe that’s just survivorship bias.In both peace and chaos, people are more inclined to write down what they see as ‘miracles.’”"
-        ],
-        "ja": [
-          "「史料に残る雲中人の目撃記録を、僕が印したものだ。この赤い点が集中している場所、分布が面白いだろ――東周・戦国時代末期、後漢末期、ローマが共和政から帝政へ移った時代、マウリヤ朝が解体した前後、クテシフォンが陥落してササン朝が滅びた時期、それにヨーロッパの第一次、第二次世界大戦……」",
-          "「聞いてると、どれも戦乱の時代みたいだね」",
-          "「全部じゃない。唐の貞観年間や、ローマ五賢帝時代にも記録はたくさんある。どちらも黄金時代だ」",
-          "「それは単なる生存者バイアスかもしれない。太平の世でも乱世でも、人は『奇跡』を書き残す理由を見つけやすいから」"
-        ],
-        "ko": [
-          "“사료에 남은 운중인 목격 기록을 내가 표시한 거야. 붉은 점이 몰린 구역을 봐. 분포가 아주 흥미로워——동주 전국 시대 말기, 후한 말기, 로마가 공화정에서 제정으로 넘어가던 시기, 마우리아 제국이 해체되기 전후, 크테시폰이 함락되고 사산 제국이 멸망하던 시기, 그리고 유럽의 1차와 2차 세계대전……”",
-          "“듣고 보니 전부 전쟁 시기인데?”",
-          "“꼭 그렇진 않아. 당나라 정관 연간이나 로마 오현제 시대에도 기록이 많아. 그때는 황금기였잖아.”",
-          "“그건 생존자 편향일 수도 있어. 태평성대든 난세든, 사람들은 ‘신의 기적’을 기록할 이유가 더 많아지니까.”"
-        ],
-        "es": [
-          "«Son los avistamientos de habitantes de las nubes que he encontrado en las fuentes históricas. Fíjate en dónde se concentran los puntos: el final de los Estados Combatientes de Zhou oriental, los últimos años de Han oriental, la transición de Roma de república a imperio, la caída del Imperio maurya, la toma de Ctesifonte y el derrumbe del Imperio sasánida, las dos guerras mundiales en Europa…»",
-          "«Por lo que dices, parecen épocas de guerra.»",
-          "«No todas. También hay muchos registros durante la era Zhenguan de los Tang y la época de los Cinco Buenos Emperadores de Roma. Aquellas fueron edades de oro.»",
-          "«Podría ser un sesgo de supervivencia. Tanto en tiempos prósperos como en épocas caóticas, la gente tenía más motivos para dejar constancia de los “milagros”.»"
-        ],
-        "fr": [
-          "« J’ai marqué ici toutes les apparitions d’Habitants des nuages relevées dans les sources historiques. Regarde les zones où les points se concentrent : leur répartition est fascinante. La fin des Royaumes combattants sous les Zhou orientaux, la fin des Han orientaux, le passage de Rome de la République à l’Empire, la période qui entoure la désagrégation de l’Empire maurya, la prise de Ctésiphon et la chute des Sassanides, puis les deux guerres mondiales en Europe… »",
-          "« On dirait que ce sont toujours des temps de guerre. »",
-          "« Pas toujours. Il existe aussi de nombreux témoignages sous l’ère Zhenguan de la dynastie Tang et pendant le règne des Cinq Bons Empereurs de Rome. C’étaient des âges d’or. »",
-          "« Ce n’est peut-être qu’un biais de survivance. En temps de prospérité comme de chaos, on a davantage de raisons de consigner les miracles. »"
-        ],
-        "ar": [
-          "«هذه سجلات مشاهدات سكان السحاب التي علّمتها في المصادر التاريخية. انظري إلى المناطق التي تتكاثف فيها النقاط الحمراء؛ توزيعها مثير للاهتمام: أواخر تشو الشرقية في نهاية عصر الممالك المتحاربة، وأواخر هان الشرقية، وانتقال روما من الجمهورية إلى الإمبراطورية، وما قبل تفكك الإمبراطورية الماورية وبعده، وسقوط طيسفون وانهيار الإمبراطورية الساسانية، ثم الحربان العالميتان في أوروبا…»",
-          "«يبدو أنها كلها عصور حروب؟»",
-          "«ليست كلها كذلك. ثمة سجلات كثيرة أيضًا من عصر تشنغوان في أسرة تانغ، ومن عهد الأباطرة الخمسة الصالحين في روما. كانا عصرين ذهبيين.»",
-          "«قد لا يكون ذلك إلا انحياز البقاء. في عصور الرخاء والفوضى على السواء، يجد الناس أسبابًا أكثر لتدوين ‹المعجزات›.»"
-        ],
-        "ptBR": [
-          "“Estes são os avistamentos de Habitantes das Nuvens que marquei nas fontes históricas. Veja como se distribuem as regiões em que os pontos se adensam: o fim do Período dos Reinos Combatentes da dinastia Zhou Oriental; os últimos anos da dinastia Han Oriental; a transição de Roma da República para o Império; a época da desintegração do Império Máuria; a queda de Ctesifonte e o fim do Império Sassânida; e ainda as duas guerras mundiais na Europa…”",
-          "“Parece que todas foram épocas de guerra.”",
-          "“Nem todas. Também há muitos registros no reinado Zhenguan da dinastia Tang e durante os Cinco Bons Imperadores de Roma. Eram eras de ouro.”",
-          "“Talvez seja apenas viés de sobrevivência. Em tempos de prosperidade ou de caos, as pessoas sempre têm mais motivos para registrar ‘milagres’.”"
-        ],
-        "ru": [
-          "Я отметил все задокументированные упоминания обитателей облаков. Видишь эти скопления? Конец эпохи Сражающихся царств в Китае, закат Восточной Хань, переход Рима от республики к империи, распад империи Маурьев, падение Ктесифона и гибель державы Сасанидов, Первая и Вторая мировые войны в Европе...",
-          "Выходит, что во время войн их видели чаще?",
-          "Не только.\nНемало упоминаний приходится и на времена расцвета — такие, как эпоха Чжэнгуань при Танской династии или правление Пяти Благородных Императоров в Древнем Риме.",
-          "Возможно, это всего лишь ошибка выжившего.\nИ в мирные, и в смутные времена у людей есть причины записывать то, что они считают чудом."
         ],
         "vi": [
           "“Đây là những ghi chép về việc nhìn thấy Người Trong Mây trong các sử liệu mà tôi đã từng đánh dấu. Cậu nhìn những khu vực tập trung dày đặc các chấm đỏ này xem, sự phân bố của chúng cực kỳ thú vị — Cuối thời Chiến Quốc thời Đông Chu, giai đoạn cuối thời Đông Hán, thời kỳ La Mã chuyển từ thể chế Cộng hòa sang Đế quốc, rồi khoảng thời gian Đế quốc Maurya tan rã, thời kỳ thành Ctesiphon thất thủ dẫn đến sự diệt vong của Đế quốc Sasanian, rồi cả Thế chiến thứ Nhất và Thế chiến thứ Hai ở châu Âu nữa...”",
@@ -906,62 +288,6 @@
           "“那你看到什么规律了？”",
           "“这些光明与黑暗并存的时代……无一不是人类文明剧烈变动的临界点。”"
         ],
-        "zhHant": [
-          "攤開的圖紙在風中微微顫動，像一場被擱淺的預言。太陽已西沉，窗外的城市浸入薄暮。某個尚未被證實的真相，正悄悄在兩人之間張開暗影。",
-          "“如果一切都歸因於‘偏差’，那史學和科學還有存在的意義嗎？”",
-          "“那你看到什麼規律了？”",
-          "“這些光明與黑暗並存的時代……無一不是人類文明劇烈變動的臨界點。”"
-        ],
-        "en": [
-          "The open map trembled lightly in the wind, like a stranded prophecy.",
-          "The sun had sunk low; outside, the city was soaking in dusk.",
-          "Some truth, not yet proven, quietly unfolded in the space between them.",
-          "“If everything can be written off as ‘bias,’ then what’s the point of history or science?”",
-          "“So... what pattern have you seen?”",
-          "“All those ages—both bright and dark—Every one of them marked a turning point in human civilization.”"
-        ],
-        "ja": [
-          "広げられた図は風にかすかに震え、岸に乗り上げた予言のようだった。陽はすでに西へ沈み、窓の外の街は薄暮に浸っている。まだ証明されていない何かが、二人のあいだで静かに影を広げていた。",
-          "「何もかも『バイアス』で片づけるなら、歴史学や科学に存在する意味なんてあるの？」",
-          "「じゃあ、君にはどんな規則性が見えた？」",
-          "「光と闇が同居するこの時代は……どれも、人類文明が激変する臨界点だった」"
-        ],
-        "ko": [
-          "펼쳐 놓은 도표가 바람에 가늘게 떨렸다. 좌초된 예언 같았다. 해는 이미 서쪽으로 기울고, 창밖 도시는 땅거미에 잠겼다. 아직 증명되지 않은 어떤 진실이 두 사람 사이로 조용히 그림자를 펼치고 있었다.",
-          "“모든 걸 ‘편향’ 탓으로 돌리면 역사학과 과학이 존재할 의미가 있을까?”",
-          "“그럼 넌 어떤 규칙을 발견했어?”",
-          "“빛과 어둠이 공존한 이 시대들은……모두 인류 문명이 격렬하게 요동치던 임계점이었어.”"
-        ],
-        "es": [
-          "La hoja extendida tembló bajo la brisa, como una profecía varada. El sol ya descendía y la ciudad, tras las ventanas, se hundía en el crepúsculo. Entre ambos comenzaba a desplegar su sombra una verdad aún no demostrada.",
-          "«Si todo puede atribuirse a un “sesgo”, ¿qué sentido tienen entonces la historia y la ciencia?»",
-          "«¿Y qué patrón ves tú?»",
-          "«Todas esas épocas en que la luz y la oscuridad coexistieron… fueron puntos críticos de transformación para la civilización humana.»"
-        ],
-        "fr": [
-          "La carte déployée frémissait dans le vent, telle une prophétie échouée. Le soleil avait sombré ; derrière la fenêtre, la ville baignait dans le crépuscule. Une vérité encore invérifiée étendait silencieusement son ombre entre eux.",
-          "« Si l’on ramène tout à un biais, à quoi servent encore l’histoire et la science ? »",
-          "« Alors, quel motif as-tu découvert ? »",
-          "« Ces époques où la lumière côtoie les ténèbres… toutes, sans exception, sont des points critiques où la civilisation humaine a basculé. »"
-        ],
-        "ar": [
-          "ارتجفت الخريطة المبسوطة في النسيم كنبؤة جنحت إلى الشاطئ. كانت الشمس قد هبطت، والمدينة خلف النافذة تنغمس في العتمة الأولى. حقيقة لم تُثبت بعد كانت تمد ظلها بصمت بينهما.",
-          "«إذا نسبنا كل شيء إلى ‹الانحياز›، فأي معنى يبقى للتاريخ أو للعلم؟»",
-          "«وأي نمط رأيت؟»",
-          "«هذه العصور التي يتجاور فيها النور والظلام… كلها بلا استثناء نقاط حرجة شهدت تحولات عنيفة في الحضارة البشرية.»"
-        ],
-        "ptBR": [
-          "O mapa estendido tremia de leve ao vento, como uma profecia encalhada. O sol já descera, e a cidade lá fora mergulhava no crepúsculo. Uma verdade ainda não demonstrada começava a abrir, silenciosa, sua sombra entre os dois.",
-          "“Se tudo puder ser atribuído a algum ‘viés’, que sentido ainda terão a história e a ciência?”",
-          "“E que padrão você encontrou?”",
-          "“Todas essas eras em que luz e trevas coexistiram… foram pontos críticos de transformações violentas na civilização humana.”"
-        ],
-        "ru": [
-          "[Карта слегка дрожала на ветру, словно напоминая о чём-то важном. Солнце уже скрылось, и город за окном тонул в сумерках. Между ними медленно нарастало ощущение чего-то неизбежного — ещё не сказанной правды]",
-          "Если всё сводится лишь к искажениям восприятия, тогда зачем вообще нужны история и наука?",
-          "Итак... какую закономерность ты заметил?",
-          "Все эти эпохи, светлые и темные, без исключения становились поворотными моментами в истории человечества."
-        ],
         "vi": [
           "Tấm bản đồ mở rộng khẽ rung rinh nhè nhẹ trong làn gió, tựa như một lời sấm truyền bị dòng thời gian bỏ quên. Vầng thái dương đã lặn hẳn về tây, thành phố bên ngoài cửa sổ chìm dần vào làn sương chạng vạng. Một chân tướng nào đó chưa từng được kiểm chứng, đang âm thầm phủ bóng mờ giữa hai con người.",
           "“Nếu như vạn sự vạn vật đều quy chụp cho hai chữ 'thiên kiến', vậy thì sử học và khoa học còn có ý nghĩa gì để tồn tại nữa chứ?”",
@@ -983,69 +309,6 @@
           "沉默片刻，他手指轻轻敲了敲图纸边角，像是在数数上面那些散落的红点。",
           "“你觉得，如果我们是历史的一部分……会被谁在图上点一个红点？”",
           "“你希望有人记得你吗？”"
-        ],
-        "zhHant": [
-          "“那「他們」是來見證的，還是來推動的？”",
-          "“這纔是我想知道的。”",
-          "沉默片刻，他手指輕輕敲了敲圖紙邊角，像是在數數上面那些散落的紅點。",
-          "“你覺得，如果我們是歷史的一部分……會被誰在圖上點一個紅點？”",
-          "“你希望有人記得你嗎？”"
-        ],
-        "en": [
-          "“Do you think ‘they’ came to witness... or to intervene?”",
-          "“That’s what I want to know.”",
-          "He fell silent. Then lightly tapped the edge of the map with his finger, as if counting the scattered red dots.",
-          "“Do you think... if we’re part of history too...someone will mark us with a red dot?”",
-          "“Do you want someone to remember you?”"
-        ],
-        "ja": [
-          "「なら『彼ら』は、見届けに来たのか。それとも、変化を促しに来たのか？」",
-          "「それこそ、僕が知りたいことだ」",
-          "しばし黙り込み、彼は図の端を指先で軽く叩いた。そこに散る赤い点を、一つずつ数えているようだった。",
-          "「もし僕たちも歴史の一部なら……誰が、この図に僕たちの赤い点を打つんだろう？」",
-          "「誰かに覚えていてほしいの？」"
-        ],
-        "ko": [
-          "“그럼 ‘그들’은 지켜보러 온 걸까, 아니면 변화를 밀어붙이러 온 걸까?”",
-          "“그게 바로 내가 알고 싶은 거야.”",
-          "잠시 침묵한 뒤, 그는 손가락으로 도표 모서리를 가볍게 두드렸다. 흩어진 붉은 점들을 하나하나 세는 듯했다.",
-          "“만약 우리도 역사의 일부라면……누가 이 도표에 우리를 붉은 점 하나로 찍어 둘까?”",
-          "“누군가 네가 있었다는 걸 기억해 주길 바라?”"
-        ],
-        "es": [
-          "«Entonces, ¿“ellos” vinieron a ser testigos… o a impulsar esos cambios?»",
-          "«Eso es precisamente lo que quiero averiguar.»",
-          "Tras un instante de silencio, golpeó suavemente una esquina del papel con los dedos, como si contara los puntos rojos dispersos sobre él.",
-          "«Si nosotros formáramos parte de la historia… ¿quién marcaría un punto rojo por nosotros?»",
-          "«¿Quieres que alguien te recuerde?»"
-        ],
-        "fr": [
-          "« Alors, eux, viennent-ils assister au changement… ou le provoquer ? »",
-          "« C’est précisément ce que je veux savoir. »",
-          "Après un silence, il tapota doucement le bord de la carte, comme s’il comptait les points rouges qui s’y éparpillaient.",
-          "« À ton avis, si nous faisions partie de l’histoire… qui poserait un point rouge pour nous sur une carte ? »",
-          "« Tu aimerais que quelqu’un se souvienne de toi ? »"
-        ],
-        "ar": [
-          "«فهل جاء ‹هم› ليشهدوا التحول، أم ليدفعوه؟»",
-          "«هذا ما أريد معرفته.»",
-          "صمت هنيهة، ثم نقر بأصبعه طرف الخريطة برفق، كأنه يعد النقاط الحمراء المتناثرة عليها.",
-          "«برأيك، إذا كنا جزءًا من التاريخ… فمن سيضع لنا نقطة حمراء على خريطة؟»",
-          "«أتريد أن يتذكرك أحد؟»"
-        ],
-        "ptBR": [
-          "“Então ‘eles’ vieram testemunhar essas mudanças ou provocá-las?”",
-          "“É isso que quero descobrir.”",
-          "Após um breve silêncio, ele bateu de leve com o dedo na borda do mapa, como se contasse os pontos vermelhos espalhados por ali.",
-          "“Se nós também fazemos parte da história… quem marcará um ponto vermelho para nós neste mapa?”",
-          "“Você quer ser lembrado?”"
-        ],
-        "ru": [
-          "Как думаешь, \"они\" пришли, чтобы стать свидетелями… или чтобы вмешаться?",
-          "Это я и хочу узнать.",
-          "[Помолчав, он слегка постучал пальцами по краю карты — будто считал разбросанные на ней красные точки.]",
-          "Как ты думаешь, если мы — часть истории... кто-то когда-нибудь отметит нас красной точкой?",
-          "Ты хочешь, чтобы кто-то запомнил тебя?"
         ],
         "vi": [
           "“Vậy 'họ' đến là để làm chứng nhân, hay là đến để thúc đẩy tiến trình ấy?”",
@@ -1077,134 +340,6 @@
           "在云之顶。",
           "——春秋 佚名"
         ],
-        "zhHant": [
-          "他沒答，只是靜靜地坐在文明的餘暉裏。",
-          "時間的脈絡以奇異的方式延展，交錯的線條從腳下蔓延至四壁，像蛛網，又像命運的經緯。密集的紅點在紙上微微發亮，記錄着那些迴盪蟲鳴的年代。",
-          "這一刻，他們像兩粒懸空的灰塵，在時間的巨網中，等待下一次古神的低鳴。",
-          "幽幽蟲鳴，",
-          "何知我心，",
-          "雲中之人，",
-          "在水之濱。",
-          "哀哀蟲鳴，",
-          "何慮我行，",
-          "錐中之人，",
-          "在雲之頂。",
-          "——春秋 佚名"
-        ],
-        "en": [
-          "He didn’t reply.",
-          "He simply sat there, quiet, in the fading glow of civilization.",
-          "The lines of time extended outward in strange directions, crossing underfoot and creeping up the walls like circuit traces—or perhaps strands of fate.",
-          "In the slanting light, the red dots glowed faintly, each one a whisper of a time when CloudInsects had passed and the world had trembled.",
-          "At that moment, they were like two drifting specks caught in the great web of time—waiting for the next low hum of the ancient god to echo through the world once more.",
-          "Softly hums the insect,",
-          "who can know my heart?",
-          "The Cloud Dweller",
-          "stands at the water’s edge.",
-          "Mournfully hums the insect,",
-          "why should I fear my path?",
-          "The Figure in the Cone",
-          "stands atop the clouds.",
-          "— Anonymous, Spring and Autumn Period"
-        ],
-        "ja": [
-          "彼は答えず、ただ文明の残照のなかに静かに座っていた。",
-          "時の脈は奇妙なかたちで伸び、交差する線が足元から四方の壁へ這い広がっていた。蜘蛛の巣のようでもあり、運命を織る縦糸と横糸のようでもあった。紙を埋め尽くす赤い点はかすかに光り、虫の声がこだました時代を刻んでいる。",
-          "この瞬間、二人は宙に浮く二粒の塵となり、時の巨大な網のなかで、古い神がふたたび低く鳴くのを待っていた。",
-          "幽かなる虫の音よ、",
-          "誰か我が心を知らん。",
-          "雲中人は、",
-          "水のほとりに。",
-          "哀しき虫の音よ、",
-          "誰か我が行く末を思わん。",
-          "光円錐の人は、",
-          "雲の頂に。",
-          "――春秋時代・作者不詳"
-        ],
-        "ko": [
-          "그는 대답하지 않았다. 그저 문명의 잔광 속에 조용히 앉아 있었다.",
-          "시간의 맥은 기묘한 방식으로 뻗어 나갔다. 뒤얽힌 선들이 발밑에서 사방 벽까지 번져, 거미줄 같기도 하고 운명을 짜는 씨실과 날실 같기도 했다. 종이를 빼곡히 채운 붉은 점들은 희미하게 빛나며, 벌레 울음이 메아리치던 시대들을 기록하고 있었다.",
-          "그 순간 두 사람은 허공에 뜬 먼지 두 알 같았다. 시간의 거대한 그물 속에서, 옛 신의 다음 낮은 울음을 기다리고 있었다.",
-          "그윽한 벌레 울음,",
-          "누가 내 마음을 알리.",
-          "운중인은,",
-          "물가에 있네.",
-          "애달픈 벌레 울음,",
-          "누가 내 길을 헤아리리.",
-          "광추 속 사람은,",
-          "구름 꼭대기에 있네.",
-          "——춘추 시대·작자 미상"
-        ],
-        "es": [
-          "Él no respondió. Permaneció sentado en silencio entre los últimos resplandores de la civilización.",
-          "Los cauces del tiempo se extendían de un modo extraño. Líneas entrecruzadas reptaban desde sus pies hasta las cuatro paredes, como una telaraña o como la urdimbre del destino. Los densos puntos rojos parecían emitir un resplandor tenue, memoria de épocas en las que resonó el canto de CloudInsect.",
-          "En aquel instante eran dos motas de polvo suspendidas en la inmensa red del tiempo, aguardando el próximo murmullo del dios antiguo.",
-          "Canta el insecto en la penumbra;",
-          "¿quién conoce mi corazón?",
-          "El habitante de las nubes",
-          "permanece junto al agua.",
-          "Doliente canta el insecto;",
-          "¿quién se inquieta por mi viaje?",
-          "La figura dentro del cono",
-          "permanece sobre las nubes.",
-          "— Anónimo, período de Primavera y Otoño"
-        ],
-        "fr": [
-          "Il ne répondit pas. Il resta assis, immobile, dans la dernière lueur de la civilisation.",
-          "Les veines du temps se déployaient d’une étrange manière. Sous leurs pieds, les lignes entrecroisées gagnaient les quatre murs, semblables à une toile d’araignée, ou à la trame du destin. Sur le papier, les points rouges brillaient faiblement, mémoires des âges où résonnait le chant de l’Insecte.",
-          "À cet instant, ils étaient deux grains de poussière suspendus dans l’immense toile du temps, attendant la prochaine plainte d’un dieu ancien.",
-          "Sourd est le chant de l’Insecte,",
-          "que sait-il de mon cœur ?",
-          "L’Habitant des nuages",
-          "se tient au bord des eaux.",
-          "Douloureux est le chant de l’Insecte,",
-          "que sait-il de ma route ?",
-          "La Figure dans le cône",
-          "se tient au sommet des nuées.",
-          "— Anonyme, époque des Printemps et Automnes"
-        ],
-        "ar": [
-          "لم يجب. جلس ساكنًا في الشفق الأخير للحضارة.",
-          "امتدت عروق الزمن على نحو غريب. زحفت الخطوط المتقاطعة من تحت أقدامهما إلى الجدران الأربعة، كشبكة عنكبوت، أو كسدى القدر ولحمته. توهجت النقاط الحمراء الكثيفة فوق الورق، تسجل العصور التي تردد فيها نداء الحشرة.",
-          "في تلك اللحظة بدوا كذرتي غبار معلقتين في شبكة الزمن الهائلة، تنتظران الهمهمة التالية لإله قديم.",
-          "يا نداء الحشرة الخافت،",
-          "أنّى لك أن تعرف قلبي؟",
-          "يا ساكن السحاب،",
-          "أنت عند ضفة الماء.",
-          "يا نداء الحشرة الحزين،",
-          "أنّى لك أن تدرك مسيري؟",
-          "يا ساكن المخروط،",
-          "أنت فوق ذروة السحاب.",
-          "— مجهول، عصر الربيع والخريف"
-        ],
-        "ptBR": [
-          "Ele não respondeu. Permaneceu sentado, em silêncio, no derradeiro fulgor da civilização.",
-          "Os veios do tempo se estendiam de maneira estranha. Linhas entrecruzadas partiam de seus pés e subiam pelas quatro paredes, como uma teia de aranha — ou a trama e a urdidura do destino. No papel, os densos pontos vermelhos brilhavam tenuemente, registrando todas as eras em que ressoara o canto dos insetos.",
-          "Naquele instante, os dois pareciam grãos de poeira suspensos na imensa teia do tempo, aguardando o próximo murmúrio do deus antigo.",
-          "Sombrio, o canto dos insetos —",
-          "como conheceria meu coração?",
-          "O habitante das nuvens",
-          "está à margem das águas.",
-          "Dolente, o canto dos insetos —",
-          "por que temeria meu caminho?",
-          "O habitante dentro do cone",
-          "está no cume das nuvens.",
-          "— Anônimo, Período das Primaveras e Outonos"
-        ],
-        "ru": [
-          "Он не ответил. Только молча сидел в угасающем свете цивилизации.",
-          "[Он не ответил — просто сидел молча, в отблесках угасающей цивилизации. Нити времени тянулись странным образом, их пересечения расползались от пола к стенам, как паутина или как ткань судьбы. Красные точки слабо мерцали — каждая из них была шёпотом о времени, когда проходили облачные насекомые и мир замирал. В этот миг они были словно две пылинки в воздухе — зависшие в великой сети времени, в ожидании нового, глухого зова древнего бога.]",
-          "В тот миг они казались двумя пылинками, зависшими в огромной сети времени и ожидавшими нового рокота древнего бога.",
-          "[Тихо гудят жуки,",
-          "В глубине души сомнения,",
-          "В облаках живут Они,",
-          "Вижу в воде своё отражение.",
-          "Печально гудят жуки,",
-          "Почему тревожно мне?",
-          "В конусе живут Они,",
-          "В облаках на вершине]",
-          "— Автор неизвестен, Период Вёсен и Осеней"
-        ],
         "vi": [
           "Cậu không trả lời, chỉ lặng lẽ ngồi giữa vầng tàn dương của nền văn minh.",
           "Mạch lạc của thời gian kéo dài theo một phương thức kỳ dị, những đường nét đan chéo chằng chịt từ dưới chân lan ra khắp bốn bức tường, tựa như mạng nhện, lại tựa như kinh vĩ của số phận. Những chấm đỏ dày đặc trên giấy khẽ ánh lên tia sáng mờ ảo, ghi dấu những niên đại từng vang vọng tiếng trùng ngâm thảng thốt.",
@@ -1222,5 +357,5 @@
       }
     }
   ],
-  "title_vi": "Vân Trùng · Chương 2: Người Trong Mây · III · v5.1.39"
+  "title_vi": "Vân Trùng · Chương 2: Người Trong Mây · III · v5.2.55"
 }

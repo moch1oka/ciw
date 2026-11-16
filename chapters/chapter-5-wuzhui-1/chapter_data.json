@@ -5,15 +5,6 @@
   "title_en": "Chapter 5: Wuzhui · Part 1",
   "available_languages": [
     "zh",
-    "zhHant",
-    "en",
-    "ja",
-    "ko",
-    "es",
-    "fr",
-    "ru",
-    "ar",
-    "ptBR",
     "vi"
   ],
   "panel_count": 23,
@@ -27,33 +18,6 @@
       "texts": {
         "zh": [
           "月牙儿是被水声唤醒的。"
-        ],
-        "zhHant": [
-          "月牙兒是被水聲喚醒的。"
-        ],
-        "en": [
-          "The sound of water woke Mahina."
-        ],
-        "ja": [
-          "マヒナは水音で目を覚ました。"
-        ],
-        "ko": [
-          "마히나는 물소리에 잠을 깼다."
-        ],
-        "es": [
-          "Mahina despertó con el rumor del agua."
-        ],
-        "fr": [
-          "Le bruit de l’eau réveilla Mahina."
-        ],
-        "ru": [
-          "Юэя проснулась от шума воды."
-        ],
-        "ar": [
-          "أيقظ خرير الماء ماهينا."
-        ],
-        "ptBR": [
-          "Mahina despertou ao som da água."
         ],
         "vi": [
           "Nguyệt Nha Nhi bị đánh thức bởi tiếng nước chảy."
@@ -70,33 +34,6 @@
         "zh": [
           "睁开眼时，头顶是一弯熏黑的竹篷。船身随水波轻轻摇晃，空气里浮着水汽和旧木头的闷味。她低头看自己，一身粗布交领衣裳，袖口磨得起毛。不是她的衣服。"
         ],
-        "zhHant": [
-          "睜開眼時，頭頂是一彎燻黑的竹篷。船身隨水波輕輕搖晃，空氣裡浮著水汽和舊木頭的悶味。她低頭看自己，一身粗布交領衣裳，袖口磨得起毛。不是她的衣服。"
-        ],
-        "en": [
-          "When she opened her eyes, a smoke-blackened bamboo canopy arched above her. The boat rocked gently with the current; the damp, close smell of old timber hung in the air. She looked down. She was dressed in a coarse, cross-collared robe, its cuffs worn fuzzy. The clothes were not hers."
-        ],
-        "ja": [
-          "目を開けると、頭上には煤けた竹の苫が弧を描いている。舟は波に合わせて静かに揺れ、湿った空気には水の匂いと古びた木のこもった匂いが漂っていた。自分の姿を見下ろすと、粗布の交領をまとい、袖口は擦れて毛羽立っている。彼女の服ではなかった。"
-        ],
-        "ko": [
-          "눈을 뜨자 머리 위로 그을린 대나무 덮개가 둥글게 휘어 있었다. 배는 물결을 따라 가만히 흔들렸고, 습한 공기에는 물비린내와 오래된 나무의 퀴퀴한 냄새가 감돌았다. 몸을 내려다보니 거친 베로 지은 맞깃옷을 입고 있었다. 소맷부리는 닳아 보풀이 일었다. 자신의 옷이 아니었다."
-        ],
-        "es": [
-          "Al abrir los ojos, vio sobre su cabeza un toldo de bambú ennegrecido por el humo. La barca se mecía suavemente con la corriente; en el aire húmedo flotaba el olor cerrado de la madera vieja. Se miró. Llevaba una túnica cruzada de tela basta, con los puños gastados y cubiertos de pelusa. No era su ropa."
-        ],
-        "fr": [
-          "Lorsqu’elle ouvrit les yeux, une natte de bambou noircie par la fumée formait une voûte au-dessus d’elle. La barque oscillait doucement au fil du courant ; l’air humide sentait le vieux bois renfermé. Elle baissa les yeux. Elle portait une tunique croisée en toile grossière, aux poignets râpés et pelucheux. Ce n’étaient pas ses vêtements."
-        ],
-        "ru": [
-          "Открыв глаза, она увидела потемневший бамбуковый навес, изгибающийся над ней. Лодка мягко покачивалась на волнах, во влажном воздухе стоял затхлый запах старого дерева. Она посмотрела на себя: грубая ткань, свободно запахнутый ворот, обтрёпанные рукава — это всё не её одежда."
-        ],
-        "ar": [
-          "حين فتحت عينيها رأت فوق رأسها سقفًا مقوسًا من الخيزران سوّدته الأدخنة. كان القارب يتمايل برفق مع الموج، وفي الهواء الرطب رائحة ماء وخشب عتيق مكتوم. نظرت إلى نفسها؛ كانت ترتدي ثوبًا خشنًا متقاطع الياقة، وقد اهترأت أطراف كميه وعلتها الوبرة. لم يكن ثوبها."
-        ],
-        "ptBR": [
-          "Quando abriu os olhos, viu acima de si o arco enegrecido de uma cobertura de bambu. O barco balançava suavemente nas ondas, e o ar guardava a umidade do rio e o cheiro abafado de madeira velha. Olhou para o próprio corpo: vestia uma túnica de tecido grosseiro, cruzada à frente, com os punhos puídos. Não eram suas roupas."
-        ],
         "vi": [
           "Khi mở mắt ra, phía trên đỉnh đầu là một vòm mui thuyền bằng tre hun khói đen sì. Thân thuyền khẽ lắc lư theo từng con sóng, trong không khí phảng phất hơi nước ẩm ướt và mùi ẩm mốc của gỗ cũ. Cô cúi đầu nhìn lại mình, trên người là một bộ y phục vải thô cổ chéo, cổ tay áo sờn xơ cả lông. Đây không phải quần áo của cô."
         ]
@@ -111,33 +48,6 @@
       "texts": {
         "zh": [
           "她觉得自己做了一个很长的梦，好像去过很多地方，见过很多人，可真要去想，却又什么都抓不住，只剩一种昏昏沉沉的疲惫压在身上。"
-        ],
-        "zhHant": [
-          "她覺得自己做了一個很長的夢，好像去過很多地方，見過很多人，可真要去想，卻又什麼都抓不住，只剩一種昏昏沉沉的疲憊壓在身上。"
-        ],
-        "en": [
-          "She felt as though she had dreamed a very long dream—traveled to many places, met many people. Yet whenever she reached for a memory, there was nothing to grasp. Only a leaden weariness remained, pressing down on her body."
-        ],
-        "ja": [
-          "ひどく長い夢を見ていた気がした。いくつもの場所へ行き、多くの人に会ったはずなのに、思い出そうとすると何ひとつつかめない。ただ、朦朧とした疲労だけが重く身体にのしかかっていた。"
-        ],
-        "ko": [
-          "아주 긴 꿈을 꾼 듯했다. 수많은 곳을 다니고 많은 사람을 만난 것 같은데, 막상 떠올리려 하면 무엇 하나 손에 잡히지 않았다. 몽롱한 피로만이 무겁게 몸을 짓누르고 있었다."
-        ],
-        "es": [
-          "Tenía la sensación de haber despertado de un sueño interminable. Como si hubiera recorrido muchos lugares y conocido a muchas personas. Pero cuando intentaba recordarlos, no conseguía aferrar nada. Solo quedaba un cansancio turbio y pesado que le aplastaba el cuerpo."
-        ],
-        "fr": [
-          "Elle avait l’impression de sortir d’un rêve interminable, d’avoir parcouru quantité de lieux et rencontré quantité de gens. Mais dès qu’elle tentait de s’en souvenir, rien ne se laissait saisir. Il ne restait qu’une fatigue trouble, pesante, qui lui écrasait le corps."
-        ],
-        "ru": [
-          "Казалось, что ей снился очень долгий сон — будто она побывала во множестве мест, встретив много людей. Но стоило попытаться вспомнить хоть что-то — всё ускользало. Осталась только тяжёлая, дурманящая усталость, сковавшая тело."
-        ],
-        "ar": [
-          "خُيّل إليها أنها أفاقت من حلم طويل جدًا؛ كأنها زارت أماكن كثيرة والتقت أناسًا كثيرين. لكنها كلما حاولت التذكر لم تمسك بشيء. لم يبقَ سوى إنهاك ثقيل غائم يجثم على جسدها."
-        ],
-        "ptBR": [
-          "Tinha a impressão de haver sonhado por muito tempo — viajado por muitos lugares, encontrado muitas pessoas. Mas, quando tentava se lembrar, nada conseguia agarrar. Restava apenas um cansaço nebuloso pesando sobre o corpo."
         ],
         "vi": [
           "Cô cảm thấy mình vừa trải qua một giấc mộng rất dài, dường như đã đi qua rất nhiều nơi, gặp gỡ rất nhiều người, nhưng hễ cứ cố nhớ lại thì chẳng thể nắm bắt được điều gì, chỉ còn lại nỗi mệt mỏi trĩu nặng đè lên thân thể mê man."
@@ -154,42 +64,6 @@
         "zh": [
           "江面浮着晨雾，对岸山影淡得像没干透的墨。没有桥，没有电线，没有任何属于她那个世界的东西。",
           "船头立着一个青年，背对着她，握着一根长竹篙。短褐，肩上打着补丁，裤腿挽到膝盖，小腿沾着干泥，皮肤晒得黝黑。握篙的手指节宽大，结着厚茧，是一双常年同土地和力气打交道的手。他立在船头望着岸上，一动不动，竹篙斜插进江底，船檥在滩边，随时可以离岸。"
-        ],
-        "zhHant": [
-          "江面浮著晨霧，對岸山影淡得像沒乾透的墨。沒有橋，沒有電線，沒有任何屬於她那個世界的東西。",
-          "船頭立著一個青年，背對著她，握著一根長竹篙。短褐，肩上打著補丁，褲腿挽到膝蓋，小腿沾著乾泥，皮膚曬得黝黑。握篙的手指節寬大，結著厚繭，是一雙常年同土地和力氣打交道的手。他立在船頭望著岸上，一動不動，竹篙斜插進江底，船檥在灘邊，隨時可以離岸。"
-        ],
-        "en": [
-          "Morning mist drifted over the river. The mountains on the opposite bank were pale as ink not yet dry. No bridge. No power lines. Nothing that belonged to her world.",
-          "A young man stood at the bow with his back to her, a long bamboo pole in his hands. His coarse jacket was patched at the shoulder; his trousers were rolled to the knees, his shins caked with dry mud, his skin darkened by the sun. The knuckles around the pole were broad and thick with calluses—the hands of someone long accustomed to earth and hard labor. He stood motionless, watching the shore. The pole slanted into the riverbed, the boat moored against the shoal, ready to cast off at any moment."
-        ],
-        "ja": [
-          "川面には朝霧が浮かび、対岸の山影は乾ききらない墨のように淡かった。橋も、電線もない。彼女の世界に属するものは、どこにもなかった。",
-          "舳先には一人の若者が、こちらに背を向け、長い竹竿を握って立っていた。粗末な短衣の肩には継ぎが当たり、膝までまくった裾からのぞく脛には乾いた泥がつき、肌は日に焼けて黒い。竿を握る指の関節は太く、厚い胼胝に覆われていた。長年、土と力仕事を相手にしてきた手だった。若者は岸を見つめたまま動かない。竹竿は斜めに川底へ差し込まれ、舟は砂州に繋がれ、いつでも岸を離れられるようになっていた。"
-        ],
-        "ko": [
-          "강 위에는 아침 안개가 떠 있었고, 건너편 산 그림자는 채 마르지 않은 먹처럼 흐렸다. 다리도, 전깃줄도 없었다. 그녀가 알던 세계의 것은 아무것도 보이지 않았다.",
-          "뱃머리에 한 젊은이가 등을 보인 채 긴 대나무 삿대를 쥐고 서 있었다. 거친 짧은 웃옷의 어깨에는 헝겊을 덧댔고, 바짓단은 무릎까지 걷어 올렸다. 종아리에는 마른 진흙이 묻어 있었고 피부는 햇볕에 검게 그을렸다. 삿대를 쥔 손마디는 굵고 두꺼운 굳은살이 박혀 있었다. 오랫동안 흙과 힘겨루기를 해 온 손이었다. 그는 움직이지 않고 강가만 바라보았다. 삿대는 비스듬히 강바닥에 박혀 있었고, 배는 모래톱에 대어 언제든 떠날 수 있었다."
-        ],
-        "es": [
-          "La niebla de la mañana flotaba sobre el río. Las montañas de la otra orilla eran tan tenues como tinta aún húmeda. No había puentes ni tendidos eléctricos; nada pertenecía al mundo que ella conocía.",
-          "En la proa había un joven de espaldas a ella, aferrado a una larga pértiga de bambú. Vestía una chaqueta corta y burda, remendada en el hombro; llevaba los pantalones arremangados hasta las rodillas, barro seco en las pantorrillas y la piel oscurecida por el sol. Los nudillos de la mano que sujetaba la pértiga eran anchos y estaban cubiertos de gruesos callos: manos hechas a tratar toda la vida con la tierra y el esfuerzo. Permanecía inmóvil, mirando la orilla. La pértiga se hundía oblicua hasta el lecho del río, y la barca, amarrada junto al banco de arena, podía partir en cualquier momento."
-        ],
-        "fr": [
-          "La brume du matin flottait sur le fleuve. Les montagnes de l’autre rive étaient pâles comme une encre qui n’aurait pas fini de sécher. Pas de pont. Pas de lignes électriques. Rien qui appartînt à son monde.",
-          "Un jeune homme se tenait à la proue, dos à elle, une longue perche de bambou entre les mains. Sa veste courte et grossière était rapiécée à l’épaule ; son pantalon remonté jusqu’aux genoux laissait voir des tibias couverts de boue sèche et une peau brunie par le soleil. Ses doigts noueux, épaissis de callosités, étaient ceux d’un homme depuis toujours aux prises avec la terre et l’effort. Il regardait la rive sans bouger. La perche s’enfonçait de biais jusqu’au lit du fleuve ; amarrée contre le banc de sable, la barque pouvait repartir à tout instant."
-        ],
-        "ru": [
-          "Над рекой плыл утренний туман. Очертания гор на другом берегу отражались в воде, будто сырая акварель. Ни моста, ни проводов — ничего из того мира, к которому она привыкла.",
-          "Спиной к ней стоял юноша на носу лодки. Он упирался в дно реки длинным бамбуковым шестом. Одет как бедняк, на плече — заплатка. Кожа тёмная от солнца, закатанные до колен штанины не закрывали присохшую на ногах грязь. Широкие ладони в мозолях, крепкие и сильные пальцы: сразу видно, что человек всю жизнь пахал землю. Он стоял неподвижно, глядя на берег, а шест так и торчал наискось, воткнутый в речное дно. Лодка покачивалась у отмели, готовая отойти в любой момент."
-        ],
-        "ar": [
-          "طفا ضباب الصباح فوق النهر، وبدت الجبال على الضفة الأخرى باهتة كحبر لم يجف بعد. لا جسر، ولا أسلاك كهرباء، ولا شيء ينتمي إلى عالمها.",
-          "وقف شاب عند مقدمة القارب، مولّيًا ظهره إليها، يمسك عصًا طويلة من الخيزران. كان يرتدي سترة قصيرة خشنة مرقعة عند الكتف، وقد رفع ساقي سرواله إلى ركبتيه. غطى الطين اليابس ساقيه، ولوّحت الشمس بشرته. كانت مفاصل أصابعه العريضة غليظة، تعلوها مسامير قاسية؛ يدا رجل أمضى عمره يصارع الأرض والعمل الشاق. ظل واقفًا بلا حراك يحدق في الضفة، والعصا مغروسة مائلة في قاع النهر، والقارب راسٍ عند اللسان الرملي، مستعدًا للرحيل في أي لحظة."
-        ],
-        "ptBR": [
-          "A névoa da manhã pairava sobre o rio; as montanhas na outra margem eram pálidas como tinta ainda úmida. Não havia pontes, fios elétricos ou qualquer coisa pertencente ao mundo que ela conhecia.",
-          "Na proa, um jovem estava de costas, segurando uma longa vara de bambu. Vestia uma túnica curta e grosseira, remendada no ombro; as calças estavam arregaçadas até os joelhos, e as canelas traziam lama seca. Tinha a pele curtida pelo sol. Os dedos largos, cobertos de calos espessos, eram mãos acostumadas à terra e ao trabalho. Imóvel, contemplava a margem. A vara permanecia fincada obliquamente no leito do rio, mantendo o barco junto à praia, pronto para partir a qualquer instante."
         ],
         "vi": [
           "Mặt sông phủ đầy sương sớm, bóng núi bờ bên kia mờ nhạt tựa như vệt mực chưa ráo nước. Không có cầu, không có dây điện, không có bất cứ thứ gì thuộc về thế giới của cô.",
@@ -208,42 +82,6 @@
           "雾越来越浓，一团一团从江面推过来，天光灰白，辨不出时辰。风从岸那边吹来，带着很浓的血腥味，混着烟和马汗的气息。雾的深处隐隐有声音，极远极钝，像几万只马蹄和喊杀被距离磨成一片低低的轰鸣。",
           "青年还在等，目光定定的，像已经等了很久，也不在乎再等多久。"
         ],
-        "zhHant": [
-          "霧越來越濃，一團一團從江面推過來，天光灰白，辨不出時辰。風從岸那邊吹來，帶著很濃的血腥味，混著煙和馬汗的氣息。霧的深處隱隱有聲音，極遠極鈍，像幾萬隻馬蹄和喊殺被距離磨成一片低低的轟鳴。",
-          "青年還在等，目光定定的，像已經等了很久，也不在乎再等多久。"
-        ],
-        "en": [
-          "The mist thickened, mass upon mass rolling in from the river. The light was ashen; there was no telling the hour. Wind came off the bank, heavy with blood, smoke, and horse sweat. Somewhere deep in the fog, a sound gathered—distant and dull, as though tens of thousands of hooves and battle cries had been ground by distance into a single low thunder.",
-          "The young man kept waiting, his gaze fixed. He looked as if he had already waited a very long time, and would not mind waiting longer."
-        ],
-        "ja": [
-          "霧は次第に濃くなり、幾重にも固まって川面から押し寄せてくる。空は灰白く、時刻も知れない。岸から吹く風には濃い血の臭いがあり、煙と馬の汗が混じっていた。霧の奥では、はるか遠く鈍い音がしている。幾万の蹄と鬨の声が、距離に磨り潰され、一つの低い轟きになったようだった。",
-          "若者はなおも待っていた。視線を動かさず、とうに長い時を待ち続け、これからどれほど待つことになっても構わないというように。"
-        ],
-        "ko": [
-          "안개는 갈수록 짙어졌다. 덩어리진 안개가 강 위에서 밀려오고, 하늘빛은 잿빛이라 시각을 가늠할 수 없었다. 강가에서 불어오는 바람에는 짙은 피 냄새와 연기, 말의 땀 냄새가 뒤섞여 있었다. 안개 깊은 곳에서 희미한 소리가 들렸다. 아주 멀고 둔한 소리. 수만 필의 말발굽과 함성이 먼 거리에 갈려 하나의 낮은 굉음이 된 듯했다.",
-          "젊은이는 여전히 기다렸다. 눈길은 한곳에 박혀 있었다. 이미 오래 기다렸으며, 앞으로 얼마나 더 기다리든 상관없다는 듯했다."
-        ],
-        "es": [
-          "La niebla se espesaba. Llegaba desde el río en densos jirones, bajo una claridad gris en la que era imposible adivinar la hora. El viento soplaba desde la orilla, cargado de sangre, humo y sudor de caballo. En lo más hondo de la bruma latía un rumor remoto y apagado, como si la distancia hubiera triturado decenas de miles de cascos y gritos de batalla hasta reducirlos a un único fragor profundo.",
-          "El joven seguía esperando, con la mirada fija. Parecía llevar allí mucho tiempo y no importarle cuánto más tendría que aguardar."
-        ],
-        "fr": [
-          "La brume s’épaississait, poussée en masses depuis le fleuve. Le jour était gris cendre ; impossible de deviner l’heure. Le vent venu de la rive charriait une forte odeur de sang, mêlée de fumée et de sueur de cheval. Au plus profond du brouillard grondait un son lointain, émoussé, comme si la distance avait broyé des dizaines de milliers de sabots et de cris de guerre pour n’en laisser qu’un seul roulement sourd.",
-          "Le jeune homme attendait toujours, le regard fixe. Il semblait attendre depuis longtemps déjà, sans se soucier du temps qu’il lui faudrait encore patienter."
-        ],
-        "ru": [
-          "Туман густел, наплывая с реки. Небо было мутно-серым — невозможно было понять, который час. С берега тянул тяжёлый запах конского пота, дыма и крови; и где-то там, в глубине, слышался глухой гул, словно далёкий топот тысяч копыт и крики боя слились в единый низкий рокот.",
-          "Юноша застыл, устремив взгляд вперёд, будто ждал уже целую вечность и готов был ждать ещё столько же."
-        ],
-        "ar": [
-          "ازداد الضباب كثافة، كتلًا متتابعة تدفعها صفحة النهر. كان الضوء رماديًا شاحبًا، لا يدل على ساعة. هبّت الريح من جهة الضفة تحمل رائحة دم نفاذة ممزوجة بالدخان وعرق الخيل. وفي عمق الضباب لاح صوت بعيد خافت، كأن المسافة سحقت حوافر عشرات الآلاف وصيحات القتال حتى صارت هديرًا واحدًا منخفضًا.",
-          "ظل الشاب ينتظر، وعيناه ثابتتان. بدا كأنه ينتظر منذ زمن طويل، ولا يبالي كم سيطول انتظاره بعد."
-        ],
-        "ptBR": [
-          "A névoa se adensava em ondas sobre o rio. O céu era de um branco acinzentado, impossível saber a hora. O vento vindo da margem trazia um forte cheiro de sangue misturado a fumaça e suor de cavalo. Nas profundezas da bruma havia um som indistinto, distante e pesado — dezenas de milhares de cascos e gritos de batalha reduzidos pela distância a um só estrondo grave.",
-          "O jovem continuava esperando, os olhos fixos na margem, como se já esperasse havia muito tempo e não se importasse com quanto ainda teria de esperar."
-        ],
         "vi": [
           "Sương mù mỗi lúc một dày đặc, từng cụm từng cụm cuồn cuộn tràn qua từ mặt sông, sắc trời xám xịt chẳng rõ giờ khắc nào. Gió từ bờ bên kia thổi tới, mang theo mùi máu tanh nồng nặc, lẫn vào khói lửa và mùi mồ hôi ngựa ngai ngái. Nơi sâu thẳm trong màn sương mơ hồ vọng lại âm thanh, xa xôi mà trầm đục, tựa như tiếng vó ngựa của vạn quân và tiếng hò reo chém giết bị khoảng cách nghiền nát thành một tràng ầm ì rền rĩ.",
           "Chàng thanh niên vẫn đang kiên nhẫn đợi, ánh mắt chăm chú bất động, tựa hồ đã đứng đợi từ rất lâu, và cũng chẳng màng việc phải đợi thêm bao lâu nữa."
@@ -261,51 +99,6 @@
           "月牙儿望向乌篷外的江面，起初只有雾。风把雾扯开一道口子的时候，她看见很远的地方立着一个巨大的影子，像山，又不是山。那灰黑的身影几乎和雾融在一起，庞大，沉默，一动不动地立在天地之间，俯瞰着这片江岸，宛若神明。",
           "云虫。",
           "在这个连年代都不知道的地方，她唯一认得的，只有它。它不靠近，也不出声，只是立在那里，像在等着记下即将发生的一切。"
-        ],
-        "zhHant": [
-          "月牙兒望向烏篷外的江面，起初只有霧。風把霧扯開一道口子的時候，她看見很遠的地方立著一個巨大的影子，像山，又不是山。那灰黑的身影幾乎和霧融在一起，龐大，沉默，一動不動地立在天地之間，俯瞰著這片江岸，宛若神明。",
-          "雲蟲。",
-          "在這個連年代都不知道的地方，她唯一認得的，只有它。它不靠近，也不出聲，只是立在那裡，像在等著記下即將發生的一切。"
-        ],
-        "en": [
-          "Mahina looked past the black canopy toward the river. At first there was only fog. Then the wind tore a rent in it, and far away she saw an immense shadow standing there—like a mountain, yet not a mountain. The gray-black form had nearly merged with the mist: vast, silent, unmoving between heaven and earth, looking down upon the riverbank like a god.",
-          "CloudInsect.",
-          "In a place where she did not even know the century, it was the only thing she recognized. It neither approached nor made a sound. It simply stood there, as though waiting to record everything about to happen."
-        ],
-        "ja": [
-          "マヒナが黒い苫の外へ目を向けると、初めは霧しか見えなかった。風が霧を引き裂いたとき、はるか彼方に巨大な影が立っているのが見えた。山のようでいて、山ではない。灰黒い姿はほとんど霧と溶け合い、巨大で、沈黙し、天地のあわいに微動だにせず立ち、この川岸を神のように見下ろしていた。",
-          "雲虫。",
-          "時代さえわからないこの場所で、彼女が知っているものはそれだけだった。近づきもせず、声も発さず、ただそこに立っている。これから起こるすべてを記すために待っているかのように。"
-        ],
-        "ko": [
-          "마히나는 검은 덮개 밖 강물을 바라보았다. 처음에는 안개뿐이었다. 바람이 안개를 찢어 틈을 만들자, 아주 먼 곳에 거대한 그림자가 서 있는 것이 보였다. 산 같았지만 산은 아니었다. 잿빛과 검은빛이 뒤섞인 형체는 안개에 거의 녹아 있었다. 거대하고 침묵한 채 천지 사이에 미동도 없이 서서, 신처럼 강가를 굽어보고 있었다.",
-          "운충.",
-          "어느 시대인지조차 알 수 없는 이곳에서, 그녀가 알아보는 것은 그것 하나뿐이었다. 가까이 오지도, 소리를 내지도 않고 그저 서 있었다. 이제 곧 벌어질 모든 일을 기록하려 기다리는 것처럼."
-        ],
-        "es": [
-          "Mahina miró el río más allá del toldo negro. Al principio solo vio niebla. Cuando el viento abrió una brecha, distinguió a lo lejos una sombra inmensa: parecía una montaña, pero no lo era. La figura gris y negra casi se fundía con la bruma. Enorme, silenciosa, inmóvil entre cielo y tierra, contemplaba la ribera como una divinidad.",
-          "CloudInsect.",
-          "En un lugar donde ni siquiera sabía en qué época se encontraba, era lo único que reconocía. No se acercaba ni emitía sonido alguno. Se limitaba a permanecer allí, como si esperara para dejar constancia de cuanto estaba a punto de suceder."
-        ],
-        "fr": [
-          "Mahina contempla le fleuve au-delà de la natte noire. Elle ne vit d’abord que la brume. Puis le vent y déchira une ouverture, et elle aperçut très loin une ombre immense : on aurait dit une montagne, mais ce n’en était pas une. La forme gris-noir se fondait presque dans le brouillard. Gigantesque, silencieuse, immobile entre ciel et terre, elle dominait la rive tel un dieu.",
-          "L’Insecte-Nuage.",
-          "Dans un lieu dont elle ignorait jusqu’à l’époque, c’était la seule chose qu’elle reconnût. Il n’approchait pas, ne faisait aucun bruit. Il se tenait simplement là, comme s’il attendait de consigner tout ce qui allait se produire."
-        ],
-        "ru": [
-          "Юэя выглянула из-под чёрного занавеса лодки. Сперва был только туман, но когда ветер разорвал его, вдалеке она увидела огромную тень, похожую на гору. Серо-чёрный силуэт почти сливался с окружающим его туманом, огромный и безмолвный, он неподвижно стоял между небом и землёй, созерцая происходящее на берегу, как божество.",
-          "Облачное насекомое.",
-          "Место было незнакомым, и она не знала, в какую эпоху попала, — единственным, что казалось знакомым, было оно. Оно не двигалось, не издавало ни звука, просто стояло, словно ожидая запечатлеть всё, что вот-вот случится."
-        ],
-        "ar": [
-          "نظرت ماهينا إلى النهر من تحت السقف الأسود. لم ترَ في البداية سوى الضباب. وحين شقت الريح فيه ثغرة، أبصرت في البعيد ظلًا هائلًا واقفًا؛ يشبه جبلًا، وليس بجبل. كاد الجسد الرمادي الأسود يذوب في الضباب. كان ضخمًا، صامتًا، ساكنًا بين السماء والأرض، يشرف على ضفة النهر كإله.",
-          "حشرة السحاب.",
-          "في مكان لا تعرف حتى إلى أي عصر ينتمي، كان ذلك الشيء الوحيد الذي عرفته. لم يقترب، ولم يصدر صوتًا. وقف هناك فحسب، كأنه ينتظر ليسجّل كل ما أوشك أن يقع."
-        ],
-        "ptBR": [
-          "Mahina olhou para além da cobertura do barco. A princípio viu apenas névoa. Quando o vento abriu nela uma fenda, surgiu muito longe uma sombra gigantesca, semelhante a uma montanha — mas não era uma montanha. A figura cinzenta quase se confundia com a bruma. Imensa, silenciosa e imóvel entre céu e terra, contemplava aquela margem do rio como uma divindade.",
-          "Um Inseto-Nuvem.",
-          "Naquele lugar cuja própria época ela desconhecia, era a única coisa que reconhecia. Não se aproximava nem emitia som. Apenas permanecia ali, como se aguardasse para registrar tudo o que estava prestes a acontecer."
         ],
         "vi": [
           "Nguyệt Nha Nhi nhìn ra mặt sông bên ngoài mui thuyền, thoạt đầu chỉ thấy một màn sương mịt mù. Đến khi gió xé toạc sương mù ra một khe hở, cô mới nhìn thấy ở nơi rất xa có một bóng hình khổng lồ sừng sững, tựa như một ngọn núi, nhưng lại không phải núi. Dáng hình xám đen ấy gần như hòa làm một với làn sương khói, đồ sộ, lặng câm, đứng sừng sững bất động giữa đất trời, nhìn xuống dải bờ sông này tựa như một vị thần minh.",
@@ -327,69 +120,6 @@
           "太阳穴一跳一跳地疼。她明明觉得自己经历了很多事，见过很多人，可一件也想不起来，能问出口的，只有这一句。",
           "青年瞥了她一眼，目光又回到岸上。对船里多出来一个人，他似乎并不意外。",
           "“乌江。” 他说， “我们在这儿接一个人。”"
-        ],
-        "zhHant": [
-          "不知過了多久，月牙兒才找回自己的聲音。",
-          "“請問……這是哪裡？”",
-          "太陽穴一跳一跳地疼。她明明覺得自己經歷了很多事，見過很多人，可一件也想不起來，能問出口的，只有這一句。",
-          "青年瞥了她一眼，目光又回到岸上。對船裡多出來一個人，他似乎並不意外。",
-          "“烏江。” 他說， “我們在這兒接一個人。”"
-        ],
-        "en": [
-          "A long time passed before Mahina found her voice.",
-          "“Excuse me… where are we?”",
-          "Pain pulsed at her temples. She knew she had lived through many things and met many people, yet she could recall none of them. This was the only question she could manage.",
-          "The young man glanced at her, then turned his eyes back to the shore. He did not seem surprised that someone else had appeared in his boat.",
-          "“Wujiang.” he said. “We’re here to pick someone up.”"
-        ],
-        "ja": [
-          "どれほど経ったのか。ようやくマヒナは声を取り戻した。",
-          "「あの……ここは、どこですか？」",
-          "こめかみが脈打つように痛んだ。多くの出来事をくぐり、多くの人に会った気がするのに、一つとして思い出せない。口にできたのは、その問いだけだった。",
-          "若者は彼女を一瞥し、すぐ岸へ視線を戻した。舟の中に人が一人増えていることを、少しも不思議に思っていないようだった。",
-          "「烏江だ。」 と、彼は言った。 「ここへ、ある人を迎えに来た。」"
-        ],
-        "ko": [
-          "얼마나 시간이 흘렀을까. 마히나는 겨우 목소리를 되찾았다.",
-          "“실례지만…… 여기가 어디죠?”",
-          "관자놀이가 욱신거렸다. 많은 일을 겪고 많은 사람을 만난 것 같은데, 단 하나도 기억나지 않았다. 입 밖으로 낼 수 있는 말은 그것뿐이었다.",
-          "젊은이는 그녀를 힐끗 보고 다시 강가로 시선을 돌렸다. 배 안에 사람이 하나 늘어난 것을 조금도 이상하게 여기지 않는 듯했다.",
-          "“오강이오.” 그가 말했다. “여기 사람 하나를 데리러 왔소.”"
-        ],
-        "es": [
-          "Pasó mucho tiempo antes de que Mahina recuperara la voz.",
-          "«Disculpe… ¿dónde estamos?»",
-          "Las sienes le palpitaban de dolor. Estaba segura de haber vivido muchas cosas, de haber conocido a mucha gente, pero no podía recordar una sola. Aquella era la única pregunta que conseguía formular.",
-          "El joven le lanzó una mirada y volvió a fijarse en la orilla. No parecía sorprendido de que hubiera aparecido alguien más en la barca.",
-          "«Wujiang.» dijo. «Estamos aquí para recoger a alguien.»"
-        ],
-        "fr": [
-          "Il fallut longtemps à Mahina pour retrouver sa voix.",
-          "« Excusez-moi… où sommes-nous ? »",
-          "Ses tempes battaient douloureusement. Elle avait la certitude d’avoir vécu beaucoup de choses, rencontré beaucoup de gens, mais elle ne se rappelait rien. Cette question était la seule qu’elle parvenait à formuler.",
-          "Le jeune homme lui jeta un regard, puis reporta les yeux sur la rive. Il ne semblait nullement surpris qu’une personne de plus se fût matérialisée dans sa barque.",
-          "« Wujiang. » dit-il. « Nous sommes venus chercher quelqu’un. »"
-        ],
-        "ru": [
-          "Неизвестно сколько времени прошло, прежде чем Юэя наконец спросила:",
-          "\"Простите… где мы?\"",
-          "Виски пульсировали от боли. Позади осталось столько всего — какие-то события, какие-то люди, — но осознать хоть что-то из этого не получалось.\nС её губ сорвался лишь один вопрос.",
-          "Юноша посмотрел на неё, затем снова перевёл взгляд на берег. Появление ещё одного человека в лодке его, похоже, не удивляло.",
-          "\"Уцзян,\"  — сказал он. —  \"Мы здесь, чтобы забрать одного человека.\""
-        ],
-        "ar": [
-          "مر وقت طويل قبل أن تستعيد ماهينا صوتها.",
-          "«عفوًا… أين نحن؟»",
-          "نبض الألم في صدغيها. كانت تشعر أنها عاشت أشياء كثيرة والتقت أناسًا كثيرين، لكنها لم تستطع تذكّر حادثة واحدة. لم تجد في فمها غير ذلك السؤال.",
-          "رمقها الشاب بنظرة، ثم أعاد عينيه إلى الضفة. لم يبدُ متفاجئًا من ظهور شخص آخر في قاربه.",
-          "«ووجيانغ.» قال. «جئنا إلى هنا لنأخذ شخصًا.»"
-        ],
-        "ptBR": [
-          "Mahina só recuperou a voz muito tempo depois.",
-          "“Com licença… onde estamos?”",
-          "As têmporas latejavam. Ela sabia que vivera muitas coisas e encontrara muita gente, mas não conseguia recordar um único episódio. Aquela era a única pergunta que conseguia fazer.",
-          "O jovem lançou-lhe um olhar e voltou a fitar a margem. A presença inesperada de outra pessoa no barco não parecia surpreendê-lo.",
-          "“No rio Wu.” Disse ele: “Estamos aqui para buscar alguém.”"
         ],
         "vi": [
           "Không biết đã trôi qua bao lâu, Nguyệt Nha Nhi mới tìm lại được giọng nói của mình.",
@@ -417,96 +147,6 @@
           "他接得更快，平静得像在说今日有雾。",
           "“你怎么知道？” 月牙儿问。"
         ],
-        "zhHant": [
-          "“烏江？接人？”",
-          "月牙兒失笑了一聲。太離譜了。",
-          "“……難不成，是項羽？”",
-          "“對。”",
-          "“那……他不會上船的。” 月牙兒不假思索地接了一句。",
-          "“我知道。”",
-          "他接得更快，平靜得像在說今日有霧。",
-          "“你怎麼知道？” 月牙兒問。"
-        ],
-        "en": [
-          "“Wujiang? Picking someone up?”",
-          "Mahina gave a short, incredulous laugh. It was absurd.",
-          "“…Don’t tell me it’s Xiang Yu.”",
-          "“Yes.”",
-          "“Then… he won’t get on the boat.” The answer escaped Mahina before she had time to think.",
-          "“I know.”",
-          "His reply came even faster, as calmly as if he were remarking on the fog.",
-          "“How do you know?” Mahina asked."
-        ],
-        "ja": [
-          "「烏江？　人を迎えに来たの？」",
-          "マヒナは思わず笑いを漏らした。あまりにも突拍子がない。",
-          "「……まさか、項羽？」",
-          "「そうだ。」",
-          "「なら……あの人は舟には乗らない。」 マヒナは考えるより先にそう口にしていた。",
-          "「知っている。」",
-          "返事はさらに早かった。今日も霧だ、とでも言うように穏やかだった。",
-          "「どうしてわかるの？」 マヒナが尋ねた。"
-        ],
-        "ko": [
-          "“오강? 사람을 데리러 왔다고요?”",
-          "마히나는 어이없다는 듯 짧게 웃었다. 너무 황당했다.",
-          "“……설마, 항우예요?”",
-          "“그렇소.”",
-          "“그럼…… 그 사람은 배에 오르지 않을 텐데.” 마히나는 생각할 틈도 없이 대꾸했다.",
-          "“알고 있소.”",
-          "그의 대답은 더 빨랐다. 오늘 안개가 끼었다고 말하는 것처럼 담담했다.",
-          "“어떻게 알아요?” 마히나가 물었다."
-        ],
-        "es": [
-          "«¿Wujiang? ¿Venís a recoger a alguien?»",
-          "Mahina dejó escapar una risa incrédula. Era demasiado absurdo.",
-          "«…No me diga que es Xiang Yu.»",
-          "«Sí.»",
-          "«Entonces… no subirá a la barca.» Mahina respondió antes de poder pensarlo.",
-          "«Lo sé.»",
-          "Él se adelantó aún más, con la misma calma que si hubiera comentado que aquel día había niebla.",
-          "«¿Cómo lo sabe?» preguntó Mahina."
-        ],
-        "fr": [
-          "« Wujiang ? Vous êtes venus chercher quelqu’un ? »",
-          "Mahina laissa échapper un rire incrédule. C’était absurde.",
-          "« … Ne me dites pas que c’est Xiang Yu. »",
-          "« Si. »",
-          "« Alors… il ne montera pas dans la barque. » La réponse échappa à Mahina avant même qu’elle pût y réfléchir.",
-          "« Je sais. »",
-          "Il avait répondu plus vite encore, avec le calme de quelqu’un qui aurait simplement fait remarquer la brume.",
-          "« Comment le savez-vous ? » demanda Mahina."
-        ],
-        "ru": [
-          "\"Уцзян? Забрать человека?\"",
-          "Юэя невольно усмехнулась. Это уже слишком.",
-          "\"...Не говорите мне, что этот человек — Сян Юй.\"",
-          "\"Именно.\"",
-          "\"Тогда... он не сядет в лодку,\"  — вырвалось у Юэи прежде, чем она успела подумать.",
-          "\"Я знаю.\"",
-          "Он ответил ещё быстрее, так спокойно, будто это очевидно.",
-          "\"Откуда вы знаете?\"  — спросила Юэя."
-        ],
-        "ar": [
-          "«ووجيانغ؟ جئتم لتأخذوا شخصًا؟»",
-          "أفلتت من ماهينا ضحكة غير مصدقة. كان الأمر عبثيًا أكثر مما ينبغي.",
-          "«…لا تقل لي إنه شيانغ يو؟»",
-          "«نعم.»",
-          "«إذن… لن يصعد إلى القارب.» خرج الجواب من ماهينا قبل أن تفكر.",
-          "«أعرف.»",
-          "جاء رده أسرع، هادئًا كأنه يعلّق على ضباب ذلك الصباح.",
-          "«وكيف تعرف؟» سألت ماهينا."
-        ],
-        "ptBR": [
-          "“O rio Wu? Para buscar alguém?”",
-          "Mahina deixou escapar uma risada. Era absurdo demais.",
-          "“…Não me diga que é Xiang Yu.”",
-          "“É.”",
-          "“Mas… ele não vai entrar no barco.” Mahina respondeu sem pensar.",
-          "“Eu sei.”",
-          "Ele foi ainda mais rápido, com a serenidade de quem comentava a névoa daquela manhã.",
-          "“Como sabe?” Perguntou Mahina."
-        ],
         "vi": [
           "“Ô Giang? Đón người?”",
           "Nguyệt Nha Nhi bật cười một tiếng. Thật quá mức hoang đường.",
@@ -531,51 +171,6 @@
           "“姑娘，这世上，又不是只有你一个云中人。”",
           "“……云中人？” 月牙儿皱起眉头。"
         ],
-        "zhHant": [
-          "青年這才回過頭來，看了她一眼，微微笑了笑。那笑不是不屑，倒像是早已料到她會這麼問。",
-          "“姑娘，這世上，又不是只有你一個雲中人。”",
-          "“……雲中人？” 月牙兒皺起眉頭。"
-        ],
-        "en": [
-          "Only then did the young man turn. He looked at her and smiled faintly—not with contempt, but as if he had known all along that she would ask.",
-          "“Young lady, you are not the only Cloud Dweller in this world.”",
-          "“…Cloud Dweller?” Mahina frowned."
-        ],
-        "ja": [
-          "そこで初めて若者は振り返り、彼女を見て、かすかに笑った。嘲る笑みではない。こう問われることを、とうに知っていたような笑みだった。",
-          "「お嬢さん。この世の雲中人は、あなただけではない。」",
-          "「……雲中人？」 マヒナは眉をひそめた。"
-        ],
-        "ko": [
-          "그제야 젊은이가 돌아보았다. 그녀를 한 번 바라보고 옅게 웃었다. 비웃음이 아니었다. 언젠가 그녀가 이렇게 물을 줄 이미 알고 있었다는 듯한 웃음이었다.",
-          "“낭자, 이 세상에 운중인이 그대 하나뿐인 것은 아니오.”",
-          "“……운중인?” 마히나는 미간을 찌푸렸다."
-        ],
-        "es": [
-          "Solo entonces el joven se volvió. La miró y sonrió apenas. No era una sonrisa desdeñosa, sino la de alguien que llevaba tiempo esperando aquella pregunta.",
-          "«Señorita, no es usted la única habitante de las nubes en este mundo.»",
-          "«…¿Habitante de las nubes?» Mahina frunció el ceño."
-        ],
-        "fr": [
-          "Alors seulement, le jeune homme se retourna. Il la regarda et sourit faiblement. Ce sourire n’avait rien de méprisant ; on aurait dit qu’il attendait cette question depuis le début.",
-          "« Mademoiselle, vous n’êtes pas la seule Habitante des nuages en ce monde. »",
-          "« … Habitante des nuages ? » Mahina fronça les sourcils."
-        ],
-        "ru": [
-          "Только тогда юноша обернулся. Он взглянул на неё и едва заметно улыбнулся — не насмешливо, будто давно знал, что она задаст именно этот вопрос.",
-          "\"Девушка, в этом мире вы не единственный Облачный человек.\"",
-          "\"...Облачный человек?\"  — Юэя нахмурилась."
-        ],
-        "ar": [
-          "عندئذ فقط استدار الشاب. نظر إليها وابتسم ابتسامة خفيفة. لم تكن ابتسامة ازدراء، بل ابتسامة من عرف منذ البداية أنها ستطرح هذا السؤال.",
-          "«يا آنسة، لستِ الوحيدة من سكان السحاب في هذا العالم.»",
-          "«…من سكان السحاب؟» عقدت ماهينا حاجبيها."
-        ],
-        "ptBR": [
-          "Só então o jovem tornou a olhar para ela e sorriu de leve. Não havia desdém naquele sorriso; era como se já soubesse que ouviria a pergunta.",
-          "“Moça, você não é a única Habitante das Nuvens neste mundo.”",
-          "“…Habitante das Nuvens?” Mahina franziu a testa."
-        ],
         "vi": [
           "Lúc này chàng thanh niên mới quay đầu lại, nhìn cô, khẽ mỉm cười. Nụ cười ấy không hề mang vẻ khinh khi, mà như thể đã sớm liệu trước được cô sẽ hỏi câu này.",
           "“Cô nương, thế gian này đâu phải chỉ có mình cô là người trong mây.”",
@@ -595,51 +190,6 @@
           "青年脸色一肃，朝她做了个噤声的手势，声音压得极低：",
           "“别出声。他来了。”"
         ],
-        "zhHant": [
-          "就在這時，岸上有了動靜。",
-          "青年臉色一肅，朝她做了個噤聲的手勢，聲音壓得極低：",
-          "“別出聲。他來了。”"
-        ],
-        "en": [
-          "At that moment, something stirred on the shore.",
-          "The young man’s expression sharpened. He raised a finger to his lips and dropped his voice to a whisper:",
-          "“Not a sound. He’s here.”"
-        ],
-        "ja": [
-          "そのとき、岸辺で何かが動いた。",
-          "若者の顔が引き締まった。彼女に黙るよう合図し、声をひどく低くした。",
-          "「声を立てるな。来た。」"
-        ],
-        "ko": [
-          "바로 그때, 강가에서 기척이 일었다.",
-          "젊은이의 얼굴이 굳었다. 그는 조용히 하라는 손짓을 보이며 목소리를 한껏 낮췄다.",
-          "“소리 내지 마시오. 그가 왔소.”"
-        ],
-        "es": [
-          "En ese momento se oyó movimiento en la orilla.",
-          "El rostro del joven se tensó. Le indicó que guardara silencio y bajó la voz hasta convertirla en un susurro:",
-          "«No haga ruido. Ya está aquí.»"
-        ],
-        "fr": [
-          "À cet instant, quelque chose remua sur la rive.",
-          "Le visage du jeune homme se durcit. Il lui fit signe de se taire et baissa la voix jusqu’au murmure :",
-          "« Pas un bruit. Le voici. »"
-        ],
-        "ru": [
-          "Именно в этот момент на берегу началось движение.",
-          "Юноша вдруг стал серьёзным.\nОн поднёс палец к губам и произнёс шёпотом:",
-          "\"Тихо. Он здесь.\""
-        ],
-        "ar": [
-          "في تلك اللحظة دبّت حركة على الضفة.",
-          "اشتد وجه الشاب، وأشار إليها أن تلزم الصمت، ثم خفض صوته حتى صار همسًا:",
-          "«لا تصدري صوتًا. لقد جاء.»"
-        ],
-        "ptBR": [
-          "Nesse momento, algo se moveu na margem.",
-          "A expressão do jovem se tornou austera. Fez-lhe sinal para guardar silêncio e murmurou:",
-          "“Não faça barulho. Ele chegou.”"
-        ],
         "vi": [
           "Đúng lúc ấy, trên bờ bắt đầu có động tĩnh.",
           "Sắc mặt chàng thanh niên lập tức trở nên nghiêm nghị, ra hiệu suỵt tay lên môi với cô, hạ giọng thật thấp:",
@@ -657,33 +207,6 @@
         "zh": [
           "雾里的芦苇荡先响了一阵，接着，一些身影骑着马，从苇丛中冒了出来。"
         ],
-        "zhHant": [
-          "霧裡的蘆葦蕩先響了一陣，接著，一些身影騎著馬，從葦叢中冒了出來。"
-        ],
-        "en": [
-          "The reeds rustled first. Then riders began to emerge from the fog, one shadow after another pushing through the marsh."
-        ],
-        "ja": [
-          "霧の中の葦原がまずざわめいた。やがて、馬に乗った影がいくつも葦の間から現れた。"
-        ],
-        "ko": [
-          "안개 속 갈대밭이 먼저 술렁였다. 이어 말을 탄 그림자들이 갈대 사이에서 하나둘 나타났다."
-        ],
-        "es": [
-          "Primero crujió el cañaveral entre la niebla. Después, varias siluetas a caballo comenzaron a surgir de entre los juncos."
-        ],
-        "fr": [
-          "Les roseaux frémirent d’abord dans le brouillard. Puis des silhouettes à cheval émergèrent une à une de la roselière."
-        ],
-        "ru": [
-          "Сначала в тумане зашуршали заросли тростника, а затем из них, один за другим, стали проступать всадники."
-        ],
-        "ar": [
-          "صدر حفيف أولًا من حقل القصب الغارق في الضباب. ثم بدأت ظلال راكبة تظهر تباعًا بين الأعواد."
-        ],
-        "ptBR": [
-          "Primeiro, os juncos estremeceram dentro da névoa. Então algumas figuras a cavalo emergiram entre as plantas."
-        ],
         "vi": [
           "Đầm lau sậy trong màn sương rào rào xao động trước, kế đó, vài bóng người cưỡi ngựa từ trong bụi rậm dần dần hiện ra."
         ]
@@ -697,15 +220,6 @@
       "poster_src": null,
       "texts": {
         "zh": [],
-        "zhHant": [],
-        "en": [],
-        "ja": [],
-        "ko": [],
-        "es": [],
-        "fr": [],
-        "ru": [],
-        "ar": [],
-        "ptBR": [],
         "vi": []
       }
     },
@@ -719,42 +233,6 @@
         "zh": [
           "二十几个士兵，人人带伤，甲胄上满是血污，有人的血还在往下滴，一看就是刚从万军之中杀出来的。为首的是一个异常高大魁梧的身影。断裂的铠甲挂在身上，满脸血污，束发散乱。隔着雾，月牙儿看不清他的容貌，只能望见那道高大而疲惫的轮廓。可那股久经杀伐的压迫感，依旧顺着他手中的战刃穿透雾气，让人心悸。",
           "她瞬间屏住了呼吸。不用任何人告诉她，她已经知道了这个人是谁。"
-        ],
-        "zhHant": [
-          "二十幾個士兵，人人帶傷，甲冑上滿是血污，有人的血還在往下滴，一看就是剛從萬軍之中殺出來的。為首的是一個異常高大魁梧的身影。斷裂的鎧甲掛在身上，滿臉血污，束髮散亂。隔著霧，月牙兒看不清他的容貌，只能望見那道高大而疲憊的輪廓。可那股久經殺伐的壓迫感，依舊順著他手中的戰刃穿透霧氣，讓人心悸。",
-          "她瞬間屏住了呼吸。不用任何人告訴她，她已經知道了這個人是誰。"
-        ],
-        "en": [
-          "There were more than twenty soldiers, every one of them wounded. Their armor was black with blood; some were still bleeding. They looked as though they had just carved their way out of an army. At their head stood an extraordinarily tall, powerfully built man. Broken armor hung from his body. His face was streaked with blood, his bound hair torn loose. Through the fog, Mahina could not make out his features, only the huge, exhausted outline. Yet that oppressive presence, honed through years of bloodshed, still traveled along the blade in his hand, pierced the fog, and made the heart quail.",
-          "Her breath stopped. No one had to tell her who he was. She already knew."
-        ],
-        "ja": [
-          "二十数騎の兵は、誰もが傷を負っていた。甲冑は血に汚れ、なお血を滴らせる者もいる。つい今しがた、万軍の中を斬り抜けてきたことは一目でわかった。先頭には、ひときわ長身で屈強な男がいた。砕けた鎧を身にまとい、顔は血にまみれ、結った髪も乱れている。霧越しでは顔立ちまでは見えない。ただ、大きく疲れ切った輪郭だけが浮かんでいた。それでも、幾多の殺戮をくぐり抜けてきた者の圧迫感は、なお彼の手にした戦刃を伝って霧を貫き、見る者の胸を震わせた。",
-          "マヒナは息を呑んだ。誰に教えられなくとも、この人物が誰なのか、もうわかっていた。"
-        ],
-        "ko": [
-          "스무 명이 넘는 병사 모두가 상처투성이였다. 갑옷은 피로 얼룩졌고, 아직 피를 뚝뚝 흘리는 자도 있었다. 방금 전까지 만군을 뚫고 싸워 나온 것이 분명했다. 선두에는 유난히 크고 우람한 사내가 서 있었다. 부서진 갑옷이 몸에 걸려 있었고 얼굴은 피로 범벅이었으며, 묶었던 머리도 흐트러져 있었다. 안개 너머라 마히나는 그의 얼굴을 알아볼 수 없었다. 거대하고 지친 윤곽만 보였다. 그러나 오랜 살육을 거치며 벼려진 그 압박감은 여전히 그의 손에 들린 칼날을 따라 안개를 꿰뚫고, 보는 이의 심장을 떨리게 했다.",
-          "마히나는 순간 숨을 멈췄다. 누가 말해 주지 않아도 그가 누구인지 이미 알았다."
-        ],
-        "es": [
-          "Eran más de veinte soldados y todos estaban heridos. Las armaduras estaban cubiertas de sangre; algunos aún la derramaban. Bastaba mirarlos para saber que acababan de abrirse paso entre un ejército. Al frente marchaba un hombre de estatura y corpulencia extraordinarias. La armadura rota colgaba de su cuerpo; tenía el rostro ensangrentado y el cabello deshecho. A través de la niebla, Mahina no alcanzaba a distinguir sus facciones, solo aquella silueta enorme y exhausta. Pero aquella presencia opresiva, forjada en incontables matanzas, aún fluía por la hoja que empuñaba, atravesaba la bruma y hacía estremecer el corazón.",
-          "Mahina contuvo la respiración. Nadie tuvo que decirle quién era. Ya lo sabía."
-        ],
-        "fr": [
-          "Ils étaient plus de vingt soldats, tous blessés. Leurs armures étaient couvertes de sang ; certains saignaient encore. Il suffisait de les voir pour comprendre qu’ils venaient de s’ouvrir un passage au milieu d’une armée. À leur tête avançait un homme d’une taille et d’une carrure hors du commun. Une armure brisée pendait à son corps ; son visage était maculé de sang et ses cheveux noués s’étaient défaits. À travers la brume, Mahina ne distinguait pas ses traits, seulement sa silhouette immense et épuisée. Pourtant, cette présence oppressante, forgée par tant de combats meurtriers, courait encore le long de la lame qu’il tenait, traversait la brume et faisait frémir le cœur.",
-          "Mahina retint son souffle. Personne n’avait besoin de lui dire qui il était. Elle le savait déjà."
-        ],
-        "ru": [
-          "Более двадцати солдат — и все до одного ранены. Доспехи потемнели, покрытые запёкшейся кровью, у некоторых всё ещё стекали свежие алые капли. Сразу было видно: эти люди только что прорвались сквозь целую армию. Во главе их шёл человек необычайно высокого роста и могучего сложения, разбитые доспехи болтались на нём клочьями, волосы были растрёпаны. Сквозь туман Юэя не могла разглядеть черт его лица, залитого кровью, — видела лишь огромный, измождённый силуэт. Но та тяжесть, что копилась за годы убийств и сражений, текла вдоль клинка в его руке, пронизывая туман и заставляя сердце сжиматься.",
-          "У неё перехватило дыхание. Спрашивать было не нужно — она уже знала, кто это."
-        ],
-        "ar": [
-          "كانوا أكثر من عشرين جنديًا، وكلهم جرحى. غطى الدم دروعهم، وما زال ينزف من بعضهم. كان واضحًا أنهم شقوا طريقهم للتو عبر جيش كامل. وفي المقدمة وقف رجل بالغ الطول وضخم البنية. تدلت على جسده دروع محطمة، ولطخ الدم وجهه، وتناثر شعره المعقود. لم تستطع ماهينا أن تميز ملامحه عبر الضباب؛ لم ترَ سوى هيكل هائل أضناه التعب. لكن ذلك الحضور الطاغي، الذي صقلته سنون من القتل، ظل يسري على امتداد النصل في يده، مخترقًا الضباب ومثيرًا الخفقان في القلوب.",
-          "انحبس نفس ماهينا. لم يحتج أحد إلى أن يخبرها من يكون. كانت قد عرفت."
-        ],
-        "ptBR": [
-          "Eram pouco mais de vinte soldados, todos feridos. As armaduras estavam cobertas de sangue; de alguns, o sangue ainda pingava. Era evidente que acabavam de romper as fileiras de um exército. À frente seguia uma figura excepcionalmente alta e robusta. Partes da armadura quebrada pendiam de seu corpo; o rosto estava coberto de sangue, e os cabelos antes presos caíam em desordem. Através da névoa, Mahina não distinguia suas feições, apenas a silhueta enorme e exausta. Contudo, aquela presença opressiva, forjada ao longo de incontáveis matanças, ainda corria pela lâmina em sua mão, atravessava a névoa e fazia o coração estremecer.",
-          "Ela prendeu a respiração. Não precisava que ninguém lhe dissesse quem era aquele homem."
         ],
         "vi": [
           "Hơn hai mươi kỵ binh, người nào người nấy đều mang đầy thương tích, giáp trụ bê bết máu me dơ bẩn, máu của vài người vẫn còn đang nhỏ tong tỏng xuống đất, nhìn qua là biết vừa từ giữa muôn trùng vòng vây quân thù liều mạng chém giết xông ra. Đi đầu là một thân hình cao lớn vạm vỡ dị thường. Tấm chiến bào giáp trụ rách nát khoác hờ trên thân thể, mặt mũi đầy vết máu, tóc búi xõa tung rối bời. Cách một lớp sương mù, Nguyệt Nha Nhi không thể nhìn rõ dung mạo của ông, chỉ có thể thấy được đường nét cao lớn mà mệt mỏi rã rời kia. Thế nhưng khí thế áp bức tôi luyện qua muôn vàn trận mạc chém giết vẫn thuận theo lưỡi chiến đao trong tay ông đâm xuyên qua màn sương, khiến lòng người không khỏi run rẩy kinh hoàng.",
@@ -773,51 +251,6 @@
           "这时，船头的青年高声喊道：",
           "“项王！臣乃乌江亭长，愿渡大王过江。江东虽小，亦有千里之地、数十万百姓，足供大王重整旗鼓！”",
           "“如今江上唯有臣这一条船。请大王速速上船——若汉军追至，便再难渡江了!”"
-        ],
-        "zhHant": [
-          "這時，船頭的青年高聲喊道：",
-          "“項王！臣乃烏江亭長，願渡大王過江。江東雖小，亦有千里之地、數十萬百姓，足供大王重整旗鼓！”",
-          "“如今江上唯有臣這一條船。請大王速速上船——若漢軍追至，便再難渡江了！”"
-        ],
-        "en": [
-          "The young man at the bow called out:",
-          "“King Xiang! I am the Chief of Wujiang Pavilion. Allow me to ferry Your Majesty across the river. Jiangdong may be small, yet it holds a thousand li of land and hundreds of thousands of people—enough for Your Majesty to raise your banners again!”",
-          "“Mine is the only boat upon the river. Your Majesty must board at once—if the Han army catches up, there will be no crossing!”"
-        ],
-        "ja": [
-          "そのとき、舳先の若者が声を張り上げた。",
-          "「項王！　臣は烏江の亭長にございます。大王を対岸へお渡しいたしましょう。江東は狭しといえど、千里の地と数十万の民がございます。再起を図るには十分です！」",
-          "「いま江上に舟は、臣のこの一艘のみ。どうか速やかにお乗りください。漢軍が追いつけば、もはや川を渡る術はございません！」"
-        ],
-        "ko": [
-          "그때 뱃머리의 젊은이가 큰 소리로 외쳤다.",
-          "“항왕! 신은 오강의 정장입니다. 대왕을 강 건너로 모시겠습니다. 강동이 비록 작으나 천 리의 땅과 수십만 백성이 있으니, 대왕께서 다시 기치를 세우시기에 충분합니다!”",
-          "“지금 강 위의 배는 신의 이 한 척뿐입니다. 어서 오르십시오. 한군이 따라잡으면 다시는 강을 건널 수 없습니다!”"
-        ],
-        "es": [
-          "Entonces el joven de la proa gritó:",
-          "«¡Rey Xiang! Soy el jefe del pabellón de Wujiang. Permitidme llevar a Vuestra Majestad a la otra orilla. Jiangdong será pequeño, pero posee mil li de tierra y cientos de miles de habitantes: suficiente para que Vuestra Majestad vuelva a levantar sus estandartes.»",
-          "«Mi barca es la única que queda en el río. Subid cuanto antes; si el ejército Han os alcanza, ya no habrá forma de cruzar.»"
-        ],
-        "fr": [
-          "Alors le jeune homme à la proue cria :",
-          "« Roi Xiang ! Je suis le chef du relais de Wujiang. Laissez-moi faire passer Votre Majesté sur l’autre rive. Jiangdong est peut-être exigu, mais il compte mille li de terres et des centaines de milliers d’habitants : de quoi permettre à Votre Majesté de relever ses étendards ! »",
-          "« Ma barque est la seule qui reste sur le fleuve. Montez sans tarder : si l’armée Han vous rattrape, il ne sera plus possible de traverser ! »"
-        ],
-        "ru": [
-          "В этот момент юноша громко закричал:",
-          "\"Господин Сян! Я — начальник заставы Уцзян. Позвольте перевезти вас на другой берег. Пусть Цзяндун и мал, но земли его тянутся на тысячу ли, и живут там сотни тысяч людей — довольно, чтобы ваши войска вновь подняли свои знамёна!\"",
-          "\"Сейчас на всей реке — только моя лодка. Прошу вас взойти на борт немедля: если войско Хань нас настигнет, переправиться будет уже невозможно!\""
-        ],
-        "ar": [
-          "عندها صاح الشاب من مقدمة القارب:",
-          "«يا ملك شيانغ! أنا رئيس محطة ووجيانغ. اسمحوا لي أن أعبر بجلالتكم إلى الضفة الأخرى. قد تكون جيانغدونغ صغيرة، لكنها تضم ألف لي من الأرض ومئات الآلاف من الناس؛ وفيها ما يكفي كي ترفعوا راياتكم من جديد!»",
-          "«ليس على النهر الآن غير قاربي هذا. اصعدوا سريعًا؛ إن لحق بنا جيش هان فلن يبقى سبيل إلى العبور!»"
-        ],
-        "ptBR": [
-          "Então o jovem na proa gritou:",
-          "“Rei Xiang! Sou o chefe do posto do rio Wu e desejo conduzir Vossa Majestade à outra margem. Embora Jiangdong seja pequena, possui mil li de terras e centenas de milhares de habitantes — o bastante para que Vossa Majestade reúna novas forças!”",
-          "“Este é agora o único barco no rio. Suba depressa, Majestade! Se o exército Han nos alcançar, não haverá outra travessia!”"
         ],
         "vi": [
           "Lúc này, chàng thanh niên ở đầu thuyền cất cao giọng hô to:",
@@ -838,51 +271,6 @@
           "“当年，籍与八千江东子弟渡江而西。” 他望着江水，声音不高， “今日，归者无一。”",
           "“纵使江东父兄仍怜我、奉我为王，我有何面目复见之？”"
         ],
-        "zhHant": [
-          "項羽立在岸邊，像是不敢相信這江上竟還有一條渡船。他沉默了很久，才沉沉開口。",
-          "“當年，籍與八千江東子弟渡江而西。” 他望著江水，聲音不高， “今日，歸者無一。”",
-          "“縱使江東父兄仍憐我、奉我為王，我有何面目復見之？”"
-        ],
-        "en": [
-          "Xiang Yu stood at the water’s edge as if he could scarcely believe there was still a ferry on the river. He was silent for a long while before his deep voice came through the mist.",
-          "“In years past, I, Ji, crossed westward with eight thousand sons of Jiangdong.” He looked at the river, his voice low. “Today, not one returns.”",
-          "“Even if the fathers and elders of Jiangdong still pity me and would make me their king, with what face could I ever meet them again?”"
-        ],
-        "ja": [
-          "項羽は岸辺に立ち、この川にまだ渡し舟があることを信じかねるようだった。長い沈黙ののち、ようやく重い声で口を開いた。",
-          "「かつて籍は、八千の江東の子弟とともに川を渡り、西へ向かった。」 彼は川面を見つめ、低い声で言った。 「今日、帰る者は一人もいない。」",
-          "「たとえ江東の父老がなお我を憐れみ、王として迎えてくれようとも、何の面目があって再び会えようか。」"
-        ],
-        "ko": [
-          "항우는 강가에 서서, 이 강에 아직 나룻배가 있다는 사실을 믿지 못하는 듯했다. 그는 오랫동안 침묵하다가 마침내 무거운 목소리로 입을 열었다.",
-          "“지난날 적은 강동 자제 팔천과 함께 강을 건너 서쪽으로 갔소.” 그는 강물을 바라보며 낮게 말했다. “오늘 돌아가는 자는 하나도 없소.”",
-          "“강동의 부형들이 여전히 나를 가엾게 여겨 왕으로 받든다 한들, 무슨 면목으로 다시 그들을 보겠소?”"
-        ],
-        "es": [
-          "Xiang Yu permaneció en la orilla como si no pudiera creer que aún quedara una barca en el río. Guardó silencio durante largo rato antes de hablar con voz grave.",
-          "«En otro tiempo, Ji cruzó el río hacia el oeste con ocho mil hijos de Jiangdong.» Contempló el agua y añadió en voz baja: «Hoy no regresa ninguno.»",
-          "«Aunque los padres y ancianos de Jiangdong aún se compadecieran de mí y quisieran hacerme su rey, ¿con qué rostro podría volver a presentarme ante ellos?»"
-        ],
-        "fr": [
-          "Xiang Yu se tenait au bord de l’eau, comme s’il ne pouvait croire qu’une barque existât encore sur le fleuve. Il garda longtemps le silence avant de parler d’une voix profonde.",
-          "« Jadis, moi, Ji, j’ai traversé vers l’ouest avec huit mille fils de Jiangdong. » Il contempla l’eau et poursuivit à voix basse : « Aujourd’hui, aucun ne revient. »",
-          "« Quand bien même les pères et les anciens de Jiangdong auraient encore pitié de moi et voudraient me faire roi, de quel visage pourrais-je me présenter de nouveau devant eux ? »"
-        ],
-        "ru": [
-          "Сян Юй стоял на берегу, словно не веря, что на этой реке осталась ещё хоть одна лодка. Он долго молчал, пока наконец не прозвучал его глубокий, тяжёлый голос.",
-          "\"Прежде я, Цзи, вместе с восемью тысячами сынов Цзяндуна переправился через эту реку и пошёл на запад,\"  — он посмотрел на воду, его голос звучал негромко. —  \"Сегодня ни один не вернётся.\"",
-          "\"Даже если отцы и старшие братья Цзяндуна всё ещё сочувствуют мне и хотят видеть меня своим правителем — как я смогу вновь посмотреть им в глаза?\""
-        ],
-        "ar": [
-          "وقف شيانغ يو عند حافة الماء كأنه لا يصدق أن قارب عبور ما زال موجودًا على النهر. ظل صامتًا طويلًا، ثم تكلم بصوت عميق ثقيل.",
-          "«في سالف الأيام عبرتُ أنا جي النهر غربًا ومعي ثمانية آلاف من أبناء جيانغدونغ.» حدق في الماء وقال بصوت خافت: «واليوم لا يعود منهم أحد.»",
-          "«حتى لو ظل آباء جيانغدونغ وشيوخها يشفقون عليّ ويريدونني ملكًا، فبأي وجه ألقاهم من جديد؟»"
-        ],
-        "ptBR": [
-          "Xiang Yu parou na margem, como se não acreditasse que ainda houvesse ali um barco. Permaneceu em silêncio por muito tempo antes de falar com voz profunda.",
-          "“Anos atrás, eu, Ji, atravessei o rio rumo ao oeste com oito mil jovens de Jiangdong.” Contemplou as águas e, sem erguer a voz, continuou: “Hoje, nenhum regressa.”",
-          "“Mesmo que os anciãos e irmãos de Jiangdong ainda tenham compaixão por mim e tornem a me aceitar como rei, com que rosto poderia voltar a encará-los?”"
-        ],
         "vi": [
           "Hạng Vũ đứng lặng bên mép sông, tựa hồ không dám tin trên khúc sông này lại vẫn còn một chiếc thuyền đò. Ông im lặng hồi lâu, rồi mới trầm giọng mở lời.",
           "“Năm xưa, Tịch này cùng tám ngàn con em Giang Đông vượt sông sang phía tây.” Ông nhìn dòng nước cuộn chảy, giọng trầm buồn, “Ngày nay, chẳng một ai trở về.”",
@@ -900,42 +288,6 @@
         "zh": [
           "月牙儿从乌篷里探出半个身子，一直望着岸上。不知是哪里来的胆子，她忽然朝岸上喊了一句：",
           "“项王!他们都是以追随你为荣的，连战死沙场，都引以为荣。他们的父母，怎么会怪罪你呢?”"
-        ],
-        "zhHant": [
-          "月牙兒從烏篷裡探出半個身子，一直望著岸上。不知是哪裡來的膽子，她忽然朝岸上喊了一句：",
-          "“項王！他們都是以追隨你為榮的，連戰死沙場，都引以為榮。他們的父母，怎麼會怪罪你呢？”"
-        ],
-        "en": [
-          "Mahina leaned halfway out from beneath the canopy, watching the shore. She did not know where the courage came from, but suddenly she shouted:",
-          "“King Xiang! They were proud to follow you. They were proud even to die beside you in battle. How could their parents blame you?”"
-        ],
-        "ja": [
-          "マヒナは苫の下から半身を乗り出し、ずっと岸を見ていた。どこからそんな勇気が湧いたのか、突然、岸へ向かって叫んだ。",
-          "「項王！　皆、あなたに従うことを誇りにしていたんです。戦場で死ぬことさえ誇りだった。ご両親が、どうしてあなたを責めるんですか？」"
-        ],
-        "ko": [
-          "마히나는 덮개 아래로 상반신을 내밀고 줄곧 강가를 바라보았다. 어디서 그런 용기가 났는지, 갑자기 강가를 향해 외쳤다.",
-          "“항왕! 그들은 당신을 따르는 일을 자랑스러워했어요. 전장에서 죽는 것조차 자랑으로 여겼을 거예요. 그 부모들이 어떻게 당신을 원망하겠어요?”"
-        ],
-        "es": [
-          "Mahina asomó medio cuerpo bajo el toldo y siguió mirando la orilla. No supo de dónde sacó el valor, pero de pronto gritó:",
-          "«¡Rey Xiang! Todos se sentían orgullosos de seguirlo. Incluso morir a su lado en el campo de batalla era un honor para ellos. ¿Cómo iban sus padres a culparlo?»"
-        ],
-        "fr": [
-          "Mahina se pencha à demi hors de la natte, sans quitter la rive des yeux. Elle ne sut d’où lui vint ce courage, mais elle cria soudain :",
-          "« Roi Xiang ! Ils étaient fiers de vous suivre. Mourir à vos côtés sur le champ de bataille était encore un honneur pour eux. Comment leurs parents pourraient-ils vous en vouloir ? »"
-        ],
-        "ru": [
-          "Юэя наполовину высунулась из-под навеса, не отрывая взгляда от берега.\nОна сама не поняла, откуда взялась эта смелость, и вдруг крикнула:",
-          "\"Господин Сян! Они гордились тем, что следуют за вами. Гордились тем, что пали рядом с вами на поле боя. Как их родители могут винить вас за это?\""
-        ],
-        "ar": [
-          "أخرجت ماهينا نصف جسدها من تحت السقف وظلت تحدق في الضفة. لم تعرف من أين جاءتها الجرأة، لكنها صاحت فجأة:",
-          "«يا ملك شيانغ! كانوا يفخرون باتباعك، ويفخرون حتى بالموت إلى جانبك في ساحة القتال. فكيف يمكن لآبائهم أن يلوموك؟»"
-        ],
-        "ptBR": [
-          "Mahina projetou metade do corpo para fora da cobertura, os olhos fixos na margem. Sem saber de onde lhe vinha a coragem, gritou:",
-          "“Rei Xiang! Todos eles se orgulhavam de segui-lo; até morrer no campo de batalha era motivo de honra para eles. Como seus pais poderiam culpá-lo?”"
         ],
         "vi": [
           "Nguyệt Nha Nhi nhoài nửa người ra khỏi mui thuyền tre, đăm đăm nhìn lên bờ. Chẳng biết dũng khí từ đâu ập tới, cô bỗng cất tiếng hét lớn về phía bờ sông:",
@@ -956,60 +308,6 @@
           "一切都在意料之中。但船头的青年显然不满意这个答案。",
           "“项王，恕臣直言。” 他说， “大王自万军之中冒死杀至此处，求的，不就是一线生机么？如今船在眼前，江东在对岸。为何偏偏不肯上船？”"
         ],
-        "zhHant": [
-          "項羽循聲望向渡船。看清出聲的竟是一個年輕少女，他眼中掠過一絲意外。可那驚訝只停了一瞬，便化作一種面對命運的釋然。",
-          "“縱使他們不怪罪，” 他說， “我又豈能問心無愧？”",
-          "一切都在意料之中。但船頭的青年顯然不滿意這個答案。",
-          "“項王，恕臣直言。” 他說， “大王自萬軍之中冒死殺至此處，求的，不就是一線生機麼？如今船在眼前，江東在對岸。為何偏偏不肯上船？”"
-        ],
-        "en": [
-          "Xiang Yu turned toward the ferry. Surprise flickered in his eyes when he saw that the voice belonged to a young woman. It lasted only an instant, then gave way to the serenity of a man who had accepted his fate.",
-          "“Even if they do not blame me,” he said, “how could I be without shame before my own heart?”",
-          "Everything had unfolded as expected. But the young man at the bow was plainly dissatisfied with the answer.",
-          "“King Xiang, forgive my bluntness.” he said. “Your Majesty fought through an entire army to reach this place. Was it not for one last chance to live? The boat is before you; Jiangdong lies across the river. Why refuse to board now?”"
-        ],
-        "ja": [
-          "項羽が声を追って渡し舟を見た。声の主が若い娘だと知り、その目に驚きがよぎる。だが、それは一瞬で消え、運命を受け入れた者の静けさに変わった。",
-          "「たとえ彼らが我を責めずとも、」 彼は言った。 「我が心に、恥じずにいられようか。」",
-          "すべては予想どおりだった。だが舳先の若者は、その答えに納得していないようだった。",
-          "「項王、無礼をお許しください。」 彼は言った。 「大王は万軍の中を命がけでここまで斬り抜けてこられた。それは一縷の望みを求めてのことではありませんか。舟は目の前にあり、江東は対岸にある。なぜ、どうしてもお乗りにならないのです。」"
-        ],
-        "ko": [
-          "항우가 목소리를 따라 나룻배를 바라보았다. 외친 이가 젊은 여자라는 것을 알아본 순간 그의 눈에 놀라움이 스쳤다. 그러나 그 빛은 한순간에 그치고, 운명을 받아들인 자의 담담함으로 바뀌었다.",
-          "“그들이 나를 원망하지 않는다 해도,” 그가 말했다. “내 어찌 스스로에게 부끄럽지 않을 수 있겠소?”",
-          "모든 것이 예상대로였다. 하지만 뱃머리의 젊은이는 그 대답이 못마땅한 눈치였다.",
-          "“항왕, 무례를 용서하십시오.” 그가 말했다. “대왕께서 만군을 뚫고 목숨을 걸어 여기까지 오신 것은 한 가닥 살길을 구해서가 아닙니까? 배는 눈앞에 있고 강동은 건너편에 있습니다. 어찌하여 끝내 배에 오르지 않으십니까?”"
-        ],
-        "es": [
-          "Xiang Yu volvió la cabeza hacia la barca. Al descubrir que la voz pertenecía a una muchacha, un destello de sorpresa cruzó sus ojos. Duró apenas un instante y se transformó en la serenidad de quien había aceptado su destino.",
-          "«Aunque ellos no me culpen,» dijo, «¿cómo podría yo estar en paz con mi conciencia?»",
-          "Todo sucedía como estaba previsto. Sin embargo, el joven de la proa no parecía satisfecho con la respuesta.",
-          "«Rey Xiang, perdonad mi franqueza.» dijo. «Vuestra Majestad ha arriesgado la vida para abrirse paso entre un ejército y llegar hasta aquí. ¿No buscaba con ello una última posibilidad de vivir? La barca está ante vos y Jiangdong, en la otra orilla. ¿Por qué os negáis a subir?»"
-        ],
-        "fr": [
-          "Xiang Yu tourna la tête vers la barque. En découvrant que la voix appartenait à une jeune fille, il eut un éclair de surprise. Il ne dura qu’un instant, puis céda à la sérénité d’un homme qui avait accepté son destin.",
-          "« Même s’ils ne me blâment pas, » dit-il, « comment pourrais-je ne pas avoir honte devant mon propre cœur ? »",
-          "Tout se déroulait comme prévu. Pourtant, le jeune homme à la proue ne semblait pas satisfait de cette réponse.",
-          "« Roi Xiang, pardonnez ma franchise. » dit-il. « Votre Majesté a risqué sa vie pour percer une armée entière et parvenir jusqu’ici. N’était-ce pas pour saisir une dernière chance de vivre ? La barque est devant vous, Jiangdong se trouve sur l’autre rive. Pourquoi refusez-vous d’embarquer ? »"
-        ],
-        "ru": [
-          "Сян Юй обернулся на голос и посмотрел на лодку. Увидев, что кричит совсем юная девушка, он на миг удивился — но удивление тут же сменилось спокойствием человека, смирившегося со своей судьбой.",
-          "\"Даже если они не винят меня,\"  — сказал он, —  \"как я сам смогу жить с чистой совестью?\"",
-          "Всё шло так, как и следовало ожидать.\nНо этот ответ явно не устроил юношу на носу лодки.",
-          "\"Господин Сян, простите мою прямоту,\"  — сказал он. —  \"Вы, рискуя жизнью, прорвались сквозь целое войско, чтобы добраться сюда. Разве не ради последнего шанса выжить? Лодка перед вами, Цзяндун — на другом берегу. Почему же вы отказываетесь взойти на борт?\""
-        ],
-        "ar": [
-          "التفت شيانغ يو نحو القارب. وحين رأى أن صاحبة الصوت فتاة شابة، لمعت في عينيه دهشة خاطفة. لم تدم إلا لحظة، ثم ذابت في سكينة رجل تصالح مع مصيره.",
-          "«حتى إن لم يلوموني،» قال، «فكيف لا أخجل أمام ضميري؟»",
-          "كان كل شيء يجري كما هو متوقع. لكن الشاب عند مقدمة القارب لم يبدُ راضيًا عن الجواب.",
-          "«أيها الملك شيانغ، اعذر صراحتي.» قال. «لقد خاطرتم بحياتكم وشققتم صفوف جيش كامل حتى بلغتم هذا المكان. ألم تفعلوا ذلك طلبًا لفرصة أخيرة للنجاة؟ القارب أمامكم، وجيانغدونغ على الضفة الأخرى. فلماذا تصرون على ألا تصعدوا؟»"
-        ],
-        "ptBR": [
-          "Xiang Yu voltou o olhar para o barco. Ao perceber que a voz vinha de uma jovem, a surpresa atravessou-lhe os olhos. Mas durou apenas um instante, transformando-se na serenidade de quem aceitara o destino.",
-          "“Ainda que não me culpem”, disse ele, “como poderia eu próprio não me sentir culpado?”",
-          "Tudo acontecia como previsto. O jovem na proa, porém, não parecia satisfeito.",
-          "“Rei Xiang, perdoe minha franqueza.” Disse ele: “Vossa Majestade arriscou a vida e atravessou milhares de inimigos para chegar até aqui. Não buscava justamente uma última possibilidade de sobreviver? Agora o barco está diante de seus olhos, e Jiangdong, do outro lado. Por que se recusa a embarcar?”"
-        ],
         "vi": [
           "Hạng Vũ men theo tiếng gọi nhìn về phía thuyền đò. Nhận ra người vừa lên tiếng lại là một thiếu nữ trẻ tuổi, trong đáy mắt ông thoáng qua một tia ngạc nhiên. Nhưng nỗi kinh ngạc ấy chỉ đọng lại trong tích tắc, rồi hóa thành một sự thanh thản khi đối diện với số phận.",
           "“Dẫu cho họ không trách cứ,” Ông nói, “nhưng lòng ta há có thể không thẹn với lương tâm?”",
@@ -1029,42 +327,6 @@
           "项羽没有立刻回答。",
           "他望向浓雾中那道巨大的身影，片刻后才收回目光，视线掠过船头的青年，最终落在从乌篷里探出半个身子的月牙儿身上。他的重瞳里没有怒意，只有一种近乎冰冷的清明。"
         ],
-        "zhHant": [
-          "項羽沒有立刻回答。",
-          "他望向濃霧中那道巨大的身影，片刻後才收回目光，視線掠過船頭的青年，最終落在從烏篷裡探出半個身子的月牙兒身上。他的重瞳裡沒有怒意，只有一種近乎冰冷的清明。"
-        ],
-        "en": [
-          "Xiang Yu did not answer at once.",
-          "He looked toward the immense shape in the fog. Only after a moment did he turn away. His gaze passed over the young man at the bow and came to rest on Mahina, half-emerged from beneath the canopy. There was no anger in his double pupils, only an almost glacial clarity."
-        ],
-        "ja": [
-          "項羽はすぐには答えなかった。",
-          "濃霧に立つ巨大な影を見つめ、しばらくしてから目を戻した。視線は舳先の若者を過ぎ、苫の下から半身を乗り出すマヒナに止まった。その重瞳に怒りはなく、ただ氷のような明晰さがあった。"
-        ],
-        "ko": [
-          "항우는 곧바로 대답하지 않았다.",
-          "그는 짙은 안개 속 거대한 형체를 바라보다가 한참 뒤에야 시선을 거뒀다. 뱃머리의 젊은이를 스친 눈길은 덮개 아래로 반쯤 몸을 내민 마히나에게 머물렀다. 겹동공에는 노여움이 없었다. 얼음처럼 차가운 명징함만이 있었다."
-        ],
-        "es": [
-          "Xiang Yu no respondió de inmediato.",
-          "Miró la enorme silueta erguida en la niebla. Al cabo de un momento apartó los ojos; su mirada pasó por el joven de la proa y terminó en Mahina, que asomaba medio cuerpo bajo el toldo. No había ira en sus pupilas dobles, solo una lucidez casi glacial."
-        ],
-        "fr": [
-          "Xiang Yu ne répondit pas tout de suite.",
-          "Il regarda l’immense silhouette dressée dans la brume. Après un moment seulement, il détourna les yeux ; son regard passa sur le jeune homme à la proue et s’arrêta sur Mahina, à demi sortie de sous la natte. Il n’y avait aucune colère dans ses doubles pupilles, seulement une lucidité presque glaciale."
-        ],
-        "ru": [
-          "Сян Юй ответил не сразу.",
-          "Он всматривался в огромный силуэт в густом тумане и лишь спустя мгновение отвёл взгляд. Его глаза скользнули по юноше на носу лодки и остановились на Юэе.\nВ его двойных зрачках не было гнева — только ледяное спокойствие."
-        ],
-        "ar": [
-          "لم يجب شيانغ يو على الفور.",
-          "نظر إلى الظل الهائل القائم في الضباب الكثيف. وبعد برهة فقط صرف عينيه عنه؛ مر بصره على الشاب عند المقدمة، ثم استقر على ماهينا وقد أخرجت نصف جسدها من تحت السقف. لم يكن في حدقتيه المزدوجتين غضب، بل صفاء يكاد يكون جليديًا."
-        ],
-        "ptBR": [
-          "Xiang Yu não respondeu de imediato.",
-          "Fitou a figura colossal dentro da névoa e, pouco depois, desviou o olhar. Passou os olhos pelo jovem na proa e, por fim, deteve-se em Mahina, ainda com metade do corpo fora da cobertura. Não havia ira em suas pupilas duplas, apenas uma lucidez quase glacial."
-        ],
         "vi": [
           "Hạng Vũ không trả lời ngay.",
           "Ông ngước nhìn về phía bóng hình khổng lồ trong làn sương mù dày đặc, một lát sau mới thu hồi ánh mắt, tầm nhìn lướt qua chàng thanh niên ở mũi thuyền, cuối cùng dừng lại trên người Nguyệt Nha Nhi đang nhoài nửa thân mình ra khỏi mui thuyền. Trong đôi con ngươi kép (trùng đồng) của ông không hề có chút giận dữ, chỉ có một sự sáng suốt tỉnh táo đến mức gần như lạnh buốt."
@@ -1083,60 +345,6 @@
           "“可你，却似早知我今日必至，驾着这江上唯一一条渡船，正正候在我脚下这片滩头。”",
           "“你来告诉我，这是为何？”",
           "青年语塞了。他张了张口，一个字也答不出来。"
-        ],
-        "zhHant": [
-          "“吾自陰陵迷道，” 他緩緩道， “田父紿我，陷於大澤。大霧鎖江，蘆葦沒人，斷斷續續，不辨南北，連走到了烏江哪一段，亦不自知。”",
-          "“可你，卻似早知我今日必至，駕著這江上唯一一條渡船，正正候在我腳下這片灘頭。”",
-          "“你來告訴我，這是為何？”",
-          "青年語塞了。他張了張口，一個字也答不出來。"
-        ],
-        "en": [
-          "“I lost my way at Yinling,” he said slowly. “A farmer deceived me and led me into the great marsh. Fog sealed the river; reeds rose over a man’s head. I wandered on, unable to tell north from south. I do not even know upon which reach of the Wujiang I now stand.”",
-          "“Yet you appear to have known that I would come today. You brought the only ferry on this river and waited upon the very shoal at my feet.”",
-          "“Tell me—why?”",
-          "The young man was struck speechless. His mouth opened, but not a word came out."
-        ],
-        "ja": [
-          "「吾は陰陵で道に迷い、」 彼はゆっくりと言った。 「田父に欺かれ、大沢に陥った。大霧は川を閉ざし、葦は人の背を越え、途切れ途切れに続いて南北もわからぬ。烏江のどのあたりまで来たのかさえ、知る由もない。」",
-          "「だが、そなたは今日ここへ我が来ることを知っていたかのように、この川にただ一艘の渡し舟を操り、まさに我が足元のこの岸で待っていた。」",
-          "「答えよ。なぜだ。」",
-          "若者は言葉を失った。口を開いたが、一言も出てこない。"
-        ],
-        "ko": [
-          "“나는 음릉에서 길을 잃었소.” 그가 천천히 말했다. “한 늙은 농부가 나를 속여 큰 늪으로 이끌었소. 짙은 안개가 강을 가두고 갈대는 사람 키를 넘었으며, 끊어졌다 이어지기를 거듭해 남북조차 분간할 수 없었소. 오강의 어느 물길까지 왔는지도 알지 못하오.”",
-          "“그런데 그대는 내가 오늘 반드시 올 줄 알았던 듯, 이 강의 유일한 나룻배를 몰고 내 발아래 이 모래톱에서 정확히 기다리고 있었소.”",
-          "“말해 보시오. 어찌 된 일이오?”",
-          "젊은이는 말문이 막혔다. 입을 열었지만 한마디도 나오지 않았다."
-        ],
-        "es": [
-          "«Me extravié en Yinling,» dijo despacio. «un anciano campesino me engañó y me condujo al gran pantano. La niebla cerró el río; los juncos sobrepasaban a un hombre y se extendían a trechos, hasta borrar el norte y el sur. Ni siquiera sé a qué tramo del Wujiang he llegado.»",
-          "«Pero vos parecéis haber sabido que hoy llegaría. Habéis traído la única barca de este río y aguardáis precisamente en el banco de arena que hay a mis pies.»",
-          "«Decidme: ¿por qué?»",
-          "El joven se quedó sin palabras. Abrió la boca, pero no consiguió responder."
-        ],
-        "fr": [
-          "« Je me suis égaré à Yinling, » dit-il lentement. « un vieux paysan m’a trompé et conduit dans le grand marais. La brume a scellé le fleuve ; les roseaux dépassaient la taille d’un homme et s’étendaient par nappes, jusqu’à effacer le nord et le sud. J’ignore même sur quel bras du Wujiang je me trouve. »",
-          "« Pourtant, vous semblez avoir su que je viendrais aujourd’hui. Vous avez mené ici la seule barque du fleuve et m’attendez précisément sur le banc de sable à mes pieds. »",
-          "« Dites-moi : pourquoi ? »",
-          "Le jeune homme resta sans voix. Il ouvrit la bouche, mais aucun mot ne vint."
-        ],
-        "ru": [
-          "\"Я сбился с пути у Иньлина,\"  — медленно произнёс он. —  \"Старый крестьянин обманул меня и завёл в топи. Густой туман сковал реку, тростник поднимался выше человеческого роста — то стоял сплошной стеной, то внезапно редел, — и невозможно было разобрать, где север, а где юг. Я даже не знаю, насколько далеко по Уцзяну добрался.\"",
-          "\"Но ты, похоже, заранее знал, что я непременно приду сюда сегодня — пригнал на эту реку лодку и ждал точно на этой отмели, у меня на пути.\"",
-          "\"Скажи мне — зачем?\"",
-          "Юноша не знал, что ответить. Он открыл рот, но не смог произнести ни слова."
-        ],
-        "ar": [
-          "«ضللت الطريق عند يينلينغ،» قال ببطء، «وخدعني فلاح عجوز وقادني إلى المستنقع الكبير. أغلق الضباب الكثيف النهر، وارتفع القصب فوق قامة الرجل وامتد متقطعًا حتى غاب الشمال عن الجنوب. لا أعرف حتى إلى أي جزء من ووجيانغ وصلت.»",
-          "«لكنكم تبدون كأنكم عرفتم أنني سأجيء اليوم. قدتم القارب الوحيد في هذا النهر وانتظرتم عند اللسان الرملي الواقع تحت قدمي بالضبط.»",
-          "«قولوا لي: لماذا؟»",
-          "انعقد لسان الشاب. فتح فمه، ولم تخرج منه كلمة."
-        ],
-        "ptBR": [
-          "“Desde que me perdi em Yinling”, disse lentamente, “um velho camponês me enganou e conduziu ao grande pântano. A névoa fechou o rio; os juncos cobriam os homens, os caminhos se rompiam, norte e sul se confundiam. Nem sei em que trecho do rio Wu vim parar.”",
-          "“Mas você parecia saber que eu chegaria hoje. Trouxe o único barco deste rio e esperou exatamente nesta praia, aos meus pés.”",
-          "“Diga-me: por quê?”",
-          "O jovem ficou sem palavras. Abriu a boca, mas não conseguiu responder uma única sílaba."
         ],
         "vi": [
           "“Ta từ Âm Lăng lạc bước lầm đường,” Ông chậm rãi nói, “bị lão nông lừa gạt, sa vào chốn đầm lầy lớn. Sương mù dày đặc vây kín sông, lau sậy cao ngập đầu người, quanh co đứt đoạn, chẳng phân biệt nổi bắc nam, đến mức đi tới khúc nào của Ô Giang này, bản thân ta cũng chẳng hề hay biết.”",
@@ -1158,51 +366,6 @@
           "“籍，亦非愚钝之人。” 他道， “这乌江之上，何来的亭长？又何来的渡船？”",
           "“天意要亡我。尔等云中之人，又何意来渡我?”"
         ],
-        "zhHant": [
-          "項羽看著他，忽然大笑出聲。",
-          "“籍，亦非愚鈍之人。” 他道， “這烏江之上，何來的亭長？又何來的渡船？”",
-          "“天意要亡我。爾等雲中之人，又何意來渡我？”"
-        ],
-        "en": [
-          "Xiang Yu looked at him and suddenly burst into laughter.",
-          "“I, Ji, am no fool.” he said. “What pavilion chief could there be upon the Wujiang? What ferry could there be?”",
-          "“Heaven wills my death. And you Cloud Dwellers—what purpose brings you here to ferry me across?”"
-        ],
-        "ja": [
-          "項羽は彼を見つめると、突然、大声で笑った。",
-          "「籍とて、愚鈍ではない。」 彼は言った。 「この烏江に、どこから亭長が現れる。どこから渡し舟が現れるというのだ。」",
-          "「天が我を亡ぼそうとしている。そなたら雲中人は、何を思って我を渡しに来た？」"
-        ],
-        "ko": [
-          "항우는 그를 바라보다가 갑자기 크게 웃었다.",
-          "“적도 어리석은 자는 아니오.” 그가 말했다. “이 오강에 어디서 정장이 나오고, 어디서 나룻배가 나온단 말이오?”",
-          "“하늘이 나를 죽이려 하는구나. 너희 운중인은 무슨 뜻으로 나를 건네려 왔느냐?”"
-        ],
-        "es": [
-          "Xiang Yu lo observó y, de pronto, rompió a reír.",
-          "«Ji tampoco es un necio.» dijo. «¿De dónde iba a salir un jefe de pabellón en el Wujiang? ¿Y de dónde, una barca?»",
-          "«El Cielo quiere mi muerte. Y vosotros, habitantes de las nubes, ¿con qué propósito habéis venido a hacerme cruzar?»"
-        ],
-        "fr": [
-          "Xiang Yu le regarda et, soudain, éclata de rire.",
-          "« Ji n’est pas un sot. » dit-il. « D’où viendrait un chef de relais sur le Wujiang ? Et d’où viendrait une barque ? »",
-          "« Le Ciel veut ma perte. Et vous, Habitants des nuages, dans quel dessein êtes-vous venus me faire traverser ? »"
-        ],
-        "ru": [
-          "Сян Юй смотрел на него и вдруг громко рассмеялся.",
-          "\"Я, Цзи, тоже не глупец,\"  — сказал он. —  \"Откуда на реке Уцзян взяться начальнику заставы? Откуда лодка?\"",
-          "\"Небо желает моей гибели. А вы, Облачные люди, — с какой целью явились переправить меня?\""
-        ],
-        "ar": [
-          "نظر إليه شيانغ يو، ثم انفجر فجأة ضاحكًا.",
-          "«لستُ، أنا جي، غبيًا.» قال. «من أين يأتي رئيس محطة إلى ووجيانغ؟ ومن أين يأتي قارب عبور؟»",
-          "«إن السماء تريد هلاكي. وأنتم يا سكان السحاب، لأي غرض جئتم لتعبروا بي؟»"
-        ],
-        "ptBR": [
-          "Xiang Yu contemplou-o e, de repente, soltou uma gargalhada.",
-          "“Eu, Ji, tampouco sou um tolo.” Disse ele: “Que chefe de posto haveria sobre o rio Wu? E de onde viria este barco?”",
-          "“A vontade do Céu quer minha morte. E vós, Habitantes das Nuvens — com que intenção vindes me conduzir à outra margem?”"
-        ],
         "vi": [
           "Hạng Vũ nhìn chàng, bỗng nhiên cất tiếng cười vang dội.",
           "“Tịch này, há phải là kẻ ngu đần mông muội.” Ông nói, “Khúc Ô Giang hoang vu này, làm gì có đình trưởng nào? Lại làm gì có thuyền đò nào?”",
@@ -1219,33 +382,6 @@
       "texts": {
         "zh": [
           "雾从江面上滚过。无人答话。从走出芦苇荡、看见这条船的那一刻起，他就全知道了。"
-        ],
-        "zhHant": [
-          "霧從江面上滾過。無人答話。從走出蘆葦蕩、看見這條船的那一刻起，他就全知道了。"
-        ],
-        "en": [
-          "Fog rolled over the river. No one answered. From the moment he had stepped out of the reeds and seen the boat, he had understood everything."
-        ],
-        "ja": [
-          "霧が川面を流れていった。誰も答えない。葦原を出て、この舟を目にしたその瞬間から、彼にはすべてがわかっていた。"
-        ],
-        "ko": [
-          "안개가 강 위를 굴러갔다. 아무도 대답하지 않았다. 갈대밭을 벗어나 이 배를 본 순간부터 그는 모든 것을 알고 있었다."
-        ],
-        "es": [
-          "La niebla rodó sobre el río. Nadie respondió. Desde el instante en que salió del cañaveral y vio aquella barca, lo había comprendido todo."
-        ],
-        "fr": [
-          "La brume roula sur le fleuve. Personne ne répondit. Dès l’instant où il était sorti des roseaux et avait aperçu la barque, il avait tout compris."
-        ],
-        "ru": [
-          "Туман клубился над рекой. Никто не ответил. Сян Юй всё понял с той самой минуты, как вышел из тростника и увидел эту лодку."
-        ],
-        "ar": [
-          "تدحرج الضباب فوق النهر. لم يجب أحد. فمنذ اللحظة التي خرج فيها من القصب ورأى القارب، كان قد فهم كل شيء."
-        ],
-        "ptBR": [
-          "A névoa rolou sobre o rio. Ninguém respondeu. Desde o instante em que saiu dos juncos e avistou o barco, ele compreendera tudo."
         ],
         "vi": [
           "Sương mù cuồn cuộn tràn qua mặt sông. Không một ai cất lời đáp lại. Kể từ khoảnh khắc bước chân ra khỏi đầm lau sậy và nhìn thấy con thuyền này, ông đã thấu tỏ tất cả mọi sự."
@@ -1264,51 +400,6 @@
           "有人在远处高声喊着，声音被风撕得断断续续：",
           "“汉王有令——得项羽头者，赏千金，邑万户——！”"
         ],
-        "zhHant": [
-          "隆隆的馬蹄聲由遠及近。蘆葦蕩外影影綽綽，已經望得見騎兵的影子，漢軍赤色的戰旗在霧中時隱時現。",
-          "有人在遠處高聲喊著，聲音被風撕得斷斷續續：",
-          "“漢王有令——得項羽頭者，賞千金，邑萬戶——！”"
-        ],
-        "en": [
-          "The thunder of hooves drew nearer. Beyond the reeds, cavalry shadows had begun to show; the red battle standards of the Han army appeared and vanished in the mist.",
-          "Someone shouted in the distance, the wind tearing the words to pieces:",
-          "“By decree of the King of Han—whoever takes Xiang Yu’s head shall receive a thousand pieces of gold and a fief of ten thousand households—!”"
-        ],
-        "ja": [
-          "轟く蹄の音が近づいてくる。葦原の向こうには、すでに騎兵の影が見え、漢軍の赤い軍旗が霧の中に見え隠れしていた。",
-          "遠くで誰かが声を張り上げた。言葉は風に引き裂かれ、途切れ途切れに届いた。",
-          "「漢王の令——項羽の首を得た者には、黄金千斤、万戸の邑を与える——！」"
-        ],
-        "ko": [
-          "우레 같은 말발굽 소리가 점점 가까워졌다. 갈대밭 너머로 기병의 그림자가 보이기 시작했고, 한군의 붉은 군기가 안개 속에서 나타났다 사라졌다.",
-          "멀리서 누군가 크게 외쳤다. 바람이 목소리를 갈기갈기 찢어 놓았다.",
-          "“한왕의 명이다——항우의 머리를 얻는 자에게 천금과 만 호의 봉읍을 내리겠다——!”"
-        ],
-        "es": [
-          "El trueno de los cascos se acercaba. Más allá de los juncos ya se distinguían las sombras de la caballería; los estandartes rojos del ejército Han aparecían y desaparecían en la niebla.",
-          "Alguien gritó a lo lejos, y el viento despedazó sus palabras:",
-          "«¡Por orden del rey de Han: quien entregue la cabeza de Xiang Yu recibirá mil piezas de oro y un feudo de diez mil hogares!»"
-        ],
-        "fr": [
-          "Le tonnerre des sabots se rapprochait. Au-delà de la roselière, on distinguait déjà les ombres de la cavalerie ; les étendards rouges de l’armée Han apparaissaient et disparaissaient dans le brouillard.",
-          "Quelqu’un cria au loin, et le vent déchira ses paroles :",
-          "« Par ordre du roi des Han : qui rapportera la tête de Xiang Yu recevra mille pièces d’or et un fief de dix mille foyers ! »"
-        ],
-        "ru": [
-          "Гулкий топот копыт приближался. За тростником уже смутно виднелись силуэты всадников, алые боевые знамёна войска Хань то появлялись, то исчезали в тумане.",
-          "Ветер доносил обрывки выкриков:",
-          "\"Слушайте приказ правителя Хань! Тому, кто добудет голову Сян Юя, — тысяча золотых и удел в десять тысяч дворов!\""
-        ],
-        "ar": [
-          "اقترب دوي الحوافر. وخلف حقل القصب بدأت ظلال الفرسان تظهر، بينما كانت رايات جيش هان الحمراء تلوح في الضباب ثم تختفي.",
-          "صاح أحدهم في البعيد، فمزقت الريح كلماته:",
-          "«بأمر ملك هان——من يأتِ برأس شيانغ يو فله ألف قطعة من الذهب وإقطاع بعشرة آلاف أسرة——!»"
-        ],
-        "ptBR": [
-          "O estrondo dos cascos se aproximava. Além do juncal, já se distinguiam as sombras da cavalaria; os estandartes vermelhos do exército Han surgiam e desapareciam na bruma.",
-          "Alguém gritava à distância, a voz rasgada pelo vento:",
-          "“Ordem do rei de Han: quem trouxer a cabeça de Xiang Yu receberá mil peças de ouro e um feudo de dez mil famílias!”"
-        ],
         "vi": [
           "Tiếng vó ngựa ầm ầm từ xa ùa tới gần. Bên ngoài đầm lau sậy bóng người chập chờn, đã có thể nhìn thấy bóng dáng của kỵ binh, những lá chiến cờ đỏ rực của quân Hán thoắt ẩn thoắt hiện trong làn sương khói.",
           "Có tiếng người từ đằng xa hô lớn gầm vang, thanh âm bị gió xé thành từng mảnh đứt quãng:",
@@ -1326,38 +417,11 @@
         "zh": [
           "结局到了。这一刻，江边所有人都知道。"
         ],
-        "zhHant": [
-          "結局到了。這一刻，江邊所有人都知道。"
-        ],
-        "en": [
-          "The end had arrived. Everyone on the riverbank knew it."
-        ],
-        "ja": [
-          "結末が訪れた。そのことを、この川辺にいる誰もが知っていた。"
-        ],
-        "ko": [
-          "결말이 다가왔다. 그 순간 강가의 모두가 알고 있었다."
-        ],
-        "es": [
-          "Había llegado el desenlace. Todos en la ribera lo sabían."
-        ],
-        "fr": [
-          "Le dénouement était arrivé. Tous, sur la rive, le savaient."
-        ],
-        "ru": [
-          "Всё кончено. В ту же секунду это поняли все на берегу реки."
-        ],
-        "ar": [
-          "حلّت النهاية. وفي تلك اللحظة كان كل من على ضفة النهر يعرف ذلك."
-        ],
-        "ptBR": [
-          "O fim chegara. Naquele instante, todos junto ao rio sabiam."
-        ],
         "vi": [
           "Hồi kết đã điểm. Vào khoảnh khắc này, tất cả mọi người bên bờ sông đều thấu hiểu."
         ]
       }
     }
   ],
-  "title_vi": "Vân Trùng · Chương 5: Ô Chuy · I · v5.1.39"
+  "title_vi": "Vân Trùng · Chương 5: Ô Chuy · I · v5.2.55"
 }
