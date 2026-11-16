@@ -692,7 +692,7 @@ html[lang="ru"] .chapter-name {
 
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<meta name="darkreader-lock"/><meta content="dark" name="color-scheme"/><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
 <style data-cloudinsect-vi-style="true">
@@ -798,6 +798,24 @@ html[lang="vi"] .title-line h1 {
 
 .cover-bg video {
   display: block !important;
+}
+
+/* Dark Reader & extension compatibility overrides */
+html[data-darkreader-mode] .chapter-row::before {
+  background-image: var(--chapter-bg) !important;
+  background-position: var(--chapter-bg-position, center) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.78 !important;
+}
+html[data-darkreader-mode] .chapter-row::after {
+  background:
+    linear-gradient(90deg, rgba(5, 6, 7, 0.82) 0%, rgba(5, 6, 7, 0.54) 48%, rgba(5, 6, 7, 0.18) 100%),
+    linear-gradient(0deg, rgba(5, 6, 7, 0.68) 0%, rgba(5, 6, 7, 0.06) 64%, rgba(255, 255, 255, 0.08) 100%) !important;
+}
+html[data-darkreader-mode] .chapter-row:hover::before,
+html[data-darkreader-mode] .chapter-row:focus-visible::before {
+  opacity: 0.95 !important;
 }
 </style>
 </head>

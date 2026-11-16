@@ -833,6 +833,15 @@ def step3_update_html_readers():
         if soup.title:
             soup.title.string = cfg['title_vi']
 
+        # Add darkreader-lock and dark color scheme
+        if soup.head:
+            if not soup.find('meta', attrs={'name': 'darkreader-lock'}):
+                meta_lock = soup.new_tag('meta', attrs={'name': 'darkreader-lock'})
+                soup.head.append(meta_lock)
+            if not soup.find('meta', attrs={'name': 'color-scheme'}):
+                meta_cs = soup.new_tag('meta', attrs={'name': 'color-scheme', 'content': 'dark'})
+                soup.head.append(meta_cs)
+
         # STRIP ALL FOREIGN ATTRIBUTES (data-en, data-ar, data-es, etc.)
         strip_foreign_attributes(soup)
 
@@ -1027,6 +1036,15 @@ def step4_update_root_files():
     if soup.title:
         soup.title.string = 'Vân Trùng · Mục lục đọc truyện · v5.2.55'
 
+    # Add darkreader-lock and dark color scheme
+    if soup.head:
+        if not soup.find('meta', attrs={'name': 'darkreader-lock'}):
+            meta_lock = soup.new_tag('meta', attrs={'name': 'darkreader-lock'})
+            soup.head.append(meta_lock)
+        if not soup.find('meta', attrs={'name': 'color-scheme'}):
+            meta_cs = soup.new_tag('meta', attrs={'name': 'color-scheme', 'content': 'dark'})
+            soup.head.append(meta_cs)
+
     # STRIP ALL FOREIGN ATTRIBUTES IN ROOT
     strip_foreign_attributes(soup)
 
@@ -1165,6 +1183,24 @@ html[lang="vi"] .title-line h1 {
 
 .cover-bg video {
   display: block !important;
+}
+
+/* Dark Reader & extension compatibility overrides */
+html[data-darkreader-mode] .chapter-row::before {
+  background-image: var(--chapter-bg) !important;
+  background-position: var(--chapter-bg-position, center) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.78 !important;
+}
+html[data-darkreader-mode] .chapter-row::after {
+  background:
+    linear-gradient(90deg, rgba(5, 6, 7, 0.82) 0%, rgba(5, 6, 7, 0.54) 48%, rgba(5, 6, 7, 0.18) 100%),
+    linear-gradient(0deg, rgba(5, 6, 7, 0.68) 0%, rgba(5, 6, 7, 0.06) 64%, rgba(255, 255, 255, 0.08) 100%) !important;
+}
+html[data-darkreader-mode] .chapter-row:hover::before,
+html[data-darkreader-mode] .chapter-row:focus-visible::before {
+  opacity: 0.95 !important;
 }
 </style>
 """
