@@ -9,7 +9,7 @@ Toàn bộ truyện đã được đồng bộ chuẩn theo phiên bản chính 
 ## Bản Dịch Tiếng Việt (Vietnamese Translation)
 Đã hoàn thành chuyển ngữ toàn bộ **11 chapters** (hơn 800 đoạn thoại và văn cảnh) sang tiếng Việt:
 - **Chuẩn hóa danh xưng & thuật ngữ Hán - Việt**: 
-  - *Hi Dương* (suvan / 希扬), *Nguyệt Nha Nhi* (mahina / 月牙儿), *Vân Trùng* (云虫), *Người Trong Mây* (云中人)
+  - *Hi Dương* (希扬), *Nguyệt Nha Nhi* (月牙儿), *Vân Trùng* (云虫), *Người Trong Mây* (云中人)
   - *Nón ánh sáng* (光锥), *Ngoài nón ánh sáng* (光锥之外), *Nón định mệnh* (命运之锥)
   - *Thông tin có trật tự* (有序信息), *Thông tin vô trật tự* (无序信息)
   - *Công Tôn Ưởng / Thương Ưởng* (公孙鞅 / 商鞅), *Trương Lương / Tử Phòng* (张良 / 子房)

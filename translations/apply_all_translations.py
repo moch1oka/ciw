@@ -9,7 +9,7 @@ Master script to apply Vietnamese translations across:
 6. Root index.html and README.md
 """
 
-import sys, os, json, re, copy, glob
+import sys, os, json, re, copy, glob, shutil
 sys.stdout.reconfigure(encoding='utf-8')
 sys.path.insert(0, os.path.abspath('.'))
 from bs4 import BeautifulSoup
@@ -242,6 +242,18 @@ SPAN_MAPPINGS_CH5_1 = {
     '第五章 乌骓': 'Chương 5: Ô Chuy'
 }
 
+FOREIGN_LANG_SUFFIXES = ['-en', '-ar', '-es', '-fr', '-ja', '-ko', '-pt-br', '-ru', '-zh-hant']
+FOREIGN_ATTR_EXACT = ['data-en', 'data-ar', 'data-es', 'data-fr', 'data-ja', 'data-ko', 'data-pt-br', 'data-ru', 'data-zh-hant', 'data-ptbr']
+
+def strip_foreign_attributes(soup):
+    for el in soup.find_all(True):
+        attrs_to_remove = []
+        for attr in list(el.attrs.keys()):
+            if attr in FOREIGN_ATTR_EXACT or any(attr.endswith(sfx) for sfx in FOREIGN_LANG_SUFFIXES):
+                attrs_to_remove.append(attr)
+        for attr in attrs_to_remove:
+            del el[attr]
+
 def resolve_chapter_vi_panels(cfg, data):
     """Return list of lists of VI strings, one per panel."""
     if 'trans_panels' in cfg:
@@ -424,42 +436,39 @@ VI_CSS = """<link rel="preconnect" href="https://fonts.googleapis.com">
 }
 
 html[lang="vi"],
-html[lang="vi"] body {
+html[lang="vi"] body,
+html[lang="vi"] * {
   font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
 }
 
-html[lang="vi"] :is(
-  .comic,
-  .opening,
-  .opening-brand,
-  .opening-title,
-  .opening-time,
-  .opening-meta,
-  .text,
-  .quote,
-  .sound-effect,
-  .scene-break,
-  .tag,
-  .tag-caption,
-  .endnote,
-  .next-chapter,
-  .next-chapter .title,
-  .next-chapter .hint,
-  .chapter-pager,
-  .chapter-controls,
-  .chapter-select,
-  .chapter-select option,
-  .language-select,
-  .language-select option,
-  .lang-option,
-  .pager,
-  .toc-link,
-  .settings-toggle,
-  .reader-setting-btn,
-  .controls-panel,
-  .panel-caption
-) {
+html[lang="vi"] .history-card,
+html[lang="vi"] .history-card *,
+html[lang="vi"] .history-card-kicker,
+html[lang="vi"] .history-card-name,
+html[lang="vi"] .history-card-courtesy,
+html[lang="vi"] .history-card-detail,
+html[lang="vi"] .history-card-detail p {
   font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
+}
+
+html[lang="vi"] .history-card-kicker {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+html[lang="vi"] .history-card-name {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .history-card-courtesy {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+html[lang="vi"] .history-card-detail p {
+  font-weight: 500;
+  line-height: 1.65;
 }
 
 html[lang="vi"] .opening-brand {
@@ -557,11 +566,21 @@ def step3_update_html_readers():
     for cfg in CHAPTER_CONFIGS:
         html_path = os.path.join('chapters', cfg['dir'], 'index.html')
         content = open(html_path, encoding='utf-8').read()
+        
+        # Replace legacy version strings in attributes
+        content = re.sub(r'v5\.(?:1\.39|2\.54)', 'v5.2.55', content)
+        
         soup = BeautifulSoup(content, 'html.parser')
         
         # 1. Update version tags
-        for el in soup.find_all(class_='site-version'):
+        for el in soup.find_all(class_=['site-version', 'version-badge']):
             el.string = 'v5.2.55'
+            
+        for el in soup.find_all(attrs={'data-cloudinsect-version': True}):
+            el.string = 'v5.2.55'
+            
+        for meta in soup.find_all('meta', attrs={'name': 'cloudinsect-version'}):
+            meta['content'] = 'v5.2.55'
             
         for link in soup.find_all('link', rel='stylesheet'):
             href = link.get('href', '')
@@ -780,7 +799,7 @@ def step3_update_html_readers():
             for sec in soup.find_all('section', class_='chapter-teaser'):
                 sec['data-i18n-aria-label-vi'] = 'Dự báo chương tiếp theo'
 
-        # Chapter 5-1 next button
+        # Chapter 5-1 next button & video cleanup
         if cfg['id'] == 'chapter-5-wuzhui-1':
             next_btn = soup.find('span', class_='chapter-pager-button', attrs={'data-pager-disabled': 'next'})
             if next_btn:
@@ -805,6 +824,9 @@ def step3_update_html_readers():
         # Set title
         if soup.title:
             soup.title.string = cfg['title_vi']
+
+        # STRIP ALL FOREIGN ATTRIBUTES (data-en, data-ar, data-es, etc.)
+        strip_foreign_attributes(soup)
 
         html_str = str(soup)
         
@@ -867,13 +889,32 @@ def step3_update_html_readers():
 
 def step4_update_root_files():
     print("=== Step 4: Updating root index.html and README.md (v5.2.55, VI and ZH only) ===")
+    
+    # 1. Update cover image filename if needed
+    mahina_cover = os.path.join('assets', 'chapter-banners', 'cover-mahina-profile.jpg')
+    ch52_cover = os.path.join('assets', 'chapter-banners', 'chapter-5-wuzhui-2.jpg')
+    if os.path.exists(mahina_cover) and not os.path.exists(ch52_cover):
+        shutil.copy(mahina_cover, ch52_cover)
+        print(f"  Created {ch52_cover}")
+        
     root_html_path = 'index.html'
     content = open(root_html_path, encoding='utf-8').read()
+    
+    # Replace any legacy version strings in attributes or tags
+    content = re.sub(r'v5\.(?:1\.39|2\.54)', 'v5.2.55', content)
+    content = content.replace('cover-mahina-profile.jpg', 'chapter-5-wuzhui-2.jpg')
+    
     soup = BeautifulSoup(content, 'html.parser')
     
-    # 1. Update version tags
-    for el in soup.find_all(class_='site-version'):
+    # Update version tags
+    for el in soup.find_all(class_=['site-version', 'version-badge']):
         el.string = 'v5.2.55'
+        
+    for el in soup.find_all(attrs={'data-cloudinsect-version': True}):
+        el.string = 'v5.2.55'
+        
+    for meta in soup.find_all('meta', attrs={'name': 'cloudinsect-version'}):
+        meta['content'] = 'v5.2.55'
         
     for link in soup.find_all('link', rel='stylesheet'):
         href = link.get('href', '')
@@ -885,7 +926,7 @@ def step4_update_root_files():
         if 'site-footer.js' in src:
             sc['src'] = 'assets/site-footer.js?v=5.2.55'
             
-    # 2. Clean language-select
+    # Clean language-select
     for sel in soup.find_all('select', class_='language-select'):
         sel.clear()
         opt_vi = soup.new_tag('option', value='vi')
@@ -895,7 +936,7 @@ def step4_update_root_files():
         sel.append(opt_vi)
         sel.append(opt_zh)
 
-    # 3. Remove foreign surface scripts
+    # Remove foreign surface scripts
     for sc in soup.find_all('script'):
         for a in list(sc.attrs.keys()):
             if any(x in a for x in ['spanish-surface', 'arabic-surface', 'french-surface', 'ptbr-surface', 'ru-surface']):
@@ -912,13 +953,19 @@ def step4_update_root_files():
         if 'fonts.googleapis.com' in href or 'fonts.gstatic.com' in href:
             lk.decompose()
 
-    # 4. Update data-vi on root elements
+    # Update data-vi and default static text on root elements
     st = soup.find(id='site-title')
-    if st: st['data-vi'] = 'Vân Trùng'
+    if st:
+        st['data-vi'] = 'Vân Trùng'
+        st.string = 'Vân Trùng'
     sub = soup.find(class_='subtitle')
-    if sub: sub['data-vi'] = 'Tác phẩm truyện tranh cá nhân của WLOP'
+    if sub:
+        sub['data-vi'] = 'Tác phẩm truyện tranh cá nhân của WLOP'
+        sub.string = 'Tác phẩm truyện tranh cá nhân của WLOP'
     cat_t = soup.find(class_='catalog-title')
-    if cat_t: cat_t['data-vi'] = 'Mục lục'
+    if cat_t:
+        cat_t['data-vi'] = 'Mục lục'
+        cat_t.string = 'Mục lục'
 
     ch_vi_map = {
         '第零章 楔子': 'Chương 0: Mở đầu',
@@ -937,21 +984,27 @@ def step4_update_root_files():
         zh_val = cn.get('data-zh', '').strip()
         if zh_val in ch_vi_map:
             cn['data-vi'] = ch_vi_map[zh_val]
+            cn.string = ch_vi_map[zh_val]
     for cm in soup.find_all(class_='chapter-meta'):
         cm['data-vi'] = 'Đã phát hành'
+        cm.string = 'Đã phát hành'
     for ca in soup.find_all(class_='chapter-action'):
         ca['data-vi'] = 'Bắt đầu đọc'
+        ca.string = 'Bắt đầu đọc'
 
     if soup.title:
         soup.title.string = 'Vân Trùng · Mục lục đọc truyện · v5.2.55'
 
+    # STRIP ALL FOREIGN ATTRIBUTES IN ROOT
+    strip_foreign_attributes(soup)
+
     html_str = str(soup)
 
-    # 5. Update languageMeta in root JS
+    # Update languageMeta in root JS
     new_meta = 'const languageMeta = {"vi": {"htmlLang": "vi", "title": "Vân Trùng · Mục lục đọc truyện · v5.2.55"}, "zh": {"htmlLang": "zh-CN", "title": "云虫 阅读目录 · v5.2.55"}};'
     html_str = re.sub(r'const languageMeta = \{[\s\S]*?\};', new_meta, html_str, count=1)
 
-    # 6. Update root applyLanguage to only handle vi and zh
+    # Update root applyLanguage to only handle vi and zh
     root_apply = """function applyLanguage(nextLang) {
         const lang = languageMeta[nextLang] ? nextLang : 'zh';
         document.documentElement.lang = languageMeta[lang].htmlLang;
@@ -965,12 +1018,12 @@ def step4_update_root_files():
       }"""
     html_str = re.sub(r'function applyLanguage\(nextLang\) \{[\s\S]*?writeStoredValue\(\'cloudinsect-lang\', lang\);\s*\}', root_apply, html_str, count=1)
 
-    # 7. Default to vi in root
+    # Default to vi in root
     html_str = re.sub(r"applyLanguage\(readStoredValue\('cloudinsect-lang'\) \|\| 'zh'\);", "applyLanguage(readStoredValue('cloudinsect-lang') || 'vi');", html_str)
     html_str = re.sub(r"let stored = 'zh';", "let stored = 'vi';", html_str)
     html_str = re.sub(r"localStorage\.getItem\('cloudinsect-lang'\) \|\| 'zh'", "localStorage.getItem('cloudinsect-lang') || 'vi'", html_str)
 
-    # 8. Inject root font CSS and surface script
+    # Inject root font CSS and surface script
     root_vi_css = """<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
@@ -1019,28 +1072,8 @@ def step4_update_root_files():
 }
 
 html[lang="vi"],
-html[lang="vi"] body {
-  font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
-}
-
-html[lang="vi"] :is(
-  #site-title,
-  .subtitle,
-  .catalog-title,
-  .chapter-name,
-  .chapter-index,
-  .chapter-meta,
-  .chapter-action,
-  .language-toggle,
-  .language-select,
-  .language-select option,
-  .language-option,
-  .brand,
-  .footer,
-  .cloudinsect-copyright,
-  .cloudinsect-contact-label,
-  .cloudinsect-footer-link
-) {
+html[lang="vi"] body,
+html[lang="vi"] * {
   font-family: "Be Vietnam Pro", "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif !important;
 }
 
@@ -1101,9 +1134,12 @@ html[lang="vi"] .chapter-action {
         f.write(html_str)
     print(f"  Root {root_html_path} updated.")
 
-    # 9. Update README.md
+    # 2. Update README.md without any Suvan / Mahina
     readme_path = 'README.md'
     readme = open(readme_path, encoding='utf-8').read()
+    # Strip any suvan / mahina from readme
+    readme = re.sub(r'\(suvan\s*/\s*希扬\)', '(希扬)', readme, flags=re.IGNORECASE)
+    readme = re.sub(r'\(mahina\s*/\s*月牙儿\)', '(月牙儿)', readme, flags=re.IGNORECASE)
     readme = re.sub(r'v5\.\d+\.\d+', 'v5.2.55', readme)
     readme = re.sub(r'10 [Cc]hapters?', '11 chapters', readme)
     readme = re.sub(r'10 [Cc]hương', '11 chương', readme)
