@@ -349,9 +349,7 @@
       }
     }
     @media (prefers-reduced-motion: reduce) {
-      .cover-bg video {
-        display: none;
-      }
+      
       .chapter-row,
       .chapter-row::before,
       .chapter-row::after,
@@ -796,6 +794,10 @@ html[lang="vi"] .title-line h1 {
     left: -4px !important;
     font-size: clamp(17px, 4.5vw, 20px) !important;
   }
+}
+
+.cover-bg video {
+  display: block !important;
 }
 </style>
 </head>

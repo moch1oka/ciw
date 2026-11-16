@@ -1055,6 +1055,9 @@ def step4_update_root_files():
     html_str = re.sub(r"let stored = 'zh';", "let stored = 'vi';", html_str)
     html_str = re.sub(r"localStorage\.getItem\('cloudinsect-lang'\) \|\| 'zh'", "localStorage.getItem('cloudinsect-lang') || 'vi'", html_str)
 
+    # Ensure background video is not hidden by prefers-reduced-motion
+    html_str = re.sub(r'\.cover-bg\s*video\s*\{\s*display:\s*none;\s*\}', '', html_str)
+
     # Inject root font CSS and surface script
     root_vi_css = """<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1158,6 +1161,10 @@ html[lang="vi"] .title-line h1 {
     left: -4px !important;
     font-size: clamp(17px, 4.5vw, 20px) !important;
   }
+}
+
+.cover-bg video {
+  display: block !important;
 }
 </style>
 """
