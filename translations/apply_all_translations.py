@@ -960,8 +960,8 @@ def step4_update_root_files():
         st.string = 'Vân Trùng'
     sub = soup.find(class_='subtitle')
     if sub:
-        sub['data-vi'] = 'Tác phẩm truyện tranh cá nhân của WLOP'
-        sub.string = 'Tác phẩm truyện tranh cá nhân của WLOP'
+        sub['data-vi'] = 'Chúng ta nhỏ bé tựa kiến cỏ, nhưng lại rực rỡ tựa ngàn sao.'
+        sub.string = 'Chúng ta nhỏ bé tựa kiến cỏ, nhưng lại rực rỡ tựa ngàn sao.'
     cat_t = soup.find(class_='catalog-title')
     if cat_t:
         cat_t['data-vi'] = 'Mục lục'
