@@ -108,7 +108,7 @@ CHAPTERS_CONFIG = [
     }
 ]
 
-WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
+WORKSPACE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CHAPTERS_DIR = os.path.join(WORKSPACE_DIR, "chapters")
 ASSETS_DIR = os.path.join(WORKSPACE_DIR, "assets")
 DATA_DIR = os.path.join(WORKSPACE_DIR, "data")

@@ -56,6 +56,17 @@ dazzling-carson/
 │   └── wallpapers/                 # Video nền chuyển động của trang chủ
 ├── data/
 │   └── all_chapters.json           # Dữ liệu JSON tổng hợp 11 chapter (VI & ZH)
+├── tools/                          # Bộ công cụ phục vụ bảo trì, kiểm tra và cập nhật web
+│   ├── crawler.py                  # Cào dữ liệu chapter/phiên bản mới từ cloudinsect.com
+│   ├── verify_site.py              # Kiểm tra toàn diện tính toàn vẹn của web, chapter và reader
+│   ├── dump_chapter.py             # Trích xuất và xem nhanh thoại/văn cảnh từng chapter
+│   ├── export_sources.py           # Xuất dữ liệu nguồn sang source_texts.json
+│   ├── export_readable_texts.py    # Xuất toàn bộ thoại song ngữ ra các file text đọc được
+│   └── view_ch.py                  # Trình xem đối chiếu song ngữ trực quan trên dòng lệnh
+├── translations/                   # Bộ dữ liệu dịch thuật Tiếng Việt và script build chính
+│   ├── apply_all_translations.py   # Script build master: đồng bộ JSON, HTML reader, Markdown, Root
+│   ├── trans_ch0.py ... ch5_2.py   # Từ điển và nội dung dịch chi tiết của từng chapter
+│   └── source_texts.json           # Dữ liệu văn bản gốc đối chiếu
 └── chapters/                       # Thư mục chứa từng chapter riêng biệt
     ├── chapter-0-prologue/
     │   ├── index.html              # Trang đọc offline (Tiếng Việt & 简体中文)
@@ -69,3 +80,24 @@ dazzling-carson/
     ├── chapter-5-wuzhui-1/         # (Đầy đủ ảnh + 4 video MP4 chuyển động)
     └── chapter-5-wuzhui-2/         # (20 ảnh tĩnh sắc nét chuẩn định dạng v5.2.55)
 ```
+
+---
+
+## Các lệnh công cụ bảo trì (Maintenance Commands):
+- **Kiểm tra tính toàn vẹn hệ thống**:
+  ```bash
+  python tools/verify_site.py
+  ```
+- **Build & tái tạo toàn bộ trang web (HTML readers, Markdown, JSON)**:
+  ```bash
+  python translations/apply_all_translations.py
+  ```
+- **Xem đối chiếu nhanh một chapter trên Terminal**:
+  ```bash
+  python tools/dump_chapter.py chapter-5-wuzhui-2
+  ```
+- **Cào dữ liệu khi tác giả WLOP ra chapter/phiên bản mới**:
+  ```bash
+  python tools/crawler.py
+  ```
+
