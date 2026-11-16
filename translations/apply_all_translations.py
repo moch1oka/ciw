@@ -1138,6 +1138,27 @@ html[lang="vi"] .chapter-action {
   font-weight: 600;
   letter-spacing: 0.02em;
 }
+
+html[lang="vi"] .title-line h1 {
+  width: min-content;
+}
+
+@media (max-width: 760px) {
+  .title-line {
+    gap: 12px !important;
+  }
+  html[lang="vi"] .title-line h1 {
+    width: min-content !important;
+  }
+  .personal-site-entry {
+    width: clamp(74px, 18vw, 84px) !important;
+    height: clamp(74px, 18vw, 84px) !important;
+  }
+  .personal-site-label {
+    left: -4px !important;
+    font-size: clamp(17px, 4.5vw, 20px) !important;
+  }
+}
 </style>
 """
     root_vi_surface = """<script data-cloudinsect-vi-surface="true">

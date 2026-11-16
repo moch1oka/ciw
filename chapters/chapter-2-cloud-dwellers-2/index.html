@@ -1273,16 +1273,6 @@ html[lang="vi"] main[data-lang-page="vi"] {
     restoreReadingAnchor(anchor);
     window.dispatchEvent(new Event('resize'));
   }
-  function applyFontScale(nextIndex, preserveAnchor) {
-    const anchor = preserveAnchor ? captureReadingAnchor() : null;
-    fontIndex = Math.min(fontScales.length - 1, Math.max(0, nextIndex));
-    document.documentElement.style.setProperty('--reader-scale', fontScales[fontIndex]);
-    fontButtons.forEach((button) => {
-      const step = Number(button.dataset.fontStep);
-      button.disabled = (step < 0 && fontIndex === 0) || (step > 0 && fontIndex === fontScales.length - 1);
-    });
-    restoreReadingAnchor(anchor);
-  }
   controls.forEach((control) => {
     control.addEventListener('click', () => {
       applyLanguage(control.dataset.lang);
