@@ -973,12 +973,12 @@ html[lang="vi"] main[data-lang-page="vi"] {
 </div>
 <div class="reader-control-row reader-control-row-secondary">
 <div aria-label="Chapter navigation" class="chapter-controls">
-<a aria-label="返回主目录" class="toc-link toc-return-icon" href="../../index.html" title="返回主目录">
+<a aria-label="Quay lại mục lục chính" class="toc-link toc-return-icon" href="../../index.html" title="Quay lại mục lục chính">
 <svg aria-hidden="true" viewbox="0 0 32 32">
 <path d="M13 6L3.5 14.5 13 23v-5.6c7.6.3 11.9 3 15 7.6 0-8.4-5-13.7-15-14V6Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path>
 </svg>
 </a>
-<select aria-label="选择章节" class="chapter-select"><option data-vi="Chương 0: Mở đầu" data-zh="第零章 楔子" selected="" value="../chapter-0-prologue/index.html">第零章 楔子</option><option data-vi="Chương 1: Hi Dương" data-zh="第一章 希扬" value="../chapter-1-xiyang/index.html">第一章 希扬</option><option data-vi="Chương 2: Người Trong Mây · I" data-zh="第二章 云中人 · 一" value="../chapter-2-cloud-dwellers-1/index.html">第二章 云中人 · 一</option><option data-vi="Chương 2: Người Trong Mây · II" data-zh="第二章 云中人 · 二" value="../chapter-2-cloud-dwellers-2/index.html">第二章 云中人 · 二</option><option data-vi="Chương 2: Người Trong Mây · III" data-zh="第二章 云中人 · 三" value="../chapter-2-cloud-dwellers-3/index.html">第二章 云中人 · 三</option><option data-vi="Chương 3: Ngoài Nón Ánh Sáng · I" data-zh="第三章 光锥之外 · 一" value="../chapter-3-beyond-light-cone-1/index.html">第三章 光锥之外 · 一</option><option data-vi="Chương 3: Ngoài Nón Ánh Sáng · II" data-zh="第三章 光锥之外 · 二" value="../chapter-3-beyond-light-cone-2/index.html">第三章 光锥之外 · 二</option><option data-vi="Chương 4: Nón Định Mệnh · I" data-zh="第四章 命运之锥 · 一" value="../chapter-4-fate-1/index.html">第四章 命运之锥 · 一</option><option data-vi="Chương 4: Nón Định Mệnh · II" data-zh="第四章 命运之锥 · 二" value="../chapter-4-fate-2/index.html">第四章 命运之锥 · 二</option><option data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓 · 一" value="../chapter-5-wuzhui-1/index.html">第五章 乌骓 · 一</option><option data-vi="Chương 5: Ô Chuy · II" data-zh="第五章 乌骓 · 二" value="../chapter-5-wuzhui-2/index.html">第五章 乌骓 · 二</option></select>
+<select aria-label="Chọn chương" class="chapter-select"><option data-vi="Chương 0: Mở đầu" data-zh="第零章 楔子" selected="" value="../chapter-0-prologue/index.html">Chương 0: Mở đầu</option><option data-vi="Chương 1: Hi Dương" data-zh="第一章 希扬" value="../chapter-1-xiyang/index.html">Chương 1: Hi Dương</option><option data-vi="Chương 2: Người Trong Mây · I" data-zh="第二章 云中人 · 一" value="../chapter-2-cloud-dwellers-1/index.html">Chương 2: Người Trong Mây · I</option><option data-vi="Chương 2: Người Trong Mây · II" data-zh="第二章 云中人 · 二" value="../chapter-2-cloud-dwellers-2/index.html">Chương 2: Người Trong Mây · II</option><option data-vi="Chương 2: Người Trong Mây · III" data-zh="第二章 云中人 · 三" value="../chapter-2-cloud-dwellers-3/index.html">Chương 2: Người Trong Mây · III</option><option data-vi="Chương 3: Ngoài Nón Ánh Sáng · I" data-zh="第三章 光锥之外 · 一" value="../chapter-3-beyond-light-cone-1/index.html">Chương 3: Ngoài Nón Ánh Sáng · I</option><option data-vi="Chương 3: Ngoài Nón Ánh Sáng · II" data-zh="第三章 光锥之外 · 二" value="../chapter-3-beyond-light-cone-2/index.html">Chương 3: Ngoài Nón Ánh Sáng · II</option><option data-vi="Chương 4: Nón Định Mệnh · I" data-zh="第四章 命运之锥 · 一" value="../chapter-4-fate-1/index.html">Chương 4: Nón Định Mệnh · I</option><option data-vi="Chương 4: Nón Định Mệnh · II" data-zh="第四章 命运之锥 · 二" value="../chapter-4-fate-2/index.html">Chương 4: Nón Định Mệnh · II</option><option data-vi="Chương 5: Ô Chuy · I" data-zh="第五章 乌骓 · 一" value="../chapter-5-wuzhui-1/index.html">Chương 5: Ô Chuy · I</option><option data-vi="Chương 5: Ô Chuy · II" data-zh="第五章 乌骓 · 二" value="../chapter-5-wuzhui-2/index.html">Chương 5: Ô Chuy · II</option></select>
 </div>
 <div class="site-version" data-cloudinsect-version="">v5.2.55</div>
 </div>
@@ -1162,10 +1162,22 @@ html[lang="vi"] main[data-lang-page="vi"] {
     document.querySelectorAll('main[data-lang-page]').forEach((m) => {
       m.hidden = m.getAttribute('data-lang-page') !== lang;
     });
+    document.querySelectorAll('.chapter-select option').forEach((opt) => {
+      opt.textContent = (lang === 'vi' ? opt.dataset.vi : opt.dataset.zh) || opt.dataset.zh || '';
+    });
+    document.querySelectorAll('.chapter-select').forEach((sel) => {
+      sel.setAttribute('aria-label', lang === 'vi' ? 'Chọn chương' : '选择章节');
+    });
+    document.querySelectorAll('.toc-link').forEach((link) => {
+      const t = lang === 'vi' ? 'Quay lại mục lục chính' : '返回主目录';
+      link.setAttribute('aria-label', t);
+      link.setAttribute('title', t);
+    });
     const langSelect = document.querySelector('.language-select');
     if (langSelect && langSelect.value !== lang) { langSelect.value = lang; }
     writeStoredValue('cloudinsect-lang', lang);
     restoreReadingAnchor(anchor);
+    window.dispatchEvent(new Event('resize'));
   }
   function applyFontScale(nextIndex, preserveAnchor) {
     const anchor = preserveAnchor ? captureReadingAnchor() : null;
@@ -1322,6 +1334,9 @@ html[lang="vi"] main[data-lang-page="vi"] {
     if (catalog) catalog.setAttribute('aria-label', 'Mục lục các chương');
     const chapter = document.querySelector('.chapter-select');
     if (chapter) chapter.setAttribute('aria-label', 'Chọn chương');
+    document.querySelectorAll('.chapter-select option').forEach((item) => {
+      if (item.dataset.vi) item.textContent = item.dataset.vi;
+    });
     const controls = document.querySelector('.chapter-controls');
     if (controls) controls.setAttribute('aria-label', 'Điều hướng chương');
     document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Mở đầu chương'); });

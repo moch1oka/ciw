@@ -546,6 +546,9 @@ VI_SURFACE_SCRIPT = """<script data-cloudinsect-vi-surface="true">
     if (catalog) catalog.setAttribute('aria-label', 'Mục lục các chương');
     const chapter = document.querySelector('.chapter-select');
     if (chapter) chapter.setAttribute('aria-label', 'Chọn chương');
+    document.querySelectorAll('.chapter-select option').forEach((item) => {
+      if (item.dataset.vi) item.textContent = item.dataset.vi;
+    });
     const controls = document.querySelector('.chapter-controls');
     if (controls) controls.setAttribute('aria-label', 'Điều hướng chương');
     document.querySelectorAll('[aria-label="章节开场"]').forEach((item) => { item.setAttribute('aria-label', 'Mở đầu chương'); });
@@ -604,6 +607,7 @@ def step3_update_html_readers():
             
         # 3. Clean chapter-select options
         for sel in soup.find_all('select', class_='chapter-select'):
+            sel['aria-label'] = 'Chọn chương'
             sel.clear()
             for ch_cfg in CHAPTER_CONFIGS:
                 val = f"../{ch_cfg['dir']}/index.html"
@@ -614,8 +618,12 @@ def step3_update_html_readers():
                 })
                 if ch_cfg['id'] == cfg['id']:
                     opt['selected'] = ''
-                opt.string = ch_cfg['menu_label_zh']
+                opt.string = ch_cfg['menu_label']
                 sel.append(opt)
+
+        for tl in soup.find_all('a', class_='toc-link'):
+            tl['aria-label'] = 'Quay lại mục lục chính'
+            tl['title'] = 'Quay lại mục lục chính'
                 
         # 4. Remove foreign surface scripts
         for sc in soup.find_all('script'):
@@ -852,10 +860,22 @@ def step3_update_html_readers():
     document.querySelectorAll('main[data-lang-page]').forEach((m) => {
       m.hidden = m.getAttribute('data-lang-page') !== lang;
     });
+    document.querySelectorAll('.chapter-select option').forEach((opt) => {
+      opt.textContent = (lang === 'vi' ? opt.dataset.vi : opt.dataset.zh) || opt.dataset.zh || '';
+    });
+    document.querySelectorAll('.chapter-select').forEach((sel) => {
+      sel.setAttribute('aria-label', lang === 'vi' ? 'Chọn chương' : '选择章节');
+    });
+    document.querySelectorAll('.toc-link').forEach((link) => {
+      const t = lang === 'vi' ? 'Quay lại mục lục chính' : '返回主目录';
+      link.setAttribute('aria-label', t);
+      link.setAttribute('title', t);
+    });
     const langSelect = document.querySelector('.language-select');
     if (langSelect && langSelect.value !== lang) { langSelect.value = lang; }
     writeStoredValue('cloudinsect-lang', lang);
     restoreReadingAnchor(anchor);
+    window.dispatchEvent(new Event('resize'));
   }"""
             html_str = re.sub(r'function applyLanguage\(nextLang\) \{[\s\S]*?restoreReadingAnchor\(anchor\);\s*\}', new_apply, html_str, count=1)
         else:
@@ -867,10 +887,22 @@ def step3_update_html_readers():
     targets.forEach((el) => {
       el.textContent = (lang === 'vi' ? el.dataset.vi : el.dataset.zh) || el.dataset.zh || '';
     });
+    document.querySelectorAll('.chapter-select option').forEach((opt) => {
+      opt.textContent = (lang === 'vi' ? opt.dataset.vi : opt.dataset.zh) || opt.dataset.zh || '';
+    });
+    document.querySelectorAll('.chapter-select').forEach((sel) => {
+      sel.setAttribute('aria-label', lang === 'vi' ? 'Chọn chương' : '选择章节');
+    });
+    document.querySelectorAll('.toc-link').forEach((link) => {
+      const t = lang === 'vi' ? 'Quay lại mục lục chính' : '返回主目录';
+      link.setAttribute('aria-label', t);
+      link.setAttribute('title', t);
+    });
     const langSelect = document.querySelector('.language-select');
     if (langSelect && langSelect.value !== lang) { langSelect.value = lang; }
     writeStoredValue('cloudinsect-lang', lang);
     restoreReadingAnchor(anchor);
+    window.dispatchEvent(new Event('resize'));
   }"""
             html_str = re.sub(r'function applyLanguage\(nextLang\) \{[\s\S]*?restoreReadingAnchor\(anchor\);\s*\}', new_apply, html_str, count=1)
 
